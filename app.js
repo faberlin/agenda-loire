@@ -69,24 +69,36 @@ function getPref(id) {
   };
 }
 
-function populateSelect(id, values) {
-  const select = el(id);
-  const current = select.value;
+function selectedValues(containerId) {
+  return new Set(
+    [...document.querySelectorAll(`#${containerId} input[type="checkbox"]:checked`)]
+      .map(input => input.value)
+  );
+}
 
-  while (select.options.length > 1) {
-    select.remove(1);
-  }
+function buildCheckboxes(containerId, values) {
+  const container = el(containerId);
+  container.innerHTML = "";
 
   [...new Set(values.filter(Boolean))]
     .sort((a, b) => a.localeCompare(b, "fr"))
-    .forEach(v => {
-      const opt = document.createElement("option");
-      opt.value = v;
-      opt.textContent = v;
-      select.appendChild(opt);
-    });
+    .forEach(value => {
+      const label = document.createElement("label");
+      label.className = "filter-check";
 
-  select.value = current || "all";
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.value = value;
+
+      const text = document.createElement("span");
+      text.textContent = value;
+
+      input.addEventListener("change", render);
+
+      label.appendChild(input);
+      label.appendChild(text);
+      container.appendChild(label);
+    });
 }
 
 async function loadEvents() {
@@ -97,8 +109,8 @@ async function loadEvents() {
     .filter(ev => ev.start)
     .sort((a, b) => eventDate(a) - eventDate(b));
 
-  populateSelect("category", allEvents.map(e => e.category));
-  populateSelect("venue", allEvents.map(e => e.venue));
+  buildCheckboxes("categoryFilters", allEvents.map(e => e.category));
+  buildCheckboxes("venueFilters", allEvents.map(e => e.venue));
 }
 
 async function loadSession() {
@@ -191,9 +203,9 @@ function themeClass(category) {
 
 function render() {
   const q = normalize(el("search").value);
-  const category = el("category").value;
-  const venue = el("venue").value;
   const period = el("period").value;
+  const selectedCategories = selectedValues("categoryFilters");
+  const selectedVenues = selectedValues("venueFilters");
   const now = new Date();
 
   const filtered = allEvents.filter(ev => {
@@ -206,8 +218,9 @@ function render() {
     if (currentTab === "reserved" && !p.reserved) return false;
     if (currentTab === "hidden" && !p.hidden) return false;
 
-    if (category !== "all" && ev.category !== category) return false;
-    if (venue !== "all" && ev.venue !== venue) return false;
+    if (selectedCategories.size > 0 && !selectedCategories.has(ev.category)) return false;
+    if (selectedVenues.size > 0 && !selectedVenues.has(ev.venue)) return false;
+
     if (!matchesPeriod(ev, period)) return false;
 
     const haystack = normalize([
@@ -262,26 +275,15 @@ function render() {
         <div class="actions">
           ${ev.url ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Source</a>` : ""}
 
-          <button
-            data-action="favorite"
-            data-id="${escapeAttr(ev.id)}"
-            title="${p.favorite ? "Retirer des favoris" : "Ajouter aux favoris"}"
-          >
+          <button data-action="favorite" data-id="${escapeAttr(ev.id)}">
             ${p.favorite ? "★ Favori" : "☆ Favori"}
           </button>
 
-          <button
-            data-action="reserved"
-            data-id="${escapeAttr(ev.id)}"
-            title="${p.reserved ? "Retirer des réservés" : "Marquer comme réservé"}"
-          >
+          <button data-action="reserved" data-id="${escapeAttr(ev.id)}">
             ${p.reserved ? "✓ Réservé" : "○ Réservé"}
           </button>
 
-          <button
-            data-action="hidden"
-            data-id="${escapeAttr(ev.id)}"
-          >
+          <button data-action="hidden" data-id="${escapeAttr(ev.id)}">
             ${p.hidden ? "Réafficher" : "Masquer"}
           </button>
         </div>
@@ -330,9 +332,17 @@ el("events").addEventListener("click", e => {
   }
 });
 
-["search", "period", "category", "venue"].forEach(id => {
-  el(id).addEventListener("input", render);
-  el(id).addEventListener("change", render);
+el("search").addEventListener("input", render);
+el("period").addEventListener("change", render);
+
+document.querySelectorAll(".filter-clear").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const container = el(btn.dataset.clear);
+    container.querySelectorAll('input[type="checkbox"]').forEach(input => {
+      input.checked = false;
+    });
+    render();
+  });
 });
 
 document.querySelectorAll(".tab").forEach(btn => {

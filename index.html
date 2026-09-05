@@ -16,8 +16,9 @@
   </header>
 
   <main>
-    <section class="filters">
+    <section class="filters-top">
       <input id="search" type="search" placeholder="Rechercher un événement, un lieu…" />
+
       <select id="period">
         <option value="all">Toutes les dates</option>
         <option value="today">Aujourd’hui</option>
@@ -25,12 +26,24 @@
         <option value="weekend">Ce week-end</option>
         <option value="month">30 prochains jours</option>
       </select>
-      <select id="category">
-        <option value="all">Toutes les catégories</option>
-      </select>
-      <select id="venue">
-        <option value="all">Toutes les salles / lieux</option>
-      </select>
+    </section>
+
+    <section class="multi-filters">
+      <div class="filter-group">
+        <div class="filter-header">
+          <strong>Catégories</strong>
+          <button type="button" class="filter-clear" data-clear="categoryFilters">Tout décocher</button>
+        </div>
+        <div id="categoryFilters" class="checkbox-list"></div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-header">
+          <strong>Salles / lieux</strong>
+          <button type="button" class="filter-clear" data-clear="venueFilters">Tout décocher</button>
+        </div>
+        <div id="venueFilters" class="checkbox-list"></div>
+      </div>
     </section>
 
     <nav class="tabs">

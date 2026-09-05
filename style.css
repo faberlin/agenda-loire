@@ -35,11 +35,11 @@ main {
   padding: 14px 14px 40px;
 }
 
-.filters {
+.filters-top {
   display: grid;
-  grid-template-columns: 2.1fr repeat(3, 1fr);
+  grid-template-columns: minmax(340px, 2.2fr) minmax(180px, 0.8fr);
   gap: 7px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 input,
@@ -62,6 +62,66 @@ button {
 button.secondary {
   background: white;
   color: #111;
+}
+
+.multi-filters {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+
+.filter-group {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 7px 9px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.filter-header strong {
+  font-size: 0.78rem;
+}
+
+.filter-clear {
+  padding: 2px 5px;
+  border: 0;
+  background: transparent;
+  color: #777;
+  font-size: 0.69rem;
+}
+
+.filter-clear:hover {
+  color: #111;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+}
+
+.filter-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
+
+.filter-check input {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  padding: 0;
 }
 
 .tabs {
@@ -186,6 +246,10 @@ button.secondary {
 .theme-cinéma { background: #fff0c9; }
 .theme-danse { background: #fde4f1; }
 .theme-humour { background: #fff2d8; }
+.theme-opera,
+.theme-opéra { background: #e7e1ff; }
+.theme-spectacle { background: #e9ecef; }
+.theme-jeune-public { background: #dff5e5; }
 .theme-culture { background: #ececec; }
 
 dialog {
@@ -217,13 +281,9 @@ dialog::backdrop {
 }
 
 @media (max-width: 900px) {
-  main {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .filters {
-    grid-template-columns: 1fr 1fr;
+  .filters-top,
+  .multi-filters {
+    grid-template-columns: 1fr;
   }
 
   .event-row {
@@ -245,10 +305,6 @@ dialog::backdrop {
 }
 
 @media (max-width: 600px) {
-  .filters {
-    grid-template-columns: 1fr;
-  }
-
   .topbar {
     align-items: flex-start;
   }
