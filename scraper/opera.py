@@ -46,5 +46,5 @@ def scrape_opera():
         start=dt.isoformat(); key=(title.lower(),start,venue.lower())
         if key in seen: continue
         seen.add(key)
-        events.append({"id":stable_id("Opéra de Saint-Étienne",title,start),"title":title,"start":start,"venue":venue or "Opéra","city":"Saint-Étienne","category":_cat(txt),"description":"","url":url,"source":"Opéra de Saint-Étienne"})
+        events.append({"id":stable_id("Opéra de Saint-Étienne",title,start),"title":title,"start":start,"venue":"Opéra Sainté","city":"Saint-Étienne","category":_cat(txt),"description":"","url":url,"source":"Opéra de Saint-Étienne"})
     return events
