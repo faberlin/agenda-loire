@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1f2937;
+  background: #ffffff;
+  font-size: 13px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.brand a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.week-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.week-nav button {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  border-radius: 6px;
+  padding: 5px 9px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.week-nav button:hover {
+  background: #f9fafb;
+}
+
+#weekLabel {
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+main {
+  padding: 10px 12px 16px;
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  border-top: 1px solid #d1d5db;
+  border-left: 1px solid #d1d5db;
+}
+
+.day {
+  min-width: 0;
+  border-right: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db;
+  min-height: 280px;
+}
+
+.day.today {
+  background: #fafafa;
+}
+
+.day-header {
+  padding: 7px 8px;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .02em;
+  background: #f9fafb;
+}
+
+.day.today .day-header {
+  background: #f3f4f6;
+}
+
+.day-events {
+  padding: 4px;
+}
+
+.event {
+  display: block;
+  width: 100%;
+  padding: 3px 5px;
+  margin: 0 0 3px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-left: 3px solid #9ca3af;
+  background: #f9fafb;
+  line-height: 1.35;
+}
+
+.event:hover {
+  background: #f3f4f6;
+}
+
+.event-time {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.event-venue {
+  color: #6b7280;
+}
+
+.cat-musique { border-left-color: #8b5cf6; }
+.cat-theatre { border-left-color: #ef4444; }
+.cat-opera { border-left-color: #2563eb; }
+.cat-danse { border-left-color: #ec4899; }
+.cat-litterature { border-left-color: #059669; }
+.cat-spectacle { border-left-color: #f59e0b; }
+.cat-humour { border-left-color: #f97316; }
+.cat-exposition { border-left-color: #14b8a6; }
+.cat-cinema { border-left-color: #6366f1; }
+.cat-jeune-public { border-left-color: #84cc16; }
+
+.empty {
+  padding: 7px;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .week-grid {
+    overflow-x: auto;
+    display: flex;
+  }
+
+  .day {
+    flex: 0 0 210px;
+  }
+}

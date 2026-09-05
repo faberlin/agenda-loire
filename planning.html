@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda Loire — Planning semaine</title>
+  <link rel="stylesheet" href="planning.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <a href="index.html">Agenda</a>
+      <span>/</span>
+      <strong>Planning</strong>
+    </div>
+
+    <div class="week-nav">
+      <button id="prevWeek" type="button">←</button>
+      <button id="todayWeek" type="button">Aujourd’hui</button>
+      <button id="nextWeek" type="button">→</button>
+      <span id="weekLabel"></span>
+    </div>
+  </header>
+
+  <main>
+    <section id="weekGrid" class="week-grid" aria-label="Planning de la semaine"></section>
+  </main>
+
+  <script src="planning.js"></script>
+</body>
+</html>
