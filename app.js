@@ -61,12 +61,32 @@ function formatDate(iso) {
   }).format(new Date(iso));
 }
 
+function formatShortDate(iso) {
+  return new Intl.DateTimeFormat("fr-FR", {
+    day: "numeric",
+    month: "short"
+  }).format(new Date(iso));
+}
+
+function formatEventTiming(ev) {
+  const sessions = Number(ev.sessions || 1);
+
+  if (sessions <= 1 || !ev.end) {
+    return formatDate(ev.start);
+  }
+
+  const start = new Date(ev.start);
+  const end = new Date(ev.end);
+
+  if (isSameLocalDate(start, end)) {
+    return `${sessions} séances · ${formatShortDate(ev.start)}`;
+  }
+
+  return `${sessions} séances · du ${formatShortDate(ev.start)} au ${formatShortDate(ev.end)}`;
+}
+
 function getPref(id) {
-  return prefs.get(id) || {
-    hidden: false,
-    favorite: false,
-    reserved: false
-  };
+  return prefs.get(id) || { hidden: false, favorite: false, reserved: false };
 }
 
 function selectedValues(containerId) {
@@ -89,11 +109,10 @@ function buildCheckboxes(containerId, values) {
       const input = document.createElement("input");
       input.type = "checkbox";
       input.value = value;
+      input.addEventListener("change", render);
 
       const text = document.createElement("span");
       text.textContent = value;
-
-      input.addEventListener("change", render);
 
       label.appendChild(input);
       label.appendChild(text);
@@ -131,13 +150,11 @@ async function loadPrefs() {
 
   if (!currentUser) {
     const local = JSON.parse(localStorage.getItem("agenda-loire-prefs") || "{}");
-
     Object.entries(local).forEach(([k, v]) => prefs.set(k, {
       hidden: !!v.hidden,
       favorite: !!v.favorite,
       reserved: !!v.reserved
     }));
-
     return;
   }
 
@@ -160,11 +177,7 @@ async function loadPrefs() {
 }
 
 async function savePref(eventId, patch) {
-  const current = {
-    ...getPref(eventId),
-    ...patch
-  };
-
+  const current = { ...getPref(eventId), ...patch };
   prefs.set(eventId, current);
 
   if (!currentUser) {
@@ -185,9 +198,7 @@ async function savePref(eventId, patch) {
       favorite: !!current.favorite,
       reserved: !!current.reserved,
       updated_at: new Date().toISOString()
-    }, {
-      onConflict: "user_id,event_id"
-    });
+    }, { onConflict: "user_id,event_id" });
 
   if (error) {
     console.error(error);
@@ -220,27 +231,19 @@ function render() {
 
     if (selectedCategories.size > 0 && !selectedCategories.has(ev.category)) return false;
     if (selectedVenues.size > 0 && !selectedVenues.has(ev.venue)) return false;
-
     if (!matchesPeriod(ev, period)) return false;
 
     const haystack = normalize([
-      ev.title,
-      ev.venue,
-      ev.city,
-      ev.description,
-      ev.category
+      ev.title, ev.venue, ev.city, ev.description, ev.category
     ].join(" "));
 
     if (q && !haystack.includes(q)) return false;
-
     return true;
   });
 
   el("status").textContent =
     `${filtered.length} événement${filtered.length > 1 ? "s" : ""}` +
-    (currentUser
-      ? " · synchronisé avec Supabase"
-      : " · mode local (connecte-toi pour synchroniser)");
+    (currentUser ? " · synchronisé avec Supabase" : " · mode local (connecte-toi pour synchroniser)");
 
   const container = el("events");
   container.innerHTML = "";
@@ -264,7 +267,7 @@ function render() {
 
           <span class="event-title">${escapeHtml(ev.title)}</span>
           <span class="event-separator">·</span>
-          <span class="event-meta">${formatDate(ev.start)}</span>
+          <span class="event-meta">${escapeHtml(formatEventTiming(ev))}</span>
           <span class="event-separator">·</span>
 
           <span class="event-meta">
@@ -274,15 +277,12 @@ function render() {
 
         <div class="actions">
           ${ev.url ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Source</a>` : ""}
-
           <button data-action="favorite" data-id="${escapeAttr(ev.id)}">
             ${p.favorite ? "★ Favori" : "☆ Favori"}
           </button>
-
           <button data-action="reserved" data-id="${escapeAttr(ev.id)}">
             ${p.reserved ? "✓ Réservé" : "○ Réservé"}
           </button>
-
           <button data-action="hidden" data-id="${escapeAttr(ev.id)}">
             ${p.hidden ? "Réafficher" : "Masquer"}
           </button>
@@ -296,11 +296,7 @@ function render() {
 
 function escapeHtml(value) {
   return String(value || "").replace(/[&<>"']/g, c => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#039;"
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
   }[c]));
 }
 
@@ -319,17 +315,9 @@ el("events").addEventListener("click", e => {
   const id = btn.dataset.id;
   const p = getPref(id);
 
-  if (btn.dataset.action === "favorite") {
-    savePref(id, { favorite: !p.favorite });
-  }
-
-  if (btn.dataset.action === "reserved") {
-    savePref(id, { reserved: !p.reserved });
-  }
-
-  if (btn.dataset.action === "hidden") {
-    savePref(id, { hidden: !p.hidden });
-  }
+  if (btn.dataset.action === "favorite") savePref(id, { favorite: !p.favorite });
+  if (btn.dataset.action === "reserved") savePref(id, { reserved: !p.reserved });
+  if (btn.dataset.action === "hidden") savePref(id, { hidden: !p.hidden });
 });
 
 el("search").addEventListener("input", render);
@@ -359,18 +347,15 @@ el("loginBtn").addEventListener("click", async () => {
     await client.auth.signOut();
     return;
   }
-
   el("loginDialog").showModal();
 });
 
 el("sendMagicLink").addEventListener("click", async e => {
   e.preventDefault();
-
   const email = el("email").value.trim();
   if (!email) return;
 
   el("loginMessage").textContent = "Envoi…";
-
   const { error } = await client.auth.signInWithOtp({
     email,
     options: { emailRedirectTo: window.location.href }
