@@ -5,6 +5,7 @@ from pathlib import Path
 
 from mediatheques import scrape_mediatheques
 from le_fil import scrape_le_fil
+from zenith import scrape_zenith
 from utils import dedupe
 
 
@@ -13,8 +14,9 @@ OUT = ROOT / "events.json"
 
 
 SCRAPERS = [
-    ("Médiathèques de Saint-Étienne", scrape_mediatheques),
+    ("Médiathèques Sainté", scrape_mediatheques),
     ("Le Fil", scrape_le_fil),
+    ("Zénith", scrape_zenith),
 ]
 
 
