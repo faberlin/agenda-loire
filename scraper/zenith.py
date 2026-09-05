@@ -137,7 +137,7 @@ def scrape_zenith() -> list[dict]:
                 "start": start,
                 "venue": "Zénith Sainté",
                 "city": "Saint-Étienne",
-                "category": "Concert",
+                "category": "Musique",
                 "description": "",
                 "url": event_url,
                 "source": "Zénith de Saint-Étienne Métropole",
