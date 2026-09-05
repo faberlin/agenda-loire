@@ -55,17 +55,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "1ce5266e62eb088de1a6",
-    "title": "Djadja & Dinaz",
-    "start": "2026-09-19T20:00:00+02:00",
-    "venue": "Zénith Sainté",
-    "city": "Saint-Étienne",
-    "category": "Musique",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/djadja-dinaz/",
-    "source": "Zénith de Saint-Étienne Métropole"
-  },
-  {
     "id": "7941576495e86104f9ef",
     "title": "Journées du patrimoine 2026 Visites guidées du fil !",
     "start": "2026-09-20T14:30:00+02:00",
@@ -97,17 +86,6 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/les-chenopodes/",
     "source": "Le Fil"
-  },
-  {
-    "id": "eefedb121cff3d032d30",
-    "title": "ABBA MANIA THE ABBA TRIBUTE",
-    "start": "2026-09-27T18:00:00+02:00",
-    "venue": "Zénith Sainté",
-    "city": "Saint-Étienne",
-    "category": "Musique",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/abba-mania/",
-    "source": "Zénith de Saint-Étienne Métropole"
   },
   {
     "id": "3d3d34ae0ad7eec4e2e5",
@@ -154,15 +132,15 @@
     "source": "Le Fil"
   },
   {
-    "id": "56b8328eddc5e82efd4e",
-    "title": "GENERATION CELINE",
-    "start": "2026-10-02T20:30:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "7d89d32a4b80d9e19b44",
+    "title": "5ème Symphonie de Mahler Gustav Mahler",
+    "start": "2026-10-03T20:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/generation-celine/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-mahler/s-883/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
     "id": "8bdfac8dda1033a82e9e",
@@ -176,6 +154,94 @@
     "source": "Le Fil"
   },
   {
+    "id": "3e3a0fd0daaaf52b5e5c",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-06T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "2eae98a032b05ba08f06",
+    "title": "Nos corps désirants",
+    "start": "2026-10-06T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "205c2f71fc2ab6975f7f",
+    "title": "Va falloir toujours toujours La Parenthèse - Christophe Garcia Le Petit Théâtre de Sherbrooke Danse-théâtre, dès 6 ans",
+    "start": "2026-10-07T15:00:00+02:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/va-falloir-toujours-toujours/s-894/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "7265d74f7d5e2f208832",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-07T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "2e7aac386e9857b62288",
+    "title": "Nos corps désirants",
+    "start": "2026-10-07T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "902bfee7005a12da737a",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-08T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "a2227796e529728fbe5c",
+    "title": "Nos corps désirants",
+    "start": "2026-10-08T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "976a9a06cb05bdd0c574",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-09T18:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
     "id": "1092b498c1e7b4214fca",
     "title": "Svinkels Family & Friends + Satchok",
     "start": "2026-10-09T20:30:00+02:00",
@@ -187,15 +253,37 @@
     "source": "Le Fil"
   },
   {
-    "id": "f56f4b4a9a1aec2e31a6",
-    "title": "VERONIQUE SANSON J’ai eu envie de vous revoir",
-    "start": "2026-10-10T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "f5d3f4bae17c19c9e8a2",
+    "title": "Nos corps désirants",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/veronique-sanson/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "fa72463962c9fc6fe38c",
+    "title": "Va falloir toujours toujours La Parenthèse - Christophe Garcia Le Petit Théâtre de Sherbrooke Danse-théâtre, dès 6 ans",
+    "start": "2026-10-10T16:00:00+02:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/va-falloir-toujours-toujours/s-894/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "a1a88b8cb111f49d81b3",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-10T17:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "352145e57aa8727d14f1",
@@ -209,6 +297,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "a6b7e94f8bac27bb8789",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-12T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
     "id": "8277a78237b9bdeeb856",
     "title": "Mixage en M.A.O : les fondamentaux Avec Jules Payen, ingénieur son",
     "start": "2026-10-13T19:00:00+02:00",
@@ -220,6 +319,50 @@
     "source": "Le Fil"
   },
   {
+    "id": "8335aeb6d4818a97cfd9",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-13T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "25ed5c81c4f8d2cf46b2",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-14T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "fd8d700deb1af4e1e398",
+    "title": "Don Quichotte Le Théâtre du Corps Pietragalla - Derouault",
+    "start": "2026-10-15T20:00:00+02:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/don-quichotte/s-906/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "0c2b0039fbb4419dd3a3",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-15T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
     "id": "1ca4c6062bd403493c89",
     "title": "Sainté accueille ses étudiant·es : Bianca Costa + Sheldon + CT-84",
     "start": "2026-10-15T20:30:00+02:00",
@@ -229,6 +372,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/bianca-costa/",
     "source": "Le Fil"
+  },
+  {
+    "id": "d4b100d2ee13fe1e2c9f",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-16T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "0a673d74df683895ce3c",
@@ -253,26 +407,26 @@
     "source": "Le Fil"
   },
   {
-    "id": "94f8afd84c2caf74c300",
-    "title": "LA DAME DE PIERRE",
-    "start": "2026-10-17T20:30:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "9e5a12bd81e225bd4b93",
+    "title": "The Opera Locos Yllana et Encore Un Tour Humour musical",
+    "start": "2026-10-22T20:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/la-dame-de-pierre/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/the-opera-locos/s-888/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "ee9f9e9a955c5cd3b874",
-    "title": "LE LAC DES CYGNES Une tournée inoubliable",
+    "id": "bfcfb5a9085028658d1c",
+    "title": "The Opera Locos Yllana et Encore Un Tour Humour musical",
     "start": "2026-10-23T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-4/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/the-opera-locos/s-888/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
     "id": "005feecfdc87319f83f2",
@@ -286,15 +440,48 @@
     "source": "Le Fil"
   },
   {
-    "id": "ea0134b582f8f0f753e8",
-    "title": "THE DEPECHE MODE EXPERIENCE",
-    "start": "2026-10-24T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "f4cb1f61a53298e139e2",
+    "title": "L’hors-présence ou chimères du pays de Morsan",
+    "start": "2026-11-03T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/l-hors-presence-ou-chimeres-du-pays-de-morsan",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "dc2a60f98a5fa897d42d",
+    "title": "L’hors-présence ou chimères du pays de Morsan",
+    "start": "2026-11-04T19:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/l-hors-presence-ou-chimeres-du-pays-de-morsan",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "a1e3080ec96020ca6ce0",
+    "title": "Les Nuances Utopiques Ensemble Orchestral Contemporain",
+    "start": "2026-11-05T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/the-depeche-mode-experience/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-nuances-utopiques/s-889/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "ce92ba714ed4c233a6ea",
+    "title": "L’hors-présence ou chimères du pays de Morsan",
+    "start": "2026-11-05T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/l-hors-presence-ou-chimeres-du-pays-de-morsan",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "4f63ca54576afaac7d15",
@@ -330,15 +517,26 @@
     "source": "Le Fil"
   },
   {
-    "id": "56a855e6eda5562d7b7c",
-    "title": "CHRISTOPHE MAÉ",
-    "start": "2026-11-12T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "2394d84b57219686fe14",
+    "title": "Un pouce en cavale",
+    "start": "2026-11-13T10:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/christophe-mae/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "1c1c7e841a1d73b313aa",
+    "title": "Carmen Georges Bizet Opéra-comique en quatre actes",
+    "start": "2026-11-13T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Opéra",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmen/s-922/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
     "id": "c075c72a3bdfc3a790ed",
@@ -352,6 +550,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "07dbac35dbe62b2acc2c",
+    "title": "Un pouce en cavale",
+    "start": "2026-11-14T17:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
     "id": "cd6b278e2443c735cdd9",
     "title": "Didier Super Et son groupe Discount",
     "start": "2026-11-14T20:30:00+01:00",
@@ -363,26 +572,213 @@
     "source": "Le Fil"
   },
   {
-    "id": "6ccec288a91dd4e88068",
-    "title": "CASSE-NOISETTE Ballet & Orchestre",
-    "start": "2026-11-15T16:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "9889c9262b953944d61f",
+    "title": "Carmen Georges Bizet Opéra-comique en quatre actes",
+    "start": "2026-11-15T15:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Opéra",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/casse-noisette-2026/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmen/s-922/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "c3eaa38abb1f1693d1a5",
-    "title": "PATRICK BRUEL Alors regarde",
-    "start": "2026-11-20T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "bade266640b02d23c2e1",
+    "title": "Dialogue entre deux espèces",
+    "start": "2026-11-16T10:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-bruel/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/dialogue-entre-deux-especes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "e556e244a4283797fb11",
+    "title": "Un pouce en cavale",
+    "start": "2026-11-17T10:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "f1e99276b063d4faeb29",
+    "title": "Dialogue entre deux espèces",
+    "start": "2026-11-17T14:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/dialogue-entre-deux-especes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "d0a6092d21e6cf4d4c95",
+    "title": "Carmen Georges Bizet Opéra-comique en quatre actes",
+    "start": "2026-11-17T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Opéra",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmen/s-922/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "fa603b0626cfc8b40dae",
+    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
+    "start": "2026-11-17T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-declaration-d-amour-de-louis-hee-a-john-ah-oui",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "e37c0491352905faca64",
+    "title": "Mussum",
+    "start": "2026-11-17T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "592bd34c9d42e06770da",
+    "title": "Un pouce en cavale",
+    "start": "2026-11-18T15:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "3bb3ac005e9c97c67656",
+    "title": "Dialogue entre deux espèces",
+    "start": "2026-11-18T15:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/dialogue-entre-deux-especes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "ed2d00fa5089652b7333",
+    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
+    "start": "2026-11-18T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-declaration-d-amour-de-louis-hee-a-john-ah-oui",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "84557c1cbd1911031617",
+    "title": "Mussum",
+    "start": "2026-11-18T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "d5bf8160c05d0e9e9eea",
+    "title": "Dialogue entre deux espèces",
+    "start": "2026-11-19T10:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/dialogue-entre-deux-especes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "071a419024117cf2225d",
+    "title": "Un pouce en cavale",
+    "start": "2026-11-19T18:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "bc7a9be1bbf5c413042b",
+    "title": "INACHEVÉ Un fantôme dans l’opéra Compagnie HALTE Théâtre musical, dès 13 ans",
+    "start": "2026-11-19T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/inacheve-br-un-fantome-dans-l-opera/s-902/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "fe44bd04b4a4dc86b0c1",
+    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
+    "start": "2026-11-19T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-declaration-d-amour-de-louis-hee-a-john-ah-oui",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "e3b79acacb82ceee7a63",
+    "title": "Mussum",
+    "start": "2026-11-19T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "3423ac2f83cde89cd0b5",
+    "title": "Un pouce en cavale",
+    "start": "2026-11-20T14:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "63290fcc7b35d1876429",
+    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
+    "start": "2026-11-20T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-declaration-d-amour-de-louis-hee-a-john-ah-oui",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "07e878512ee3eca6f888",
+    "title": "Mussum",
+    "start": "2026-11-20T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "c33f82c1f95630566d90",
@@ -396,15 +792,15 @@
     "source": "Le Fil"
   },
   {
-    "id": "abc88c3892134f549680",
-    "title": "CLAUDIO CAPEO",
-    "start": "2026-11-21T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "a13f44b9e1d85321107d",
+    "title": "Mussum",
+    "start": "2026-11-21T17:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "5b12a06776b2520979be",
@@ -418,26 +814,114 @@
     "source": "Le Fil"
   },
   {
-    "id": "8fc5155d4949919a3471",
-    "title": "REDOUANE BOUGHERABA Mon Premier Spectacle",
-    "start": "2026-11-23T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "79eaa16d5ff3af0cc58e",
+    "title": "Cirque & Cabarets - Portraits pour vents Igor Stravinski, Morton Gould, Leonard Bernstein, Kurt Weill, Nino Rota",
+    "start": "2026-11-24T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/redouane-bougheraba/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/cirque-cabarets-portraits-pour-vents/s-884/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "0aaa5814cb8e0f361e27",
-    "title": "FLORENT PAGNY 65 TOUR – LE RETOUR",
-    "start": "2026-11-26T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "44078813151a59dd73c0",
+    "title": "La folle Journée ou Le Mariage de Figaro",
+    "start": "2026-11-24T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-folle-journee-ou-le-mariage-de-figaro",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "6b7d019b30b1d03d3947",
+    "title": "Les corps incorruptibles",
+    "start": "2026-11-24T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "c2514ba69b78ddd0dc93",
+    "title": "Cirque & Cabarets - Portraits pour vents Igor Stravinski, Morton Gould, Leonard Bernstein, Kurt Weill, Nino Rota",
+    "start": "2026-11-25T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/florent-pagny/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/cirque-cabarets-portraits-pour-vents/s-884/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "207743b61aeac4545aa0",
+    "title": "La folle Journée ou Le Mariage de Figaro",
+    "start": "2026-11-25T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-folle-journee-ou-le-mariage-de-figaro",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "1e7d6410ab52986350c1",
+    "title": "Les corps incorruptibles",
+    "start": "2026-11-25T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "354065c5cdb4624dd1f2",
+    "title": "Les corps incorruptibles",
+    "start": "2026-11-26T18:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "d955f8d238c6a49ea19d",
+    "title": "La folle Journée ou Le Mariage de Figaro",
+    "start": "2026-11-26T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-folle-journee-ou-le-mariage-de-figaro",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "e633cb0ed922af269500",
+    "title": "La folle Journée ou Le Mariage de Figaro",
+    "start": "2026-11-27T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-folle-journee-ou-le-mariage-de-figaro",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "6e3f03e863ab7c3de2f5",
+    "title": "Les corps incorruptibles",
+    "start": "2026-11-27T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "49b86a66e7dd566a9dfe",
@@ -451,17 +935,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "5d84e55fb22c3a63a7e8",
-    "title": "DISNEY EN CONCERT Suivez vos rêves",
-    "start": "2026-11-28T20:00:00+01:00",
-    "venue": "Zénith Sainté",
-    "city": "Saint-Étienne",
-    "category": "Musique",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/disney-en-concert/",
-    "source": "Zénith de Saint-Étienne Métropole"
-  },
-  {
     "id": "8a0bf477cc153fa6bff6",
     "title": "Statut et fiscalité des artistes Avec Ludivine Ducrot, directrice du fil",
     "start": "2026-12-01T19:00:00+01:00",
@@ -471,6 +944,39 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/statut-et-fiscalite-des-artistes/",
     "source": "Le Fil"
+  },
+  {
+    "id": "5871aed74cc08f0533b2",
+    "title": "Écorces, polar forestier",
+    "start": "2026-12-01T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ecorces-polar-forestier",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "c924d8fa95d68f243d9f",
+    "title": "Écorces, polar forestier",
+    "start": "2026-12-02T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ecorces-polar-forestier",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "6d506b32c026c6a84dfa",
+    "title": "Écorces, polar forestier",
+    "start": "2026-12-03T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ecorces-polar-forestier",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "c4e2d847bf6285cb3421",
@@ -484,26 +990,48 @@
     "source": "Le Fil"
   },
   {
-    "id": "3e4a83c83e5a60caa6aa",
-    "title": "DUB INC",
+    "id": "5b53bbe246b94afa62a6",
+    "title": "Notte Morricone Centro Coreografico Nazionale / Aterballetto Marcos Morau",
     "start": "2026-12-05T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Danse",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/notte-morricone/s-907/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "c6df29f330ee1ab833b5",
-    "title": "DUB INC",
-    "start": "2026-12-06T19:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "98882920f630b7a310d8",
+    "title": "Ivanov",
+    "start": "2026-12-08T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ivanov",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "98ebf63dff7c169a137e",
+    "title": "Ivanov",
+    "start": "2026-12-09T19:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ivanov",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "109dec10257e6925316e",
+    "title": "Kosmòs ! Canticum Novum",
+    "start": "2026-12-09T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/kosmos-/s-890/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
     "id": "53d5562633fe1f9d7a3e",
@@ -517,15 +1045,26 @@
     "source": "Le Fil"
   },
   {
-    "id": "096bf45691e170b7a495",
-    "title": "THE JEFF PANACLOC COMPANY",
-    "start": "2026-12-11T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "164b7ba62ac781f394fb",
+    "title": "Traversée Ensemble SyLF Théâtre musical, dès 11 ans",
+    "start": "2026-12-10T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Jeune public",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/the-jeff-panacloc-company/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/traversee/s-903/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "c74ff983b8bf5ccf38ad",
+    "title": "Ivanov",
+    "start": "2026-12-10T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ivanov",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "cab323ee103a87a3e648",
@@ -550,26 +1089,202 @@
     "source": "Le Fil"
   },
   {
-    "id": "1b33399c423f7e66f23e",
-    "title": "FABRICE EBOUÉ SolitudeS",
-    "start": "2026-12-18T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "82ad02685c30e3733117",
+    "title": "Qui som?",
+    "start": "2026-12-15T20:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/fabrice-eboue/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/qui-som",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "e5fa91725c5498a25510",
-    "title": "Il Etait une Fois… Ennio Morricone & Nino Rota",
-    "start": "2027-01-08T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "17ce3847501d4644b88c",
+    "title": "Un bateau Compagnie Sans Soucis Marionnettes, musique, images animées, dès 3 ans",
+    "start": "2026-12-16T15:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/il-etait-une-fois/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/un-bateau/s-904/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "bfd82e4e6752fdafec56",
+    "title": "Qui som?",
+    "start": "2026-12-16T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/qui-som",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "758c8f20be97d322dc7a",
+    "title": "Entre deux rives",
+    "start": "2026-12-16T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "ba7713265b9e2ac45e44",
+    "title": "Qui som?",
+    "start": "2026-12-17T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/qui-som",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "05b5fb92e16ea134cd78",
+    "title": "Entre deux rives",
+    "start": "2026-12-17T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "ba0649252acd4bfd052a",
+    "title": "Didon et Énée Ensemble Les Surprises Pierre Lebon",
+    "start": "2026-12-18T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/didon-et-enee/s-891/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "60bb449afd08c425d4dc",
+    "title": "Entre deux rives",
+    "start": "2026-12-18T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "147310258f3c498ab13c",
+    "title": "Un bateau Compagnie Sans Soucis Marionnettes, musique, images animées, dès 3 ans",
+    "start": "2026-12-19T16:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/un-bateau/s-904/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "426c5cb665beb3c3f3aa",
+    "title": "Entre deux rives",
+    "start": "2026-12-19T17:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "16781bb139f66c825cd4",
+    "title": "Carmina Burana Carl Orff",
+    "start": "2026-12-30T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Opéra",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmina-burana/s-923/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "b5dc3b8c8f667fed04dd",
+    "title": "Carmina Burana Carl Orff",
+    "start": "2026-12-31T19:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Opéra",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmina-burana/s-923/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "1beca2570dfff1115b8f",
+    "title": "4 Saisons dansées Compagnie Käfig - Concert de la Loge Mourad Merzouki - Julien Chauvin",
+    "start": "2027-01-07T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/4-saisons-dansees/s-908/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "de2e00127bdc37d8dc63",
+    "title": "Les femmes savantes",
+    "start": "2027-01-12T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/production/les-femmes-savantes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "9503f7c8a5bda29184e2",
+    "title": "Les femmes savantes",
+    "start": "2027-01-13T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/production/les-femmes-savantes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "82afb62fb4f12c46ca2e",
+    "title": "Les femmes savantes",
+    "start": "2027-01-14T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/production/les-femmes-savantes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "fcb61d2fcc0e02b84bf4",
+    "title": "Le contre-chant des sirènes Compagnie des Gentils Théâtre musical, dès 9 ans",
+    "start": "2027-01-15T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/le-contre-chant-des-sirenes/s-905/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "157e979a23be23d73c99",
+    "title": "Les femmes savantes",
+    "start": "2027-01-15T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/production/les-femmes-savantes",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "0716b26fed45f5b6a8f9",
@@ -583,17 +1298,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "8418f1c9ebc804a5e41c",
-    "title": "THOMAS MARTY",
-    "start": "2027-01-16T20:00:00+01:00",
-    "venue": "Zénith Sainté",
-    "city": "Saint-Étienne",
-    "category": "Musique",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/thomas-marty/",
-    "source": "Zénith de Saint-Étienne Métropole"
-  },
-  {
     "id": "00565c02c020227faa1f",
     "title": "Gildaa",
     "start": "2027-01-16T20:30:00+01:00",
@@ -605,15 +1309,48 @@
     "source": "Le Fil"
   },
   {
-    "id": "d97774ee5076614df1c0",
-    "title": "RFM PARTY 80 Les 20 ans",
+    "id": "6402c16981fd0e67c687",
+    "title": "Minetti",
+    "start": "2027-01-19T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/minetti",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "bd9a3c856829c7c1bd8c",
+    "title": "Minetti",
+    "start": "2027-01-20T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/minetti",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "b757dd1acfcc7971a8c9",
+    "title": "Minetti",
+    "start": "2027-01-21T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/minetti",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "cc5f4449637b64574895",
+    "title": "Broadway Rhapsody Cyrille Dubois, Ensemble ArteCombo Spectacle musical de Jean-Michel Fournereau",
     "start": "2027-01-22T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/rfm-party-80/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/broadway-rhapsody/s-892/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
     "id": "2399401bf8b618b03d70",
@@ -627,48 +1364,125 @@
     "source": "Le Fil"
   },
   {
-    "id": "fb1006966b33c2179a5b",
-    "title": "OCTOGONE MMA MADE IN SAINT-ETIENNE",
-    "start": "2027-01-23T19:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "0a447ba3e523fe4fd8bd",
+    "title": "Le complexe des Homards Compagnie ACT2 - Catherine Dreyfus Danse, dès 8 ans",
+    "start": "2027-01-23T16:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/le-complexe-des-homards/s-909/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "ae8da5aee6c356359824",
+    "title": "Dans la grotte",
+    "start": "2027-01-25T14:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/artiste-de-la-fabrique/dans-la-grotte",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "26d6793c7f886e6920c1",
+    "title": "Dans la grotte",
+    "start": "2027-01-26T10:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/artiste-de-la-fabrique/dans-la-grotte",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "6c38a58b9f9a04c5092d",
+    "title": "Ceux qui sont partis, ceux de l’infini Ensemble Orchestral Contemporain",
+    "start": "2027-01-26T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/octogone-mma/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/ceux-qui-sont-partis-ceux-de-l-infini/s-893/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "34c7defacbda807c212d",
-    "title": "FOREVER THE BEST SHOW ABOUT THE KING OF POP",
+    "id": "ceb4898cc5916a7907ec",
+    "title": "7 minutes",
+    "start": "2027-01-26T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/7-minutes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "6690823607bd70cb2fb3",
+    "title": "Dans la grotte",
+    "start": "2027-01-27T15:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/artiste-de-la-fabrique/dans-la-grotte",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "b8d97cc4f43685a8f128",
+    "title": "7 minutes",
     "start": "2027-01-27T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/forever/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/7-minutes",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "917bfa908898b425a8b8",
-    "title": "BIGFLO & OLI Karma tour",
-    "start": "2027-01-28T20:30:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "b96afd91b2d18860d22a",
+    "title": "Dans la grotte",
+    "start": "2027-01-28T10:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/bigflo-oli/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/artiste-de-la-fabrique/dans-la-grotte",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "0832b33ac24a828256be",
-    "title": "LES 4 SAISONS",
-    "start": "2027-01-29T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "903b79616d0b772838f6",
+    "title": "Les quatre saisons Vivaldi / Richter Ludovico Einaudi, Antonio Vivaldi / Max Richter",
+    "start": "2027-01-28T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/les-4-saisons/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/les-quatre-saisons-br-vivaldi-richter/s-885/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "a5c78f40321773d9d5f3",
+    "title": "7 minutes",
+    "start": "2027-01-28T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/7-minutes",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "1870d0e36b016313eac5",
+    "title": "Dans la grotte",
+    "start": "2027-01-29T10:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/artiste-de-la-fabrique/dans-la-grotte",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "2663af308760e447c0ff",
@@ -682,15 +1496,15 @@
     "source": "Le Fil"
   },
   {
-    "id": "54df47d37e4ef7e13037",
-    "title": "BERNARD LAVILLIERS TOUR 2027",
-    "start": "2027-01-30T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "65a1177caaab2dd4ad93",
+    "title": "Dans la grotte",
+    "start": "2027-01-30T17:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/bernard-lavilliers/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/artiste-de-la-fabrique/dans-la-grotte",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "7f7a12cc65b1bb2111b2",
@@ -704,48 +1518,147 @@
     "source": "Le Fil"
   },
   {
-    "id": "2d9f72f946ce8a4fdda2",
-    "title": "500 VOIX POUR JOHNNY 10 ans après",
-    "start": "2027-01-31T18:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "cf5bc4cbfa7b6cd28c06",
+    "title": "Oiseau [guide de survie]",
+    "start": "2027-02-02T19:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/500-voix-pour-johnny/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/oiseau-guide-de-survie",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "ff13046f160a4f14029c",
-    "title": "GRAND CORPS MALADE",
+    "id": "31e87635439c17250f42",
+    "title": "Face à la mère",
+    "start": "2027-02-02T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/face-a-la-mere",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "1f85fb65ba8c1ac733ca",
+    "title": "Oiseau [guide de survie] Parmi Les Lucioles Théâtre, dès 10 ans",
+    "start": "2027-02-03T15:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/oiseau-guide-de-survie-/s-910/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "b00ed38ef1c82c37e5d1",
+    "title": "Oiseau [guide de survie]",
+    "start": "2027-02-03T15:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/oiseau-guide-de-survie",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "583833bba97c245d39bc",
+    "title": "Face à la mère",
+    "start": "2027-02-03T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/face-a-la-mere",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "8d8af98d478db62dada8",
+    "title": "Oiseau [guide de survie]",
+    "start": "2027-02-04T10:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/oiseau-guide-de-survie",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "a86e76fd81bf4678ee7a",
+    "title": "L’Amour sorcier - Don Quichotte CCN - Ballet Biarritz Martin Harriague",
     "start": "2027-02-04T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Danse",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/grand-corps-malade/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/l-amour-sorcier-don-quichotte/s-913/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "791e12a4fcdba0d90b84",
-    "title": "MICHELE LAROQUE ET KAD MERAD L'Age Bête",
-    "start": "2027-02-05T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "2ea436548099979e7b2a",
+    "title": "Face à la mère",
+    "start": "2027-02-04T20:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/michele-laroque-et-kad-merad/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/face-a-la-mere",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "1bc6d7a7a3658abbe50a",
-    "title": "LES ETOILES DU CIRQUE DE PEKIN Odyssée",
-    "start": "2027-02-07T16:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "600c3c25f3132e5725f3",
+    "title": "Oiseau [guide de survie]",
+    "start": "2027-02-05T10:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/les-etoiles-du-cirque-de-pekin/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/oiseau-guide-de-survie",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "90255b300bf6fa5c64a7",
+    "title": "Macéra Compagnie Pyramid Youssef Bel Baraka, Fouad Kouchy",
+    "start": "2027-02-09T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/macera/s-914/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "00a817f3a0b7513f8ac7",
+    "title": "Lac artificiel",
+    "start": "2027-02-09T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/lac-artificiel",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "250bb3d02ffbcb142047",
+    "title": "Lac artificiel",
+    "start": "2027-02-10T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/lac-artificiel",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "89c628b8f035bc57f2d1",
+    "title": "Lac artificiel",
+    "start": "2027-02-11T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/lac-artificiel",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "c90b0f5fc252ac8bf249",
@@ -759,59 +1672,180 @@
     "source": "Le Fil"
   },
   {
-    "id": "e2d6d9a45e36414aba87",
-    "title": "Véronic Dicaire",
-    "start": "2027-02-13T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "b01eb90e4d122b4bba11",
+    "title": "CAPRA (une chèvre)",
+    "start": "2027-03-02T20:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/veronic-dicaire/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/capra-une-chevre",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "3d826f691baaba4e53c9",
-    "title": "ALDEBERT Jamais adulte !",
-    "start": "2027-02-26T19:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "98d4abe04d2481532e5a",
+    "title": "Bâtir",
+    "start": "2027-03-02T20:00:00+01:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/aldebert/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/batir",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "41a4439c20fc5c90b389",
-    "title": "Magic System La Tournée des 30 Ans",
+    "id": "470efaa98fd302cfbc84",
+    "title": "CAPRA (une chèvre)",
+    "start": "2027-03-03T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/capra-une-chevre",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "a11cec70d9c416a507cc",
+    "title": "Bâtir",
+    "start": "2027-03-03T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/batir",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "b2ecee5914831feea047",
+    "title": "MIKRO / BARTÓK",
+    "start": "2027-03-04T10:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/mikro-bartok",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "d77242e2f75fe074706b",
+    "title": "CAPRA (une chèvre)",
+    "start": "2027-03-04T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/capra-une-chevre",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "8dcfc719f21f535c1271",
+    "title": "Bâtir",
+    "start": "2027-03-04T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/batir",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "43ef1bf09e6bdfdab0f0",
+    "title": "MIKRO / BARTÓK",
+    "start": "2027-03-05T10:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/mikro-bartok",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "21e013f0234098da0b57",
+    "title": "Roland à Roncevaux Auguste Mermet Grand Opéra français en quatre actes Première création depuis 1905",
     "start": "2027-03-05T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Opéra",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/magic-system/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/roland-a-roncevaux/s-924/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "5403f61e82ace67e797d",
-    "title": "Celtic Legends Tournée Anniversaire 25 ans",
-    "start": "2027-03-06T15:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "bb7e0f41a899a45918d1",
+    "title": "Mikro / Bartók Compagnie Cas Public Danse, dès 8 ans",
+    "start": "2027-03-06T16:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Danse",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/celtic-legends-2027/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/mikro-bartok/s-912/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "cb57984616b5ee66ee49",
-    "title": "La lettre",
+    "id": "ce99081df892714c04ae",
+    "title": "MIKRO / BARTÓK",
+    "start": "2027-03-06T16:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/mikro-bartok",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "d5eae2e8ad3eeb110023",
+    "title": "Roland à Roncevaux Auguste Mermet Grand Opéra français en quatre actes Première création depuis 1905",
+    "start": "2027-03-07T15:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Opéra",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/roland-a-roncevaux/s-924/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "2a01214c8b67e0e19a69",
+    "title": "Señora tentación",
+    "start": "2027-03-09T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/senora-tentacion-1",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "e875bd0c47d41e403e1c",
+    "title": "Señora tentación",
     "start": "2027-03-10T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/senora-tentacion-1",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "e229293e2f2c7528513b",
+    "title": "Dites-le donc avec des fleurs ! COMPAGNIE OSE UN STANDARD",
+    "start": "2027-03-11T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/la-lettre/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/dites-le-donc-avec-des-fleurs-/s-895/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "ad051be987f882228fff",
+    "title": "Señora tentación",
+    "start": "2027-03-11T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/senora-tentacion-1",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "79055146237ea7afbf3a",
@@ -825,37 +1859,114 @@
     "source": "Le Fil"
   },
   {
-    "id": "a14635bc6c5fc4b6b082",
-    "title": "PUTAIN DE RENAUD Pas un Hommage, une Révérence !",
-    "start": "2027-03-12T20:30:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "60bc0b078e341812a272",
+    "title": "Florian Caroubi Jean-Sébastien Bach, Franz Schubert",
+    "start": "2027-03-15T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/putain-de-renaud/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/florian-caroubi/s-899/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "8fe59d6c94fd4ae25337",
-    "title": "K-Pop Forever !",
-    "start": "2027-03-18T19:30:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "b348eea021cbb00d5a26",
+    "title": "Philippe Cassard Frédéric Chopin, Claude Debussy",
+    "start": "2027-03-16T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/k-pop-forever/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/philippe-cassard/s-900/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "06efa0d289046d06989d",
-    "title": "MESSMER",
-    "start": "2027-03-19T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "01c58e1468a546398d6f",
+    "title": "Bérénice",
+    "start": "2027-03-16T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/berenice",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "813f95acad9b619a62fb",
+    "title": "Pedro",
+    "start": "2027-03-16T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/pedro",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "446651e6940d668083f6",
+    "title": "Mozart Paradox Thomas Enhco",
+    "start": "2027-03-17T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/messmer-2027/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/mozart-paradox/s-901/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "f9fbf6f8a87012b25b1e",
+    "title": "Bérénice",
+    "start": "2027-03-17T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/berenice",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "ae09010d880f83e62c02",
+    "title": "Pedro",
+    "start": "2027-03-17T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/pedro",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "7e636a60f5ac79c4bace",
+    "title": "5ème Symphonie de Tchaïkovski Camille Pépin, Camille Saint-Saëns, Piotr Ilitch Tchaïkovski",
+    "start": "2027-03-18T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-tchaikovski/s-886/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "8e3a4eb2d6fb280841d7",
+    "title": "Bérénice",
+    "start": "2027-03-18T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/berenice",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "50c68727d1e8b027f90f",
+    "title": "Pedro",
+    "start": "2027-03-18T20:00:00+01:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/pedro",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
     "id": "452a851a43c649098f8f",
@@ -869,26 +1980,37 @@
     "source": "Le Fil"
   },
   {
-    "id": "4c9fc2575cbb60f089fe",
-    "title": "KEEN’V À nos 20 ans",
-    "start": "2027-03-20T20:30:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "b1c13e16cc84d6efbc60",
+    "title": "Aurore Express Canticum Novum",
+    "start": "2027-03-24T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/keenv/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/aurore-express/s-896/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "0b05ba9f4d2167922df3",
-    "title": "Ninho Quattro Tour",
-    "start": "2027-03-21T18:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "f7e940a4375a71621a02",
+    "title": "Piracema - Parabelo Grupo Corpo Rodrigo Pederneiras, Cassi Abranches",
+    "start": "2027-03-25T20:00:00+01:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/piracema-parabelo/s-915/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "add2995e7a91c29a089b",
+    "title": "La Truite Quintette à cordes avec piano de l’Orchestre Symphonique Saint-Étienne Loire",
+    "start": "2027-03-26T20:00:00+01:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/ninho/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/la-truite/s-897/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
     "id": "bdc545dbe87690f91ae2",
@@ -913,6 +2035,94 @@
     "source": "Le Fil"
   },
   {
+    "id": "d1d3cccb79ea5ef91eec",
+    "title": "SILENCE VACARME",
+    "start": "2027-04-06T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/silence-vacarme",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "eec8a2e91c55a069dad2",
+    "title": "Le Silence",
+    "start": "2027-04-06T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/le-silence",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "09c5495b36da1224193b",
+    "title": "Ma couverture et moi Une Hirondelle Compagnie Théâtre musical, dès 3 ans",
+    "start": "2027-04-07T10:00:00+02:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/ma-couverture-et-moi/s-917/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "667e54e099ed33223c77",
+    "title": "SILENCE VACARME",
+    "start": "2027-04-07T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/silence-vacarme",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "a0ab83adf24d8da2c170",
+    "title": "Le Silence",
+    "start": "2027-04-07T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/le-silence",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "28ba8aba9da088860d80",
+    "title": "SILENCE VACARME",
+    "start": "2027-04-08T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/silence-vacarme",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "937c8580d2f9a2b4ddeb",
+    "title": "Le Silence",
+    "start": "2027-04-08T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/le-silence",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "3742a900ea541db24248",
+    "title": "Le Silence",
+    "start": "2027-04-09T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/le-silence",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
     "id": "bb3ceffb468059d01470",
     "title": "Léopold Lemarchand",
     "start": "2027-04-09T20:30:00+02:00",
@@ -935,157 +2145,267 @@
     "source": "Le Fil"
   },
   {
-    "id": "b712465f2edff4de1e95",
-    "title": "THE WORLD OF QUEEN L'hommage à la légende",
-    "start": "2027-05-22T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "85c72824905959c67b2c",
+    "title": "J'étais parti·e, pardon (dans un autre univers)",
+    "start": "2027-04-27T14:00:00+02:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/the-world-of-queen-2/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/j-etais-parti-e-pardon-dans-un-autre-univers",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "1986e67afd7f784cff9e",
-    "title": "SARAH SCHWAB Elles & Moi",
-    "start": "2027-06-03T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "e697e80087ac1da5db17",
+    "title": "J'étais parti·e, pardon (dans un autre univers)",
+    "start": "2027-04-28T15:00:00+02:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/sarah-schwab-2027/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/j-etais-parti-e-pardon-dans-un-autre-univers",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "fde0b3103e75adac1fc5",
-    "title": "Le Lac des Cygnes Ballet & Orchestre",
-    "start": "2027-06-05T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "2901ea0eae6b36344fc1",
+    "title": "J'étais parti·e, pardon (dans un autre univers)",
+    "start": "2027-04-29T10:00:00+02:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/j-etais-parti-e-pardon-dans-un-autre-univers",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "ac21252886b680cab02d",
-    "title": "FREDERIC FRANCOIS",
-    "start": "2027-06-12T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "ff93e11b10198368f077",
+    "title": "Les Insulaires (Islander) Compagnie Nosferatu Comédie musicale, dès 11 ans",
+    "start": "2027-04-29T20:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Jeune public",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/frederic-francois/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/les-insulaires-islander-/s-918/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "246d4f29656865612686",
-    "title": "Vianney",
-    "start": "2027-10-01T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "46e453ccc55da9e4be23",
+    "title": "J'étais parti·e, pardon (dans un autre univers)",
+    "start": "2027-04-30T10:00:00+02:00",
+    "venue": "Comédie Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/vianney/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/j-etais-parti-e-pardon-dans-un-autre-univers",
+    "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "df4f68badbd1e0c870f0",
-    "title": "PHILIPPE CAVERIVIERE TU CROIS QUE C’EST UNE BONNE IDÉE?",
-    "start": "2027-10-13T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "5690e68e69f809b28a37",
+    "title": "Roméo et Juliette Charles Gounod Opéra en cinq actes",
+    "start": "2027-04-30T20:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Opéra",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/philippe-caveriviere/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/romeo-et-juliette/s-925/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "a46af857dedab25564b4",
-    "title": "One Night Of Queen The Wembley Show",
-    "start": "2027-10-15T20:30:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "5000e58682590bd78cb7",
+    "title": "Roméo et Juliette Charles Gounod Opéra en cinq actes",
+    "start": "2027-05-02T15:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Opéra",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/one-night-of-queen-2026/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/romeo-et-juliette/s-925/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "14cc1675156537786d96",
-    "title": "Nino Arial Pas comme eux",
-    "start": "2027-10-16T20:00:00+02:00",
-    "venue": "Zénith Sainté",
+    "id": "64e97f3efa6e20e8a6ce",
+    "title": "Roméo et Juliette Charles Gounod Opéra en cinq actes",
+    "start": "2027-05-04T20:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Opéra",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/romeo-et-juliette/s-925/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "d4520255f04673007c54",
-    "title": "I GOTTA FEELING Saison 3 - La Tournée des Années 2000",
-    "start": "2027-11-20T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "ee4f49f00409f57861cb",
+    "title": "Antichambre STEREOPTIK Poème visuel et musical, dès 9 ans",
+    "start": "2027-05-12T15:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Jeune public",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/i-gotta-feeling/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/antichambre/s-919/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "07fbf263393fd8a2840d",
-    "title": "HOSHI Bonjour Docteur Tour",
-    "start": "2027-11-27T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "ef3d7222ecb2cb10e9b5",
+    "title": "Coppélia Ballet de l’Opéra national du Capitole Jean-Guillaume Bart",
+    "start": "2027-05-13T20:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Danse",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/hoshi-2027/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/coppelia/s-916/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "7d17be8b8ef1285913e2",
-    "title": "Patrick Fiori",
-    "start": "2027-12-16T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "c69260023040f9c92e84",
+    "title": "Variations pour un Parapluie Compagnie CHOUETTE il pleut ! Clown et musique, dès 3 ans",
+    "start": "2027-05-26T10:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-fiori-2027/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/variations-pour-un-parapluie/s-920/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "5709e67a2b46c082f5dc",
-    "title": "FESTIVAL MONDIALE DE LA MAGIE Nouveau Spectacle",
-    "start": "2028-01-28T20:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "73f4e28a2cf25273e78d",
+    "title": "Variations pour un Parapluie Compagnie CHOUETTE il pleut ! Clown et musique, dès 3 ans",
+    "start": "2027-05-29T16:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/festival-mondiale-de-la-magie/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/variations-pour-un-parapluie/s-920/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "a02bbecf5077837382a7",
-    "title": "Piaf ! Le Spectacle Hymne à la môme",
-    "start": "2028-02-27T17:00:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "531d4475e8bd7379a265",
+    "title": "Vite, un selfie ! Compagnie Lucamoros Peinture et chant, dès 8 ans",
+    "start": "2027-06-05T16:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Jeune public",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/piaf-le-spectacle/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/vite-un-selfie-/s-921/",
+    "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "3d5e31d171025b1612ba",
-    "title": "GOLDMEN BEST OF GOLDMAN",
-    "start": "2028-03-19T17:30:00+01:00",
-    "venue": "Zénith Sainté",
+    "id": "3dc8d38a415d6ec497ed",
+    "title": "Turandot Giacomo Puccini Opéra en trois actes",
+    "start": "2027-06-16T20:00:00+02:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Opéra",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/turandot/s-926/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "e07d53e003f46e07e1c2",
+    "title": "Le Chantier des imaginaires",
+    "start": "2027-06-16T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/le-chantier-des-imaginaires",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "96b77812fb549e25e009",
+    "title": "Le Chantier des imaginaires",
+    "start": "2027-06-17T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/le-chantier-des-imaginaires",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "2dcb032753ca1d327fc9",
+    "title": "Turandot Giacomo Puccini Opéra en trois actes",
+    "start": "2027-06-18T20:00:00+02:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Opéra",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/turandot/s-926/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "79ee9ce59d8f46c0a76d",
+    "title": "Le Chantier des imaginaires",
+    "start": "2027-06-18T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/le-chantier-des-imaginaires",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "3f43f60d0b60d945927d",
+    "title": "Le Chantier des imaginaires",
+    "start": "2027-06-19T17:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/le-chantier-des-imaginaires",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "b99953c483966465349f",
+    "title": "Turandot Giacomo Puccini Opéra en trois actes",
+    "start": "2027-06-20T15:00:00+02:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Opéra",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/turandot/s-926/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "a2830d0e951a6a88c858",
+    "title": "À fleur de peau",
+    "start": "2027-06-23T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/a-fleur-de-peau",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "033ab596fc9c697aead6",
+    "title": "Les Libérations Ensemble Orchestral Contemporain",
+    "start": "2027-06-24T20:00:00+02:00",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Musique",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/goldmen-2028/",
-    "source": "Zénith de Saint-Étienne Métropole"
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-liberations/s-898/",
+    "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "fec1568a3bdd3d14c537",
+    "title": "À fleur de peau",
+    "start": "2027-06-24T20:00:00+02:00",
+    "venue": "Comédie Sainté",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/a-fleur-de-peau",
+    "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "25a98eda487f55a46981",
+    "title": "Berlioz en Italie Hector Berlioz",
+    "start": "2027-06-30T20:00:00+02:00",
+    "venue": "Opéra Sainté",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/berlioz-en-italie/s-887/",
+    "source": "Opéra de Saint-Étienne"
   }
 ]
