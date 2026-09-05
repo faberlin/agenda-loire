@@ -156,7 +156,7 @@ def scrape_comedie() -> list[dict]:
             "sessions": len(dates),
             "venue": venue,
             "city": "Saint-Étienne",
-            "category": "Théâtre",
+            "category": "Théâtre/Opéra",
             "description": "",
             "url": detail_url,
             "source": "La Comédie de Saint-Étienne",
