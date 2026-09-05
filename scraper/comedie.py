@@ -69,5 +69,5 @@ def scrape_comedie():
             start=dt.isoformat(); key=(title.lower(),start,venue.lower())
             if key in seen: continue
             seen.add(key)
-            events.append({"id":stable_id("La Comédie de Saint-Étienne",title,start),"title":title,"start":start,"venue":venue,"city":"Saint-Étienne","category":"Théâtre","description":"","url":u,"source":"La Comédie de Saint-Étienne"})
+            events.append({"id":stable_id("La Comédie de Saint-Étienne",title,start),"title":title,"start":start,"venue":"Comédie Sainté","city":"Saint-Étienne","category":"Théâtre","description":"","url":u,"source":"La Comédie de Saint-Étienne"})
     return events
