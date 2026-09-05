@@ -195,7 +195,6 @@ function render() {
         </div>
         <span class="badge">${escapeHtml(ev.category || "Culture")}</span>
       </div>
-      ${ev.description ? `<div class="description">${escapeHtml(ev.description)}</div>` : ""}
       <div class="actions">
         ${ev.url ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Voir la source</a>` : ""}
         <button data-action="favorite" data-id="${escapeAttr(ev.id)}">${p.favorite ? "★ Retirer favori" : "☆ Favori"}</button>
