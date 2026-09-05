@@ -68,9 +68,7 @@ function populateSelect(id, values) {
   const select = el(id);
   const current = select.value;
 
-  while (select.options.length > 1) {
-    select.remove(1);
-  }
+  while (select.options.length > 1) select.remove(1);
 
   [...new Set(values.filter(Boolean))]
     .sort((a,b) => a.localeCompare(b, "fr"))
@@ -190,7 +188,6 @@ function render() {
     ].join(" "));
 
     if (q && !haystack.includes(q)) return false;
-
     return true;
   });
 
@@ -215,26 +212,30 @@ function render() {
 
     card.innerHTML = `
       <div class="event-row">
-        <div class="event-main">
-          <div class="event-title-line">
-            <span class="theme-badge ${themeClass(ev.category)}">
-              ${escapeHtml(ev.category || "Culture")}
-            </span>
-            <h3>${escapeHtml(ev.title)}</h3>
-          </div>
-          <div class="meta">
-            ${formatDate(ev.start)} · ${escapeHtml(ev.venue || "")}${ev.city ? " · " + escapeHtml(ev.city) : ""}
-          </div>
+        <div class="event-content">
+          <span class="theme-badge ${themeClass(ev.category)}">
+            ${escapeHtml(ev.category || "Culture")}
+          </span>
+
+          <span class="event-title">${escapeHtml(ev.title)}</span>
+
+          <span class="event-separator">·</span>
+
+          <span class="event-meta">
+            ${formatDate(ev.start)}
+          </span>
+
+          <span class="event-separator">·</span>
+
+          <span class="event-meta">
+            ${escapeHtml(ev.venue || "")}${ev.city ? " · " + escapeHtml(ev.city) : ""}
+          </span>
         </div>
 
         <div class="actions">
           ${ev.url ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Source</a>` : ""}
-          <button data-action="favorite" data-id="${escapeAttr(ev.id)}">
-            ${p.favorite ? "★ Favori" : "☆ Favori"}
-          </button>
-          <button data-action="hidden" data-id="${escapeAttr(ev.id)}">
-            ${p.hidden ? "Réafficher" : "Masquer"}
-          </button>
+          <button data-action="favorite" data-id="${escapeAttr(ev.id)}">${p.favorite ? "★ Favori" : "☆ Favori"}</button>
+          <button data-action="hidden" data-id="${escapeAttr(ev.id)}">${p.hidden ? "Réafficher" : "Masquer"}</button>
         </div>
       </div>
     `;
