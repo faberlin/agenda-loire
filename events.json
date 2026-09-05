@@ -1,0 +1,24 @@
+[
+  {
+    "id": "demo-lefil-2026-09-12",
+    "title": "Événement de démonstration — Le Fil",
+    "start": "2026-09-12T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "Événement de démonstration à remplacer automatiquement par les collecteurs.",
+    "url": "https://www.le-fil.com/agenda/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "demo-comedie-2026-09-15",
+    "title": "Événement de démonstration — La Comédie",
+    "start": "2026-09-15T20:00:00+02:00",
+    "venue": "La Comédie de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "Événement de démonstration.",
+    "url": "https://www.lacomedie.fr/",
+    "source": "La Comédie"
+  }
+]

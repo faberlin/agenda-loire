@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Médiathèques de Saint-Étienne",
+    "type": "rss",
+    "category": "Littérature",
+    "city": "Saint-Étienne",
+    "url": "https://mediatheques.saint-etienne.fr/Portal/Recherche/Search.svc/SearchRss?key=23d8f3adc8036a025835ea59faeef58b&useSearchResultSize=true&useSearchSort=false"
+  },
+  {
+    "name": "Le Fil",
+    "type": "html",
+    "category": "Musique",
+    "city": "Saint-Étienne",
+    "url": "https://www.le-fil.com/agenda/"
+  },
+  {
+    "name": "La Comédie de Saint-Étienne",
+    "type": "html",
+    "category": "Théâtre",
+    "city": "Saint-Étienne",
+    "url": "https://www.lacomedie.fr/"
+  }
+]
