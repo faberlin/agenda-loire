@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 from mediatheques import scrape_mediatheques
-from le_fil import scrape_le_fil
+from infoconcert import scrape_infoconcert_venue
 from utils import dedupe
 
 
@@ -12,9 +12,18 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "events.json"
 
 
+def scrape_le_fil():
+    return scrape_infoconcert_venue(
+        url="https://www.infoconcert.com/salle/le-fil-a-saint-etienne-21927/concerts",
+        venue="Le Fil",
+        city="Saint-Étienne",
+        category="Musique",
+    )
+
+
 SCRAPERS = [
     ("Médiathèques de Saint-Étienne", scrape_mediatheques),
-    ("Le Fil", scrape_le_fil),
+    ("Le Fil via Infoconcert", scrape_le_fil),
 ]
 
 
