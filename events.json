@@ -1,24 +1,68 @@
 [
   {
-    "id": "demo-lefil-2026-09-12",
-    "title": "Événement de démonstration — Le Fil",
-    "start": "2026-09-12T20:30:00+02:00",
-    "venue": "Le Fil",
+    "id": "ec960a473a80779427c1",
+    "title": "Sauvegarder des documents anciens : raviver, résister, réimaginer",
+    "start": "2026-07-22T00:00:00+02:00",
+    "venue": "Médiathèques de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
-    "description": "Événement de démonstration à remplacer automatiquement par les collecteurs.",
-    "url": "https://www.le-fil.com/agenda/",
-    "source": "Le Fil"
+    "category": "Littérature",
+    "description": "Sauvegarder des documents anciens : raviver, ... JEP 2026 Du 18/09/2026 10:00 au 31/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Une exposition d'ouvrages patrimoniaux remarquables sortis des réserves, pour apprécier des livres anciens, rares et précieux. Ces documents sont parfois abîmés et fragiles. Face aux menaces du temps, il est nécessaire de les conserver pour l'avenir....",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2396/sauvegarder-des-documents-anciens-raviver-resister-reimaginer",
+    "source": "Médiathèques de Saint-Étienne"
   },
   {
-    "id": "demo-comedie-2026-09-15",
-    "title": "Événement de démonstration — La Comédie",
-    "start": "2026-09-15T20:00:00+02:00",
-    "venue": "La Comédie de Saint-Étienne",
+    "id": "54bce0a808872586e47b",
+    "title": "Journées européennes du patrimoine (J.E.P. 2026) : patrimoine en péril - raviver, résister, réinventer",
+    "start": "2026-07-29T00:00:00+02:00",
+    "venue": "Médiathèques de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "Événement de démonstration.",
-    "url": "https://www.lacomedie.fr/",
-    "source": "La Comédie"
+    "category": "Littérature",
+    "description": "Journées européennes du patrimoine (J.E.P. 20... JEP 2026 Du 18/09/2026 10:00 au 31/10/2026 18:30 Catégorie Festivités Localisation Médiathèques municipales Les 43e Journées européennes du patrimoine se tiendront les 19 et 20 septembre 2026, avec une ouverture scolaire le vendredi 18 septembre. Les thèmes nationaux de cette édition sont le « Patrimoine de la photographie » et le « Patrimoine en péril : r...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2435/journees-europeennes-du-patrimoine-j-e-p-2026-patrimoine-en-peril-raviver-resister-reinventer",
+    "source": "Médiathèques de Saint-Étienne"
+  },
+  {
+    "id": "cc8c18db2d1b757633d3",
+    "title": "Les maisons d'Albertine et de Germano",
+    "start": "2026-07-29T00:00:00+02:00",
+    "venue": "Médiathèques de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Les maisons d'Albertine et de Germano 40e fête du livre : exposition Du 15/09/2026 10:00 au 17/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Découvrez une exposition inédite réalisée par Albertine et Germano Zullo. Albertine est artiste et illustratrice, Germano est auteur. Compagnons de vie, ils collaborent régulièrement ensemble.Ils ont notamment réalisé Les Oiseaux (2010), récompensé p...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2437/les-maisons-d-albertine-et-de-germano",
+    "source": "Médiathèques de Saint-Étienne"
+  },
+  {
+    "id": "00b62a4bd3a66cf77f04",
+    "title": "Quinzaine Souad Labbize : une autrice - des artistes - une ville - des lieux",
+    "start": "2026-07-29T00:00:00+02:00",
+    "venue": "Médiathèques de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Quinzaine Souad Labbize : une autrice - des a... Ateliers de traduction Du 12/09/2026 14:30 au 23/09/2026 16:30 Catégorie Culture littéraire Localisation Médiathèques de Saint-Étienne La Quinzaine invite le public à découvrir une autrice ou un auteur à travers son oeuvre, ses engagements et les échos qu’elle ou il suscite dans la ville. Pour cette édition, la Quinzaine met à l’honneur Souad Labbize, poète, romancière et traductric...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2436/quinzaine-souad-labbize-une-autrice-des-artistes-une-ville-des-lieux",
+    "source": "Médiathèques de Saint-Étienne"
+  },
+  {
+    "id": "bbbd3b4ac4320f6a1cfc",
+    "title": "Jules Verne et les savants « fous »",
+    "start": "2026-07-30T00:00:00+02:00",
+    "venue": "Médiathèques de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Jules Verne et les savants « fous » Biblis en folie : exposition Du 02/10/2026 13:00 au 28/10/2026 18:30 Catégorie Exposition Localisation Tréfilerie Parfois excentrique, souvent mégalomane, toujours dangereux, le personnage du savant fou irradie la littérature, aussi bien dans les romans de Jules Verne que dans d'autres oeuvres classiques. Entre génie et folie, venez à la rencontre de ces personn...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2486/jules-verne-et-les-savants-fous",
+    "source": "Médiathèques de Saint-Étienne"
+  },
+  {
+    "id": "0bfcb9623f19875fa478",
+    "title": "Fête du livre de Saint-Étienne 2026",
+    "start": "2026-08-07T00:00:00+02:00",
+    "venue": "Médiathèques de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Fête du livre de Saint-Étienne 2026 Du 22/09/2026 12:00 au 11/10/2026 18:00 Catégorie Festivités Localisation Médiathèques municipales La Fête du livre aura lieu du 9 au 11 octobre 2026 sur la place de l'Hôtel de Ville et dans le centre-ville. L'accès à l'événement est entièrement gratuit. Le parrain de cette édition anniversaire est l'écrivain Bernard Minier, et l'affiche officiell...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2546/fete-du-livre-de-saint-etienne-2026",
+    "source": "Médiathèques de Saint-Étienne"
   }
 ]
