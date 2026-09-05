@@ -54,6 +54,7 @@ def _detail_urls() -> list[str]:
         for link in soup.find_all("a", href=True):
             if "/programmation/" not in link["href"]:
                 continue
+
             detail_url = urljoin(BASE, link["href"])
             if detail_url not in seen:
                 seen.add(detail_url)
@@ -65,19 +66,6 @@ def _detail_urls() -> list[str]:
             break
 
     return found
-
-
-def _venue(text: str) -> str:
-    match = re.search(
-        r"\bLieu\s+(.+?)\s+(?:Public|Générique|Generique|Dates|Médias|Medias)\b",
-        text,
-        re.IGNORECASE,
-    )
-    if not match:
-        return "La Comédie"
-
-    venue = clean(match.group(1))
-    return venue.replace("Salle ", "", 1)
 
 
 def _dates(text: str, year: int) -> list[datetime]:
@@ -133,28 +121,31 @@ def scrape_comedie() -> list[dict]:
             continue
 
         page_text = clean(soup.get_text(" "))
+
         years = re.findall(r"\b(20\d{2})\b", page_text)
         if not years:
             continue
 
         year = int(years[0])
-        venue = _venue(page_text)
-
         dates = [dt for dt in _dates(page_text, year) if dt >= now]
+
         if not dates:
             continue
 
         dates.sort()
-        start = dates[0].isoformat()
-        end = dates[-1].isoformat()
+
+        sessions = [dt.isoformat() for dt in dates]
+        start = sessions[0]
+        end = sessions[-1]
 
         events.append({
             "id": stable_id("La Comédie de Saint-Étienne", title, start),
             "title": title,
             "start": start,
             "end": end,
-            "sessions": len(dates),
-            "venue": "Comédie Sainté",
+            "sessions": sessions,
+            "session_count": len(sessions),
+            "venue": "La Comédie",
             "city": "Saint-Étienne",
             "category": "Théâtre",
             "description": "",

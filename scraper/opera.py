@@ -20,24 +20,6 @@ MONTHS = {
     "décembre": 12, "decembre": 12
 }
 
-GENRES = {
-    "lyrique": "Opéra",
-    "symphonique": "Musique",
-    "musique": "Musique",
-    "récitals": "Musique",
-    "recitals": "Musique",
-    "danse": "Danse",
-    "jeune public": "Jeune public",
-}
-
-
-def _category(text: str) -> str:
-    low = clean(text).lower()
-    for key, value in GENRES.items():
-        if key in low:
-            return value
-    return "Spectacle"
-
 
 def _year(month: int) -> int:
     return 2026 if month >= 9 else 2027
@@ -79,12 +61,19 @@ def scrape_opera() -> list[dict]:
             continue
 
         day, hour, minute = map(int, match.groups())
+
         try:
-            dt = datetime(_year(current_month), current_month, day, hour, minute, tzinfo=PARIS)
+            dt = datetime(
+                _year(current_month),
+                current_month,
+                day,
+                hour,
+                minute,
+                tzinfo=PARIS,
+            )
         except ValueError:
             continue
 
-        venue = clean(cells[1].get_text(" ")) or "Opéra"
         title = clean(cells[2].get_text(" "))
         if not title:
             continue
@@ -95,19 +84,13 @@ def scrape_opera() -> list[dict]:
         raw.append({
             "title": title,
             "dt": dt,
-            "venue": venue,
-            "category": _category(row_text),
             "url": event_url,
         })
 
     grouped = {}
 
     for item in raw:
-        key = (
-            item["title"].lower(),
-            item["venue"].lower(),
-            item["url"]
-        )
+        key = (item["title"].lower(), item["url"])
         grouped.setdefault(key, []).append(item)
 
     events = []
@@ -117,18 +100,20 @@ def scrape_opera() -> list[dict]:
         first = items[0]
         last = items[-1]
 
-        start = first["dt"].isoformat()
-        end = last["dt"].isoformat()
+        sessions = [item["dt"].isoformat() for item in items]
+        start = sessions[0]
+        end = sessions[-1]
 
         events.append({
             "id": stable_id("Opéra de Saint-Étienne", first["title"], start),
             "title": first["title"],
             "start": start,
             "end": end,
-            "sessions": len(items),
-            "venue": "Opéra Sainté",
+            "sessions": sessions,
+            "session_count": len(sessions),
+            "venue": "Opéra de Saint-Étienne",
             "city": "Saint-Étienne",
-            "category": "Théâtre",
+            "category": "Opéra",
             "description": "",
             "url": first["url"],
             "source": "Opéra de Saint-Étienne",
