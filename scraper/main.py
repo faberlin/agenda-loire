@@ -18,7 +18,7 @@ OUT = ROOT / "events.json"
 SCRAPERS = [
     ("Médiathèques Sainté", scrape_mediatheques),
     ("Le Fil", scrape_le_fil),
-    ("Zénith", scrape_zenith),
+    ("Zénith Sainté", scrape_zenith),
     ("Opéra Sainté", scrape_opera),
 ("Comédie Sainté", scrape_comedie),
 ]
