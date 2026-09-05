@@ -169,10 +169,13 @@
     "title": "5ème Symphonie de Mahler Gustav Mahler",
     "start": "2026-10-03T20:00:00+02:00",
     "end": "2026-10-03T20:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-10-03T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-mahler/s-883/",
     "source": "Opéra de Saint-Étienne"
@@ -193,8 +196,20 @@
     "title": "La Mélancolie des paquebots",
     "start": "2026-10-06T20:00:00+02:00",
     "end": "2026-10-16T20:00:00+02:00",
-    "sessions": 10,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-10-06T20:00:00+02:00",
+      "2026-10-07T20:00:00+02:00",
+      "2026-10-08T20:00:00+02:00",
+      "2026-10-09T18:00:00+02:00",
+      "2026-10-10T17:00:00+02:00",
+      "2026-10-12T20:00:00+02:00",
+      "2026-10-13T20:00:00+02:00",
+      "2026-10-14T20:00:00+02:00",
+      "2026-10-15T20:00:00+02:00",
+      "2026-10-16T20:00:00+02:00"
+    ],
+    "session_count": 10,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -206,8 +221,14 @@
     "title": "Nos corps désirants",
     "start": "2026-10-06T20:00:00+02:00",
     "end": "2026-10-09T20:30:00+02:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-10-06T20:00:00+02:00",
+      "2026-10-07T20:00:00+02:00",
+      "2026-10-08T20:00:00+02:00",
+      "2026-10-09T20:30:00+02:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -219,10 +240,14 @@
     "title": "Va falloir toujours toujours La Parenthèse - Christophe Garcia Le Petit Théâtre de Sherbrooke Danse-théâtre, dès 6 ans",
     "start": "2026-10-07T15:00:00+02:00",
     "end": "2026-10-10T16:00:00+02:00",
-    "sessions": 2,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-10-07T15:00:00+02:00",
+      "2026-10-10T16:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/va-falloir-toujours-toujours/s-894/",
     "source": "Opéra de Saint-Étienne"
@@ -276,10 +301,13 @@
     "title": "Don Quichotte Le Théâtre du Corps Pietragalla - Derouault",
     "start": "2026-10-15T20:00:00+02:00",
     "end": "2026-10-15T20:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-10-15T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/don-quichotte/s-906/",
     "source": "Opéra de Saint-Étienne"
@@ -333,10 +361,14 @@
     "title": "The Opera Locos Yllana et Encore Un Tour Humour musical",
     "start": "2026-10-22T20:00:00+02:00",
     "end": "2026-10-23T20:00:00+02:00",
-    "sessions": 2,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-10-22T20:00:00+02:00",
+      "2026-10-23T20:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/the-opera-locos/s-888/",
     "source": "Opéra de Saint-Étienne"
@@ -379,8 +411,13 @@
     "title": "L’hors-présence ou chimères du pays de Morsan",
     "start": "2026-11-03T20:00:00+01:00",
     "end": "2026-11-05T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-11-03T20:00:00+01:00",
+      "2026-11-04T19:00:00+01:00",
+      "2026-11-05T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -392,10 +429,13 @@
     "title": "Les Nuances Utopiques Ensemble Orchestral Contemporain",
     "start": "2026-11-05T20:00:00+01:00",
     "end": "2026-11-05T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-11-05T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-nuances-utopiques/s-889/",
     "source": "Opéra de Saint-Étienne"
@@ -449,8 +489,16 @@
     "title": "Un pouce en cavale",
     "start": "2026-11-13T10:00:00+01:00",
     "end": "2026-11-20T14:00:00+01:00",
-    "sessions": 6,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-11-13T10:00:00+01:00",
+      "2026-11-14T17:00:00+01:00",
+      "2026-11-17T10:00:00+01:00",
+      "2026-11-18T15:00:00+01:00",
+      "2026-11-19T18:00:00+01:00",
+      "2026-11-20T14:00:00+01:00"
+    ],
+    "session_count": 6,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -462,10 +510,15 @@
     "title": "Carmen Georges Bizet Opéra-comique en quatre actes",
     "start": "2026-11-13T20:00:00+01:00",
     "end": "2026-11-17T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-11-13T20:00:00+01:00",
+      "2026-11-15T15:00:00+01:00",
+      "2026-11-17T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmen/s-922/",
     "source": "Opéra de Saint-Étienne"
@@ -508,8 +561,14 @@
     "title": "Dialogue entre deux espèces",
     "start": "2026-11-16T10:00:00+01:00",
     "end": "2026-11-19T10:00:00+01:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-11-16T10:00:00+01:00",
+      "2026-11-17T14:00:00+01:00",
+      "2026-11-18T15:00:00+01:00",
+      "2026-11-19T10:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -521,8 +580,14 @@
     "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
     "start": "2026-11-17T20:00:00+01:00",
     "end": "2026-11-20T20:00:00+01:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-11-17T20:00:00+01:00",
+      "2026-11-18T20:00:00+01:00",
+      "2026-11-19T20:00:00+01:00",
+      "2026-11-20T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -534,8 +599,15 @@
     "title": "Mussum",
     "start": "2026-11-17T20:00:00+01:00",
     "end": "2026-11-21T17:00:00+01:00",
-    "sessions": 5,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-11-17T20:00:00+01:00",
+      "2026-11-18T20:00:00+01:00",
+      "2026-11-19T20:00:00+01:00",
+      "2026-11-20T20:00:00+01:00",
+      "2026-11-21T17:00:00+01:00"
+    ],
+    "session_count": 5,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -547,10 +619,13 @@
     "title": "INACHEVÉ Un fantôme dans l’opéra Compagnie HALTE Théâtre musical, dès 13 ans",
     "start": "2026-11-19T20:00:00+01:00",
     "end": "2026-11-19T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-11-19T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/inacheve-br-un-fantome-dans-l-opera/s-902/",
     "source": "Opéra de Saint-Étienne"
@@ -615,10 +690,14 @@
     "title": "Cirque & Cabarets - Portraits pour vents Igor Stravinski, Morton Gould, Leonard Bernstein, Kurt Weill, Nino Rota",
     "start": "2026-11-24T20:00:00+01:00",
     "end": "2026-11-25T20:00:00+01:00",
-    "sessions": 2,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-11-24T20:00:00+01:00",
+      "2026-11-25T20:00:00+01:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/cirque-cabarets-portraits-pour-vents/s-884/",
     "source": "Opéra de Saint-Étienne"
@@ -628,8 +707,14 @@
     "title": "La folle Journée ou Le Mariage de Figaro",
     "start": "2026-11-24T20:00:00+01:00",
     "end": "2026-11-27T20:00:00+01:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-11-24T20:00:00+01:00",
+      "2026-11-25T20:00:00+01:00",
+      "2026-11-26T20:00:00+01:00",
+      "2026-11-27T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -641,8 +726,14 @@
     "title": "Les corps incorruptibles",
     "start": "2026-11-24T20:00:00+01:00",
     "end": "2026-11-27T20:00:00+01:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-11-24T20:00:00+01:00",
+      "2026-11-25T20:00:00+01:00",
+      "2026-11-26T18:00:00+01:00",
+      "2026-11-27T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -698,8 +789,13 @@
     "title": "Écorces, polar forestier",
     "start": "2026-12-01T20:00:00+01:00",
     "end": "2026-12-03T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-12-01T20:00:00+01:00",
+      "2026-12-02T20:00:00+01:00",
+      "2026-12-03T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -733,10 +829,13 @@
     "title": "Notte Morricone Centro Coreografico Nazionale / Aterballetto Marcos Morau",
     "start": "2026-12-05T20:00:00+01:00",
     "end": "2026-12-05T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-12-05T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/notte-morricone/s-907/",
     "source": "Opéra de Saint-Étienne"
@@ -757,8 +856,13 @@
     "title": "Ivanov",
     "start": "2026-12-08T20:00:00+01:00",
     "end": "2026-12-10T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-12-08T20:00:00+01:00",
+      "2026-12-09T19:00:00+01:00",
+      "2026-12-10T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -770,10 +874,13 @@
     "title": "Kosmòs ! Canticum Novum",
     "start": "2026-12-09T20:00:00+01:00",
     "end": "2026-12-09T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-12-09T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/kosmos-/s-890/",
     "source": "Opéra de Saint-Étienne"
@@ -794,10 +901,13 @@
     "title": "Traversée Ensemble SyLF Théâtre musical, dès 11 ans",
     "start": "2026-12-10T20:00:00+01:00",
     "end": "2026-12-10T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-12-10T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/traversee/s-903/",
     "source": "Opéra de Saint-Étienne"
@@ -840,8 +950,13 @@
     "title": "Qui som?",
     "start": "2026-12-15T20:00:00+01:00",
     "end": "2026-12-17T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-12-15T20:00:00+01:00",
+      "2026-12-16T20:00:00+01:00",
+      "2026-12-17T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -853,10 +968,14 @@
     "title": "Un bateau Compagnie Sans Soucis Marionnettes, musique, images animées, dès 3 ans",
     "start": "2026-12-16T15:00:00+01:00",
     "end": "2026-12-19T16:00:00+01:00",
-    "sessions": 2,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-12-16T15:00:00+01:00",
+      "2026-12-19T16:00:00+01:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/un-bateau/s-904/",
     "source": "Opéra de Saint-Étienne"
@@ -866,8 +985,14 @@
     "title": "Entre deux rives",
     "start": "2026-12-16T20:00:00+01:00",
     "end": "2026-12-19T17:00:00+01:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2026-12-16T20:00:00+01:00",
+      "2026-12-17T20:00:00+01:00",
+      "2026-12-18T20:00:00+01:00",
+      "2026-12-19T17:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -890,10 +1015,13 @@
     "title": "Didon et Énée Ensemble Les Surprises Pierre Lebon",
     "start": "2026-12-18T20:00:00+01:00",
     "end": "2026-12-18T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-12-18T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/didon-et-enee/s-891/",
     "source": "Opéra de Saint-Étienne"
@@ -903,10 +1031,14 @@
     "title": "Carmina Burana Carl Orff",
     "start": "2026-12-30T20:00:00+01:00",
     "end": "2026-12-31T19:00:00+01:00",
-    "sessions": 2,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2026-12-30T20:00:00+01:00",
+      "2026-12-31T19:00:00+01:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmina-burana/s-923/",
     "source": "Opéra de Saint-Étienne"
@@ -916,10 +1048,13 @@
     "title": "4 Saisons dansées Compagnie Käfig - Concert de la Loge Mourad Merzouki - Julien Chauvin",
     "start": "2027-01-07T20:00:00+01:00",
     "end": "2027-01-07T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-01-07T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/4-saisons-dansees/s-908/",
     "source": "Opéra de Saint-Étienne"
@@ -940,8 +1075,14 @@
     "title": "Les femmes savantes",
     "start": "2027-01-12T20:00:00+01:00",
     "end": "2027-01-15T20:00:00+01:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-01-12T20:00:00+01:00",
+      "2027-01-13T20:00:00+01:00",
+      "2027-01-14T20:00:00+01:00",
+      "2027-01-15T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -953,10 +1094,13 @@
     "title": "Le contre-chant des sirènes Compagnie des Gentils Théâtre musical, dès 9 ans",
     "start": "2027-01-15T20:00:00+01:00",
     "end": "2027-01-15T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-01-15T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/le-contre-chant-des-sirenes/s-905/",
     "source": "Opéra de Saint-Étienne"
@@ -999,8 +1143,13 @@
     "title": "Minetti",
     "start": "2027-01-19T20:00:00+01:00",
     "end": "2027-01-21T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-01-19T20:00:00+01:00",
+      "2027-01-20T20:00:00+01:00",
+      "2027-01-21T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1023,10 +1172,13 @@
     "title": "Broadway Rhapsody Cyrille Dubois, Ensemble ArteCombo Spectacle musical de Jean-Michel Fournereau",
     "start": "2027-01-22T20:00:00+01:00",
     "end": "2027-01-22T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-01-22T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/broadway-rhapsody/s-892/",
     "source": "Opéra de Saint-Étienne"
@@ -1047,10 +1199,13 @@
     "title": "Le complexe des Homards Compagnie ACT2 - Catherine Dreyfus Danse, dès 8 ans",
     "start": "2027-01-23T16:00:00+01:00",
     "end": "2027-01-23T16:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-01-23T16:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/le-complexe-des-homards/s-909/",
     "source": "Opéra de Saint-Étienne"
@@ -1071,8 +1226,16 @@
     "title": "Dans la grotte",
     "start": "2027-01-25T14:00:00+01:00",
     "end": "2027-01-30T17:00:00+01:00",
-    "sessions": 6,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-01-25T14:00:00+01:00",
+      "2027-01-26T10:00:00+01:00",
+      "2027-01-27T15:00:00+01:00",
+      "2027-01-28T10:00:00+01:00",
+      "2027-01-29T10:00:00+01:00",
+      "2027-01-30T17:00:00+01:00"
+    ],
+    "session_count": 6,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1084,10 +1247,13 @@
     "title": "Ceux qui sont partis, ceux de l’infini Ensemble Orchestral Contemporain",
     "start": "2027-01-26T20:00:00+01:00",
     "end": "2027-01-26T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-01-26T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/ceux-qui-sont-partis-ceux-de-l-infini/s-893/",
     "source": "Opéra de Saint-Étienne"
@@ -1097,8 +1263,13 @@
     "title": "7 minutes",
     "start": "2027-01-26T20:00:00+01:00",
     "end": "2027-01-28T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-01-26T20:00:00+01:00",
+      "2027-01-27T20:00:00+01:00",
+      "2027-01-28T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1121,10 +1292,13 @@
     "title": "Les quatre saisons Vivaldi / Richter Ludovico Einaudi, Antonio Vivaldi / Max Richter",
     "start": "2027-01-28T20:00:00+01:00",
     "end": "2027-01-28T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-01-28T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/les-quatre-saisons-br-vivaldi-richter/s-885/",
     "source": "Opéra de Saint-Étienne"
@@ -1200,8 +1374,14 @@
     "title": "Oiseau [guide de survie]",
     "start": "2027-02-02T19:00:00+01:00",
     "end": "2027-02-05T10:00:00+01:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-02-02T19:00:00+01:00",
+      "2027-02-03T15:00:00+01:00",
+      "2027-02-04T10:00:00+01:00",
+      "2027-02-05T10:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1213,8 +1393,13 @@
     "title": "Face à la mère",
     "start": "2027-02-02T20:00:00+01:00",
     "end": "2027-02-04T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-02-02T20:00:00+01:00",
+      "2027-02-03T20:00:00+01:00",
+      "2027-02-04T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1226,10 +1411,13 @@
     "title": "Oiseau [guide de survie] Parmi Les Lucioles Théâtre, dès 10 ans",
     "start": "2027-02-03T15:00:00+01:00",
     "end": "2027-02-03T15:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-02-03T15:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/oiseau-guide-de-survie-/s-910/",
     "source": "Opéra de Saint-Étienne"
@@ -1250,10 +1438,13 @@
     "title": "L’Amour sorcier - Don Quichotte CCN - Ballet Biarritz Martin Harriague",
     "start": "2027-02-04T20:00:00+01:00",
     "end": "2027-02-04T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-02-04T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/l-amour-sorcier-don-quichotte/s-913/",
     "source": "Opéra de Saint-Étienne"
@@ -1285,10 +1476,13 @@
     "title": "Macéra Compagnie Pyramid Youssef Bel Baraka, Fouad Kouchy",
     "start": "2027-02-09T20:00:00+01:00",
     "end": "2027-02-09T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-02-09T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/macera/s-914/",
     "source": "Opéra de Saint-Étienne"
@@ -1298,8 +1492,13 @@
     "title": "Lac artificiel",
     "start": "2027-02-09T20:00:00+01:00",
     "end": "2027-02-11T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-02-09T20:00:00+01:00",
+      "2027-02-10T20:00:00+01:00",
+      "2027-02-11T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1344,8 +1543,13 @@
     "title": "CAPRA (une chèvre)",
     "start": "2027-03-02T20:00:00+01:00",
     "end": "2027-03-04T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-03-02T20:00:00+01:00",
+      "2027-03-03T20:00:00+01:00",
+      "2027-03-04T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1357,8 +1561,13 @@
     "title": "Bâtir",
     "start": "2027-03-02T20:00:00+01:00",
     "end": "2027-03-04T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-03-02T20:00:00+01:00",
+      "2027-03-03T20:00:00+01:00",
+      "2027-03-04T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1370,8 +1579,13 @@
     "title": "MIKRO / BARTÓK",
     "start": "2027-03-04T10:00:00+01:00",
     "end": "2027-03-06T16:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-03-04T10:00:00+01:00",
+      "2027-03-05T10:00:00+01:00",
+      "2027-03-06T16:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1394,10 +1608,14 @@
     "title": "Roland à Roncevaux Auguste Mermet Grand Opéra français en quatre actes Première création depuis 1905",
     "start": "2027-03-05T20:00:00+01:00",
     "end": "2027-03-07T15:00:00+01:00",
-    "sessions": 2,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-05T20:00:00+01:00",
+      "2027-03-07T15:00:00+01:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/roland-a-roncevaux/s-924/",
     "source": "Opéra de Saint-Étienne"
@@ -1418,10 +1636,13 @@
     "title": "Mikro / Bartók Compagnie Cas Public Danse, dès 8 ans",
     "start": "2027-03-06T16:00:00+01:00",
     "end": "2027-03-06T16:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-06T16:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/mikro-bartok/s-912/",
     "source": "Opéra de Saint-Étienne"
@@ -1431,8 +1652,13 @@
     "title": "Señora tentación",
     "start": "2027-03-09T20:00:00+01:00",
     "end": "2027-03-11T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-03-09T20:00:00+01:00",
+      "2027-03-10T20:00:00+01:00",
+      "2027-03-11T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1455,10 +1681,13 @@
     "title": "Dites-le donc avec des fleurs ! COMPAGNIE OSE UN STANDARD",
     "start": "2027-03-11T20:00:00+01:00",
     "end": "2027-03-11T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-11T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/dites-le-donc-avec-des-fleurs-/s-895/",
     "source": "Opéra de Saint-Étienne"
@@ -1490,10 +1719,13 @@
     "title": "Florian Caroubi Jean-Sébastien Bach, Franz Schubert",
     "start": "2027-03-15T20:00:00+01:00",
     "end": "2027-03-15T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-15T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/florian-caroubi/s-899/",
     "source": "Opéra de Saint-Étienne"
@@ -1503,10 +1735,13 @@
     "title": "Philippe Cassard Frédéric Chopin, Claude Debussy",
     "start": "2027-03-16T20:00:00+01:00",
     "end": "2027-03-16T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-16T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/philippe-cassard/s-900/",
     "source": "Opéra de Saint-Étienne"
@@ -1516,8 +1751,13 @@
     "title": "Bérénice",
     "start": "2027-03-16T20:00:00+01:00",
     "end": "2027-03-18T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-03-16T20:00:00+01:00",
+      "2027-03-17T20:00:00+01:00",
+      "2027-03-18T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1529,8 +1769,13 @@
     "title": "Pedro",
     "start": "2027-03-16T20:00:00+01:00",
     "end": "2027-03-18T20:00:00+01:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-03-16T20:00:00+01:00",
+      "2027-03-17T20:00:00+01:00",
+      "2027-03-18T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1542,10 +1787,13 @@
     "title": "Mozart Paradox Thomas Enhco",
     "start": "2027-03-17T20:00:00+01:00",
     "end": "2027-03-17T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-17T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/mozart-paradox/s-901/",
     "source": "Opéra de Saint-Étienne"
@@ -1566,10 +1814,13 @@
     "title": "5ème Symphonie de Tchaïkovski Camille Pépin, Camille Saint-Saëns, Piotr Ilitch Tchaïkovski",
     "start": "2027-03-18T20:00:00+01:00",
     "end": "2027-03-18T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-18T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-tchaikovski/s-886/",
     "source": "Opéra de Saint-Étienne"
@@ -1623,10 +1874,13 @@
     "title": "Aurore Express Canticum Novum",
     "start": "2027-03-24T20:00:00+01:00",
     "end": "2027-03-24T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-24T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/aurore-express/s-896/",
     "source": "Opéra de Saint-Étienne"
@@ -1636,10 +1890,13 @@
     "title": "Piracema - Parabelo Grupo Corpo Rodrigo Pederneiras, Cassi Abranches",
     "start": "2027-03-25T20:00:00+01:00",
     "end": "2027-03-25T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-25T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/piracema-parabelo/s-915/",
     "source": "Opéra de Saint-Étienne"
@@ -1649,10 +1906,13 @@
     "title": "La Truite Quintette à cordes avec piano de l’Orchestre Symphonique Saint-Étienne Loire",
     "start": "2027-03-26T20:00:00+01:00",
     "end": "2027-03-26T20:00:00+01:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-03-26T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/la-truite/s-897/",
     "source": "Opéra de Saint-Étienne"
@@ -1684,8 +1944,13 @@
     "title": "SILENCE VACARME",
     "start": "2027-04-06T20:00:00+02:00",
     "end": "2027-04-08T20:00:00+02:00",
-    "sessions": 3,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-04-06T20:00:00+02:00",
+      "2027-04-07T20:00:00+02:00",
+      "2027-04-08T20:00:00+02:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1697,8 +1962,14 @@
     "title": "Le Silence",
     "start": "2027-04-06T20:00:00+02:00",
     "end": "2027-04-09T20:00:00+02:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-04-06T20:00:00+02:00",
+      "2027-04-07T20:00:00+02:00",
+      "2027-04-08T20:00:00+02:00",
+      "2027-04-09T20:00:00+02:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1710,10 +1981,13 @@
     "title": "Ma couverture et moi Une Hirondelle Compagnie Théâtre musical, dès 3 ans",
     "start": "2027-04-07T10:00:00+02:00",
     "end": "2027-04-07T10:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-04-07T10:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/ma-couverture-et-moi/s-917/",
     "source": "Opéra de Saint-Étienne"
@@ -1745,8 +2019,14 @@
     "title": "J'étais parti·e, pardon (dans un autre univers)",
     "start": "2027-04-27T14:00:00+02:00",
     "end": "2027-04-30T10:00:00+02:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-04-27T14:00:00+02:00",
+      "2027-04-28T15:00:00+02:00",
+      "2027-04-29T10:00:00+02:00",
+      "2027-04-30T10:00:00+02:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1758,10 +2038,13 @@
     "title": "Les Insulaires (Islander) Compagnie Nosferatu Comédie musicale, dès 11 ans",
     "start": "2027-04-29T20:00:00+02:00",
     "end": "2027-04-29T20:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-04-29T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/les-insulaires-islander-/s-918/",
     "source": "Opéra de Saint-Étienne"
@@ -1771,10 +2054,15 @@
     "title": "Roméo et Juliette Charles Gounod Opéra en cinq actes",
     "start": "2027-04-30T20:00:00+02:00",
     "end": "2027-05-04T20:00:00+02:00",
-    "sessions": 3,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-04-30T20:00:00+02:00",
+      "2027-05-02T15:00:00+02:00",
+      "2027-05-04T20:00:00+02:00"
+    ],
+    "session_count": 3,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/romeo-et-juliette/s-925/",
     "source": "Opéra de Saint-Étienne"
@@ -1784,10 +2072,13 @@
     "title": "Antichambre STEREOPTIK Poème visuel et musical, dès 9 ans",
     "start": "2027-05-12T15:00:00+02:00",
     "end": "2027-05-12T15:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-05-12T15:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/antichambre/s-919/",
     "source": "Opéra de Saint-Étienne"
@@ -1797,10 +2088,13 @@
     "title": "Coppélia Ballet de l’Opéra national du Capitole Jean-Guillaume Bart",
     "start": "2027-05-13T20:00:00+02:00",
     "end": "2027-05-13T20:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-05-13T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/coppelia/s-916/",
     "source": "Opéra de Saint-Étienne"
@@ -1821,10 +2115,14 @@
     "title": "Variations pour un Parapluie Compagnie CHOUETTE il pleut ! Clown et musique, dès 3 ans",
     "start": "2027-05-26T10:00:00+02:00",
     "end": "2027-05-29T16:00:00+02:00",
-    "sessions": 2,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-05-26T10:00:00+02:00",
+      "2027-05-29T16:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/variations-pour-un-parapluie/s-920/",
     "source": "Opéra de Saint-Étienne"
@@ -1845,10 +2143,13 @@
     "title": "Vite, un selfie ! Compagnie Lucamoros Peinture et chant, dès 8 ans",
     "start": "2027-06-05T16:00:00+02:00",
     "end": "2027-06-05T16:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-06-05T16:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/vite-un-selfie-/s-921/",
     "source": "Opéra de Saint-Étienne"
@@ -1880,10 +2181,15 @@
     "title": "Turandot Giacomo Puccini Opéra en trois actes",
     "start": "2027-06-16T20:00:00+02:00",
     "end": "2027-06-20T15:00:00+02:00",
-    "sessions": 3,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-06-16T20:00:00+02:00",
+      "2027-06-18T20:00:00+02:00",
+      "2027-06-20T15:00:00+02:00"
+    ],
+    "session_count": 3,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/turandot/s-926/",
     "source": "Opéra de Saint-Étienne"
@@ -1893,8 +2199,14 @@
     "title": "Le Chantier des imaginaires",
     "start": "2027-06-16T20:00:00+02:00",
     "end": "2027-06-19T17:00:00+02:00",
-    "sessions": 4,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-06-16T20:00:00+02:00",
+      "2027-06-17T20:00:00+02:00",
+      "2027-06-18T20:00:00+02:00",
+      "2027-06-19T17:00:00+02:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1906,8 +2218,12 @@
     "title": "À fleur de peau",
     "start": "2027-06-23T20:00:00+02:00",
     "end": "2027-06-24T20:00:00+02:00",
-    "sessions": 2,
-    "venue": "Comédie Sainté",
+    "sessions": [
+      "2027-06-23T20:00:00+02:00",
+      "2027-06-24T20:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
@@ -1919,10 +2235,13 @@
     "title": "Les Libérations Ensemble Orchestral Contemporain",
     "start": "2027-06-24T20:00:00+02:00",
     "end": "2027-06-24T20:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-06-24T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-liberations/s-898/",
     "source": "Opéra de Saint-Étienne"
@@ -1932,10 +2251,13 @@
     "title": "Berlioz en Italie Hector Berlioz",
     "start": "2027-06-30T20:00:00+02:00",
     "end": "2027-06-30T20:00:00+02:00",
-    "sessions": 1,
-    "venue": "Opéra Sainté",
+    "sessions": [
+      "2027-06-30T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/berlioz-en-italie/s-887/",
     "source": "Opéra de Saint-Étienne"
