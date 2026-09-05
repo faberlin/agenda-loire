@@ -67,25 +67,33 @@ function getPref(id) {
 function populateSelect(id, values) {
   const select = el(id);
   const current = select.value;
-  [...new Set(values.filter(Boolean))].sort((a,b) => a.localeCompare(b, "fr"))
+
+  while (select.options.length > 1) {
+    select.remove(1);
+  }
+
+  [...new Set(values.filter(Boolean))]
+    .sort((a,b) => a.localeCompare(b, "fr"))
     .forEach(v => {
       const opt = document.createElement("option");
       opt.value = v;
       opt.textContent = v;
       select.appendChild(opt);
     });
+
   select.value = current || "all";
 }
 
 async function loadEvents() {
   const res = await fetch("events.json", { cache: "no-store" });
   if (!res.ok) throw new Error("Impossible de charger events.json");
+
   allEvents = (await res.json())
     .filter(ev => ev.start)
     .sort((a,b) => eventDate(a) - eventDate(b));
 
   populateSelect("category", allEvents.map(e => e.category));
-  populateSelect("city", allEvents.map(e => e.city));
+  populateSelect("venue", allEvents.map(e => e.venue));
 }
 
 async function loadSession() {
@@ -103,6 +111,7 @@ async function loadSession() {
 
 async function loadPrefs() {
   prefs = new Map();
+
   if (!currentUser) {
     const local = JSON.parse(localStorage.getItem("agenda-loire-prefs") || "{}");
     Object.entries(local).forEach(([k,v]) => prefs.set(k,v));
@@ -146,34 +155,50 @@ async function savePref(eventId, patch) {
     console.error(error);
     el("status").textContent = "Impossible d’enregistrer la préférence.";
   }
+
   render();
+}
+
+function themeClass(category) {
+  return "theme-" + normalize(category || "culture").replace(/\s+/g, "-");
 }
 
 function render() {
   const q = normalize(el("search").value);
   const category = el("category").value;
-  const city = el("city").value;
+  const venue = el("venue").value;
   const period = el("period").value;
   const now = new Date();
 
   const filtered = allEvents.filter(ev => {
     const p = getPref(ev.id);
+
     if (eventDate(ev) < new Date(now.getTime() - 24*3600*1000)) return false;
     if (currentTab === "visible" && p.hidden) return false;
     if (currentTab === "hidden" && !p.hidden) return false;
     if (currentTab === "favorites" && !p.favorite) return false;
     if (category !== "all" && ev.category !== category) return false;
-    if (city !== "all" && ev.city !== city) return false;
+    if (venue !== "all" && ev.venue !== venue) return false;
     if (!matchesPeriod(ev, period)) return false;
 
-    const haystack = normalize([ev.title, ev.venue, ev.city, ev.description, ev.category].join(" "));
+    const haystack = normalize([
+      ev.title,
+      ev.venue,
+      ev.city,
+      ev.description,
+      ev.category
+    ].join(" "));
+
     if (q && !haystack.includes(q)) return false;
+
     return true;
   });
 
   el("status").textContent =
     `${filtered.length} événement${filtered.length > 1 ? "s" : ""}` +
-    (currentUser ? " · synchronisé avec Supabase" : " · mode local (connecte-toi pour synchroniser)");
+    (currentUser
+      ? " · synchronisé avec Supabase"
+      : " · mode local (connecte-toi pour synchroniser)");
 
   const container = el("events");
   container.innerHTML = "";
@@ -187,27 +212,44 @@ function render() {
     const p = getPref(ev.id);
     const card = document.createElement("article");
     card.className = "card";
+
     card.innerHTML = `
-      <div class="card-top">
-        <div>
-          <h3>${escapeHtml(ev.title)}</h3>
-          <div class="meta">${formatDate(ev.start)} · ${escapeHtml(ev.venue || "")}${ev.city ? " · " + escapeHtml(ev.city) : ""}</div>
+      <div class="event-row">
+        <div class="event-main">
+          <div class="event-title-line">
+            <span class="theme-badge ${themeClass(ev.category)}">
+              ${escapeHtml(ev.category || "Culture")}
+            </span>
+            <h3>${escapeHtml(ev.title)}</h3>
+          </div>
+          <div class="meta">
+            ${formatDate(ev.start)} · ${escapeHtml(ev.venue || "")}${ev.city ? " · " + escapeHtml(ev.city) : ""}
+          </div>
         </div>
-        <span class="badge">${escapeHtml(ev.category || "Culture")}</span>
-      </div>
-      <div class="actions">
-        ${ev.url ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Voir la source</a>` : ""}
-        <button data-action="favorite" data-id="${escapeAttr(ev.id)}">${p.favorite ? "★ Retirer favori" : "☆ Favori"}</button>
-        <button data-action="hidden" data-id="${escapeAttr(ev.id)}">${p.hidden ? "Réafficher" : "Masquer"}</button>
+
+        <div class="actions">
+          ${ev.url ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Source</a>` : ""}
+          <button data-action="favorite" data-id="${escapeAttr(ev.id)}">
+            ${p.favorite ? "★ Favori" : "☆ Favori"}
+          </button>
+          <button data-action="hidden" data-id="${escapeAttr(ev.id)}">
+            ${p.hidden ? "Réafficher" : "Masquer"}
+          </button>
+        </div>
       </div>
     `;
+
     container.appendChild(card);
   }
 }
 
 function escapeHtml(value) {
   return String(value || "").replace(/[&<>"']/g, c => ({
-    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;"
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#039;"
   }[c]));
 }
 
@@ -222,13 +264,20 @@ function updateLoginButton() {
 el("events").addEventListener("click", e => {
   const btn = e.target.closest("button[data-action]");
   if (!btn) return;
+
   const id = btn.dataset.id;
   const p = getPref(id);
-  if (btn.dataset.action === "favorite") savePref(id, { favorite: !p.favorite });
-  if (btn.dataset.action === "hidden") savePref(id, { hidden: !p.hidden });
+
+  if (btn.dataset.action === "favorite") {
+    savePref(id, { favorite: !p.favorite });
+  }
+
+  if (btn.dataset.action === "hidden") {
+    savePref(id, { hidden: !p.hidden });
+  }
 });
 
-["search","period","category","city"].forEach(id => {
+["search", "period", "category", "venue"].forEach(id => {
   el(id).addEventListener("input", render);
   el(id).addEventListener("change", render);
 });
@@ -247,18 +296,23 @@ el("loginBtn").addEventListener("click", async () => {
     await client.auth.signOut();
     return;
   }
+
   el("loginDialog").showModal();
 });
 
 el("sendMagicLink").addEventListener("click", async e => {
   e.preventDefault();
+
   const email = el("email").value.trim();
   if (!email) return;
+
   el("loginMessage").textContent = "Envoi…";
+
   const { error } = await client.auth.signInWithOtp({
     email,
     options: { emailRedirectTo: window.location.href }
   });
+
   el("loginMessage").textContent = error
     ? "Erreur : " + error.message
     : "Lien envoyé. Vérifie ta boîte mail.";
