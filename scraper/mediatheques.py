@@ -46,7 +46,7 @@ def scrape_mediatheques() -> list[dict]:
             "id": stable_id(source_name, title, start),
             "title": title,
             "start": start,
-            "venue": source_name,
+            "venue": "Médiathèques Sainté",
             "city": "Saint-Étienne",
             "category": "Littérature",
             "description": summary[:500],
