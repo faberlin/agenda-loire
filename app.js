@@ -61,7 +61,7 @@ function formatDate(iso) {
 }
 
 function getPref(id) {
-  return prefs.get(id) || { hidden: false, favorite: false };
+  return prefs.get(id) || { hidden: false, favorite: false, reserved: false };
 }
 
 function populateSelect(id, values) {
@@ -112,13 +112,17 @@ async function loadPrefs() {
 
   if (!currentUser) {
     const local = JSON.parse(localStorage.getItem("agenda-loire-prefs") || "{}");
-    Object.entries(local).forEach(([k,v]) => prefs.set(k,v));
+    Object.entries(local).forEach(([k,v]) => prefs.set(k, {
+      hidden: !!v.hidden,
+      favorite: !!v.favorite,
+      reserved: !!v.reserved
+    }));
     return;
   }
 
   const { data, error } = await client
     .from("event_preferences")
-    .select("event_id, hidden, favorite")
+    .select("event_id, hidden, favorite, reserved")
     .eq("user_id", currentUser.id);
 
   if (error) {
@@ -146,6 +150,7 @@ async function savePref(eventId, patch) {
     event_id: eventId,
     hidden: !!current.hidden,
     favorite: !!current.favorite,
+    reserved: !!current.reserved,
     updated_at: new Date().toISOString()
   }, { onConflict: "user_id,event_id" });
 
@@ -173,8 +178,9 @@ function render() {
 
     if (eventDate(ev) < new Date(now.getTime() - 24*3600*1000)) return false;
     if (currentTab === "visible" && p.hidden) return false;
-    if (currentTab === "hidden" && !p.hidden) return false;
     if (currentTab === "favorites" && !p.favorite) return false;
+    if (currentTab === "reserved" && !p.reserved) return false;
+    if (currentTab === "hidden" && !p.hidden) return false;
     if (category !== "all" && ev.category !== category) return false;
     if (venue !== "all" && ev.venue !== venue) return false;
     if (!matchesPeriod(ev, period)) return false;
@@ -218,15 +224,9 @@ function render() {
           </span>
 
           <span class="event-title">${escapeHtml(ev.title)}</span>
-
           <span class="event-separator">·</span>
-
-          <span class="event-meta">
-            ${formatDate(ev.start)}
-          </span>
-
+          <span class="event-meta">${formatDate(ev.start)}</span>
           <span class="event-separator">·</span>
-
           <span class="event-meta">
             ${escapeHtml(ev.venue || "")}${ev.city ? " · " + escapeHtml(ev.city) : ""}
           </span>
@@ -234,8 +234,15 @@ function render() {
 
         <div class="actions">
           ${ev.url ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Source</a>` : ""}
-          <button data-action="favorite" data-id="${escapeAttr(ev.id)}">${p.favorite ? "★ Favori" : "☆ Favori"}</button>
-          <button data-action="hidden" data-id="${escapeAttr(ev.id)}">${p.hidden ? "Réafficher" : "Masquer"}</button>
+          <button data-action="favorite" data-id="${escapeAttr(ev.id)}">
+            ${p.favorite ? "★ Favori" : "☆ Favori"}
+          </button>
+          <button data-action="reserved" data-id="${escapeAttr(ev.id)}">
+            ${p.reserved ? "✓ Réservé" : "Réserver"}
+          </button>
+          <button data-action="hidden" data-id="${escapeAttr(ev.id)}">
+            ${p.hidden ? "Réafficher" : "Masquer"}
+          </button>
         </div>
       </div>
     `;
@@ -246,11 +253,7 @@ function render() {
 
 function escapeHtml(value) {
   return String(value || "").replace(/[&<>"']/g, c => ({
-    "&":"&amp;",
-    "<":"&lt;",
-    ">":"&gt;",
-    '"':"&quot;",
-    "'":"&#039;"
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;"
   }[c]));
 }
 
@@ -269,13 +272,9 @@ el("events").addEventListener("click", e => {
   const id = btn.dataset.id;
   const p = getPref(id);
 
-  if (btn.dataset.action === "favorite") {
-    savePref(id, { favorite: !p.favorite });
-  }
-
-  if (btn.dataset.action === "hidden") {
-    savePref(id, { hidden: !p.hidden });
-  }
+  if (btn.dataset.action === "favorite") savePref(id, { favorite: !p.favorite });
+  if (btn.dataset.action === "reserved") savePref(id, { reserved: !p.reserved });
+  if (btn.dataset.action === "hidden") savePref(id, { hidden: !p.hidden });
 });
 
 ["search", "period", "category", "venue"].forEach(id => {
