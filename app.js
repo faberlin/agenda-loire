@@ -69,20 +69,20 @@ function formatShortDate(iso) {
 }
 
 function formatEventTiming(ev) {
-  const sessions = Number(ev.sessions || 1);
+  const sessions = Array.isArray(ev.sessions) ? ev.sessions : [];
 
-  if (sessions <= 1 || !ev.end) {
+  if (sessions.length <= 1) {
     return formatDate(ev.start);
   }
 
-  const start = new Date(ev.start);
-  const end = new Date(ev.end);
+  const start = new Date(sessions[0]);
+  const end = new Date(sessions[sessions.length - 1]);
 
   if (isSameLocalDate(start, end)) {
-    return `${sessions} séances · ${formatShortDate(ev.start)}`;
+    return `${sessions.length} séances · ${formatShortDate(ev.start)}`;
   }
 
-  return `${sessions} séances · du ${formatShortDate(ev.start)} au ${formatShortDate(ev.end)}`;
+  return `${sessions.length} séances · du ${formatShortDate(sessions[0])} au ${formatShortDate(sessions[sessions.length - 1])}`;
 }
 
 function getPref(id) {
