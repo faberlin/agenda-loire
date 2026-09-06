@@ -9,46 +9,28 @@ let currentUser = null;
 const el = id => document.getElementById(id);
 
 function normalize(s) {
-  return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
 }
 
 function eventDate(ev) {
   return new Date(ev.start);
 }
 
+function eventDates(ev) {
+  if (Array.isArray(ev.sessions) && ev.sessions.length) {
+    return ev.sessions.map(x => new Date(x)).filter(d => !Number.isNaN(d.getTime()));
+  }
+  const d = new Date(ev.start);
+  return Number.isNaN(d.getTime()) ? [] : [d];
+}
+
 function isSameLocalDate(a, b) {
   return a.getFullYear() === b.getFullYear()
     && a.getMonth() === b.getMonth()
     && a.getDate() === b.getDate();
-}
-
-function matchesPeriod(ev, period) {
-  if (period === "all") return true;
-
-  const now = new Date();
-  const d = eventDate(ev);
-  const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-
-  if (period === "today") return isSameLocalDate(d, now);
-
-  if (period === "week" || period === "month") {
-    const days = period === "week" ? 7 : 30;
-    const end = new Date(todayStart);
-    end.setDate(end.getDate() + days);
-    return d >= todayStart && d < end;
-  }
-
-  if (period === "weekend") {
-    const day = now.getDay();
-    const daysToSaturday = (6 - day + 7) % 7;
-    const saturday = new Date(todayStart);
-    saturday.setDate(saturday.getDate() + daysToSaturday);
-    const monday = new Date(saturday);
-    monday.setDate(monday.getDate() + 2);
-    return d >= saturday && d < monday;
-  }
-
-  return true;
 }
 
 function formatDate(iso) {
@@ -71,22 +53,100 @@ function formatShortDate(iso) {
 function formatEventTiming(ev) {
   const sessions = Array.isArray(ev.sessions) ? ev.sessions : [];
 
-  if (sessions.length <= 1) {
+  if (sessions.length === 0) {
     return formatDate(ev.start);
   }
 
-  const start = new Date(sessions[0]);
-  const end = new Date(sessions[sessions.length - 1]);
-
-  if (isSameLocalDate(start, end)) {
-    return `${sessions.length} séances · ${formatShortDate(ev.start)}`;
+  if (sessions.length === 1) {
+    return formatDate(sessions[0]);
   }
 
-  return `${sessions.length} séances · du ${formatShortDate(sessions[0])} au ${formatShortDate(sessions[sessions.length - 1])}`;
+  const first = sessions[0];
+  const last = sessions[sessions.length - 1];
+
+  return `${sessions.length} séances · du ${formatShortDate(first)} au ${formatShortDate(last)}`;
+}
+
+function buildPeriodOptions() {
+  const select = el("period");
+  const now = new Date();
+
+  select.innerHTML = "";
+
+  const addOption = (value, label) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = label;
+    select.appendChild(option);
+  };
+
+  addOption("next15", "15 prochains jours");
+
+  for (let offset = 0; offset < 3; offset++) {
+    const d = new Date(now.getFullYear(), now.getMonth() + offset, 1);
+    let label = new Intl.DateTimeFormat("fr-FR", {
+      month: "long",
+      year: "numeric"
+    }).format(d);
+
+    label = label.charAt(0).toUpperCase() + label.slice(1);
+    addOption(`month${offset}`, label);
+  }
+
+  addOption("after3", "+ de 3 mois");
+  select.value = "next15";
+}
+
+function matchesPeriod(ev, period) {
+  const dates = eventDates(ev);
+  const now = new Date();
+
+  if (!dates.length) return false;
+
+  if (period === "next15") {
+    const start = new Date(now);
+    start.setHours(0, 0, 0, 0);
+
+    const end = new Date(start);
+    end.setDate(end.getDate() + 15);
+
+    return dates.some(d => d >= start && d < end);
+  }
+
+  if (/^month[0-2]$/.test(period)) {
+    const offset = Number(period.replace("month", ""));
+    const target = new Date(now.getFullYear(), now.getMonth() + offset, 1);
+
+    return dates.some(d =>
+      d.getFullYear() === target.getFullYear()
+      && d.getMonth() === target.getMonth()
+    );
+  }
+
+  if (period === "after3") {
+    const limit = new Date(
+      now.getFullYear(),
+      now.getMonth() + 3,
+      1
+    );
+
+    return dates.some(d => d >= limit);
+  }
+
+  return true;
+}
+
+function hasFutureSession(ev) {
+  const limit = new Date(Date.now() - 24 * 3600 * 1000);
+  return eventDates(ev).some(d => d >= limit);
 }
 
 function getPref(id) {
-  return prefs.get(id) || { hidden: false, favorite: false, reserved: false };
+  return prefs.get(id) || {
+    hidden: false,
+    favorite: false,
+    reserved: false
+  };
 }
 
 function selectedValues(containerId) {
@@ -122,7 +182,9 @@ function buildCheckboxes(containerId, values) {
 
 async function loadEvents() {
   const res = await fetch("events.json", { cache: "no-store" });
-  if (!res.ok) throw new Error("Impossible de charger events.json");
+  if (!res.ok) {
+    throw new Error("Impossible de charger events.json");
+  }
 
   allEvents = (await res.json())
     .filter(ev => ev.start)
@@ -149,12 +211,18 @@ async function loadPrefs() {
   prefs = new Map();
 
   if (!currentUser) {
-    const local = JSON.parse(localStorage.getItem("agenda-loire-prefs") || "{}");
-    Object.entries(local).forEach(([k, v]) => prefs.set(k, {
-      hidden: !!v.hidden,
-      favorite: !!v.favorite,
-      reserved: !!v.reserved
-    }));
+    const local = JSON.parse(
+      localStorage.getItem("agenda-loire-prefs") || "{}"
+    );
+
+    Object.entries(local).forEach(([k, v]) => {
+      prefs.set(k, {
+        hidden: !!v.hidden,
+        favorite: !!v.favorite,
+        reserved: !!v.reserved
+      });
+    });
+
     return;
   }
 
@@ -169,15 +237,21 @@ async function loadPrefs() {
     return;
   }
 
-  (data || []).forEach(row => prefs.set(row.event_id, {
-    hidden: !!row.hidden,
-    favorite: !!row.favorite,
-    reserved: !!row.reserved
-  }));
+  (data || []).forEach(row => {
+    prefs.set(row.event_id, {
+      hidden: !!row.hidden,
+      favorite: !!row.favorite,
+      reserved: !!row.reserved
+    });
+  });
 }
 
 async function savePref(eventId, patch) {
-  const current = { ...getPref(eventId), ...patch };
+  const current = {
+    ...getPref(eventId),
+    ...patch
+  };
+
   prefs.set(eventId, current);
 
   if (!currentUser) {
@@ -198,7 +272,9 @@ async function savePref(eventId, patch) {
       favorite: !!current.favorite,
       reserved: !!current.reserved,
       updated_at: new Date().toISOString()
-    }, { onConflict: "user_id,event_id" });
+    }, {
+      onConflict: "user_id,event_id"
+    });
 
   if (error) {
     console.error(error);
@@ -215,41 +291,59 @@ function themeClass(category) {
 function render() {
   const q = normalize(el("search").value);
   const period = el("period").value;
+
   const selectedCategories = selectedValues("categoryFilters");
   const selectedVenues = selectedValues("venueFilters");
-  const now = new Date();
 
   const filtered = allEvents.filter(ev => {
     const p = getPref(ev.id);
 
-    if (eventDate(ev) < new Date(now.getTime() - 24 * 3600 * 1000)) return false;
+    if (!hasFutureSession(ev)) return false;
 
     if (currentTab === "visible" && p.hidden) return false;
     if (currentTab === "favorites" && !p.favorite) return false;
     if (currentTab === "reserved" && !p.reserved) return false;
     if (currentTab === "hidden" && !p.hidden) return false;
 
-    if (selectedCategories.size > 0 && !selectedCategories.has(ev.category)) return false;
-    if (selectedVenues.size > 0 && !selectedVenues.has(ev.venue)) return false;
+    if (
+      selectedCategories.size > 0
+      && !selectedCategories.has(ev.category)
+    ) return false;
+
+    if (
+      selectedVenues.size > 0
+      && !selectedVenues.has(ev.venue)
+    ) return false;
+
     if (!matchesPeriod(ev, period)) return false;
 
     const haystack = normalize([
-      ev.title, ev.venue, ev.city, ev.description, ev.category
+      ev.title,
+      ev.venue,
+      ev.city,
+      ev.description,
+      ev.category
     ].join(" "));
 
     if (q && !haystack.includes(q)) return false;
+
     return true;
   });
 
   el("status").textContent =
-    `${filtered.length} événement${filtered.length > 1 ? "s" : ""}` +
-    (currentUser ? " · synchronisé avec Supabase" : " · mode local (connecte-toi pour synchroniser)");
+    `${filtered.length} événement${filtered.length > 1 ? "s" : ""}`
+    + (
+      currentUser
+        ? " · synchronisé avec Supabase"
+        : " · mode local (connecte-toi pour synchroniser)"
+    );
 
   const container = el("events");
   container.innerHTML = "";
 
   if (!filtered.length) {
-    container.innerHTML = `<div class="card">Aucun événement pour ces filtres.</div>`;
+    container.innerHTML =
+      `<div class="card">Aucun événement pour ces filtres.</div>`;
     return;
   }
 
@@ -265,25 +359,45 @@ function render() {
             ${escapeHtml(ev.category || "Culture")}
           </span>
 
-          <span class="event-title">${escapeHtml(ev.title)}</span>
-          <span class="event-separator">·</span>
-          <span class="event-meta">${escapeHtml(formatEventTiming(ev))}</span>
+          <span class="event-title">
+            ${escapeHtml(ev.title)}
+          </span>
+
           <span class="event-separator">·</span>
 
           <span class="event-meta">
-            ${escapeHtml(ev.venue || "")}${ev.city ? " · " + escapeHtml(ev.city) : ""}
+            ${escapeHtml(formatEventTiming(ev))}
+          </span>
+
+          <span class="event-separator">·</span>
+
+          <span class="event-meta">
+            ${escapeHtml(ev.venue || "")}
+            ${ev.city ? " · " + escapeHtml(ev.city) : ""}
           </span>
         </div>
 
         <div class="actions">
-          ${ev.url ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Source</a>` : ""}
-          <button data-action="favorite" data-id="${escapeAttr(ev.id)}">
+          ${
+            ev.url
+              ? `<a href="${escapeAttr(ev.url)}"
+                    target="_blank"
+                    rel="noopener">Source</a>`
+              : ""
+          }
+
+          <button data-action="favorite"
+                  data-id="${escapeAttr(ev.id)}">
             ${p.favorite ? "★ Favori" : "☆ Favori"}
           </button>
-          <button data-action="reserved" data-id="${escapeAttr(ev.id)}">
+
+          <button data-action="reserved"
+                  data-id="${escapeAttr(ev.id)}">
             ${p.reserved ? "✓ Réservé" : "○ Réservé"}
           </button>
-          <button data-action="hidden" data-id="${escapeAttr(ev.id)}">
+
+          <button data-action="hidden"
+                  data-id="${escapeAttr(ev.id)}">
             ${p.hidden ? "Réafficher" : "Masquer"}
           </button>
         </div>
@@ -296,7 +410,11 @@ function render() {
 
 function escapeHtml(value) {
   return String(value || "").replace(/[&<>"']/g, c => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;"
   }[c]));
 }
 
@@ -305,7 +423,8 @@ function escapeAttr(value) {
 }
 
 function updateLoginButton() {
-  el("loginBtn").textContent = currentUser ? "Déconnexion" : "Connexion";
+  el("loginBtn").textContent =
+    currentUser ? "Déconnexion" : "Connexion";
 }
 
 el("events").addEventListener("click", e => {
@@ -315,9 +434,17 @@ el("events").addEventListener("click", e => {
   const id = btn.dataset.id;
   const p = getPref(id);
 
-  if (btn.dataset.action === "favorite") savePref(id, { favorite: !p.favorite });
-  if (btn.dataset.action === "reserved") savePref(id, { reserved: !p.reserved });
-  if (btn.dataset.action === "hidden") savePref(id, { hidden: !p.hidden });
+  if (btn.dataset.action === "favorite") {
+    savePref(id, { favorite: !p.favorite });
+  }
+
+  if (btn.dataset.action === "reserved") {
+    savePref(id, { reserved: !p.reserved });
+  }
+
+  if (btn.dataset.action === "hidden") {
+    savePref(id, { hidden: !p.hidden });
+  }
 });
 
 el("search").addEventListener("input", render);
@@ -326,16 +453,23 @@ el("period").addEventListener("change", render);
 document.querySelectorAll(".filter-clear").forEach(btn => {
   btn.addEventListener("click", () => {
     const container = el(btn.dataset.clear);
-    container.querySelectorAll('input[type="checkbox"]').forEach(input => {
-      input.checked = false;
-    });
+
+    container
+      .querySelectorAll('input[type="checkbox"]')
+      .forEach(input => {
+        input.checked = false;
+      });
+
     render();
   });
 });
 
 document.querySelectorAll(".tab").forEach(btn => {
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
+    document
+      .querySelectorAll(".tab")
+      .forEach(x => x.classList.remove("active"));
+
     btn.classList.add("active");
     currentTab = btn.dataset.tab;
     render();
@@ -347,18 +481,23 @@ el("loginBtn").addEventListener("click", async () => {
     await client.auth.signOut();
     return;
   }
+
   el("loginDialog").showModal();
 });
 
 el("sendMagicLink").addEventListener("click", async e => {
   e.preventDefault();
+
   const email = el("email").value.trim();
   if (!email) return;
 
   el("loginMessage").textContent = "Envoi…";
+
   const { error } = await client.auth.signInWithOtp({
     email,
-    options: { emailRedirectTo: window.location.href }
+    options: {
+      emailRedirectTo: window.location.href
+    }
   });
 
   el("loginMessage").textContent = error
@@ -368,12 +507,15 @@ el("sendMagicLink").addEventListener("click", async e => {
 
 (async function init() {
   try {
+    buildPeriodOptions();
     await loadSession();
     await loadPrefs();
     await loadEvents();
     render();
   } catch (err) {
     console.error(err);
-    el("status").textContent = "Erreur au chargement : " + err.message;
+
+    el("status").textContent =
+      "Erreur au chargement : " + err.message;
   }
 })();
