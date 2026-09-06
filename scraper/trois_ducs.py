@@ -57,7 +57,7 @@ def scrape_trois_ducs():
             "category": "Humour",
             "description": "",
             "url": urljoin(URL, a["href"]),
-            "source": "Les Trois Ducs",
+            "source": "Les 3 Ducs",
         })
 
     return events
