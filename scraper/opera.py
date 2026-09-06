@@ -111,12 +111,12 @@ def scrape_opera() -> list[dict]:
             "end": end,
             "sessions": sessions,
             "session_count": len(sessions),
-            "venue": "Opéra Sainté",
+            "venue": "Opéra de Saint-Etienne",
             "city": "Saint-Étienne",
             "category": "Opéra",
             "description": "",
             "url": first["url"],
-            "source": "Opéra de Saint-Étienne",
+            "source": "Opéra Sainté",
         })
 
     return sorted(events, key=lambda x: x["start"])
