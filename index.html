@@ -2,55 +2,89 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Agenda Loire</title>
+
   <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
 </head>
+
 <body>
-  <header class="topbar">
-    <div>
-      <h1>Agenda Loire</h1>
-      <p>Événements culturels dans la Loire</p>
-    </div>
-    <button id="loginBtn" class="secondary">Connexion</button>
-  </header>
+  <main class="page">
+    <header class="header">
+      <div>
+        <h1>Agenda Loire</h1>
+      </div>
 
-  <main>
+      <div class="header-actions">
+        <a href="planning.html">Planning</a>
+        <button id="loginBtn" type="button">Connexion</button>
+      </div>
+    </header>
+
     <section class="filters-top">
-      <input id="search" type="search" placeholder="Rechercher un événement, un lieu…" />
+      <input
+        id="search"
+        type="search"
+        placeholder="Rechercher un événement, un lieu..."
+      />
 
-      <select id="period">
-        <option value="all">Toutes les dates</option>
-        <option value="today">Aujourd’hui</option>
-        <option value="week">7 prochains jours</option>
-        <option value="weekend">Ce week-end</option>
-        <option value="month">30 prochains jours</option>
-      </select>
+      <select id="period"></select>
     </section>
 
     <section class="multi-filters">
       <div class="filter-group">
-        <div class="filter-header">
+        <div class="filter-heading">
           <strong>Catégories</strong>
-          <button type="button" class="filter-clear" data-clear="categoryFilters">Tout décocher</button>
+          <button
+            type="button"
+            class="filter-clear"
+            data-clear="categoryFilters"
+          >
+            Tout décocher
+          </button>
         </div>
-        <div id="categoryFilters" class="checkbox-list"></div>
+
+        <div
+          id="categoryFilters"
+          class="filter-options"
+        ></div>
       </div>
 
-      <div class="filter-group">
-        <div class="filter-header">
-          <strong>Salles / lieux</strong>
-          <button type="button" class="filter-clear" data-clear="venueFilters">Tout décocher</button>
+      <div class="filter-group filter-group-wide">
+        <div class="filter-heading">
+          <strong>Sources / programmations</strong>
+          <button
+            type="button"
+            class="filter-clear"
+            data-clear="sourceFilters"
+          >
+            Tout décocher
+          </button>
         </div>
-        <div id="venueFilters" class="checkbox-list"></div>
+
+        <div
+          id="sourceFilters"
+          class="filter-options"
+        ></div>
       </div>
     </section>
 
-    <nav class="tabs">
-      <button class="tab active" data-tab="visible">À voir</button>
-      <button class="tab" data-tab="favorites">Favoris</button>
-      <button class="tab" data-tab="reserved">Réservés</button>
-      <button class="tab" data-tab="hidden">Masqués</button>
+    <nav class="tabs" aria-label="Filtres d'état">
+      <button class="tab active" type="button" data-tab="visible">
+        À voir
+      </button>
+      <button class="tab" type="button" data-tab="favorites">
+        Favoris
+      </button>
+      <button class="tab" type="button" data-tab="reserved">
+        Réservés
+      </button>
+      <button class="tab" type="button" data-tab="hidden">
+        Masqués
+      </button>
     </nav>
 
     <div id="status" class="status"></div>
@@ -58,20 +92,28 @@
   </main>
 
   <dialog id="loginDialog">
-    <form method="dialog" id="loginForm">
+    <form method="dialog" class="login-form">
       <h2>Connexion</h2>
-      <p>Entre ton adresse e-mail. Supabase t’enverra un lien de connexion.</p>
-      <input id="email" type="email" placeholder="ton@email.fr" required />
-      <div class="dialog-actions">
-        <button value="cancel" class="secondary">Annuler</button>
-        <button id="sendMagicLink" value="default">Envoyer le lien</button>
+
+      <label>
+        E-mail
+        <input id="email" type="email" autocomplete="email" />
+      </label>
+
+      <div class="login-actions">
+        <button id="sendMagicLink" type="button">
+          Envoyer le lien magique
+        </button>
+
+        <button type="submit">
+          Fermer
+        </button>
       </div>
-      <p id="loginMessage" class="small"></p>
+
+      <div id="loginMessage"></div>
     </form>
   </dialog>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="config.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

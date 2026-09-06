@@ -21,16 +21,13 @@ function eventDate(ev) {
 
 function eventDates(ev) {
   if (Array.isArray(ev.sessions) && ev.sessions.length) {
-    return ev.sessions.map(x => new Date(x)).filter(d => !Number.isNaN(d.getTime()));
+    return ev.sessions
+      .map(x => new Date(x))
+      .filter(d => !Number.isNaN(d.getTime()));
   }
+
   const d = new Date(ev.start);
   return Number.isNaN(d.getTime()) ? [] : [d];
-}
-
-function isSameLocalDate(a, b) {
-  return a.getFullYear() === b.getFullYear()
-    && a.getMonth() === b.getMonth()
-    && a.getDate() === b.getDate();
 }
 
 function formatDate(iso) {
@@ -191,7 +188,7 @@ async function loadEvents() {
     .sort((a, b) => eventDate(a) - eventDate(b));
 
   buildCheckboxes("categoryFilters", allEvents.map(e => e.category));
-  buildCheckboxes("venueFilters", allEvents.map(e => e.venue));
+  buildCheckboxes("sourceFilters", allEvents.map(e => e.source));
 }
 
 async function loadSession() {
@@ -293,7 +290,7 @@ function render() {
   const period = el("period").value;
 
   const selectedCategories = selectedValues("categoryFilters");
-  const selectedVenues = selectedValues("venueFilters");
+  const selectedSources = selectedValues("sourceFilters");
 
   const filtered = allEvents.filter(ev => {
     const p = getPref(ev.id);
@@ -311,8 +308,8 @@ function render() {
     ) return false;
 
     if (
-      selectedVenues.size > 0
-      && !selectedVenues.has(ev.venue)
+      selectedSources.size > 0
+      && !selectedSources.has(ev.source)
     ) return false;
 
     if (!matchesPeriod(ev, period)) return false;
@@ -322,7 +319,8 @@ function render() {
       ev.venue,
       ev.city,
       ev.description,
-      ev.category
+      ev.category,
+      ev.source
     ].join(" "));
 
     if (q && !haystack.includes(q)) return false;
