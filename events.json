@@ -11,6 +11,17 @@
     "source": "Médiathèques de Saint-Étienne"
   },
   {
+    "id": "be65b9df449f83904145",
+    "title": "Jam Session",
+    "start": "2026-09-14T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-85/",
+    "source": "Le Solar"
+  },
+  {
     "id": "3b87bc24810145691b8f",
     "title": "Les maisons d'Albertine et de Germano",
     "start": "2026-09-15T10:00:00+02:00",
@@ -20,6 +31,28 @@
     "description": "Les maisons d'Albertine et de Germano 40e fête du livre : exposition Du 15/09/2026 10:00 au 17/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Découvrez une exposition inédite réalisée par Albertine et Germano Zullo. Albertine est artiste et illustratrice, Germano est auteur. Compagnons de vie, ils collaborent régulièrement ensemble.Ils ont notamment réalisé Les Oiseaux (2010), récompensé p...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2437/les-maisons-d-albertine-et-de-germano",
     "source": "Médiathèques de Saint-Étienne"
+  },
+  {
+    "id": "68ef65858c420f2800c3",
+    "title": "On s’rencontre # 1",
+    "start": "2026-09-15T19:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801027-on-srencontre-1",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "dddd050bf374f76c144a",
+    "title": "Lancement de saison 2026-2027",
+    "start": "2026-09-17T19:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801020-lancement-de-saison-2026-2027",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "20e7285ba9233827721f",
@@ -99,6 +132,28 @@
     "source": "Le Fil"
   },
   {
+    "id": "469e70b1276e5ce713ba",
+    "title": "Le parfum de leurs rêves - Prison et résistance [ 360° de Trajectoires ]",
+    "start": "2026-09-20T16:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801923-le-parfum-de-leurs-reves-prison-et-resistance-360deg-de-trajectoires",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "63e441b22090a9f43e31",
+    "title": "Jam Session",
+    "start": "2026-09-21T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-86/",
+    "source": "Le Solar"
+  },
+  {
     "id": "17ebde62040daf04c268",
     "title": "Fête du livre de Saint-Étienne 2026",
     "start": "2026-09-22T12:00:00+02:00",
@@ -121,6 +176,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "ff0fc582148b413672eb",
+    "title": "MINUIT Films + Chambre noire [ 360° de Trajectoires ] Du",
+    "start": "2026-09-24T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801909-minuit-films-chambre-noire-360deg-de-trajectoires",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "0add7b718ee3db61350d",
     "title": "JEAN-BENOIT DIALLO",
     "start": "2026-09-24T20:30:00+02:00",
@@ -130,6 +196,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/jean-benoit-diallo",
     "source": "Les Trois Ducs"
+  },
+  {
+    "id": "470f0b9531426fcf280d",
+    "title": "VEGA MISSYL",
+    "start": "2026-09-25T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/vega-missyl/",
+    "source": "Le Solar"
   },
   {
     "id": "20760de7d3cfc74b962f",
@@ -163,6 +240,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/abba-mania/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "9b52ff2ff1b9772f0a13",
+    "title": "Jam Session",
+    "start": "2026-09-28T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-104/",
+    "source": "Le Solar"
   },
   {
     "id": "3d3d34ae0ad7eec4e2e5",
@@ -280,6 +368,28 @@
     "source": "Les Trois Ducs"
   },
   {
+    "id": "ababadbf7ca909c5044a",
+    "title": "Le défi poétique d’une femme afghane [ 360° de Trajectoires ]",
+    "start": "2026-10-04T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801930-le-defi-poetique-dune-femme-afghane-360deg-de-trajectoires",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "46d7bfaf1da1aed620d1",
+    "title": "Jam Session",
+    "start": "2026-10-05T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-126/",
+    "source": "Le Solar"
+  },
+  {
     "id": "3e3a0fd0daaaf52b5e5c",
     "title": "La Mélancolie des paquebots",
     "start": "2026-10-06T20:00:00+02:00",
@@ -363,69 +473,14 @@
     "source": "Le Fil"
   },
   {
-    "id": "6b151d7f05e05fa8510b",
-    "title": "Télécharger le programme",
-    "start": "2026-10-09T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "a46a3437dd7fc7fe17c1",
-    "title": "Billetterie de la saison 2026/2027",
-    "start": "2026-10-09T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "7a5dc5f66c2c496cdce5",
-    "title": "Arnaud Tsamère Vendredi 9 octobre à 20h30 La Forge Billetterie Homo Lunaticus ou le jardin de Lune Mercredi 14 octobre à 16h Espace culturel Albert Camus Billetterie Rodrigue Samedi 7 novembre à 20h30 Espace culturel Albert Camus Vendredi 6 novembre à 20h30 Espace culturel Albert Camus Billetterie Tout contre la terre Samedi 21 novembre à 20h30 Espace culturel Albert Camus Billetterie Un chat dans la ville Mercredi 25 novembre à 16h Espace culturel Albert Camus Billetterie Guillaume Meurice Vendredi 4 décembre à 20h30 La Forge Billetterie Julien Lieb Samedi 5 décembre à 20h30 La Forge Billetterie Les Mécanos - Linha(a) Vendredi 22 janvier à 20h30 Espace culturel Albert Camus Billetterie Ma famille en or Samedi 30 janvier à 20h30 Espace culturel Albert Camus Billetterie Un poirier m'a dit Mercredi 10 février à 16h Espace culturel Albert Camus Billetterie Emy Jeudi 18 février à 20h30 Espace culturel Albert Camus Billetterie Olivier de Benoist Dimanche 21 février à 17h La Forge Billetterie Edouard Deloignon Mardi 23 février à 20h30 La Forge Billetterie Ana Godefroy Jeudi 25 février à 20h30 La Forge Billetterie Eidolons Vendredi 5 mars à 20h30 Espace culturel Albert Camus Billetterie Nous étions une armée Vendredi 12 mars à 20h30 La Forge Billetterie Julien Clerc Samedi 27 mars à 20h30 La Forge Billetterie Frantz Vendredi 2 avril à 20h30 Espace culturel Albert Camus Billetterie Oria Vendredi 30 avril à 20h30 Espace culturel Albert Camus Billetterie",
-    "start": "2026-10-09T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "c761ff80b92f57078218",
     "title": "Arnaud Tsamère",
-    "start": "2026-10-09T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "6abb48e50cee9eef5505",
-    "title": "Vendredi 9 octobre à 20h30 La Forge Billetterie",
-    "start": "2026-10-09T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "b7eedd6770f0336f14b1",
-    "title": "Vendredi 9 octobre à 20h30 La Forge",
     "start": "2026-10-09T20:30:00+02:00",
     "venue": "La Forge",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
+    "url": "https://lechambon.fr/culture/",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -438,6 +493,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/marie-bo",
     "source": "Les Trois Ducs"
+  },
+  {
+    "id": "044b5da331b9a70ef2f6",
+    "title": "[ Ateliers ] Mémoires en mouvement",
+    "start": "2026-10-10T14:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801881-ateliers-memoires-en-mouvement",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "f56f4b4a9a1aec2e31a6",
@@ -473,6 +539,28 @@
     "source": "Les Trois Ducs"
   },
   {
+    "id": "c40a5bc5ab9a07e2729a",
+    "title": "AMIN AL AIEDY QUARTET",
+    "start": "2026-10-11T18:00:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/amin-al-aiedy-quartet/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "3fef54907f5e2b18ee58",
+    "title": "Jam Session",
+    "start": "2026-10-12T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-127/",
+    "source": "Le Solar"
+  },
+  {
     "id": "8277a78237b9bdeeb856",
     "title": "Mixage en M.A.O : les fondamentaux Avec Jules Payen, ingénieur son",
     "start": "2026-10-13T19:00:00+02:00",
@@ -484,30 +572,8 @@
     "source": "Le Fil"
   },
   {
-    "id": "2b4cde9d9cf3141d2501",
-    "title": "Billetterie",
-    "start": "2026-10-14T16:00:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2150019&widget_key=E2150019&locale=fr_FR&color_primary=00AEEF&code=4877&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "bd7717c4be74e33b795e",
     "title": "Homo Lunaticus ou le jardin de Lune",
-    "start": "2026-10-14T16:00:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2150019&widget_key=E2150019&locale=fr_FR&color_primary=00AEEF&code=4877&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "79d544925ecd5a373829",
-    "title": "Mercredi 14 octobre à 16h Espace culturel Albert Camus Billetterie",
     "start": "2026-10-14T16:00:00+02:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
@@ -517,26 +583,15 @@
     "source": "Ville du Chambon-Feugerolles"
   },
   {
-    "id": "b3c2aefefc6eed8e530c",
-    "title": "Mercredi 14 octobre à 16h Espace culturel Albert Camus",
-    "start": "2026-10-14T16:00:00+02:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
+    "id": "b5ee51805208cebfa9ec",
+    "title": "Chistera Du",
+    "start": "2026-10-14T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2150019&widget_key=E2150019&locale=fr_FR&color_primary=00AEEF&code=4877&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "30ecbe805b741c5c8db4",
-    "title": "Mercredi 14 octobre à 16h",
-    "start": "2026-10-14T16:00:00+02:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2150019&widget_key=E2150019&locale=fr_FR&color_primary=00AEEF&code=4877&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
+    "url": "https://billetterie-leverso.mapado.com/event/801979-chistera",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "fd8d700deb1af4e1e398",
@@ -621,6 +676,28 @@
     "source": "Les Trois Ducs"
   },
   {
+    "id": "e55ee6c0edd272eca915",
+    "title": "[ Quartier Culturel Saint-François ] Rencontre avec les étudiant·es de l'ESAD de Saint-Etienne",
+    "start": "2026-10-19T19:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802014-quartier-culturel-saint-francois-rencontre-avec-les-etudiant-es-de-lesad-de-saint-etienne",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "343f577a1e9f411f2670",
+    "title": "Jam Session",
+    "start": "2026-10-19T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-128/",
+    "source": "Le Solar"
+  },
+  {
     "id": "9e5a12bd81e225bd4b93",
     "title": "The Opera Locos Yllana et Encore Un Tour Humour musical",
     "start": "2026-10-22T20:00:00+02:00",
@@ -647,6 +724,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/olivia-moore",
     "source": "Les Trois Ducs"
+  },
+  {
+    "id": "f5e3542b619bc6ca1fe3",
+    "title": "Hommage à Miles Davis – Les débuts d’une Légende",
+    "start": "2026-10-23T19:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/hommage-a-miles-davis-les-debuts-dune-legende/",
+    "source": "Le Solar"
   },
   {
     "id": "ee9f9e9a955c5cd3b874",
@@ -704,6 +792,17 @@
     "source": "Les Trois Ducs"
   },
   {
+    "id": "4f32cc91533b1a098eb8",
+    "title": "Jam Session",
+    "start": "2026-10-26T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-129/",
+    "source": "Le Solar"
+  },
+  {
     "id": "efbb67a929a82e1ec569",
     "title": "FÉLIX JUNIER",
     "start": "2026-10-29T20:30:00+01:00",
@@ -713,6 +812,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/felix-junier",
     "source": "Les Trois Ducs"
+  },
+  {
+    "id": "e7ec1ba654c6fb268d6f",
+    "title": "Teaser vivant : Compagnie De l'âme à la vague",
+    "start": "2026-10-30T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801552-teaser-vivant-compagnie-de-lame-a-la-vague",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "9afc6985fcc97670d8b8",
@@ -737,6 +847,17 @@
     "source": "Les Trois Ducs"
   },
   {
+    "id": "6bf220c6a8042f329a81",
+    "title": "Jam Session",
+    "start": "2026-11-02T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-130/",
+    "source": "Le Solar"
+  },
+  {
     "id": "f4cb1f61a53298e139e2",
     "title": "L’hors-présence ou chimères du pays de Morsan",
     "start": "2026-11-03T20:00:00+01:00",
@@ -753,6 +874,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/l-hors-presence-ou-chimeres-du-pays-de-morsan",
     "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "c624d219a8400dcd08bb",
+    "title": "Le Sumud de Samah Du",
+    "start": "2026-11-04T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802021-le-sumud-de-samah",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "c86a1d00959d6163e87b",
@@ -804,28 +936,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "eb44622f6c357157e172",
-    "title": "Samedi 7 novembre à 20h30 Espace culturel Albert Camus",
-    "start": "2026-11-06T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "4d18bb56e3d532052ae9",
-    "title": "Vendredi 6 novembre à 20h30 Espace culturel Albert Camus",
-    "start": "2026-11-06T20:30:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2307641&widget_key=E2307641&locale=fr_FR&color_primary=00AEEF&code=53178&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "df47fb92cceadd3f25a4",
     "title": "EDGAR-YVES JR.",
     "start": "2026-11-06T20:30:00+01:00",
@@ -848,41 +958,8 @@
     "source": "Le Fil"
   },
   {
-    "id": "13dd3e42ae45cb5e3a3f",
-    "title": "Billetterie",
-    "start": "2026-11-07T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2307641&widget_key=E2307641&locale=fr_FR&color_primary=00AEEF&code=53178&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "6d9a7653b2b017171d7b",
     "title": "Rodrigue",
-    "start": "2026-11-07T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2307641&widget_key=E2307641&locale=fr_FR&color_primary=00AEEF&code=53178&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "69dcadaa95d98564cc84",
-    "title": "Samedi 7 novembre à 20h30 Espace culturel Albert Camus Vendredi 6 novembre à 20h30 Espace culturel Albert Camus Billetterie",
-    "start": "2026-11-07T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "a037a51de0bb7a0a526f",
-    "title": "Samedi 7 novembre à 20h30 Espace culturel Albert Camus",
     "start": "2026-11-07T20:30:00+01:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
@@ -1066,6 +1143,17 @@
     "source": "La Comédie de Saint-Étienne"
   },
   {
+    "id": "58263388bf03c22c95fc",
+    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui [ Courts-Circuits ] Du",
+    "start": "2026-11-17T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802028-la-declaration-damour-de-louis-hee-a-john-ah-oui-courts-circuits",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "bc7a9be1bbf5c413042b",
     "title": "INACHEVÉ Un fantôme dans l’opéra Compagnie HALTE Théâtre musical, dès 13 ans",
     "start": "2026-11-19T20:00:00+01:00",
@@ -1148,47 +1236,14 @@
     "source": "Le Fil"
   },
   {
-    "id": "b7ebfb66f0810f995854",
-    "title": "Billetterie",
-    "start": "2026-11-21T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2154077&widget_key=E2154077&locale=fr_FR&color_primary=00AEEF&code=27805&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "dcd4b69cbbfb02f30181",
     "title": "Tout contre la terre",
-    "start": "2026-11-21T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2154077&widget_key=E2154077&locale=fr_FR&color_primary=00AEEF&code=27805&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "ea87085bb37577c5ef8c",
-    "title": "Samedi 21 novembre à 20h30 Espace culturel Albert Camus Billetterie",
-    "start": "2026-11-21T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "26c6fff8fcd5db822203",
-    "title": "Samedi 21 novembre à 20h30 Espace culturel Albert Camus",
     "start": "2026-11-21T20:30:00+01:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2154077&widget_key=E2154077&locale=fr_FR&color_primary=00AEEF&code=27805&width_auto=1",
+    "url": "https://lechambon.fr/culture/",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -1269,47 +1324,14 @@
     "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "8243fdab50afb7a3341f",
-    "title": "Billetterie",
-    "start": "2026-11-25T16:00:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155645&widget_key=E2155645&locale=fr_FR&color_primary=00AEEF&code=46926&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "c80ab0583b32070fda72",
     "title": "Un chat dans la ville",
-    "start": "2026-11-25T16:00:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155645&widget_key=E2155645&locale=fr_FR&color_primary=00AEEF&code=46926&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "cb75b456721a86fc20b7",
-    "title": "Mercredi 25 novembre à 16h Espace culturel Albert Camus Billetterie",
-    "start": "2026-11-25T16:00:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "b56322c7df0e33f30782",
-    "title": "Mercredi 25 novembre à 16h Espace culturel Albert Camus",
     "start": "2026-11-25T16:00:00+01:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155645&widget_key=E2155645&locale=fr_FR&color_primary=00AEEF&code=46926&width_auto=1",
+    "url": "https://lechambon.fr/culture/",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -1322,6 +1344,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/florent-pagny/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "3937ad22764f8232d97f",
+    "title": "Gangster.e.s - Requiem pour un dé [ Courts-Circuits ]",
+    "start": "2026-11-26T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802035-gangster-e-s-requiem-pour-un-de-courts-circuits",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "f6f2f3deee43e7f31042",
@@ -1357,6 +1390,17 @@
     "source": "Les Trois Ducs"
   },
   {
+    "id": "86853f71cfeb54de991c",
+    "title": "[ Atelier ] Nos maux en mots [ Résister à 360° ]",
+    "start": "2026-11-28T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802056-atelier-nos-maux-en-mots-resister-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "5d84e55fb22c3a63a7e8",
     "title": "DISNEY EN CONCERT Suivez vos rêves",
     "start": "2026-11-28T20:00:00+01:00",
@@ -1377,6 +1421,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/les-cousines",
     "source": "Les Trois Ducs"
+  },
+  {
+    "id": "8ee85545da482830fb59",
+    "title": "Conférence du GREMMOS [ Résister à 360° ]",
+    "start": "2026-11-29T16:30:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802063-conference-du-gremmos-resister-a-360deg",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "8a0bf477cc153fa6bff6",
@@ -1408,6 +1463,17 @@
     "source": "La Comédie de Saint-Étienne"
   },
   {
+    "id": "ead3e52e4f7a5891801f",
+    "title": "Aube rouge, tentative de mémoire commune [ Résister à 360° ] Du",
+    "start": "2026-12-02T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802098-aube-rouge-tentative-de-memoire-commune-resister-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "c4e2d847bf6285cb3421",
     "title": "Amandine Lourdel",
     "start": "2026-12-03T20:30:00+01:00",
@@ -1430,47 +1496,14 @@
     "source": "Les Trois Ducs"
   },
   {
-    "id": "4b6d4d62f9bfd511a42b",
-    "title": "Billetterie",
-    "start": "2026-12-04T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155685&widget_key=E2155685&locale=fr_FR&color_primary=00AEEF&code=28476&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "e3be17536422a386d6f8",
     "title": "Guillaume Meurice",
-    "start": "2026-12-04T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155685&widget_key=E2155685&locale=fr_FR&color_primary=00AEEF&code=28476&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "b1b00e118b5f54f08c9f",
-    "title": "Vendredi 4 décembre à 20h30 La Forge Billetterie",
-    "start": "2026-12-04T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "73795560ee0230538959",
-    "title": "Vendredi 4 décembre à 20h30 La Forge",
     "start": "2026-12-04T20:30:00+01:00",
     "venue": "La Forge",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155685&widget_key=E2155685&locale=fr_FR&color_primary=00AEEF&code=28476&width_auto=1",
+    "url": "https://lechambon.fr/culture/",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -1483,6 +1516,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/sebastian-marx",
     "source": "Les Trois Ducs"
+  },
+  {
+    "id": "2a45f168d9c22a78913f",
+    "title": "[ Atelier ] Les oublié.e.s de la Photo [ Résister à 360° ]",
+    "start": "2026-12-05T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802084-atelier-les-oublie-e-s-de-la-photo-resister-a-360deg",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "3e4a83c83e5a60caa6aa",
@@ -1512,47 +1556,14 @@
     "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "f0b5d45f706f23ee2e85",
-    "title": "Billetterie",
-    "start": "2026-12-05T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155833&widget_key=E2155833&locale=fr_FR&color_primary=00AEEF&code=60998&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "6ae0f5a208057e212df5",
     "title": "Julien Lieb",
-    "start": "2026-12-05T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155833&widget_key=E2155833&locale=fr_FR&color_primary=00AEEF&code=60998&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "c339a5d13880385de686",
-    "title": "Samedi 5 décembre à 20h30 La Forge Billetterie",
-    "start": "2026-12-05T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "c4c4adbe2c1f47cb0700",
-    "title": "Samedi 5 décembre à 20h30 La Forge",
     "start": "2026-12-05T20:30:00+01:00",
     "venue": "La Forge",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155833&widget_key=E2155833&locale=fr_FR&color_primary=00AEEF&code=60998&width_auto=1",
+    "url": "https://lechambon.fr/culture/",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -1621,6 +1632,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/coeur-de-pirate/",
     "source": "Le Fil"
+  },
+  {
+    "id": "123ed550d9cb0a0dd6f9",
+    "title": "Teaser vivant : Compagnie du Crabe barbu",
+    "start": "2026-12-10T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801608-teaser-vivant-compagnie-du-crabe-barbu",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "164b7ba62ac781f394fb",
@@ -1692,6 +1714,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/mamacita/",
     "source": "Le Fil"
+  },
+  {
+    "id": "d2e3b65c7f657d92853c",
+    "title": "KABARAOKE",
+    "start": "2026-12-13T16:30:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801972-kabaraoke",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "82ad02685c30e3733117",
@@ -1871,6 +1904,17 @@
     "source": "La Comédie de Saint-Étienne"
   },
   {
+    "id": "7617fe65abfb3a3b8e3d",
+    "title": "Le dernier Dino Du",
+    "start": "2027-01-13T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802126-le-dernier-dino",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "fcb61d2fcc0e02b84bf4",
     "title": "Le contre-chant des sirènes Compagnie des Gentils Théâtre musical, dès 9 ans",
     "start": "2027-01-15T20:00:00+01:00",
@@ -1987,47 +2031,14 @@
     "source": "Le Fil"
   },
   {
-    "id": "881db9611e65f53300c6",
-    "title": "Billetterie",
-    "start": "2027-01-22T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155849&widget_key=E2155849&locale=fr_FR&color_primary=00AEEF&code=25120&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "f9b73182192d31dcc4d1",
     "title": "Les Mécanos - Linha(a)",
-    "start": "2027-01-22T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155849&widget_key=E2155849&locale=fr_FR&color_primary=00AEEF&code=25120&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "761b867256c3dbd2247e",
-    "title": "Vendredi 22 janvier à 20h30 Espace culturel Albert Camus Billetterie",
-    "start": "2027-01-22T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "64accdbd0f520489189d",
-    "title": "Vendredi 22 janvier à 20h30 Espace culturel Albert Camus",
     "start": "2027-01-22T20:30:00+01:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155849&widget_key=E2155849&locale=fr_FR&color_primary=00AEEF&code=25120&width_auto=1",
+    "url": "https://lechambon.fr/culture/",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -2206,58 +2217,14 @@
     "source": "Le Fil"
   },
   {
-    "id": "92ac2223ff94d3429066",
-    "title": "Billetterie",
-    "start": "2027-01-30T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155893&widget_key=E2155893&locale=fr_FR&color_primary=00AEEF&code=44784&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "a5a659cc7deba078ea2d",
     "title": "Ma famille en or",
-    "start": "2027-01-30T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155893&widget_key=E2155893&locale=fr_FR&color_primary=00AEEF&code=44784&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "ed9d4ceaeef2f4bc69c0",
-    "title": "Samedi 30 janvier à 20h30 Espace culturel Albert Camus Billetterie",
     "start": "2027-01-30T20:30:00+01:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
     "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "f71fab7c671d2fbe8e71",
-    "title": "Samedi 30 janvier à 20h30 Espace culturel Albert Camus",
-    "start": "2027-01-30T20:30:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155893&widget_key=E2155893&locale=fr_FR&color_primary=00AEEF&code=44784&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "1aec5a8ee6120cb8e03a",
-    "title": "Samedi 30 janvier à 20h30",
-    "start": "2027-01-30T20:30:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155893&widget_key=E2155893&locale=fr_FR&color_primary=00AEEF&code=44784&width_auto=1",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -2374,6 +2341,17 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
+    "id": "d773fd9da4516f5bf9fb",
+    "title": "On s’rencontre # 2",
+    "start": "2027-02-06T18:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801048-on-srencontre-2",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "1bc6d7a7a3658abbe50a",
     "title": "LES ETOILES DU CIRQUE DE PEKIN Odyssée",
     "start": "2027-02-07T16:00:00+01:00",
@@ -2419,58 +2397,25 @@
     "source": "La Comédie de Saint-Étienne"
   },
   {
-    "id": "ad0ee309c40a927f3595",
-    "title": "Billetterie",
-    "start": "2027-02-10T16:00:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
+    "id": "c6a23f4b4bdaac5fbf0a",
+    "title": "Livre alors !",
+    "start": "2027-02-10T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155933&widget_key=E2155933&locale=fr_FR&color_primary=00AEEF&code=37725&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
+    "url": "https://billetterie-leverso.mapado.com/event/802147-livre-alors",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "a255c15b9c03fe3869d0",
     "title": "Un poirier m'a dit",
-    "start": "2027-02-10T16:00:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155933&widget_key=E2155933&locale=fr_FR&color_primary=00AEEF&code=37725&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "5400ccb6cf16d227b43f",
-    "title": "Mercredi 10 février à 16h Espace culturel Albert Camus Billetterie",
     "start": "2027-02-10T16:00:00+01:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
     "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "bfefc1c8473e5663e59f",
-    "title": "Mercredi 10 février à 16h Espace culturel Albert Camus",
-    "start": "2027-02-10T16:00:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155933&widget_key=E2155933&locale=fr_FR&color_primary=00AEEF&code=37725&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "883b76bd13d2fe3fa1a1",
-    "title": "Mercredi 10 février à 16h",
-    "start": "2027-02-10T16:00:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155933&widget_key=E2155933&locale=fr_FR&color_primary=00AEEF&code=37725&width_auto=1",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -2507,58 +2452,14 @@
     "source": "ArcomiK Festival"
   },
   {
-    "id": "ef87b89e4ef5319d2a7d",
-    "title": "Billetterie",
-    "start": "2027-02-18T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155939&widget_key=E2155939&locale=fr_FR&color_primary=00AEEF&code=4851&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "51bb61fb52881ce67ebd",
     "title": "Emy",
-    "start": "2027-02-18T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155939&widget_key=E2155939&locale=fr_FR&color_primary=00AEEF&code=4851&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "3325f9494b28b0adaec5",
-    "title": "Jeudi 18 février à 20h30 Espace culturel Albert Camus Billetterie",
     "start": "2027-02-18T20:30:00+01:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
     "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "c9a94a56ce58cdf2997c",
-    "title": "Jeudi 18 février à 20h30 Espace culturel Albert Camus",
-    "start": "2027-02-18T20:30:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155939&widget_key=E2155939&locale=fr_FR&color_primary=00AEEF&code=4851&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "28f618734748dc16921e",
-    "title": "Jeudi 18 février à 20h30",
-    "start": "2027-02-18T20:30:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155939&widget_key=E2155939&locale=fr_FR&color_primary=00AEEF&code=4851&width_auto=1",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -2650,58 +2551,14 @@
     "source": "ArcomiK Festival"
   },
   {
-    "id": "977b6afbdd77485321b7",
-    "title": "Billetterie",
-    "start": "2027-02-21T17:00:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155957&widget_key=E2155957&locale=fr_FR&color_primary=00AEEF&code=46107&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "f7d2f1fe72d8a00365c1",
     "title": "Olivier de Benoist",
-    "start": "2027-02-21T17:00:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155957&widget_key=E2155957&locale=fr_FR&color_primary=00AEEF&code=46107&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "50e8db17b02d254de6f2",
-    "title": "Dimanche 21 février à 17h La Forge Billetterie",
     "start": "2027-02-21T17:00:00+01:00",
     "venue": "La Forge",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
     "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "ed9bd4569997c1d6b76a",
-    "title": "Dimanche 21 février à 17h La Forge",
-    "start": "2027-02-21T17:00:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155957&widget_key=E2155957&locale=fr_FR&color_primary=00AEEF&code=46107&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "1b4cd04915fcacc21446",
-    "title": "Dimanche 21 février à 17h",
-    "start": "2027-02-21T17:00:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155957&widget_key=E2155957&locale=fr_FR&color_primary=00AEEF&code=46107&width_auto=1",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -2716,58 +2573,14 @@
     "source": "ArcomiK Festival"
   },
   {
-    "id": "a4da3407f18cc432f621",
-    "title": "Billetterie",
-    "start": "2027-02-23T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155975&widget_key=E2155975&locale=fr_FR&color_primary=00AEEF&code=41670&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "8c4c8133c20e59fbbc03",
     "title": "Edouard Deloignon",
-    "start": "2027-02-23T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155975&widget_key=E2155975&locale=fr_FR&color_primary=00AEEF&code=41670&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "187b60f427089518f2f2",
-    "title": "Mardi 23 février à 20h30 La Forge Billetterie",
     "start": "2027-02-23T20:30:00+01:00",
     "venue": "La Forge",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
     "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "86cc43c8286702bc21db",
-    "title": "Mardi 23 février à 20h30 La Forge",
-    "start": "2027-02-23T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155975&widget_key=E2155975&locale=fr_FR&color_primary=00AEEF&code=41670&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "212d5e56a73cd717625a",
-    "title": "Mardi 23 février à 20h30",
-    "start": "2027-02-23T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155975&widget_key=E2155975&locale=fr_FR&color_primary=00AEEF&code=41670&width_auto=1",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -2824,50 +2637,6 @@
     "description": "",
     "url": "https://www.arcomik.com/event/jesse-st-etienne-spectacle-arcomik-festival/",
     "source": "ArcomiK Festival"
-  },
-  {
-    "id": "b13fc40f54799589d361",
-    "title": "Billetterie",
-    "start": "2027-02-25T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169299&widget_key=E2169299&locale=fr_FR&color_primary=00AEEF&code=35371&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "9357bcf56faf408ae9c7",
-    "title": "Jeudi 25 février à 20h30 La Forge Billetterie",
-    "start": "2027-02-25T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "f84b66db305d3788bd31",
-    "title": "Jeudi 25 février à 20h30 La Forge",
-    "start": "2027-02-25T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169299&widget_key=E2169299&locale=fr_FR&color_primary=00AEEF&code=35371&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "197a8055a526c36b26df",
-    "title": "Jeudi 25 février à 20h30",
-    "start": "2027-02-25T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169299&widget_key=E2169299&locale=fr_FR&color_primary=00AEEF&code=35371&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
   },
   {
     "id": "3d826f691baaba4e53c9",
@@ -3018,58 +2787,14 @@
     "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "3b294eb93cbf26b94c4d",
-    "title": "Billetterie",
-    "start": "2027-03-05T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169305&widget_key=E2169305&locale=fr_FR&color_primary=00AEEF&code=51539&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "332966dd158c8c3c8f40",
     "title": "Eidolons",
-    "start": "2027-03-05T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169305&widget_key=E2169305&locale=fr_FR&color_primary=00AEEF&code=51539&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "4b50b6a1e39e8b8e9556",
-    "title": "Vendredi 5 mars à 20h30 Espace culturel Albert Camus Billetterie",
     "start": "2027-03-05T20:30:00+01:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
     "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "2b44b17fc1e769ad7d20",
-    "title": "Vendredi 5 mars à 20h30 Espace culturel Albert Camus",
-    "start": "2027-03-05T20:30:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169305&widget_key=E2169305&locale=fr_FR&color_primary=00AEEF&code=51539&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "0433431c6fe925951753",
-    "title": "Vendredi 5 mars à 20h30",
-    "start": "2027-03-05T20:30:00+01:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169305&widget_key=E2169305&locale=fr_FR&color_primary=00AEEF&code=51539&width_auto=1",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -3140,6 +2865,17 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
+    "id": "62da2a81b915ad84f7e4",
+    "title": "L’éloge du vide Du",
+    "start": "2027-03-10T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/832566-leloge-du-vide",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "e229293e2f2c7528513b",
     "title": "Dites-le donc avec des fleurs ! COMPAGNIE OSE UN STANDARD",
     "start": "2027-03-11T20:00:00+01:00",
@@ -3178,30 +2914,8 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
-    "id": "5c10eb2bc20809db5aad",
-    "title": "Billetterie",
-    "start": "2027-03-12T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169329&widget_key=E2169329&locale=fr_FR&color_primary=00AEEF&code=14956&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "935eb01e933f2e727ee0",
     "title": "Nous étions une armée",
-    "start": "2027-03-12T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169329&widget_key=E2169329&locale=fr_FR&color_primary=00AEEF&code=14956&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "a17c3847005039f30f06",
-    "title": "Vendredi 12 mars à 20h30 La Forge Billetterie",
     "start": "2027-03-12T20:30:00+01:00",
     "venue": "La Forge",
     "city": "Le Chambon-Feugerolles",
@@ -3211,26 +2925,15 @@
     "source": "Ville du Chambon-Feugerolles"
   },
   {
-    "id": "c492fffab88dc170dfb5",
-    "title": "Vendredi 12 mars à 20h30 La Forge",
-    "start": "2027-03-12T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
+    "id": "b21c0f1e92f540123fdc",
+    "title": "[ Atelier ] Danse contemporaine [ Matières vives festival ]",
+    "start": "2027-03-13T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169329&widget_key=E2169329&locale=fr_FR&color_primary=00AEEF&code=14956&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "49877bc7e866791303e9",
-    "title": "Vendredi 12 mars à 20h30",
-    "start": "2027-03-12T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169329&widget_key=E2169329&locale=fr_FR&color_primary=00AEEF&code=14956&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
+    "url": "https://billetterie-leverso.mapado.com/event/802210-atelier-danse-contemporaine-matieres-vives-festival",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "60bc0b078e341812a272",
@@ -3315,6 +3018,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/mozart-paradox/s-901/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "d93b435a243317dd9fc8",
+    "title": "Cie à pas de velours + AMY [ Matières Vives Festival ] Du",
+    "start": "2027-03-17T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802245-cie-a-pas-de-velours-amy-matieres-vives-festival",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "8fe59d6c94fd4ae25337",
@@ -3469,30 +3183,8 @@
     "source": "Les Trois Ducs"
   },
   {
-    "id": "aac9c153a776a61688e5",
-    "title": "Billetterie",
-    "start": "2027-03-27T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169401&widget_key=E2169401&locale=fr_FR&color_primary=00AEEF&code=72788&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "5e65f36f4a8447611e42",
     "title": "Julien Clerc",
-    "start": "2027-03-27T20:30:00+01:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169401&widget_key=E2169401&locale=fr_FR&color_primary=00AEEF&code=72788&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "7a14aa7665c0d77ce313",
-    "title": "Samedi 27 mars à 20h30 La Forge Billetterie",
     "start": "2027-03-27T20:30:00+01:00",
     "venue": "La Forge",
     "city": "Le Chambon-Feugerolles",
@@ -3502,26 +3194,15 @@
     "source": "Ville du Chambon-Feugerolles"
   },
   {
-    "id": "f25b69349b39848627ad",
-    "title": "Samedi 27 mars à 20h30 La Forge",
-    "start": "2027-03-27T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
+    "id": "a70890ba6b012b16c410",
+    "title": "Soirée canap' : Z.A.D, outils de lutte ?",
+    "start": "2027-04-01T19:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169401&widget_key=E2169401&locale=fr_FR&color_primary=00AEEF&code=72788&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "613f6dbeea3bb71a8bb3",
-    "title": "Samedi 27 mars à 20h30",
-    "start": "2027-03-27T20:30:00+01:00",
-    "venue": "La Forge",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169401&widget_key=E2169401&locale=fr_FR&color_primary=00AEEF&code=72788&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
+    "url": "https://billetterie-leverso.mapado.com/event/801475-soiree-canap-z-a-d-outils-de-lutte",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "bdc545dbe87690f91ae2",
@@ -3535,58 +3216,25 @@
     "source": "Le Fil"
   },
   {
-    "id": "eca312b0400569ecf68a",
-    "title": "Billetterie",
-    "start": "2027-04-02T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
+    "id": "317a5147117a41842e4f",
+    "title": "Soirée jeux à Pile ou face [ Jouer à 306° ]",
+    "start": "2027-04-02T18:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169415&widget_key=E2169415&locale=fr_FR&color_primary=00AEEF&code=66477&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
+    "url": "https://billetterie-leverso.mapado.com/event/802301-soiree-jeux-a-pile-ou-face-jouer-a-306deg",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "913c86a2e9c0588bc596",
     "title": "Frantz",
-    "start": "2027-04-02T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169415&widget_key=E2169415&locale=fr_FR&color_primary=00AEEF&code=66477&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "0d5fa2df3f0217861798",
-    "title": "Vendredi 2 avril à 20h30 Espace culturel Albert Camus Billetterie",
     "start": "2027-04-02T20:30:00+02:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
     "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "8598383ff5643cf7dd3f",
-    "title": "Vendredi 2 avril à 20h30 Espace culturel Albert Camus",
-    "start": "2027-04-02T20:30:00+02:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169415&widget_key=E2169415&locale=fr_FR&color_primary=00AEEF&code=66477&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "ab4db9b2c2543fa64541",
-    "title": "Vendredi 2 avril à 20h30",
-    "start": "2027-04-02T20:30:00+02:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169415&widget_key=E2169415&locale=fr_FR&color_primary=00AEEF&code=66477&width_auto=1",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -3665,6 +3313,17 @@
     "source": "Opéra de Saint-Étienne"
   },
   {
+    "id": "353b74e7651ee3e4549c",
+    "title": "(En)jeux de Société [ Jouer à 360° ] Du",
+    "start": "2027-04-07T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802497-en-jeux-de-societe-jouer-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "bb3ceffb468059d01470",
     "title": "Léopold Lemarchand",
     "start": "2027-04-09T20:30:00+02:00",
@@ -3676,6 +3335,28 @@
     "source": "Le Fil"
   },
   {
+    "id": "f6d20ce661445fa169e0",
+    "title": "[ Atelier ] Le théâtre, c’est pour de vrai, mais pour de faux ou l’inverse, peu importe [ Jouer à 360° ]",
+    "start": "2027-04-10T14:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802350-atelier-le-theatre-cest-pour-de-vrai-mais-pour-de-faux-ou-linverse-peu-importe-jouer-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "74d4716311b20202c896",
+    "title": "Teaser vivant : Compagnie Le cri des ogres",
+    "start": "2027-04-21T14:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801580-teaser-vivant-compagnie-le-cri-des-ogres",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "bdfaf7f67763afa9c5c0",
     "title": "La Yegros + première partie",
     "start": "2027-04-22T20:30:00+02:00",
@@ -3685,6 +3366,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/la-yegros/",
     "source": "Le Fil"
+  },
+  {
+    "id": "bd99082a71ca1459972a",
+    "title": "Lola, Remo et le Croque-doigt",
+    "start": "2027-04-25T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802518-lola-remo-et-le-croque-doigt",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "85c72824905959c67b2c",
@@ -3740,58 +3432,14 @@
     "source": "Opéra de Saint-Étienne"
   },
   {
-    "id": "f49f198c68ed9a14bdcc",
-    "title": "Billetterie",
-    "start": "2027-04-30T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169419&widget_key=E2169419&locale=fr_FR&color_primary=00AEEF&code=64096&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
     "id": "6253774d501e729719ba",
     "title": "Oria",
-    "start": "2027-04-30T20:30:00+02:00",
-    "venue": "Le Chambon-Feugerolles",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169419&widget_key=E2169419&locale=fr_FR&color_primary=00AEEF&code=64096&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "ba646993d04289597b2c",
-    "title": "Vendredi 30 avril à 20h30 Espace culturel Albert Camus Billetterie",
     "start": "2027-04-30T20:30:00+02:00",
     "venue": "Espace culturel Albert Camus",
     "city": "Le Chambon-Feugerolles",
     "category": "Spectacle",
     "description": "",
     "url": "https://lechambon.fr/culture/",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "7198442a4aabf07d4a12",
-    "title": "Vendredi 30 avril à 20h30 Espace culturel Albert Camus",
-    "start": "2027-04-30T20:30:00+02:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169419&widget_key=E2169419&locale=fr_FR&color_primary=00AEEF&code=64096&width_auto=1",
-    "source": "Ville du Chambon-Feugerolles"
-  },
-  {
-    "id": "d49f7125f4e95c9e0031",
-    "title": "Vendredi 30 avril à 20h30",
-    "start": "2027-04-30T20:30:00+02:00",
-    "venue": "Espace culturel Albert Camus",
-    "city": "Le Chambon-Feugerolles",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169419&widget_key=E2169419&locale=fr_FR&color_primary=00AEEF&code=64096&width_auto=1",
     "source": "Ville du Chambon-Feugerolles"
   },
   {
@@ -3827,6 +3475,28 @@
     "source": "Opéra de Saint-Étienne"
   },
   {
+    "id": "f47989f3b7e5873cda73",
+    "title": "Oyseaux de lumière [ Des plumes à 360° ]",
+    "start": "2027-05-19T14:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802728-oyseaux-de-lumiere-des-plumes-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "1baf2592b21ccb247abe",
+    "title": "[ Quartier Culturel Saint-François ] Atelier de criée",
+    "start": "2027-05-20T19:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802560-quartier-culturel-saint-francois-atelier-de-criee",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "d471c49d457dec660202",
     "title": "CÉDRIC SALAUN",
     "start": "2027-05-20T20:30:00+02:00",
@@ -3860,6 +3530,17 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
+    "id": "36a0b935841da994fad8",
+    "title": "Les Martinets, une conférence-spectacle presque pas anthropocentrée ! [ Des plumes à 360° ] Du",
+    "start": "2027-05-23T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802742-les-martinets-une-conference-spectacle-presque-pas-anthropocentree-des-plumes-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "c69260023040f9c92e84",
     "title": "Variations pour un Parapluie Compagnie CHOUETTE il pleut ! Clown et musique, dès 3 ans",
     "start": "2027-05-26T10:00:00+02:00",
@@ -3875,6 +3556,28 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/variations-pour-un-parapluie/s-920/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "1769e9ed6c5e28ceba85",
+    "title": "Cuir, queer et martinet(s). [ Des plumes à 360° ]",
+    "start": "2027-05-27T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802714-cuir-queer-et-martinet-s-des-plumes-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "b997d54e72438b10edc3",
+    "title": "[ Quartier Culturel Saint-François ] La fête des voisin.e.s - 2eme édition",
+    "start": "2027-05-28T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802595-quartier-culturel-saint-francois-la-fete-des-voisin-e-s-2eme-edition",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "1986e67afd7f784cff9e",
@@ -3913,6 +3616,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "f7de1cf7e3148209e116",
+    "title": "La nuit l’ordure Du",
+    "start": "2027-06-09T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802749-la-nuit-lordure",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "ac21252886b680cab02d",
@@ -3961,6 +3675,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/le-chantier-des-imaginaires",
     "source": "La Comédie de Saint-Étienne"
+  },
+  {
+    "id": "6359668fb73774acd9b8",
+    "title": "Le Conservatoire Massenet de Saint-Etienne",
+    "start": "2027-06-18T10:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802777-le-conservatoire-massenet-de-saint-etienne",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "a2830d0e951a6a88c858",
