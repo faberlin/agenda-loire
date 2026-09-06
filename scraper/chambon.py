@@ -147,7 +147,7 @@ def scrape_chambon() -> list[dict]:
             "category": "Spectacle",
             "description": "",
             "url": URL,
-            "source": "Ville du Chambon-Feugerolles",
+            "source": " Salles Chambon-Feugerolles",
         })
 
     return sorted(events, key=lambda ev: ev["start"])
