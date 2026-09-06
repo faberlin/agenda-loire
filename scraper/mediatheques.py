@@ -51,7 +51,7 @@ def scrape_mediatheques() -> list[dict]:
             "category": "Littérature",
             "description": summary[:500],
             "url": link,
-            "source": source_name
+            "source": "Médiathèques Sainté"
         })
 
     return events
