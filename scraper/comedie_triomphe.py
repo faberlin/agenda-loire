@@ -119,7 +119,7 @@ def scrape_comedie_triomphe() -> list[dict]:
             "category": "Théâtre",
             "description": "",
             "url": href,
-            "source": "La Comédie Triomphe",
+            "source": "Comédie Triomphe",
         })
 
     return sorted(events, key=lambda ev: ev["start"])
