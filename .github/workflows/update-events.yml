@@ -31,7 +31,15 @@ jobs:
         run: |
           git config user.name "agenda-loire-bot"
           git config user.email "agenda-loire-bot@users.noreply.github.com"
+
           git add events.json
-          git diff --cached --quiet && exit 0
+
+          if git diff --cached --quiet; then
+            echo "Aucun changement dans events.json"
+            exit 0
+          fi
+
           git commit -m "Mise à jour automatique des événements"
-          git push
+
+          git pull --rebase origin main
+          git push origin main
