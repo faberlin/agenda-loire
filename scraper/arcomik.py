@@ -70,7 +70,7 @@ def scrape_arcomik():
             "category": "Humour",
             "description": "",
             "url": url,
-            "source": "ArcomiK Festival",
+            "source": "ArcomiK",
         })
 
     return events
