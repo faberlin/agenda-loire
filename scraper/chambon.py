@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 import re
 from datetime import datetime
 from urllib.parse import urljoin
@@ -8,102 +9,145 @@ from bs4 import BeautifulSoup
 
 from utils import PARIS, clean, stable_id
 
+
 URL = "https://lechambon.fr/culture/"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 MONTHS = {
     "janvier": 1, "février": 2, "fevrier": 2, "mars": 3, "avril": 4,
     "mai": 5, "juin": 6, "juillet": 7, "août": 8, "aout": 8,
-    "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12, "decembre": 12
+    "septembre": 9, "octobre": 10, "novembre": 11,
+    "décembre": 12, "decembre": 12,
 }
 
 DATE_RE = re.compile(
-    r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)\s+"
-    r"(\d{1,2})\s+([A-Za-zÀ-ÿ]+)\s+à\s+(\d{1,2})h(?:(\d{2}))?",
-    re.I
+    r"^(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)\s+"
+    r"(\d{1,2})\s+([A-Za-zÀ-ÿ]+)\s+à\s+"
+    r"(\d{1,2})h(?:(\d{2}))?$",
+    re.IGNORECASE,
 )
 
-def _year(month):
+VENUES = {
+    "la forge": "La Forge",
+    "espace culturel albert camus": "Espace culturel Albert Camus",
+    "espace culturel a. camus": "Espace culturel Albert Camus",
+}
+
+SKIP = {
+    "billetterie", "image", "lecteur vidéo vimeo", "video",
+    "télécharger le programme", "telecharger le programme",
+    "prendre un abonnement",
+}
+
+
+def _season_year(month: int) -> int:
+    # Saison 2026/2027
     return 2026 if month >= 9 else 2027
 
-def scrape_chambon():
-    r = requests.get(URL, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
 
-    section = soup.find(lambda tag: tag.name in ["h2", "h3"] and "saison culturelle" in clean(tag.get_text(" ")).lower())
-    if not section:
+def scrape_chambon() -> list[dict]:
+    response = requests.get(URL, headers=HEADERS, timeout=30)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    lines = [clean(x) for x in soup.stripped_strings]
+    lines = [x for x in lines if x]
+
+    # On ne travaille que dans la zone "Saison culturelle 2026/2027".
+    start = next(
+        (i for i, line in enumerate(lines)
+         if "saison culturelle 2026/2027" in line.lower()),
+        None
+    )
+    if start is None:
         return []
 
-    events = []
-    node = section.find_next()
+    end = next(
+        (i for i in range(start + 1, len(lines))
+         if lines[i].lower() == "abonnements"),
+        len(lines)
+    )
 
-    while node:
-        if node.name in ["h2", "h3"] and node is not section:
+    lines = lines[start + 1:end]
+
+    events = []
+    seen = set()
+
+    for i, line in enumerate(lines):
+        match = DATE_RE.match(line)
+        if not match:
+            continue
+
+        day = int(match.group(1))
+        month_name = match.group(2).lower()
+        month = MONTHS.get(month_name)
+        if not month:
+            continue
+
+        hour = int(match.group(3))
+        minute = int(match.group(4) or 0)
+        dt = datetime(
+            _season_year(month), month, day, hour, minute, tzinfo=PARIS
+        )
+
+        # Titre = première ligne utile juste avant la date.
+        title = ""
+        for j in range(i - 1, max(-1, i - 8), -1):
+            candidate = lines[j]
+            low = candidate.lower()
+            if low in SKIP:
+                continue
+            if DATE_RE.match(candidate):
+                break
+            if low in VENUES:
+                continue
+            if low.startswith("billetterie"):
+                continue
+            if low.startswith("saison culturelle"):
+                continue
+            title = candidate
             break
 
-        text = clean(node.get_text(" ")) if getattr(node, "get_text", None) else ""
-        m = DATE_RE.search(text)
+        if not title:
+            continue
 
-        if m:
-            date_node = node
-            title_node = date_node.find_previous(lambda t: t.name in ["p", "h3", "h4", "div"] and clean(t.get_text(" ")))
-            title = clean(title_node.get_text(" ")) if title_node else ""
+        # Salle = première salle reconnue juste après la date.
+        venue = ""
+        for j in range(i + 1, min(len(lines), i + 8)):
+            candidate = lines[j]
+            low = candidate.lower()
 
-            # évite de reprendre le titre de section
-            if "saison culturelle" in title.lower():
-                title = ""
+            if low in VENUES:
+                venue = VENUES[low]
+                break
 
-            month = MONTHS.get(m.group(2).lower())
-            if not month:
-                node = node.find_next()
-                continue
+            if DATE_RE.match(candidate):
+                break
 
-            dt = datetime(
-                _year(month), month, int(m.group(1)),
-                int(m.group(3)), int(m.group(4) or 0), tzinfo=PARIS
-            )
+        if not venue:
+            # Les seules salles de cette programmation sont La Forge et Albert Camus.
+            # Si la page change, on préfère ignorer plutôt qu'inventer un lieu.
+            continue
 
-            # Le lieu est généralement le bloc juste après la date
-            venue = ""
-            probe = date_node.find_next()
-            for _ in range(4):
-                if not probe:
-                    break
-                t = clean(probe.get_text(" ")) if getattr(probe, "get_text", None) else ""
-                if t in {"La Forge", "Espace culturel Albert Camus", "Espace Culturel Albert Camus"}:
-                    venue = t
-                    break
-                probe = probe.find_next()
+        key = (title.lower(), dt.isoformat(), venue.lower())
+        if key in seen:
+            continue
+        seen.add(key)
 
-            if not venue:
-                venue = "Le Chambon-Feugerolles"
+        events.append({
+            "id": stable_id(
+                "Ville du Chambon-Feugerolles",
+                title,
+                dt.isoformat()
+            ),
+            "title": title,
+            "start": dt.isoformat(),
+            "venue": venue,
+            "city": "Le Chambon-Feugerolles",
+            "category": "Spectacle",
+            "description": "",
+            "url": URL,
+            "source": "Ville du Chambon-Feugerolles",
+        })
 
-            link = None
-            probe = date_node
-            for _ in range(6):
-                if not probe:
-                    break
-                link = probe.find("a", href=True) if getattr(probe, "find", None) else None
-                if link and "billetterie" in clean(link.get_text(" ")).lower():
-                    break
-                probe = probe.find_next()
-
-            url = urljoin(URL, link["href"]) if link else URL
-
-            if title:
-                events.append({
-                    "id": stable_id("Ville du Chambon-Feugerolles", title, dt.isoformat()),
-                    "title": title,
-                    "start": dt.isoformat(),
-                    "venue": venue,
-                    "city": "Le Chambon-Feugerolles",
-                    "category": "Spectacle",
-                    "description": "",
-                    "url": url,
-                    "source": "Ville du Chambon-Feugerolles",
-                })
-
-        node = node.find_next()
-
-    return events
+    return sorted(events, key=lambda ev: ev["start"])

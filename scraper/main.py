@@ -61,6 +61,7 @@ def main():
         json.dumps(all_events, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
+
     print(f"{len(all_events)} événements écrits dans {OUT}")
 
 
