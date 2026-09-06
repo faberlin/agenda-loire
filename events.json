@@ -44,6 +44,17 @@
     "source": "Médiathèques de Saint-Étienne"
   },
   {
+    "id": "8697626ae2ec2b7e2dde",
+    "title": "3NVOUTEMENT",
+    "start": "2026-09-18T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/3nvoutement",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "103c8f1ccb0522f7ab6f",
     "title": "Journées du patrimoine 2026 Visites guidées du fil !",
     "start": "2026-09-19T11:00:00+02:00",
@@ -64,6 +75,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/djadja-dinaz/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "2c62fa2bcea303b50438",
+    "title": "LAURENT BARAT",
+    "start": "2026-09-19T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/laurent-barat",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "7941576495e86104f9ef",
@@ -99,6 +121,39 @@
     "source": "Le Fil"
   },
   {
+    "id": "0add7b718ee3db61350d",
+    "title": "JEAN-BENOIT DIALLO",
+    "start": "2026-09-24T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/jean-benoit-diallo",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "20760de7d3cfc74b962f",
+    "title": "ROMAN DODUIK",
+    "start": "2026-09-25T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/roman-doduik",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "2f922c12df8ed8005c3d",
+    "title": "ROMAN DODUIK",
+    "start": "2026-09-26T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/roman-doduik-2",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "eefedb121cff3d032d30",
     "title": "ABBA MANIA THE ABBA TRIBUTE",
     "start": "2026-09-27T18:00:00+02:00",
@@ -130,6 +185,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/talisco/",
     "source": "Le Fil"
+  },
+  {
+    "id": "03aa83c64fca321ddb68",
+    "title": "GAGA FIGHT",
+    "start": "2026-10-01T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-22",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "dd6eb2e754508e3d2376",
@@ -165,6 +231,17 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
+    "id": "3de9387295ffe4df6eed",
+    "title": "HAROLD BARBÉ",
+    "start": "2026-10-02T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/www-lestroisducs-fr-harold-barbe",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "7d89d32a4b80d9e19b44",
     "title": "5ème Symphonie de Mahler Gustav Mahler",
     "start": "2026-10-03T20:00:00+02:00",
@@ -173,7 +250,7 @@
       "2026-10-03T20:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -190,6 +267,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/meryl/",
     "source": "Le Fil"
+  },
+  {
+    "id": "10a8dd21617f0146688e",
+    "title": "THOMAS GT",
+    "start": "2026-10-03T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/thomas-gt",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "3e3a0fd0daaaf52b5e5c",
@@ -245,12 +333,23 @@
       "2026-10-10T16:00:00+02:00"
     ],
     "session_count": 2,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/va-falloir-toujours-toujours/s-894/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "f887cd0201d5db670765",
+    "title": "MISTER MAT",
+    "start": "2026-10-08T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/mister-mat",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "1092b498c1e7b4214fca",
@@ -262,6 +361,83 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/svinkels-family-friends/",
     "source": "Le Fil"
+  },
+  {
+    "id": "6b151d7f05e05fa8510b",
+    "title": "Télécharger le programme",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "a46a3437dd7fc7fe17c1",
+    "title": "Billetterie de la saison 2026/2027",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "7a5dc5f66c2c496cdce5",
+    "title": "Arnaud Tsamère Vendredi 9 octobre à 20h30 La Forge Billetterie Homo Lunaticus ou le jardin de Lune Mercredi 14 octobre à 16h Espace culturel Albert Camus Billetterie Rodrigue Samedi 7 novembre à 20h30 Espace culturel Albert Camus Vendredi 6 novembre à 20h30 Espace culturel Albert Camus Billetterie Tout contre la terre Samedi 21 novembre à 20h30 Espace culturel Albert Camus Billetterie Un chat dans la ville Mercredi 25 novembre à 16h Espace culturel Albert Camus Billetterie Guillaume Meurice Vendredi 4 décembre à 20h30 La Forge Billetterie Julien Lieb Samedi 5 décembre à 20h30 La Forge Billetterie Les Mécanos - Linha(a) Vendredi 22 janvier à 20h30 Espace culturel Albert Camus Billetterie Ma famille en or Samedi 30 janvier à 20h30 Espace culturel Albert Camus Billetterie Un poirier m'a dit Mercredi 10 février à 16h Espace culturel Albert Camus Billetterie Emy Jeudi 18 février à 20h30 Espace culturel Albert Camus Billetterie Olivier de Benoist Dimanche 21 février à 17h La Forge Billetterie Edouard Deloignon Mardi 23 février à 20h30 La Forge Billetterie Ana Godefroy Jeudi 25 février à 20h30 La Forge Billetterie Eidolons Vendredi 5 mars à 20h30 Espace culturel Albert Camus Billetterie Nous étions une armée Vendredi 12 mars à 20h30 La Forge Billetterie Julien Clerc Samedi 27 mars à 20h30 La Forge Billetterie Frantz Vendredi 2 avril à 20h30 Espace culturel Albert Camus Billetterie Oria Vendredi 30 avril à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "c761ff80b92f57078218",
+    "title": "Arnaud Tsamère",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "6abb48e50cee9eef5505",
+    "title": "Vendredi 9 octobre à 20h30 La Forge Billetterie",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "b7eedd6770f0336f14b1",
+    "title": "Vendredi 9 octobre à 20h30 La Forge",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2149589&widget_key=E2149589&locale=fr_FR&color_primary=00AEEF&code=25665&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "4c7467c96e0ef4110b96",
+    "title": "MARIE BÔ",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/marie-bo",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "f56f4b4a9a1aec2e31a6",
@@ -286,6 +462,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "fab6b7d3849883be5d3e",
+    "title": "GAËTAN PETIT",
+    "start": "2026-10-10T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaetan-petit",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "8277a78237b9bdeeb856",
     "title": "Mixage en M.A.O : les fondamentaux Avec Jules Payen, ingénieur son",
     "start": "2026-10-13T19:00:00+02:00",
@@ -297,6 +484,61 @@
     "source": "Le Fil"
   },
   {
+    "id": "2b4cde9d9cf3141d2501",
+    "title": "Billetterie",
+    "start": "2026-10-14T16:00:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2150019&widget_key=E2150019&locale=fr_FR&color_primary=00AEEF&code=4877&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "bd7717c4be74e33b795e",
+    "title": "Homo Lunaticus ou le jardin de Lune",
+    "start": "2026-10-14T16:00:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2150019&widget_key=E2150019&locale=fr_FR&color_primary=00AEEF&code=4877&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "79d544925ecd5a373829",
+    "title": "Mercredi 14 octobre à 16h Espace culturel Albert Camus Billetterie",
+    "start": "2026-10-14T16:00:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "b3c2aefefc6eed8e530c",
+    "title": "Mercredi 14 octobre à 16h Espace culturel Albert Camus",
+    "start": "2026-10-14T16:00:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2150019&widget_key=E2150019&locale=fr_FR&color_primary=00AEEF&code=4877&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "30ecbe805b741c5c8db4",
+    "title": "Mercredi 14 octobre à 16h",
+    "start": "2026-10-14T16:00:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2150019&widget_key=E2150019&locale=fr_FR&color_primary=00AEEF&code=4877&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
     "id": "fd8d700deb1af4e1e398",
     "title": "Don Quichotte Le Théâtre du Corps Pietragalla - Derouault",
     "start": "2026-10-15T20:00:00+02:00",
@@ -305,7 +547,7 @@
       "2026-10-15T20:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -335,6 +577,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "13eb833cc73c47ba18e0",
+    "title": "KINO",
+    "start": "2026-10-16T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/kino",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "b0f96b1809a4af4e7123",
     "title": "The Brooks + TIWAYO",
     "start": "2026-10-17T20:30:00+02:00",
@@ -357,6 +610,17 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
+    "id": "fa66314406ef2cc25ad1",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2026-10-17T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-14",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "9e5a12bd81e225bd4b93",
     "title": "The Opera Locos Yllana et Encore Un Tour Humour musical",
     "start": "2026-10-22T20:00:00+02:00",
@@ -366,12 +630,23 @@
       "2026-10-23T20:00:00+02:00"
     ],
     "session_count": 2,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/the-opera-locos/s-888/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "756aa8106969d37ece34",
+    "title": "OLIVIA MOORE",
+    "start": "2026-10-22T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/olivia-moore",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "ee9f9e9a955c5cd3b874",
@@ -396,6 +671,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "ba40f9ef925715ace990",
+    "title": "NASSIM MELLAH",
+    "start": "2026-10-23T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nassim-mellah",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "ea0134b582f8f0f753e8",
     "title": "THE DEPECHE MODE EXPERIENCE",
     "start": "2026-10-24T20:00:00+02:00",
@@ -405,6 +691,50 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/the-depeche-mode-experience/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "7f8fb8bc0c4e50e52531",
+    "title": "SARAH-ANNA",
+    "start": "2026-10-24T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/sarah-anna",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "efbb67a929a82e1ec569",
+    "title": "FÉLIX JUNIER",
+    "start": "2026-10-29T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/felix-junier",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "9afc6985fcc97670d8b8",
+    "title": "MORGANE BERLING",
+    "start": "2026-10-30T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/morgane-berling",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "4fc0a7d2ccd4201df1e5",
+    "title": "BELLE MÈRE À VENDRE",
+    "start": "2026-10-31T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/belle-mere-a-vendre",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "f4cb1f61a53298e139e2",
@@ -425,6 +755,17 @@
     "source": "La Comédie de Saint-Étienne"
   },
   {
+    "id": "c86a1d00959d6163e87b",
+    "title": "ALEX DI MAMBRO",
+    "start": "2026-11-04T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/alex-di-mambro",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "a1e3080ec96020ca6ce0",
     "title": "Les Nuances Utopiques Ensemble Orchestral Contemporain",
     "start": "2026-11-05T20:00:00+01:00",
@@ -433,12 +774,23 @@
       "2026-11-05T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-nuances-utopiques/s-889/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "1100636435e88bc598c9",
+    "title": "GAGA FIGHT",
+    "start": "2026-11-05T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-23",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "4f63ca54576afaac7d15",
@@ -452,6 +804,39 @@
     "source": "Le Fil"
   },
   {
+    "id": "eb44622f6c357157e172",
+    "title": "Samedi 7 novembre à 20h30 Espace culturel Albert Camus",
+    "start": "2026-11-06T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "4d18bb56e3d532052ae9",
+    "title": "Vendredi 6 novembre à 20h30 Espace culturel Albert Camus",
+    "start": "2026-11-06T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2307641&widget_key=E2307641&locale=fr_FR&color_primary=00AEEF&code=53178&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "df47fb92cceadd3f25a4",
+    "title": "EDGAR-YVES JR.",
+    "start": "2026-11-06T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/edgar-yves-jr",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "7ebe6401703791fc0700",
     "title": "Folie’s",
     "start": "2026-11-07T20:30:00+01:00",
@@ -461,6 +846,50 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/folies/",
     "source": "Le Fil"
+  },
+  {
+    "id": "13dd3e42ae45cb5e3a3f",
+    "title": "Billetterie",
+    "start": "2026-11-07T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2307641&widget_key=E2307641&locale=fr_FR&color_primary=00AEEF&code=53178&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "6d9a7653b2b017171d7b",
+    "title": "Rodrigue",
+    "start": "2026-11-07T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2307641&widget_key=E2307641&locale=fr_FR&color_primary=00AEEF&code=53178&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "69dcadaa95d98564cc84",
+    "title": "Samedi 7 novembre à 20h30 Espace culturel Albert Camus Vendredi 6 novembre à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2026-11-07T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "a037a51de0bb7a0a526f",
+    "title": "Samedi 7 novembre à 20h30 Espace culturel Albert Camus",
+    "start": "2026-11-07T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
   },
   {
     "id": "3372e2ddeefb58f52ebd",
@@ -516,12 +945,23 @@
       "2026-11-17T20:00:00+01:00"
     ],
     "session_count": 3,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmen/s-922/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "180ab9797589c2ae4351",
+    "title": "GUILLAUME SENTOU",
+    "start": "2026-11-13T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/guillaume-sentou",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "c075c72a3bdfc3a790ed",
@@ -544,6 +984,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/didier-super/",
     "source": "Le Fil"
+  },
+  {
+    "id": "8190281018457d74b966",
+    "title": "MARC-ANTOINE LE BRET",
+    "start": "2026-11-14T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/marc-antoine-le-bret",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "6ccec288a91dd4e88068",
@@ -623,12 +1074,23 @@
       "2026-11-19T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/inacheve-br-un-fantome-dans-l-opera/s-902/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "c149aaa293cd0713dd8c",
+    "title": "NASH",
+    "start": "2026-11-19T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nash",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "c3eaa38abb1f1693d1a5",
@@ -653,6 +1115,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "ff3350b354dfbc0558e6",
+    "title": "NASH",
+    "start": "2026-11-20T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nash-2",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "abc88c3892134f549680",
     "title": "CLAUDIO CAPEO",
     "start": "2026-11-21T20:00:00+01:00",
@@ -675,6 +1148,61 @@
     "source": "Le Fil"
   },
   {
+    "id": "b7ebfb66f0810f995854",
+    "title": "Billetterie",
+    "start": "2026-11-21T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2154077&widget_key=E2154077&locale=fr_FR&color_primary=00AEEF&code=27805&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "dcd4b69cbbfb02f30181",
+    "title": "Tout contre la terre",
+    "start": "2026-11-21T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2154077&widget_key=E2154077&locale=fr_FR&color_primary=00AEEF&code=27805&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "ea87085bb37577c5ef8c",
+    "title": "Samedi 21 novembre à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2026-11-21T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "26c6fff8fcd5db822203",
+    "title": "Samedi 21 novembre à 20h30 Espace culturel Albert Camus",
+    "start": "2026-11-21T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2154077&widget_key=E2154077&locale=fr_FR&color_primary=00AEEF&code=27805&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "a189dd5edbf54a407b72",
+    "title": "ANNE DEPETRINI",
+    "start": "2026-11-21T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/anne-depetrini",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "8fc5155d4949919a3471",
     "title": "REDOUANE BOUGHERABA Mon Premier Spectacle",
     "start": "2026-11-23T20:00:00+01:00",
@@ -695,7 +1223,7 @@
       "2026-11-25T20:00:00+01:00"
     ],
     "session_count": 2,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -741,6 +1269,50 @@
     "source": "La Comédie de Saint-Étienne"
   },
   {
+    "id": "8243fdab50afb7a3341f",
+    "title": "Billetterie",
+    "start": "2026-11-25T16:00:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155645&widget_key=E2155645&locale=fr_FR&color_primary=00AEEF&code=46926&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "c80ab0583b32070fda72",
+    "title": "Un chat dans la ville",
+    "start": "2026-11-25T16:00:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155645&widget_key=E2155645&locale=fr_FR&color_primary=00AEEF&code=46926&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "cb75b456721a86fc20b7",
+    "title": "Mercredi 25 novembre à 16h Espace culturel Albert Camus Billetterie",
+    "start": "2026-11-25T16:00:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "b56322c7df0e33f30782",
+    "title": "Mercredi 25 novembre à 16h Espace culturel Albert Camus",
+    "start": "2026-11-25T16:00:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155645&widget_key=E2155645&locale=fr_FR&color_primary=00AEEF&code=46926&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
     "id": "0aaa5814cb8e0f361e27",
     "title": "FLORENT PAGNY 65 TOUR – LE RETOUR",
     "start": "2026-11-26T20:00:00+01:00",
@@ -750,6 +1322,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/florent-pagny/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "f6f2f3deee43e7f31042",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2026-11-26T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-15",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "49b86a66e7dd566a9dfe",
@@ -763,6 +1346,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "0a0069227fee4c87938f",
+    "title": "JULIE CONTI",
+    "start": "2026-11-27T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/julie-conti",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "5d84e55fb22c3a63a7e8",
     "title": "DISNEY EN CONCERT Suivez vos rêves",
     "start": "2026-11-28T20:00:00+01:00",
@@ -772,6 +1366,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/disney-en-concert/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "807e896057ef01c8886e",
+    "title": "LES COUSINES",
+    "start": "2026-11-28T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-cousines",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "8a0bf477cc153fa6bff6",
@@ -814,6 +1419,72 @@
     "source": "Le Fil"
   },
   {
+    "id": "2dfec5b2a8305abefd9d",
+    "title": "GAGA FIGHT",
+    "start": "2026-12-03T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-24",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "4b6d4d62f9bfd511a42b",
+    "title": "Billetterie",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155685&widget_key=E2155685&locale=fr_FR&color_primary=00AEEF&code=28476&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "e3be17536422a386d6f8",
+    "title": "Guillaume Meurice",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155685&widget_key=E2155685&locale=fr_FR&color_primary=00AEEF&code=28476&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "b1b00e118b5f54f08c9f",
+    "title": "Vendredi 4 décembre à 20h30 La Forge Billetterie",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "73795560ee0230538959",
+    "title": "Vendredi 4 décembre à 20h30 La Forge",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155685&widget_key=E2155685&locale=fr_FR&color_primary=00AEEF&code=28476&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "c7fc34d66bdd32e91ba2",
+    "title": "SEBASTIAN MARX",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/sebastian-marx",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "3e4a83c83e5a60caa6aa",
     "title": "DUB INC",
     "start": "2026-12-05T20:00:00+01:00",
@@ -833,12 +1504,67 @@
       "2026-12-05T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/notte-morricone/s-907/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "f0b5d45f706f23ee2e85",
+    "title": "Billetterie",
+    "start": "2026-12-05T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155833&widget_key=E2155833&locale=fr_FR&color_primary=00AEEF&code=60998&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "6ae0f5a208057e212df5",
+    "title": "Julien Lieb",
+    "start": "2026-12-05T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155833&widget_key=E2155833&locale=fr_FR&color_primary=00AEEF&code=60998&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "c339a5d13880385de686",
+    "title": "Samedi 5 décembre à 20h30 La Forge Billetterie",
+    "start": "2026-12-05T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "c4c4adbe2c1f47cb0700",
+    "title": "Samedi 5 décembre à 20h30 La Forge",
+    "start": "2026-12-05T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155833&widget_key=E2155833&locale=fr_FR&color_primary=00AEEF&code=60998&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "ca9baa3fec73542f5824",
+    "title": "HUGUES LAVIGNE",
+    "start": "2026-12-05T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/hugues-lavigne",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "c6df29f330ee1ab833b5",
@@ -878,7 +1604,7 @@
       "2026-12-09T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -905,7 +1631,7 @@
       "2026-12-10T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -933,6 +1659,28 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/guadal-tejaz/",
     "source": "Le Fil"
+  },
+  {
+    "id": "85ca10e0d5d7d723aa4c",
+    "title": "CHARLIE ET STYLIEN",
+    "start": "2026-12-11T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/charlie-et-stylien",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "7116e21dfcfca0c1b501",
+    "title": "SALIMA PASSION",
+    "start": "2026-12-12T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/salima-passion",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "f9590903ef91c74a6535",
@@ -973,7 +1721,7 @@
       "2026-12-19T16:00:00+01:00"
     ],
     "session_count": 2,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1019,12 +1767,34 @@
       "2026-12-18T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/didon-et-enee/s-891/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "e66e2550066e5652b0e3",
+    "title": "PATRICK CHANFRAY",
+    "start": "2026-12-18T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/patrick-chanfray",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "458f144b8a615749077e",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2026-12-19T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-16",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "16781bb139f66c825cd4",
@@ -1036,7 +1806,7 @@
       "2026-12-31T19:00:00+01:00"
     ],
     "session_count": 2,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1052,7 +1822,7 @@
       "2027-01-07T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1069,6 +1839,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/il-etait-une-fois/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "b410a6d41a9bc8b0d5f8",
+    "title": "YAZID ASSOUMANI",
+    "start": "2027-01-09T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/yazid-assoumani",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "de2e00127bdc37d8dc63",
@@ -1098,7 +1879,7 @@
       "2027-01-15T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1139,6 +1920,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "9ffc591509c6bedc9d57",
+    "title": "LÉANDRE",
+    "start": "2027-01-16T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/leandre",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "6402c16981fd0e67c687",
     "title": "Minetti",
     "start": "2027-01-19T20:00:00+01:00",
@@ -1176,7 +1968,7 @@
       "2027-01-22T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1195,6 +1987,50 @@
     "source": "Le Fil"
   },
   {
+    "id": "881db9611e65f53300c6",
+    "title": "Billetterie",
+    "start": "2027-01-22T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155849&widget_key=E2155849&locale=fr_FR&color_primary=00AEEF&code=25120&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "f9b73182192d31dcc4d1",
+    "title": "Les Mécanos - Linha(a)",
+    "start": "2027-01-22T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155849&widget_key=E2155849&locale=fr_FR&color_primary=00AEEF&code=25120&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "761b867256c3dbd2247e",
+    "title": "Vendredi 22 janvier à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2027-01-22T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "64accdbd0f520489189d",
+    "title": "Vendredi 22 janvier à 20h30 Espace culturel Albert Camus",
+    "start": "2027-01-22T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155849&widget_key=E2155849&locale=fr_FR&color_primary=00AEEF&code=25120&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
     "id": "0a447ba3e523fe4fd8bd",
     "title": "Le complexe des Homards Compagnie ACT2 - Catherine Dreyfus Danse, dès 8 ans",
     "start": "2027-01-23T16:00:00+01:00",
@@ -1203,7 +2039,7 @@
       "2027-01-23T16:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1251,7 +2087,7 @@
       "2027-01-26T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1296,7 +2132,7 @@
       "2027-01-28T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1337,6 +2173,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "ed81f8e29b6f86583bdd",
+    "title": "CLAUDIA MODICA",
+    "start": "2027-01-29T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/claudia-modica",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "54df47d37e4ef7e13037",
     "title": "BERNARD LAVILLIERS TOUR 2027",
     "start": "2027-01-30T20:00:00+01:00",
@@ -1357,6 +2204,72 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/ultra-vomit/",
     "source": "Le Fil"
+  },
+  {
+    "id": "92ac2223ff94d3429066",
+    "title": "Billetterie",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155893&widget_key=E2155893&locale=fr_FR&color_primary=00AEEF&code=44784&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "a5a659cc7deba078ea2d",
+    "title": "Ma famille en or",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155893&widget_key=E2155893&locale=fr_FR&color_primary=00AEEF&code=44784&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "ed9d4ceaeef2f4bc69c0",
+    "title": "Samedi 30 janvier à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "f71fab7c671d2fbe8e71",
+    "title": "Samedi 30 janvier à 20h30 Espace culturel Albert Camus",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155893&widget_key=E2155893&locale=fr_FR&color_primary=00AEEF&code=44784&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "1aec5a8ee6120cb8e03a",
+    "title": "Samedi 30 janvier à 20h30",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155893&widget_key=E2155893&locale=fr_FR&color_primary=00AEEF&code=44784&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "86bfe59a36df1cc6f733",
+    "title": "MARS ET VÉNUS",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/mars-et-venus",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "2d9f72f946ce8a4fdda2",
@@ -1415,7 +2328,7 @@
       "2027-02-03T15:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1442,7 +2355,7 @@
       "2027-02-04T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1480,7 +2393,7 @@
       "2027-02-09T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1506,6 +2419,61 @@
     "source": "La Comédie de Saint-Étienne"
   },
   {
+    "id": "ad0ee309c40a927f3595",
+    "title": "Billetterie",
+    "start": "2027-02-10T16:00:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155933&widget_key=E2155933&locale=fr_FR&color_primary=00AEEF&code=37725&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "a255c15b9c03fe3869d0",
+    "title": "Un poirier m'a dit",
+    "start": "2027-02-10T16:00:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155933&widget_key=E2155933&locale=fr_FR&color_primary=00AEEF&code=37725&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "5400ccb6cf16d227b43f",
+    "title": "Mercredi 10 février à 16h Espace culturel Albert Camus Billetterie",
+    "start": "2027-02-10T16:00:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "bfefc1c8473e5663e59f",
+    "title": "Mercredi 10 février à 16h Espace culturel Albert Camus",
+    "start": "2027-02-10T16:00:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155933&widget_key=E2155933&locale=fr_FR&color_primary=00AEEF&code=37725&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "883b76bd13d2fe3fa1a1",
+    "title": "Mercredi 10 février à 16h",
+    "start": "2027-02-10T16:00:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155933&widget_key=E2155933&locale=fr_FR&color_primary=00AEEF&code=37725&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
     "id": "c90b0f5fc252ac8bf249",
     "title": "La P’tite Fumée",
     "start": "2027-02-12T20:30:00+01:00",
@@ -1528,6 +2496,380 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
+    "id": "db2f7a60dd5749494ea2",
+    "title": "Lisa Perrio",
+    "start": "2027-02-18T20:00:00+01:00",
+    "venue": "Théatre du Parc",
+    "city": "Andrezieux-Bouthéon",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/lisa-perrio/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "ef87b89e4ef5319d2a7d",
+    "title": "Billetterie",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155939&widget_key=E2155939&locale=fr_FR&color_primary=00AEEF&code=4851&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "51bb61fb52881ce67ebd",
+    "title": "Emy",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155939&widget_key=E2155939&locale=fr_FR&color_primary=00AEEF&code=4851&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "3325f9494b28b0adaec5",
+    "title": "Jeudi 18 février à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "c9a94a56ce58cdf2997c",
+    "title": "Jeudi 18 février à 20h30 Espace culturel Albert Camus",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155939&widget_key=E2155939&locale=fr_FR&color_primary=00AEEF&code=4851&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "28f618734748dc16921e",
+    "title": "Jeudi 18 février à 20h30",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155939&widget_key=E2155939&locale=fr_FR&color_primary=00AEEF&code=4851&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "76b6722ebe537a404ae5",
+    "title": "Chantal Ladesou",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Centre de Congrès",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/chantal-ladesou/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "5a6ea9bd799ffe8cd167",
+    "title": "Emy",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Salle Albert Camus",
+    "city": "Le Chambon Feugerolles",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/decouvrir-emy-au-festival-arcomik/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "f51f546236768cf6f4cf",
+    "title": "Paul de Saint-Sernin",
+    "start": "2027-02-19T20:00:00+01:00",
+    "venue": "Centre de Congrès",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/paul-de-saint-sernin/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "07aad7f95a3a38d3edd8",
+    "title": "Thomas Angelvy",
+    "start": "2027-02-19T20:30:00+01:00",
+    "venue": "Le Firmament",
+    "city": "Firminy",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/thomas-angelvy/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "1a0bd4b366a7dfc1b2e9",
+    "title": "Guillaume Guisset",
+    "start": "2027-02-20T18:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/guillaume-guisset/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "a1c43feac1f18742c5e5",
+    "title": "Greg Duth",
+    "start": "2027-02-20T20:00:00+01:00",
+    "venue": "Salle Muriel Robin",
+    "city": "Saint-Paul en Jarez",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/greg-duth/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "658eddea5cf25622bd91",
+    "title": "Sofia Belabbes",
+    "start": "2027-02-20T20:30:00+01:00",
+    "venue": "Salle Jean Dasté",
+    "city": "Rive de Gier",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/sofia-belabesses-arcomik/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "084206475ee7643fc1ce",
+    "title": "Daniel Morin",
+    "start": "2027-02-21T15:00:00+01:00",
+    "venue": "Centre culturel Le Sou",
+    "city": "La Talaudière",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/daniel-morin/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "977b6afbdd77485321b7",
+    "title": "Billetterie",
+    "start": "2027-02-21T17:00:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155957&widget_key=E2155957&locale=fr_FR&color_primary=00AEEF&code=46107&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "f7d2f1fe72d8a00365c1",
+    "title": "Olivier de Benoist",
+    "start": "2027-02-21T17:00:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155957&widget_key=E2155957&locale=fr_FR&color_primary=00AEEF&code=46107&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "50e8db17b02d254de6f2",
+    "title": "Dimanche 21 février à 17h La Forge Billetterie",
+    "start": "2027-02-21T17:00:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "ed9bd4569997c1d6b76a",
+    "title": "Dimanche 21 février à 17h La Forge",
+    "start": "2027-02-21T17:00:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155957&widget_key=E2155957&locale=fr_FR&color_primary=00AEEF&code=46107&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "1b4cd04915fcacc21446",
+    "title": "Dimanche 21 février à 17h",
+    "start": "2027-02-21T17:00:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155957&widget_key=E2155957&locale=fr_FR&color_primary=00AEEF&code=46107&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "f9c19f859e528b73f51d",
+    "title": "Tania Dutel",
+    "start": "2027-02-23T20:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/tania-dutel/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "a4da3407f18cc432f621",
+    "title": "Billetterie",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155975&widget_key=E2155975&locale=fr_FR&color_primary=00AEEF&code=41670&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "8c4c8133c20e59fbbc03",
+    "title": "Edouard Deloignon",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155975&widget_key=E2155975&locale=fr_FR&color_primary=00AEEF&code=41670&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "187b60f427089518f2f2",
+    "title": "Mardi 23 février à 20h30 La Forge Billetterie",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "86cc43c8286702bc21db",
+    "title": "Mardi 23 février à 20h30 La Forge",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155975&widget_key=E2155975&locale=fr_FR&color_primary=00AEEF&code=41670&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "212d5e56a73cd717625a",
+    "title": "Mardi 23 février à 20h30",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2155975&widget_key=E2155975&locale=fr_FR&color_primary=00AEEF&code=41670&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "f7069186facc1da9eb44",
+    "title": "Alexis Le Rossignol",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "Centre de Congrès",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/alexis-le-rossignol/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "4ff97194878549dacb07",
+    "title": "Pablo Mira",
+    "start": "2027-02-24T20:00:00+01:00",
+    "venue": "Centre de Congrès",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/pablo-mira/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "ed8faeddb2df98cafabe",
+    "title": "María Moreno",
+    "start": "2027-02-24T20:30:00+01:00",
+    "venue": "Théâtre Copeau",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/maria-moreno/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "39b6319ad3dcafc1e099",
+    "title": "Ana Godefroy",
+    "start": "2027-02-25T20:00:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/ana-godefroy/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "7f43d66d8e3313daf3e9",
+    "title": "Jessé",
+    "start": "2027-02-25T20:00:00+01:00",
+    "venue": "La Comédie",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/jesse-st-etienne-spectacle-arcomik-festival/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "b13fc40f54799589d361",
+    "title": "Billetterie",
+    "start": "2027-02-25T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169299&widget_key=E2169299&locale=fr_FR&color_primary=00AEEF&code=35371&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "9357bcf56faf408ae9c7",
+    "title": "Jeudi 25 février à 20h30 La Forge Billetterie",
+    "start": "2027-02-25T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "f84b66db305d3788bd31",
+    "title": "Jeudi 25 février à 20h30 La Forge",
+    "start": "2027-02-25T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169299&widget_key=E2169299&locale=fr_FR&color_primary=00AEEF&code=35371&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "197a8055a526c36b26df",
+    "title": "Jeudi 25 février à 20h30",
+    "start": "2027-02-25T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169299&widget_key=E2169299&locale=fr_FR&color_primary=00AEEF&code=35371&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
     "id": "3d826f691baaba4e53c9",
     "title": "ALDEBERT Jamais adulte !",
     "start": "2027-02-26T19:00:00+01:00",
@@ -1537,6 +2879,61 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/aldebert/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "e2aa78108f00b9bcf912",
+    "title": "Mathieu Madénian",
+    "start": "2027-02-26T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Camond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/mathieu-madenian/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "7840980babc06ef9d1a7",
+    "title": "Arnaud Demanche",
+    "start": "2027-02-26T20:30:00+01:00",
+    "venue": "La Comédie",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/arnaud-demanche/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "a975a6e8cc077d472282",
+    "title": "Eliott Doyle",
+    "start": "2027-02-26T20:30:00+01:00",
+    "venue": "Le Majestic",
+    "city": "Firminy",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/eliott-doyle-arcomikfestival/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "587270bb2a5a1420a8db",
+    "title": "Camille Tissot",
+    "start": "2027-02-27T20:00:00+01:00",
+    "venue": "Théâtre Copeau",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/camille-tissot/",
+    "source": "ArcomiK Festival"
+  },
+  {
+    "id": "cb1f2638cf00a5551af3",
+    "title": "Alex Vizorek",
+    "start": "2027-02-27T20:30:00+01:00",
+    "venue": "La Comédie",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/alex-vizorek/",
+    "source": "ArcomiK Festival"
   },
   {
     "id": "b01eb90e4d122b4bba11",
@@ -1613,12 +3010,78 @@
       "2027-03-07T15:00:00+01:00"
     ],
     "session_count": 2,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/roland-a-roncevaux/s-924/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "3b294eb93cbf26b94c4d",
+    "title": "Billetterie",
+    "start": "2027-03-05T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169305&widget_key=E2169305&locale=fr_FR&color_primary=00AEEF&code=51539&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "332966dd158c8c3c8f40",
+    "title": "Eidolons",
+    "start": "2027-03-05T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169305&widget_key=E2169305&locale=fr_FR&color_primary=00AEEF&code=51539&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "4b50b6a1e39e8b8e9556",
+    "title": "Vendredi 5 mars à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2027-03-05T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "2b44b17fc1e769ad7d20",
+    "title": "Vendredi 5 mars à 20h30 Espace culturel Albert Camus",
+    "start": "2027-03-05T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169305&widget_key=E2169305&locale=fr_FR&color_primary=00AEEF&code=51539&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "0433431c6fe925951753",
+    "title": "Vendredi 5 mars à 20h30",
+    "start": "2027-03-05T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169305&widget_key=E2169305&locale=fr_FR&color_primary=00AEEF&code=51539&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "28a4b155810adfe0a8ab",
+    "title": "TRISTAN LUCAS",
+    "start": "2027-03-05T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/tristan-lucas-2",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "5403f61e82ace67e797d",
@@ -1640,7 +3103,7 @@
       "2027-03-06T16:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1685,7 +3148,7 @@
       "2027-03-11T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1715,6 +3178,61 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
+    "id": "5c10eb2bc20809db5aad",
+    "title": "Billetterie",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169329&widget_key=E2169329&locale=fr_FR&color_primary=00AEEF&code=14956&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "935eb01e933f2e727ee0",
+    "title": "Nous étions une armée",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169329&widget_key=E2169329&locale=fr_FR&color_primary=00AEEF&code=14956&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "a17c3847005039f30f06",
+    "title": "Vendredi 12 mars à 20h30 La Forge Billetterie",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "c492fffab88dc170dfb5",
+    "title": "Vendredi 12 mars à 20h30 La Forge",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169329&widget_key=E2169329&locale=fr_FR&color_primary=00AEEF&code=14956&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "49877bc7e866791303e9",
+    "title": "Vendredi 12 mars à 20h30",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169329&widget_key=E2169329&locale=fr_FR&color_primary=00AEEF&code=14956&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
     "id": "60bc0b078e341812a272",
     "title": "Florian Caroubi Jean-Sébastien Bach, Franz Schubert",
     "start": "2027-03-15T20:00:00+01:00",
@@ -1723,7 +3241,7 @@
       "2027-03-15T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1739,7 +3257,7 @@
       "2027-03-16T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1791,7 +3309,7 @@
       "2027-03-17T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1818,7 +3336,7 @@
       "2027-03-18T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1835,6 +3353,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/messmer-2027/",
     "source": "Zénith de Saint-Étienne Métropole"
+  },
+  {
+    "id": "603f64b449b31a768061",
+    "title": "MARGOT DEMEURISSE",
+    "start": "2027-03-19T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/margot-demeurisse",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "452a851a43c649098f8f",
@@ -1859,6 +3388,17 @@
     "source": "Zénith de Saint-Étienne Métropole"
   },
   {
+    "id": "b5fcce03c210d646119c",
+    "title": "IKE",
+    "start": "2027-03-20T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/ike",
+    "source": "Les Trois Ducs"
+  },
+  {
     "id": "0b05ba9f4d2167922df3",
     "title": "Ninho Quattro Tour",
     "start": "2027-03-21T18:00:00+01:00",
@@ -1878,7 +3418,7 @@
       "2027-03-24T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1894,7 +3434,7 @@
       "2027-03-25T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -1910,12 +3450,78 @@
       "2027-03-26T20:00:00+01:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/la-truite/s-897/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "c7a1a542c186e40322e8",
+    "title": "BIG S",
+    "start": "2027-03-26T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/big-s",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "aac9c153a776a61688e5",
+    "title": "Billetterie",
+    "start": "2027-03-27T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169401&widget_key=E2169401&locale=fr_FR&color_primary=00AEEF&code=72788&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "5e65f36f4a8447611e42",
+    "title": "Julien Clerc",
+    "start": "2027-03-27T20:30:00+01:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169401&widget_key=E2169401&locale=fr_FR&color_primary=00AEEF&code=72788&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "7a14aa7665c0d77ce313",
+    "title": "Samedi 27 mars à 20h30 La Forge Billetterie",
+    "start": "2027-03-27T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "f25b69349b39848627ad",
+    "title": "Samedi 27 mars à 20h30 La Forge",
+    "start": "2027-03-27T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169401&widget_key=E2169401&locale=fr_FR&color_primary=00AEEF&code=72788&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "613f6dbeea3bb71a8bb3",
+    "title": "Samedi 27 mars à 20h30",
+    "start": "2027-03-27T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169401&widget_key=E2169401&locale=fr_FR&color_primary=00AEEF&code=72788&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
   },
   {
     "id": "bdc545dbe87690f91ae2",
@@ -1927,6 +3533,72 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/howlin-jaws/",
     "source": "Le Fil"
+  },
+  {
+    "id": "eca312b0400569ecf68a",
+    "title": "Billetterie",
+    "start": "2027-04-02T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169415&widget_key=E2169415&locale=fr_FR&color_primary=00AEEF&code=66477&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "913c86a2e9c0588bc596",
+    "title": "Frantz",
+    "start": "2027-04-02T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169415&widget_key=E2169415&locale=fr_FR&color_primary=00AEEF&code=66477&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "0d5fa2df3f0217861798",
+    "title": "Vendredi 2 avril à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2027-04-02T20:30:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "8598383ff5643cf7dd3f",
+    "title": "Vendredi 2 avril à 20h30 Espace culturel Albert Camus",
+    "start": "2027-04-02T20:30:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169415&widget_key=E2169415&locale=fr_FR&color_primary=00AEEF&code=66477&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "ab4db9b2c2543fa64541",
+    "title": "Vendredi 2 avril à 20h30",
+    "start": "2027-04-02T20:30:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169415&widget_key=E2169415&locale=fr_FR&color_primary=00AEEF&code=66477&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "3e23ce4c4fc112dedbcd",
+    "title": "NADIA RICHARD",
+    "start": "2027-04-02T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nadia-richard",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "97674c1870f2275ad59b",
@@ -1985,7 +3657,7 @@
       "2027-04-07T10:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -2042,7 +3714,7 @@
       "2027-04-29T20:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -2060,12 +3732,67 @@
       "2027-05-04T20:00:00+02:00"
     ],
     "session_count": 3,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/romeo-et-juliette/s-925/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "f49f198c68ed9a14bdcc",
+    "title": "Billetterie",
+    "start": "2027-04-30T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169419&widget_key=E2169419&locale=fr_FR&color_primary=00AEEF&code=64096&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "6253774d501e729719ba",
+    "title": "Oria",
+    "start": "2027-04-30T20:30:00+02:00",
+    "venue": "Le Chambon-Feugerolles",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169419&widget_key=E2169419&locale=fr_FR&color_primary=00AEEF&code=64096&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "ba646993d04289597b2c",
+    "title": "Vendredi 30 avril à 20h30 Espace culturel Albert Camus Billetterie",
+    "start": "2027-04-30T20:30:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "7198442a4aabf07d4a12",
+    "title": "Vendredi 30 avril à 20h30 Espace culturel Albert Camus",
+    "start": "2027-04-30T20:30:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169419&widget_key=E2169419&locale=fr_FR&color_primary=00AEEF&code=64096&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
+  },
+  {
+    "id": "d49f7125f4e95c9e0031",
+    "title": "Vendredi 30 avril à 20h30",
+    "start": "2027-04-30T20:30:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://www.weezevent.com/widget_billeterie.php?id_evenement=2169419&widget_key=E2169419&locale=fr_FR&color_primary=00AEEF&code=64096&width_auto=1",
+    "source": "Ville du Chambon-Feugerolles"
   },
   {
     "id": "ee4f49f00409f57861cb",
@@ -2076,7 +3803,7 @@
       "2027-05-12T15:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -2092,12 +3819,34 @@
       "2027-05-13T20:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/coppelia/s-916/",
     "source": "Opéra de Saint-Étienne"
+  },
+  {
+    "id": "d471c49d457dec660202",
+    "title": "CÉDRIC SALAUN",
+    "start": "2027-05-20T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/cedric-salaun",
+    "source": "Les Trois Ducs"
+  },
+  {
+    "id": "2dea6752640b1f6e71c8",
+    "title": "ARTHUR GOMEZ",
+    "start": "2027-05-21T20:30:00+02:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/arthur-gomez",
+    "source": "Les Trois Ducs"
   },
   {
     "id": "b712465f2edff4de1e95",
@@ -2120,7 +3869,7 @@
       "2027-05-29T16:00:00+02:00"
     ],
     "session_count": 2,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -2147,7 +3896,7 @@
       "2027-06-05T16:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -2187,7 +3936,7 @@
       "2027-06-20T15:00:00+02:00"
     ],
     "session_count": 3,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -2239,7 +3988,7 @@
       "2027-06-24T20:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
@@ -2255,7 +4004,7 @@
       "2027-06-30T20:00:00+02:00"
     ],
     "session_count": 1,
-    "venue": "Opéra de Saint-Étienne",
+    "venue": "Opéra Sainté",
     "city": "Saint-Étienne",
     "category": "Opéra",
     "description": "",
