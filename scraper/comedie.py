@@ -150,7 +150,7 @@ def scrape_comedie() -> list[dict]:
             "category": "Théâtre",
             "description": "",
             "url": detail_url,
-            "source": "La Comédie de Saint-Étienne",
+            "source": "Comédie Sainté",
         })
 
     return sorted(events, key=lambda x: x["start"])
