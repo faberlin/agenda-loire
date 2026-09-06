@@ -11,127 +11,115 @@ from utils import PARIS, clean, stable_id
 
 
 BASE = "https://www.comedietriomphe.fr/"
-URLS = [
+LIST_URLS = [
     urljoin(BASE, "cas-categorie/tout-public/"),
     urljoin(BASE, "cas-categorie/jeune-public/"),
 ]
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-SESSION_RE = re.compile(
-    r"\b(\d{2})/(\d{2})/(20\d{2})\s+"
-    r"(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})\b"
-)
 
-
-def _extract_sections(soup: BeautifulSoup):
-    """
-    La page moderne contient un H2 par spectacle puis une liste de dates.
-    On lit chaque H2 jusqu'au H2 suivant.
-    """
-    for heading in soup.find_all("h2"):
-        title = clean(heading.get_text(" "))
-        if not title:
-            continue
-
-        chunks = []
-        node = heading.find_next()
-
-        while node and node is not heading:
-            if getattr(node, "name", None) == "h2":
-                break
-
-            if getattr(node, "get_text", None):
-                text = clean(node.get_text(" "))
-                if text:
-                    chunks.append(text)
-
-            node = node.find_next()
-
-        yield heading, title, " ".join(chunks)
-
-
-def scrape_comedie_triomphe() -> list[dict]:
-    now = datetime.now(PARIS)
-    events = []
+def _detail_urls() -> list[str]:
+    urls = []
     seen = set()
 
-    for page_url in URLS:
-        response = requests.get(page_url, headers=HEADERS, timeout=30)
+    for list_url in LIST_URLS:
+        response = requests.get(list_url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        for heading, title, section_text in _extract_sections(soup):
-            sessions = []
+        for a in soup.find_all("a", href=True):
+            href = urljoin(BASE, a["href"])
 
-            for match in SESSION_RE.finditer(section_text):
-                dt = datetime(
-                    int(match.group(3)),
-                    int(match.group(2)),
-                    int(match.group(1)),
-                    int(match.group(4)),
-                    int(match.group(5)),
-                    tzinfo=PARIS,
-                )
-
-                if dt >= now:
-                    sessions.append(dt)
-
-            # Certains blocs n'affichent que "23/09/2026" puis l'heure ailleurs.
-            if not sessions:
-                fallback = re.findall(
-                    r"\b(\d{2})/(\d{2})/(20\d{2})\b",
-                    section_text
-                )
-                time_match = re.search(
-                    r"\b(\d{1,2}):(\d{2})\b",
-                    section_text
-                )
-
-                if time_match:
-                    for day, month, year in fallback:
-                        dt = datetime(
-                            int(year), int(month), int(day),
-                            int(time_match.group(1)),
-                            int(time_match.group(2)),
-                            tzinfo=PARIS,
-                        )
-                        if dt >= now:
-                            sessions.append(dt)
-
-            # dédoublonnage car la billetterie répète les mêmes dates
-            sessions = sorted(set(sessions))
-            if not sessions:
+            if "/events/" not in href:
                 continue
 
-            start = sessions[0].isoformat()
-            session_strings = [dt.isoformat() for dt in sessions]
-
-            # lien du titre si présent, sinon page catégorie
-            link = heading.find("a", href=True)
-            href = urljoin(page_url, link["href"]) if link else page_url
-
-            key = (title.lower(), tuple(session_strings))
-            if key in seen:
+            if href in seen:
                 continue
-            seen.add(key)
 
-            events.append({
-                "id": stable_id(
-                    "La Comédie Triomphe",
-                    title,
-                    start
-                ),
-                "title": title,
-                "start": start,
-                "end": session_strings[-1],
-                "sessions": session_strings,
-                "session_count": len(session_strings),
-                "venue": "La Comédie Triomphe",
-                "city": "Saint-Étienne",
-                "category": "Théâtre",
-                "description": "",
-                "url": href,
-                "source": "La Comédie Triomphe",
-            })
+            seen.add(href)
+            urls.append(href)
+
+    return urls
+
+
+def _sessions(text: str) -> list[datetime]:
+    # Sur les fiches : 11/09/2026 20:00 - 21:15
+    pattern = re.compile(
+        r"\b(\d{2})/(\d{2})/(20\d{2})\s+"
+        r"(\d{1,2}):(\d{2})\s*[-à]\s*"
+        r"\d{1,2}:\d{2}\b"
+    )
+
+    seen = set()
+    result = []
+
+    for m in pattern.finditer(text):
+        dt = datetime(
+            int(m.group(3)),
+            int(m.group(2)),
+            int(m.group(1)),
+            int(m.group(4)),
+            int(m.group(5)),
+            tzinfo=PARIS,
+        )
+
+        key = dt.isoformat()
+        if key in seen:
+            continue
+
+        seen.add(key)
+        result.append(dt)
+
+    return sorted(result)
+
+
+def scrape_comedie_triomphe() -> list[dict]:
+    urls = _detail_urls()
+    print(f"Comédie Triomphe: {len(urls)} fiche(s) découverte(s)")
+
+    now = datetime.now(PARIS)
+    events = []
+
+    for href in urls:
+        try:
+            response = requests.get(href, headers=HEADERS, timeout=25)
+            response.raise_for_status()
+        except Exception as exc:
+            print(f"Comédie Triomphe: erreur fiche {href}: {exc}")
+            continue
+
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # Les fiches utilisent parfois h1, parfois h3.
+        heading = soup.find("h1") or soup.find("h3")
+        title = clean(heading.get_text(" ")) if heading else ""
+
+        if not title:
+            # fallback sur le slug
+            title = href.rstrip("/").split("/")[-1].replace("-", " ").title()
+
+        text = clean(soup.get_text(" "))
+        sessions = [dt for dt in _sessions(text) if dt >= now]
+
+        if not sessions:
+            continue
+
+        session_strings = [dt.isoformat() for dt in sessions]
+        start = session_strings[0]
+
+        events.append({
+            "id": stable_id("La Comédie Triomphe", title, start),
+            "title": title,
+            "start": start,
+            "end": session_strings[-1],
+            "sessions": session_strings,
+            "session_count": len(session_strings),
+            "venue": "La Comédie Triomphe",
+            "city": "Saint-Étienne",
+            "category": "Théâtre",
+            "description": "",
+            "url": href,
+            "source": "La Comédie Triomphe",
+        })
 
     return sorted(events, key=lambda ev: ev["start"])
