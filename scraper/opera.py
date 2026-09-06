@@ -111,7 +111,7 @@ def scrape_opera() -> list[dict]:
             "end": end,
             "sessions": sessions,
             "session_count": len(sessions),
-            "venue": "Opéra de Saint-Étienne",
+            "venue": "Opéra Sainté",
             "city": "Saint-Étienne",
             "category": "Opéra",
             "description": "",
