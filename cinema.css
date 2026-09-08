@@ -1,0 +1,160 @@
+/* Page cinéma */
+
+.cinema-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cinema-toolbar input[type="search"] {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+  padding: 8px 10px;
+  font: inherit;
+}
+
+.after-work-filter {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.after-work-filter input {
+  margin: 0;
+}
+
+.cinema-filters {
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  padding: 9px 11px;
+  margin-bottom: 10px;
+}
+
+.cinema-filter-list {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 7px;
+}
+
+.cinema-filter-check {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cinema-filter-check input {
+  margin: 0;
+}
+
+.cinema-days {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cinema-day {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cinema-day-header {
+  padding: 7px 10px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #e2e2e2;
+  font-weight: 700;
+}
+
+.cinema-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cinema-film {
+  display: grid;
+  grid-template-columns: minmax(220px, 1.5fr) minmax(180px, 1fr) minmax(260px, 2fr);
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  border-bottom: 1px solid #ededed;
+  min-width: 0;
+}
+
+.cinema-film:last-child {
+  border-bottom: 0;
+}
+
+.cinema-title {
+  font-weight: 600;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cinema-name {
+  color: #666;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cinema-times {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.cinema-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px 6px;
+  text-decoration: none;
+  color: #222;
+  background: #fff;
+  font-size: 12px;
+}
+
+.cinema-time:hover {
+  background: #f5f5f5;
+}
+
+.cinema-version {
+  color: #777;
+  font-size: 10px;
+}
+
+.cinema-empty {
+  padding: 10px;
+  color: #777;
+}
+
+@media (max-width: 900px) {
+  .cinema-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .after-work-filter {
+    white-space: normal;
+  }
+
+  .cinema-film {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .cinema-name {
+    white-space: normal;
+  }
+}
