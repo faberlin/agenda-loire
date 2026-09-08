@@ -121,7 +121,7 @@ function visibleEvents() {
   const cinemas = selectedCinemas();
 
   const start = startOfToday();
-  const end = addDays(start, 7);
+  const end = addDays(start, 5);
 
   return cinemaEvents.filter(event => {
     const dt = new Date(event.start);
@@ -229,7 +229,7 @@ function renderSessionCell(td, sessions) {
 
 function render() {
   const start = startOfToday();
-  const days = Array.from({ length: 7 }, (_, i) => addDays(start, i));
+  const days = Array.from({ length: 5 }, (_, i) => addDays(start, i));
 
   buildWeekHeader(days);
 
@@ -297,7 +297,7 @@ function render() {
   if (!films.length) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 8;
+    td.colSpan = 6;
     td.className = "cinema-empty";
     td.textContent = "Aucune séance pour ces filtres.";
     tr.appendChild(td);
