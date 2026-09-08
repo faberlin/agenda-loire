@@ -170,6 +170,16 @@
   color: #777;
 }
 
+.session-time.session-sf {
+  background: #e8f6e8 !important;
+  border-color: #b7dbb7 !important;
+}
+
+.session-time.session-jj {
+  background: #fff0e2 !important;
+  border-color: #efc49e !important;
+}
+
 @media (max-width: 900px) {
   .cinema-toolbar {
     grid-template-columns: 1fr;
