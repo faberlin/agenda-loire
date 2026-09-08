@@ -24,16 +24,14 @@ HEADERS = {
 }
 
 
-CINEFIL_CINEMAS = [
+ALLOCINE_CINEMAS = [
     (
         "Mégarama Jean-Jaurès",
-        "https://www.cinefil.com/cinema/"
-        "megarama-jean-jaures-l-alhambra-saint-etienne/programmation"
+        "https://www.allocine.fr/seance/salle_gen_csalle=P0231.html",
     ),
     (
         "Mégarama Camion Rouge",
-        "https://www.cinefil.com/cinema/"
-        "le-camion-rouge/programmation"
+        "https://www.allocine.fr/seance/salle_gen_csalle=P0191.html",
     ),
 ]
 
