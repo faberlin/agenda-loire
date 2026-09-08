@@ -22,9 +22,11 @@ function addDays(date, days) {
 }
 
 function sameDay(a, b) {
-  return a.getFullYear() === b.getFullYear()
-    && a.getMonth() === b.getMonth()
-    && a.getDate() === b.getDate();
+  return (
+    a.getFullYear() === b.getFullYear() &&
+    a.getMonth() === b.getMonth() &&
+    a.getDate() === b.getDate()
+  );
 }
 
 function formatHeaderDay(date) {
@@ -61,32 +63,41 @@ function isWeekday(date) {
 
 function selectedCinemas() {
   const container = el("cinemaFilters");
-  if (!container) return new Set();
+
+  if (!container) {
+    return new Set();
+  }
 
   return new Set(
-    [...container.querySelectorAll('input[type="checkbox"]:checked')]
-      .map(input => input.value)
+    [...container.querySelectorAll(
+      'input[type="checkbox"]:checked'
+    )].map(input => input.value)
   );
 }
 
-function cinemaGroupName(name) {
-  if (
-    name === "Méliès Jean-Jaurès" ||
-    name === "Méliès Saint-François"
-  ) {
-    return "Méliès";
-  }
-
-  return name || "Cinéma";
-}
-
 function sessionCinemaClass(session) {
-  if (session.cinema === "Méliès Saint-François") {
+  if (
+    session.cinema === "Méliès Saint-François"
+  ) {
     return "session-sf";
   }
 
-  if (session.cinema === "Méliès Jean-Jaurès") {
-    return "session-jj";
+  if (
+    session.cinema === "Méliès Jean-Jaurès"
+  ) {
+    return "session-melies-jj";
+  }
+
+  if (
+    session.cinema === "Mégarama Jean-Jaurès"
+  ) {
+    return "session-mega-jj";
+  }
+
+  if (
+    session.cinema === "Mégarama Camion Rouge"
+  ) {
+    return "session-mega-cr";
   }
 
   return "";
@@ -103,11 +114,15 @@ function buildCinemaFilters() {
 
   container.innerHTML = "";
 
-  const names = [...new Set(
-    cinemaEvents
-      .map(event => event.cinema)
-      .filter(Boolean)
-  )].sort((a, b) => a.localeCompare(b, "fr"));
+  const names = [
+    ...new Set(
+      cinemaEvents
+        .map(event => event.cinema)
+        .filter(Boolean)
+    )
+  ].sort((a, b) =>
+    a.localeCompare(b, "fr")
+  );
 
   for (const name of names) {
     const label = document.createElement("label");
@@ -116,13 +131,17 @@ function buildCinemaFilters() {
     const input = document.createElement("input");
     input.type = "checkbox";
     input.value = name;
-    input.addEventListener("change", render);
+    input.addEventListener(
+      "change",
+      render
+    );
 
     const span = document.createElement("span");
     span.textContent = name;
 
     label.appendChild(input);
     label.appendChild(span);
+
     container.appendChild(label);
   }
 }
@@ -136,7 +155,8 @@ function buildDayHeaders(days) {
     );
   }
 
-  row.innerHTML = '<th class="film-col">Film</th>';
+  row.innerHTML =
+    '<th class="film-col">Film</th>';
 
   const today = startOfToday();
 
@@ -148,27 +168,56 @@ function buildDayHeaders(days) {
       th.classList.add("today-col");
     }
 
-    th.textContent = formatHeaderDay(day);
+    th.textContent =
+      formatHeaderDay(day);
+
     row.appendChild(th);
   }
 }
 
 function visibleEvents() {
-  const searchInput = el("cinemaSearch");
-  const afterWorkInput = el("afterWorkOnly");
+  const searchInput =
+    el("cinemaSearch");
 
-  const search = normalize(searchInput ? searchInput.value : "");
-  const afterWorkOnly = afterWorkInput ? afterWorkInput.checked : false;
-  const cinemas = selectedCinemas();
+  const afterWorkInput =
+    el("afterWorkOnly");
 
-  const start = startOfToday();
-  const end = addDays(start, 5);
+  const search = normalize(
+    searchInput
+      ? searchInput.value
+      : ""
+  );
+
+  const afterWorkOnly =
+    afterWorkInput
+      ? afterWorkInput.checked
+      : false;
+
+  const cinemas =
+    selectedCinemas();
+
+  const start =
+    startOfToday();
+
+  const end =
+    addDays(start, 5);
 
   return cinemaEvents.filter(event => {
-    const dt = new Date(event.start);
+    const dt =
+      new Date(event.start);
 
-    if (Number.isNaN(dt.getTime())) return false;
-    if (dt < start || dt >= end) return false;
+    if (
+      Number.isNaN(dt.getTime())
+    ) {
+      return false;
+    }
+
+    if (
+      dt < start ||
+      dt >= end
+    ) {
+      return false;
+    }
 
     if (
       afterWorkOnly &&
@@ -187,7 +236,8 @@ function visibleEvents() {
 
     if (
       search &&
-      !normalize(event.title).includes(search)
+      !normalize(event.title)
+        .includes(search)
     ) {
       return false;
     }
@@ -196,106 +246,167 @@ function visibleEvents() {
   });
 }
 
-function groupByFilmThenCinema(events) {
+function groupByFilm(events) {
   const films = new Map();
 
   for (const event of events) {
-    const filmKey = normalize(event.title);
+    const filmKey =
+      normalize(event.title);
 
     if (!films.has(filmKey)) {
-      films.set(filmKey, {
-        title: event.title,
-        cinemas: new Map()
-      });
+      films.set(
+        filmKey,
+        {
+          title: event.title,
+          sessions: []
+        }
+      );
     }
 
-    const film = films.get(filmKey);
-    const cinemaKey = cinemaGroupName(event.cinema);
-
-    if (!film.cinemas.has(cinemaKey)) {
-      film.cinemas.set(cinemaKey, []);
-    }
-
-    film.cinemas.get(cinemaKey).push(event);
+    films
+      .get(filmKey)
+      .sessions
+      .push(event);
   }
 
-  return [...films.values()].sort((a, b) => {
-    const countA = [...a.cinemas.values()]
-      .reduce((sum, sessions) => sum + sessions.length, 0);
-
-    const countB = [...b.cinemas.values()]
-      .reduce((sum, sessions) => sum + sessions.length, 0);
-
-    if (countB !== countA) {
-      return countB - countA;
+  return [
+    ...films.values()
+  ].sort((a, b) => {
+    if (
+      b.sessions.length !==
+      a.sessions.length
+    ) {
+      return (
+        b.sessions.length -
+        a.sessions.length
+      );
     }
 
-    return a.title.localeCompare(b.title, "fr");
+    return a.title.localeCompare(
+      b.title,
+      "fr"
+    );
   });
 }
 
 function filmSessionCount(film) {
-  return [...film.cinemas.values()]
-    .reduce((sum, sessions) => sum + sessions.length, 0);
+  return film.sessions.length;
 }
 
 function createSessionNode(session) {
-  const dt = new Date(session.start);
+  const dt =
+    new Date(session.start);
 
-  const node = document.createElement(
-    session.url ? "a" : "span"
-  );
+  const node =
+    document.createElement(
+      session.url
+        ? "a"
+        : "span"
+    );
 
-  const cinemaClass = sessionCinemaClass(session);
+  const cinemaClass =
+    sessionCinemaClass(session);
 
-  node.className = cinemaClass
-    ? `session-time ${cinemaClass}`
-    : "session-time";
+  node.className =
+    cinemaClass
+      ? `session-time ${cinemaClass}`
+      : "session-time";
 
   if (session.url) {
-    node.href = session.url;
-    node.target = "_blank";
-    node.rel = "noopener";
+    node.href =
+      session.url;
+
+    node.target =
+      "_blank";
+
+    node.rel =
+      "noopener";
   }
 
-  const hour = document.createElement("span");
-  hour.textContent = formatTime(dt);
+  const hour =
+    document.createElement(
+      "span"
+    );
+
+  hour.textContent =
+    formatTime(dt);
+
   node.appendChild(hour);
 
   if (session.version) {
-    const version = document.createElement("span");
-    version.className = "session-version";
-    version.textContent = session.version;
-    node.appendChild(version);
+    const version =
+      document.createElement(
+        "span"
+      );
+
+    version.className =
+      "session-version";
+
+    version.textContent =
+      session.version;
+
+    node.appendChild(
+      version
+    );
   }
 
   return node;
 }
 
-function renderSessionCell(td, sessions) {
+function renderSessionCell(
+  td,
+  sessions
+) {
   if (!sessions.length) {
-    const empty = document.createElement("span");
-    empty.className = "no-session";
-    empty.textContent = "—";
+    const empty =
+      document.createElement(
+        "span"
+      );
+
+    empty.className =
+      "no-session";
+
+    empty.textContent =
+      "—";
+
     td.appendChild(empty);
+
     return 0;
   }
 
-  sessions.sort((a, b) => new Date(a.start) - new Date(b.start));
+  sessions.sort(
+    (a, b) =>
+      new Date(a.start) -
+      new Date(b.start)
+  );
 
-  const list = document.createElement("div");
-  list.className = "session-list";
+  const list =
+    document.createElement(
+      "div"
+    );
+
+  list.className =
+    "session-list";
 
   for (const session of sessions) {
-    list.appendChild(createSessionNode(session));
+    list.appendChild(
+      createSessionNode(
+        session
+      )
+    );
   }
 
   td.appendChild(list);
+
   return sessions.length;
 }
 
-function renderMainTable(films, days) {
-  const body = el("cinemaWeekBody");
+function renderMainTable(
+  films,
+  days
+) {
+  const body =
+    el("cinemaWeekBody");
 
   if (!body) {
     throw new Error(
@@ -305,137 +416,246 @@ function renderMainTable(films, days) {
 
   body.innerHTML = "";
 
-  const today = startOfToday();
+  const today =
+    startOfToday();
+
   let totalSessions = 0;
 
   for (const film of films) {
-    const cinemaEntries = [...film.cinemas.entries()]
-      .sort((a, b) => a[0].localeCompare(b[0], "fr"));
+    const tr =
+      document.createElement(
+        "tr"
+      );
 
-    cinemaEntries.forEach(([cinemaName, sessions], index) => {
-      const tr = document.createElement("tr");
+    tr.className =
+      "film-start-row";
 
-      tr.className =
-        index === 0
-          ? "film-start-row"
-          : "film-sub-row";
+    const firstTd =
+      document.createElement(
+        "td"
+      );
 
-      const firstTd = document.createElement("td");
-      firstTd.className = "film-col";
+    firstTd.className =
+      "film-col";
 
-      if (index === 0) {
-        const title = document.createElement("span");
-        title.className = "film-title";
-        title.textContent = film.title;
-        firstTd.appendChild(title);
-      }
+    const title =
+      document.createElement(
+        "span"
+      );
 
-      if (cinemaName !== "Méliès") {
-        const cinema = document.createElement("span");
-        cinema.className = "film-cinema";
-        cinema.textContent = cinemaName;
-        firstTd.appendChild(cinema);
-      }
+    title.className =
+      "film-title";
 
-      tr.appendChild(firstTd);
+    title.textContent =
+      film.title;
 
-      for (const day of days) {
-        const td = document.createElement("td");
-        td.className = "sessions-cell";
+    firstTd.appendChild(
+      title
+    );
 
-        if (sameDay(day, today)) {
-          td.classList.add("today-col");
-        }
+    tr.appendChild(
+      firstTd
+    );
 
-        const daySessions = sessions.filter(session =>
-          sameDay(new Date(session.start), day)
+    for (const day of days) {
+      const td =
+        document.createElement(
+          "td"
         );
 
-        totalSessions += renderSessionCell(
+      td.className =
+        "sessions-cell";
+
+      if (
+        sameDay(
+          day,
+          today
+        )
+      ) {
+        td.classList.add(
+          "today-col"
+        );
+      }
+
+      const daySessions =
+        film.sessions.filter(
+          session =>
+            sameDay(
+              new Date(
+                session.start
+              ),
+              day
+            )
+        );
+
+      totalSessions +=
+        renderSessionCell(
           td,
           daySessions
         );
 
-        tr.appendChild(td);
-      }
+      tr.appendChild(td);
+    }
 
-      body.appendChild(tr);
-    });
+    body.appendChild(tr);
   }
 
   if (!films.length) {
-    const tr = document.createElement("tr");
-    const td = document.createElement("td");
+    const tr =
+      document.createElement(
+        "tr"
+      );
+
+    const td =
+      document.createElement(
+        "td"
+      );
 
     td.colSpan = 6;
-    td.className = "cinema-empty";
+
+    td.className =
+      "cinema-empty";
+
     td.textContent =
       "Aucun film avec au moins 5 séances.";
 
     tr.appendChild(td);
+
     body.appendChild(tr);
   }
 
   return totalSessions;
 }
 
-function renderOccasional(films) {
-  const container = el("cinemaOccasional");
-  const section = el("cinemaOccasionalSection");
+function renderOccasional(
+  films
+) {
+  const container =
+    el("cinemaOccasional");
 
-  if (!container || !section) return 0;
+  const section =
+    el("cinemaOccasionalSection");
+
+  if (
+    !container ||
+    !section
+  ) {
+    return 0;
+  }
 
   container.innerHTML = "";
 
   if (!films.length) {
-    section.style.display = "none";
+    section.style.display =
+      "none";
+
     return 0;
   }
 
-  section.style.display = "";
+  section.style.display =
+    "";
 
-  const list = document.createElement("div");
-  list.className = "occasional-list";
+  const list =
+    document.createElement(
+      "div"
+    );
+
+  list.className =
+    "occasional-list";
 
   let totalSessions = 0;
 
   for (const film of films) {
-    const row = document.createElement("div");
-    row.className = "occasional-row";
+    const row =
+      document.createElement(
+        "div"
+      );
 
-    const title = document.createElement("span");
-    title.className = "occasional-title";
-    title.textContent = film.title;
+    row.className =
+      "occasional-row";
+
+    const title =
+      document.createElement(
+        "span"
+      );
+
+    title.className =
+      "occasional-title";
+
+    title.textContent =
+      film.title;
+
     row.appendChild(title);
 
-    const sessionsWrap = document.createElement("div");
-    sessionsWrap.className = "occasional-sessions";
+    const sessionsWrap =
+      document.createElement(
+        "div"
+      );
 
-    const sessions = [...film.cinemas.values()]
-      .flat()
-      .sort((a, b) => new Date(a.start) - new Date(b.start));
+    sessionsWrap.className =
+      "occasional-sessions";
 
-    sessions.forEach((session, index) => {
-      totalSessions++;
+    const sessions =
+      [...film.sessions]
+        .sort(
+          (a, b) =>
+            new Date(a.start) -
+            new Date(b.start)
+        );
 
-      if (index > 0) {
-        const separator = document.createElement("span");
-        separator.className = "occasional-separator";
-        separator.textContent = ",";
-        sessionsWrap.appendChild(separator);
+    sessions.forEach(
+      (session, index) => {
+        totalSessions++;
+
+        if (index > 0) {
+          const separator =
+            document.createElement(
+              "span"
+            );
+
+          separator.className =
+            "occasional-separator";
+
+          separator.textContent =
+            ",";
+
+          sessionsWrap.appendChild(
+            separator
+          );
+        }
+
+        const dt =
+          new Date(
+            session.start
+          );
+
+        const date =
+          document.createElement(
+            "span"
+          );
+
+        date.className =
+          "occasional-date";
+
+        date.textContent =
+          formatShortDate(dt);
+
+        sessionsWrap.appendChild(
+          date
+        );
+
+        sessionsWrap.appendChild(
+          createSessionNode(
+            session
+          )
+        );
       }
+    );
 
-      const dt = new Date(session.start);
+    row.appendChild(
+      sessionsWrap
+    );
 
-      const date = document.createElement("span");
-      date.className = "occasional-date";
-      date.textContent = formatShortDate(dt);
-
-      sessionsWrap.appendChild(date);
-      sessionsWrap.appendChild(createSessionNode(session));
-    });
-
-    row.appendChild(sessionsWrap);
     list.appendChild(row);
   }
 
@@ -445,37 +665,56 @@ function renderOccasional(films) {
 }
 
 function render() {
-  const start = startOfToday();
+  const start =
+    startOfToday();
 
-  const days = Array.from(
-    { length: 5 },
-    (_, i) => addDays(start, i)
-  );
+  const days =
+    Array.from(
+      { length: 5 },
+      (_, i) =>
+        addDays(start, i)
+    );
 
   buildDayHeaders(days);
 
-  const events = visibleEvents();
-  const films = groupByFilmThenCinema(events);
+  const events =
+    visibleEvents();
 
-  const mainFilms = films.filter(
-    film => filmSessionCount(film) >= 5
-  );
+  const films =
+    groupByFilm(events);
 
-  const occasionalFilms = films.filter(
-    film => filmSessionCount(film) < 5
-  );
+  const mainFilms =
+    films.filter(
+      film =>
+        filmSessionCount(film)
+        >= 5
+    );
+
+  const occasionalFilms =
+    films.filter(
+      film =>
+        filmSessionCount(film)
+        < 5
+    );
 
   const mainSessions =
-    renderMainTable(mainFilms, days);
+    renderMainTable(
+      mainFilms,
+      days
+    );
 
   const occasionalSessions =
-    renderOccasional(occasionalFilms);
+    renderOccasional(
+      occasionalFilms
+    );
 
-  const status = el("cinemaStatus");
+  const status =
+    el("cinemaStatus");
 
   if (status) {
     const total =
-      mainSessions + occasionalSessions;
+      mainSessions +
+      occasionalSessions;
 
     status.textContent =
       `${films.length} film${films.length > 1 ? "s" : ""} · ` +
@@ -485,10 +724,13 @@ function render() {
 
 async function init() {
   try {
-    const response = await fetch(
-      "cinema_events.json",
-      { cache: "no-store" }
-    );
+    const response =
+      await fetch(
+        "cinema_events.json",
+        {
+          cache: "no-store"
+        }
+      );
 
     if (!response.ok) {
       throw new Error(
@@ -496,16 +738,23 @@ async function init() {
       );
     }
 
-    cinemaEvents = await response.json();
+    cinemaEvents =
+      await response.json();
 
-    if (!Array.isArray(cinemaEvents)) {
+    if (
+      !Array.isArray(
+        cinemaEvents
+      )
+    ) {
       throw new Error(
         "cinema_events.json n'a pas le bon format"
       );
     }
 
     cinemaEvents.sort(
-      (a, b) => new Date(a.start) - new Date(b.start)
+      (a, b) =>
+        new Date(a.start) -
+        new Date(b.start)
     );
 
     buildCinemaFilters();
@@ -514,23 +763,27 @@ async function init() {
   } catch (err) {
     console.error(err);
 
-    const status = el("cinemaStatus");
+    const status =
+      el("cinemaStatus");
 
     if (status) {
       status.textContent =
-        "Erreur : " + err.message;
+        "Erreur : " +
+        err.message;
     }
   }
 }
 
-el("cinemaSearch")?.addEventListener(
-  "input",
-  render
-);
+el("cinemaSearch")
+  ?.addEventListener(
+    "input",
+    render
+  );
 
-el("afterWorkOnly")?.addEventListener(
-  "change",
-  render
-);
+el("afterWorkOnly")
+  ?.addEventListener(
+    "change",
+    render
+  );
 
 init();
