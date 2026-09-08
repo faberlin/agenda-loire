@@ -1,40 +1,316 @@
-.cinema-toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;margin-bottom:10px}.cinema-toolbar input[type="search"]{width:100%;min-width:0;border:1px solid #d1d5db;border-radius:7px;padding:8px 10px;font:inherit}.after-work-filter{display:flex;align-items:center;gap:7px;white-space:nowrap}.after-work-filter input{margin:0}.cinema-filters{border:1px solid #d8d8d8;border-radius:8px;padding:9px 11px;margin-bottom:10px}.cinema-filter-list{display:flex;gap:14px;flex-wrap:wrap;margin-top:7px}.cinema-filter-check{display:flex;align-items:center;gap:5px}.cinema-filter-check input{margin:0}.cinema-table-wrap{width:100%;overflow-x:auto;border:1px solid #ddd;border-radius:8px}.cinema-week-table{width:100%;min-width:980px;border-collapse:collapse;table-layout:fixed;background:#fff}.cinema-week-table th,.cinema-week-table td{border-right:1px solid #e4e4e4;border-bottom:1px solid #e8e8e8;padding:6px 7px;vertical-align:top}.cinema-week-table th:last-child,.cinema-week-table td:last-child{border-right:0}.cinema-week-table thead th{background:#f7f7f7;font-size:12px;text-align:left;white-space:nowrap}.film-col{width:280px}.day-col{width:calc((100% - 280px)/5)}.film-title{display:block;font-weight:700;font-size:15px;line-height:1.3;margin-bottom:4px}.film-cinema{display:block;color:#666;font-size:11px}.film-start-row td{border-top:2px solid #d8d8d8;padding-top:10px}.film-start-row:first-child td{border-top:0}.film-sub-row td{border-bottom-color:#f0f0f0}.session-list{display:flex;gap:4px;flex-wrap:wrap}.session-time{display:inline-flex;align-items:center;gap:3px;border:1px solid #cfcfcf;border-radius:5px;padding:2px 5px;text-decoration:none;color:#222;background:#fff;font-size:11px;line-height:1.3}.session-version{color:#777;font-size:9px}.session-time.session-sf{background:#e8f6e8!important;border-color:#b7dbb7!important}.session-time.session-jj{background:#fff0e2!important;border-color:#efc49e!important}.no-session{color:#bbb}.today-col{background:#fafafa!important}.cinema-occasional-section{margin-top:14px}.cinema-occasional-section h2{margin:0 0 7px;font-size:16px}.occasional-list{display:flex;flex-direction:column;gap:5px}.occasional-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;padding:5px 0;border-bottom:1px solid #ececec}.occasional-title{font-weight:700;min-width:220px}.occasional-sessions{display:flex;align-items:center;gap:5px;flex-wrap:wrap}.occasional-date{color:#666;font-size:11px}.occasional-separator{color:#999}.cinema-empty{padding:12px;color:#777}@media(max-width:900px){.cinema-toolbar{grid-template-columns:1fr}.after-work-filter{white-space:normal}.occasional-title{min-width:0;width:100%}}
-/* Tableau cinéma plus compact */
+/* =======================================================
+   PAGE CINÉMA
+   ======================================================= */
+
+.cinema-toolbar {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cinema-toolbar input[type="search"] {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+  padding: 8px 10px;
+  font: inherit;
+}
+
+.after-work-filter {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.after-work-filter input {
+  margin: 0;
+}
+
+
+/* =======================================================
+   FILTRES CINÉMAS
+   ======================================================= */
+
+.cinema-filters {
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  padding: 9px 11px;
+  margin-bottom: 10px;
+}
+
+.cinema-filter-list {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 7px;
+}
+
+.cinema-filter-check {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cinema-filter-check input {
+  margin: 0;
+}
+
+
+/* =======================================================
+   TABLEAU 5 JOURS
+   ======================================================= */
+
+.cinema-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.cinema-week-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #fff;
+}
 
 .cinema-week-table th,
 .cinema-week-table td {
-  padding: 4px 5px;
+  border-right:
+    1px solid #e4e4e4;
+  border-bottom:
+    1px solid #e8e8e8;
+  padding: 3px 5px;
+  vertical-align: top;
 }
+
+.cinema-week-table th:last-child,
+.cinema-week-table td:last-child {
+  border-right: 0;
+}
+
+.cinema-week-table thead th {
+  background: #f7f7f7;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+
+/* =======================================================
+   COLONNE FILM
+   ======================================================= */
 
 .film-col {
   width: 230px;
 }
 
 .day-col {
-  width: calc((100% - 230px) / 5);
+  width:
+    calc(
+      (100% - 230px) / 5
+    );
 }
 
 .film-title {
-  font-size: 13px;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1.15;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .film-start-row td {
-  padding-top: 6px;
-  border-top: 1px solid #d8d8d8;
+  border-top:
+    1px solid #d8d8d8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.film-start-row:first-child td {
+  border-top: 0;
+}
+
+
+/* =======================================================
+   SÉANCES
+   ======================================================= */
+
+.sessions-cell {
+  min-height: 18px;
 }
 
 .session-list {
+  display: flex;
   gap: 3px;
+  flex-wrap: wrap;
 }
 
 .session-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+
+  border:
+    1px solid #cfcfcf;
+
+  border-radius: 5px;
+
   padding: 1px 4px;
+
+  text-decoration: none;
+
+  color: #222;
+
+  background: #fff;
+
   font-size: 10px;
-  line-height: 1.2;
+
+  line-height: 1.15;
 }
 
-.sessions-cell {
-  min-height: 20px;
+.session-time:hover {
+  filter: brightness(0.97);
+}
+
+.session-version {
+  color: #666;
+  font-size: 8px;
+}
+
+.no-session {
+  color: #bbb;
+}
+
+.today-col {
+  background:
+    #fafafa !important;
+}
+
+
+/* =======================================================
+   COULEURS DES 4 CINÉMAS
+   ======================================================= */
+
+/* Méliès Saint-François */
+.session-time.session-sf {
+  background:
+    #e8f6e8 !important;
+
+  border-color:
+    #b7dbb7 !important;
+}
+
+/* Méliès Jean-Jaurès */
+.session-time.session-melies-jj {
+  background:
+    #fff0e2 !important;
+
+  border-color:
+    #efc49e !important;
+}
+
+/* Mégarama Jean-Jaurès */
+.session-time.session-mega-jj {
+  background:
+    #e7f1ff !important;
+
+  border-color:
+    #b8d2f3 !important;
+}
+
+/* Mégarama Camion Rouge */
+.session-time.session-mega-cr {
+  background:
+    #f1e9ff !important;
+
+  border-color:
+    #cdb8ef !important;
+}
+
+
+/* =======================================================
+   SÉANCES PONCTUELLES
+   ======================================================= */
+
+.cinema-occasional-section {
+  margin-top: 14px;
+}
+
+.cinema-occasional-section h2 {
+  margin:
+    0 0 7px;
+  font-size: 16px;
+}
+
+.occasional-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.occasional-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+
+  padding:
+    4px 0;
+
+  border-bottom:
+    1px solid #ececec;
+}
+
+.occasional-title {
+  font-weight: 700;
+  min-width: 220px;
+}
+
+.occasional-sessions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.occasional-date {
+  color: #666;
+  font-size: 11px;
+}
+
+.occasional-separator {
+  color: #999;
+}
+
+.cinema-empty {
+  padding: 10px;
+  color: #777;
+}
+
+
+/* =======================================================
+   MOBILE
+   ======================================================= */
+
+@media (max-width: 900px) {
+  .cinema-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .after-work-filter {
+    white-space: normal;
+  }
+
+  .occasional-title {
+    min-width: 0;
+    width: 100%;
+  }
 }
