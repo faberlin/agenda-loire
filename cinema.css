@@ -1,4 +1,4 @@
-/* Page cinéma */
+/* Vue semaine cinéma : une ligne par film + cinéma */
 
 .cinema-toolbar {
   display: grid;
@@ -52,91 +52,109 @@
   margin: 0;
 }
 
-.cinema-days {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.cinema-day {
-  border: 1px solid #e2e2e2;
+.cinema-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #ddd;
   border-radius: 8px;
-  overflow: hidden;
 }
 
-.cinema-day-header {
-  padding: 7px 10px;
-  background: #f7f7f7;
-  border-bottom: 1px solid #e2e2e2;
-  font-weight: 700;
+.cinema-week-table {
+  width: 100%;
+  min-width: 1180px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #fff;
 }
 
-.cinema-list {
-  display: flex;
-  flex-direction: column;
+.cinema-week-table th,
+.cinema-week-table td {
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 6px 7px;
+  vertical-align: top;
 }
 
-.cinema-film {
-  display: grid;
-  grid-template-columns: minmax(220px, 1.5fr) minmax(180px, 1fr) minmax(260px, 2fr);
-  align-items: center;
-  gap: 10px;
-  padding: 6px 10px;
-  border-bottom: 1px solid #ededed;
-  min-width: 0;
+.cinema-week-table th:last-child,
+.cinema-week-table td:last-child {
+  border-right: 0;
 }
 
-.cinema-film:last-child {
+.cinema-week-table tbody tr:last-child td {
   border-bottom: 0;
 }
 
-.cinema-title {
-  font-weight: 600;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.cinema-week-table thead th {
+  background: #f7f7f7;
+  font-size: 12px;
+  text-align: left;
   white-space: nowrap;
 }
 
-.cinema-name {
+.film-col {
+  width: 270px;
+}
+
+.day-col {
+  width: calc((100% - 270px) / 7);
+}
+
+.film-title {
+  display: block;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.film-cinema {
+  display: block;
+  margin-top: 2px;
   color: #666;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-size: 11px;
 }
 
-.cinema-times {
+.sessions-cell {
+  min-height: 28px;
+}
+
+.session-list {
   display: flex;
-  align-items: center;
-  gap: 5px;
+  gap: 4px;
   flex-wrap: wrap;
 }
 
-.cinema-time {
+.session-time {
   display: inline-flex;
   align-items: center;
   gap: 3px;
-  border: 1px solid #ccc;
+  border: 1px solid #cfcfcf;
   border-radius: 5px;
-  padding: 3px 6px;
+  padding: 2px 5px;
   text-decoration: none;
   color: #222;
   background: #fff;
-  font-size: 12px;
+  font-size: 11px;
+  line-height: 1.3;
 }
 
-.cinema-time:hover {
-  background: #f5f5f5;
+.session-time:hover {
+  background: #f3f3f3;
 }
 
-.cinema-version {
+.session-version {
   color: #777;
-  font-size: 10px;
+  font-size: 9px;
+}
+
+.no-session {
+  color: #bbb;
+}
+
+.today-col {
+  background: #fafafa !important;
 }
 
 .cinema-empty {
-  padding: 10px;
+  padding: 12px;
   color: #777;
 }
 
@@ -146,15 +164,6 @@
   }
 
   .after-work-filter {
-    white-space: normal;
-  }
-
-  .cinema-film {
-    grid-template-columns: 1fr;
-    gap: 4px;
-  }
-
-  .cinema-name {
     white-space: normal;
   }
 }
