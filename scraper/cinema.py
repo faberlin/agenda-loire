@@ -21,18 +21,18 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/140.0.0.0 Safari/537.36"
     ),
-    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+    "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
 
 ALLOCINE_CINEMAS = [
     (
         "Mégarama Jean-Jaurès",
-        "P0231",
+        "https://www.allocine.fr/seance/salle_gen_csalle=P0231.html",
     ),
     (
         "Mégarama Camion Rouge",
-        "P0191",
+        "https://www.allocine.fr/seance/salle_gen_csalle=P0191.html",
     ),
 ]
 
@@ -81,7 +81,6 @@ def window():
         microsecond=0,
     )
 
-    # Aujourd'hui + 4 jours
     end = start + timedelta(days=5)
 
     return start, end
@@ -89,17 +88,10 @@ def window():
 
 def in_window(dt):
     start, end = window()
-
     return start <= dt < end
 
 
-def parse_french_full_date(text):
-    """
-    Exemple :
-    8 septembre 2026
-    08 septembre 2026
-    """
-
+def parse_french_date(text):
     match = re.search(
         r"\b(\d{1,2})\s+"
         r"(janvier|février|fevrier|mars|avril|mai|juin|"
@@ -129,7 +121,7 @@ def extract_times(text):
     result = []
 
     for match in re.finditer(
-        r"\b(\d{1,2})(?::|h)(\d{2})\b",
+        r"\b(\d{1,2}):(\d{2})\b",
         text
     ):
         hour = int(match.group(1))
@@ -144,45 +136,23 @@ def extract_times(text):
 
 
 # =========================================================
-# ALLOCINÉ / MÉGARAMA
+# ALLOCINÉ
 # =========================================================
 
-def allocine_url(cinema_code, day):
+def get_allocine_films(soup):
     """
-    AlloCiné permet de sélectionner le jour via ?date=YYYY-MM-DD
-    """
-
-    return (
-        "https://www.allocine.fr/seance/"
-        f"salle_gen_csalle={cinema_code}.html"
-        f"?date={day.strftime('%Y-%m-%d')}"
-    )
-
-
-def allocine_film_headings(soup):
-    """
-    On recherche uniquement les titres qui pointent
-    vers une vraie fiche film AlloCiné.
+    Récupère les vrais titres de films + URL de fiche.
     """
 
-    result = []
+    films = []
 
-    for heading in soup.find_all(["h2", "h3"]):
+    seen = set()
 
-        link = heading.find(
-            "a",
-            href=True,
-        )
-
-        if not link:
-            continue
+    for link in soup.find_all("a", href=True):
 
         href = link["href"]
 
-        if (
-            "/film/fichefilm_gen_cfilm="
-            not in href
-        ):
+        if "/film/fichefilm_gen_cfilm=" not in href:
             continue
 
         title = clean(
@@ -192,68 +162,97 @@ def allocine_film_headings(soup):
         if not title:
             continue
 
-        result.append(
+        key = title.lower()
+
+        if key in seen:
+            continue
+
+        seen.add(key)
+
+        films.append({
+            "title": title,
+            "url": urljoin(
+                "https://www.allocine.fr",
+                href,
+            ),
+        })
+
+    return films
+
+
+def split_allocine_text_by_films(page_text, films):
+    """
+    Découpe le texte complet AlloCiné en un bloc par film.
+
+    Cela évite les doublons provoqués par les éléments HTML imbriqués.
+    """
+
+    positions = []
+
+    search_from = 0
+
+    for film in films:
+
+        title = film["title"]
+
+        position = page_text.find(
+            title,
+            search_from,
+        )
+
+        if position == -1:
+            continue
+
+        positions.append(
             (
-                heading,
-                title,
-                urljoin(
-                    "https://www.allocine.fr/",
-                    href,
-                ),
+                position,
+                film,
             )
         )
 
-    return result
+        search_from = (
+            position
+            + len(title)
+        )
 
+    sections = []
 
-def text_between_headings(
-    heading,
-    next_heading,
-):
-    """
-    Récupère le texte du film jusqu'au film suivant.
-    """
+    for index, (
+        position,
+        film,
+    ) in enumerate(positions):
 
-    parts = []
+        end = (
+            positions[index + 1][0]
+            if index + 1 < len(positions)
+            else len(page_text)
+        )
 
-    node = heading.find_next()
+        block = page_text[
+            position:end
+        ]
 
-    while node:
-
-        if node is next_heading:
-            break
-
-        if getattr(
-            node,
-            "get_text",
-            None,
-        ):
-            text = clean(
-                node.get_text(" ")
+        sections.append(
+            (
+                film,
+                block,
             )
+        )
 
-            if text:
-                parts.append(text)
-
-        node = node.find_next()
-
-    return " ".join(parts)
+    return sections
 
 
-def parse_allocine_film_block(
+def parse_allocine_block(
     cinema_name,
-    title,
-    film_url,
-    block_text,
-    expected_day,
+    film,
+    block,
 ):
     """
-    Exemple AlloCiné :
+    Exemple attendu :
 
     8 septembre 2026 - En VF
     14:00 Réserver
     17:00 Réserver
-    20:00 Réserver
 
     8 septembre 2026 - En VO
     21:30 Réserver
@@ -261,60 +260,63 @@ def parse_allocine_film_block(
 
     events = []
 
-    date_pattern = re.compile(
+    session_pattern = re.compile(
         r"(\d{1,2}\s+"
         r"(?:janvier|février|fevrier|mars|avril|mai|juin|"
         r"juillet|août|aout|septembre|octobre|novembre|"
         r"décembre|decembre)"
         r"\s+20\d{2})"
         r"\s*-\s*En\s+"
-        r"(VF|VO|VOST|VOSTF|VO(?:\s+STFR)?)",
+        r"(VF|VO|VOST|VOSTF|VF ST-SME|VO ST-SME|VOSTFR)",
         re.IGNORECASE,
     )
 
     matches = list(
-        date_pattern.finditer(
-            block_text
+        session_pattern.finditer(
+            block
         )
     )
 
     for index, match in enumerate(matches):
 
-        date_text = match.group(1)
-
-        version = (
-            match.group(2)
-            .upper()
-            .replace(" ", "")
-        )
-
-        if version == "VOSTFR":
-            version = "VOSTF"
-
-        date = parse_french_full_date(
-            date_text
+        date = parse_french_date(
+            match.group(1)
         )
 
         if not date:
             continue
 
-        # On ne conserve que le jour demandé.
-        if date.date() != expected_day.date():
+        if not in_window(date):
             continue
 
-        section_end = (
-            matches[index + 1].start()
-            if index + 1 < len(matches)
-            else len(block_text)
+        version = (
+            match.group(2)
+            .upper()
+            .replace(" ST-SME", "")
         )
 
-        section = block_text[
-            match.end():section_end
+        if version == "VOSTFR":
+            version = "VOSTF"
+
+        end = (
+            matches[index + 1].start()
+            if index + 1 < len(matches)
+            else len(block)
+        )
+
+        session_text = block[
+            match.end():end
         ]
 
+        # On s'arrête avant les textes de navigation éventuels.
+        session_text = session_text.split(
+            "Choisissez votre horaire"
+        )[0]
+
         for hour, minute in extract_times(
-            section
+            session_text
         ):
+
             dt = date.replace(
                 hour=hour,
                 minute=minute,
@@ -326,29 +328,24 @@ def parse_allocine_film_block(
             events.append({
                 "id": stable_id(
                     cinema_name,
-                    title,
+                    film["title"],
                     dt.isoformat(),
                     version,
                 ),
-                "title": title,
+                "title": film["title"],
                 "cinema": cinema_name,
                 "start": dt.isoformat(),
                 "version": version,
-                "url": film_url,
+                "url": film["url"],
             })
 
     return events
 
 
-def scrape_allocine_day(
+def scrape_allocine_cinema(
     cinema_name,
-    cinema_code,
-    day,
+    url,
 ):
-    url = allocine_url(
-        cinema_code,
-        day,
-    )
 
     response = requests.get(
         url,
@@ -363,81 +360,40 @@ def scrape_allocine_day(
         "html.parser",
     )
 
-    headings = allocine_film_headings(
+    films = get_allocine_films(
         soup
+    )
+
+    print(
+        f"{cinema_name}: "
+        f"{len(films)} film(s) trouvé(s)"
+    )
+
+    page_text = clean(
+        soup.get_text(
+            " ",
+            strip=True,
+        )
+    )
+
+    sections = split_allocine_text_by_films(
+        page_text,
+        films,
     )
 
     events = []
 
-    for index, (
-        heading,
-        title,
-        film_url,
-    ) in enumerate(headings):
+    for film, block in sections:
 
-        next_heading = (
-            headings[index + 1][0]
-            if index + 1 < len(headings)
-            else None
-        )
-
-        block_text = text_between_headings(
-            heading,
-            next_heading,
+        found = parse_allocine_block(
+            cinema_name,
+            film,
+            block,
         )
 
         events.extend(
-            parse_allocine_film_block(
-                cinema_name,
-                title,
-                film_url,
-                block_text,
-                day,
-            )
+            found
         )
-
-    return events
-
-
-def scrape_allocine_cinema(
-    cinema_name,
-    cinema_code,
-):
-    start, _ = window()
-
-    events = []
-
-    for offset in range(5):
-
-        day = start + timedelta(
-            days=offset
-        )
-
-        try:
-
-            found = scrape_allocine_day(
-                cinema_name,
-                cinema_code,
-                day,
-            )
-
-            print(
-                f"{cinema_name} "
-                f"{day.strftime('%d/%m')}: "
-                f"{len(found)} séance(s)"
-            )
-
-            events.extend(
-                found
-            )
-
-        except Exception as exc:
-
-            print(
-                f"ERREUR {cinema_name} "
-                f"{day.strftime('%d/%m')}: "
-                f"{exc}"
-            )
 
     unique = {
         event["id"]: event
@@ -617,11 +573,6 @@ def scrape_melies():
             if not date:
                 continue
 
-            if not in_window(
-                date
-            ):
-                continue
-
             end = (
                 day_matches[index + 1].start()
                 if index + 1 < len(day_matches)
@@ -668,25 +619,18 @@ def scrape_melies():
             ]:
 
                 version_match = re.search(
-                    r"\b("
-                    r"VF|VO|VOST|VOSTF"
-                    r")\b",
+                    r"\b(VF|VO|VOST|VOSTF)\b",
                     cinema_text,
                     re.IGNORECASE,
                 )
 
                 version = (
-                    version_match
-                    .group(1)
-                    .upper()
+                    version_match.group(1).upper()
                     if version_match
                     else ""
                 )
 
-                for (
-                    hour,
-                    minute,
-                ) in extract_times(
+                for hour, minute in extract_times(
                     cinema_text
                 ):
 
@@ -695,9 +639,7 @@ def scrape_melies():
                         minute=minute,
                     )
 
-                    if not in_window(
-                        dt
-                    ):
+                    if not in_window(dt):
                         continue
 
                     events.append({
@@ -736,25 +678,18 @@ def scrape_cinema():
 
     events = []
 
-    # -----------------------------
-    # MÉGARAMA VIA ALLOCINÉ
-    # -----------------------------
-
-    for (
-        cinema_name,
-        cinema_code,
-    ) in ALLOCINE_CINEMAS:
+    for cinema_name, url in ALLOCINE_CINEMAS:
 
         try:
 
             found = scrape_allocine_cinema(
                 cinema_name,
-                cinema_code,
+                url,
             )
 
             print(
                 f"{cinema_name}: "
-                f"{len(found)} séance(s) au total"
+                f"{len(found)} séance(s)"
             )
 
             events.extend(
@@ -767,10 +702,6 @@ def scrape_cinema():
                 f"ERREUR {cinema_name}: "
                 f"{exc}"
             )
-
-    # -----------------------------
-    # MÉLIÈS
-    # -----------------------------
 
     try:
 
@@ -811,10 +742,6 @@ def scrape_cinema():
             f"{exc}"
         )
 
-    # -----------------------------
-    # DÉDOUBLONNAGE
-    # -----------------------------
-
     unique = {
         event["id"]: event
         for event in events
@@ -830,18 +757,11 @@ def scrape_cinema():
     )
 
 
-# =========================================================
-# EXÉCUTION DIRECTE
-# =========================================================
-
 if __name__ == "__main__":
 
     events = scrape_cinema()
 
-    output = (
-        ROOT
-        / "cinema_events.json"
-    )
+    output = ROOT / "cinema_events.json"
 
     output.write_text(
         json.dumps(
