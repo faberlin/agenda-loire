@@ -18,21 +18,24 @@ from verso import scrape_verso
 from arcomik import scrape_arcomik
 from comedie_triomphe import scrape_comedie_triomphe
 
+from cinema import scrape_cinema
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "events.json"
+CINEMA_OUT = ROOT / "cinema_events.json"
 
 SCRAPERS = [
     ("Médiathèques Sainté", scrape_mediatheques),
     ("Le Fil", scrape_le_fil),
-    ("Zénith", scrape_zenith),
+    ("Zénith Sainté", scrape_zenith),
     ("Opéra Sainté", scrape_opera),
     ("Comédie Sainté", scrape_comedie),
 
     ("Le Solar", scrape_solar),
-    ("Le Chambon-Feugerolles", scrape_chambon),
+    ("Salles Chambon-Feugerolles", scrape_chambon),
     ("La Comète", scrape_comete),
-    ("Les Trois Ducs", scrape_trois_ducs),
+    ("Les 3 Ducs", scrape_trois_ducs),
     ("Chok Théâtre", scrape_chok),
     ("Théâtre Le Verso", scrape_verso),
     ("ArcomiK", scrape_arcomik),
@@ -40,7 +43,7 @@ SCRAPERS = [
 ]
 
 
-def main():
+def collect_cultural_events():
     all_events = []
 
     for name, scraper in SCRAPERS:
@@ -54,7 +57,7 @@ def main():
     all_events = dedupe(all_events)
 
     if not all_events:
-        print("Aucun événement collecté : events.json conservé.")
+        print("Aucun événement culturel collecté : events.json conservé.")
         return
 
     OUT.write_text(
@@ -63,6 +66,35 @@ def main():
     )
 
     print(f"{len(all_events)} événements écrits dans {OUT}")
+
+
+def collect_cinema_events():
+    try:
+        cinema_events = scrape_cinema()
+    except Exception as exc:
+        print(f"ERREUR CINÉMA: {exc}")
+        return
+
+    # On évite d'écraser un fichier valide si toutes les sources ciné
+    # échouent temporairement.
+    if not cinema_events:
+        print("Aucune séance cinéma collectée : cinema_events.json conservé.")
+        return
+
+    CINEMA_OUT.write_text(
+        json.dumps(cinema_events, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+
+    print(
+        f"{len(cinema_events)} séances cinéma écrites "
+        f"dans {CINEMA_OUT}"
+    )
+
+
+def main():
+    collect_cultural_events()
+    collect_cinema_events()
 
 
 if __name__ == "__main__":
