@@ -1,4 +1,4 @@
-/* Vue semaine cinéma : une ligne par film + cinéma */
+/* Vue semaine cinéma : film puis cinémas en sous-lignes */
 
 .cinema-toolbar {
   display: grid;
@@ -80,10 +80,6 @@
   border-right: 0;
 }
 
-.cinema-week-table tbody tr:last-child td {
-  border-bottom: 0;
-}
-
 .cinema-week-table thead th {
   background: #f7f7f7;
   font-size: 12px;
@@ -103,13 +99,29 @@
   display: block;
   font-weight: 700;
   line-height: 1.25;
+  margin-bottom: 2px;
 }
 
 .film-cinema {
   display: block;
-  margin-top: 2px;
   color: #666;
   font-size: 11px;
+}
+
+.film-sub-row .film-col {
+  padding-top: 3px;
+}
+
+.film-sub-row td {
+  border-bottom-color: #f0f0f0;
+}
+
+.film-start-row td {
+  border-top: 2px solid #d8d8d8;
+}
+
+.film-start-row:first-child td {
+  border-top: 0;
 }
 
 .sessions-cell {
