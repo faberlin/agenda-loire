@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -12,55 +14,26 @@ from utils import PARIS, clean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 Chrome/140 Safari/537.36"
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/140.0.0.0 Safari/537.36"
     )
 }
 
-# Les deux Mégarama ont une grille hebdomadaire très structurée.
 MEGARAMA = [
     (
         "Mégarama Jean-Jaurès",
-        "https://jean-jaures.megarama.fr/FR/programmation-cine?tk_source=site&tk_type=progpdf",
+        "https://jean-jaures.megarama.fr/",
     ),
     (
         "Mégarama Camion Rouge",
-        "https://chavanelle.megarama.fr/FR/programmation-cine?tk_source=site&tk_type=progpdf",
+        "https://chavanelle.megarama.fr/",
     ),
 ]
 
-# Pour les Méliès on part du site officiel.
 MELIES_URL = "https://www.lemelies.com/films/"
-
-CINEMA_ALIASES = {
-    "méliès jean jaurès": "Méliès Jean-Jaurès",
-    "melies jean jaures": "Méliès Jean-Jaurès",
-    "le méliès jean jaurès": "Méliès Jean-Jaurès",
-    "le melies jean jaures": "Méliès Jean-Jaurès",
-    "jean jaurès": "Méliès Jean-Jaurès",
-    "jean jaures": "Méliès Jean-Jaurès",
-
-    "méliès st françois": "Méliès Saint-François",
-    "melies st francois": "Méliès Saint-François",
-    "méliès saint françois": "Méliès Saint-François",
-    "melies saint francois": "Méliès Saint-François",
-    "le méliès st-françois": "Méliès Saint-François",
-    "saint françois": "Méliès Saint-François",
-    "st françois": "Méliès Saint-François",
-}
-
-DAY_NAMES = {
-    "lun": 0,
-    "mar": 1,
-    "mer": 2,
-    "jeu": 3,
-    "ven": 4,
-    "sam": 5,
-    "dim": 6,
-}
 
 MONTHS = {
     "janv": 1, "janvier": 1,
@@ -79,7 +52,6 @@ MONTHS = {
 
 
 def _window():
-    """Aujourd'hui 00:00 jusqu'à J+7 inclus (8 dates calendaires)."""
     now = datetime.now(PARIS)
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
     end = start + timedelta(days=8)
@@ -91,36 +63,39 @@ def _in_window(dt: datetime) -> bool:
     return start <= dt < end
 
 
-def _stable_session_id(cinema: str, title: str, start: str, version: str) -> str:
-    import hashlib
+def _stable_id(cinema: str, title: str, start: str, version: str) -> str:
     raw = f"{cinema}|{title}|{start}|{version}"
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:20]
 
 
-def _infer_date(day_name: str, day_number: int) -> datetime | None:
+def _parse_day_month(text: str) -> datetime | None:
     """
-    Les grilles Mégarama affichent parfois seulement 'Mer 09'.
-    On cherche la date correspondante autour des 7 prochains jours.
+    Reconnaît :
+      lun. 07
+      mar. 08
+      mer. 09
+    en choisissant la date correspondante dans la fenêtre actuelle.
     """
-    wanted_weekday = DAY_NAMES.get(day_name.lower()[:3])
-    if wanted_weekday is None:
+    m = re.search(
+        r"\b(lun|mar|mer|jeu|ven|sam|dim)\.?\s+(\d{1,2})\b",
+        text,
+        re.IGNORECASE,
+    )
+    if not m:
         return None
 
-    start, end = _window()
+    day_number = int(m.group(2))
+    start, _ = _window()
 
     for offset in range(-1, 10):
         d = start + timedelta(days=offset)
-        if d.day == day_number and d.weekday() == wanted_weekday:
+        if d.day == day_number:
             return d
 
     return None
 
 
-def _split_times(text: str) -> list[str]:
-    return re.findall(r"\b(\d{1,2})h(\d{2})\b|\b(\d{1,2}):(\d{2})\b", text)
-
-
-def _time_strings(text: str) -> list[tuple[int, int]]:
+def _times(text: str) -> list[tuple[int, int]]:
     result = []
     for m in re.finditer(r"\b(\d{1,2})(?:h|:)(\d{2})\b", text):
         hour = int(m.group(1))
@@ -130,280 +105,237 @@ def _time_strings(text: str) -> list[tuple[int, int]]:
     return result
 
 
-def scrape_megarama(cinema_name: str, url: str) -> list[dict]:
-    response = requests.get(url, headers=HEADERS, timeout=30)
+# ---------------------------------------------------------------------------
+# MÉGARAMA
+# ---------------------------------------------------------------------------
+
+def scrape_megarama(cinema_name: str, home_url: str) -> list[dict]:
+    """
+    Le site Mégarama ne renvoie plus directement la grille HTML à requests.
+    La page d'accueil contient par contre un lien TicketingCiné pour chaque film.
+
+    On récupère donc :
+      - le titre depuis le H3
+      - le lien "Séances du film ..." vers TicketingCiné
+      - les séances depuis cette page de réservation
+    """
+    response = requests.get(home_url, headers=HEADERS, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
-    table = soup.find("table")
-    if not table:
-        print(f"{cinema_name}: aucune grille trouvée")
-        return []
+    film_links = []
 
-    rows = table.find_all("tr")
-    if not rows:
-        return []
-
-    # En-tête : Mer 09 / Jeu 10 / ...
-    headers = []
-    header_row_index = None
-
-    for idx, row in enumerate(rows[:10]):
-        cells = row.find_all(["th", "td"])
-        parsed = []
-        for cell in cells:
-            txt = clean(cell.get_text(" "))
-            m = re.search(
-                r"\b(lun|mar|mer|jeu|ven|sam|dim)\.?\s*(\d{1,2})\b",
-                txt,
-                re.IGNORECASE,
-            )
-            if m:
-                parsed.append(_infer_date(m.group(1), int(m.group(2))))
-
-        if len(parsed) >= 5:
-            headers = parsed
-            header_row_index = idx
-            break
-
-    if not headers:
-        print(f"{cinema_name}: dates de grille non reconnues")
-        return []
-
-    events = []
-    current_title = ""
-    current_url = url
-
-    for row in rows[(header_row_index or 0) + 1:]:
-        cells = row.find_all(["td", "th"])
-        if not cells:
+    for h3 in soup.find_all("h3"):
+        title = clean(h3.get_text(" "))
+        if not title:
             continue
 
-        # Ligne titre de film : cellule couvrant toute la semaine.
-        if len(cells) == 1 or int(cells[0].get("colspan", "1") or "1") >= len(headers):
-            text = clean(cells[0].get_text(" "))
-            if not text:
-                continue
+        node = h3
+        booking_url = None
 
-            # Ex: "MICHAEL — Drame, Biopic... | 02h07"
-            current_title = re.split(r"\s+[—–-]\s+", text, maxsplit=1)[0].strip()
-
-            link = cells[0].find("a", href=True)
-            if link:
-                from urllib.parse import urljoin
-                current_url = urljoin(url, link["href"])
-            else:
-                current_url = url
-
-            continue
-
-        if not current_title:
-            continue
-
-        # Première cellule = VF / VO / VOST...
-        version = clean(cells[0].get_text(" ")).upper()
-        if not version:
-            version = ""
-
-        # Le reste correspond aux jours.
-        session_cells = cells[1:]
-
-        for day_index, cell in enumerate(session_cells):
-            if day_index >= len(headers):
+        # Cherche le lien TicketingCiné situé juste après le titre.
+        for _ in range(12):
+            node = node.find_next()
+            if not node:
                 break
 
-            date = headers[day_index]
+            if getattr(node, "name", None) == "h3":
+                break
+
+            if getattr(node, "name", None) == "a" and node.get("href"):
+                href = node["href"]
+                txt = clean(node.get_text(" ")).lower()
+
+                if "ticketingcine.com" in href or "séances du film" in txt or "seances du film" in txt:
+                    booking_url = href
+                    break
+
+        if booking_url:
+            film_links.append((title, booking_url))
+
+    events = []
+
+    for title, booking_url in film_links:
+        try:
+            r = requests.get(booking_url, headers=HEADERS, timeout=25)
+            r.raise_for_status()
+        except Exception as exc:
+            print(f"{cinema_name}: erreur TicketingCiné {title}: {exc}")
+            continue
+
+        page = BeautifulSoup(r.text, "html.parser")
+        text = clean(page.get_text(" "))
+
+        # On travaille dans les petits blocs qui contiennent simultanément
+        # une date et une heure.
+        for block in page.find_all(["div", "li", "article", "section", "p"]):
+            block_text = clean(block.get_text(" "))
+            if not block_text:
+                continue
+
+            date = _parse_day_month(block_text)
             if not date:
                 continue
 
-            cell_text = clean(cell.get_text(" "))
+            version_match = re.search(
+                r"\b(VF|VO|VOST|VOSTF|VOEST|VFST)\b",
+                block_text,
+                re.IGNORECASE,
+            )
+            version = version_match.group(1).upper() if version_match else ""
 
-            for hour, minute in _time_strings(cell_text):
+            for hour, minute in _times(block_text):
                 dt = date.replace(hour=hour, minute=minute)
-
                 if not _in_window(dt):
                     continue
 
-                start = dt.isoformat()
-
                 events.append({
-                    "id": _stable_session_id(
-                        cinema_name, current_title, start, version
+                    "id": _stable_id(
+                        cinema_name,
+                        title,
+                        dt.isoformat(),
+                        version,
                     ),
-                    "title": current_title,
+                    "title": title,
                     "cinema": cinema_name,
-                    "start": start,
+                    "start": dt.isoformat(),
                     "version": version,
-                    "url": current_url,
+                    "url": booking_url,
                 })
 
-    return events
+    unique = {event["id"]: event for event in events}
+    return sorted(unique.values(), key=lambda e: e["start"])
 
 
-def _normalize_cinema(text: str) -> str | None:
-    low = (
-        clean(text)
-        .lower()
-        .replace("-", " ")
-        .replace("’", "'")
-    )
+# ---------------------------------------------------------------------------
+# MÉLIÈS
+# ---------------------------------------------------------------------------
 
-    for alias, canonical in CINEMA_ALIASES.items():
-        if alias in low:
-            return canonical
-
-    return None
-
-
-def _parse_explicit_date(text: str) -> datetime | None:
+def _melies_film_blocks(soup: BeautifulSoup):
     """
-    Reconnaît notamment :
-      mer. 9 sept.
-      mercredi 9 septembre
-      mer. 9 sept. 2026
+    Le Méliès expose les films et horaires directement dans /films/.
+    On découpe la page à partir des titres H2/H3 et on lit jusqu'au titre suivant.
     """
-    m = re.search(
-        r"\b(lun|mar|mer|jeu|ven|sam|dim)[a-zéû]*\.?\s+"
-        r"(\d{1,2})\s+"
-        r"(janv(?:ier)?|févr(?:ier)?|fevr(?:ier)?|mars|avr(?:il)?|mai|juin|"
-        r"juil(?:let)?|août|aout|sept(?:embre)?|oct(?:obre)?|nov(?:embre)?|"
-        r"déc(?:embre)?|dec(?:embre)?)\.?"
-        r"(?:\s+(20\d{2}))?",
-        text,
-        re.IGNORECASE,
-    )
+    headings = soup.find_all(["h2", "h3"])
 
-    if not m:
-        return None
+    for i, heading in enumerate(headings):
+        title = clean(heading.get_text(" "))
+        if not title:
+            continue
 
-    month = MONTHS.get(m.group(3).lower().rstrip("."))
-    if not month:
-        return None
+        # Ignore les titres de sections génériques.
+        if title.lower() in {
+            "tous les films",
+            "à la une",
+            "a la une",
+            "film du mois",
+            "séances",
+            "seances",
+        }:
+            continue
 
-    now = datetime.now(PARIS)
-    year = int(m.group(4)) if m.group(4) else now.year
+        stop = headings[i + 1] if i + 1 < len(headings) else None
 
-    # Passage décembre -> janvier.
-    if not m.group(4):
-        candidate = datetime(year, month, int(m.group(2)), tzinfo=PARIS)
-        if candidate < now - timedelta(days=30):
-            year += 1
+        chunks = []
+        node = heading.find_next()
 
-    try:
-        return datetime(year, month, int(m.group(2)), tzinfo=PARIS)
-    except ValueError:
-        return None
+        while node and node is not stop:
+            if getattr(node, "get_text", None):
+                txt = clean(node.get_text(" "))
+                if txt:
+                    chunks.append(txt)
+            node = node.find_next()
+
+        text = " ".join(chunks)
+
+        if not re.search(r"\b(?:lun|mar|mer|jeu|ven|sam|dim)\.?\s+\d{1,2}\b", text, re.I):
+            continue
+
+        link = heading.find("a", href=True)
+        film_url = urljoin(MELIES_URL, link["href"]) if link else MELIES_URL
+
+        yield title, text, film_url
 
 
 def scrape_melies() -> list[dict]:
-    """
-    Parser volontairement souple du site officiel du Méliès.
-
-    Le site change régulièrement sa mise en page. On parcourt les cartes de films
-    et cherche, dans chaque carte, les dates, les deux cinémas et les horaires.
-    """
     response = requests.get(MELIES_URL, headers=HEADERS, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
     events = []
-    seen = set()
 
-    # Candidats "film" : articles / cartes contenant un titre et des horaires.
-    candidates = soup.find_all(["article", "li", "div"])
+    for title, text, film_url in _melies_film_blocks(soup):
+        # La structure textuelle est :
+        # Jean Jaurès / St-François / lun. 07 / horaires JJ / horaires SF / mar. 08 / ...
+        day_matches = list(re.finditer(
+            r"\b(lun|mar|mer|jeu|ven|sam|dim)\.?\s+(\d{1,2})\b",
+            text,
+            re.IGNORECASE,
+        ))
 
-    for block in candidates:
-        block_text = clean(block.get_text(" "))
-        if not re.search(r"\b\d{1,2}(?:h|:)\d{2}\b", block_text):
-            continue
-
-        heading = block.find(["h2", "h3", "h4"])
-        if not heading:
-            continue
-
-        title = clean(heading.get_text(" "))
-        if not title or len(title) > 140:
-            continue
-
-        # Une carte utile doit mentionner au moins un des deux sites.
-        if not _normalize_cinema(block_text):
-            continue
-
-        link = heading.find("a", href=True) or block.find("a", href=True)
-        if link:
-            from urllib.parse import urljoin
-            film_url = urljoin(MELIES_URL, link["href"])
-        else:
-            film_url = MELIES_URL
-
-        # Lecture séquentielle des petits blocs internes.
-        current_date = None
-        current_cinema = None
-
-        for node in block.find_all(["div", "li", "p", "span", "time", "strong"]):
-            text = clean(node.get_text(" "))
-            if not text:
+        for idx, match in enumerate(day_matches):
+            date = _parse_day_month(match.group(0))
+            if not date:
                 continue
 
-            d = _parse_explicit_date(text)
-            if d:
-                current_date = d
+            end = day_matches[idx + 1].start() if idx + 1 < len(day_matches) else len(text)
+            day_text = text[match.end():end]
 
-            c = _normalize_cinema(text)
-            if c:
-                current_cinema = c
+            # Le site affiche deux colonnes : Jean Jaurès puis St-François.
+            # "Aucune séance" sert de séparateur naturel.
+            parts = re.split(
+                r"Aucune\s+s[ée]ance",
+                day_text,
+                flags=re.IGNORECASE,
+            )
 
-            if current_date and current_cinema:
-                for hour, minute in _time_strings(text):
-                    dt = current_date.replace(hour=hour, minute=minute)
+            jj_text = parts[0] if parts else day_text
+            sf_text = parts[1] if len(parts) > 1 else ""
 
+            for cinema_name, cinema_text in [
+                ("Méliès Jean-Jaurès", jj_text),
+                ("Méliès Saint-François", sf_text),
+            ]:
+                version_match = re.search(
+                    r"\b(VF|VO|VOST|VOSTF|VOEST|VFST)\b",
+                    cinema_text,
+                    re.IGNORECASE,
+                )
+                version = version_match.group(1).upper() if version_match else ""
+
+                for hour, minute in _times(cinema_text):
+                    dt = date.replace(hour=hour, minute=minute)
                     if not _in_window(dt):
                         continue
 
-                    # Version si elle est indiquée près de l'horaire.
-                    version_match = re.search(
-                        r"\b(VF|VO|VOST|VOSTF|VOF|VFST)\b",
-                        text,
-                        re.IGNORECASE,
-                    )
-                    version = (
-                        version_match.group(1).upper()
-                        if version_match else ""
-                    )
-
-                    key = (
-                        title.lower(),
-                        current_cinema,
-                        dt.isoformat(),
-                        version,
-                    )
-                    if key in seen:
-                        continue
-                    seen.add(key)
-
                     events.append({
-                        "id": _stable_session_id(
-                            current_cinema,
+                        "id": _stable_id(
+                            cinema_name,
                             title,
                             dt.isoformat(),
                             version,
                         ),
                         "title": title,
-                        "cinema": current_cinema,
+                        "cinema": cinema_name,
                         "start": dt.isoformat(),
                         "version": version,
                         "url": film_url,
                     })
 
-    return events
+    unique = {event["id"]: event for event in events}
+    return sorted(unique.values(), key=lambda e: e["start"])
 
+
+# ---------------------------------------------------------------------------
+# GLOBAL
+# ---------------------------------------------------------------------------
 
 def scrape_cinema() -> list[dict]:
     events = []
 
-    for cinema_name, url in MEGARAMA:
+    for cinema_name, home_url in MEGARAMA:
         try:
-            found = scrape_megarama(cinema_name, url)
+            found = scrape_megarama(cinema_name, home_url)
             print(f"{cinema_name}: {len(found)} séance(s)")
             events.extend(found)
         except Exception as exc:
@@ -412,8 +344,14 @@ def scrape_cinema() -> list[dict]:
     try:
         melies = scrape_melies()
 
-        jj = [x for x in melies if x["cinema"] == "Méliès Jean-Jaurès"]
-        sf = [x for x in melies if x["cinema"] == "Méliès Saint-François"]
+        jj = [
+            event for event in melies
+            if event["cinema"] == "Méliès Jean-Jaurès"
+        ]
+        sf = [
+            event for event in melies
+            if event["cinema"] == "Méliès Saint-François"
+        ]
 
         print(f"Méliès Jean-Jaurès: {len(jj)} séance(s)")
         print(f"Méliès Saint-François: {len(sf)} séance(s)")
@@ -423,24 +361,21 @@ def scrape_cinema() -> list[dict]:
     except Exception as exc:
         print(f"ERREUR Méliès: {exc}")
 
-    # Dédoublonnage + tri
-    unique = {}
-    for event in events:
-        unique[event["id"]] = event
+    unique = {event["id"]: event for event in events}
 
     return sorted(
         unique.values(),
-        key=lambda x: (x["start"], x["cinema"], x["title"])
+        key=lambda e: (e["start"], e["cinema"], e["title"])
     )
 
 
 if __name__ == "__main__":
     events = scrape_cinema()
 
-    out = ROOT / "cinema_events.json"
-    out.write_text(
+    output = ROOT / "cinema_events.json"
+    output.write_text(
         json.dumps(events, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
-    print(f"{len(events)} séance(s) écrite(s) dans {out}")
+    print(f"{len(events)} séance(s) écrite(s) dans {output}")
