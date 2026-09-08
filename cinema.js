@@ -59,16 +59,44 @@ function selectedCinemas() {
   );
 }
 
+function cinemaGroupName(name) {
+  if (
+    name === "Méliès Jean-Jaurès" ||
+    name === "Méliès Saint-François"
+  ) {
+    return "Méliès";
+  }
+
+  return name || "Cinéma";
+}
+
+function sessionCinemaClass(session) {
+  if (session.cinema === "Méliès Saint-François") {
+    return "session-sf";
+  }
+
+  if (session.cinema === "Méliès Jean-Jaurès") {
+    return "session-jj";
+  }
+
+  return "";
+}
+
 function buildCinemaFilters() {
   const container = el("cinemaFilters");
+
   if (!container) {
-    throw new Error("cinema.html et cinema.js ne correspondent pas : #cinemaFilters absent");
+    throw new Error(
+      "cinema.html et cinema.js ne correspondent pas : #cinemaFilters absent"
+    );
   }
 
   container.innerHTML = "";
 
   const names = [...new Set(
-    cinemaEvents.map(event => event.cinema).filter(Boolean)
+    cinemaEvents
+      .map(event => event.cinema)
+      .filter(Boolean)
   )].sort((a, b) => a.localeCompare(b, "fr"));
 
   for (const name of names) {
@@ -89,10 +117,13 @@ function buildCinemaFilters() {
   }
 }
 
-function buildWeekHeader(days) {
+function buildDayHeaders(days) {
   const row = el("cinemaWeekHeader");
+
   if (!row) {
-    throw new Error("cinema.html et cinema.js ne correspondent pas : #cinemaWeekHeader absent");
+    throw new Error(
+      "cinema.html et cinema.js ne correspondent pas : #cinemaWeekHeader absent"
+    );
   }
 
   row.innerHTML = '<th class="film-col">Film / cinéma</th>';
@@ -130,23 +161,23 @@ function visibleEvents() {
     if (dt < start || dt >= end) return false;
 
     if (
-      afterWorkOnly
-      && isWeekday(dt)
-      && dt.getHours() < 17
+      afterWorkOnly &&
+      isWeekday(dt) &&
+      dt.getHours() < 17
     ) {
       return false;
     }
 
     if (
-      cinemas.size > 0
-      && !cinemas.has(event.cinema)
+      cinemas.size > 0 &&
+      !cinemas.has(event.cinema)
     ) {
       return false;
     }
 
     if (
-      search
-      && !normalize(event.title).includes(search)
+      search &&
+      !normalize(event.title).includes(search)
     ) {
       return false;
     }
@@ -169,7 +200,7 @@ function groupByFilmThenCinema(events) {
     }
 
     const film = films.get(filmKey);
-    const cinemaKey = event.cinema || "Cinéma";
+    const cinemaKey = cinemaGroupName(event.cinema);
 
     if (!film.cinemas.has(cinemaKey)) {
       film.cinemas.set(cinemaKey, []);
@@ -200,8 +231,15 @@ function renderSessionCell(td, sessions) {
   for (const session of sessions) {
     const dt = new Date(session.start);
 
-    const node = document.createElement(session.url ? "a" : "span");
-    node.className = "session-time";
+    const node = document.createElement(
+      session.url ? "a" : "span"
+    );
+
+    const cinemaClass = sessionCinemaClass(session);
+
+    node.className = cinemaClass
+      ? `session-time ${cinemaClass}`
+      : "session-time";
 
     if (session.url) {
       node.href = session.url;
@@ -229,13 +267,20 @@ function renderSessionCell(td, sessions) {
 
 function render() {
   const start = startOfToday();
-  const days = Array.from({ length: 5 }, (_, i) => addDays(start, i));
 
-  buildWeekHeader(days);
+  const days = Array.from(
+    { length: 5 },
+    (_, i) => addDays(start, i)
+  );
+
+  buildDayHeaders(days);
 
   const body = el("cinemaWeekBody");
+
   if (!body) {
-    throw new Error("cinema.html et cinema.js ne correspondent pas : #cinemaWeekBody absent");
+    throw new Error(
+      "cinema.html et cinema.js ne correspondent pas : #cinemaWeekBody absent"
+    );
   }
 
   body.innerHTML = "";
@@ -245,6 +290,7 @@ function render() {
 
   let totalSessions = 0;
   let filmCount = 0;
+
   const today = startOfToday();
 
   for (const film of films) {
@@ -255,7 +301,11 @@ function render() {
 
     cinemaEntries.forEach(([cinemaName, sessions], index) => {
       const tr = document.createElement("tr");
-      tr.className = index === 0 ? "film-start-row" : "film-sub-row";
+
+      tr.className =
+        index === 0
+          ? "film-start-row"
+          : "film-sub-row";
 
       const firstTd = document.createElement("td");
       firstTd.className = "film-col";
@@ -286,7 +336,11 @@ function render() {
           sameDay(new Date(session.start), day)
         );
 
-        totalSessions += renderSessionCell(td, daySessions);
+        totalSessions += renderSessionCell(
+          td,
+          daySessions
+        );
+
         tr.appendChild(td);
       }
 
@@ -297,16 +351,22 @@ function render() {
   if (!films.length) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
+
     td.colSpan = 6;
     td.className = "cinema-empty";
     td.textContent = "Aucune séance pour ces filtres.";
+
     tr.appendChild(td);
     body.appendChild(tr);
   }
 
-  el("cinemaStatus").textContent =
-    `${filmCount} film${filmCount > 1 ? "s" : ""} · `
-    + `${totalSessions} séance${totalSessions > 1 ? "s" : ""}`;
+  const status = el("cinemaStatus");
+
+  if (status) {
+    status.textContent =
+      `${filmCount} film${filmCount > 1 ? "s" : ""} · ` +
+      `${totalSessions} séance${totalSessions > 1 ? "s" : ""}`;
+  }
 }
 
 async function init() {
@@ -317,13 +377,17 @@ async function init() {
     );
 
     if (!response.ok) {
-      throw new Error("Impossible de charger cinema_events.json");
+      throw new Error(
+        "Impossible de charger cinema_events.json"
+      );
     }
 
     cinemaEvents = await response.json();
 
     if (!Array.isArray(cinemaEvents)) {
-      throw new Error("cinema_events.json n'a pas le bon format");
+      throw new Error(
+        "cinema_events.json n'a pas le bon format"
+      );
     }
 
     cinemaEvents.sort(
@@ -335,14 +399,24 @@ async function init() {
 
   } catch (err) {
     console.error(err);
+
     const status = el("cinemaStatus");
+
     if (status) {
-      status.textContent = "Erreur : " + err.message;
+      status.textContent =
+        "Erreur : " + err.message;
     }
   }
 }
 
-el("cinemaSearch")?.addEventListener("input", render);
-el("afterWorkOnly")?.addEventListener("change", render);
+el("cinemaSearch")?.addEventListener(
+  "input",
+  render
+);
+
+el("afterWorkOnly")?.addEventListener(
+  "change",
+  render
+);
 
 init();
