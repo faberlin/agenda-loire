@@ -316,7 +316,9 @@ function renderMainTable(films, days) {
       const tr = document.createElement("tr");
 
       tr.className =
-        index === 0 ? "film-start-row" : "film-sub-row";
+        index === 0
+          ? "film-start-row"
+          : "film-sub-row";
 
       const firstTd = document.createElement("td");
       firstTd.className = "film-col";
@@ -326,6 +328,13 @@ function renderMainTable(films, days) {
         title.className = "film-title";
         title.textContent = film.title;
         firstTd.appendChild(title);
+      }
+
+      if (cinemaName !== "Méliès") {
+        const cinema = document.createElement("span");
+        cinema.className = "film-cinema";
+        cinema.textContent = cinemaName;
+        firstTd.appendChild(cinema);
       }
 
       tr.appendChild(firstTd);
@@ -360,7 +369,8 @@ function renderMainTable(films, days) {
 
     td.colSpan = 6;
     td.className = "cinema-empty";
-    td.textContent = "Aucun film avec au moins 5 séances.";
+    td.textContent =
+      "Aucun film avec au moins 5 séances.";
 
     tr.appendChild(td);
     body.appendChild(tr);
