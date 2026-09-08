@@ -209,9 +209,19 @@ function groupByFilmThenCinema(events) {
     film.cinemas.get(cinemaKey).push(event);
   }
 
-  return [...films.values()].sort((a, b) =>
-    a.title.localeCompare(b.title, "fr")
-  );
+return [...films.values()].sort((a, b) => {
+  const countA = [...a.cinemas.values()]
+    .reduce((sum, sessions) => sum + sessions.length, 0);
+
+  const countB = [...b.cinemas.values()]
+    .reduce((sum, sessions) => sum + sessions.length, 0);
+
+  if (countB !== countA) {
+    return countB - countA;
+  }
+
+  return a.title.localeCompare(b.title, "fr");
+});
 }
 
 function renderSessionCell(td, sessions) {
