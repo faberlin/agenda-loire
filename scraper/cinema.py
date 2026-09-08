@@ -81,7 +81,9 @@ def window():
         microsecond=0,
     )
 
-    end = start + timedelta(days=5)
+    # On garde 7 jours dans le JSON.
+    # L'interface cinema.js n'en affiche que 5.
+    end = start + timedelta(days=7)
 
     return start, end
 
@@ -121,7 +123,7 @@ def extract_times(text):
     result = []
 
     for match in re.finditer(
-        r"\b(\d{1,2}):(\d{2})\b",
+        r"\b(\d{1,2})(?:h|:)(\d{2})\b",
         text
     ):
         hour = int(match.group(1))
@@ -136,20 +138,14 @@ def extract_times(text):
 
 
 # =========================================================
-# ALLOCINÉ
+# ALLOCINÉ / MÉGARAMA
 # =========================================================
 
 def get_allocine_films(soup):
-    """
-    Récupère les vrais titres de films + URL de fiche.
-    """
-
     films = []
-
     seen = set()
 
     for link in soup.find_all("a", href=True):
-
         href = link["href"]
 
         if "/film/fichefilm_gen_cfilm=" not in href:
@@ -181,18 +177,10 @@ def get_allocine_films(soup):
 
 
 def split_allocine_text_by_films(page_text, films):
-    """
-    Découpe le texte complet AlloCiné en un bloc par film.
-
-    Cela évite les doublons provoqués par les éléments HTML imbriqués.
-    """
-
     positions = []
-
     search_from = 0
 
     for film in films:
-
         title = film["title"]
 
         position = page_text.find(
@@ -247,17 +235,6 @@ def parse_allocine_block(
     film,
     block,
 ):
-    """
-    Exemple attendu :
-
-    8 septembre 2026 - En VF
-    14:00 Réserver
-    17:00 Réserver
-
-    8 septembre 2026 - En VO
-    21:30 Réserver
-    """
-
     events = []
 
     session_pattern = re.compile(
@@ -308,7 +285,6 @@ def parse_allocine_block(
             match.end():end
         ]
 
-        # On s'arrête avant les textes de navigation éventuels.
         session_text = session_text.split(
             "Choisissez votre horaire"
         )[0]
@@ -414,7 +390,6 @@ def scrape_allocine_cinema(
 # =========================================================
 
 def parse_melies_day(text):
-
     match = re.search(
         r"\b(lun|mar|mer|jeu|ven|sam|dim)"
         r"\.?\s+(\d{1,2})\b",
@@ -433,9 +408,8 @@ def parse_melies_day(text):
 
     for offset in range(
         -1,
-        7,
+        10,
     ):
-
         day = start + timedelta(
             days=offset
         )
@@ -447,7 +421,6 @@ def parse_melies_day(text):
 
 
 def melies_film_blocks(soup):
-
     headings = soup.find_all(
         ["h2", "h3"]
     )
@@ -455,7 +428,6 @@ def melies_film_blocks(soup):
     for index, heading in enumerate(
         headings
     ):
-
         title = clean(
             heading.get_text(" ")
         )
@@ -483,7 +455,6 @@ def melies_film_blocks(soup):
                 "get_text",
                 None,
             ):
-
                 text = clean(
                     node.get_text(" ")
                 )
@@ -529,7 +500,6 @@ def melies_film_blocks(soup):
 
 
 def scrape_melies():
-
     response = requests.get(
         MELIES_URL,
         headers=HEADERS,
@@ -605,17 +575,14 @@ def scrape_melies():
                 cinema_name,
                 cinema_text,
             ) in [
-
                 (
                     "Méliès Jean-Jaurès",
                     jj_text,
                 ),
-
                 (
                     "Méliès Saint-François",
                     sf_text,
                 ),
-
             ]:
 
                 version_match = re.search(
@@ -675,13 +642,12 @@ def scrape_melies():
 # =========================================================
 
 def scrape_cinema():
-
     events = []
 
+    # MÉGARAMA VIA ALLOCINÉ
     for cinema_name, url in ALLOCINE_CINEMAS:
 
         try:
-
             found = scrape_allocine_cinema(
                 cinema_name,
                 url,
@@ -697,14 +663,13 @@ def scrape_cinema():
             )
 
         except Exception as exc:
-
             print(
                 f"ERREUR {cinema_name}: "
                 f"{exc}"
             )
 
+    # MÉLIÈS
     try:
-
         melies = scrape_melies()
 
         jj = [
@@ -736,7 +701,6 @@ def scrape_cinema():
         )
 
     except Exception as exc:
-
         print(
             f"ERREUR Méliès: "
             f"{exc}"
@@ -756,6 +720,10 @@ def scrape_cinema():
         ),
     )
 
+
+# =========================================================
+# EXÉCUTION
+# =========================================================
 
 if __name__ == "__main__":
 
