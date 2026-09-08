@@ -1,11 +1,115 @@
 [
   {
+    "id": "8963317f51c90393c2c1",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T10:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "bc4f727424a932a02b19",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "7196b52851384e1a4f27",
+    "title": "La Pat' Patrouille : Le film mission Dino",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=320681.html"
+  },
+  {
+    "id": "591752bf77ffcbb9c520",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
+  },
+  {
+    "id": "fd88c25c83d497674a0a",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "86a4ab2f2eaacf3ac4f3",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "66f9bb187873f2e76660",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "0175e4c105c53852c6d8",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "705fb29e2f8927a52565",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "ff6bc2317943381d7169",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "8c19c26a82799c3cf170",
+    "title": "Decorado",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T13:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4214930063aff4e5055d",
+    "title": "Paradise",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T13:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
     "id": "659497baf2f37fb248aa",
     "title": "Insidious : l'invasion du lointain",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-08T13:35:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "abe6f05e1c2c4604536f",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T13:35:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
   },
   {
     "id": "27546b35dfd13ef6c530",
@@ -54,6 +158,54 @@
     "start": "2026-09-08T13:45:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316397.html"
+  },
+  {
+    "id": "5b386dae1b739d208a1d",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "190067820064dec6810f",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "f428926a7ebd960a5de5",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "0d10f20e8358c9153ba5",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "376db8b848a01733eba9",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "03f3f97a1fc71daf4732",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
   },
   {
     "id": "f56ece6e1678131944c8",
@@ -152,6 +304,22 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
   },
   {
+    "id": "a5b263617d3c9f74c49b",
+    "title": "La Pat' Patrouille : Le film mission Dino",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=320681.html"
+  },
+  {
+    "id": "c7a2920d875f5e82f37d",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
+  },
+  {
     "id": "c3bc3acc4dc683f38b25",
     "title": "La fin d’Oak Street",
     "cinema": "Mégarama Jean-Jaurès",
@@ -160,12 +328,28 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
   },
   {
+    "id": "7c378a3712d4f31cba25",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
     "id": "b75f7ca8c71ba0e11194",
     "title": "Spider-Man: Brand New Day",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-08T14:00:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "cdc6d2c7aff5d22e0822",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
   },
   {
     "id": "9d5c696b19f3d6ff99f3",
@@ -182,6 +366,38 @@
     "start": "2026-09-08T14:00:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "08f85daff45868e86cae",
+    "title": "Chicas tristes",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "2fead71554885d554aad",
+    "title": "La Bataille de Gaulle - partie 1 : L'Age de Fer",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "406999e706113100b5c9",
+    "title": "Parade",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "02303f0a5456cb8b7882",
+    "title": "Résister pour exister",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
   },
   {
     "id": "a68fa0612f77f05f132a",
@@ -208,12 +424,52 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
   },
   {
+    "id": "2abbbf7da62707d3e5ad",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T15:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "530294158a42eaa4d82e",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d91f71cf2bf237b3d7f0",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
     "id": "d760277568ad27529c1a",
     "title": "De la Comédie-Française",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-09-08T15:40:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000037046.html"
+  },
+  {
+    "id": "ff715303b6258ff9efe6",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "b8c1cf84ddaf2d5bd3a6",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
   },
   {
     "id": "3f4366dcb54399eccb11",
@@ -256,12 +512,36 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000020491.html"
   },
   {
+    "id": "c673ec17130d9fb69094",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:59:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
     "id": "a403f057dcc7cfd4e5df",
     "title": "Billie Melody",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-09-08T16:00:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000021763.html"
+  },
+  {
+    "id": "1df3fc24008e66ada726",
+    "title": "La Pat' Patrouille : Le film mission Dino",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=320681.html"
+  },
+  {
+    "id": "5d47e1b904cffe1bd1ca",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
   },
   {
     "id": "d5d36e0b16d50373230e",
@@ -272,12 +552,36 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
   },
   {
+    "id": "dee95ee5fa931322f935",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
     "id": "132222a1cc737ab04c2d",
     "title": "Tombé du ciel",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-08T16:00:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "05095f74bd1852ff4054",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "87fc791aaf3eabf17bb3",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
   },
   {
     "id": "96ca101a05e4bf9c4708",
@@ -336,6 +640,22 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314942.html"
   },
   {
+    "id": "e783cdb5d4b8ac159430",
+    "title": "Decorado",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "0dc4dd8e250640aa6dca",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
     "id": "c3be68980da0bbacbbc1",
     "title": "Oklahoma Honey",
     "cinema": "Mégarama Camion Rouge",
@@ -360,6 +680,14 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
   },
   {
+    "id": "a3ff690bdc07e41a8c48",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
     "id": "93d72949fd87564af903",
     "title": "The Dog Stars",
     "cinema": "Mégarama Jean-Jaurès",
@@ -368,12 +696,60 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
   },
   {
+    "id": "7df84e5ca9ff12ce04f0",
+    "title": "Paradise",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "a015a8fea311ca4af008",
+    "title": "Soudain",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
     "id": "108b14b59e7149c257c5",
     "title": "Spider-Man: Brand New Day",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-08T17:00:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "d5fc30bb7f59528dfbde",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "a22be4d97f6305da5d3d",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "0345de819fe21d99e398",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d21c1f943f3d7f93c858",
+    "title": "Trois adieux",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
   },
   {
     "id": "dc3be2fb5cdde390ffa0",
@@ -480,6 +856,38 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
   },
   {
+    "id": "b7cb277aeb8ac5c81aaa",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "073bff3890e18ae212d3",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "8ea4d5f305ce225ab6c6",
+    "title": "Chicas tristes",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "de6895a27ea3196f3837",
+    "title": "Fjord",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
     "id": "7e39db7ddc3d8ee93822",
     "title": "Obsession",
     "cinema": "Mégarama Camion Rouge",
@@ -494,6 +902,22 @@
     "start": "2026-09-08T18:15:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "7f53efbeda17fa20df6a",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "66ae683f0ec6a255b0d1",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
   },
   {
     "id": "b55a7cf7555d78947e18",
@@ -560,6 +984,14 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
   },
   {
+    "id": "8c8fc933292de344e950",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T19:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
     "id": "25cc35f5966af5c7632d",
     "title": "L'Odyssée",
     "cinema": "Mégarama Jean-Jaurès",
@@ -606,6 +1038,70 @@
     "start": "2026-09-08T20:00:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "712c9933f4739e54028c",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "b691b7ef145b9b6bf157",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "6e5b26d996d0504ee229",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "ac239849bfce42b6637e",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "bd9334084c07e8501766",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "e4e92fa0f9435897b332",
+    "title": "La Bataille de Gaulle - partie 1 : L'Age de Fer",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "5bd27d4f4a49b6479606",
+    "title": "Résister pour exister",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "184b36b55f652654b8d6",
+    "title": "Soudain",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
   },
   {
     "id": "5df4d305147ae6174e94",
@@ -664,6 +1160,22 @@
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
   },
   {
+    "id": "0be77540565d44832cb4",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "a77ca783603fd75e4edf",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
     "id": "34fa0cbdefcbee95b8eb",
     "title": "Obsession",
     "cinema": "Mégarama Camion Rouge",
@@ -678,6 +1190,22 @@
     "start": "2026-09-08T21:00:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "d26ebd213dbfd02c3da8",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T21:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "bba4a74aeff0b83d31da",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-08T21:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
   },
   {
     "id": "3d3be2996043f365a773",
@@ -750,5 +1278,1053 @@
     "start": "2026-09-08T22:05:00+02:00",
     "version": "VF",
     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "8a9e9e7364dfe9c9371c",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "3165e82fb7879818a481",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "41b2ec99e525e063cf66",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-09T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "2ecbd9e18c218aaa2323",
+    "title": "L'inconnue",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-09T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "ab6d670e2a09ca7eb00c",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "c0ff1ea63e052a210e33",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "bc0cc1a1177f8b5a7b7f",
+    "title": "Résister pour exister",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-09T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4bb3985e5b6d2193f3de",
+    "title": "Soudain",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-09T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "117fd5975dc87cf60033",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "aaf00b55062cf42b5df8",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "3d14800c168086dd8c4d",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T16:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "b4a1b8f193c01005b959",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T16:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "a0e70a61837266641fd9",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4108af6f1b782a876096",
+    "title": "Paradise",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-09T17:20:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "1f38673ead4ed726c587",
+    "title": "Soudain",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-09T17:20:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "c70ec26ff21c2125d933",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "040e613e6e0956775fa2",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d48c4eb4e5b726a593b9",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T18:20:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "030761e01a43a2735c39",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T18:20:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4242fc49af14dfd47d89",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "7b38301869b41eee316f",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "6fc7b2355a57cd710279",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-09T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "7ef87b7c9c48adc9e6fa",
+    "title": "L'inconnue",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-09T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "12de8cebdd2ef6507c60",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "20dd63edf164d659cd85",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "8584efffd180938a177f",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "b6403d027699982506ee",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T21:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "dcf4a7a8bd544b6f8073",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-09T21:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "3aad166ad0c0e356a22e",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T13:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "788a39a28250ff1a7a4a",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T13:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "1b6e24e27713c889a098",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T13:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "6e3b371f13fcab50fd92",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d4dc1fa7bce2b9613455",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d20954312cbb917c912b",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "3388eed9e98666958c62",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "1ba64d42ea1a789b248c",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-10T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "6f9667ef4658e6826b26",
+    "title": "Trois adieux",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-10T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "0217ba835c417b1919a2",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "b83b917f90a8015a8cfe",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "ea9cfb25b42480595442",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "20fea34afd0dd9bd61ea",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "e48376c56d9080461a1b",
+    "title": "Decorado",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-10T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "f3cebe9b8d8dd1e4f808",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-10T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "e51529fd5de79590596d",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "51df8034edf1c09cc778",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-10T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "eb92614542300840e4b5",
+    "title": "L'inconnue",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-10T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "dd37ebf6a42698062e14",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d0611dff0155d4a012d2",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "1e4ac39acc123dc7554b",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "c8abd4a9d32d7175f10a",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "5054f39d90aa35198bc8",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "fe687ef1815a61457632",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "33cf1c97aa46ebceda22",
+    "title": "Paradise",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-10T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "854351d648b756ad8768",
+    "title": "Soudain",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-10T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "5c0da2f85cb59b1957f8",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "728d7c605d95ef7199af",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-10T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "33b70b250811801880e1",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "eec7368dec6b09eee8e1",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "53d3403e0c8ebb61c37f",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-11T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "29222e65dfa633b4a41f",
+    "title": "L'inconnue",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-11T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "b64f6ecac5344b2be2be",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "1daeee053e38cbeb8db8",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "7a3eedef5fdbd716baac",
+    "title": "Paradise",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-11T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "05e616e3269e49c6c260",
+    "title": "Soudain",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-11T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "42b25aa5fadc7c046270",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d24075013b294fd99b26",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "545b10bb6f2f1fe3dcac",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T16:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "1669c1b0756def413402",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T16:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "e89ea9adcea082d42f40",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "bb4e1e688a9206668e14",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "2050e0c8c9d8ee9a66a0",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "66423eced653b21d436f",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T18:20:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "e8337ae0598dc073dc57",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T18:20:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "ab17356636b7de03c486",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "870e0bfc70330a6e1b95",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d90b9c78dfc90e231ab1",
+    "title": "Decorado",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-11T20:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "1c8118e0cb22455f8e0f",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-11T20:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "3a6a1f0ad2777bab9f68",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "8e9a7569d93166986721",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4d2645791c553378d0b6",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "940547034a6e119080c3",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T21:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4f284536a3657126ccf7",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-11T21:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "3dbacf8e32f3f35257b2",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T13:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "1531a6e773fc77b699eb",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T13:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "83a34be9cb377251c7d8",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T13:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "99b568b7cc861944075b",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "9218272c33a5c4d75c9c",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "dfc9eb27e50da3359ea3",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "945afb8fc34d45ab1616",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "82329a4b6208a6c3bccb",
+    "title": "Chicas tristes",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-12T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "bba74f59074541bab52c",
+    "title": "La Bataille de Gaulle - partie 1 : L'Age de Fer",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-12T14:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "f7edf3d469bf5bbc3e81",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "7465bf5edb7b2057c807",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "6d7b7ce1586c2808ac80",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "24e3b4096ba31e5c75ad",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "f9bca510879fdf2c927e",
+    "title": "Decorado",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-12T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "106c9914163fdf300639",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-12T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "29ee350763835542bf30",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-12T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "7577e198852251c5a132",
+    "title": "L'inconnue",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-12T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "838196daf5dd1c5cd6bd",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "fd2decbfacb6e980a526",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "acad151fcba653171687",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "fb5b5a19636dc367683b",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "c8815008221a6e681b45",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "e992876c07782ddf3fc8",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "9ebcc063b6f620d2732a",
+    "title": "Paradise",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-12T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "dcbd7f5700d6c9da37c1",
+    "title": "Soudain",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-12T20:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "6aaf87f7d63610fe6999",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4e077da1b57c276a1c69",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T20:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "b050cb14ec8a24285a15",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-12T20:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "37b77d506f960d51b551",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "e2db383713ca45f12e48",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T13:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "ab2bc42cabb2f3b3bd71",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "cd4d65c2b697e4014e4c",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T13:50:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4184c5644236895cd5f7",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "bb57ba27f7fe14823007",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "c8bf2d7b4c19dc273fa4",
+    "title": "Paradise",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-13T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "aacbc3d471c705962ff7",
+    "title": "Soudain",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-13T15:30:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "f3a85f0e85b6bb1bb820",
+    "title": "L'Odyssée",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "25e74a3fe9e6fbddfe21",
+    "title": "Trois adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T16:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d52d5f5c373f35be83ef",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T17:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "7cfa79b7cc020b1454ef",
+    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "945d13d097c393c0c980",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T18:10:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "c1c89790a58ea4029820",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "373909b18b267b31436b",
+    "title": "À la une La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T18:15:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "d9822a4e41924c57a886",
+    "title": "Dégel",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T19:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "67c5dbf8e60fb527fbbe",
+    "title": "L'inconnue",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-13T19:00:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "8cb480147ea9be60164a",
+    "title": "Film du mois Salvation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-13T19:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "5e579757426aba2f0646",
+    "title": "L'inconnue",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-13T19:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "4874e76dafd9d76b5c8b",
+    "title": "Decorado",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-13T20:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "ab79bf85d2ddc516c94a",
+    "title": "La dernière patiente",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-13T20:45:00+02:00",
+    "version": "",
+    "url": "https://www.lemelies.com/films/"
   }
 ]
