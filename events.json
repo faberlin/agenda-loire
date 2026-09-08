@@ -17,22 +17,6 @@
     "session_count": 2
   },
   {
-    "id": "d41a464692636eae5578",
-    "title": "LA FORTUNE DE L’ÉPOQUE",
-    "start": "2026-09-11T20:00:00+02:00",
-    "end": "2026-09-11T20:00:00+02:00",
-    "sessions": [
-      "2026-09-11T20:00:00+02:00"
-    ],
-    "session_count": 1,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/la-fortune-de-lepoque/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "4062c4a44463a0532ad2",
     "title": "Quinzaine Souad Labbize : une autrice - des artistes - une ville - des lieux",
     "start": "2026-09-12T14:30:00+02:00",
@@ -121,24 +105,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "6b5ff5329e8035922a0c",
-    "title": "LA THÉRAPIE DE LA CONNERIE",
-    "start": "2026-09-18T21:00:00+02:00",
-    "end": "2026-09-20T17:00:00+02:00",
-    "sessions": [
-      "2026-09-18T21:00:00+02:00",
-      "2026-09-19T19:00:00+02:00",
-      "2026-09-20T17:00:00+02:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/la-therapie-de-la-connerie-2/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "103c8f1ccb0522f7ab6f",
     "title": "Journées du patrimoine 2026 Visites guidées du fil !",
     "start": "2026-09-19T11:00:00+02:00",
@@ -183,23 +149,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "7610321441de15fb5348",
-    "title": "LA BOÎTE À HISTOIRES découvre le monde",
-    "start": "2026-09-20T11:00:00+02:00",
-    "end": "2027-03-07T11:00:00+01:00",
-    "sessions": [
-      "2026-09-20T11:00:00+02:00",
-      "2027-03-07T11:00:00+01:00"
-    ],
-    "session_count": 2,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/la-boite-a-histoires-decouvre-le-monde/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "7941576495e86104f9ef",
     "title": "Journées du patrimoine 2026 Visites guidées du fil !",
     "start": "2026-09-20T14:30:00+02:00",
@@ -231,31 +180,6 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-86/",
     "source": "Le Solar"
-  },
-  {
-    "id": "8dbf3e70f7895533a8fb",
-    "title": "LES LUNDIS DE L’IMPRO",
-    "start": "2026-09-21T20:30:00+02:00",
-    "end": "2027-06-21T20:30:00+02:00",
-    "sessions": [
-      "2026-09-21T20:30:00+02:00",
-      "2026-10-19T20:30:00+02:00",
-      "2026-11-16T20:30:00+01:00",
-      "2026-12-21T20:30:00+01:00",
-      "2027-01-18T20:30:00+01:00",
-      "2027-02-15T20:30:00+01:00",
-      "2027-03-15T20:30:00+01:00",
-      "2027-04-05T20:30:00+02:00",
-      "2027-05-17T20:30:00+02:00",
-      "2027-06-21T20:30:00+02:00"
-    ],
-    "session_count": 10,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/les-lundis-de-limpro-15/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "17ebde62040daf04c268",
@@ -322,24 +246,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/roman-doduik",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "5a82b0623428d30034a9",
-    "title": "PANIK SUR LA HOTLINE",
-    "start": "2026-09-25T21:00:00+02:00",
-    "end": "2026-09-27T17:00:00+02:00",
-    "sessions": [
-      "2026-09-25T21:00:00+02:00",
-      "2026-09-26T19:00:00+02:00",
-      "2026-09-27T17:00:00+02:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/panik-sur-la-hotline-3/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "2f922c12df8ed8005c3d",
@@ -430,30 +336,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "137221a820b327b18377",
-    "title": "FOU DES VERTS",
-    "start": "2026-10-02T19:00:00+02:00",
-    "end": "2027-06-12T15:00:00+02:00",
-    "sessions": [
-      "2026-10-02T19:00:00+02:00",
-      "2026-11-14T15:00:00+01:00",
-      "2026-12-12T15:00:00+01:00",
-      "2027-01-16T15:00:00+01:00",
-      "2027-02-13T21:00:00+01:00",
-      "2027-03-13T15:00:00+01:00",
-      "2027-04-09T19:00:00+02:00",
-      "2027-05-15T15:00:00+02:00",
-      "2027-06-12T15:00:00+02:00"
-    ],
-    "session_count": 9,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/fou-des-verts-3/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "0596e0933fb16c5aeefe",
     "title": "LA GUERRE DES SEXES",
     "start": "2026-10-02T20:00:00+02:00",
@@ -498,22 +380,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "fc2f8d7aa4bb94f31d13",
-    "title": "THIBAUT DEL CORRAL dans MENTALISTE",
-    "start": "2026-10-03T17:00:00+02:00",
-    "end": "2026-10-03T17:00:00+02:00",
-    "sessions": [
-      "2026-10-03T17:00:00+02:00"
-    ],
-    "session_count": 1,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/thibaut-del-corral-dans-mentaliste-2/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "7d89d32a4b80d9e19b44",
     "title": "5ème Symphonie de Mahler Gustav Mahler",
     "start": "2026-10-03T20:00:00+02:00",
@@ -550,29 +416,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/thomas-gt",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "b38ebde03643c9dee424",
-    "title": "GAGA DES STÉPHANOIS",
-    "start": "2026-10-03T21:00:00+02:00",
-    "end": "2027-06-04T21:00:00+02:00",
-    "sessions": [
-      "2026-10-03T21:00:00+02:00",
-      "2026-12-05T15:00:00+01:00",
-      "2026-12-11T15:00:00+01:00",
-      "2027-01-09T15:00:00+01:00",
-      "2027-02-06T15:00:00+01:00",
-      "2027-03-06T15:00:00+01:00",
-      "2027-04-03T15:00:00+02:00",
-      "2027-06-04T21:00:00+02:00"
-    ],
-    "session_count": 8,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/gaga-des-stephanois-27/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "ababadbf7ca909c5044a",
@@ -669,30 +512,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "72dcffbaf43bf7b681d0",
-    "title": "TRIOMPHE COMEDY CLUB",
-    "start": "2026-10-08T20:30:00+02:00",
-    "end": "2027-06-10T20:30:00+02:00",
-    "sessions": [
-      "2026-10-08T20:30:00+02:00",
-      "2026-11-05T20:30:00+01:00",
-      "2026-12-10T20:30:00+01:00",
-      "2027-01-14T20:30:00+01:00",
-      "2027-02-04T20:30:00+01:00",
-      "2027-03-11T20:30:00+01:00",
-      "2027-04-01T20:30:00+02:00",
-      "2027-05-13T20:30:00+02:00",
-      "2027-06-10T20:30:00+02:00"
-    ],
-    "session_count": 9,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/triomphe-comedy-club/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "1092b498c1e7b4214fca",
     "title": "Svinkels Family & Friends + Satchok",
     "start": "2026-10-09T20:30:00+02:00",
@@ -724,24 +543,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/marie-bo",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "887f92b1ffc697411790",
-    "title": "LES CON C’EST LES AUTRES",
-    "start": "2026-10-09T21:00:00+02:00",
-    "end": "2026-10-11T17:00:00+02:00",
-    "sessions": [
-      "2026-10-09T21:00:00+02:00",
-      "2026-10-10T19:00:00+02:00",
-      "2026-10-11T17:00:00+02:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/les-con-cest-les-autres-3/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "044b5da331b9a70ef2f6",
@@ -786,29 +587,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/gaetan-petit",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "da0f850d168f0de03638",
-    "title": "BUBULLE, LE POISSON VOLANT",
-    "start": "2026-10-11T11:00:00+02:00",
-    "end": "2026-11-01T11:00:00+01:00",
-    "sessions": [
-      "2026-10-11T11:00:00+02:00",
-      "2026-10-26T11:00:00+01:00",
-      "2026-10-27T11:00:00+01:00",
-      "2026-10-28T11:00:00+01:00",
-      "2026-10-29T11:00:00+01:00",
-      "2026-10-30T11:00:00+01:00",
-      "2026-10-31T11:00:00+01:00",
-      "2026-11-01T11:00:00+01:00"
-    ],
-    "session_count": 8,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/bubulle-le-poisson-volant-2/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "c40a5bc5ab9a07e2729a",
@@ -893,22 +671,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "adf8f4606fdb9bc3468b",
-    "title": "CLAIRE MOREL dans PRÉLIMINAIRES, PÉNÉTRATION, ORGASME ?",
-    "start": "2026-10-16T19:00:00+02:00",
-    "end": "2026-10-16T19:00:00+02:00",
-    "sessions": [
-      "2026-10-16T19:00:00+02:00"
-    ],
-    "session_count": 1,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/claire-morel-dans-preliminaires-penetration-orgasme/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "0a673d74df683895ce3c",
     "title": "NNY Fest : DOPPLeR + La Jungle + Tachycardie + Trognon",
     "start": "2026-10-16T20:30:00+02:00",
@@ -929,28 +691,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/kino",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "9c091e0f8cb70a379d9c",
-    "title": "FASTOCHE LE PETIT FANTÔME",
-    "start": "2026-10-17T11:00:00+02:00",
-    "end": "2026-10-23T11:00:00+02:00",
-    "sessions": [
-      "2026-10-17T11:00:00+02:00",
-      "2026-10-18T11:00:00+02:00",
-      "2026-10-19T11:00:00+02:00",
-      "2026-10-20T11:00:00+02:00",
-      "2026-10-21T11:00:00+02:00",
-      "2026-10-22T11:00:00+02:00",
-      "2026-10-23T11:00:00+02:00"
-    ],
-    "session_count": 7,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/fastoche-le-petit-fantome/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "b0f96b1809a4af4e7123",
@@ -1089,23 +829,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nassim-mellah",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "84dabdd31b3ca830837d",
-    "title": "LA PETITE SORCIÈRE",
-    "start": "2026-10-24T11:00:00+02:00",
-    "end": "2026-10-25T11:00:00+01:00",
-    "sessions": [
-      "2026-10-24T11:00:00+02:00",
-      "2026-10-25T11:00:00+01:00"
-    ],
-    "session_count": 2,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/la-petite-sorciere-11/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "ea0134b582f8f0f753e8",
@@ -1445,23 +1168,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "260680c15c54c4489393",
-    "title": "LÉO LE PETIT ROBOT ET LA FABRIQUE DE BONBONS",
-    "start": "2026-11-15T11:00:00+01:00",
-    "end": "2027-03-14T11:00:00+01:00",
-    "sessions": [
-      "2026-11-15T11:00:00+01:00",
-      "2027-03-14T11:00:00+01:00"
-    ],
-    "session_count": 2,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/leo-lepetit-robot-et-la-fabrique-de-bonbons-1/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "6ccec288a91dd4e88068",
     "title": "CASSE-NOISETTE Ballet & Orchestre",
     "start": "2026-11-15T16:00:00+01:00",
@@ -1644,22 +1350,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/anne-depetrini",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "dda9244e9ac7f867e19f",
-    "title": "LA SOUPE AU CAILLOU",
-    "start": "2026-11-22T11:00:00+01:00",
-    "end": "2026-11-22T11:00:00+01:00",
-    "sessions": [
-      "2026-11-22T11:00:00+01:00"
-    ],
-    "session_count": 1,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/la-soupe-au-caillou-10/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "8fc5155d4949919a3471",
@@ -2616,6 +2306,17 @@
     "source": "Comédie Sainté"
   },
   {
+    "id": "2f8ed9475d99be155ef6",
+    "title": "Un soir avec FRANCIS HUSTER",
+    "start": "2027-01-26T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/un-soir-avec-francis-huster/",
+    "source": "La Comète"
+  },
+  {
     "id": "34c7defacbda807c212d",
     "title": "FOREVER THE BEST SHOW ABOUT THE KING OF POP",
     "start": "2027-01-27T20:00:00+01:00",
@@ -2944,6 +2645,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "860b5cac53d79433e050",
+    "title": "MELHA BEDIA",
+    "start": "2027-02-12T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/melha-bedia",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "e2d6d9a45e36414aba87",
     "title": "Véronic Dicaire",
     "start": "2027-02-13T20:00:00+01:00",
@@ -2955,24 +2667,15 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "c049d9aacebcbb5c44d7",
-    "title": "MONSIEUR MAXENCE AU PAYS DES 5 SENS",
-    "start": "2027-02-15T11:00:00+01:00",
-    "end": "2027-02-19T11:00:00+01:00",
-    "sessions": [
-      "2027-02-15T11:00:00+01:00",
-      "2027-02-16T11:00:00+01:00",
-      "2027-02-17T11:00:00+01:00",
-      "2027-02-18T11:00:00+01:00",
-      "2027-02-19T11:00:00+01:00"
-    ],
-    "session_count": 5,
-    "venue": "La Comédie Triomphe",
+    "id": "41b64fdfb5c5c572cd08",
+    "title": "MELHA BEDIA",
+    "start": "2027-02-13T20:30:00+01:00",
+    "venue": "Les Trois Ducs",
     "city": "Saint-Étienne",
-    "category": "Théâtre",
+    "category": "Humour",
     "description": "",
-    "url": "https://www.comedietriomphe.fr/events/monsieur-maxsns-au-payys-des-5-sens/",
-    "source": "Comédie Triomphe"
+    "url": "https://www.lestroisducs.fr/artiste/melha-bedia-2",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "db2f7a60dd5749494ea2",
@@ -4379,28 +4082,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "81a4f4608da1b08a83a4",
-    "title": "HIBOU CHOUCHOU",
-    "start": "2027-10-18T11:00:00+02:00",
-    "end": "2027-10-24T11:00:00+02:00",
-    "sessions": [
-      "2027-10-18T11:00:00+02:00",
-      "2027-10-19T11:00:00+02:00",
-      "2027-10-20T11:00:00+02:00",
-      "2027-10-21T11:00:00+02:00",
-      "2027-10-22T11:00:00+02:00",
-      "2027-10-23T11:00:00+02:00",
-      "2027-10-24T11:00:00+02:00"
-    ],
-    "session_count": 7,
-    "venue": "La Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/hibou-chouchou/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "d4520255f04673007c54",
