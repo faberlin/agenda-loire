@@ -76,28 +76,34 @@ function selectedCinemas() {
 }
 
 function sessionCinemaClass(session) {
+  const cinema = normalize(session.cinema);
+
   if (
-    session.cinema === "Méliès Saint-François"
+    cinema.includes("melies") &&
+    cinema.includes("saint-francois")
   ) {
     return "session-sf";
   }
 
   if (
-    session.cinema === "Méliès Jean-Jaurès"
+    cinema.includes("melies") &&
+    cinema.includes("jean-jaures")
   ) {
     return "session-melies-jj";
   }
 
   if (
-    session.cinema === "Mégarama Jean-Jaurès"
+    cinema.includes("megarama") &&
+    cinema.includes("camion")
   ) {
-    return "session-mega-jj";
+    return "session-mega-cr";
   }
 
   if (
-    session.cinema === "Mégarama Camion Rouge"
+    cinema.includes("megarama") &&
+    cinema.includes("jean-jaures")
   ) {
-    return "session-mega-cr";
+    return "session-mega-jj";
   }
 
   return "";
