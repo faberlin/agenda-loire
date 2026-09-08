@@ -1,5 +1,133 @@
 [
   {
+    "id": "8963317f51c90393c2c1",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T10:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "6dd438551717e66ac61b",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T10:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "bc4f727424a932a02b19",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "fc7758fce5afe20d2d91",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "23429e5c9034cdfeb321",
+    "title": "La Nirvana",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000033718.html"
+  },
+  {
+    "id": "7196b52851384e1a4f27",
+    "title": "La Pat' Patrouille : Le film mission Dino",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=320681.html"
+  },
+  {
+    "id": "591752bf77ffcbb9c520",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
+  },
+  {
+    "id": "cd0c2517d8b0acad693e",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "fd88c25c83d497674a0a",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "86a4ab2f2eaacf3ac4f3",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "66f9bb187873f2e76660",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "0175e4c105c53852c6d8",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "705fb29e2f8927a52565",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "65e67db0ed01a33029bf",
+    "title": "The Opera!",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316397.html"
+  },
+  {
+    "id": "ff6bc2317943381d7169",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "c5be2c253048de117075",
+    "title": "Undertone",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T11:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000020491.html"
+  },
+  {
     "id": "8c19c26a82799c3cf170",
     "title": "Decorado",
     "cinema": "Méliès Jean-Jaurès",
@@ -14,6 +142,46 @@
     "start": "2026-09-08T13:00:00+02:00",
     "version": "",
     "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "659497baf2f37fb248aa",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T13:35:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "c170220d076c65927ed9",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T13:35:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "abe6f05e1c2c4604536f",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T13:35:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "05c7cb402facbc67485e",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T13:35:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "9d524849e3e3c74fbb7f",
+    "title": "Les Ensorceleuses 2",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T13:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004679.html"
   },
   {
     "id": "5b386dae1b739d208a1d",
@@ -64,6 +232,190 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "f56ece6e1678131944c8",
+    "title": "Billie Melody",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000021763.html"
+  },
+  {
+    "id": "4e4a3bc4746515b08d17",
+    "title": "District 9",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=143026.html"
+  },
+  {
+    "id": "1f0181d02d826b2b00fe",
+    "title": "L'Armée des 12 singes",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=29757.html"
+  },
+  {
+    "id": "0009047eb4b27a9e0ad5",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "858573904386e66e5526",
+    "title": "La Bataille de Gaulle - Partie 2 : J’écris ton nom",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=294281.html"
+  },
+  {
+    "id": "821db70c42e48b955970",
+    "title": "La Bataille de Gaulle - partie 1 : L'Âge de Fer",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=294280.html"
+  },
+  {
+    "id": "86b5dba8f78b07f2d94b",
+    "title": "Les Ensorceleuses 2",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004679.html"
+  },
+  {
+    "id": "494ce0ac5d04ed01f4eb",
+    "title": "Pressure",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "6beb2f1eb1d5bf07bf9f",
+    "title": "Soleil vert",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=300.html"
+  },
+  {
+    "id": "55c500eebc605f7816fe",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "a3d75bf8dbdccf83a39f",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "2e0c3f3924a2c0f0e698",
+    "title": "La Nirvana",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000033718.html"
+  },
+  {
+    "id": "a5b263617d3c9f74c49b",
+    "title": "La Pat' Patrouille : Le film mission Dino",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=320681.html"
+  },
+  {
+    "id": "c7a2920d875f5e82f37d",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
+  },
+  {
+    "id": "c3bc3acc4dc683f38b25",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "b32cb7d1b619c4d47556",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "7c378a3712d4f31cba25",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "b75f7ca8c71ba0e11194",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "cdc6d2c7aff5d22e0822",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "9d5c696b19f3d6ff99f3",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "d0c2183eb75ba9f92fe0",
+    "title": "The Opera!",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316397.html"
+  },
+  {
+    "id": "23f961e035bae3c26578",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "f3c87807fad2108bfc5d",
+    "title": "Undertone",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000020491.html"
+  },
+  {
     "id": "08f85daff45868e86cae",
     "title": "Chicas tristes",
     "cinema": "Méliès Saint-François",
@@ -96,6 +448,38 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "1ee4c25dfc39f1a0fc99",
+    "title": "De la Comédie-Française",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000037046.html"
+  },
+  {
+    "id": "0142faaccc086c0cc531",
+    "title": "District 9",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=143026.html"
+  },
+  {
+    "id": "ae940abbea6b231ec174",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "f5ab0ad9ed304a348eec",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T14:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
     "id": "2abbbf7da62707d3e5ad",
     "title": "À la une La Frappe",
     "cinema": "Méliès Jean-Jaurès",
@@ -120,6 +504,222 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "3a10b5bc3d0ffe180168",
+    "title": "Billie Melody",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T15:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000021763.html"
+  },
+  {
+    "id": "d760277568ad27529c1a",
+    "title": "De la Comédie-Française",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T15:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000037046.html"
+  },
+  {
+    "id": "ff715303b6258ff9efe6",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "a56978d31dbb39b98249",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "b8c1cf84ddaf2d5bd3a6",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "67c569a47a7c7d142381",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "3f4366dcb54399eccb11",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "e4c70b208134cacf5256",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "33fcd91c81f274ec6f26",
+    "title": "Mutiny",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000002942.html"
+  },
+  {
+    "id": "284361d652cd51678d89",
+    "title": "Toy Story 5",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=313256.html"
+  },
+  {
+    "id": "e1e3231df3d28df6b16d",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:50:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "bbdda766eb9a7dea9f26",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:50:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "c7a09ffecf86968377aa",
+    "title": "Toy Story 5",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:50:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=313256.html"
+  },
+  {
+    "id": "bda873ef1da5d0fe61b2",
+    "title": "Undertone",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:50:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000020491.html"
+  },
+  {
+    "id": "10de75b65021a169bef0",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:59:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
+  },
+  {
+    "id": "c673ec17130d9fb69094",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T15:59:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "a403f057dcc7cfd4e5df",
+    "title": "Billie Melody",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000021763.html"
+  },
+  {
+    "id": "82b6fb797b87dec36505",
+    "title": "Pressure",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "7a5d92927fde4423b3fb",
+    "title": "La Nirvana",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000033718.html"
+  },
+  {
+    "id": "1df3fc24008e66ada726",
+    "title": "La Pat' Patrouille : Le film mission Dino",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=320681.html"
+  },
+  {
+    "id": "5d47e1b904cffe1bd1ca",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
+  },
+  {
+    "id": "d5d36e0b16d50373230e",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "dee95ee5fa931322f935",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "23056dd874e10f3eb9e3",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "351e0bb366edabe60250",
+    "title": "The Opera!",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316397.html"
+  },
+  {
+    "id": "132222a1cc737ab04c2d",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "71f843faeeda0ea8ebe7",
+    "title": "Undertone",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000020491.html"
+  },
+  {
     "id": "05095f74bd1852ff4054",
     "title": "Film du mois Salvation",
     "cinema": "Méliès Jean-Jaurès",
@@ -134,6 +734,78 @@
     "start": "2026-09-08T16:00:00+02:00",
     "version": "",
     "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "653758da32f8c6c0a11b",
+    "title": "De la Comédie-Française",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000037046.html"
+  },
+  {
+    "id": "96ca101a05e4bf9c4708",
+    "title": "Kick-Ass",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=138730.html"
+  },
+  {
+    "id": "f73f673adb105ebae6b7",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "74560ac972cdedcce22e",
+    "title": "Les Ensorceleuses 2",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004679.html"
+  },
+  {
+    "id": "911a4dac27fab658c03f",
+    "title": "Pressure",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "6ad43d0ce1d8dd868b2c",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "fab486d8383cc70b79f7",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "fd4a06015c1163503c92",
+    "title": "Vaiana, la légende du bout du monde",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314942.html"
+  },
+  {
+    "id": "601b6382f2f1757e65ce",
+    "title": "Vaiana, la légende du bout du monde",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314942.html"
   },
   {
     "id": "e783cdb5d4b8ac159430",
@@ -152,6 +824,78 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "6c44551dd16181bb529c",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "c3be68980da0bbacbbc1",
+    "title": "Oklahoma Honey",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316021.html"
+  },
+  {
+    "id": "cec1c13f69d3b42ebee9",
+    "title": "Oklahoma Honey",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316021.html"
+  },
+  {
+    "id": "4e39a8a249619e34f35c",
+    "title": "Soleil vert",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=300.html"
+  },
+  {
+    "id": "71e4ae4ce9d911cfec24",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "81a7c704a0eb559b324a",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "f0a4305722d08de830ab",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "a3ff690bdc07e41a8c48",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "93d72949fd87564af903",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T16:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
     "id": "7df84e5ca9ff12ce04f0",
     "title": "Paradise",
     "cinema": "Méliès Jean-Jaurès",
@@ -166,6 +910,22 @@
     "start": "2026-09-08T16:30:00+02:00",
     "version": "",
     "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "fab8b09517bfd27f3c51",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "108b14b59e7149c257c5",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
   },
   {
     "id": "d5fc30bb7f59528dfbde",
@@ -200,6 +960,286 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "dc3be2fb5cdde390ffa0",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T17:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "a1683649e709dc1be7a7",
+    "title": "La Bataille de Gaulle - Partie 2 : J’écris ton nom",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T17:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=294281.html"
+  },
+  {
+    "id": "430fb4c37b98c8eab025",
+    "title": "La Bataille de Gaulle - partie 1 : L'Âge de Fer",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T17:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=294280.html"
+  },
+  {
+    "id": "1c47fab819dfdc28c346",
+    "title": "Soleil vert",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T17:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=300.html"
+  },
+  {
+    "id": "3f0e9da8da0be3c08253",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "0f0b0d16ddece1941072",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "ae1466f23294b51e683b",
+    "title": "La Bataille de Gaulle - Partie 2 : J’écris ton nom",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T17:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=294281.html"
+  },
+  {
+    "id": "8d1579b9bb2006e46cb9",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T17:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "5242884406a0ef314162",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "98406430acb0f52a0049",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "e6b0d291924b317d7d1d",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "fb9ad923d70457bee685",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "ee6cd6490db4bc9b7d8c",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "7cfe55cebf4b2468ed15",
+    "title": "Mutiny",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000002942.html"
+  },
+  {
+    "id": "8411711095b93a9ba4bc",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "c445f92bc64f20435a06",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "2abb2174ac4f8e9e82b9",
+    "title": "Toy Story 5",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=313256.html"
+  },
+  {
+    "id": "4ac452b99dec13e0c087",
+    "title": "Undertone",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000020491.html"
+  },
+  {
+    "id": "fefe837f293b7e1e3399",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:50:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "19f9c03aff64c953bb15",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T17:50:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "edf1d51b4e98597fa0e9",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "32eec1f46b4ed1301a54",
+    "title": "Oklahoma Honey",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316021.html"
+  },
+  {
+    "id": "645bd3da59df43eaa9d9",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "6a60a3935ea0789b4de8",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "87387307169477f6ba0d",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "bbf9d66097cf04248173",
+    "title": "La Nirvana",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000033718.html"
+  },
+  {
+    "id": "9f199a3dd901baf21fd5",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
+  },
+  {
+    "id": "c8d47a23640d31561052",
+    "title": "La Vie d'une femme",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=327941.html"
+  },
+  {
+    "id": "48d480b895dc474a2382",
+    "title": "Mutiny",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000002942.html"
+  },
+  {
+    "id": "68bfa48c06c8e7aadab9",
+    "title": "Pressure",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "a8a33d3cba494c4eef35",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "05f736bb68105c9ec499",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "843f77416a65e304c1c2",
+    "title": "The Opera!",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316397.html"
+  },
+  {
+    "id": "9980163624258da7f511",
+    "title": "The Opera!",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316397.html"
+  },
+  {
+    "id": "88a4624c1a15756c5919",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
     "id": "b7cb277aeb8ac5c81aaa",
     "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
     "cinema": "Méliès Jean-Jaurès",
@@ -232,6 +1272,38 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "16463e3b81d8f6881096",
+    "title": "De la Comédie-Française",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000037046.html"
+  },
+  {
+    "id": "7e39db7ddc3d8ee93822",
+    "title": "Obsession",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000028234.html"
+  },
+  {
+    "id": "ebe315d30d64ae0b5d56",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "320ea1cb4957e8a46627",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
     "id": "7f53efbeda17fa20df6a",
     "title": "L'Odyssée",
     "cinema": "Méliès Jean-Jaurès",
@@ -248,12 +1320,212 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "b55a7cf7555d78947e18",
+    "title": "Billie Melody",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000021763.html"
+  },
+  {
+    "id": "5f4c0b5216d99fa9f315",
+    "title": "Les Ensorceleuses 2",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004679.html"
+  },
+  {
+    "id": "1b9d27b894ae479d7128",
+    "title": "Pressure",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004458.html"
+  },
+  {
+    "id": "4b8505447fe69604331b",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:35:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "0d0f64a1f426ed9e2d78",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T18:35:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "6a547ad7221cf9919ebc",
+    "title": "Battle Royale",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:45:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=28615.html"
+  },
+  {
+    "id": "7f823fe8f47de78ee8eb",
+    "title": "Les Ensorceleuses 2",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000004679.html"
+  },
+  {
+    "id": "7d0a2d0d3ea021916736",
+    "title": "Obsession",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T18:45:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000028234.html"
+  },
+  {
+    "id": "218c3050a019a99fd721",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T19:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "ed795ff395b55081ecf9",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T19:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "0ae3467f68387aa4cab0",
+    "title": "Soleil vert",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T19:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=300.html"
+  },
+  {
+    "id": "f4deeb0f82b574b7b0ef",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T19:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "ae3c0273b7c964997b89",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "10cdcf4f681bb342dba3",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
     "id": "8c8fc933292de344e950",
     "title": "À la une La Frappe",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-08T19:00:00+02:00",
     "version": "",
     "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "25cc35f5966af5c7632d",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "1ae20d9809c9b4702304",
+    "title": "La Nirvana",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000033718.html"
+  },
+  {
+    "id": "f5e35deab173d25755ab",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
+    "id": "97d458cfa4213d50ee7e",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "ea5dde619b1fab19eaa1",
+    "title": "The Opera!",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=316397.html"
+  },
+  {
+    "id": "fdc7c892ae30094d880f",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:55:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "763aeeee29d291ec9e63",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T19:55:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "238cbb80ae2118a0382f",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "d62c6b3a27327dafb839",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "6f6b0c4fd8bdadc0b99d",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "c3aed94c7ea33d77874d",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
   },
   {
     "id": "712c9933f4739e54028c",
@@ -320,6 +1592,94 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "5df4d305147ae6174e94",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T20:10:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "cb2d824f83eb3bc0bedc",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T20:10:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "cd67ca7f3e8bb5e60aec",
+    "title": "De la Comédie-Française",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000037046.html"
+  },
+  {
+    "id": "5f32c87b635a49b21875",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "26da999334804fc80807",
+    "title": "La Bataille de Gaulle - Partie 2 : J’écris ton nom",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=294281.html"
+  },
+  {
+    "id": "746e96c9fcf0e0a709eb",
+    "title": "La Bataille de Gaulle - partie 1 : L'Âge de Fer",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=294280.html"
+  },
+  {
+    "id": "a73b1c2594016fd562bd",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "5ad37869cacf9e0fd203",
+    "title": "Soleil vert",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=300.html"
+  },
+  {
+    "id": "a604042a92d63a16eea3",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "5411295907d75a1104b9",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "86867e38ed94eef7b136",
+    "title": "Les Héros du Louvre",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=323826.html"
+  },
+  {
     "id": "0be77540565d44832cb4",
     "title": "Film du mois Salvation",
     "cinema": "Méliès Jean-Jaurès",
@@ -336,6 +1696,30 @@
     "url": "https://www.lemelies.com/films/"
   },
   {
+    "id": "acac23c796aef1d16792",
+    "title": "La Bataille de Gaulle - Partie 2 : J’écris ton nom",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T21:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=294281.html"
+  },
+  {
+    "id": "34fa0cbdefcbee95b8eb",
+    "title": "Obsession",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T21:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000028234.html"
+  },
+  {
+    "id": "c60b7f69046e34f2b3c9",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T21:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
     "id": "d26ebd213dbfd02c3da8",
     "title": "Dégel",
     "cinema": "Méliès Jean-Jaurès",
@@ -350,6 +1734,142 @@
     "start": "2026-09-08T21:00:00+02:00",
     "version": "",
     "url": "https://www.lemelies.com/films/"
+  },
+  {
+    "id": "5371761e0938e3cd1cb8",
+    "title": "Battle Royale",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T21:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=28615.html"
+  },
+  {
+    "id": "3d3be2996043f365a773",
+    "title": "L'Armée des 12 singes",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T21:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=29757.html"
+  },
+  {
+    "id": "f57cfedd5b344141da32",
+    "title": "L'Odyssée",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T21:20:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000013045.html"
+  },
+  {
+    "id": "69db11717cc0934d093f",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T21:20:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "2090e9c34c859867ad2d",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T21:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "11bd4cdab7ce73d88661",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-08T21:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "dd7a6abf5f4f5076c287",
+    "title": "Spider-Man: Brand New Day",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T21:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=276608.html"
+  },
+  {
+    "id": "1be31ff1af3456173992",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T21:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "8236e6b14fc385c866da",
+    "title": "La Nirvana",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T21:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000033718.html"
+  },
+  {
+    "id": "282a08e29104034aa633",
+    "title": "Tad l'explorateur et la lampe magique",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T21:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=257425.html"
+  },
+  {
+    "id": "824ecaae6a5b0d658e26",
+    "title": "Insidious : l'invasion du lointain",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T22:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000016503.html"
+  },
+  {
+    "id": "f458fed664e908026364",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T22:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "4da9d31a26171d772c97",
+    "title": "Mutiny",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T22:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000002942.html"
+  },
+  {
+    "id": "1eb668ffe1aab700219d",
+    "title": "The Dog Stars",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T22:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000014969.html"
+  },
+  {
+    "id": "925154f9a04979be9d30",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T22:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
+  },
+  {
+    "id": "c4ddcd1b45aee5578309",
+    "title": "La fin d’Oak Street",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T22:05:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=314503.html"
+  },
+  {
+    "id": "0bf98bbe57f2d1fd8038",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-08T22:05:00+02:00",
+    "version": "VF",
+    "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1000032856.html"
   },
   {
     "id": "8a9e9e7364dfe9c9371c",
@@ -1228,174 +2748,6 @@
     "title": "À la une La Frappe",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-12T20:50:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "37b77d506f960d51b551",
-    "title": "Film du mois Salvation",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T13:45:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "e2db383713ca45f12e48",
-    "title": "À la une La Frappe",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T13:45:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "ab2bc42cabb2f3b3bd71",
-    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T13:50:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "cd4d65c2b697e4014e4c",
-    "title": "La dernière patiente",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T13:50:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "4184c5644236895cd5f7",
-    "title": "Dégel",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T15:30:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "bb57ba27f7fe14823007",
-    "title": "Fjord",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T15:30:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "c8bf2d7b4c19dc273fa4",
-    "title": "Paradise",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-13T15:30:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "aacbc3d471c705962ff7",
-    "title": "Soudain",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-13T15:30:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "f3a85f0e85b6bb1bb820",
-    "title": "L'Odyssée",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T16:00:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "25e74a3fe9e6fbddfe21",
-    "title": "Trois adieux",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T16:00:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "d52d5f5c373f35be83ef",
-    "title": "À la une La Frappe",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T17:00:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "7cfa79b7cc020b1454ef",
-    "title": "La Bataille de Gaulle - Partie 2 : J'écris ton nom",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T18:10:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "945d13d097c393c0c980",
-    "title": "La dernière patiente",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T18:10:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "c1c89790a58ea4029820",
-    "title": "Film du mois Salvation",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T18:15:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "373909b18b267b31436b",
-    "title": "À la une La Frappe",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T18:15:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "d9822a4e41924c57a886",
-    "title": "Dégel",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T19:00:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "67c5dbf8e60fb527fbbe",
-    "title": "L'inconnue",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-13T19:00:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "8cb480147ea9be60164a",
-    "title": "Film du mois Salvation",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-13T19:45:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "5e579757426aba2f0646",
-    "title": "L'inconnue",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-13T19:45:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "4874e76dafd9d76b5c8b",
-    "title": "Decorado",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-13T20:45:00+02:00",
-    "version": "",
-    "url": "https://www.lemelies.com/films/"
-  },
-  {
-    "id": "ab79bf85d2ddc516c94a",
-    "title": "La dernière patiente",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-13T20:45:00+02:00",
     "version": "",
     "url": "https://www.lemelies.com/films/"
   }
