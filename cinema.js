@@ -274,6 +274,40 @@ function groupByFilm(events) {
   });
 }
 
+function filterMegaramVfIfVoExists(film) {
+  const megaramaSessions = film.sessions.filter(session =>
+    normalize(session.cinema).includes("megarama")
+  );
+
+  const hasOriginalVersion = megaramaSessions.some(session => {
+    const version = normalize(session.version);
+
+    return (
+      version === "vo" ||
+      version === "vost" ||
+      version === "vostf"
+    );
+  });
+
+  if (!hasOriginalVersion) {
+    return film;
+  }
+
+  return {
+    ...film,
+    sessions: film.sessions.filter(session => {
+      const cinema = normalize(session.cinema);
+      const version = normalize(session.version);
+
+      if (!cinema.includes("megarama")) {
+        return true;
+      }
+
+      return version !== "vf";
+    })
+  };
+}
+
 function filmSessionCount(film) {
   return film.sessions.length;
 }
