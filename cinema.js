@@ -216,7 +216,7 @@ function removeMegaramaWhenMeliesExists(events) {
 
 
 /* ======================================================
-   FILTRES
+   FILTRES CINÉMAS
    ====================================================== */
 
 function selectedCinemas() {
@@ -558,7 +558,6 @@ function buildDayHeaders(days) {
 
 /* ======================================================
    HORAIRE
-   PAS DE LIEN SUR L'HORAIRE
    ====================================================== */
 
 function createSessionNode(session) {
@@ -613,12 +612,10 @@ function renderMeliesTable(
     el("cinemaWeekBody");
 
   if (!body) {
-    return 0;
+    return;
   }
 
   body.innerHTML = "";
-
-  let totalSessions = 0;
 
   for (const film of films) {
     const tr =
@@ -687,8 +684,6 @@ function renderMeliesTable(
               session
             )
           );
-
-          totalSessions++;
         }
 
         td.appendChild(list);
@@ -718,8 +713,6 @@ function renderMeliesTable(
     tr.appendChild(td);
     body.appendChild(tr);
   }
-
-  return totalSessions;
 }
 
 
@@ -741,7 +734,7 @@ function renderOccasionalMegarama(
     !section ||
     !grid
   ) {
-    return 0;
+    return;
   }
 
   grid.innerHTML = "";
@@ -765,13 +758,11 @@ function renderOccasionalMegarama(
     section.style.display =
       "none";
 
-    return 0;
+    return;
   }
 
   section.style.display =
     "";
-
-  let total = 0;
 
   for (const day of days) {
     const column =
@@ -823,8 +814,6 @@ function renderOccasionalMegarama(
         const session
         of daySessions
       ) {
-        total++;
-
         const row =
           document.createElement("div");
 
@@ -888,8 +877,6 @@ function renderOccasionalMegarama(
 
     grid.appendChild(column);
   }
-
-  return total;
 }
 
 
@@ -997,13 +984,17 @@ function render() {
         )
     );
 
-  buildDayHeaders(days);
+  buildDayHeaders(
+    days
+  );
 
   const events =
     visibleEvents();
 
   const films =
-    groupByFilm(events);
+    groupByFilm(
+      events
+    );
 
   const {
     meliesFilms,
@@ -1012,41 +1003,19 @@ function render() {
   } =
     splitFilms(films);
 
-  const meliesSessions =
-    renderMeliesTable(
-      meliesFilms,
-      days
-    );
+  renderMeliesTable(
+    meliesFilms,
+    days
+  );
 
-  const occasionalSessions =
-    renderOccasionalMegarama(
-      occasionalMegarama,
-      days
-    );
+  renderOccasionalMegarama(
+    occasionalMegarama,
+    days
+  );
 
   renderBigReleases(
     bigReleases
   );
-
-  const status =
-    el("cinemaStatus");
-
-  if (status) {
-    const filmCount =
-      meliesFilms.length +
-      occasionalMegarama.length;
-
-    const sessionCount =
-      meliesSessions +
-      occasionalSessions;
-
-    status.textContent =
-      `${filmCount} film` +
-      `${filmCount > 1 ? "s" : ""}` +
-      ` · ` +
-      `${sessionCount} séance` +
-      `${sessionCount > 1 ? "s" : ""}`;
-  }
 }
 
 
@@ -1092,15 +1061,6 @@ async function init() {
 
   } catch (err) {
     console.error(err);
-
-    const status =
-      el("cinemaStatus");
-
-    if (status) {
-      status.textContent =
-        "Erreur : " +
-        err.message;
-    }
   }
 }
 
@@ -1114,6 +1074,5 @@ el("afterWorkOnly")
     "change",
     render
   );
-
 
 init();
