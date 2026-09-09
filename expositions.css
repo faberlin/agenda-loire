@@ -1,0 +1,152 @@
+/* ======================================================
+   FILTRES
+   ====================================================== */
+
+.expo-filters {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+
+  margin: 8px 0 14px;
+  padding: 8px 10px;
+
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.expo-filter-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.expo-filter-check input {
+  margin: 0;
+}
+
+
+/* ======================================================
+   SECTIONS
+   ====================================================== */
+
+.expo-section {
+  margin-top: 16px;
+}
+
+.expo-section h2 {
+  margin: 0 0 7px;
+  font-size: 16px;
+}
+
+.expo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+/* ======================================================
+   LIGNES
+   ====================================================== */
+
+.expo-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  min-width: 0;
+  padding: 7px 9px;
+
+  border: 1px solid #e2e2e2;
+  border-radius: 7px;
+  background: #fff;
+}
+
+.expo-content {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  min-width: 0;
+  overflow: hidden;
+}
+
+.expo-type {
+  flex: 0 0 auto;
+
+  padding: 2px 5px;
+  border-radius: 4px;
+
+  background: #e7f0ff;
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.expo-title {
+  min-width: 0;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  font-weight: 600;
+}
+
+.expo-separator,
+.expo-meta {
+  color: #666;
+  white-space: nowrap;
+}
+
+.expo-source {
+  flex: 0 0 auto;
+
+  padding: 4px 7px;
+
+  border: 1px solid #bbb;
+  border-radius: 5px;
+
+  color: #222;
+  text-decoration: none;
+
+  font-size: 12px;
+}
+
+.expo-source:hover {
+  background: #f6f6f6;
+}
+
+.expo-empty {
+  padding: 10px;
+  color: #777;
+
+  border: 1px dashed #ddd;
+  border-radius: 7px;
+}
+
+.expo-status {
+  margin-top: 10px;
+  color: #777;
+  font-size: 12px;
+}
+
+
+/* ======================================================
+   MOBILE
+   ====================================================== */
+
+@media (max-width: 800px) {
+  .expo-row {
+    align-items: flex-start;
+  }
+
+  .expo-content {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda Loire — Expositions</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="expositions.css?v=20260909-1" />
+</head>
+
+<body>
+  <main class="page">
+    <header class="header">
+      <div class="brand-nav">
+        <h1>Agenda Loire</h1>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a>
+          <a href="spectacles.html">Spectacles</a>
+          <a class="active" href="expositions.html">Expositions</a>
+          <a href="planning.html">Planning</a>
+          <a href="cinema.html">Ciné</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="expo-filters" aria-label="Filtres">
+      <strong>Afficher :</strong>
+
+      <label class="expo-filter-check">
+        <input id="filterMusees" type="checkbox" checked />
+        <span>Musées</span>
+      </label>
+
+      <label class="expo-filter-check">
+        <input id="filterGaleries" type="checkbox" checked />
+        <span>Galeries</span>
+      </label>
+    </section>
+
+    <section class="expo-section">
+      <h2>Expositions en cours</h2>
+      <div id="currentExhibitions" class="expo-list"></div>
+    </section>
+
+    <section class="expo-section">
+      <h2>À venir</h2>
+      <div id="upcomingExhibitions" class="expo-list"></div>
+    </section>
+
+    <div id="expoStatus" class="expo-status"></div>
+  </main>
+
+  <script src="expositions.js?v=20260909-1"></script>
+</body>
+</html>
