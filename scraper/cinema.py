@@ -85,13 +85,6 @@ def in_window(dt):
 
 
 def extract_times(text):
-    """
-    Reconnaît :
-    14h00
-    18h30
-    20:15
-    """
-
     result = []
 
     for match in re.finditer(
@@ -102,10 +95,10 @@ def extract_times(text):
         hour = int(match.group(1))
         minute = int(match.group(2))
 
-        if 0 <= hour <= 23 and 0 <= minute <= 59:
-            result.append(
-                (hour, minute)
-            )
+        # On élimine notamment les durées de films :
+        # 1h45, 2h02, etc.
+        if 8 <= hour <= 23 and 0 <= minute <= 59:
+            result.append((hour, minute))
 
     return result
 
