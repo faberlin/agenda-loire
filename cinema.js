@@ -699,8 +699,10 @@ function render() {
   const events =
     visibleEvents();
 
-  const films =
-    groupByFilm(events);
+const films =
+  groupByFilm(events)
+    .map(filterMegaramVfIfVoExists)
+    .filter(film => film.sessions.length > 0);
 
   const mainFilms =
     films.filter(
