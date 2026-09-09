@@ -5,27 +5,21 @@
 .cinema-filters {
   border: 1px solid #d8d8d8;
   border-radius: 8px;
-
   padding: 9px 11px;
-
   margin-bottom: 7px;
 }
 
 .cinema-filter-list {
   display: flex;
   flex-wrap: wrap;
-
   gap: 14px;
-
   margin-top: 7px;
 }
 
 .cinema-filter-check {
   display: flex;
   align-items: center;
-
   gap: 5px;
-
   font-size: 13px;
 }
 
@@ -35,29 +29,20 @@
 
 
 /* ======================================================
-   COMPTEUR
+   COMPTEUR / FILTRE 17H
    ====================================================== */
 
 .cinema-status {
   margin: 5px 0 2px;
-
   font-size: 13px;
   font-weight: 600;
 }
 
-
-/* ======================================================
-   FILTRE 17H
-   ====================================================== */
-
 .after-work-filter {
   display: flex;
   align-items: center;
-
   gap: 7px;
-
   margin: 3px 0 10px;
-
   font-size: 13px;
 }
 
@@ -72,9 +57,7 @@
 
 .cinema-main-section h2,
 .cinema-occasional-section h2 {
-  margin:
-    12px 0 6px;
-
+  margin: 12px 0 6px;
   font-size: 16px;
 }
 
@@ -85,37 +68,24 @@
 
 .cinema-table-wrap {
   width: 100%;
-
   overflow-x: auto;
-
-  border:
-    1px solid #ddd;
-
+  border: 1px solid #ddd;
   border-radius: 8px;
 }
 
 .cinema-week-table {
   width: 100%;
-
   min-width: 900px;
-
   border-collapse: collapse;
-
   table-layout: fixed;
-
   background: #fff;
 }
 
 .cinema-week-table th,
 .cinema-week-table td {
-  border-right:
-    1px solid #e4e4e4;
-
-  border-bottom:
-    1px solid #e8e8e8;
-
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e8e8e8;
   padding: 4px 6px;
-
   vertical-align: top;
 }
 
@@ -126,11 +96,8 @@
 
 .cinema-week-table thead th {
   background: #f7f7f7;
-
   font-size: 12px;
-
   font-weight: 700;
-
   text-align: left;
 }
 
@@ -139,18 +106,24 @@
 }
 
 .day-col {
-  width:
-    calc(
-      (100% - 230px) / 5
-    );
+  width: calc((100% - 230px) / 5);
 }
 
 .film-title {
   font-size: 13px;
-
   font-weight: 700;
-
   line-height: 1.2;
+}
+
+.film-title-link {
+  display: inline;
+  color: #222;
+  text-decoration: none;
+}
+
+.film-title-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .sessions-cell {
@@ -159,40 +132,36 @@
 
 .session-list {
   display: flex;
-
   flex-wrap: wrap;
-
   gap: 3px;
 }
 
+
+/* ======================================================
+   HORAIRES
+   ====================================================== */
+
 .session-time {
   display: inline-flex;
-
   align-items: center;
-
   gap: 3px;
 
   padding: 2px 5px;
 
-  border:
-    1px solid #ccc;
-
+  border: 1px solid #ccc;
   border-radius: 5px;
 
   color: #222;
 
-  text-decoration: none;
-
   font-size: 10px;
-
   line-height: 1.15;
+
+  cursor: default;
 }
 
 .session-version {
   font-size: 8px;
-
   font-weight: 600;
-
   color: #555;
 }
 
@@ -207,43 +176,31 @@
 
 /* Méliès Saint-François */
 .session-time.session-sf {
-  background:
-    #b7ff7a !important;
-
-  border-color:
-    #72d63c !important;
+  background: #b7ff7a !important;
+  border-color: #72d63c !important;
 }
 
 /* Méliès Jean-Jaurès */
 .session-time.session-melies-jj {
-  background:
-    #e5f6e5 !important;
-
-  border-color:
-    #a9d6a9 !important;
+  background: #e5f6e5 !important;
+  border-color: #a9d6a9 !important;
 }
 
 /* Mégarama Jean-Jaurès */
 .session-time.session-mega-jj {
-  background:
-    #f4a261 !important;
-
-  border-color:
-    #d97706 !important;
+  background: #f4a261 !important;
+  border-color: #d97706 !important;
 }
 
 /* Mégarama Camion Rouge */
 .session-time.session-mega-cr {
-  background:
-    #ffe0b2 !important;
-
-  border-color:
-    #f6b26b !important;
+  background: #ffe0b2 !important;
+  border-color: #f6b26b !important;
 }
 
 
 /* ======================================================
-   SÉANCES PONCTUELLES MÉGARAMA
+   MÉGARAMA PONCTUEL
    ====================================================== */
 
 .cinema-occasional-section {
@@ -252,13 +209,10 @@
 
 .cinema-occasional-grid {
   display: grid;
-
   grid-template-columns:
     repeat(5, minmax(0, 1fr));
 
-  border:
-    1px solid #ddd;
-
+  border: 1px solid #ddd;
   border-radius: 8px;
 
   overflow: hidden;
@@ -266,10 +220,7 @@
 
 .occasional-day {
   min-width: 0;
-
-  border-right:
-    1px solid #e2e2e2;
-
+  border-right: 1px solid #e2e2e2;
   background: #fff;
 }
 
@@ -279,35 +230,23 @@
 
 .occasional-day-title {
   padding: 5px 7px;
-
   background: #f7f7f7;
-
-  border-bottom:
-    1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
 
   font-size: 12px;
-
   font-weight: 700;
 }
 
 .occasional-session {
   display: flex;
-
   align-items: baseline;
-
   gap: 5px;
 
   padding: 4px 6px;
 
-  border-bottom:
-    1px solid #eee;
-
-  color: #222;
-
-  text-decoration: none;
+  border-bottom: 1px solid #eee;
 
   font-size: 11px;
-
   line-height: 1.25;
 }
 
@@ -325,12 +264,9 @@
   padding: 1px 4px;
 
   border-radius: 4px;
-
-  border:
-    1px solid #ddd;
+  border: 1px solid #ddd;
 
   font-size: 10px;
-
   font-weight: 600;
 }
 
@@ -338,37 +274,41 @@
   min-width: 0;
 
   overflow: hidden;
-
   text-overflow: ellipsis;
-
   white-space: nowrap;
 
   font-weight: 600;
 }
 
+.occasional-film-link {
+  color: #222;
+  text-decoration: none;
+}
+
+.occasional-film-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .occasional-empty {
   padding: 5px 7px;
-
   color: #bbb;
 }
 
 
-/* Camion Rouge ponctuel */
-.occasional-time.session-mega-cr {
-  background:
-    #ffe0b2;
+/* Mégarama Jean-Jaurès */
 
-  border-color:
-    #f6b26b;
+.occasional-time.session-mega-jj {
+  background: #f4a261;
+  border-color: #d97706;
 }
 
-/* Jean-Jaurès ponctuel */
-.occasional-time.session-mega-jj {
-  background:
-    #f4a261;
 
-  border-color:
-    #d97706;
+/* Mégarama Camion Rouge */
+
+.occasional-time.session-mega-cr {
+  background: #ffe0b2;
+  border-color: #f6b26b;
 }
 
 
@@ -378,19 +318,15 @@
 
 .cinema-big-releases-section {
   margin-top: 12px;
-
   font-size: 13px;
-
   line-height: 1.7;
 }
 
 .big-release-title {
   color: #333;
-
   font-weight: 600;
 
   text-decoration: underline;
-
   text-underline-offset: 2px;
 }
 
@@ -409,9 +345,7 @@
 
 .cinema-empty {
   padding: 10px;
-
   color: #777;
-
   font-size: 13px;
 }
 
@@ -429,8 +363,7 @@
 
 @media (max-width: 700px) {
   .cinema-occasional-grid {
-    grid-template-columns:
-      1fr;
+    grid-template-columns: 1fr;
   }
 
   .film-col {
