@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="planning.css" />
 </head>
+
 <body>
   <main class="page">
     <header class="header">
@@ -16,6 +17,7 @@
 
         <nav class="main-nav" aria-label="Navigation principale">
           <a href="index.html">Accueil</a>
+          <a href="spectacles.html">Spectacles</a>
           <a class="active" href="planning.html">Planning</a>
           <a href="cinema.html">Ciné</a>
         </nav>
@@ -24,25 +26,48 @@
 
     <section class="planning-toolbar">
       <div class="planning-nav">
-        <button id="prevWeekBtn" class="planning-btn" type="button" aria-label="Semaine précédente">
+        <button
+          id="prevWeekBtn"
+          class="planning-btn"
+          type="button"
+          aria-label="Semaine précédente"
+        >
           ←
         </button>
 
-        <button id="todayBtn" class="planning-btn" type="button">
+        <button
+          id="todayBtn"
+          class="planning-btn"
+          type="button"
+        >
           Aujourd’hui
         </button>
 
-        <button id="nextWeekBtn" class="planning-btn" type="button" aria-label="Semaine suivante">
+        <button
+          id="nextWeekBtn"
+          class="planning-btn"
+          type="button"
+          aria-label="Semaine suivante"
+        >
           →
         </button>
 
-        <div id="planningRange" class="planning-range"></div>
+        <div
+          id="planningRange"
+          class="planning-range"
+        ></div>
       </div>
 
-      <div id="planningStatus" class="planning-status"></div>
+      <div
+        id="planningStatus"
+        class="planning-status"
+      ></div>
     </section>
 
-    <section id="planningGrid" class="planning-grid"></section>
+    <section
+      id="planningGrid"
+      class="planning-grid"
+    ></section>
   </main>
 
   <script src="planning.js"></script>

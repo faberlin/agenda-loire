@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agenda Loire — Spectacles</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+</head>
+
+<body>
+  <main class="page">
+    <header class="header">
+      <div class="brand-nav">
+        <h1>Agenda Loire</h1>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a>
+          <a class="active" href="spectacles.html">Spectacles</a>
+          <a href="planning.html">Planning</a>
+          <a href="cinema.html">Ciné</a>
+        </nav>
+      </div>
+
+      <div class="header-actions">
+        <button id="loginBtn" type="button">Connexion</button>
+      </div>
+    </header>
+
+    <section class="filters-top">
+      <input
+        id="search"
+        type="search"
+        placeholder="Rechercher un événement, un lieu..."
+      />
+
+      <select id="period"></select>
+    </section>
+
+    <section class="multi-filters">
+      <div class="filter-group">
+        <div class="filter-heading">
+          <strong>Catégories</strong>
+
+          <button
+            type="button"
+            class="filter-clear"
+            data-clear="categoryFilters"
+          >
+            Tout décocher
+          </button>
+        </div>
+
+        <div
+          id="categoryFilters"
+          class="filter-options"
+        ></div>
+      </div>
+
+      <div class="filter-group filter-group-wide">
+        <div class="filter-heading">
+          <strong>Sources / programmations</strong>
+
+          <button
+            type="button"
+            class="filter-clear"
+            data-clear="sourceFilters"
+          >
+            Tout décocher
+          </button>
+        </div>
+
+        <div
+          id="sourceFilters"
+          class="filter-options"
+        ></div>
+      </div>
+    </section>
+
+    <nav class="tabs" aria-label="Filtres d'état">
+      <button class="tab active" type="button" data-tab="visible">À voir</button>
+      <button class="tab" type="button" data-tab="favorites">Favoris</button>
+      <button class="tab" type="button" data-tab="reserved">Réservés</button>
+      <button class="tab" type="button" data-tab="hidden">Masqués</button>
+    </nav>
+
+    <div id="status" class="status"></div>
+    <section id="events" class="events"></section>
+  </main>
+
+  <dialog id="loginDialog">
+    <form method="dialog" class="login-form">
+      <h2>Connexion</h2>
+
+      <label>
+        E-mail
+        <input id="email" type="email" autocomplete="email" />
+      </label>
+
+      <div class="login-actions">
+        <button id="sendMagicLink" type="button">
+          Envoyer le lien magique
+        </button>
+
+        <button type="submit">
+          Fermer
+        </button>
+      </div>
+
+      <div id="loginMessage"></div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

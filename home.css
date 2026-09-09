@@ -1,0 +1,74 @@
+.home-intro {
+  margin: 18px 0 20px;
+}
+
+.home-intro h2 {
+  margin: 0 0 4px;
+  font-size: 22px;
+}
+
+.home-intro p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 800px;
+}
+
+.home-stat-card {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-stat-card:hover {
+  background: #fafafa;
+}
+
+.home-stat-number {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.home-stat-label {
+  margin-top: 7px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.home-stat-detail {
+  margin-top: 4px;
+  color: #666;
+  font-size: 12px;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 22px;
+}
+
+.home-links a {
+  color: #222;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 650px) {
+  .home-stats {
+    grid-template-columns: 1fr;
+  }
+}
