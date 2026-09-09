@@ -199,40 +199,28 @@
    COULEURS DES 4 CINÉMAS
    ======================================================= */
 
-/* Méliès Saint-François */
+/* Méliès Saint-François — le plus proche */
 .session-time.session-sf {
-  background:
-    #e8f6e8 !important;
-
-  border-color:
-    #b7dbb7 !important;
+  background: #b7ff7a !important;
+  border-color: #72d63c !important;
 }
 
 /* Méliès Jean-Jaurès */
 .session-time.session-melies-jj {
-  background:
-    #fff0e2 !important;
-
-  border-color:
-    #efc49e !important;
+  background: #e8f6e8 !important;
+  border-color: #b7dbb7 !important;
 }
 
 /* Mégarama Jean-Jaurès */
 .session-time.session-mega-jj {
-  background:
-    #e7f1ff !important;
-
-  border-color:
-    #b8d2f3 !important;
+  background: #f4a261 !important;
+  border-color: #d97706 !important;
 }
 
 /* Mégarama Camion Rouge */
 .session-time.session-mega-cr {
-  background:
-    #f1e9ff !important;
-
-  border-color:
-    #cdb8ef !important;
+  background: #ffe0b2 !important;
+  border-color: #f6b26b !important;
 }
 
 
