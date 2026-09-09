@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Agenda Loire — Ciné</title>
 
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="cinema.css?v=20260909-2" />
+  <link rel="stylesheet" href="cinema.css?v=20260909-4" />
 </head>
 
 <body>
@@ -15,7 +14,6 @@
 
     <header class="header">
       <div class="brand-nav">
-
         <h1>Agenda Loire</h1>
 
         <nav class="main-nav" aria-label="Navigation principale">
@@ -23,95 +21,55 @@
           <a href="planning.html">Planning</a>
           <a class="active" href="cinema.html">Ciné</a>
         </nav>
-
       </div>
     </header>
 
-
     <section class="cinema-filters">
       <strong>Cinémas</strong>
-
-      <div
-        id="cinemaFilters"
-        class="cinema-filter-list"
-      ></div>
+      <div id="cinemaFilters" class="cinema-filter-list"></div>
     </section>
 
-
     <label class="after-work-filter">
-      <input
-        id="afterWorkOnly"
-        type="checkbox"
-        checked
-      />
-
-      <span>
-        En semaine, masquer les séances avant 17h
-      </span>
+      <input id="afterWorkOnly" type="checkbox" checked />
+      <span>En semaine, masquer les séances avant 17h</span>
     </label>
 
-
     <section class="cinema-main-section">
-
       <h2>Programmation Méliès</h2>
 
       <div class="cinema-table-wrap">
-
         <table class="cinema-week-table">
-
           <thead>
             <tr id="cinemaWeekHeader">
-              <th class="film-col">
-                Film
-              </th>
+              <th class="film-col">Film</th>
             </tr>
           </thead>
 
           <tbody id="cinemaWeekBody"></tbody>
-
         </table>
-
       </div>
-
     </section>
-
 
     <section
       id="cinemaOccasionalSection"
       class="cinema-occasional-section"
     >
-
-      <h2>
-        Séances ponctuelles Mégarama
-      </h2>
-
       <div
         id="cinemaOccasionalGrid"
         class="cinema-occasional-grid"
       ></div>
-
     </section>
-
 
     <section
       id="cinemaBigReleasesSection"
       class="cinema-big-releases-section"
     >
-
-      <strong>
-        Grosses sorties Mégarama :
-      </strong>
-
-      <span
-        id="cinemaBigReleases"
-      ></span>
-
+      <strong>Grosses sorties Mégarama :</strong>
+      <span id="cinemaBigReleases"></span>
     </section>
 
   </main>
 
-
-  <script src="cinema.js?v=20260909-2"></script>
-
+  <script src="cinema.js?v=20260909-4"></script>
 </body>
 </html>
