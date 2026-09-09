@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Agenda Loire — Ciné</title>
+
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="cinema.css" />
 </head>
@@ -12,6 +13,7 @@
     <header class="header">
       <div class="brand-nav">
         <h1>Agenda Loire</h1>
+
         <nav class="main-nav" aria-label="Navigation principale">
           <a href="index.html">Accueil</a>
           <a href="planning.html">Planning</a>
@@ -19,14 +21,6 @@
         </nav>
       </div>
     </header>
-
-    <section class="cinema-toolbar">
-      <input id="cinemaSearch" type="search" placeholder="Rechercher un film..." />
-      <label class="after-work-filter">
-        <input id="afterWorkOnly" type="checkbox" checked />
-        <span>En semaine, masquer les séances avant 17h</span>
-      </label>
-    </section>
 
     <section class="cinema-filters">
       <div>
@@ -37,10 +31,17 @@
 
     <div id="cinemaStatus" class="status"></div>
 
+    <label class="after-work-filter">
+      <input id="afterWorkOnly" type="checkbox" checked />
+      <span>En semaine, masquer les séances avant 17h</span>
+    </label>
+
     <div class="cinema-table-wrap">
       <table class="cinema-week-table">
         <thead>
-          <tr id="cinemaWeekHeader"><th class="film-col">Film / cinéma</th></tr>
+          <tr id="cinemaWeekHeader">
+            <th class="film-col">Film</th>
+          </tr>
         </thead>
         <tbody id="cinemaWeekBody"></tbody>
       </table>
