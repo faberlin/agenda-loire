@@ -69,9 +69,8 @@ function selectedCinemas() {
   }
 
   return new Set(
-    [...container.querySelectorAll(
-      'input[type="checkbox"]:checked'
-    )].map(input => input.value)
+    [...container.querySelectorAll('input[type="checkbox"]:checked')]
+      .map(input => input.value)
   );
 }
 
@@ -161,8 +160,7 @@ function buildDayHeaders(days) {
     );
   }
 
-  row.innerHTML =
-    '<th class="film-col">Film</th>';
+  row.innerHTML = '<th class="film-col">Film</th>';
 
   const today = startOfToday();
 
@@ -174,25 +172,14 @@ function buildDayHeaders(days) {
       th.classList.add("today-col");
     }
 
-    th.textContent =
-      formatHeaderDay(day);
+    th.textContent = formatHeaderDay(day);
 
     row.appendChild(th);
   }
 }
 
 function visibleEvents() {
-  const searchInput =
-    el("cinemaSearch");
-
-  const afterWorkInput =
-    el("afterWorkOnly");
-
-  const search = normalize(
-    searchInput
-      ? searchInput.value
-      : ""
-  );
+  const afterWorkInput = el("afterWorkOnly");
 
   const afterWorkOnly =
     afterWorkInput
@@ -236,14 +223,6 @@ function visibleEvents() {
     if (
       cinemas.size > 0 &&
       !cinemas.has(event.cinema)
-    ) {
-      return false;
-    }
-
-    if (
-      search &&
-      !normalize(event.title)
-        .includes(search)
     ) {
       return false;
     }
@@ -779,12 +758,6 @@ async function init() {
     }
   }
 }
-
-el("cinemaSearch")
-  ?.addEventListener(
-    "input",
-    render
-  );
 
 el("afterWorkOnly")
   ?.addEventListener(
