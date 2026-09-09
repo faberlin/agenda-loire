@@ -394,7 +394,7 @@ function groupByFilm(events) {
 
 
 /* ======================================================
-   URL DU FILM
+   URL / TITRE FILM
    ====================================================== */
 
 function filmUrl(film) {
@@ -405,11 +405,6 @@ function filmUrl(film) {
 
   return session?.url || null;
 }
-
-
-/* ======================================================
-   TITRE DU FILM CLIQUABLE
-   ====================================================== */
 
 function createFilmTitle(film) {
   const url =
@@ -764,6 +759,19 @@ function renderOccasionalMegarama(
   section.style.display =
     "";
 
+  const labelColumn =
+    document.createElement("div");
+
+  labelColumn.className =
+    "occasional-label-column";
+
+  labelColumn.textContent =
+    "Séances ponctuelles Mégarama";
+
+  grid.appendChild(
+    labelColumn
+  );
+
   for (const day of days) {
     const column =
       document.createElement("div");
@@ -780,7 +788,9 @@ function renderOccasionalMegarama(
     heading.textContent =
       formatHeaderDay(day);
 
-    column.appendChild(heading);
+    column.appendChild(
+      heading
+    );
 
     const daySessions =
       allSessions
@@ -807,7 +817,9 @@ function renderOccasionalMegarama(
       empty.textContent =
         "—";
 
-      column.appendChild(empty);
+      column.appendChild(
+        empty
+      );
 
     } else {
       for (
@@ -1063,11 +1075,6 @@ async function init() {
     console.error(err);
   }
 }
-
-
-/* ======================================================
-   ÉVÉNEMENTS
-   ====================================================== */
 
 el("afterWorkOnly")
   ?.addEventListener(
