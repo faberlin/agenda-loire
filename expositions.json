@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "id": "08d35c9780ee1d9afba3",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "À déchiffrer — Suivre les traces dans les collections",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2026-06-27",
+    "end": "2027-01-03",
+    "status": "current",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/dechiffrer"
+  },
+  {
+    "id": "6b5ef842b35f9cc90592",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Flying Colors — Dialogue avec les collections du Minneapolis Institute of Art",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2026-06-27",
+    "end": "2027-01-03",
+    "status": "current",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/flying-colors"
+  },
+  {
+    "id": "7a36ae19a1544a2e4327",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Frank Stella — Minimal / Maximal",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2026-06-27",
+    "end": "2027-01-03",
+    "status": "current",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/frank-stella"
+  },
+  {
+    "id": "198f2524698c02cb48bb",
+    "type": "Musée",
+    "source": "Couriot - Musée de la Mine",
+    "title": "Agenda des événements",
+    "venue": "Couriot - Musée de la Mine",
+    "city": "Saint-Étienne",
+    "start": null,
+    "end": null,
+    "status": "current",
+    "url": "https://musee-mine.saint-etienne.fr/agenda"
+  },
+  {
+    "id": "c9d121cb6c8641bd4153",
+    "type": "Musée",
+    "source": "Musée d'Art et d'Industrie",
+    "title": "DESTINS, cinq vies stéphanoises durant la Révolution industrielle",
+    "venue": "Musée d'Art et d'Industrie",
+    "city": "Saint-Étienne",
+    "start": null,
+    "end": null,
+    "status": "current",
+    "url": "https://mai.saint-etienne.fr/expositions-evenements/exposition-en-cours/destins-cinq-vies-stephanoises-durant-revolution"
+  },
+  {
+    "id": "bb54e7ce02a38b2682c7",
+    "type": "Musée",
+    "source": "Musée d'Art et d'Industrie",
+    "title": "La mécanique de l'art",
+    "venue": "Musée d'Art et d'Industrie",
+    "city": "Saint-Étienne",
+    "start": null,
+    "end": null,
+    "status": "current",
+    "url": "https://mai.saint-etienne.fr/expositions-evenements/expositions/mecanique-de-lart"
+  },
+  {
+    "id": "9951966d2631206c5a36",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Écritures en éclats — Restez informés !",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2026-09-19",
+    "end": "2027-01-03",
+    "status": "upcoming",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/ecritures-en-eclats"
+  },
+  {
+    "id": "0ab0ae998030478881d2",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Bernard Plossu — Expérimental",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2027-04-10",
+    "end": "2028-01-02",
+    "status": "upcoming",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/bernard-plossu"
+  },
+  {
+    "id": "3a440b87d51ec06958c3",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Totem Exquis — Du groupe au studio",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2027-04-10",
+    "end": "2028-01-02",
+    "status": "upcoming",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/totem-exquis"
+  },
+  {
+    "id": "bf72200b94cdc44e9a59",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Tristan Chinal-Dargent — Prix des partenaires",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2027-04-10",
+    "end": "2028-01-02",
+    "status": "upcoming",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/tristan-chinal-dargent"
+  }
+]
