@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Agenda Loire — Planning</title>
+
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="planning.css" />
 </head>
@@ -12,6 +13,7 @@
     <header class="header">
       <div class="brand-nav">
         <h1>Agenda Loire</h1>
+
         <nav class="main-nav" aria-label="Navigation principale">
           <a href="index.html">Accueil</a>
           <a class="active" href="planning.html">Planning</a>
@@ -21,13 +23,26 @@
     </header>
 
     <section class="planning-toolbar">
-      <button id="prevWeek" type="button">←</button>
-      <button id="todayWeek" type="button">Aujourd’hui</button>
-      <button id="nextWeek" type="button">→</button>
-      <strong id="weekLabel"></strong>
+      <div class="planning-nav">
+        <button id="prevWeekBtn" class="planning-btn" type="button" aria-label="Semaine précédente">
+          ←
+        </button>
+
+        <button id="todayBtn" class="planning-btn" type="button">
+          Aujourd’hui
+        </button>
+
+        <button id="nextWeekBtn" class="planning-btn" type="button" aria-label="Semaine suivante">
+          →
+        </button>
+
+        <div id="planningRange" class="planning-range"></div>
+      </div>
+
+      <div id="planningStatus" class="planning-status"></div>
     </section>
 
-    <section id="weekGrid" class="week-grid" aria-label="Planning de la semaine"></section>
+    <section id="planningGrid" class="planning-grid"></section>
   </main>
 
   <script src="planning.js"></script>
