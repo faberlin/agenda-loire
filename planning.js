@@ -1,12 +1,18 @@
-let events = [];
-let weekStart = startOfWeek(new Date());
+let planningEvents = [];
+let currentWeekStart = getStartOfWeek(new Date());
 
-function startOfWeek(date) {
+const el = id => document.getElementById(id);
+
+function normalize(s) {
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function startOfDay(date) {
   const d = new Date(date);
   d.setHours(0, 0, 0, 0);
-  const day = d.getDay();
-  const diff = day === 0 ? -6 : 1 - day;
-  d.setDate(d.getDate() + diff);
   return d;
 }
 
@@ -16,34 +22,72 @@ function addDays(date, days) {
   return d;
 }
 
+function getStartOfWeek(date) {
+  const d = startOfDay(date);
+  const day = d.getDay(); // 0 dimanche, 1 lundi...
+  const diff = day === 0 ? -6 : 1 - day; // lundi = début de semaine
+  d.setDate(d.getDate() + diff);
+  return d;
+}
+
 function sameDay(a, b) {
-  return a.getFullYear() === b.getFullYear()
-    && a.getMonth() === b.getMonth()
-    && a.getDate() === b.getDate();
+  return (
+    a.getFullYear() === b.getFullYear() &&
+    a.getMonth() === b.getMonth() &&
+    a.getDate() === b.getDate()
+  );
 }
 
-function dateKey(date) {
-  const y = date.getFullYear();
-  const m = String(date.getMonth() + 1).padStart(2, "0");
-  const d = String(date.getDate()).padStart(2, "0");
-  return `${y}-${m}-${d}`;
+function formatRange(start) {
+  const end = addDays(start, 6);
+
+  const sameMonth = start.getMonth() === end.getMonth();
+  const sameYear = start.getFullYear() === end.getFullYear();
+
+  const startDay = new Intl.DateTimeFormat("fr-FR", {
+    day: "numeric"
+  }).format(start);
+
+  const startMonth = new Intl.DateTimeFormat("fr-FR", {
+    month: "short"
+  }).format(start);
+
+  const endDay = new Intl.DateTimeFormat("fr-FR", {
+    day: "numeric"
+  }).format(end);
+
+  const endMonth = new Intl.DateTimeFormat("fr-FR", {
+    month: "short"
+  }).format(end);
+
+  const year = new Intl.DateTimeFormat("fr-FR", {
+    year: "numeric"
+  }).format(end);
+
+  if (sameMonth && sameYear) {
+    return `${startDay} ${startMonth} — ${endDay} ${endMonth} ${year}`;
+  }
+
+  if (sameYear) {
+    return `${startDay} ${startMonth} — ${endDay} ${endMonth} ${year}`;
+  }
+
+  const startYear = new Intl.DateTimeFormat("fr-FR", {
+    year: "numeric"
+  }).format(start);
+
+  return `${startDay} ${startMonth} ${startYear} — ${endDay} ${endMonth} ${year}`;
 }
 
-function categoryClass(category) {
-  return "cat-" + String(category || "spectacle")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-function formatDayHeader(date) {
-  return new Intl.DateTimeFormat("fr-FR", {
+function formatDayTitle(date) {
+  let s = new Intl.DateTimeFormat("fr-FR", {
     weekday: "short",
     day: "numeric",
     month: "short"
   }).format(date);
+
+  s = s.replace(/\./g, "");
+  return s.toUpperCase();
 }
 
 function formatTime(date) {
@@ -51,103 +95,6 @@ function formatTime(date) {
     hour: "2-digit",
     minute: "2-digit"
   }).format(date);
-}
-
-function formatWeekLabel(start) {
-  const end = addDays(start, 6);
-
-  const startText = new Intl.DateTimeFormat("fr-FR", {
-    day: "numeric",
-    month: "short"
-  }).format(start);
-
-  const endText = new Intl.DateTimeFormat("fr-FR", {
-    day: "numeric",
-    month: "short",
-    year: "numeric"
-  }).format(end);
-
-  return `${startText} — ${endText}`;
-}
-
-function expandEventSessions(ev) {
-  if (Array.isArray(ev.sessions)) {
-    return ev.sessions.map(session => ({
-      ...ev,
-      sessionDate: new Date(session)
-    }));
-  }
-
-  return [{
-    ...ev,
-    sessionDate: new Date(ev.start)
-  }];
-}
-
-function renderWeek() {
-  const grid = document.getElementById("weekGrid");
-  const weekLabel = document.getElementById("weekLabel");
-  const today = new Date();
-
-  weekLabel.textContent = formatWeekLabel(weekStart);
-  grid.innerHTML = "";
-
-  const expanded = events.flatMap(expandEventSessions);
-
-  for (let i = 0; i < 7; i++) {
-    const dayDate = addDays(weekStart, i);
-    const day = document.createElement("section");
-    day.className = "day" + (sameDay(dayDate, today) ? " today" : "");
-
-    const header = document.createElement("div");
-    header.className = "day-header";
-    header.textContent = formatDayHeader(dayDate);
-    day.appendChild(header);
-
-    const dayEvents = document.createElement("div");
-    dayEvents.className = "day-events";
-
-    const matches = expanded
-      .filter(ev => sameDay(ev.sessionDate, dayDate))
-      .sort((a, b) => a.sessionDate - b.sessionDate);
-
-    if (!matches.length) {
-      const empty = document.createElement("div");
-      empty.className = "empty";
-      empty.textContent = "—";
-      dayEvents.appendChild(empty);
-    } else {
-      for (const ev of matches) {
-        const row = document.createElement(ev.url ? "a" : "div");
-        row.className = `event ${categoryClass(ev.category)}`;
-
-        if (ev.url) {
-          row.href = ev.url;
-          row.target = "_blank";
-          row.rel = "noopener";
-        }
-
-        const venue = ev.venue ? ` · ${ev.venue}` : "";
-        row.innerHTML = `
-          <span class="event-time">${formatTime(ev.sessionDate)}</span>
-          <span>${escapeHtml(ev.title)}</span>
-          <span class="event-venue">${escapeHtml(venue)}</span>
-        `;
-
-        row.title = [
-          formatTime(ev.sessionDate),
-          ev.title,
-          ev.venue || "",
-          ev.category || ""
-        ].filter(Boolean).join(" · ");
-
-        dayEvents.appendChild(row);
-      }
-    }
-
-    day.appendChild(dayEvents);
-    grid.appendChild(day);
-  }
 }
 
 function escapeHtml(value) {
@@ -160,33 +107,181 @@ function escapeHtml(value) {
   }[c]));
 }
 
-async function init() {
-  const response = await fetch("events.json", { cache: "no-store" });
-  if (!response.ok) {
-    throw new Error("Impossible de charger events.json");
-  }
+function categoryClass(category) {
+  const c = normalize(category);
 
-  events = await response.json();
-  renderWeek();
+  if (c.includes("musique") || c.includes("concert")) return "cat-musique";
+  if (c.includes("theatre") || c.includes("opéra") || c.includes("opera")) return "cat-theatre";
+  if (c.includes("danse")) return "cat-danse";
+  if (c.includes("litterature")) return "cat-litterature";
+  if (c.includes("humour")) return "cat-humour";
+  if (c.includes("exposition")) return "cat-exposition";
+
+  return "cat-default";
 }
 
-document.getElementById("prevWeek").addEventListener("click", () => {
-  weekStart = addDays(weekStart, -7);
-  renderWeek();
+function eventsOfSelectedWeek() {
+  const weekStart = startOfDay(currentWeekStart);
+  const weekEnd = addDays(weekStart, 7);
+
+  return planningEvents
+    .filter(ev => {
+      if (!ev.start) return false;
+
+      const d = new Date(ev.start);
+
+      if (Number.isNaN(d.getTime())) return false;
+
+      return d >= weekStart && d < weekEnd;
+    })
+    .sort((a, b) => new Date(a.start) - new Date(b.start));
+}
+
+function groupEventsByDay(events) {
+  const days = [];
+
+  for (let i = 0; i < 7; i++) {
+    const day = addDays(currentWeekStart, i);
+
+    const dayEvents = events.filter(ev =>
+      sameDay(new Date(ev.start), day)
+    );
+
+    if (dayEvents.length > 0) {
+      days.push({
+        date: day,
+        events: dayEvents
+      });
+    }
+  }
+
+  return days;
+}
+
+function renderEventRow(ev) {
+  const article = document.createElement("article");
+  article.className = `planning-event ${categoryClass(ev.category)}`;
+
+  const time = formatTime(new Date(ev.start));
+  const venue = ev.venue || ev.source || "";
+  const title = ev.title || "Événement";
+
+  const content = `
+    <span class="planning-event-time">${escapeHtml(time)}</span>
+    <span class="planning-event-title">${escapeHtml(title)}</span>
+    ${venue ? `<span class="planning-event-sep">·</span><span class="planning-event-venue">${escapeHtml(venue)}</span>` : ""}
+  `;
+
+  if (ev.url) {
+    const link = document.createElement("a");
+    link.href = ev.url;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.className = "planning-event-link";
+    link.innerHTML = content;
+    article.appendChild(link);
+  } else {
+    article.innerHTML = content;
+  }
+
+  return article;
+}
+
+function renderDayCard(dayBlock) {
+  const section = document.createElement("section");
+  section.className = "planning-day-card";
+
+  const title = document.createElement("h2");
+  title.className = "planning-day-title";
+  title.textContent = formatDayTitle(dayBlock.date);
+  section.appendChild(title);
+
+  const list = document.createElement("div");
+  list.className = "planning-day-events";
+
+  for (const ev of dayBlock.events) {
+    list.appendChild(renderEventRow(ev));
+  }
+
+  section.appendChild(list);
+
+  return section;
+}
+
+function render() {
+  const events = eventsOfSelectedWeek();
+  const grouped = groupEventsByDay(events);
+
+  const grid = el("planningGrid");
+  const status = el("planningStatus");
+  const range = el("planningRange");
+
+  range.textContent = formatRange(currentWeekStart);
+
+  if (status) {
+    status.textContent = `${events.length} événement${events.length > 1 ? "s" : ""} · ${grouped.length} jour${grouped.length > 1 ? "s" : ""}`;
+  }
+
+  grid.innerHTML = "";
+
+  if (!grouped.length) {
+    const empty = document.createElement("div");
+    empty.className = "planning-empty";
+    empty.textContent = "Aucun événement sur cette semaine.";
+    grid.appendChild(empty);
+    return;
+  }
+
+  for (const dayBlock of grouped) {
+    grid.appendChild(renderDayCard(dayBlock));
+  }
+}
+
+async function init() {
+  try {
+    const res = await fetch("events.json", { cache: "no-store" });
+
+    if (!res.ok) {
+      throw new Error("Impossible de charger events.json");
+    }
+
+    const data = await res.json();
+
+    if (!Array.isArray(data)) {
+      throw new Error("events.json n'a pas le bon format");
+    }
+
+    planningEvents = data
+      .filter(ev => ev && ev.start)
+      .sort((a, b) => new Date(a.start) - new Date(b.start));
+
+    render();
+  } catch (err) {
+    console.error(err);
+
+    const grid = el("planningGrid");
+    grid.innerHTML = "";
+
+    const empty = document.createElement("div");
+    empty.className = "planning-empty";
+    empty.textContent = "Erreur : " + err.message;
+    grid.appendChild(empty);
+  }
+}
+
+el("prevWeekBtn")?.addEventListener("click", () => {
+  currentWeekStart = addDays(currentWeekStart, -7);
+  render();
 });
 
-document.getElementById("nextWeek").addEventListener("click", () => {
-  weekStart = addDays(weekStart, 7);
-  renderWeek();
+el("nextWeekBtn")?.addEventListener("click", () => {
+  currentWeekStart = addDays(currentWeekStart, 7);
+  render();
 });
 
-document.getElementById("todayWeek").addEventListener("click", () => {
-  weekStart = startOfWeek(new Date());
-  renderWeek();
+el("todayBtn")?.addEventListener("click", () => {
+  currentWeekStart = getStartOfWeek(new Date());
+  render();
 });
 
-init().catch(err => {
-  console.error(err);
-  document.getElementById("weekGrid").innerHTML =
-    `<div class="empty">Erreur : ${escapeHtml(err.message)}</div>`;
-});
+init();
