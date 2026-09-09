@@ -1,6 +1,6 @@
-/* =======================================================
-   FILTRES CINÉMAS
-   ======================================================= */
+/* ======================================================
+   FILTRES
+   ====================================================== */
 
 .cinema-filters {
   border: 1px solid #d8d8d8;
@@ -11,34 +11,32 @@
   margin-bottom: 7px;
 }
 
-
 .cinema-filter-list {
   display: flex;
-  gap: 14px;
   flex-wrap: wrap;
+
+  gap: 14px;
 
   margin-top: 7px;
 }
 
-
 .cinema-filter-check {
   display: flex;
   align-items: center;
+
   gap: 5px;
 
   font-size: 13px;
 }
-
 
 .cinema-filter-check input {
   margin: 0;
 }
 
 
-
-/* =======================================================
+/* ======================================================
    COMPTEUR
-   ======================================================= */
+   ====================================================== */
 
 .cinema-status {
   margin: 5px 0 2px;
@@ -48,14 +46,14 @@
 }
 
 
-
-/* =======================================================
-   FILTRE APRÈS 17H
-   ======================================================= */
+/* ======================================================
+   FILTRE 17H
+   ====================================================== */
 
 .after-work-filter {
   display: flex;
   align-items: center;
+
   gap: 7px;
 
   margin: 3px 0 10px;
@@ -63,26 +61,38 @@
   font-size: 13px;
 }
 
-
 .after-work-filter input {
   margin: 0;
 }
 
 
+/* ======================================================
+   TITRES SECTIONS
+   ====================================================== */
 
-/* =======================================================
-   TABLEAU
-   ======================================================= */
+.cinema-main-section h2,
+.cinema-occasional-section h2 {
+  margin:
+    12px 0 6px;
+
+  font-size: 16px;
+}
+
+
+/* ======================================================
+   TABLEAU MÉLIÈS
+   ====================================================== */
 
 .cinema-table-wrap {
   width: 100%;
 
   overflow-x: auto;
 
-  border: 1px solid #ddd;
+  border:
+    1px solid #ddd;
+
   border-radius: 8px;
 }
-
 
 .cinema-week-table {
   width: 100%;
@@ -96,7 +106,6 @@
   background: #fff;
 }
 
-
 .cinema-week-table th,
 .cinema-week-table td {
   border-right:
@@ -105,39 +114,29 @@
   border-bottom:
     1px solid #e8e8e8;
 
-  padding: 3px 5px;
+  padding: 4px 6px;
 
   vertical-align: top;
 }
-
 
 .cinema-week-table th:last-child,
 .cinema-week-table td:last-child {
   border-right: 0;
 }
 
-
 .cinema-week-table thead th {
   background: #f7f7f7;
 
   font-size: 12px;
+
   font-weight: 700;
 
   text-align: left;
-
-  white-space: nowrap;
 }
-
-
-
-/* =======================================================
-   COLONNE FILM
-   ======================================================= */
 
 .film-col {
   width: 230px;
 }
-
 
 .day-col {
   width:
@@ -146,52 +145,25 @@
     );
 }
 
-
 .film-title {
-  display: block;
+  font-size: 13px;
 
   font-weight: 700;
 
-  font-size: 13px;
-
   line-height: 1.2;
-
-  margin: 0;
 }
-
-
-.film-start-row td {
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-  border-top:
-    1px solid #d8d8d8;
-}
-
-
-.film-start-row:first-child td {
-  border-top: 0;
-}
-
-
-
-/* =======================================================
-   SÉANCES
-   ======================================================= */
 
 .sessions-cell {
   min-height: 18px;
 }
 
-
 .session-list {
   display: flex;
 
-  gap: 3px;
-
   flex-wrap: wrap;
-}
 
+  gap: 3px;
+}
 
 .session-time {
   display: inline-flex;
@@ -200,72 +172,40 @@
 
   gap: 3px;
 
+  padding: 2px 5px;
 
   border:
-    1px solid #cfcfcf;
-
+    1px solid #ccc;
 
   border-radius: 5px;
 
-
-  padding: 2px 5px;
-
+  color: #222;
 
   text-decoration: none;
 
-
-  color: #222;
-
-
-  background: #fff;
-
-
   font-size: 10px;
 
-
   line-height: 1.15;
-
-
-  white-space: nowrap;
 }
-
-
-.session-time:hover {
-  filter: brightness(0.95);
-}
-
 
 .session-version {
-  color: #555;
-
   font-size: 8px;
 
   font-weight: 600;
-}
 
+  color: #555;
+}
 
 .no-session {
-  color: #c0c0c0;
+  color: #bbb;
 }
 
 
-.today-col {
-  background:
-    #fafafa !important;
-}
+/* ======================================================
+   COULEURS CINÉMAS
+   ====================================================== */
 
-
-
-/* =======================================================
-   COULEURS DES CINÉMAS
-   ======================================================= */
-
-
-/*
-Méliès Saint-François
-Le plus proche : vert bien visible
-*/
-
+/* Méliès Saint-François */
 .session-time.session-sf {
   background:
     #b7ff7a !important;
@@ -274,12 +214,7 @@ Le plus proche : vert bien visible
     #72d63c !important;
 }
 
-
-/*
-Méliès Jean-Jaurès
-Vert clair
-*/
-
+/* Méliès Jean-Jaurès */
 .session-time.session-melies-jj {
   background:
     #e5f6e5 !important;
@@ -288,12 +223,7 @@ Vert clair
     #a9d6a9 !important;
 }
 
-
-/*
-Mégarama Jean-Jaurès
-Orange plus soutenu
-*/
-
+/* Mégarama Jean-Jaurès */
 .session-time.session-mega-jj {
   background:
     #f4a261 !important;
@@ -302,12 +232,7 @@ Orange plus soutenu
     #d97706 !important;
 }
 
-
-/*
-Mégarama Camion Rouge
-Orange clair
-*/
-
+/* Mégarama Camion Rouge */
 .session-time.session-mega-cr {
   background:
     #ffe0b2 !important;
@@ -317,10 +242,139 @@ Orange clair
 }
 
 
+/* ======================================================
+   SÉANCES PONCTUELLES MÉGARAMA
+   ====================================================== */
 
-/* =======================================================
-   GROSSES SORTIES MÉGARAMA
-   ======================================================= */
+.cinema-occasional-section {
+  margin-top: 12px;
+}
+
+.cinema-occasional-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  border:
+    1px solid #ddd;
+
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+.occasional-day {
+  min-width: 0;
+
+  border-right:
+    1px solid #e2e2e2;
+
+  background: #fff;
+}
+
+.occasional-day:last-child {
+  border-right: 0;
+}
+
+.occasional-day-title {
+  padding: 5px 7px;
+
+  background: #f7f7f7;
+
+  border-bottom:
+    1px solid #e2e2e2;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.occasional-session {
+  display: flex;
+
+  align-items: baseline;
+
+  gap: 5px;
+
+  padding: 4px 6px;
+
+  border-bottom:
+    1px solid #eee;
+
+  color: #222;
+
+  text-decoration: none;
+
+  font-size: 11px;
+
+  line-height: 1.25;
+}
+
+.occasional-session:last-child {
+  border-bottom: 0;
+}
+
+.occasional-session:hover {
+  background: #fafafa;
+}
+
+.occasional-time {
+  flex: 0 0 auto;
+
+  padding: 1px 4px;
+
+  border-radius: 4px;
+
+  border:
+    1px solid #ddd;
+
+  font-size: 10px;
+
+  font-weight: 600;
+}
+
+.occasional-film-title {
+  min-width: 0;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+
+  font-weight: 600;
+}
+
+.occasional-empty {
+  padding: 5px 7px;
+
+  color: #bbb;
+}
+
+
+/* Camion Rouge ponctuel */
+.occasional-time.session-mega-cr {
+  background:
+    #ffe0b2;
+
+  border-color:
+    #f6b26b;
+}
+
+/* Jean-Jaurès ponctuel */
+.occasional-time.session-mega-jj {
+  background:
+    #f4a261;
+
+  border-color:
+    #d97706;
+}
+
+
+/* ======================================================
+   GROSSES SORTIES
+   ====================================================== */
 
 .cinema-big-releases-section {
   margin-top: 12px;
@@ -330,12 +384,6 @@ Orange clair
   line-height: 1.7;
 }
 
-
-.cinema-big-releases-section strong {
-  font-weight: 700;
-}
-
-
 .big-release-title {
   color: #333;
 
@@ -343,26 +391,21 @@ Orange clair
 
   text-decoration: underline;
 
-  text-decoration-thickness: 1px;
-
   text-underline-offset: 2px;
 }
-
 
 .big-release-title:hover {
   color: #000;
 }
-
 
 .big-release-separator {
   color: #999;
 }
 
 
-
-/* =======================================================
-   MESSAGE VIDE
-   ======================================================= */
+/* ======================================================
+   VIDE
+   ====================================================== */
 
 .cinema-empty {
   padding: 10px;
@@ -373,30 +416,28 @@ Orange clair
 }
 
 
+/* ======================================================
+   RESPONSIVE
+   ====================================================== */
 
-/* =======================================================
-   MOBILE
-   ======================================================= */
-
-@media (max-width: 900px) {
-
-  .cinema-filter-list {
-    gap: 8px 12px;
+@media (max-width: 1100px) {
+  .cinema-occasional-grid {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
   }
+}
 
+@media (max-width: 700px) {
+  .cinema-occasional-grid {
+    grid-template-columns:
+      1fr;
+  }
 
   .film-col {
     width: 190px;
   }
 
-
   .cinema-week-table {
     min-width: 800px;
   }
-
-
-  .cinema-big-releases-section {
-    line-height: 1.8;
-  }
-
 }
