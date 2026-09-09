@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import urljoin
@@ -25,10 +26,6 @@ HEADERS = {
 }
 
 
-# =========================================================
-# CINÉMAS
-# =========================================================
-
 TELERAMA_CINEMAS = [
     (
         "Mégarama Jean-Jaurès",
@@ -42,6 +39,16 @@ TELERAMA_CINEMAS = [
     ),
 ]
 
+
+TELERAMA_SAINT_ETIENNE = (
+    "https://www.telerama.fr/"
+    "seances-cinema/loire/saint-etienne-42000"
+)
+
+TELERAMA_MELIES_JJ = (
+    "https://www.telerama.fr/seances-cinema/"
+    "le_melies_st_etienne_jean_jaures-P0161"
+)
 
 MELIES_URL = "https://www.lemelies.com/films/"
 
@@ -58,13 +65,34 @@ def stable_id(cinema, title, start, version=""):
     ).hexdigest()[:20]
 
 
+def normalize_title(value):
+    value = value or ""
+
+    value = unicodedata.normalize(
+        "NFD",
+        value,
+    )
+
+    value = "".join(
+        char
+        for char in value
+        if unicodedata.category(char) != "Mn"
+    )
+
+    value = value.lower()
+
+    value = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        value,
+    )
+
+    return " ".join(
+        value.split()
+    )
+
+
 def window():
-    """
-    On garde 7 jours dans cinema_events.json.
-
-    cinema.js limite déjà l'affichage aux 5 premiers jours.
-    """
-
     now = datetime.now(PARIS)
 
     start = now.replace(
@@ -95,10 +123,187 @@ def extract_times(text):
         hour = int(match.group(1))
         minute = int(match.group(2))
 
-        # On élimine notamment les durées de films :
+        # Évite les durées de film :
         # 1h45, 2h02, etc.
-        if 8 <= hour <= 23 and 0 <= minute <= 59:
-            result.append((hour, minute))
+        if (
+            8 <= hour <= 23
+            and 0 <= minute <= 59
+        ):
+            result.append(
+                (hour, minute)
+            )
+
+    return result
+
+
+# =========================================================
+# LIENS FILMS TÉLÉRAMA
+# =========================================================
+
+def build_telerama_link_map(soup, page_url):
+    """
+    Retourne :
+    {
+        "titre normalise": "https://www.telerama.fr/cinema/..."
+    }
+    """
+
+    result = {}
+
+    for link in soup.find_all(
+        "a",
+        href=True,
+    ):
+        title = clean(
+            link.get_text(" ")
+        )
+
+        if not title:
+            continue
+
+        href = link.get(
+            "href",
+            "",
+        )
+
+        if "/cinema/" not in href:
+            continue
+
+        key = normalize_title(
+            title
+        )
+
+        if not key:
+            continue
+
+        result[key] = urljoin(
+            page_url,
+            href,
+        )
+
+    return result
+
+
+def get_telerama_melies_pages():
+    """
+    Cherche automatiquement les pages des deux Méliès
+    depuis la page cinéma Saint-Étienne de Télérama.
+    """
+
+    pages = set()
+
+    try:
+        response = requests.get(
+            TELERAMA_SAINT_ETIENNE,
+            headers=HEADERS,
+            timeout=30,
+        )
+
+        response.raise_for_status()
+
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser",
+        )
+
+        for link in soup.find_all(
+            "a",
+            href=True,
+        ):
+            text = normalize_title(
+                link.get_text(" ")
+            )
+
+            href = link["href"]
+
+            if (
+                "melies" in text
+                and "seances-cinema" in href
+            ):
+                pages.add(
+                    urljoin(
+                        TELERAMA_SAINT_ETIENNE,
+                        href,
+                    ).split("?")[0]
+                )
+
+    except Exception as exc:
+        print(
+            "ATTENTION pages Méliès Télérama :",
+            exc,
+        )
+
+    # Sécurité : Jean-Jaurès est connu.
+    pages.add(
+        TELERAMA_MELIES_JJ
+    )
+
+    return sorted(pages)
+
+
+def get_melies_telerama_links():
+    """
+    Construit un dictionnaire titre -> fiche Télérama
+    en parcourant la programmation des Méliès
+    sur les 7 jours.
+    """
+
+    start, _ = window()
+
+    result = {}
+
+    pages = get_telerama_melies_pages()
+
+    print(
+        f"Télérama Méliès : "
+        f"{len(pages)} page(s) cinéma trouvée(s)"
+    )
+
+    for cinema_page in pages:
+        for offset in range(7):
+            day = start + timedelta(
+                days=offset
+            )
+
+            url = (
+                f"{cinema_page}"
+                f"?date={day.strftime('%Y-%m-%d')}"
+            )
+
+            try:
+                response = requests.get(
+                    url,
+                    headers=HEADERS,
+                    timeout=30,
+                )
+
+                response.raise_for_status()
+
+                soup = BeautifulSoup(
+                    response.text,
+                    "html.parser",
+                )
+
+                links = build_telerama_link_map(
+                    soup,
+                    url,
+                )
+
+                result.update(
+                    links
+                )
+
+            except Exception as exc:
+                print(
+                    "ATTENTION Télérama Méliès "
+                    f"{day.strftime('%d/%m')} : "
+                    f"{exc}"
+                )
+
+    print(
+        f"Télérama Méliès : "
+        f"{len(result)} fiche(s) film trouvée(s)"
+    )
 
     return result
 
@@ -107,64 +312,17 @@ def extract_times(text):
 # TÉLÉRAMA / MÉGARAMA
 # =========================================================
 
-def telerama_url(base_url, day):
+def telerama_url(
+    base_url,
+    day,
+):
     return (
         f"{base_url}"
         f"?date={day.strftime('%Y-%m-%d')}"
     )
 
 
-def build_telerama_link_map(soup, page_url):
-    """
-    Associe autant que possible un titre de film à sa fiche
-    Télérama.
-    """
-
-    result = {}
-
-    for link in soup.find_all("a", href=True):
-        title = clean(
-            link.get_text(" ")
-        )
-
-        if not title:
-            continue
-
-        href = link["href"]
-
-        # Les fiches films Télérama sont généralement
-        # dans /cinema/...
-        if "/cinema/" not in href:
-            continue
-
-        result[
-            title.lower()
-        ] = urljoin(
-            page_url,
-            href,
-        )
-
-    return result
-
-
 def telerama_film_segments(soup):
-    """
-    Télérama structure les fiches de programmation avec :
-
-    Découvrir la note
-    NOM DU FILM
-    réalisateur
-    durée
-    ...
-    Séances en VF
-    14h00
-    16h00
-    ...
-
-    On s'appuie sur cette structure textuelle plutôt que
-    sur les classes CSS du site.
-    """
-
     text = soup.get_text(
         "\n",
         strip=True,
@@ -178,9 +336,7 @@ def telerama_film_segments(soup):
 
     segments = []
 
-    # Le premier morceau correspond à l'en-tête de page.
     for part in parts[1:]:
-
         lines = [
             clean(line)
             for line in part.splitlines()
@@ -190,7 +346,6 @@ def telerama_film_segments(soup):
         if not lines:
             continue
 
-        # On ignore les blocs qui ne contiennent aucune séance.
         if not re.search(
             r"S[ée]ances?\s+en\s+",
             part,
@@ -200,7 +355,6 @@ def telerama_film_segments(soup):
 
         title = lines[0]
 
-        # Sécurité contre les éléments de navigation.
         if title.lower() in {
             "favoris",
             "réserver",
@@ -221,15 +375,6 @@ def telerama_film_segments(soup):
 
 
 def parse_telerama_versions(block):
-    """
-    Retourne par exemple :
-
-    [
-        ("VF", "14h00 ... 16h00 ..."),
-        ("VO", "20h30 ...")
-    ]
-    """
-
     pattern = re.compile(
         r"S[ée]ances?\s+en\s+"
         r"(VF|VO|VOST|VOSTF|VOSTFR)",
@@ -242,8 +387,9 @@ def parse_telerama_versions(block):
 
     result = []
 
-    for index, match in enumerate(matches):
-
+    for index, match in enumerate(
+        matches
+    ):
         version = (
             match.group(1)
             .upper()
@@ -307,10 +453,8 @@ def scrape_telerama_day(
     events = []
 
     for title, block in segments:
-
         film_url = link_map.get(
-            title.lower(),
-            url,
+            normalize_title(title)
         )
 
         versions = parse_telerama_versions(
@@ -318,11 +462,9 @@ def scrape_telerama_day(
         )
 
         for version, section in versions:
-
             for hour, minute in extract_times(
                 section
             ):
-
                 dt = day.replace(
                     hour=hour,
                     minute=minute,
@@ -345,6 +487,7 @@ def scrape_telerama_day(
                     "start": dt.isoformat(),
                     "version": version,
                     "url": film_url,
+                    "source": "Télérama",
                 })
 
     unique = {
@@ -365,27 +508,16 @@ def scrape_telerama_cinema(
     cinema_name,
     base_url,
 ):
-    """
-    On interroge Télérama jour par jour.
-
-    C'est volontaire :
-    la date du JSON est donc celle réellement demandée,
-    ce qui évite le problème rencontré avec AlloCiné où
-    toutes les séances se retrouvaient le même jour.
-    """
-
     start, _ = window()
 
     events = []
 
     for offset in range(7):
-
         day = start + timedelta(
             days=offset
         )
 
         try:
-
             found = scrape_telerama_day(
                 cinema_name,
                 base_url,
@@ -403,7 +535,6 @@ def scrape_telerama_cinema(
             )
 
         except Exception as exc:
-
             print(
                 f"ERREUR {cinema_name} "
                 f"{day.strftime('%d/%m')}: "
@@ -429,13 +560,6 @@ def scrape_telerama_cinema(
 # =========================================================
 
 def parse_melies_day(text):
-    """
-    Reconnaît :
-    lun. 07
-    mar. 08
-    mer. 09
-    """
-
     match = re.search(
         r"\b(lun|mar|mer|jeu|ven|sam|dim)"
         r"\.?\s+(\d{1,2})\b",
@@ -456,7 +580,6 @@ def parse_melies_day(text):
         -1,
         10,
     ):
-
         day = start + timedelta(
             days=offset
         )
@@ -468,11 +591,6 @@ def parse_melies_day(text):
 
 
 def melies_film_blocks(soup):
-    """
-    Version du parser Méliès qui avait déjà donné
-    des résultats dans GitHub Actions.
-    """
-
     headings = soup.find_all(
         ["h2", "h3"]
     )
@@ -480,7 +598,6 @@ def melies_film_blocks(soup):
     for index, heading in enumerate(
         headings
     ):
-
         title = clean(
             heading.get_text(" ")
         )
@@ -502,13 +619,11 @@ def melies_film_blocks(soup):
             node
             and node is not next_heading
         ):
-
             if getattr(
                 node,
                 "get_text",
                 None,
             ):
-
                 text = clean(
                     node.get_text(" ")
                 )
@@ -532,28 +647,15 @@ def melies_film_blocks(soup):
         ):
             continue
 
-        link = heading.find(
-            "a",
-            href=True,
-        )
-
-        film_url = (
-            urljoin(
-                MELIES_URL,
-                link["href"],
-            )
-            if link
-            else MELIES_URL
-        )
-
         yield (
             title,
             text,
-            film_url,
         )
 
 
-def scrape_melies():
+def scrape_melies(
+    telerama_links,
+):
     response = requests.get(
         MELIES_URL,
         headers=HEADERS,
@@ -569,13 +671,22 @@ def scrape_melies():
 
     events = []
 
+    missing_links = set()
+
     for (
         title,
         text,
-        film_url,
     ) in melies_film_blocks(
         soup
     ):
+        film_url = telerama_links.get(
+            normalize_title(title)
+        )
+
+        if not film_url:
+            missing_links.add(
+                title
+            )
 
         day_matches = list(
             re.finditer(
@@ -589,7 +700,6 @@ def scrape_melies():
         for index, match in enumerate(
             day_matches
         ):
-
             date = parse_melies_day(
                 match.group(0)
             )
@@ -638,7 +748,6 @@ def scrape_melies():
                     sf_text,
                 ),
             ]:
-
                 version_match = re.search(
                     r"\b("
                     r"VF|VO|VOST|VOSTF"
@@ -661,7 +770,6 @@ def scrape_melies():
                 ) in extract_times(
                     cinema_text
                 ):
-
                     dt = date.replace(
                         hour=hour,
                         minute=minute,
@@ -686,7 +794,16 @@ def scrape_melies():
                         "start": dt.isoformat(),
                         "version": version,
                         "url": film_url,
+                        "source": "Méliès",
                     })
+
+    if missing_links:
+        print(
+            "Films Méliès sans fiche Télérama : "
+            + ", ".join(
+                sorted(missing_links)
+            )
+        )
 
     unique = {
         event["id"]: event
@@ -709,17 +826,15 @@ def scrape_melies():
 def scrape_cinema():
     events = []
 
-    # -----------------------------------------------------
-    # MÉGARAMA VIA TÉLÉRAMA
-    # -----------------------------------------------------
+    # -----------------------------
+    # MÉGARAMA / TÉLÉRAMA
+    # -----------------------------
 
     for (
         cinema_name,
         base_url,
     ) in TELERAMA_CINEMAS:
-
         try:
-
             found = scrape_telerama_cinema(
                 cinema_name,
                 base_url,
@@ -735,19 +850,27 @@ def scrape_cinema():
             )
 
         except Exception as exc:
-
             print(
                 f"ERREUR {cinema_name}: "
                 f"{exc}"
             )
 
-    # -----------------------------------------------------
-    # MÉLIÈS
-    # -----------------------------------------------------
+    # -----------------------------
+    # LIENS TÉLÉRAMA POUR MÉLIÈS
+    # -----------------------------
+
+    telerama_melies_links = (
+        get_melies_telerama_links()
+    )
+
+    # -----------------------------
+    # HORAIRES MÉLIÈS
+    # -----------------------------
 
     try:
-
-        melies = scrape_melies()
+        melies = scrape_melies(
+            telerama_melies_links
+        )
 
         jj = [
             event
@@ -778,15 +901,10 @@ def scrape_cinema():
         )
 
     except Exception as exc:
-
         print(
             f"ERREUR Méliès: "
             f"{exc}"
         )
-
-    # -----------------------------------------------------
-    # DÉDOUBLONNAGE
-    # -----------------------------------------------------
 
     unique = {
         event["id"]: event
@@ -804,11 +922,10 @@ def scrape_cinema():
 
 
 # =========================================================
-# EXÉCUTION DIRECTE
+# EXÉCUTION
 # =========================================================
 
 if __name__ == "__main__":
-
     events = scrape_cinema()
 
     output = (
