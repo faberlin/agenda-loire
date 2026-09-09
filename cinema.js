@@ -36,14 +36,15 @@ function sameDay(a, b) {
 }
 
 function formatHeaderDay(date) {
-  let label = new Intl.DateTimeFormat(
-    "fr-FR",
-    {
-      weekday: "short",
-      day: "numeric",
-      month: "short"
-    }
-  ).format(date);
+  let label =
+    new Intl.DateTimeFormat(
+      "fr-FR",
+      {
+        weekday: "short",
+        day: "numeric",
+        month: "short"
+      }
+    ).format(date);
 
   return (
     label.charAt(0).toUpperCase() +
@@ -127,7 +128,7 @@ function sessionCinemaClass(session) {
 
 
 /* ======================================================
-   VF / VO
+   VF / VO MÉGARAMA
    ====================================================== */
 
 function isOriginalVersion(session) {
@@ -170,12 +171,10 @@ function filterMegaramaVF(events) {
       return true;
     }
 
-    const filmKey =
+    const key =
       normalize(session.title);
 
-    if (
-      !filmsWithVO.has(filmKey)
-    ) {
+    if (!filmsWithVO.has(key)) {
       return true;
     }
 
@@ -185,8 +184,8 @@ function filterMegaramaVF(events) {
 
 
 /* ======================================================
-   SI LE FILM EST AU MÉLIÈS :
-   ON MASQUE LE MÉGARAMA
+   SI FILM AU MÉLIÈS :
+   SUPPRESSION DES SÉANCES MÉGARAMA
    ====================================================== */
 
 function removeMegaramaWhenMeliesExists(events) {
@@ -202,11 +201,10 @@ function removeMegaramaWhenMeliesExists(events) {
   }
 
   return events.filter(event => {
-    const filmKey =
-      normalize(event.title);
-
     if (
-      filmsAtMelies.has(filmKey) &&
+      filmsAtMelies.has(
+        normalize(event.title)
+      ) &&
       isMegaramaSession(event)
     ) {
       return false;
@@ -218,7 +216,7 @@ function removeMegaramaWhenMeliesExists(events) {
 
 
 /* ======================================================
-   FILTRES CINÉMAS
+   FILTRES
    ====================================================== */
 
 function selectedCinemas() {
@@ -301,6 +299,13 @@ function buildCinemaFilters() {
    ====================================================== */
 
 function visibleEvents() {
+  /*
+   * Important :
+   * ces deux traitements sont faits
+   * sur les 7 jours du JSON avant
+   * de limiter l'écran aux 5 jours.
+   */
+
   let filtered =
     filterMegaramaVF(
       cinemaEvents
@@ -311,13 +316,9 @@ function visibleEvents() {
       filtered
     );
 
-  const afterWorkInput =
-    el("afterWorkOnly");
-
   const afterWorkOnly =
-    afterWorkInput
-      ? afterWorkInput.checked
-      : false;
+    el("afterWorkOnly")
+      ?.checked || false;
 
   const cinemas =
     selectedCinemas();
@@ -400,6 +401,62 @@ function groupByFilm(events) {
 
 
 /* ======================================================
+   LIEN TÉLÉRAMA DU FILM
+   ====================================================== */
+
+function filmUrl(film) {
+  const session =
+    film.sessions.find(
+      item =>
+        item.url &&
+        item.url.includes(
+          "telerama.fr"
+        )
+    );
+
+  return session?.url || null;
+}
+
+function createFilmTitle(film) {
+  const url =
+    filmUrl(film);
+
+  if (url) {
+    const link =
+      document.createElement("a");
+
+    link.className =
+      "film-title film-title-link";
+
+    link.href =
+      url;
+
+    link.target =
+      "_blank";
+
+    link.rel =
+      "noopener";
+
+    link.textContent =
+      film.title;
+
+    return link;
+  }
+
+  const title =
+    document.createElement("span");
+
+  title.className =
+    "film-title";
+
+  title.textContent =
+    film.title;
+
+  return title;
+}
+
+
+/* ======================================================
    SÉPARATION
    ====================================================== */
 
@@ -415,7 +472,10 @@ function splitFilms(films) {
       );
 
     if (hasMelies) {
-      meliesFilms.push(film);
+      meliesFilms.push(
+        film
+      );
+
       continue;
     }
 
@@ -473,7 +533,7 @@ function splitFilms(films) {
 
 
 /* ======================================================
-   ENTÊTES JOURS
+   JOURS
    ====================================================== */
 
 function buildDayHeaders(days) {
@@ -503,7 +563,8 @@ function buildDayHeaders(days) {
 
 
 /* ======================================================
-   PASTILLE
+   HORAIRE
+   PLUS AUCUN LIEN SUR L'HORAIRE
    ====================================================== */
 
 function createSessionNode(session) {
@@ -512,29 +573,18 @@ function createSessionNode(session) {
 
   const node =
     document.createElement(
-      session.url
-        ? "a"
-        : "span"
+      "span"
     );
 
   const cinemaClass =
-    sessionCinemaClass(session);
+    sessionCinemaClass(
+      session
+    );
 
   node.className =
     cinemaClass
       ? `session-time ${cinemaClass}`
       : "session-time";
-
-  if (session.url) {
-    node.href =
-      session.url;
-
-    node.target =
-      "_blank";
-
-    node.rel =
-      "noopener";
-  }
 
   const hour =
     document.createElement("span");
@@ -542,11 +592,15 @@ function createSessionNode(session) {
   hour.textContent =
     formatTime(dt);
 
-  node.appendChild(hour);
+  node.appendChild(
+    hour
+  );
 
   if (session.version) {
     const version =
-      document.createElement("span");
+      document.createElement(
+        "span"
+      );
 
     version.className =
       "session-version";
@@ -554,7 +608,9 @@ function createSessionNode(session) {
     version.textContent =
       session.version;
 
-    node.appendChild(version);
+    node.appendChild(
+      version
+    );
   }
 
   return node;
@@ -582,29 +638,33 @@ function renderMeliesTable(
 
   for (const film of films) {
     const tr =
-      document.createElement("tr");
+      document.createElement(
+        "tr"
+      );
 
     const firstTd =
-      document.createElement("td");
+      document.createElement(
+        "td"
+      );
 
     firstTd.className =
       "film-col";
 
-    const title =
-      document.createElement("span");
+    firstTd.appendChild(
+      createFilmTitle(
+        film
+      )
+    );
 
-    title.className =
-      "film-title";
-
-    title.textContent =
-      film.title;
-
-    firstTd.appendChild(title);
-    tr.appendChild(firstTd);
+    tr.appendChild(
+      firstTd
+    );
 
     for (const day of days) {
       const td =
-        document.createElement("td");
+        document.createElement(
+          "td"
+        );
 
       td.className =
         "sessions-cell";
@@ -614,7 +674,9 @@ function renderMeliesTable(
           .filter(
             session =>
               sameDay(
-                new Date(session.start),
+                new Date(
+                  session.start
+                ),
                 day
               )
           )
@@ -626,7 +688,9 @@ function renderMeliesTable(
 
       if (!sessions.length) {
         const empty =
-          document.createElement("span");
+          document.createElement(
+            "span"
+          );
 
         empty.className =
           "no-session";
@@ -634,38 +698,56 @@ function renderMeliesTable(
         empty.textContent =
           "—";
 
-        td.appendChild(empty);
-
+        td.appendChild(
+          empty
+        );
       } else {
         const list =
-          document.createElement("div");
+          document.createElement(
+            "div"
+          );
 
         list.className =
           "session-list";
 
-        for (const session of sessions) {
+        for (
+          const session
+          of sessions
+        ) {
           list.appendChild(
-            createSessionNode(session)
+            createSessionNode(
+              session
+            )
           );
 
           totalSessions++;
         }
 
-        td.appendChild(list);
+        td.appendChild(
+          list
+        );
       }
 
-      tr.appendChild(td);
+      tr.appendChild(
+        td
+      );
     }
 
-    body.appendChild(tr);
+    body.appendChild(
+      tr
+    );
   }
 
   if (!films.length) {
     const tr =
-      document.createElement("tr");
+      document.createElement(
+        "tr"
+      );
 
     const td =
-      document.createElement("td");
+      document.createElement(
+        "td"
+      );
 
     td.colSpan = 6;
 
@@ -675,8 +757,13 @@ function renderMeliesTable(
     td.textContent =
       "Aucune séance Méliès.";
 
-    tr.appendChild(td);
-    body.appendChild(tr);
+    tr.appendChild(
+      td
+    );
+
+    body.appendChild(
+      tr
+    );
   }
 
   return totalSessions;
@@ -684,7 +771,7 @@ function renderMeliesTable(
 
 
 /* ======================================================
-   MÉGARAMA PONCTUEL PAR JOUR
+   MÉGARAMA PONCTUEL
    ====================================================== */
 
 function renderOccasionalMegarama(
@@ -707,16 +794,19 @@ function renderOccasionalMegarama(
   grid.innerHTML = "";
 
   const allSessions =
-    films
-      .flatMap(
-        film =>
-          film.sessions.map(
-            session => ({
-              ...session,
-              filmTitle: film.title
-            })
-          )
-      );
+    films.flatMap(
+      film =>
+        film.sessions.map(
+          session => ({
+            ...session,
+            filmTitle:
+              film.title,
+
+            filmUrl:
+              filmUrl(film)
+          })
+        )
+    );
 
   if (!allSessions.length) {
     section.style.display =
@@ -732,13 +822,17 @@ function renderOccasionalMegarama(
 
   for (const day of days) {
     const column =
-      document.createElement("div");
+      document.createElement(
+        "div"
+      );
 
     column.className =
       "occasional-day";
 
     const heading =
-      document.createElement("div");
+      document.createElement(
+        "div"
+      );
 
     heading.className =
       "occasional-day-title";
@@ -746,14 +840,18 @@ function renderOccasionalMegarama(
     heading.textContent =
       formatHeaderDay(day);
 
-    column.appendChild(heading);
+    column.appendChild(
+      heading
+    );
 
     const daySessions =
       allSessions
         .filter(
           session =>
             sameDay(
-              new Date(session.start),
+              new Date(
+                session.start
+              ),
               day
             )
         )
@@ -765,7 +863,9 @@ function renderOccasionalMegarama(
 
     if (!daySessions.length) {
       const empty =
-        document.createElement("div");
+        document.createElement(
+          "div"
+        );
 
       empty.className =
         "occasional-empty";
@@ -773,8 +873,9 @@ function renderOccasionalMegarama(
       empty.textContent =
         "—";
 
-      column.appendChild(empty);
-
+      column.appendChild(
+        empty
+      );
     } else {
       for (
         const session
@@ -784,53 +885,85 @@ function renderOccasionalMegarama(
 
         const row =
           document.createElement(
-            session.url
-              ? "a"
-              : "div"
+            "div"
           );
 
         row.className =
           "occasional-session";
 
-        if (session.url) {
-          row.href =
-            session.url;
-
-          row.target =
-            "_blank";
-
-          row.rel =
-            "noopener";
-        }
-
         const time =
-          document.createElement("span");
+          document.createElement(
+            "span"
+          );
 
         time.className =
-          `occasional-time ${sessionCinemaClass(session)}`;
+          `occasional-time ${
+            sessionCinemaClass(
+              session
+            )
+          }`;
 
         time.textContent =
           formatTime(
-            new Date(session.start)
+            new Date(
+              session.start
+            )
           );
 
-        const title =
-          document.createElement("span");
+        row.appendChild(
+          time
+        );
 
-        title.className =
-          "occasional-film-title";
+        if (session.filmUrl) {
+          const title =
+            document.createElement(
+              "a"
+            );
 
-        title.textContent =
-          session.filmTitle;
+          title.className =
+            "occasional-film-title occasional-film-link";
 
-        row.appendChild(time);
-        row.appendChild(title);
+          title.href =
+            session.filmUrl;
 
-        column.appendChild(row);
+          title.target =
+            "_blank";
+
+          title.rel =
+            "noopener";
+
+          title.textContent =
+            session.filmTitle;
+
+          row.appendChild(
+            title
+          );
+        } else {
+          const title =
+            document.createElement(
+              "span"
+            );
+
+          title.className =
+            "occasional-film-title";
+
+          title.textContent =
+            session.filmTitle;
+
+          row.appendChild(
+            title
+          );
+        }
+
+        column.appendChild(
+          row
+        );
       }
     }
 
-    grid.appendChild(column);
+    grid.appendChild(
+      column
+    );
   }
 
   return total;
@@ -855,7 +988,8 @@ function renderBigReleases(films) {
     return;
   }
 
-  container.innerHTML = "";
+  container.innerHTML =
+    "";
 
   if (!films.length) {
     section.style.display =
@@ -871,7 +1005,9 @@ function renderBigReleases(films) {
     (film, index) => {
       if (index > 0) {
         const sep =
-          document.createElement("span");
+          document.createElement(
+            "span"
+          );
 
         sep.className =
           "big-release-separator";
@@ -879,26 +1015,25 @@ function renderBigReleases(films) {
         sep.textContent =
           " · ";
 
-        container.appendChild(sep);
+        container.appendChild(
+          sep
+        );
       }
 
-      const sessionWithUrl =
-        film.sessions.find(
-          session =>
-            session.url
-        );
+      const url =
+        filmUrl(film);
 
-      if (
-        sessionWithUrl?.url
-      ) {
+      if (url) {
         const link =
-          document.createElement("a");
+          document.createElement(
+            "a"
+          );
 
         link.className =
           "big-release-title";
 
         link.href =
-          sessionWithUrl.url;
+          url;
 
         link.target =
           "_blank";
@@ -909,11 +1044,14 @@ function renderBigReleases(films) {
         link.textContent =
           film.title;
 
-        container.appendChild(link);
-
+        container.appendChild(
+          link
+        );
       } else {
         const title =
-          document.createElement("span");
+          document.createElement(
+            "span"
+          );
 
         title.className =
           "big-release-title";
@@ -921,7 +1059,9 @@ function renderBigReleases(films) {
         title.textContent =
           film.title;
 
-        container.appendChild(title);
+        container.appendChild(
+          title
+        );
       }
     }
   );
@@ -940,23 +1080,32 @@ function render() {
     Array.from(
       { length: 5 },
       (_, i) =>
-        addDays(start, i)
+        addDays(
+          start,
+          i
+        )
     );
 
-  buildDayHeaders(days);
+  buildDayHeaders(
+    days
+  );
 
   const events =
     visibleEvents();
 
   const films =
-    groupByFilm(events);
+    groupByFilm(
+      events
+    );
 
   const {
     meliesFilms,
     occasionalMegarama,
     bigReleases
   } =
-    splitFilms(films);
+    splitFilms(
+      films
+    );
 
   const meliesSessions =
     renderMeliesTable(
@@ -978,7 +1127,7 @@ function render() {
     el("cinemaStatus");
 
   if (status) {
-    const visibleFilmCount =
+    const filmCount =
       meliesFilms.length +
       occasionalMegarama.length;
 
@@ -987,9 +1136,10 @@ function render() {
       occasionalSessions;
 
     status.textContent =
-      `${visibleFilmCount} film` +
-      `${visibleFilmCount > 1 ? "s" : ""}` +
-      ` · ${sessionCount} séance` +
+      `${filmCount} film` +
+      `${filmCount > 1 ? "s" : ""}` +
+      ` · ` +
+      `${sessionCount} séance` +
       `${sessionCount > 1 ? "s" : ""}`;
   }
 }
@@ -1019,7 +1169,9 @@ async function init() {
       await response.json();
 
     if (
-      !Array.isArray(cinemaEvents)
+      !Array.isArray(
+        cinemaEvents
+      )
     ) {
       throw new Error(
         "cinema_events.json n'a pas le bon format"
@@ -1049,10 +1201,12 @@ async function init() {
   }
 }
 
+
 el("afterWorkOnly")
   ?.addEventListener(
     "change",
     render
   );
+
 
 init();
