@@ -1,1049 +1,5 @@
 [
   {
-    "id": "0a5a4fb435d2b23e7f49",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T10:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f2a3f944ba68bbe3ae0e",
-    "title": "Insidious : l'invasion du lointain",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/insidious-l-invasion-du-lointain-un-sixieme-opus-qui-touche-le-fond_cri-7045510.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4d22e8e46d2e4a1c62b2",
-    "title": "La Pat' Patrouille : Le film-Mission Dino",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-pat-patrouille-le-film-mission-dino-une-troisieme-aventure-qu-on-oubliera-tres-vite_cri-7045335.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a74cb116732972efde1a",
-    "title": "La Vie d'une femme",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "391ca3f90ad0dacd74d3",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1991e317ceb2948d7210",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d5d516f8a9a078916de7",
-    "title": "Tad l'explorateur et la lampe magique",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "983229b31b924d1caf5b",
-    "title": "The Dog Stars",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "22673ba2aa07f8335ccd",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "767d5b8fc34e25ccdb0d",
-    "title": "Gouffres et merveilles",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T13:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/gouffres-et-merveilles-un-documentaire-en-forme-de-road-movie-pop-et-sensible_cri-7045639.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "996606bd719e227e9e78",
-    "title": "Rose",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T13:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/rose-de-markus-schleinzer-sandra-huller-epoustouflante-dans-ce-drame-historique-au-noir-et-blanc-superbe_cri-7045746.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "45b3e80a2992f9ce5476",
-    "title": "Insidious : l'invasion du lointain",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T13:35:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/insidious-l-invasion-du-lointain-un-sixieme-opus-qui-touche-le-fond_cri-7045510.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a05e0eb066080059821d",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T13:35:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1c40f1c673290f029de7",
-    "title": "Les Ensorceleuses 2",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T13:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-ensorceleuses-2-un-come-back-tout-sauf-envoutant_cri-7045750.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "42c68f4bd34a96f6c91b",
-    "title": "Salvation",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T13:45:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/salvation-d-emin-alper-un-puissant-western-moderne-sur-les-origines-de-la-violence_cri-7045647.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "139291c41ac0c4c0eca5",
-    "title": "L'Inconnue",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-09T13:50:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-inconnue-d-arthur-harari-un-film-kafkaien-deroutant-mais-captivant_cri-7045572.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "cefce541726de955adec",
-    "title": "Battle Royale",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/films/battle-royale,53958.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "209b406d18efb1a0b913",
-    "title": "Billie Melody",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/billie-melody-une-ado-plongee-dans-un-conflit-parental-entre-gravite-et-tendresse_cri-7045743.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3be7003683fd57b70f05",
-    "title": "District 9",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/district-9,389492.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f2f8230b12838193e6eb",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c00bc1934552f0e40cba",
-    "title": "La Bataille De Gaulle : L'âge de fer",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/dans-la-bataille-de-gaulle-l-age-de-fer-d-antonin-baudry-simon-abkarian-droit-dans-les-bottes-du-general-0147_cri-7044522.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3336ecaa1488f721edd8",
-    "title": "Pressure",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4189ce5131e69207183f",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2bbb9245e0791df800fb",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a754d31f5b9fad35ca0e",
-    "title": "La Pat' Patrouille : Le film-Mission Dino",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-pat-patrouille-le-film-mission-dino-une-troisieme-aventure-qu-on-oubliera-tres-vite_cri-7045335.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8b19f58d1d1cb88e036f",
-    "title": "La Vie d'une femme",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "de8cf591c259331953f8",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "559f27af7ee1f6be441d",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9e0863e4c1782d7135ac",
-    "title": "Tad l'explorateur et la lampe magique",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "865b20439a7c05b1fe47",
-    "title": "The Dog Stars",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d166b6c8ced6ddfa0e76",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c4ec3e3dd138347de521",
-    "title": "Fjord",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/fjord-de-cristian-mungiu-critique-reussie-de-la-radicalisation-des-opinions-ou-manipulation-simpliste_cri-7045484.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ca307ba6c332c02d104b",
-    "title": "De la Comédie-Française",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-09T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/de-la-comedie-francaise-une-comedie-menee-tambour-battant-par-des-acteurs-epatants_cri-7045230.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c6498a377927fe0a8f9d",
-    "title": "Tad l'explorateur et la lampe magique",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2129415251002dfe50f5",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T14:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fbb9b92858bcb63e655f",
-    "title": "La Vie d'une femme",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T15:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1ce49f96764e04c73b4c",
-    "title": "Les Survivants du Che",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T15:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b7af2ae6a4823f1ab12b",
-    "title": "Adieu monde cruel",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-09T15:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/adieu-monde-cruel-de-felix-de-givry-un-superbe-film-d-apprentissage-au-lyrisme-anachronique_cri-7045749.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a90ba559d352448bfee6",
-    "title": "Insidious : l'invasion du lointain",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T15:40:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/insidious-l-invasion-du-lointain-un-sixieme-opus-qui-touche-le-fond_cri-7045510.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ba54397fcdf40de9820e",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T15:40:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d6dca2bfa2b0557b73a6",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T15:59:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8912d9e2680643ad7107",
-    "title": "Billie Melody",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T16:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/billie-melody-une-ado-plongee-dans-un-conflit-parental-entre-gravite-et-tendresse_cri-7045743.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "df95f7514705e622b5b4",
-    "title": "La Pat' Patrouille : Le film-Mission Dino",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T16:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-pat-patrouille-le-film-mission-dino-une-troisieme-aventure-qu-on-oubliera-tres-vite_cri-7045335.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1dfdbfae7901bf0bd6da",
-    "title": "La Vie d'une femme",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T16:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f0582901c6dd17dd3579",
-    "title": "Tad l'explorateur et la lampe magique",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T16:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5aa84c09c1d8627a162a",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T16:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4d8f33704c08402f1ddb",
-    "title": "Trois Adieux",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T16:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/trois-adieux-d-isabel-coixet-un-film-delicat-sur-la-quete-de-legerete-quand-le-temps-qu-il-reste-est-compte_cri-7045645.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "25a4efcb9c2beb6dad38",
-    "title": "Battle Royale",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/films/battle-royale,53958.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2a9b04f83a78ffad788a",
-    "title": "Kick-Ass",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T16:15:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/kick-ass,405673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3c2d6d3bab84dacda2cb",
-    "title": "Les Ensorceleuses 2",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-ensorceleuses-2-un-come-back-tout-sauf-envoutant_cri-7045750.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c19429640ef6386ae435",
-    "title": "Pressure",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fe1a9500f383c242d4af",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c6c4fb378c8997b6e46c",
-    "title": "Vaiana, la légende du bout du monde",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/vaiana-la-legende-du-bout-du-monde-l-inutile-pastiche-du-dessin-anime-disney_cri-7045074.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f1d1fc4058faeb5d0159",
-    "title": "The Dog Stars",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T16:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "85dcd0a59b4338988665",
-    "title": "Akira",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-09T16:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/akira,22274.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "445a4a4d35d6b26fca48",
-    "title": "La Dernière patiente",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T16:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5c26819838d82db2a446",
-    "title": "La Frappe",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T17:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-frappe-avec-bastien-bouillon-un-film-electrique-qui-claque_cri-7045644.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4e3647c9628a4fe86b32",
-    "title": "Rose",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T17:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/rose-de-markus-schleinzer-sandra-huller-epoustouflante-dans-ce-drame-historique-au-noir-et-blanc-superbe_cri-7045746.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9e50ec8a88fb757834d8",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T17:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "852c01f24e2cd6477c71",
-    "title": "La Bataille de Gaulle : J'écris ton nom",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T17:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-bataille-de-gaulle-j-ecris-ton-nom-d-antonin-baudry-une-deuxieme-partie-plus-politique-mais-tout-aussi-captivante_cri-7044887.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "22a682469fbb3bc39c1d",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T17:15:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4382854356ee2624ea8d",
-    "title": "Soudain",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-09T17:20:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/soudain-de-ry-suke-hamaguchi-une-ode-a-l-empathie-bouleversante-et-d-une-liberte-rare-4712_cri-7045401.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2f14de5bfb9b53791603",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T17:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e667b4add6383c98670f",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T17:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9d61367823059b27e62b",
-    "title": "Insidious : l'invasion du lointain",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T17:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/insidious-l-invasion-du-lointain-un-sixieme-opus-qui-touche-le-fond_cri-7045510.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "69fa680e25768ea96120",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T17:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6e2edd6d67d0444c3f09",
-    "title": "The Dog Stars",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T18:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9be4c3129a4f3c8091dd",
-    "title": "La Nirvana",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T18:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-nirvana-les-freres-bougheraba-s-enlisent-dans-une-comedie-brouillonne_cri-7045513.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c9f4abb64ee075aa1d0c",
-    "title": "La Vie d'une femme",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T18:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fe301e31d52220652723",
-    "title": "Mutiny",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T18:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/mutiny-de-jean-francois-richet-un-banal-thriller-cousu-sur-mesure-pour-jason-statham_cri-7045509.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "707b6323b24f3cceea9b",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T18:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c3b3fa54050a640e1878",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T18:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f8788cf3967cb19cba0c",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T18:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7f55062523312be367c2",
-    "title": "Salvation",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T18:15:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/salvation-d-emin-alper-un-puissant-western-moderne-sur-les-origines-de-la-violence_cri-7045647.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "99ed16a2fb5c14154323",
-    "title": "Fjord",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T18:20:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/fjord-de-cristian-mungiu-critique-reussie-de-la-radicalisation-des-opinions-ou-manipulation-simpliste_cri-7045484.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "df697d9c6f53d12f3eb7",
-    "title": "Battle Royale",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T18:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/films/battle-royale,53958.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "60f93af6dee8a0b4e69a",
-    "title": "Billie Melody",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T18:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/billie-melody-une-ado-plongee-dans-un-conflit-parental-entre-gravite-et-tendresse_cri-7045743.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "165e793182782921b562",
-    "title": "Pressure",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T18:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "34613d0502f3fb35f00b",
-    "title": "Battle Royale",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T18:45:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/battle-royale,53958.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "77e891de3a7a005ecb03",
-    "title": "Les Ensorceleuses 2",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T18:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-ensorceleuses-2-un-come-back-tout-sauf-envoutant_cri-7045750.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "61f3ed727cb35598feb5",
-    "title": "The Dog Stars",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T19:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ea99122211d5f8e67cd2",
-    "title": "La Vie d'une femme",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T19:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ac40b33ad146c7eeb51a",
-    "title": "Les Survivants du Che",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T19:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b893887832deb40fdd99",
-    "title": "De la Comédie-Française",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-09T19:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/de-la-comedie-francaise-une-comedie-menee-tambour-battant-par-des-acteurs-epatants_cri-7045230.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e7622289d35f9c9161b3",
-    "title": "Insidious : l'invasion du lointain",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T19:50:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/insidious-l-invasion-du-lointain-un-sixieme-opus-qui-touche-le-fond_cri-7045510.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "811977cecb6deb6607f0",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T19:50:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "23ea4b5aab344d30d83c",
-    "title": "La Vie d'une femme",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T20:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "144548a9091188447870",
-    "title": "La fin d'Oak Street",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T20:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-fin-d-oak-street-anne-hathaway-ewan-mcgregor-et-des-dinos-ce-film-avait-pourtant-tout-pour-plaire_cri-7045404.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "914d5fd98ded3894d9e5",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T20:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e447795ee2b20e4778dd",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T20:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fdce821ee705d5fab8b8",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T20:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "efbc4dd4209aec2ae86a",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b04128faeea7b5be6779",
-    "title": "La Bataille De Gaulle : L'âge de fer",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/dans-la-bataille-de-gaulle-l-age-de-fer-d-antonin-baudry-simon-abkarian-droit-dans-les-bottes-du-general-0147_cri-7044522.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c4140e91fb092ea42230",
-    "title": "The Dog Stars",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "bf1458a703a9da611ce5",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5b5a4d3a5d540c4d75b2",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ac71617f83e68a70ef6c",
-    "title": "Trois Adieux",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T20:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/trois-adieux-d-isabel-coixet-un-film-delicat-sur-la-quete-de-legerete-quand-le-temps-qu-il-reste-est-compte_cri-7045645.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9f6fbb33f83c18f218c8",
-    "title": "L'Inconnue",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-09T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-inconnue-d-arthur-harari-un-film-kafkaien-deroutant-mais-captivant_cri-7045572.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "eb5e450193d68d7233d3",
-    "title": "Battle Royale",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T20:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/films/battle-royale,53958.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "dbfe9a250067aa8951ee",
-    "title": "Pressure",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T20:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "28373545ae9fde28869b",
-    "title": "Dégel",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T20:50:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/degel-de-manuela-martelli-un-recit-saisissant-dans-une-societe-chilienne-regie-par-le-silence_cri-7045569.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d2e5fdebe86e76310922",
-    "title": "La Frappe",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T20:50:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-frappe-avec-bastien-bouillon-un-film-electrique-qui-claque_cri-7045644.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7b28a7e0a0e53553f318",
-    "title": "Obsession",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T21:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/obsession-curry-barker-nous-bluffe-en-invitant-l-horreur-dans-le-couple_cri-7044258.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9184fa2ac4df37847c83",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T21:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e4705fcefbad0430364e",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T21:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0bd43158caa32ed00796",
-    "title": "La Dernière patiente",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-09T21:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9906ee78945103f85285",
-    "title": "Adieu monde cruel",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-09T21:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/adieu-monde-cruel-de-felix-de-givry-un-superbe-film-d-apprentissage-au-lyrisme-anachronique_cri-7045749.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7d2eb0b1698324f92f0a",
-    "title": "Les Ensorceleuses 2",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T21:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-ensorceleuses-2-un-come-back-tout-sauf-envoutant_cri-7045750.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "bb3ec724bd58d6b3a888",
-    "title": "Sailor et Lula",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-09T21:15:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/sailor-et-lula,19643.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "13fb8195bf39a72f6f62",
-    "title": "The Dog Stars",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T21:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ef4037814cbb3e9e7f33",
-    "title": "Insidious : l'invasion du lointain",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T21:55:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/insidious-l-invasion-du-lointain-un-sixieme-opus-qui-touche-le-fond_cri-7045510.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "af5a4d0dc5fbbc1e4762",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T21:55:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fe49fcf2f438be99af71",
-    "title": "La Vie d'une femme",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T22:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c971cefd38ba4a2f247f",
-    "title": "Mutiny",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T22:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/mutiny-de-jean-francois-richet-un-banal-thriller-cousu-sur-mesure-pour-jason-statham_cri-7045509.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fe73b5e539cd9b7bd50e",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T22:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8271fdb1cf04a27eb182",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-09T22:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
     "id": "f815b2c607bd2d858e47",
     "title": "Dégel",
     "cinema": "Méliès Jean-Jaurès",
@@ -4185,12 +3141,12 @@
     "source": "Télérama"
   },
   {
-    "id": "b32113ae1b705deb6eb3",
-    "title": "Pressure",
+    "id": "00ce0205246c945a9b72",
+    "title": "Tad l'explorateur et la lampe magique",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-13T13:35:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
+    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
     "source": "Télérama"
   },
   {
@@ -4437,12 +3393,12 @@
     "source": "Télérama"
   },
   {
-    "id": "086434df72cd0e9371f9",
-    "title": "Pressure",
+    "id": "1f1800a63beebb98d014",
+    "title": "Tad l'explorateur et la lampe magique",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-13T15:40:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
+    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
     "source": "Télérama"
   },
   {
@@ -4662,12 +3618,12 @@
     "source": "Télérama"
   },
   {
-    "id": "88531d422a5515c1d468",
-    "title": "Pressure",
+    "id": "cae4056df4f00dcac198",
+    "title": "Tad l'explorateur et la lampe magique",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-13T17:45:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
+    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
     "source": "Télérama"
   },
   {
@@ -4851,12 +3807,12 @@
     "source": "Télérama"
   },
   {
-    "id": "92af80018449274fd5f2",
-    "title": "Pressure",
+    "id": "53e9054a101ba15f506d",
+    "title": "Tad l'explorateur et la lampe magique",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-13T19:50:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
+    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
     "source": "Télérama"
   },
   {
@@ -5040,12 +3996,12 @@
     "source": "Télérama"
   },
   {
-    "id": "c39964d8e23d2c2a327c",
-    "title": "Pressure",
+    "id": "8f2404b4bdb9dcfe46ff",
+    "title": "Tad l'explorateur et la lampe magique",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-13T21:55:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
+    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
     "source": "Télérama"
   },
   {
@@ -5994,12 +4950,12 @@
     "source": "Télérama"
   },
   {
-    "id": "8a001ac68178bb05eaf8",
-    "title": "The Dog Stars",
+    "id": "f9ff889534a6cb5fa53c",
+    "title": "Pressure",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-15T13:35:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
+    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
     "source": "Télérama"
   },
   {
@@ -6228,12 +5184,12 @@
     "source": "Télérama"
   },
   {
-    "id": "df448067807539f0edab",
-    "title": "The Dog Stars",
+    "id": "5a3eaa85929d855f7afd",
+    "title": "Pressure",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-15T15:40:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
+    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
     "source": "Télérama"
   },
   {
@@ -6462,12 +5418,12 @@
     "source": "Télérama"
   },
   {
-    "id": "effd15dba90bd43c6384",
-    "title": "The Dog Stars",
+    "id": "2aff89f1efe31cb23e61",
+    "title": "Pressure",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-15T17:45:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
+    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
     "source": "Télérama"
   },
   {
@@ -6642,12 +5598,12 @@
     "source": "Télérama"
   },
   {
-    "id": "7f43f67f666c790e76c0",
-    "title": "The Dog Stars",
+    "id": "c6f6d755b8627b995ba2",
+    "title": "Pressure",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-15T19:50:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
+    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
     "source": "Télérama"
   },
   {
@@ -6876,12 +5832,12 @@
     "source": "Télérama"
   },
   {
-    "id": "dce9ae8200ce413c82fd",
-    "title": "The Dog Stars",
+    "id": "74ed024576ea7545f06b",
+    "title": "Pressure",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-15T21:55:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
+    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
     "source": "Télérama"
   },
   {
@@ -6918,6 +5874,285 @@
     "start": "2026-09-15T22:00:00+02:00",
     "version": "VF",
     "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "af2f268d746841f80b72",
+    "title": "La Frappe",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T13:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-frappe-avec-bastien-bouillon-un-film-electrique-qui-claque_cri-7045644.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "92862f9cfb8c9a7c5a5e",
+    "title": "La Vie d'une femme",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T13:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f259a02ddbe26f112ef3",
+    "title": "Rose",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T13:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/rose-de-markus-schleinzer-sandra-huller-epoustouflante-dans-ce-drame-historique-au-noir-et-blanc-superbe_cri-7045746.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "aef92e05d3d18b92a3b5",
+    "title": "Trois Adieux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T13:45:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/trois-adieux-d-isabel-coixet-un-film-delicat-sur-la-quete-de-legerete-quand-le-temps-qu-il-reste-est-compte_cri-7045645.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "1dad51b1b702bacf234f",
+    "title": "L'Inconnue",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T13:50:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-inconnue-d-arthur-harari-un-film-kafkaien-deroutant-mais-captivant_cri-7045572.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "c381b1f304e2480ecff3",
+    "title": "District 9",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-16T14:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/district-9,389492.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "95e2e7013e0c28f5ce93",
+    "title": "RoboCop",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/films/robocop,11097.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "660622f68e286e2d4057",
+    "title": "La Dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T15:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "03fb6e2a1dcf15a88069",
+    "title": "La Dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T15:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f296bba5fe7ad7cd6e8c",
+    "title": "RoboCop",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T15:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/films/robocop,11097.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "eb41dc384423e1de2bc5",
+    "title": "La Dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "2011087c7cb6f2d90036",
+    "title": "Adieu monde cruel",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/adieu-monde-cruel-de-felix-de-givry-un-superbe-film-d-apprentissage-au-lyrisme-anachronique_cri-7045749.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "30f64a8eca28c46963c0",
+    "title": "Kick-Ass",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-16T16:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/kick-ass,405673.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "b0ec531200ab564ffc0d",
+    "title": "Akira",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T16:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/akira,22274.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "b3e4a228591d2fb34673",
+    "title": "Fjord",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T16:40:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/fjord-de-cristian-mungiu-critique-reussie-de-la-radicalisation-des-opinions-ou-manipulation-simpliste_cri-7045484.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "edab26ace02aa581aa73",
+    "title": "La Vie d'une femme",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T17:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "77d3dc0c8117042d628e",
+    "title": "Les Survivants du Che",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T17:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f305c6fbf984dbb3ad67",
+    "title": "RoboCop",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/films/robocop,11097.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a26ed0986507dc107096",
+    "title": "Salvation",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T18:10:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/salvation-d-emin-alper-un-puissant-western-moderne-sur-les-origines-de-la-violence_cri-7045647.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ef9567ed35896e889b67",
+    "title": "Battle Royale",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-16T18:45:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/battle-royale,53958.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "662ce3da44c72f3926c9",
+    "title": "La Dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T19:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "7078cfd6b2c69148ef50",
+    "title": "La Dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T19:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "eef66725b69b8aac935a",
+    "title": "The Good Sister",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T19:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/the-good-sister-de-sarah-miro-fischer-la-deconstruction-sans-manicheisme-de-la-figure-du-monstre_cri-7045643.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f2bd356ff99ffea3ee62",
+    "title": "Rose",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T19:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/rose-de-markus-schleinzer-sandra-huller-epoustouflante-dans-ce-drame-historique-au-noir-et-blanc-superbe_cri-7045746.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "71a7264768f766b81490",
+    "title": "Adieu monde cruel",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/adieu-monde-cruel-de-felix-de-givry-un-superbe-film-d-apprentissage-au-lyrisme-anachronique_cri-7045749.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "214096c51a2cbf08470e",
+    "title": "La Dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T20:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "c4cc43e9e0d570fcd4ca",
+    "title": "Les Survivants du Che",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T20:50:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "22b87386f0a0fbe4f5e2",
+    "title": "RoboCop",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-16T20:50:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/robocop,11097.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "539fd5177efeeff7b05d",
+    "title": "La Dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T21:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a89c5241e48c917be87e",
+    "title": "Sailor et Lula",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-09-16T21:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/sailor-et-lula,19643.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "8f2cb50cb0ffa84dafd7",
+    "title": "La Dernière patiente",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-16T21:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
     "source": "Télérama"
   }
 ]
