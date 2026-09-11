@@ -39,25 +39,6 @@
     "session_count": 2
   },
   {
-    "id": "92159f9620aca67b022e",
-    "title": "LA FORTUNE DE L'ÉPOQUE",
-    "start": "2026-09-11T20:00:00+02:00",
-    "end": "2026-09-20T17:00:00+02:00",
-    "sessions": [
-      "2026-09-11T20:00:00+02:00",
-      "2026-09-18T21:00:00+02:00",
-      "2026-09-19T19:00:00+02:00",
-      "2026-09-20T17:00:00+02:00"
-    ],
-    "session_count": 4,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/la-fortune-de-lepoque/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "4062c4a44463a0532ad2",
     "title": "Quinzaine Souad Labbize : une autrice - des artistes - une ville - des lieux",
     "start": "2026-09-12T14:30:00+02:00",
@@ -146,43 +127,15 @@
     "source": "Médiathèques de Saint-Étienne"
   },
   {
-    "id": "8697626ae2ec2b7e2dde",
+    "id": "4aa4c03082811b2c2a63",
     "title": "3NVOUTEMENT",
     "start": "2026-09-18T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/3nvoutement",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "3b4f498b37e0bfeaf52b",
-    "title": "LA THÉRAPIE DE LA CONNERIE",
-    "start": "2026-09-18T21:00:00+02:00",
-    "end": "2027-06-21T20:30:00+02:00",
-    "sessions": [
-      "2026-09-18T21:00:00+02:00",
-      "2026-09-19T19:00:00+02:00",
-      "2026-09-20T17:00:00+02:00",
-      "2026-09-21T20:30:00+02:00",
-      "2026-10-19T20:30:00+02:00",
-      "2026-11-16T20:30:00+01:00",
-      "2026-12-21T20:30:00+01:00",
-      "2027-01-18T20:30:00+01:00",
-      "2027-02-15T20:30:00+01:00",
-      "2027-03-15T20:30:00+01:00",
-      "2027-04-05T20:30:00+02:00",
-      "2027-05-17T20:30:00+02:00",
-      "2027-06-21T20:30:00+02:00"
-    ],
-    "session_count": 13,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/la-therapie-de-la-connerie-2/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "103c8f1ccb0522f7ab6f",
@@ -229,10 +182,10 @@
     "source": "La Comète"
   },
   {
-    "id": "2c62fa2bcea303b50438",
+    "id": "d95d3286dec1a3cab137",
     "title": "LAURENT BARAT",
     "start": "2026-09-19T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -284,34 +237,6 @@
     "source": "Le Solar"
   },
   {
-    "id": "e37b18636ca250170133",
-    "title": "LES LUNDIS DE L'IMPRO",
-    "start": "2026-09-21T20:30:00+02:00",
-    "end": "2027-06-21T20:30:00+02:00",
-    "sessions": [
-      "2026-09-21T20:30:00+02:00",
-      "2026-09-25T21:00:00+02:00",
-      "2026-09-26T19:00:00+02:00",
-      "2026-09-27T17:00:00+02:00",
-      "2026-10-19T20:30:00+02:00",
-      "2026-11-16T20:30:00+01:00",
-      "2026-12-21T20:30:00+01:00",
-      "2027-01-18T20:30:00+01:00",
-      "2027-02-15T20:30:00+01:00",
-      "2027-03-15T20:30:00+01:00",
-      "2027-04-05T20:30:00+02:00",
-      "2027-05-17T20:30:00+02:00",
-      "2027-06-21T20:30:00+02:00"
-    ],
-    "session_count": 13,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/les-lundis-de-limpro-15/",
-    "source": "Comédie Triomphe"
-  },
-  {
     "id": "17ebde62040daf04c268",
     "title": "Fête du livre de Saint-Étienne 2026",
     "start": "2026-09-22T12:00:00+02:00",
@@ -345,10 +270,10 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "0add7b718ee3db61350d",
+    "id": "1b5b884c026fec25f2a5",
     "title": "JEAN-BENOIT DIALLO",
     "start": "2026-09-24T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -367,10 +292,10 @@
     "source": "Le Solar"
   },
   {
-    "id": "20760de7d3cfc74b962f",
+    "id": "c3dca55d93b63a109a49",
     "title": "ROMAN DODUIK",
     "start": "2026-09-25T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -378,37 +303,10 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "06f7aa05cf44829165ab",
-    "title": "PANIK SUR LA HOTLINE",
-    "start": "2026-09-25T21:00:00+02:00",
-    "end": "2027-06-12T15:00:00+02:00",
-    "sessions": [
-      "2026-09-25T21:00:00+02:00",
-      "2026-09-26T19:00:00+02:00",
-      "2026-09-27T17:00:00+02:00",
-      "2026-10-02T19:00:00+02:00",
-      "2026-11-14T15:00:00+01:00",
-      "2026-12-12T15:00:00+01:00",
-      "2027-01-16T15:00:00+01:00",
-      "2027-02-13T21:00:00+01:00",
-      "2027-03-13T15:00:00+01:00",
-      "2027-04-09T19:00:00+02:00",
-      "2027-05-15T15:00:00+02:00",
-      "2027-06-12T15:00:00+02:00"
-    ],
-    "session_count": 12,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/panik-sur-la-hotline-3/",
-    "source": "Comédie Triomphe"
-  },
-  {
-    "id": "2f922c12df8ed8005c3d",
+    "id": "7cbe70d15298184602f5",
     "title": "ROMAN DODUIK",
     "start": "2026-09-26T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -493,10 +391,10 @@
     "source": "Le Fil"
   },
   {
-    "id": "03aa83c64fca321ddb68",
+    "id": "d1484d80ef0e0ff98e7d",
     "title": "GAGA FIGHT",
     "start": "2026-10-01T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -513,33 +411,6 @@
     "description": "Jules Verne et les savants « fous » Biblis en folie : exposition Du 02/10/2026 13:00 au 28/10/2026 18:30 Catégorie Exposition Localisation Tréfilerie Parfois excentrique, souvent mégalomane, toujours dangereux, le personnage du savant fou irradie la littérature, aussi bien dans les romans de Jules Verne que dans d'autres oeuvres classiques. Entre génie et folie, venez à la rencontre de ces personn...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2486/jules-verne-et-les-savants-fous",
     "source": "Médiathèques de Saint-Étienne"
-  },
-  {
-    "id": "2c652fe89043a733b808",
-    "title": "FOU DES VERTS",
-    "start": "2026-10-02T19:00:00+02:00",
-    "end": "2027-06-12T15:00:00+02:00",
-    "sessions": [
-      "2026-10-02T19:00:00+02:00",
-      "2026-10-02T21:00:00+02:00",
-      "2026-10-03T19:00:00+02:00",
-      "2026-10-04T17:00:00+02:00",
-      "2026-11-14T15:00:00+01:00",
-      "2026-12-12T15:00:00+01:00",
-      "2027-01-16T15:00:00+01:00",
-      "2027-02-13T21:00:00+01:00",
-      "2027-03-13T15:00:00+01:00",
-      "2027-04-09T19:00:00+02:00",
-      "2027-05-15T15:00:00+02:00",
-      "2027-06-12T15:00:00+02:00"
-    ],
-    "session_count": 12,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/fou-des-verts-3/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "0596e0933fb16c5aeefe",
@@ -586,58 +457,15 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "3de9387295ffe4df6eed",
+    "id": "d7fbacf92680f2f97dd7",
     "title": "HAROLD BARBÉ",
     "start": "2026-10-02T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/www-lestroisducs-fr-harold-barbe",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "37666b5aae821d3345ab",
-    "title": "BONHEUR EN PLS",
-    "start": "2026-10-02T21:00:00+02:00",
-    "end": "2026-10-04T17:00:00+02:00",
-    "sessions": [
-      "2026-10-02T21:00:00+02:00",
-      "2026-10-03T17:00:00+02:00",
-      "2026-10-03T19:00:00+02:00",
-      "2026-10-04T17:00:00+02:00"
-    ],
-    "session_count": 4,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/bonheur-en-pls/",
-    "source": "Comédie Triomphe"
-  },
-  {
-    "id": "22ce04cf6ac137d8d9dc",
-    "title": "THIBAUT DEL CORRAL dans MENTALISTE",
-    "start": "2026-10-03T17:00:00+02:00",
-    "end": "2027-06-04T21:00:00+02:00",
-    "sessions": [
-      "2026-10-03T17:00:00+02:00",
-      "2026-10-03T21:00:00+02:00",
-      "2026-12-05T15:00:00+01:00",
-      "2026-12-11T15:00:00+01:00",
-      "2027-01-09T15:00:00+01:00",
-      "2027-02-06T15:00:00+01:00",
-      "2027-03-06T15:00:00+01:00",
-      "2027-04-03T15:00:00+02:00",
-      "2027-06-04T21:00:00+02:00"
-    ],
-    "session_count": 9,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/thibaut-del-corral-dans-mentaliste-2/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "7d89d32a4b80d9e19b44",
@@ -667,47 +495,15 @@
     "source": "Le Fil"
   },
   {
-    "id": "10a8dd21617f0146688e",
+    "id": "39db08d7c03363362024",
     "title": "THOMAS GT",
     "start": "2026-10-03T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/thomas-gt",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "459128327aa74081fdb9",
-    "title": "GAGA DES STÉPHANOIS",
-    "start": "2026-10-03T21:00:00+02:00",
-    "end": "2027-06-10T20:30:00+02:00",
-    "sessions": [
-      "2026-10-03T21:00:00+02:00",
-      "2026-10-08T20:30:00+02:00",
-      "2026-11-05T20:30:00+01:00",
-      "2026-12-05T15:00:00+01:00",
-      "2026-12-10T20:30:00+01:00",
-      "2026-12-11T15:00:00+01:00",
-      "2027-01-09T15:00:00+01:00",
-      "2027-01-14T20:30:00+01:00",
-      "2027-02-04T20:30:00+01:00",
-      "2027-02-06T15:00:00+01:00",
-      "2027-03-06T15:00:00+01:00",
-      "2027-03-11T20:30:00+01:00",
-      "2027-04-01T20:30:00+02:00",
-      "2027-04-03T15:00:00+02:00",
-      "2027-05-13T20:30:00+02:00",
-      "2027-06-04T21:00:00+02:00",
-      "2027-06-10T20:30:00+02:00"
-    ],
-    "session_count": 17,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/gaga-des-stephanois-27/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "8655f08ae2124f333dcb",
@@ -804,42 +600,15 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "f887cd0201d5db670765",
+    "id": "1df3ac5b4ecad4ed2822",
     "title": "MISTER MAT",
     "start": "2026-10-08T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/mister-mat",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "890b1fa78e1528777618",
-    "title": "TRIOMPHE COMEDY CLUB",
-    "start": "2026-10-08T20:30:00+02:00",
-    "end": "2027-06-10T20:30:00+02:00",
-    "sessions": [
-      "2026-10-08T20:30:00+02:00",
-      "2026-10-09T21:00:00+02:00",
-      "2026-10-10T19:00:00+02:00",
-      "2026-10-11T17:00:00+02:00",
-      "2026-11-05T20:30:00+01:00",
-      "2026-12-10T20:30:00+01:00",
-      "2027-01-14T20:30:00+01:00",
-      "2027-02-04T20:30:00+01:00",
-      "2027-03-11T20:30:00+01:00",
-      "2027-04-01T20:30:00+02:00",
-      "2027-05-13T20:30:00+02:00",
-      "2027-06-10T20:30:00+02:00"
-    ],
-    "session_count": 12,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/triomphe-comedy-club/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "67729810987b37ea1cb2",
@@ -875,33 +644,15 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "4c7467c96e0ef4110b96",
+    "id": "4b04c5e806c5768139fd",
     "title": "MARIE BÔ",
     "start": "2026-10-09T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/marie-bo",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "bb51ed70c2451df99314",
-    "title": "LES CON C'EST LES AUTRES",
-    "start": "2026-10-09T21:00:00+02:00",
-    "end": "2026-10-11T17:00:00+02:00",
-    "sessions": [
-      "2026-10-09T21:00:00+02:00",
-      "2026-10-10T19:00:00+02:00",
-      "2026-10-11T17:00:00+02:00"
-    ],
-    "session_count": 3,
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.comedietriomphe.fr/events/les-con-cest-les-autres-3/",
-    "source": "Comédie Triomphe"
   },
   {
     "id": "044b5da331b9a70ef2f6",
@@ -948,10 +699,10 @@
     "source": "Le Fil"
   },
   {
-    "id": "fab6b7d3849883be5d3e",
+    "id": "885025f88a2372ecf22d",
     "title": "GAËTAN PETIT",
     "start": "2026-10-10T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1025,17 +776,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "be08cb328c0863749d17",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2026-10-15T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
-    "source": "La Ricane"
-  },
-  {
     "id": "fd8d700deb1af4e1e398",
     "title": "Don Quichotte Le Théâtre du Corps Pietragalla - Derouault",
     "start": "2026-10-15T20:00:00+02:00",
@@ -1085,37 +825,15 @@
     "source": "Le Fil"
   },
   {
-    "id": "13eb833cc73c47ba18e0",
+    "id": "e947b56ea4128ff670ec",
     "title": "KINO",
     "start": "2026-10-16T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/kino",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "f4ee07fc7b2ecc929fa8",
-    "title": "CAP SUR L’îLE AU TRESOR",
-    "start": "2026-10-17T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/cap-sur-lile-au-tresor/",
-    "source": "La Ricane"
-  },
-  {
-    "id": "4b0d56b80888f8c312c5",
-    "title": "LE POISON DES BLEUETS – MURDER PARTY",
-    "start": "2026-10-17T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/murder-party-le-poison-des-bleuets/",
-    "source": "La Ricane"
   },
   {
     "id": "b0f96b1809a4af4e7123",
@@ -1140,10 +858,10 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "fa66314406ef2cc25ad1",
+    "id": "a0a560dbee9a989065b2",
     "title": "LES TROIS DUCS COMEDY CLUB",
     "start": "2026-10-17T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1201,26 +919,15 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "756aa8106969d37ece34",
+    "id": "1d7a4db7320158ed492c",
     "title": "OLIVIA MOORE",
     "start": "2026-10-22T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/olivia-moore",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "d08db1a8617295fcff01",
-    "title": "DERRIERE LA PORTE",
-    "start": "2026-10-23T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/derriere-la-porte/",
-    "source": "La Ricane"
   },
   {
     "id": "f5e3542b619bc6ca1fe3",
@@ -1256,26 +963,15 @@
     "source": "Le Fil"
   },
   {
-    "id": "ba40f9ef925715ace990",
+    "id": "825a156269b8284e38d0",
     "title": "NASSIM MELLAH",
     "start": "2026-10-23T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nassim-mellah",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "0156acdefcfb8fae6672",
-    "title": "DERRIERE LA PORTE",
-    "start": "2026-10-24T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/derriere-la-porte-2/",
-    "source": "La Ricane"
   },
   {
     "id": "ea0134b582f8f0f753e8",
@@ -1289,10 +985,10 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "7f8fb8bc0c4e50e52531",
+    "id": "0d11ab88fd4c410061b6",
     "title": "SARAH-ANNA",
     "start": "2026-10-24T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1322,10 +1018,10 @@
     "source": "Le Solar"
   },
   {
-    "id": "efbb67a929a82e1ec569",
+    "id": "679f2e78dcbe39000924",
     "title": "FÉLIX JUNIER",
     "start": "2026-10-29T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1344,10 +1040,10 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "9afc6985fcc97670d8b8",
+    "id": "83cdb0e84ab9cbc4b85e",
     "title": "MORGANE BERLING",
     "start": "2026-10-30T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1355,10 +1051,10 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "4fc0a7d2ccd4201df1e5",
+    "id": "f8beec6cfc09a1d9b1c7",
     "title": "BELLE MÈRE À VENDRE",
     "start": "2026-10-31T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1406,10 +1102,10 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "c86a1d00959d6163e87b",
+    "id": "0bad4ce03a610a9403f3",
     "title": "ALEX DI MAMBRO",
     "start": "2026-11-04T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1466,10 +1162,10 @@
     "source": "La Comète"
   },
   {
-    "id": "1100636435e88bc598c9",
+    "id": "74a876e9fe605d5b1fa1",
     "title": "GAGA FIGHT",
     "start": "2026-11-05T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1499,10 +1195,10 @@
     "source": "La Comète"
   },
   {
-    "id": "df47fb92cceadd3f25a4",
+    "id": "dcec4fcac3c5ef6f697e",
     "title": "EDGAR-YVES JR.",
     "start": "2026-11-06T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "La Comète",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1565,17 +1261,6 @@
     "source": "Salle Aristide Briand"
   },
   {
-    "id": "15a63f2266477096a4bc",
-    "title": "DIRTY OLD FRIENDS",
-    "start": "2026-11-13T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Musique",
-    "description": "",
-    "url": "https://laricane.com/event/dirty-old-friends/",
-    "source": "La Ricane"
-  },
-  {
     "id": "2394d84b57219686fe14",
     "title": "Un pouce en cavale",
     "start": "2026-11-13T10:00:00+01:00",
@@ -1615,10 +1300,10 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "180ab9797589c2ae4351",
+    "id": "b93a9a2e2dc57f310325",
     "title": "GUILLAUME SENTOU",
     "start": "2026-11-13T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1659,10 +1344,10 @@
     "source": "Le Fil"
   },
   {
-    "id": "8190281018457d74b966",
+    "id": "d0b310937bab5180d4fe",
     "title": "MARC-ANTOINE LE BRET",
     "start": "2026-11-14T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1761,15 +1446,15 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "ec04a580a712a1ba5779",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2026-11-19T01:00:00+01:00",
-    "venue": "La Ricane",
+    "id": "a1e34a0c7de94c7e0e0c",
+    "title": "ALEX FREDO",
+    "start": "2026-11-18T21:00:00+01:00",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
-    "source": "La Ricane"
+    "url": "https://www.lestroisducs.fr/artiste/alex-fredo",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "bc7a9be1bbf5c413042b",
@@ -1788,26 +1473,15 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "c149aaa293cd0713dd8c",
+    "id": "249ea8e9eb2a23b467e8",
     "title": "NASH",
     "start": "2026-11-19T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nash",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "dfdf0f7871f6055c12c7",
-    "title": "LA FIV DU SAMEDI SOIR",
-    "start": "2026-11-20T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Jeune public",
-    "description": "",
-    "url": "https://laricane.com/event/la-fiv-du-samedi-soir-2/",
-    "source": "La Ricane"
   },
   {
     "id": "c3eaa38abb1f1693d1a5",
@@ -1843,26 +1517,15 @@
     "source": "Le Fil"
   },
   {
-    "id": "ff3350b354dfbc0558e6",
+    "id": "7f7f36ce43d4a6184bc8",
     "title": "NASH",
     "start": "2026-11-20T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nash-2",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "437b50c22c6da9588f71",
-    "title": "DROLES DE MALES",
-    "start": "2026-11-21T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/la-fiv-du-samedi-soir-3-2/",
-    "source": "La Ricane"
   },
   {
     "id": "abc88c3892134f549680",
@@ -1898,10 +1561,10 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "a189dd5edbf54a407b72",
+    "id": "6f6369aef04eccce5d3d",
     "title": "ANNE DEPETRINI",
     "start": "2026-11-21T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -1975,17 +1638,6 @@
     "source": "Comédie Sainté"
   },
   {
-    "id": "e4e26f48a2166e44d189",
-    "title": "LOLA BULLE",
-    "start": "2026-11-25T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/lola-bulle/",
-    "source": "La Ricane"
-  },
-  {
     "id": "c80ab0583b32070fda72",
     "title": "Un chat dans la ville",
     "start": "2026-11-25T16:00:00+01:00",
@@ -2041,10 +1693,10 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "f6f2f3deee43e7f31042",
+    "id": "6172fa1e90b0d4e31b77",
     "title": "LES TROIS DUCS COMEDY CLUB",
     "start": "2026-11-26T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2063,10 +1715,10 @@
     "source": "Le Fil"
   },
   {
-    "id": "0a0069227fee4c87938f",
+    "id": "026a3349170955829e9a",
     "title": "JULIE CONTI",
     "start": "2026-11-27T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2096,10 +1748,10 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "807e896057ef01c8886e",
+    "id": "6f258e1868933caba4e4",
     "title": "LES COUSINES",
     "start": "2026-11-28T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2202,10 +1854,10 @@
     "source": "Le Fil"
   },
   {
-    "id": "2dfec5b2a8305abefd9d",
+    "id": "f97089661edad871fcd2",
     "title": "GAGA FIGHT",
     "start": "2026-12-03T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2246,10 +1898,10 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "c7fc34d66bdd32e91ba2",
+    "id": "8c5d1a1dd2fe4f7ee6c7",
     "title": "SEBASTIAN MARX",
     "start": "2026-12-04T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2328,10 +1980,10 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "ca9baa3fec73542f5824",
+    "id": "6f1f8fd2612cab694d47",
     "title": "HUGUES LAVIGNE",
     "start": "2026-12-05T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2388,17 +2040,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/eric-fraticelli/",
     "source": "La Comète"
-  },
-  {
-    "id": "e847c9e5a4e48abc3bea",
-    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
-    "start": "2026-12-09T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour/",
-    "source": "La Ricane"
   },
   {
     "id": "109dec10257e6925316e",
@@ -2499,10 +2140,10 @@
     "source": "Le Fil"
   },
   {
-    "id": "85ca10e0d5d7d723aa4c",
+    "id": "f614106840e8a71b11c2",
     "title": "CHARLIE ET STYLIEN",
     "start": "2026-12-11T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2510,10 +2151,10 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "7116e21dfcfca0c1b501",
+    "id": "5e9cf174428fc803a328",
     "title": "SALIMA PASSION",
     "start": "2026-12-12T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2619,17 +2260,6 @@
     "source": "Comédie Sainté"
   },
   {
-    "id": "8d7b91b9424c88894338",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2026-12-17T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-7/",
-    "source": "La Ricane"
-  },
-  {
     "id": "0509c3bb8dca8d11d941",
     "title": "Blue Chorus Orchestra",
     "start": "2026-12-17T20:00:00+01:00",
@@ -2639,17 +2269,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "a547817652f13e632431",
-    "title": "DUO D’IMPRO",
-    "start": "2026-12-18T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/duo-dimpro/",
-    "source": "La Ricane"
   },
   {
     "id": "1b33399c423f7e66f23e",
@@ -2679,10 +2298,10 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "e66e2550066e5652b0e3",
+    "id": "16cbe3560b1780829565",
     "title": "PATRICK CHANFRAY",
     "start": "2026-12-18T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2690,10 +2309,10 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "458f144b8a615749077e",
+    "id": "55319fed0d013cc308dd",
     "title": "LES TROIS DUCS COMEDY CLUB",
     "start": "2026-12-19T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2778,10 +2397,10 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "b410a6d41a9bc8b0d5f8",
+    "id": "c8bb70dd50550078a075",
     "title": "YAZID ASSOUMANI",
     "start": "2027-01-09T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2868,10 +2487,10 @@
     "source": "Le Fil"
   },
   {
-    "id": "9ffc591509c6bedc9d57",
+    "id": "c1c2d2f55356fbf4cfa2",
     "title": "LÉANDRE",
     "start": "2027-01-16T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -2906,17 +2525,6 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/801356-soiree-canap-defaire-la-virilite-dominante-quels-enjeux",
     "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "b6327d48a92fbf50783d",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-01-21T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
-    "source": "La Ricane"
   },
   {
     "id": "80264ee418c7b945a38a",
@@ -3072,17 +2680,6 @@
     "source": "La Comète"
   },
   {
-    "id": "d7f35d6a3f063455271c",
-    "title": "LOLA BULLE",
-    "start": "2027-01-27T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/lola-bulle-2/",
-    "source": "La Ricane"
-  },
-  {
     "id": "34c7defacbda807c212d",
     "title": "FOREVER THE BEST SHOW ABOUT THE KING OF POP",
     "start": "2027-01-27T20:00:00+01:00",
@@ -3132,17 +2729,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "60ed31cb87697dfc5146",
-    "title": "DUO D’IMPRO",
-    "start": "2027-01-29T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/duo-dimpro-2/",
-    "source": "La Ricane"
-  },
-  {
     "id": "0832b33ac24a828256be",
     "title": "LES 4 SAISONS",
     "start": "2027-01-29T20:00:00+01:00",
@@ -3176,26 +2762,15 @@
     "source": "Le Fil"
   },
   {
-    "id": "ed81f8e29b6f86583bdd",
+    "id": "fc67809439ddacefce10",
     "title": "CLAUDIA MODICA",
     "start": "2027-01-29T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/claudia-modica",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "d1287694a7c4e01f74e8",
-    "title": "QUOI TOUT LE WEEK-END",
-    "start": "2027-01-30T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/quoi-tout-le-week-end-5/",
-    "source": "La Ricane"
   },
   {
     "id": "54df47d37e4ef7e13037",
@@ -3231,10 +2806,10 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "86bfe59a36df1cc6f733",
+    "id": "6411acfd6e9f2b9622b1",
     "title": "MARS ET VÉNUS",
     "start": "2027-01-30T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -3466,10 +3041,10 @@
     "source": "Le Fil"
   },
   {
-    "id": "860b5cac53d79433e050",
+    "id": "d68a03000afd4a5fd9c4",
     "title": "MELHA BEDIA",
     "start": "2027-02-12T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -3488,37 +3063,15 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "41b64fdfb5c5c572cd08",
+    "id": "b9476fda9e470d13eca2",
     "title": "MELHA BEDIA",
     "start": "2027-02-13T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/melha-bedia-2",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "1b2a9182235e98d6a149",
-    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
-    "start": "2027-02-16T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour-2/",
-    "source": "La Ricane"
-  },
-  {
-    "id": "f1de282b5763af12e883",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-02-18T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
-    "source": "La Ricane"
   },
   {
     "id": "db2f7a60dd5749494ea2",
@@ -3684,17 +3237,6 @@
     "description": "",
     "url": "https://www.arcomik.com/event/alexis-le-rossignol/",
     "source": "ArcomiK"
-  },
-  {
-    "id": "a7413803f1bd190da261",
-    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
-    "start": "2027-02-24T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour-3/",
-    "source": "La Ricane"
   },
   {
     "id": "4ff97194878549dacb07",
@@ -3922,10 +3464,10 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "28a4b155810adfe0a8ab",
+    "id": "69cea024d19e2ae79aa3",
     "title": "TRISTAN LUCAS",
     "start": "2027-03-05T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -4188,17 +3730,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "aae30097c84b31a4d268",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-03-18T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
-    "source": "La Ricane"
-  },
-  {
     "id": "8fe59d6c94fd4ae25337",
     "title": "K-Pop Forever !",
     "start": "2027-03-18T19:30:00+01:00",
@@ -4248,10 +3779,10 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "603f64b449b31a768061",
+    "id": "d3c0cdd0a951d2b0f48e",
     "title": "MARGOT DEMEURISSE",
     "start": "2027-03-19T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -4281,10 +3812,10 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "b5fcce03c210d646119c",
+    "id": "d037400d52d6a6432f1b",
     "title": "IKE",
     "start": "2027-03-20T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -4312,17 +3843,6 @@
     "description": "",
     "url": "https://saint-chamond.fr/events/theatre-danse-cross/",
     "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "39586be5d1b24572079c",
-    "title": "LOLA BULLE",
-    "start": "2027-03-24T01:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/lola-bulle-3/",
-    "source": "La Ricane"
   },
   {
     "id": "b1c13e16cc84d6efbc60",
@@ -4395,10 +3915,10 @@
     "source": "Salle Aristide Briand"
   },
   {
-    "id": "c7a1a542c186e40322e8",
+    "id": "65ef49605c4602d21409",
     "title": "BIG S",
     "start": "2027-03-26T20:30:00+01:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -4472,10 +3992,10 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "3e23ce4c4fc112dedbcd",
+    "id": "798045c10932a7d9d8c4",
     "title": "NADIA RICHARD",
     "start": "2027-04-02T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -4602,17 +4122,6 @@
     "source": "La Comète"
   },
   {
-    "id": "2183862ee8e298ef6297",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-04-15T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-11/",
-    "source": "La Ricane"
-  },
-  {
     "id": "b20bffb488184e711a8f",
     "title": "Lou ! Sonata 3 Concert dessiné",
     "start": "2027-04-15T20:30:00+02:00",
@@ -4622,17 +4131,6 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/lou-sonata-3/",
     "source": "Le Fil"
-  },
-  {
-    "id": "3e1bc1609c812f7196aa",
-    "title": "LOLA BULLE",
-    "start": "2027-04-21T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/lola-bulle-4/",
-    "source": "La Ricane"
   },
   {
     "id": "74d4716311b20202c896",
@@ -4786,17 +4284,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "f120bafab70f8c3d67b1",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-05-20T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-12/",
-    "source": "La Ricane"
-  },
-  {
     "id": "1baf2592b21ccb247abe",
     "title": "[ Quartier Culturel Saint-François ] Atelier de criée",
     "start": "2027-05-20T19:30:00+02:00",
@@ -4808,10 +4295,10 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "d471c49d457dec660202",
+    "id": "aca77dad62f2cecef561",
     "title": "CÉDRIC SALAUN",
     "start": "2027-05-20T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -4819,10 +4306,10 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "2dea6752640b1f6e71c8",
+    "id": "0163b3ddd1e8fc686e3a",
     "title": "ARTHUR GOMEZ",
     "start": "2027-05-21T20:30:00+02:00",
-    "venue": "Les Trois Ducs",
+    "venue": "Les 3 Ducs",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
@@ -4986,17 +4473,6 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/le-chantier-des-imaginaires",
     "source": "Comédie Sainté"
-  },
-  {
-    "id": "cb15884c4d316295978c",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-06-17T02:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-13/",
-    "source": "La Ricane"
   },
   {
     "id": "6359668fb73774acd9b8",
