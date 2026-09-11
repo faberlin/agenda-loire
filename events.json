@@ -193,8 +193,8 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "73693d9af40149e7beea",
-    "title": "Les Chénopodes Sur la terrasse !",
+    "id": "717efcd1bee484cff6e5",
+    "title": "Les Chénopodes + Selecta Boujtat' · Sur la terrasse !",
     "start": "2026-09-24T18:00:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -1286,8 +1286,8 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "c33f82c1f95630566d90",
-    "title": "The Inspector Cluzo + Première partie",
+    "id": "7689f26263a1bb16740e",
+    "title": "The Inspector Cluzo + Grant Haua",
     "start": "2026-11-20T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -1451,14 +1451,14 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "9aa4e3c82a0df5c82d1b",
-    "title": "AKIM OMIRI",
+    "id": "98707b574710ce4814a3",
+    "title": "AKIM OMIRI - COMPLET",
     "start": "2026-11-26T20:00:00+01:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/akim-omiri/",
+    "url": "https://lacomete.saint-etienne.fr/evenements/akim-omiri-complet/",
     "source": "La Comète"
   },
   {
@@ -1598,6 +1598,17 @@
     "category": "Théâtre",
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802098-aube-rouge-tentative-de-memoire-commune-resister-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "9256041cd83a5f9a296a",
+    "title": "Visite des Archives. municipales de St-Étienne",
+    "start": "2026-12-03T17:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/820204-visite-des-archives-municipales-de-st-etienne",
     "source": "Théâtre Le Verso"
   },
   {
@@ -2173,6 +2184,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/minetti",
     "source": "Comédie Sainté"
+  },
+  {
+    "id": "6798b4c0ff3b3e2fa42d",
+    "title": "Soirée canap' : Défaire la virilité dominante, quels enjeux ?",
+    "start": "2027-01-20T19:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801356-soiree-canap-defaire-la-virilite-dominante-quels-enjeux",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "80264ee418c7b945a38a",
@@ -2775,6 +2797,17 @@
     "description": "",
     "url": "https://www.arcomik.com/event/greg-duth/",
     "source": "ArcomiK"
+  },
+  {
+    "id": "b69dcf387706fe6b7059",
+    "title": "Lee Fields",
+    "start": "2027-02-20T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/lee-fields/",
+    "source": "Le Fil"
   },
   {
     "id": "658eddea5cf25622bd91",
@@ -3647,6 +3680,17 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/samuel-bambi/",
     "source": "La Comète"
+  },
+  {
+    "id": "b20bffb488184e711a8f",
+    "title": "Lou ! Sonata 3 Concert dessiné",
+    "start": "2027-04-15T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/lou-sonata-3/",
+    "source": "Le Fil"
   },
   {
     "id": "74d4716311b20202c896",
