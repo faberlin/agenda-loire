@@ -92,7 +92,7 @@ def infer_category(context: str) -> str:
         return "Humour"
 
     if "danse" in value:
-        return "Danse"
+        return "Opéra-Danse"
 
     if any(word in value for word in (
         "jazz",
@@ -103,9 +103,9 @@ def infer_category(context: str) -> str:
         "irlande",
         "swing",
     )):
-        return "Musique"
+        return "Concerts"
 
-    return "Spectacle"
+    return "Théâtre"
 
 
 def choose_title(previous_lines: list[str]) -> str | None:
