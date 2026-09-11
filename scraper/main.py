@@ -292,11 +292,56 @@ def run_dedicated_scraper(module_name: str, expected_function: str) -> list[dict
         print(f"ERREUR {module_name}: {exc}")
         return []
 
+
+DEDICATED_SOURCE_NAMES = {
+    "médiathèques de saint-étienne",
+    "mediatheques de saint-etienne",
+    "le fil",
+    "zénith sainté",
+    "zenith sainte",
+    "opéra sainté",
+    "opera sainte",
+    "comédie sainté",
+    "comedie sainte",
+    "le solar",
+    "salles chambon-feugerolles",
+    "la comète",
+    "la comete",
+    "les 3 ducs",
+    "chok théâtre",
+    "chok theatre",
+    "théâtre le verso",
+    "theatre le verso",
+    "arcomik",
+    "comédie triomphe",
+    "comedie triomphe",
+    "la ricane",
+    "salle aristide briand",
+    "théâtre de poche des brankignols",
+    "theatre de poche des brankignols",
+}
+
+
+def normalized_source_name(value: str) -> str:
+    return clean(value).lower()
+
+
 def main():
     all_events = []
 
     for source in SOURCES:
         try:
+            source_name = normalized_source_name(source.get("name", ""))
+
+            # Un lieu ayant un scraper dédié ne doit pas être collecté
+            # une deuxième fois via sources.json.
+            if source_name in DEDICATED_SOURCE_NAMES:
+                print(
+                    f'{source["name"]}: ignoré dans sources.json '
+                    f'(scraper dédié)'
+                )
+                continue
+
             if source["type"] == "rss":
                 found = parse_feed(source)
             else:
