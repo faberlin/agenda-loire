@@ -133,7 +133,7 @@ def scrape_le_fil() -> list[dict]:
             "start": start,
             "venue": "Le Fil",
             "city": "Saint-Étienne",
-            "category": "Musique",
+            "category": "Concerts",
             "description": "",
             "url": event_url,
             "source": "Le Fil"
