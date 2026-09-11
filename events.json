@@ -50,6 +50,17 @@
     "source": "Médiathèques Sainté"
   },
   {
+    "id": "621261f176129fd5fa12",
+    "title": "Mon plaisir est stéphanois 2026",
+    "start": "2026-09-12T21:15:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://choktheatre.com/mon-plaisir-est-stephanois-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "18837ff5e715c2ebc766",
     "title": "ANAÏS",
     "start": "2026-09-13T15:00:00+02:00",
@@ -59,6 +70,17 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "0fea2f477658289faa42",
+    "title": "Mon plaisir est stéphanois 2026",
+    "start": "2026-09-13T17:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://choktheatre.com/mon-plaisir-est-stephanois-2026/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "be65b9df449f83904145",
@@ -224,6 +246,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/801923-le-parfum-de-leurs-reves-prison-et-resistance-360deg-de-trajectoires",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "8f7601f03526cf75520d",
+    "title": "Lancement saison 2026-2027 → acte 1",
+    "start": "2026-09-20T17:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://choktheatre.com/lancement-saison-2026-2027%e2%86%92acte-1/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "63e441b22090a9f43e31",
