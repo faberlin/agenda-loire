@@ -32,7 +32,7 @@ def infer_category(title: str) -> str:
         return "Humour"
 
     if "danse" in value:
-        return "Danse"
+        return "Opéra-Danse"
 
     if any(word in value for word in (
         "concert",
@@ -43,7 +43,7 @@ def infer_category(title: str) -> str:
         "opérette",
         "operette",
     )):
-        return "Musique"
+        return "Concerts"
 
     if any(word in value for word in (
         "théâtre",
@@ -51,9 +51,6 @@ def infer_category(title: str) -> str:
         "clown",
     )):
         return "Théâtre"
-
-    if "jeune public" in value:
-        return "Jeune public"
 
     return "Spectacle"
 
