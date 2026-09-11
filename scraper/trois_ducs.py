@@ -66,7 +66,7 @@ def infer_category(title: str) -> str:
         "chanson",
         "jazz",
     )):
-        return "Musique"
+        return "Concerts"
 
     if any(word in value for word in (
         "théâtre",
