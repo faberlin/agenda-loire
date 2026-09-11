@@ -113,13 +113,11 @@ def _category(text: str) -> str:
     discipline = clean(match.group(1)).lower() if match else ""
 
     mapping = {
-        "musique": "Musique",
+        "musique": "Concerts",
         "humour": "Humour",
         "théatre": "Théâtre",
         "théâtre": "Théâtre",
-        "danse": "Danse",
-        "arts plastiques": "Exposition",
-        "cirque": "Spectacle",
+        "danse": "Opéra-Danse",
     }
     return mapping.get(discipline, "Spectacle")
 
