@@ -2,6 +2,12 @@ name: Mise à jour des événements
 
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Scraper spécifique à lancer (ex: comedie_triomphe). Laisser vide pour tout exécuter."
+        required: false
+        default: ""
+        type: string
   schedule:
     - cron: "17 4 * * *"
 
@@ -25,7 +31,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Collecter les événements
-        run: python scraper/main.py
+        run: |
+          if [ -n "${{ github.event.inputs.only }}" ]; then
+            echo "Lancement du scraper ciblé : ${{ github.event.inputs.only }}"
+            python scraper/main.py --only "${{ github.event.inputs.only }}"
+          else
+            echo "Lancement global de tous les scrapers"
+            python scraper/main.py
+          fi
 
       - name: Publier les changements
         run: |
