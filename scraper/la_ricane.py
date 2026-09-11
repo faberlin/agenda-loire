@@ -60,21 +60,12 @@ def infer_category(text: str) -> str:
         return "Humour"
 
     if any(word in value for word in (
-        "jeune public",
-        "a partir de",
-        "à partir de",
-        "contes",
-        "enfant",
-    )):
-        return "Jeune public"
-
-    if any(word in value for word in (
         "concert",
         "musique",
         "jazz",
         "rock",
     )):
-        return "Musique"
+        return "Concerts"
 
     if any(word in value for word in (
         "murder party",
