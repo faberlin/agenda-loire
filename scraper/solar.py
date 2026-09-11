@@ -98,7 +98,7 @@ def scrape_solar() -> list[dict]:
             "start": dt.isoformat(),
             "venue": "Le Solar",
             "city": "Saint-Étienne",
-            "category": "Musique",
+            "category": "Concerts",
             "description": "",
             "url": href,
             "source": "Le Solar",
