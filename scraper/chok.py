@@ -77,11 +77,8 @@ def get_soup(url: str) -> BeautifulSoup:
 def infer_category(text: str) -> str:
     value = text.lower()
 
-    if "jeune public" in value:
-        return "Jeune public"
-
     if "danse" in value or "butô" in value or "buto" in value:
-        return "Danse"
+        return "Opéra-Danse"
 
     if any(word in value for word in (
         "concert",
@@ -90,7 +87,7 @@ def infer_category(text: str) -> str:
         "chanson",
         "jazz",
     )):
-        return "Musique"
+        return "Concerts"
 
     if any(word in value for word in (
         "humour",
