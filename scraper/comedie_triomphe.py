@@ -1,27 +1,31 @@
 from __future__ import annotations
 
-import json
 import re
 from datetime import datetime
-from urllib.parse import urljoin
-
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 
 from utils import PARIS, clean, stable_id
 
-CATALOG_URL = "https://www.comedietriomphe.fr/tout-publicold/"
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/122.0.0.0 Safari/537.36"
-    )
+URL = "https://42.agendaculturel.fr/le-triomphe"
+
+MONTHS = {
+    "janv": 1, "jan": 1, "févr": 2, "fevr": 2, "fév": 2, "fev": 2,
+    "mars": 3, "avr": 4, "mai": 5, "juin": 6, "juil": 7,
+    "août": 8, "aout": 8, "sept": 9, "sep": 9, "oct": 10,
+    "nov": 11, "déc": 12, "dec": 12,
 }
+
+DATE_RE = re.compile(
+    r"(\d{1,2})\s+"
+    r"(janv?|févr?|fevr?|mars|avr|mai|juin|juil|août|aout|sept?|oct|nov|déc|dec)"
+    r"\.?\s+(\d{4})",
+    re.IGNORECASE,
+)
 
 def infer_category(title: str) -> str:
     val = title.lower()
-    if any(w in val for w in ("enfant", "fantôme", "sorcière", "jeune public", "conte", "princesse")):
+    if any(w in val for w in ("enfant", "fantôme", "sorcière", "jeune public")):
         return "Jeune public"
     if any(w in val for w in ("magie", "mental", "hypnose")):
         return "Spectacle"
@@ -29,117 +33,86 @@ def infer_category(title: str) -> str:
         return "Humour"
     return "Théâtre"
 
-def fetch_billetweb_events(bw_url: str, show_title: str, show_url: str, today_start: datetime) -> list[dict]:
-    """Extrait les séances directement depuis l'iFrame Billetweb du spectacle."""
-    events = []
+def scrape_triomphe_agenda_culturel() -> list[dict]:
+    # Création du client contournant Cloudflare
+    scraper = cloudscraper.create_scraper()
+    
     try:
-        res = requests.get(bw_url, headers=HEADERS, timeout=10)
-        if res.status_code != 200:
+        response = scraper.get(URL, timeout=20)
+        if response.status_code != 200:
+            print(f"Agenda Culturel : Erreur HTTP {response.status_code}")
             return []
-
-        # Recherche de la variable JS contenant la liste des événements/séances
-        match = re.search(r"var\s+events\s*=\s*(\[.*?\]);", res.text, re.DOTALL)
-        if not match:
-            match = re.search(r"events\s*=\s*(\[.*?\]);", res.text, re.DOTALL)
-
-        if match:
-            data = json.loads(match.group(1))
-            for item in data:
-                start_str = item.get("start") or item.get("date")
-                if not start_str:
-                    continue
-
-                try:
-                    if isinstance(start_str, (int, float)):
-                        dt = datetime.fromtimestamp(start_str, tz=PARIS)
-                    else:
-                        dt = datetime.fromisoformat(start_str.replace("Z", "+00:00")).astimezone(PARIS)
-                except Exception:
-                    continue
-
-                # Filtre : uniquement les séances futures
-                if dt < today_start:
-                    continue
-
-                start = dt.isoformat()
-                events.append({
-                    "id": stable_id("Comédie Triomphe", show_title, start),
-                    "title": show_title,
-                    "start": start,
-                    "venue": "Comédie Triomphe",
-                    "city": "Saint-Étienne",
-                    "category": infer_category(show_title),
-                    "description": clean(item.get("description", ""))[:500],
-                    "url": show_url,
-                    "source": "Comédie Triomphe",
-                })
     except Exception as exc:
-        print(f"Erreur extraction Billetweb ({bw_url}): {exc}")
+        print(f"Agenda Culturel : Erreur d'accès {exc}")
+        return []
 
-    return events
-
-def scrape_comedie_triomphe() -> list[dict]:
+    soup = BeautifulSoup(response.text, "html.parser")
     events = []
     seen = set()
+    
     now = datetime.now(tz=PARIS)
     today_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    try:
-        # 1. Charger la page catalogue
-        res = requests.get(CATALOG_URL, headers=HEADERS, timeout=20)
-        if res.status_code != 200:
-            print(f"Erreur HTTP {res.status_code} sur {CATALOG_URL}")
-            return []
+    # Récupération des cartes de spectacles
+    cards = soup.select(".list-events .event, article, .card-event")
 
-        soup = BeautifulSoup(res.text, "html.parser")
+    for card in cards:
+        title_el = card.select_one("h2, h3, .title")
+        if not title_el:
+            continue
+        
+        title = clean(title_el.get_text())
+        
+        # Lien vers la fiche
+        link_el = card.find("a", href=True)
+        event_url = link_el["href"] if link_el else URL
 
-        # 2. Récupérer tous les liens vers les fiches de spectacle
-        show_links = set()
-        for a in soup.find_all("a", href=True):
-            href = a["href"]
-            if "/spectacle/" in href or "/evenement/" in href:
-                show_links.add(urljoin(CATALOG_URL, href))
+        # Extraction de la date dans le texte de la carte
+        card_text = clean(card.get_text())
+        match = DATE_RE.search(card_text)
+        
+        if not match:
+            continue
 
-        print(f"Comédie Triomphe : {len(show_links)} fiche(s) de spectacle trouvée(s)")
+        day = int(match.group(1))
+        month_str = match.group(2).lower().replace(".", "").replace("é", "e").replace("û", "u")
+        month = MONTHS.get(month_str)
+        year = int(match.group(3))
 
-        # 3. Visiter chaque fiche pour récupérer les séances Billetweb
-        for show_url in show_links:
-            try:
-                sub_res = requests.get(show_url, headers=HEADERS, timeout=10)
-                if sub_res.status_code != 200:
-                    continue
+        if not month:
+            continue
 
-                sub_soup = BeautifulSoup(sub_res.text, "html.parser")
-                
-                # Récupération du titre exact de la pièce
-                title_el = sub_soup.find(["h1", "h2"])
-                if not title_el:
-                    continue
-                title = clean(title_el.get_text(" "))
+        try:
+            # Heure fixée à 20h00 par défaut si non spécifiée
+            dt = datetime(year, month, day, 20, 0, tzinfo=PARIS)
+        except ValueError:
+            continue
 
-                # Recherche du widget de billetterie Billetweb dans la page
-                iframes = sub_soup.find_all("iframe", src=re.compile(r"billetweb\.fr"))
-                for iframe in iframes:
-                    bw_url = iframe.get("src")
-                    if not bw_url:
-                        continue
+        if dt < today_start:
+            continue
 
-                    found_events = fetch_billetweb_events(bw_url, title, show_url, today_start)
-                    for ev in found_events:
-                        if ev["id"] not in seen:
-                            seen.add(ev["id"])
-                            events.append(ev)
+        start = dt.isoformat()
+        event_id = stable_id("Comédie Triomphe", title, start)
 
-            except Exception as exc:
-                print(f"Erreur traitement spectacle {show_url}: {exc}")
+        if event_id in seen:
+            continue
 
-    except Exception as exc:
-        print(f"Erreur globale Comédie Triomphe: {exc}")
+        seen.add(event_id)
+        events.append({
+            "id": event_id,
+            "title": title,
+            "start": start,
+            "venue": "Comédie Triomphe",
+            "city": "Saint-Étienne",
+            "category": infer_category(title),
+            "description": "",
+            "url": event_url,
+            "source": "Agenda Culturel",
+        })
 
-    events.sort(key=lambda e: (e["start"], e["title"].lower()))
-    print(f"Comédie Triomphe : {len(events)} séance(s) à venir retenue(s)")
+    print(f"Agenda Culturel (Triomphe) : {len(events)} événement(s) récupéré(s)")
     return events
 
 if __name__ == "__main__":
-    for event in scrape_comedie_triomphe():
+    for event in scrape_triomphe_agenda_culturel():
         print(event)
