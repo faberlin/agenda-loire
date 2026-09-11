@@ -7,17 +7,17 @@
     "url": "https://mediatheques.saint-etienne.fr/Portal/Recherche/Search.svc/SearchRss?key=23d8f3adc8036a025835ea59faeef58b&useSearchResultSize=true&useSearchSort=false"
   },
   {
-    "name": "Le Fil",
+    "name": "Festival Electro Positive Education",
     "type": "html",
-    "category": "Musique",
+    "category": "Concerts",
     "city": "Saint-Étienne",
-    "url": "https://www.le-fil.com/agenda/"
+    "url": "https://fr.ra.co/events/2486660"
   },
   {
-    "name": "La Comédie de Saint-Étienne",
+    "name": "Frequences Phnmn",
     "type": "html",
-    "category": "Théâtre",
+    "category": "Concerts",
     "city": "Saint-Étienne",
-    "url": "https://www.lacomedie.fr/"
+    "url": "https://frequences.phnmn.fr/"
   }
 ]
