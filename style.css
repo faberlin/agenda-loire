@@ -31,6 +31,42 @@ body {
   line-height: 1.1;
 }
 
+
+.brand-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 0;
+}
+
+.brand-nav h1 a {
+  color: #222 !important;
+  text-decoration: none !important;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  color: #555 !important;
+  text-decoration: none !important;
+  font-size: 13px;
+  padding: 3px 0;
+}
+
+.main-nav a:hover {
+  color: #111 !important;
+}
+
+.main-nav a.active {
+  color: #111 !important;
+  font-weight: 700;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
