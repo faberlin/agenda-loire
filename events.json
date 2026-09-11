@@ -5,7 +5,7 @@
     "start": "2026-09-10T20:00:00+02:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -16,7 +16,7 @@
     "start": "2026-09-10T20:00:00+02:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Danse",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -27,7 +27,7 @@
     "start": "2026-09-11T20:00:00+02:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/the-guy-who-didnt-like-musicals/",
     "source": "La Comète",
@@ -55,7 +55,7 @@
     "start": "2026-09-13T15:00:00+02:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Danse",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -66,7 +66,7 @@
     "start": "2026-09-14T20:30:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-85/",
     "source": "Le Solar"
@@ -143,7 +143,7 @@
     "start": "2026-09-19T11:00:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/journees-du-patrimoine-2026/",
     "source": "Le Fil"
@@ -154,7 +154,7 @@
     "start": "2026-09-19T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/djadja-dinaz/",
     "source": "Zénith Sainté"
@@ -176,7 +176,7 @@
     "start": "2026-09-19T20:30:00+02:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/concert-live/",
     "source": "La Comète"
@@ -198,7 +198,7 @@
     "start": "2026-09-20T14:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/journees-du-patrimoine-2026-2/",
     "source": "Le Fil"
@@ -209,7 +209,7 @@
     "start": "2026-09-20T15:00:00+02:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -231,7 +231,7 @@
     "start": "2026-09-21T20:30:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-86/",
     "source": "Le Solar"
@@ -253,7 +253,7 @@
     "start": "2026-09-24T18:00:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/les-chenopodes/",
     "source": "Le Fil"
@@ -286,7 +286,7 @@
     "start": "2026-09-25T20:30:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/vega-missyl/",
     "source": "Le Solar"
@@ -319,7 +319,7 @@
     "start": "2026-09-27T11:00:00+02:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Danse",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/cest-la-vida-festimomes/",
     "source": "La Comète"
@@ -341,7 +341,7 @@
     "start": "2026-09-27T15:00:00+02:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -352,7 +352,7 @@
     "start": "2026-09-27T18:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/abba-mania/",
     "source": "Zénith Sainté"
@@ -363,7 +363,7 @@
     "start": "2026-09-28T20:30:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-104/",
     "source": "Le Solar"
@@ -374,7 +374,7 @@
     "start": "2026-09-29T19:00:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/section-rythmique-groove/",
     "source": "Le Fil"
@@ -385,7 +385,7 @@
     "start": "2026-10-01T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/talisco/",
     "source": "Le Fil"
@@ -429,7 +429,7 @@
     "start": "2026-10-02T20:00:00+02:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://saint-chamond.fr/events/jazz-musique-du-monde-ana-carla-maza/",
     "source": "Salle Aristide Briand"
@@ -440,7 +440,7 @@
     "start": "2026-10-02T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/tellement-marrant-e-s/",
     "source": "Le Fil"
@@ -451,7 +451,7 @@
     "start": "2026-10-02T20:30:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/generation-celine/",
     "source": "Zénith Sainté"
@@ -478,7 +478,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-mahler/s-883/",
     "source": "Opéra Sainté"
@@ -489,7 +489,7 @@
     "start": "2026-10-03T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/meryl/",
     "source": "Le Fil"
@@ -533,7 +533,7 @@
     "start": "2026-10-05T20:30:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-126/",
     "source": "Le Solar"
@@ -594,7 +594,7 @@
     "session_count": 2,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/va-falloir-toujours-toujours/s-894/",
     "source": "Opéra Sainté"
@@ -627,7 +627,7 @@
     "start": "2026-10-09T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/svinkels-family-friends/",
     "source": "Le Fil"
@@ -671,7 +671,7 @@
     "start": "2026-10-10T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/veronique-sanson/",
     "source": "Zénith Sainté"
@@ -693,7 +693,7 @@
     "start": "2026-10-10T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/orchestra-baobab/",
     "source": "Le Fil"
@@ -715,7 +715,7 @@
     "start": "2026-10-11T15:00:00+02:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -726,7 +726,7 @@
     "start": "2026-10-11T18:00:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/amin-al-aiedy-quartet/",
     "source": "Le Solar"
@@ -737,7 +737,7 @@
     "start": "2026-10-12T20:30:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-127/",
     "source": "Le Solar"
@@ -748,7 +748,7 @@
     "start": "2026-10-13T19:00:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/mixage-en-m-a-o-les-fondamentaux/",
     "source": "Le Fil"
@@ -786,7 +786,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/don-quichotte/s-906/",
     "source": "Opéra Sainté"
@@ -797,7 +797,7 @@
     "start": "2026-10-15T20:00:00+02:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -808,7 +808,7 @@
     "start": "2026-10-15T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/bianca-costa/",
     "source": "Le Fil"
@@ -995,7 +995,7 @@
     "start": "2026-10-16T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/doppler/",
     "source": "Le Fil"
@@ -1017,7 +1017,7 @@
     "start": "2026-10-17T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/the-brooks/",
     "source": "Le Fil"
@@ -1028,7 +1028,7 @@
     "start": "2026-10-17T20:30:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/la-dame-de-pierre/",
     "source": "Zénith Sainté"
@@ -1072,7 +1072,7 @@
     "start": "2026-10-19T20:30:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-128/",
     "source": "Le Solar"
@@ -1089,7 +1089,7 @@
     "session_count": 2,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/the-opera-locos/s-888/",
     "source": "Opéra Sainté"
@@ -1111,7 +1111,7 @@
     "start": "2026-10-23T19:30:00+02:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/hommage-a-miles-davis-les-debuts-dune-legende/",
     "source": "Le Solar"
@@ -1122,7 +1122,7 @@
     "start": "2026-10-23T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-4/",
     "source": "Zénith Sainté"
@@ -1133,7 +1133,7 @@
     "start": "2026-10-23T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/tif/",
     "source": "Le Fil"
@@ -1155,7 +1155,7 @@
     "start": "2026-10-24T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/the-depeche-mode-experience/",
     "source": "Zénith Sainté"
@@ -1188,7 +1188,7 @@
     "start": "2026-10-26T20:30:00+01:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-129/",
     "source": "Le Solar"
@@ -1243,7 +1243,7 @@
     "start": "2026-11-02T20:30:00+01:00",
     "venue": "Le Solar",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-130/",
     "source": "Le Solar"
@@ -1299,7 +1299,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-nuances-utopiques/s-889/",
     "source": "Opéra Sainté"
@@ -1321,7 +1321,7 @@
     "start": "2026-11-05T20:00:00+01:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -1354,7 +1354,7 @@
     "start": "2026-11-06T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/kery-james/",
     "source": "Le Fil"
@@ -1365,7 +1365,7 @@
     "start": "2026-11-06T20:30:00+01:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/complet-edgar-yves-jr/",
     "source": "La Comète"
@@ -1387,7 +1387,7 @@
     "start": "2026-11-07T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/folies/",
     "source": "Le Fil"
@@ -1409,7 +1409,7 @@
     "start": "2026-11-12T19:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/stranded-horse-boubacar-cissokho/",
     "source": "Le Fil"
@@ -1420,7 +1420,7 @@
     "start": "2026-11-12T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/christophe-mae/",
     "source": "Zénith Sainté"
@@ -1431,7 +1431,7 @@
     "start": "2026-11-12T20:00:00+01:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://saint-chamond.fr/events/concert-sinclair/",
     "source": "Salle Aristide Briand"
@@ -1470,7 +1470,7 @@
     "session_count": 3,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmen/s-922/",
     "source": "Opéra Sainté"
@@ -1492,7 +1492,7 @@
     "start": "2026-11-13T22:00:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/live-dub-session-by-aftrwrk-2/",
     "source": "Le Fil"
@@ -1514,7 +1514,7 @@
     "start": "2026-11-14T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/didier-super/",
     "source": "Le Fil"
@@ -1547,7 +1547,7 @@
     "start": "2026-11-15T16:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/casse-noisette-2026/",
     "source": "Zénith Sainté"
@@ -1643,7 +1643,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/inacheve-br-un-fantome-dans-l-opera/s-902/",
     "source": "Opéra Sainté"
@@ -1665,7 +1665,7 @@
     "start": "2026-11-20T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-bruel/",
     "source": "Zénith Sainté"
@@ -1687,7 +1687,7 @@
     "start": "2026-11-20T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/the-inspector-cluzo/",
     "source": "Le Fil"
@@ -1709,7 +1709,7 @@
     "start": "2026-11-21T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo/",
     "source": "Zénith Sainté"
@@ -1720,7 +1720,7 @@
     "start": "2026-11-21T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/robert-finley/",
     "source": "Le Fil"
@@ -1753,7 +1753,7 @@
     "start": "2026-11-23T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/redouane-bougheraba/",
     "source": "Zénith Sainté"
@@ -1770,7 +1770,7 @@
     "session_count": 2,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/cirque-cabarets-portraits-pour-vents/s-884/",
     "source": "Opéra Sainté"
@@ -1830,7 +1830,7 @@
     "start": "2026-11-25T20:00:00+01:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/renan-luce/",
     "source": "La Comète"
@@ -1841,7 +1841,7 @@
     "start": "2026-11-26T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/florent-pagny/",
     "source": "Zénith Sainté"
@@ -1885,7 +1885,7 @@
     "start": "2026-11-27T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/wallace-cleaver/",
     "source": "Le Fil"
@@ -1918,7 +1918,7 @@
     "start": "2026-11-28T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/disney-en-concert/",
     "source": "Zénith Sainté"
@@ -1962,7 +1962,7 @@
     "start": "2026-12-01T19:00:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/statut-et-fiscalite-des-artistes/",
     "source": "Le Fil"
@@ -2013,7 +2013,7 @@
     "start": "2026-12-03T20:00:00+01:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -2024,7 +2024,7 @@
     "start": "2026-12-03T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/amandine-lourdel/",
     "source": "Le Fil"
@@ -2057,7 +2057,7 @@
     "start": "2026-12-04T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/tempete-sonore-3/",
     "source": "Le Fil"
@@ -2101,7 +2101,7 @@
     "start": "2026-12-05T15:00:00+01:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Danse",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/ballets-et-legendes-de-tahiti/",
     "source": "La Comète"
@@ -2112,7 +2112,7 @@
     "start": "2026-12-05T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
     "source": "Zénith Sainté"
@@ -2128,7 +2128,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/notte-morricone/s-907/",
     "source": "Opéra Sainté"
@@ -2172,7 +2172,7 @@
     "start": "2026-12-06T15:00:00+01:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Spectacle",
+    "category": "Théâtre",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -2183,7 +2183,7 @@
     "start": "2026-12-06T19:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
     "source": "Zénith Sainté"
@@ -2228,7 +2228,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/kosmos-/s-890/",
     "source": "Opéra Sainté"
@@ -2239,7 +2239,7 @@
     "start": "2026-12-09T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/coeur-de-pirate/",
     "source": "Le Fil"
@@ -2266,7 +2266,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/traversee/s-903/",
     "source": "Opéra Sainté"
@@ -2277,7 +2277,7 @@
     "start": "2026-12-10T20:30:00+01:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/the-amy-winehouse-band/",
     "source": "La Comète"
@@ -2288,7 +2288,7 @@
     "start": "2026-12-11T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/the-jeff-panacloc-company/",
     "source": "Zénith Sainté"
@@ -2299,7 +2299,7 @@
     "start": "2026-12-11T20:00:00+01:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://saint-chamond.fr/events/polyphonies-et-percussions-les-mecanos/",
     "source": "Salle Aristide Briand"
@@ -2310,7 +2310,7 @@
     "start": "2026-12-11T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/guadal-tejaz/",
     "source": "Le Fil"
@@ -2343,7 +2343,7 @@
     "start": "2026-12-12T23:00:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/mamacita/",
     "source": "Le Fil"
@@ -2354,7 +2354,7 @@
     "start": "2026-12-13T15:00:00+01:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Spectacle",
+    "category": "Théâtre",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -2400,7 +2400,7 @@
     "session_count": 2,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/un-bateau/s-904/",
     "source": "Opéra Sainté"
@@ -2411,7 +2411,7 @@
     "start": "2026-12-16T15:00:00+01:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://saint-chamond.fr/events/concert-jeune-public-labecedaire-de-boris-vian/",
     "source": "Salle Aristide Briand"
@@ -2441,7 +2441,7 @@
     "start": "2026-12-17T20:00:00+01:00",
     "venue": "Théâtre de Poche des Brankignols",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
@@ -2452,7 +2452,7 @@
     "start": "2026-12-18T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/fabrice-eboue/",
     "source": "Zénith Sainté"
@@ -2468,7 +2468,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/didon-et-enee/s-891/",
     "source": "Opéra Sainté"
@@ -2677,7 +2677,7 @@
     "start": "2026-12-20T11:00:00+01:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Exposition",
+    "category": "Spectacle",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/des-reves-dans-le-sable-festimomes/",
     "source": "La Comète"
@@ -2716,7 +2716,7 @@
     "session_count": 2,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmina-burana/s-923/",
     "source": "Opéra Sainté"
@@ -2732,7 +2732,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/4-saisons-dansees/s-908/",
     "source": "Opéra Sainté"
@@ -2743,7 +2743,7 @@
     "start": "2027-01-08T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/il-etait-une-fois/",
     "source": "Zénith Sainté"
@@ -2800,7 +2800,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/le-contre-chant-des-sirenes/s-905/",
     "source": "Opéra Sainté"
@@ -2811,7 +2811,7 @@
     "start": "2027-01-15T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/yann-guillarme/",
     "source": "Le Fil"
@@ -2822,7 +2822,7 @@
     "start": "2027-01-16T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/thomas-marty/",
     "source": "Zénith Sainté"
@@ -2833,7 +2833,7 @@
     "start": "2027-01-16T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/gildaa/",
     "source": "Le Fil"
@@ -2895,7 +2895,7 @@
     "start": "2027-01-22T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/rfm-party-80/",
     "source": "Zénith Sainté"
@@ -2911,7 +2911,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/broadway-rhapsody/s-892/",
     "source": "Opéra Sainté"
@@ -2922,7 +2922,7 @@
     "start": "2027-01-22T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/zamdane/",
     "source": "Le Fil"
@@ -2949,7 +2949,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/le-complexe-des-homards/s-909/",
     "source": "Opéra Sainté"
@@ -2960,7 +2960,7 @@
     "start": "2027-01-23T19:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/octogone-mma/",
     "source": "Zénith Sainté"
@@ -2997,7 +2997,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/ceux-qui-sont-partis-ceux-de-l-infini/s-893/",
     "source": "Opéra Sainté"
@@ -3037,7 +3037,7 @@
     "start": "2027-01-27T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/forever/",
     "source": "Zénith Sainté"
@@ -3064,7 +3064,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/les-quatre-saisons-br-vivaldi-richter/s-885/",
     "source": "Opéra Sainté"
@@ -3075,7 +3075,7 @@
     "start": "2027-01-28T20:30:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/bigflo-oli/",
     "source": "Zénith Sainté"
@@ -3086,7 +3086,7 @@
     "start": "2027-01-29T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/les-4-saisons/",
     "source": "Zénith Sainté"
@@ -3097,7 +3097,7 @@
     "start": "2027-01-29T20:00:00+01:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://saint-chamond.fr/events/concert-noemi-waysfeld-chante-barbara/",
     "source": "Salle Aristide Briand"
@@ -3108,7 +3108,7 @@
     "start": "2027-01-29T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/skip-the-use/",
     "source": "Le Fil"
@@ -3130,7 +3130,7 @@
     "start": "2027-01-30T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/bernard-lavilliers/",
     "source": "Zénith Sainté"
@@ -3141,7 +3141,7 @@
     "start": "2027-01-30T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/ultra-vomit/",
     "source": "Le Fil"
@@ -3174,7 +3174,7 @@
     "start": "2027-01-31T18:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/500-voix-pour-johnny/",
     "source": "Zénith Sainté"
@@ -3227,7 +3227,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/oiseau-guide-de-survie-/s-910/",
     "source": "Opéra Sainté"
@@ -3238,7 +3238,7 @@
     "start": "2027-02-04T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/grand-corps-malade/",
     "source": "Zénith Sainté"
@@ -3254,7 +3254,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/l-amour-sorcier-don-quichotte/s-913/",
     "source": "Opéra Sainté"
@@ -3265,7 +3265,7 @@
     "start": "2027-02-05T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/michele-laroque-et-kad-merad/",
     "source": "Zénith Sainté"
@@ -3309,7 +3309,7 @@
     "start": "2027-02-07T16:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/les-etoiles-du-cirque-de-pekin/",
     "source": "Zénith Sainté"
@@ -3325,7 +3325,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/macera/s-914/",
     "source": "Opéra Sainté"
@@ -3376,7 +3376,7 @@
     "start": "2027-02-11T20:00:00+01:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://saint-chamond.fr/events/concert-operette-offenbach-en-fete/",
     "source": "Salle Aristide Briand"
@@ -3387,7 +3387,7 @@
     "start": "2027-02-12T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/la-ptite-fumee/",
     "source": "Le Fil"
@@ -3409,7 +3409,7 @@
     "start": "2027-02-13T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/veronic-dicaire/",
     "source": "Zénith Sainté"
@@ -3519,7 +3519,7 @@
     "start": "2027-02-20T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/lee-fields/",
     "source": "Le Fil"
@@ -3640,7 +3640,7 @@
     "start": "2027-02-26T19:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/aldebert/",
     "source": "Zénith Sainté"
@@ -3782,7 +3782,7 @@
     "start": "2027-03-05T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/magic-system/",
     "source": "Zénith Sainté"
@@ -3799,7 +3799,7 @@
     "session_count": 2,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/roland-a-roncevaux/s-924/",
     "source": "Opéra Sainté"
@@ -3832,7 +3832,7 @@
     "start": "2027-03-06T15:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/celtic-legends-2027/",
     "source": "Zénith Sainté"
@@ -3848,7 +3848,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/mikro-bartok/s-912/",
     "source": "Opéra Sainté"
@@ -3877,7 +3877,7 @@
     "start": "2027-03-10T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/la-lettre/",
     "source": "Zénith Sainté"
@@ -3904,7 +3904,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/dites-le-donc-avec-des-fleurs-/s-895/",
     "source": "Opéra Sainté"
@@ -3937,7 +3937,7 @@
     "start": "2027-03-12T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/izia/",
     "source": "Le Fil"
@@ -3948,7 +3948,7 @@
     "start": "2027-03-12T20:30:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/putain-de-renaud/",
     "source": "Zénith Sainté"
@@ -3981,7 +3981,7 @@
     "start": "2027-03-14T17:00:00+01:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://saint-chamond.fr/events/concert-andre-manoukian-et-rosemary-stanley/",
     "source": "Salle Aristide Briand"
@@ -3997,7 +3997,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/florian-caroubi/s-899/",
     "source": "Opéra Sainté"
@@ -4013,7 +4013,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/philippe-cassard/s-900/",
     "source": "Opéra Sainté"
@@ -4065,7 +4065,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/mozart-paradox/s-901/",
     "source": "Opéra Sainté"
@@ -4087,7 +4087,7 @@
     "start": "2027-03-18T19:30:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/k-pop-forever/",
     "source": "Zénith Sainté"
@@ -4103,7 +4103,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-tchaikovski/s-886/",
     "source": "Opéra Sainté"
@@ -4114,7 +4114,7 @@
     "start": "2027-03-18T20:00:00+01:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Danse",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "https://saint-chamond.fr/events/danse-pulse/",
     "source": "Salle Aristide Briand"
@@ -4125,7 +4125,7 @@
     "start": "2027-03-19T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/messmer-2027/",
     "source": "Zénith Sainté"
@@ -4147,7 +4147,7 @@
     "start": "2027-03-20T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/leila-huissoud/",
     "source": "Le Fil"
@@ -4158,7 +4158,7 @@
     "start": "2027-03-20T20:30:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/keenv/",
     "source": "Zénith Sainté"
@@ -4180,7 +4180,7 @@
     "start": "2027-03-21T18:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/ninho/",
     "source": "Zénith Sainté"
@@ -4191,7 +4191,7 @@
     "start": "2027-03-23T19:00:00+01:00",
     "venue": "Salle Aristide Briand",
     "city": "Saint-Chamond",
-    "category": "Danse",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "https://saint-chamond.fr/events/theatre-danse-cross/",
     "source": "Salle Aristide Briand"
@@ -4207,7 +4207,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/aurore-express/s-896/",
     "source": "Opéra Sainté"
@@ -4223,7 +4223,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/piracema-parabelo/s-915/",
     "source": "Opéra Sainté"
@@ -4250,7 +4250,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/la-truite/s-897/",
     "source": "Opéra Sainté"
@@ -4316,7 +4316,7 @@
     "start": "2027-04-01T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/howlin-jaws/",
     "source": "Le Fil"
@@ -4360,7 +4360,7 @@
     "start": "2027-04-03T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/assassin/",
     "source": "Le Fil"
@@ -4413,7 +4413,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/ma-couverture-et-moi/s-917/",
     "source": "Opéra Sainté"
@@ -4435,7 +4435,7 @@
     "start": "2027-04-09T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/leopold-lemarchand/",
     "source": "Le Fil"
@@ -4479,7 +4479,7 @@
     "start": "2027-04-15T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/lou-sonata-3/",
     "source": "Le Fil"
@@ -4501,7 +4501,7 @@
     "start": "2027-04-22T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/la-yegros/",
     "source": "Le Fil"
@@ -4547,7 +4547,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/les-insulaires-islander-/s-918/",
     "source": "Opéra Sainté"
@@ -4576,7 +4576,7 @@
     "session_count": 3,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/romeo-et-juliette/s-925/",
     "source": "Opéra Sainté"
@@ -4603,7 +4603,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/antichambre/s-919/",
     "source": "Opéra Sainté"
@@ -4619,7 +4619,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/coppelia/s-916/",
     "source": "Opéra Sainté"
@@ -4740,7 +4740,7 @@
     "start": "2027-05-22T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/the-world-of-queen-2/",
     "source": "Zénith Sainté"
@@ -4768,7 +4768,7 @@
     "session_count": 2,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/variations-pour-un-parapluie/s-920/",
     "source": "Opéra Sainté"
@@ -4801,7 +4801,7 @@
     "start": "2027-06-03T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/sarah-schwab-2027/",
     "source": "Zénith Sainté"
@@ -4817,7 +4817,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/vite-un-selfie-/s-921/",
     "source": "Opéra Sainté"
@@ -4828,7 +4828,7 @@
     "start": "2027-06-05T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027/",
     "source": "Zénith Sainté"
@@ -4850,7 +4850,7 @@
     "start": "2027-06-12T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/frederic-francois/",
     "source": "Zénith Sainté"
@@ -4868,7 +4868,7 @@
     "session_count": 3,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/turandot/s-926/",
     "source": "Opéra Sainté"
@@ -4931,7 +4931,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-liberations/s-898/",
     "source": "Opéra Sainté"
@@ -4947,7 +4947,7 @@
     "session_count": 1,
     "venue": "Opéra de Saint-Etienne",
     "city": "Saint-Étienne",
-    "category": "Opéra",
+    "category": "Opéra-Danse",
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/berlioz-en-italie/s-887/",
     "source": "Opéra Sainté"
@@ -4958,7 +4958,7 @@
     "start": "2027-10-01T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/vianney/",
     "source": "Zénith Sainté"
@@ -4969,7 +4969,7 @@
     "start": "2027-10-13T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/philippe-caveriviere/",
     "source": "Zénith Sainté"
@@ -4980,7 +4980,7 @@
     "start": "2027-10-15T20:30:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/one-night-of-queen-2026/",
     "source": "Zénith Sainté"
@@ -4991,7 +4991,7 @@
     "start": "2027-10-16T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
@@ -5002,7 +5002,7 @@
     "start": "2027-11-06T20:30:00+01:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/esther-abrami/",
     "source": "La Comète"
@@ -5013,7 +5013,7 @@
     "start": "2027-11-20T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/i-gotta-feeling/",
     "source": "Zénith Sainté"
@@ -5024,7 +5024,7 @@
     "start": "2027-11-27T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/hoshi-2027/",
     "source": "Zénith Sainté"
@@ -5035,7 +5035,7 @@
     "start": "2027-12-16T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-fiori-2027/",
     "source": "Zénith Sainté"
@@ -5046,7 +5046,7 @@
     "start": "2028-01-28T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/festival-mondiale-de-la-magie/",
     "source": "Zénith Sainté"
@@ -5057,7 +5057,7 @@
     "start": "2028-02-27T17:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/piaf-le-spectacle/",
     "source": "Zénith Sainté"
@@ -5068,7 +5068,7 @@
     "start": "2028-03-19T17:30:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
-    "category": "Musique",
+    "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/goldmen-2028/",
     "source": "Zénith Sainté"
