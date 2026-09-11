@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Agenda Loire — Spectacles</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=20260911-1" />
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="config.js"></script>
@@ -31,18 +31,46 @@
       </div>
     </header>
 
-    <section class="filters-top">
+    <section class="filters-top filters-top-single">
       <input
         id="search"
         type="search"
         placeholder="Rechercher un événement, un lieu..."
       />
-
-      <select id="period"></select>
     </section>
 
-    <section class="multi-filters">
-      <div class="filter-group">
+    <section class="multi-filters spectacles-filters">
+      <div class="filter-group period-filter-group">
+        <div class="filter-heading">
+          <strong>Période</strong>
+        </div>
+
+        <div class="period-checkboxes">
+          <label class="filter-check">
+            <input
+              id="period7"
+              type="checkbox"
+              value="7"
+            />
+            <span>7 prochains jours</span>
+          </label>
+
+          <label class="filter-check">
+            <input
+              id="period30"
+              type="checkbox"
+              value="30"
+            />
+            <span>30 prochains jours</span>
+          </label>
+        </div>
+
+        <div class="period-help">
+          Aucune case cochée = tout
+        </div>
+      </div>
+
+      <div class="filter-group filter-group-wide">
         <div class="filter-heading">
           <strong>Catégories</strong>
 
@@ -60,32 +88,24 @@
           class="filter-options"
         ></div>
       </div>
-
-      <div class="filter-group filter-group-wide">
-        <div class="filter-heading">
-          <strong>Sources / programmations</strong>
-
-          <button
-            type="button"
-            class="filter-clear"
-            data-clear="sourceFilters"
-          >
-            Tout décocher
-          </button>
-        </div>
-
-        <div
-          id="sourceFilters"
-          class="filter-options"
-        ></div>
-      </div>
     </section>
 
     <nav class="tabs" aria-label="Filtres d'état">
-      <button class="tab active" type="button" data-tab="visible">À voir</button>
-      <button class="tab" type="button" data-tab="favorites">Favoris</button>
-      <button class="tab" type="button" data-tab="reserved">Réservés</button>
-      <button class="tab" type="button" data-tab="hidden">Masqués</button>
+      <button class="tab active" type="button" data-tab="visible">
+        À voir
+      </button>
+
+      <button class="tab" type="button" data-tab="favorites">
+        Favoris
+      </button>
+
+      <button class="tab" type="button" data-tab="reserved">
+        Réservés
+      </button>
+
+      <button class="tab" type="button" data-tab="hidden">
+        Masqués
+      </button>
     </nav>
 
     <div id="status" class="status"></div>
@@ -115,6 +135,6 @@
     </form>
   </dialog>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=20260911-1"></script>
 </body>
 </html>

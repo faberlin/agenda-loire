@@ -1,4 +1,6 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -23,42 +25,10 @@ body {
   margin-bottom: 10px;
 }
 
-.brand-nav {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  min-width: 0;
-}
-
 .header h1 {
   margin: 0;
   font-size: 24px;
   line-height: 1.1;
-  white-space: nowrap;
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-
-.main-nav a {
-  color: #555;
-  text-decoration: none;
-  font-size: 13px;
-  padding: 3px 0;
-}
-
-.main-nav a:hover {
-  color: #111;
-  text-decoration: underline;
-}
-
-.main-nav a.active {
-  color: #111;
-  font-weight: 700;
 }
 
 .header-actions {
@@ -67,8 +37,12 @@ body {
   gap: 8px;
 }
 
+.header-actions a,
 .header-actions button {
   font: inherit;
+}
+
+.header-actions button {
   border: 1px solid #222;
   background: #111;
   color: #fff;
@@ -79,13 +53,12 @@ body {
 
 .filters-top {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr);
   gap: 10px;
   margin-bottom: 10px;
 }
 
-.filters-top input,
-.filters-top select {
+.filters-top input {
   width: 100%;
   min-width: 0;
   border: 1px solid #d1d5db;
@@ -102,6 +75,19 @@ body {
   margin-bottom: 10px;
 }
 
+.period-checkboxes {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.period-help {
+  margin-top: 7px;
+  color: #777;
+  font-size: 11px;
+}
+
 .filter-group {
   min-width: 0;
   border: 1px solid #d8d8d8;
@@ -116,6 +102,10 @@ body {
   justify-content: space-between;
   gap: 10px;
   margin-bottom: 8px;
+}
+
+.filter-heading strong {
+  font-size: 13px;
 }
 
 .filter-clear {
@@ -147,7 +137,10 @@ body {
   line-height: 1.2;
 }
 
-.filter-check input { margin: 0; }
+.filter-check input {
+  margin: 0;
+  flex: 0 0 auto;
+}
 
 .filter-check span {
   min-width: 0;
@@ -266,37 +259,6 @@ body {
 .theme-jeune-public { background: #edf7df; }
 .theme-cinema { background: #ecebff; }
 
-.planning-toolbar {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin: 6px 0 10px;
-}
-
-.planning-toolbar button {
-  border: 1px solid #d1d5db;
-  background: #fff;
-  border-radius: 6px;
-  padding: 5px 9px;
-  cursor: pointer;
-  font: inherit;
-}
-
-#weekLabel { margin-left: 6px; }
-
-.empty-page {
-  border-top: 1px solid #e5e7eb;
-  padding-top: 18px;
-}
-
-.empty-page h2 {
-  margin: 0 0 6px;
-  font-size: 18px;
-}
-
-.empty-page p { color: #666; }
-
 dialog {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -326,27 +288,28 @@ dialog {
 }
 
 @media (max-width: 1100px) {
-  .multi-filters { grid-template-columns: 1fr; }
+  .multi-filters {
+    grid-template-columns: 1fr;
+  }
+
   .filter-group-wide .filter-options {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 800px) {
-  .page { padding: 10px; }
+  .page {
+    padding: 10px;
+  }
 
   .header {
     align-items: flex-start;
     flex-direction: column;
   }
 
-  .brand-nav {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 8px;
+  .filters-top {
+    grid-template-columns: 1fr;
   }
-
-  .filters-top { grid-template-columns: 1fr; }
 
   .filter-options,
   .filter-group-wide .filter-options {
@@ -358,7 +321,9 @@ dialog {
     flex-direction: column;
   }
 
-  .actions { flex-wrap: wrap; }
+  .actions {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 520px) {
