@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import argparse
 import hashlib
 import importlib
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -235,7 +237,6 @@ def dedupe(events: list[dict]) -> list[dict]:
     return result
 
 
-
 DEDICATED_SCRAPERS = [
     ("mediatheques", "scrape_mediatheques"),
     ("le_fil", "scrape_le_fil"),
@@ -327,36 +328,65 @@ def normalized_source_name(value: str) -> str:
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Agenda Loire Scraper")
+    parser.add_argument(
+        "--only",
+        type=str,
+        help="Exécuter un seul scraper dédié (ex: comedie_triomphe ou triomphe)"
+    )
+    args = parser.parse_args()
+
     all_events = []
 
-    for source in SOURCES:
-        try:
-            source_name = normalized_source_name(source.get("name", ""))
+    # Exécution ciblée d'un seul scraper dédié
+    if args.only:
+        target = args.only.lower().strip()
+        matched_scraper = None
 
-            # Un lieu ayant un scraper dédié ne doit pas être collecté
-            # une deuxième fois via sources.json.
-            if source_name in DEDICATED_SOURCE_NAMES:
-                print(
-                    f'{source["name"]}: ignoré dans sources.json '
-                    f'(scraper dédié)'
-                )
-                continue
+        for module_name, func_name in DEDICATED_SCRAPERS:
+            if target in (module_name, func_name) or target in module_name:
+                matched_scraper = (module_name, func_name)
+                break
 
-            if source["type"] == "rss":
-                found = parse_feed(source)
-            else:
-                found = parse_generic_html(source)
-
-            print(f'{source["name"]}: {len(found)} événement(s)')
+        if matched_scraper:
+            module_name, func_name = matched_scraper
+            print(f"🚀 Lancement ciblé du scraper : {module_name}")
+            found = run_dedicated_scraper(module_name, func_name)
             all_events.extend(found)
+        else:
+            print(f"❌ Aucun scraper trouvé pour l'argument --only : '{args.only}'")
+            return
 
-        except Exception as exc:
-            print(f'ERREUR {source["name"]}: {exc}')
+    # Exécution globale standard
+    else:
+        for source in SOURCES:
+            try:
+                source_name = normalized_source_name(source.get("name", ""))
 
-    # Scrapers dédiés
-    for module_name, function_name in DEDICATED_SCRAPERS:
-        found = run_dedicated_scraper(module_name, function_name)
-        all_events.extend(found)
+                # Un lieu ayant un scraper dédié ne doit pas être collecté
+                # une deuxième fois via sources.json.
+                if source_name in DEDICATED_SOURCE_NAMES:
+                    print(
+                        f'{source["name"]}: ignoré dans sources.json '
+                        f'(scraper dédié)'
+                    )
+                    continue
+
+                if source["type"] == "rss":
+                    found = parse_feed(source)
+                else:
+                    found = parse_generic_html(source)
+
+                print(f'{source["name"]}: {len(found)} événement(s)')
+                all_events.extend(found)
+
+            except Exception as exc:
+                print(f'ERREUR {source["name"]}: {exc}')
+
+        # Scrapers dédiés
+        for module_name, function_name in DEDICATED_SCRAPERS:
+            found = run_dedicated_scraper(module_name, function_name)
+            all_events.extend(found)
 
     all_events = dedupe(all_events)
 
