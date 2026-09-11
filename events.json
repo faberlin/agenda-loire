@@ -1,5 +1,27 @@
 [
   {
+    "id": "5476db2ad6d7687df76e",
+    "title": "Use tab to navigate through the menu items.",
+    "start": "2026-09-10T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "e84b3029c8decb8edd0b",
+    "title": "St-Germain-des-Prés",
+    "start": "2026-09-10T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
     "id": "6bd407beee82921cdde5",
     "title": "The Guy Who Didn't Like Musicals",
     "start": "2026-09-11T20:00:00+02:00",
@@ -39,12 +61,23 @@
     "id": "4062c4a44463a0532ad2",
     "title": "Quinzaine Souad Labbize : une autrice - des artistes - une ville - des lieux",
     "start": "2026-09-12T14:30:00+02:00",
-    "venue": "Médiathèques Sainté",
+    "venue": "Médiathèques de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Littérature",
     "description": "Quinzaine Souad Labbize : une autrice - des a... Ateliers de traduction Du 12/09/2026 14:30 au 23/09/2026 16:30 Catégorie Culture littéraire Localisation Médiathèques de Saint-Étienne La Quinzaine invite le public à découvrir une autrice ou un auteur à travers son oeuvre, ses engagements et les échos qu’elle ou il suscite dans la ville. Pour cette édition, la Quinzaine met à l’honneur Souad Labbize, poète, romancière et traductric...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2436/quinzaine-souad-labbize-une-autrice-des-artistes-une-ville-des-lieux",
-    "source": "Médiathèques Sainté"
+    "source": "Médiathèques de Saint-Étienne"
+  },
+  {
+    "id": "18837ff5e715c2ebc766",
+    "title": "ANAÏS",
+    "start": "2026-09-13T15:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Danse",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "be65b9df449f83904145",
@@ -61,12 +94,12 @@
     "id": "3b87bc24810145691b8f",
     "title": "Les maisons d'Albertine et de Germano",
     "start": "2026-09-15T10:00:00+02:00",
-    "venue": "Médiathèques Sainté",
+    "venue": "Médiathèques de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Littérature",
     "description": "Les maisons d'Albertine et de Germano 40e fête du livre : exposition Du 15/09/2026 10:00 au 17/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Découvrez une exposition inédite réalisée par Albertine et Germano Zullo. Albertine est artiste et illustratrice, Germano est auteur. Compagnons de vie, ils collaborent régulièrement ensemble.Ils ont notamment réalisé Les Oiseaux (2010), récompensé p...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2437/les-maisons-d-albertine-et-de-germano",
-    "source": "Médiathèques Sainté"
+    "source": "Médiathèques de Saint-Étienne"
   },
   {
     "id": "68ef65858c420f2800c3",
@@ -94,23 +127,23 @@
     "id": "20e7285ba9233827721f",
     "title": "Journées européennes du patrimoine (J.E.P. 2026) : patrimoine en péril - raviver, résister, réinventer",
     "start": "2026-09-18T10:00:00+02:00",
-    "venue": "Médiathèques Sainté",
+    "venue": "Médiathèques de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Littérature",
     "description": "Journées européennes du patrimoine (J.E.P. 20... JEP 2026 Du 18/09/2026 10:00 au 31/10/2026 18:30 Catégorie Festivités Localisation Médiathèques municipales Les 43e Journées européennes du patrimoine se tiendront les 19 et 20 septembre 2026, avec une ouverture scolaire le vendredi 18 septembre. Les thèmes nationaux de cette édition sont le « Patrimoine de la photographie » et le « Patrimoine en péril : r...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2435/journees-europeennes-du-patrimoine-j-e-p-2026-patrimoine-en-peril-raviver-resister-reinventer",
-    "source": "Médiathèques Sainté"
+    "source": "Médiathèques de Saint-Étienne"
   },
   {
     "id": "68d9f822b1712b348d37",
     "title": "Sauvegarder des documents anciens : raviver, résister, réimaginer",
     "start": "2026-09-18T10:00:00+02:00",
-    "venue": "Médiathèques Sainté",
+    "venue": "Médiathèques de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Littérature",
     "description": "Sauvegarder des documents anciens : raviver, ... JEP 2026 Du 18/09/2026 10:00 au 31/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Une exposition d'ouvrages patrimoniaux remarquables sortis des réserves, pour apprécier des livres anciens, rares et précieux. Ces documents sont parfois abîmés et fragiles. Face aux menaces du temps, il est nécessaire de les conserver pour l'avenir....",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2396/sauvegarder-des-documents-anciens-raviver-resister-reimaginer",
-    "source": "Médiathèques Sainté"
+    "source": "Médiathèques de Saint-Étienne"
   },
   {
     "id": "8697626ae2ec2b7e2dde",
@@ -174,6 +207,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "d6ea8caf77c83432ec13",
+    "title": "TROTWOOD",
+    "start": "2026-09-19T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
     "id": "c3669f5cfc0e290ece22",
     "title": "Concert live",
     "start": "2026-09-19T20:30:00+02:00",
@@ -205,6 +249,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/journees-du-patrimoine-2026-2/",
     "source": "Le Fil"
+  },
+  {
+    "id": "a150de45c1a0b994b7d2",
+    "title": "​",
+    "start": "2026-09-20T15:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "469e70b1276e5ce713ba",
@@ -260,12 +315,12 @@
     "id": "17ebde62040daf04c268",
     "title": "Fête du livre de Saint-Étienne 2026",
     "start": "2026-09-22T12:00:00+02:00",
-    "venue": "Médiathèques Sainté",
+    "venue": "Médiathèques de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Littérature",
     "description": "Fête du livre de Saint-Étienne 2026 Du 22/09/2026 12:00 au 11/10/2026 18:00 Catégorie Festivités Localisation Médiathèques municipales La Fête du livre aura lieu du 9 au 11 octobre 2026 sur la place de l'Hôtel de Ville et dans le centre-ville. L'accès à l'événement est entièrement gratuit. Le parrain de cette édition anniversaire est l'écrivain Bernard Minier, et l'affiche officiell...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2546/fete-du-livre-de-saint-etienne-2026",
-    "source": "Médiathèques Sainté"
+    "source": "Médiathèques de Saint-Étienne"
   },
   {
     "id": "717efcd1bee484cff6e5",
@@ -372,6 +427,28 @@
     "source": "La Comète"
   },
   {
+    "id": "eab478927c0fbb205c1b",
+    "title": "St Cham Battle Kids",
+    "start": "2026-09-27T14:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/st-cham-battle-kids/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "8f147196649487c95c2e",
+    "title": "MARTINE",
+    "start": "2026-09-27T15:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
     "id": "eefedb121cff3d032d30",
     "title": "ABBA MANIA THE ABBA TRIBUTE",
     "start": "2026-09-27T18:00:00+02:00",
@@ -430,12 +507,12 @@
     "id": "dd6eb2e754508e3d2376",
     "title": "Jules Verne et les savants « fous »",
     "start": "2026-10-02T13:00:00+02:00",
-    "venue": "Médiathèques Sainté",
+    "venue": "Médiathèques de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Littérature",
     "description": "Jules Verne et les savants « fous » Biblis en folie : exposition Du 02/10/2026 13:00 au 28/10/2026 18:30 Catégorie Exposition Localisation Tréfilerie Parfois excentrique, souvent mégalomane, toujours dangereux, le personnage du savant fou irradie la littérature, aussi bien dans les romans de Jules Verne que dans d'autres oeuvres classiques. Entre génie et folie, venez à la rencontre de ces personn...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2486/jules-verne-et-les-savants-fous",
-    "source": "Médiathèques Sainté"
+    "source": "Médiathèques de Saint-Étienne"
   },
   {
     "id": "2c652fe89043a733b808",
@@ -474,6 +551,17 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/la-guerre-des-sexes/",
     "source": "La Comète"
+  },
+  {
+    "id": "e79d467c7fa02ea237d7",
+    "title": "Jazz - musique du monde - ana carla maza",
+    "start": "2026-10-02T20:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Musique",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/jazz-musique-du-monde-ana-carla-maza/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "aaefa297c21533b0f430",
@@ -622,6 +710,17 @@
     "source": "Comédie Triomphe"
   },
   {
+    "id": "8655f08ae2124f333dcb",
+    "title": "Loto - St-Chamond Espoir",
+    "start": "2026-10-04T14:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/loto-st-chamond-espoir/",
+    "source": "Salle Aristide Briand"
+  },
+  {
     "id": "ababadbf7ca909c5044a",
     "title": "Le défi poétique d’une femme afghane [ 360° de Trajectoires ]",
     "start": "2026-10-04T16:30:00+02:00",
@@ -743,6 +842,17 @@
     "source": "Comédie Triomphe"
   },
   {
+    "id": "67729810987b37ea1cb2",
+    "title": "Théâtre musical - \"Dépisto-girl\"",
+    "start": "2026-10-09T20:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-musical-depisto-girl/",
+    "source": "Salle Aristide Briand"
+  },
+  {
     "id": "1092b498c1e7b4214fca",
     "title": "Svinkels Family & Friends + Satchok",
     "start": "2026-10-09T20:30:00+02:00",
@@ -816,6 +926,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "4bb3eb78ca9b06e9ebac",
+    "title": "TROTWOOD",
+    "start": "2026-10-10T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
     "id": "352145e57aa8727d14f1",
     "title": "Orchestra Baobab",
     "start": "2026-10-10T20:30:00+02:00",
@@ -836,6 +957,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/gaetan-petit",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "558d45f7607bfc4ec72d",
+    "title": "RENATA",
+    "start": "2026-10-11T15:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "c40a5bc5ab9a07e2729a",
@@ -893,6 +1025,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "be08cb328c0863749d17",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2026-10-15T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
+    "source": "La Ricane"
+  },
+  {
     "id": "fd8d700deb1af4e1e398",
     "title": "Don Quichotte Le Théâtre du Corps Pietragalla - Derouault",
     "start": "2026-10-15T20:00:00+02:00",
@@ -907,6 +1050,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/don-quichotte/s-906/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "dafcadc9e0ddf1844381",
+    "title": "JAZZ FOREZ’VER",
+    "start": "2026-10-15T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "1ca4c6062bd403493c89",
@@ -940,6 +1094,28 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/kino",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "f4ee07fc7b2ecc929fa8",
+    "title": "CAP SUR L’îLE AU TRESOR",
+    "start": "2026-10-17T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/cap-sur-lile-au-tresor/",
+    "source": "La Ricane"
+  },
+  {
+    "id": "4b0d56b80888f8c312c5",
+    "title": "LE POISON DES BLEUETS – MURDER PARTY",
+    "start": "2026-10-17T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/murder-party-le-poison-des-bleuets/",
+    "source": "La Ricane"
   },
   {
     "id": "b0f96b1809a4af4e7123",
@@ -1036,6 +1212,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "d08db1a8617295fcff01",
+    "title": "DERRIERE LA PORTE",
+    "start": "2026-10-23T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/derriere-la-porte/",
+    "source": "La Ricane"
+  },
+  {
     "id": "f5e3542b619bc6ca1fe3",
     "title": "Hommage à Miles Davis – Les débuts d’une Légende",
     "start": "2026-10-23T19:30:00+02:00",
@@ -1078,6 +1265,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nassim-mellah",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "0156acdefcfb8fae6672",
+    "title": "DERRIERE LA PORTE",
+    "start": "2026-10-24T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/derriere-la-porte-2/",
+    "source": "La Ricane"
   },
   {
     "id": "ea0134b582f8f0f753e8",
@@ -1235,6 +1433,28 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "9076c75a1f13549010e9",
+    "title": "Humour musical - les goguettes (en trio mais à quatre)",
+    "start": "2026-11-05T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/humour-musical-les-goguettes-en-trio-mais-a-quatre/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "bb9f22e4ddb2d25e7093",
+    "title": "Orchestre Séneçon",
+    "start": "2026-11-05T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
     "id": "de4abd14ee5373fd9569",
     "title": "AMINE RADI",
     "start": "2026-11-05T20:30:00+01:00",
@@ -1334,6 +1554,28 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "a1a60b293eef52b265fc",
+    "title": "Concert - sinclair",
+    "start": "2026-11-12T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Musique",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-sinclair/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "15a63f2266477096a4bc",
+    "title": "DIRTY OLD FRIENDS",
+    "start": "2026-11-13T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://laricane.com/event/dirty-old-friends/",
+    "source": "La Ricane"
+  },
+  {
     "id": "2394d84b57219686fe14",
     "title": "Un pouce en cavale",
     "start": "2026-11-13T10:00:00+01:00",
@@ -1395,6 +1637,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "e98c62fcb241bea5baae",
+    "title": "TROTWOOD",
+    "start": "2026-11-14T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
     "id": "cd6b278e2443c735cdd9",
     "title": "Didier Super Et son groupe Discount",
     "start": "2026-11-14T20:30:00+01:00",
@@ -1415,6 +1668,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/marc-antoine-le-bret",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "b3a91f5f9e42f78bb2ff",
+    "title": "TARKEADA",
+    "start": "2026-11-15T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "6ccec288a91dd4e88068",
@@ -1497,6 +1761,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "ec04a580a712a1ba5779",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2026-11-19T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
+    "source": "La Ricane"
+  },
+  {
     "id": "bc7a9be1bbf5c413042b",
     "title": "INACHEVÉ Un fantôme dans l’opéra Compagnie HALTE Théâtre musical, dès 13 ans",
     "start": "2026-11-19T20:00:00+01:00",
@@ -1524,6 +1799,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "dfdf0f7871f6055c12c7",
+    "title": "LA FIV DU SAMEDI SOIR",
+    "start": "2026-11-20T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "https://laricane.com/event/la-fiv-du-samedi-soir-2/",
+    "source": "La Ricane"
+  },
+  {
     "id": "c3eaa38abb1f1693d1a5",
     "title": "PATRICK BRUEL Alors regarde",
     "start": "2026-11-20T20:00:00+01:00",
@@ -1533,6 +1819,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-bruel/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "7c16ae724b0c452f9f75",
+    "title": "Humour - \"L’impatient\"",
+    "start": "2026-11-20T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/humour-limpatient/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "7689f26263a1bb16740e",
@@ -1555,6 +1852,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nash-2",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "437b50c22c6da9588f71",
+    "title": "DROLES DE MALES",
+    "start": "2026-11-21T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/la-fiv-du-samedi-soir-3-2/",
+    "source": "La Ricane"
   },
   {
     "id": "abc88c3892134f549680",
@@ -1665,6 +1973,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
     "source": "Comédie Sainté"
+  },
+  {
+    "id": "e4e26f48a2166e44d189",
+    "title": "LOLA BULLE",
+    "start": "2026-11-25T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/lola-bulle/",
+    "source": "La Ricane"
   },
   {
     "id": "c80ab0583b32070fda72",
@@ -1861,6 +2180,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "b250497e73d423c929f7",
+    "title": "Henry LEMAIRE",
+    "start": "2026-12-03T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
     "id": "c4e2d847bf6285cb3421",
     "title": "Amandine Lourdel",
     "start": "2026-12-03T20:30:00+01:00",
@@ -1881,6 +2211,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/gaga-fight-24",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "233ce6cd92a31b57705d",
+    "title": "Théâtre musical - les virtuoses",
+    "start": "2026-12-04T19:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-musical-les-virtuoses/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "e1ec8e27c9b48bd03d2c",
@@ -1965,6 +2306,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "d66cc8ad2beae5fc2e38",
+    "title": "TROTWOOD",
+    "start": "2026-12-05T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
     "id": "6ae0f5a208057e212df5",
     "title": "Julien Lieb",
     "start": "2026-12-05T20:30:00+01:00",
@@ -1985,6 +2337,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/hugues-lavigne",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "933183aa7980f22fbac5",
+    "title": "​",
+    "start": "2026-12-06T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "c6df29f330ee1ab833b5",
@@ -2025,6 +2388,17 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/eric-fraticelli/",
     "source": "La Comète"
+  },
+  {
+    "id": "e847c9e5a4e48abc3bea",
+    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
+    "start": "2026-12-09T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour/",
+    "source": "La Ricane"
   },
   {
     "id": "109dec10257e6925316e",
@@ -2103,6 +2477,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "bb8f23978bc25a3cfab7",
+    "title": "Polyphonies et percussions - les mécanos",
+    "start": "2026-12-11T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Musique",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/polyphonies-et-percussions-les-mecanos/",
+    "source": "Salle Aristide Briand"
+  },
+  {
     "id": "cab323ee103a87a3e648",
     "title": "Guadal Tejaz + 111",
     "start": "2026-12-11T20:30:00+01:00",
@@ -2145,6 +2530,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/mamacita/",
     "source": "Le Fil"
+  },
+  {
+    "id": "fc54c3edad96120f92bb",
+    "title": "ESTHER & SYLVIE",
+    "start": "2026-12-13T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "d2e3b65c7f657d92853c",
@@ -2193,6 +2589,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "2cde43869b79ae7969f5",
+    "title": "Concert jeune public - \"L’abécédaire de Boris Vian\"",
+    "start": "2026-12-16T15:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Musique",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-jeune-public-labecedaire-de-boris-vian/",
+    "source": "Salle Aristide Briand"
+  },
+  {
     "id": "758c8f20be97d322dc7a",
     "title": "Entre deux rives",
     "start": "2026-12-16T20:00:00+01:00",
@@ -2210,6 +2617,39 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
     "source": "Comédie Sainté"
+  },
+  {
+    "id": "8d7b91b9424c88894338",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2026-12-17T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-7/",
+    "source": "La Ricane"
+  },
+  {
+    "id": "0509c3bb8dca8d11d941",
+    "title": "Blue Chorus Orchestra",
+    "start": "2026-12-17T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "a547817652f13e632431",
+    "title": "DUO D’IMPRO",
+    "start": "2026-12-18T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/duo-dimpro/",
+    "source": "La Ricane"
   },
   {
     "id": "1b33399c423f7e66f23e",
@@ -2270,6 +2710,28 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/des-reves-dans-le-sable-festimomes/",
     "source": "La Comète"
+  },
+  {
+    "id": "8357246e5568c9d617f7",
+    "title": "Le monde merveilleux de",
+    "start": "2026-12-22T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "08c939664d772d914f88",
+    "title": "STANISLAS",
+    "start": "2026-12-29T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "16781bb139f66c825cd4",
@@ -2446,6 +2908,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "b6327d48a92fbf50783d",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-01-21T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
+    "source": "La Ricane"
+  },
+  {
     "id": "80264ee418c7b945a38a",
     "title": "ILYES DJADEL",
     "start": "2027-01-21T20:30:00+01:00",
@@ -2599,6 +3072,17 @@
     "source": "La Comète"
   },
   {
+    "id": "d7f35d6a3f063455271c",
+    "title": "LOLA BULLE",
+    "start": "2027-01-27T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/lola-bulle-2/",
+    "source": "La Ricane"
+  },
+  {
     "id": "34c7defacbda807c212d",
     "title": "FOREVER THE BEST SHOW ABOUT THE KING OF POP",
     "start": "2027-01-27T20:00:00+01:00",
@@ -2648,6 +3132,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "60ed31cb87697dfc5146",
+    "title": "DUO D’IMPRO",
+    "start": "2027-01-29T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/duo-dimpro-2/",
+    "source": "La Ricane"
+  },
+  {
     "id": "0832b33ac24a828256be",
     "title": "LES 4 SAISONS",
     "start": "2027-01-29T20:00:00+01:00",
@@ -2657,6 +3152,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/les-4-saisons/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "4d323134e1e4c5c8b215",
+    "title": "Concert - Noëmi waysfeld chante barbara",
+    "start": "2027-01-29T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Musique",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-noemi-waysfeld-chante-barbara/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "2663af308760e447c0ff",
@@ -2679,6 +3185,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/claudia-modica",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "d1287694a7c4e01f74e8",
+    "title": "QUOI TOUT LE WEEK-END",
+    "start": "2027-01-30T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/quoi-tout-le-week-end-5/",
+    "source": "La Ricane"
   },
   {
     "id": "54df47d37e4ef7e13037",
@@ -2849,6 +3366,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "edbbc4c9abf7fe403cd8",
+    "title": "Théâtre de boulevard - \"Un château de cartes\"",
+    "start": "2027-02-06T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-de-boulevard-un-chateau-de-cartes/",
+    "source": "Salle Aristide Briand"
+  },
+  {
     "id": "1bc6d7a7a3658abbe50a",
     "title": "LES ETOILES DU CIRQUE DE PEKIN Odyssée",
     "start": "2027-02-07T16:00:00+01:00",
@@ -2916,6 +3444,17 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
+    "id": "b4f8a7a30a5d074df97f",
+    "title": "Concert - opérette - \"Offenbach en fête !\"",
+    "start": "2027-02-11T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Musique",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-operette-offenbach-en-fete/",
+    "source": "Salle Aristide Briand"
+  },
+  {
     "id": "c90b0f5fc252ac8bf249",
     "title": "La P’tite Fumée",
     "start": "2027-02-12T20:30:00+01:00",
@@ -2958,6 +3497,28 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/melha-bedia-2",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "1b2a9182235e98d6a149",
+    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
+    "start": "2027-02-16T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour-2/",
+    "source": "La Ricane"
+  },
+  {
+    "id": "f1de282b5763af12e883",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-02-18T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "source": "La Ricane"
   },
   {
     "id": "db2f7a60dd5749494ea2",
@@ -3125,6 +3686,17 @@
     "source": "ArcomiK"
   },
   {
+    "id": "a7413803f1bd190da261",
+    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
+    "start": "2027-02-24T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour-3/",
+    "source": "La Ricane"
+  },
+  {
     "id": "4ff97194878549dacb07",
     "title": "Pablo Mira",
     "start": "2027-02-24T20:00:00+01:00",
@@ -3189,6 +3761,17 @@
     "description": "",
     "url": "https://www.arcomik.com/event/mathieu-madenian/",
     "source": "ArcomiK"
+  },
+  {
+    "id": "177d821e17ad806fcc68",
+    "title": "Humour - Mathieu Madénian",
+    "start": "2027-02-26T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/humour-mathieu-madenian/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "7840980babc06ef9d1a7",
@@ -3269,6 +3852,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/batir",
     "source": "Comédie Sainté"
+  },
+  {
+    "id": "b4383351a3afa49e2590",
+    "title": "Clown et magie - \"Ça cartonne\"",
+    "start": "2027-03-03T15:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/clown-et-magie-ca-cartonne/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "b2ecee5914831feea047",
@@ -3422,6 +4016,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "375583cefc5179e3a9e8",
+    "title": "Théâtre gisèle halimi - \"Une farouche liberté\"",
+    "start": "2027-03-11T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-gisele-halimi-une-farouche-liberte/",
+    "source": "Salle Aristide Briand"
+  },
+  {
     "id": "99a0c903c38abfc9c300",
     "title": "CYRANO DE BERGERAC",
     "start": "2027-03-12T20:00:00+01:00",
@@ -3475,6 +4080,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802210-atelier-danse-contemporaine-matieres-vives-festival",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "a2579e2ad45fddf77e12",
+    "title": "Concert - André Manoukian et Rosemary Stanley",
+    "start": "2027-03-14T17:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Musique",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-andre-manoukian-et-rosemary-stanley/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "60bc0b078e341812a272",
@@ -3572,6 +4188,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "aae30097c84b31a4d268",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-03-18T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
+    "source": "La Ricane"
+  },
+  {
     "id": "8fe59d6c94fd4ae25337",
     "title": "K-Pop Forever !",
     "start": "2027-03-18T19:30:00+01:00",
@@ -3597,6 +4224,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-tchaikovski/s-886/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "a1c1b524c301ba1ba873",
+    "title": "Danse - \"Pulse\"",
+    "start": "2027-03-18T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Danse",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/danse-pulse/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "06efa0d289046d06989d",
@@ -3665,6 +4303,28 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "0f4f9f43c5237ff19bb0",
+    "title": "Théâtre - danse - \"Cross\"",
+    "start": "2027-03-23T19:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Danse",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-danse-cross/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "39586be5d1b24572079c",
+    "title": "LOLA BULLE",
+    "start": "2027-03-24T01:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/lola-bulle-3/",
+    "source": "La Ricane"
+  },
+  {
     "id": "b1c13e16cc84d6efbc60",
     "title": "Aurore Express Canticum Novum",
     "start": "2027-03-24T20:00:00+01:00",
@@ -3722,6 +4382,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/la-truite/s-897/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "756f82bd8117b615b721",
+    "title": "Théâtre classique - \"Le tartuffe\"",
+    "start": "2027-03-26T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-classique-le-tartuffe/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "c7a1a542c186e40322e8",
@@ -3931,6 +4602,17 @@
     "source": "La Comète"
   },
   {
+    "id": "2183862ee8e298ef6297",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-04-15T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-11/",
+    "source": "La Ricane"
+  },
+  {
     "id": "b20bffb488184e711a8f",
     "title": "Lou ! Sonata 3 Concert dessiné",
     "start": "2027-04-15T20:30:00+02:00",
@@ -3940,6 +4622,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/lou-sonata-3/",
     "source": "Le Fil"
+  },
+  {
+    "id": "3e1bc1609c812f7196aa",
+    "title": "LOLA BULLE",
+    "start": "2027-04-21T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/lola-bulle-4/",
+    "source": "La Ricane"
   },
   {
     "id": "74d4716311b20202c896",
@@ -4091,6 +4784,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802728-oyseaux-de-lumiere-des-plumes-a-360deg",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "f120bafab70f8c3d67b1",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-05-20T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-12/",
+    "source": "La Ricane"
   },
   {
     "id": "1baf2592b21ccb247abe",
@@ -4284,6 +4988,17 @@
     "source": "Comédie Sainté"
   },
   {
+    "id": "cb15884c4d316295978c",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-06-17T02:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-13/",
+    "source": "La Ricane"
+  },
+  {
     "id": "6359668fb73774acd9b8",
     "title": "Le Conservatoire Massenet de Saint-Etienne",
     "start": "2027-06-18T10:00:00+02:00",
@@ -4386,6 +5101,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "a12acedd7da07506135b",
+    "title": "ESTHER ABRAMI",
+    "start": "2027-11-06T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/esther-abrami/",
+    "source": "La Comète"
   },
   {
     "id": "d4520255f04673007c54",
