@@ -118,5 +118,17 @@
     "end": "2028-01-02",
     "status": "upcoming",
     "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/tristan-chinal-dargent"
+  },
+  {
+    "id": "d27ab9c845e0f7df36d5",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Vers une déproduction — Restez informés !",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2027-04-10",
+    "end": "2028-01-02",
+    "status": "upcoming",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/vers-une-deproduction"
   }
 ]
