@@ -66,17 +66,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "be65b9df449f83904145",
-    "title": "Jam Session",
-    "start": "2026-09-14T20:30:00+02:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jam-session-85/",
-    "source": "Le Solar"
-  },
-  {
     "id": "3b87bc24810145691b8f",
     "title": "Les maisons d'Albertine et de Germano",
     "start": "2026-09-15T10:00:00+02:00",
@@ -1232,6 +1221,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "aea5880619ee0fedbd83",
+    "title": "Les échauffé·e·s Øtakt + ebl",
+    "start": "2026-10-30T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/les-echauffe-es/",
+    "source": "Le Fil"
+  },
+  {
     "id": "83cdb0e84ab9cbc4b85e",
     "title": "MORGANE BERLING",
     "start": "2026-10-30T20:30:00+01:00",
@@ -1374,6 +1374,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/kery-james/",
     "source": "Le Fil"
+  },
+  {
+    "id": "4dde48fd564301bf7044",
+    "title": "Isla Dorada",
+    "start": "2026-11-06T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/isla-dorada/",
+    "source": "Le Solar"
   },
   {
     "id": "b57746435960c71e4ade",
