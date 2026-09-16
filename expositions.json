@@ -36,6 +36,18 @@
     "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/frank-stella"
   },
   {
+    "id": "6b2a07f725b137ea31fc",
+    "type": "Musée",
+    "source": "Couriot - Musée de la Mine",
+    "title": "\"Le monde des rêves\" (18h à 23h)",
+    "venue": "Couriot - Musée de la Mine",
+    "city": "Saint-Étienne",
+    "start": null,
+    "end": null,
+    "status": "current",
+    "url": "https://musee-mine.saint-etienne.fr/le-monde-des-rêves-18h-à-23h"
+  },
+  {
     "id": "198f2524698c02cb48bb",
     "type": "Musée",
     "source": "Couriot - Musée de la Mine",
