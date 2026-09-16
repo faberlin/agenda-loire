@@ -77,17 +77,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "68ef65858c420f2800c3",
-    "title": "On s’rencontre # 1",
-    "start": "2026-09-15T19:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801027-on-srencontre-1",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "2a72bda6be29bb200ea4",
     "title": "Complet sur Internet Lancement de saison 2026-2027",
     "start": "2026-09-17T19:00:00+02:00",
@@ -2993,6 +2982,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "2d68bae1814356e9f5c5",
+    "title": "Clément Blouin",
+    "start": "2027-01-24T08:00:00+01:00",
+    "venue": "L’Opsis",
+    "city": "Roche La Molière",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/clement-blouin/",
+    "source": "ArcomiK"
+  },
+  {
     "id": "ae8da5aee6c356359824",
     "title": "Dans la grotte",
     "start": "2027-01-25T14:00:00+01:00",
@@ -3508,6 +3508,17 @@
     "source": "ArcomiK"
   },
   {
+    "id": "9d58b4c1bbdb1226b64d",
+    "title": "Eric et Quentin",
+    "start": "2027-02-19T20:00:00+01:00",
+    "venue": "Espace culturel La Buire",
+    "city": "L'Horme",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/eric-et-quentin/",
+    "source": "ArcomiK"
+  },
+  {
     "id": "07aad7f95a3a38d3edd8",
     "title": "Thomas Angelvy",
     "start": "2027-02-19T20:30:00+01:00",
@@ -3618,6 +3629,17 @@
     "source": "ArcomiK"
   },
   {
+    "id": "2186eb6fe3e3b714cc4e",
+    "title": "Nina Azoulai",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "L’imprimerie Théâtre",
+    "city": "Rive de Gier",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/nina-azoulai/",
+    "source": "ArcomiK"
+  },
+  {
     "id": "4ff97194878549dacb07",
     "title": "Pablo Mira",
     "start": "2027-02-24T20:00:00+01:00",
@@ -3662,6 +3684,28 @@
     "source": "ArcomiK"
   },
   {
+    "id": "8105b271156a8832f4bc",
+    "title": "Rémi Boyes",
+    "start": "2027-02-25T20:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/remi-boyes/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "97b0c3a89236dfe2fd35",
+    "title": "Élodie Arnould",
+    "start": "2027-02-25T20:00:00+01:00",
+    "venue": "Le Majestic",
+    "city": "Firminy",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/elodie-arnould/",
+    "source": "ArcomiK"
+  },
+  {
     "id": "3d826f691baaba4e53c9",
     "title": "ALDEBERT Jamais adulte !",
     "start": "2027-02-26T19:00:00+01:00",
@@ -3681,6 +3725,17 @@
     "category": "Humour",
     "description": "",
     "url": "https://www.arcomik.com/event/mathieu-madenian/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "67b7fc5ed20af514768e",
+    "title": "Noam Sinseau",
+    "start": "2027-02-26T20:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/noam-sinseau/",
     "source": "ArcomiK"
   },
   {
@@ -3725,6 +3780,17 @@
     "category": "Humour",
     "description": "",
     "url": "https://www.arcomik.com/event/camille-tissot/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "70fa12acd184b0a5dbd2",
+    "title": "Sacko Camara",
+    "start": "2027-02-27T20:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/sacko-camara/",
     "source": "ArcomiK"
   },
   {
@@ -4145,6 +4211,17 @@
     "description": "",
     "url": "https://saint-chamond.fr/events/danse-pulse/",
     "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "8cd7a8618f22971b84ad",
+    "title": "High Fade",
+    "start": "2027-03-18T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/high-fade-2/",
+    "source": "Le Fil"
   },
   {
     "id": "06efa0d289046d06989d",
