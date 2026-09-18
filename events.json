@@ -88,17 +88,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "68d9f822b1712b348d37",
-    "title": "Sauvegarder des documents anciens : raviver, résister, réimaginer",
-    "start": "2026-09-18T10:00:00+02:00",
-    "venue": "Médiathèques Sainté",
-    "city": "Saint-Étienne",
-    "category": "Littérature",
-    "description": "Sauvegarder des documents anciens : raviver, ... JEP 2026 Du 18/09/2026 10:00 au 31/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Une exposition d'ouvrages patrimoniaux remarquables sortis des réserves, pour apprécier des livres anciens, rares et précieux. Ces documents sont parfois abîmés et fragiles. Face aux menaces du temps, il est nécessaire de les conserver pour l'avenir....",
-    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2396/sauvegarder-des-documents-anciens-raviver-resister-reimaginer",
-    "source": "Médiathèques Sainté"
-  },
-  {
     "id": "4aa4c03082811b2c2a63",
     "title": "3NVOUTEMENT",
     "start": "2026-09-18T20:30:00+02:00",
@@ -108,6 +97,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/3nvoutement",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "5cff88e796f91001b6cd",
+    "title": "Sauvegarder des documents anciens : raviver, résister, réimaginer",
+    "start": "2026-09-19T10:00:00+02:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Sauvegarder des documents anciens : raviver, ... JEP 2026 Du 19/09/2026 10:00 au 31/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Une exposition d'ouvrages patrimoniaux remarquables sortis des réserves, pour apprécier des livres anciens, rares et précieux. Ces documents sont parfois abîmés et fragiles. Face aux menaces du temps, il est nécessaire de les conserver pour l'avenir....",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2396/sauvegarder-des-documents-anciens-raviver-resister-reimaginer",
+    "source": "Médiathèques Sainté"
   },
   {
     "id": "103c8f1ccb0522f7ab6f",
@@ -671,8 +671,8 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "352145e57aa8727d14f1",
-    "title": "Orchestra Baobab",
+    "id": "041c4bf3b7d5c9a04f87",
+    "title": "Orchestra Baobab + Ho-Agnan",
     "start": "2026-10-10T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -2971,17 +2971,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "2d68bae1814356e9f5c5",
-    "title": "Clément Blouin",
-    "start": "2027-01-24T08:00:00+01:00",
-    "venue": "L’Opsis",
-    "city": "Roche La Molière",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.arcomik.com/event/clement-blouin/",
-    "source": "ArcomiK"
-  },
-  {
     "id": "ae8da5aee6c356359824",
     "title": "Dans la grotte",
     "start": "2027-01-25T14:00:00+01:00",
@@ -3648,6 +3637,17 @@
     "category": "Humour",
     "description": "",
     "url": "https://www.arcomik.com/event/pablo-mira/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "5fbb54f1fc3ed5201dfa",
+    "title": "Clément Blouin",
+    "start": "2027-02-24T20:00:00+01:00",
+    "venue": "L’Opsis",
+    "city": "Roche La Molière",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/clement-blouin/",
     "source": "ArcomiK"
   },
   {
