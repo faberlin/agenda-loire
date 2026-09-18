@@ -77,17 +77,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "2a72bda6be29bb200ea4",
-    "title": "Complet sur Internet Lancement de saison 2026-2027",
-    "start": "2026-09-17T19:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801020-lancement-de-saison-2026-2027",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "20e7285ba9233827721f",
     "title": "Journées européennes du patrimoine (J.E.P. 2026) : patrimoine en péril - raviver, résister, réinventer",
     "start": "2026-09-18T10:00:00+02:00",
@@ -3296,6 +3285,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/michele-laroque-et-kad-merad/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "c115bc11d701d3487d64",
+    "title": "HLD + 1ère partie",
+    "start": "2027-02-05T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/hld/",
+    "source": "Le Fil"
   },
   {
     "id": "8c4e984a503b732cd33d",
