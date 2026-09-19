@@ -1,4 +1,6 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -12,37 +14,73 @@ body {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 10px 16px 20px;
+  padding: 8px 16px 16px;
 }
+
+
+/* ======================================================
+   HEADER
+   ====================================================== */
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
-.header h1 { margin: 0; font-size: 24px; line-height: 1.1; }
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.1;
+}
 
-.brand-nav { display: flex; align-items: center; gap: 20px; min-width: 0; }
-.brand-nav h1 a { color: #222 !important; text-decoration: none !important; }
+.brand-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 0;
+}
 
-.main-nav { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.brand-nav h1 a {
+  color: #222 !important;
+  text-decoration: none !important;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
 .main-nav a {
   color: #555 !important;
   text-decoration: none !important;
   font-size: 13px;
   padding: 3px 0;
 }
-.main-nav a:hover, .main-nav a.active { color: #111 !important; }
-.main-nav a.active { font-weight: 700; }
+
+.main-nav a:hover,
+.main-nav a.active {
+  color: #111 !important;
+}
+
+.main-nav a.active {
+  font-weight: 700;
+}
+
+
+/* ======================================================
+   RECHERCHE
+   ====================================================== */
 
 .filters-top {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 
 .filters-top input {
@@ -50,26 +88,41 @@ body {
   min-width: 0;
   border: 1px solid #d1d5db;
   border-radius: 7px;
-  padding: 8px 10px;
+  padding: 7px 10px;
   font: inherit;
   background: #fff;
 }
 
+
+/* ======================================================
+   FILTRES
+   ====================================================== */
+
 .multi-filters {
   display: grid;
   grid-template-columns: 320px minmax(0, 1fr);
-  gap: 12px;
-  margin-bottom: 10px;
+  gap: 10px;
+  margin-bottom: 8px;
 }
 
-.period-checkboxes { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
-.period-help { margin-top: 7px; color: #777; font-size: 11px; }
+.period-checkboxes {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.period-help {
+  margin-top: 5px;
+  color: #777;
+  font-size: 11px;
+}
 
 .filter-group {
   min-width: 0;
   border: 1px solid #d8d8d8;
   border-radius: 8px;
-  padding: 10px 12px;
+  padding: 8px 10px;
   background: #fff;
 }
 
@@ -78,10 +131,12 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
-.filter-heading strong { font-size: 13px; }
+.filter-heading strong {
+  font-size: 13px;
+}
 
 .filter-clear {
   border: 0;
@@ -97,12 +152,31 @@ body {
 .filter-options {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 6px 12px;
+  gap: 5px 12px;
 }
 
-.filter-check { display: flex; align-items: center; gap: 6px; min-width: 0; line-height: 1.2; }
-.filter-check input { margin: 0; flex: 0 0 auto; }
-.filter-check span { min-width: 0; white-space: nowrap; }
+.filter-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  line-height: 1.2;
+}
+
+.filter-check input {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.filter-check span {
+  min-width: 0;
+  white-space: nowrap;
+}
+
+
+/* ======================================================
+   CATÉGORIES SUR UNE SEULE LIGNE
+   ====================================================== */
 
 #categoryFilters {
   display: flex !important;
@@ -120,154 +194,393 @@ body {
   min-width: max-content;
 }
 
-.tabs { display: flex; gap: 6px; margin: 8px 0; flex-wrap: wrap; }
+
+/* ======================================================
+   ONGLETS
+   ====================================================== */
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  margin: 6px 0;
+  flex-wrap: wrap;
+}
 
 .tab {
   border: 1px solid #222;
   background: #fff;
   color: #222;
   border-radius: 6px;
-  padding: 6px 10px;
+  padding: 5px 10px;
   cursor: pointer;
   font: inherit;
 }
 
-.tab.active { background: #111; color: #fff; }
-.status { margin: 8px 0 10px; color: #666; }
+.tab.active {
+  background: #111;
+  color: #fff;
+}
 
-.events { display: flex; flex-direction: column; gap: 9px; }
-.day-group { min-width: 0; }
+.status {
+  margin: 5px 0 6px;
+  color: #666;
+}
+
+
+/* ======================================================
+   LISTE DES JOURNÉES
+   ====================================================== */
+
+.events {
+  display: flex;
+  flex-direction: column;
+
+  /*
+   * Très peu d'espace entre deux journées.
+   */
+  gap: 5px;
+}
+
+.day-group {
+  min-width: 0;
+}
+
+
+/* ======================================================
+   BANDEAU DATE
+   ====================================================== */
 
 .day-heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: 6px 10px;
-  margin-bottom: 5px;
-  border-radius: 7px;
+  gap: 10px;
+
+  /*
+   * Bandeau plus fin.
+   */
+  padding: 4px 9px;
+  margin-bottom: 3px;
+
+  border-radius: 6px;
   background: #edf4fb;
   color: #17365d;
 }
 
-.day-heading strong { font-size: 15px; line-height: 1.15; }
-.day-heading span { color: #36516f; white-space: nowrap; }
+.day-heading strong {
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.day-heading span {
+  color: #36516f;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+
+/* ======================================================
+   GRILLE
+   ====================================================== */
 
 .day-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 6px;
+
+  /*
+   * Trois spectacles par ligne.
+   */
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  /*
+   * Très peu d'espace entre les cartes.
+   */
+  gap: 4px 6px;
 }
+
+
+/* ======================================================
+   CARTE SPECTACLE
+   ====================================================== */
 
 .event-card {
   min-width: 0;
-  min-height: 64px;
+
+  /*
+   * Plus de hauteur minimale de 64px.
+   * La carte prend uniquement la place nécessaire.
+   */
+  min-height: 48px;
+
   border: 1px solid #e0e4e8;
-  border-radius: 7px;
-  padding: 8px 10px;
+  border-radius: 6px;
+
+  /*
+   * Padding réduit.
+   */
+  padding: 6px 8px;
+
   background: #fff;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+
+  gap: 8px;
 }
 
-.event-card-main { display: flex; align-items: center; gap: 10px; min-width: 0; }
-.event-info { min-width: 0; }
+.event-card-main {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+}
+
+.event-info {
+  min-width: 0;
+  flex: 1;
+}
+
+
+/* ======================================================
+   TITRE
+   ====================================================== */
 
 .event-title-link {
   display: block;
   color: #172033;
   font-weight: 700;
   text-decoration: none;
+
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 1.25;
+
+  line-height: 1.15;
 }
 
-a.event-title-link:hover { text-decoration: underline; }
+a.event-title-link:hover {
+  text-decoration: underline;
+}
+
+
+/* ======================================================
+   SALLE + NOMBRE DE SÉANCES
+   ====================================================== */
+
+.event-details {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  margin-top: 3px;
+
+  min-width: 0;
+
+  color: #626b78;
+  font-size: 12px;
+  line-height: 1.1;
+}
 
 .event-venue {
-  margin-top: 4px;
-  color: #555f6d;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 12px;
 }
+
+.event-sessions {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  color: #7a8490;
+}
+
+.event-sessions::before {
+  content: "·";
+  margin-right: 7px;
+}
+
+
+/* ======================================================
+   BADGES
+   ====================================================== */
 
 .theme-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+
   flex: 0 0 auto;
+
   border-radius: 5px;
-  padding: 4px 7px;
+
+  /*
+   * Badge légèrement plus petit.
+   */
+  padding: 3px 7px;
+
   font-size: 11px;
   font-weight: 650;
+
   background: #eee;
 }
 
-.theme-musique, .theme-concerts { background: #e5efff; }
-.theme-litterature { background: #e7f7ed; }
-.theme-theatre { background: #ffe8e8; }
-.theme-opera, .theme-opera-danse { background: #e6efff; }
-.theme-danse { background: #f4e5fb; }
-.theme-humour { background: #fff0df; }
-.theme-exposition { background: #e5f7f4; }
-.theme-spectacle { background: #fff4d9; }
-.theme-jeune-public { background: #edf7df; }
-.theme-cinema { background: #ecebff; }
+.theme-musique,
+.theme-concerts {
+  background: #e5efff;
+}
+
+.theme-litterature {
+  background: #e7f7ed;
+}
+
+.theme-theatre {
+  background: #ffe8e8;
+}
+
+.theme-opera,
+.theme-opera-danse {
+  background: #e6efff;
+}
+
+.theme-danse {
+  background: #f4e5fb;
+}
+
+.theme-humour {
+  background: #fff0df;
+}
+
+.theme-exposition {
+  background: #e5f7f4;
+}
+
+.theme-spectacle {
+  background: #fff4d9;
+}
+
+.theme-jeune-public {
+  background: #edf7df;
+}
+
+.theme-cinema {
+  background: #ecebff;
+}
+
+
+/* ======================================================
+   ACTIONS
+   ====================================================== */
 
 .icon-actions {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 0;
   flex: 0 0 auto;
 }
 
 .icon-action {
-  width: 29px;
-  height: 29px;
+  width: 27px;
+  height: 27px;
+
   display: inline-flex;
   align-items: center;
   justify-content: center;
+
   border: 0;
   border-radius: 5px;
+
   background: transparent;
   color: #202938;
+
   cursor: pointer;
+
   font: inherit;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 1;
+
   padding: 0;
 }
 
-.icon-action:hover { background: #f0f2f4; }
-.icon-action.active { background: #edf1f5; color: #111; }
+.icon-action:hover {
+  background: #f0f2f4;
+}
+
+.icon-action.active {
+  background: #edf1f5;
+  color: #111;
+}
+
+
+/* ======================================================
+   AUCUN RÉSULTAT
+   ====================================================== */
 
 .empty-card {
   border: 1px solid #e2e2e2;
   border-radius: 7px;
-  padding: 10px;
+  padding: 8px 10px;
   background: #fff;
 }
 
+
+/* ======================================================
+   RESPONSIVE
+   ====================================================== */
+
 @media (max-width: 1100px) {
-  .multi-filters { grid-template-columns: 1fr; }
-  .day-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .multi-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .day-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
 }
 
 @media (max-width: 800px) {
-  .page { padding: 10px; }
-  .header { align-items: flex-start; flex-direction: column; }
-  .day-heading strong { font-size: 14px; }
-  .event-card { min-height: 60px; }
+
+  .page {
+    padding: 8px 10px;
+  }
+
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .day-heading strong {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 620px) {
-  .day-grid { grid-template-columns: 1fr; }
-  .event-card { padding: 8px; }
-  .day-heading { padding: 6px 8px; }
+
+  .day-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .event-card {
+    padding: 6px 7px;
+  }
+
+  .day-heading {
+    padding: 4px 7px;
+  }
+
+  .event-details {
+    flex-wrap: wrap;
+    gap: 2px 6px;
+  }
+
+  .event-sessions::before {
+    margin-right: 6px;
+  }
 }
