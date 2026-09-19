@@ -261,14 +261,13 @@ def extract_main_content(soup):
 
 def check_current_season(url):
     """
-    Ouvre une fiche individuelle.
+    Ouvre une fiche individuelle et ne conserve que son
+    contenu principal.
 
-    La fiche est retenue uniquement si son
-    contenu indique explicitement qu'elle
-    appartient à la saison 2026-2027 #1.
-
-    On ne se base plus sur le sitemap ni
-    sur la colonne des anciennes saisons.
+    On ne dépend plus de la présence du libellé
+    "Saison 26/27 #1", qui peut être absent de la fiche
+    elle-même. La sélection de la saison repose ensuite
+    sur les dates réellement trouvées dans la fiche.
     """
 
     try:
@@ -301,9 +300,7 @@ def check_current_season(url):
         )
     )
 
-    if not CURRENT_SEASON_RE.search(
-        text
-    ):
+    if not text:
         return None
 
     return soup, text
@@ -521,8 +518,7 @@ def scrape_chok():
             url
         )
 
-        # La fiche n'est pas explicitement
-        # Saison 26/27 #1.
+        # Fiche inaccessible ou sans contenu exploitable.
         if result is None:
             continue
 
@@ -605,7 +601,7 @@ def scrape_chok():
     print(
         "Chok Théâtre : "
         f"{accepted_pages} fiche(s) "
-        "saison 26/27 #1, "
+        "avec date(s) 2026/2027, "
         f"{len(deduped)} "
         "représentation(s)"
     )
