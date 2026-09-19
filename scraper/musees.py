@@ -384,7 +384,7 @@ def scrape_couriot() -> list[dict]:
                         make_event(
                             source="Couriot - Musée de la Mine",
                             title=title,
-                            venue="Couriot - Musée de la Mine",
+                            venue="Musée de la Mine",
                             url=url,
                             start=start,
                             end=end,
@@ -396,7 +396,7 @@ def scrape_couriot() -> list[dict]:
 
             node = node.parent
 
-    print(f"Couriot - Musée de la Mine : {len(events)} exposition(s)")
+    print(f"Musée de la Mine : {len(events)} exposition(s)")
     return events
 
 
