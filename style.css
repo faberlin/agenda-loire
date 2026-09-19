@@ -31,7 +31,6 @@ body {
   line-height: 1.1;
 }
 
-
 .brand-nav {
   display: flex;
   align-items: center;
@@ -185,6 +184,40 @@ body {
   text-overflow: ellipsis;
 }
 
+
+/* ======================================================
+   CATÉGORIES SUR UNE SEULE LIGNE
+   ====================================================== */
+
+.spectacles-filters #categoryFilters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 24px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.spectacles-filters #categoryFilters .filter-check {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  width: auto;
+  min-width: max-content;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.spectacles-filters #categoryFilters .filter-check span {
+  overflow: visible;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+
 .tabs {
   display: flex;
   gap: 6px;
@@ -284,16 +317,45 @@ body {
   background: #eee;
 }
 
-.theme-musique { background: #eee6ff; }
-.theme-litterature { background: #e7f7ed; }
-.theme-theatre { background: #ffe8e8; }
-.theme-opera { background: #e6efff; }
-.theme-danse { background: #fde7f3; }
-.theme-humour { background: #fff0df; }
-.theme-exposition { background: #e5f7f4; }
-.theme-spectacle { background: #fff4d9; }
-.theme-jeune-public { background: #edf7df; }
-.theme-cinema { background: #ecebff; }
+.theme-musique {
+  background: #eee6ff;
+}
+
+.theme-litterature {
+  background: #e7f7ed;
+}
+
+.theme-theatre {
+  background: #ffe8e8;
+}
+
+.theme-opera {
+  background: #e6efff;
+}
+
+.theme-danse {
+  background: #fde7f3;
+}
+
+.theme-humour {
+  background: #fff0df;
+}
+
+.theme-exposition {
+  background: #e5f7f4;
+}
+
+.theme-spectacle {
+  background: #fff4d9;
+}
+
+.theme-jeune-public {
+  background: #edf7df;
+}
+
+.theme-cinema {
+  background: #ecebff;
+}
 
 dialog {
   border: 1px solid #ccc;
@@ -323,6 +385,11 @@ dialog {
   gap: 8px;
 }
 
+
+/* ======================================================
+   TABLETTE
+   ====================================================== */
+
 @media (max-width: 1100px) {
   .multi-filters {
     grid-template-columns: 1fr;
@@ -331,7 +398,18 @@ dialog {
   .filter-group-wide .filter-options {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  /* Les catégories restent volontairement sur une ligne */
+  .spectacles-filters #categoryFilters {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
+
+
+/* ======================================================
+   MOBILE
+   ====================================================== */
 
 @media (max-width: 800px) {
   .page {
@@ -352,6 +430,13 @@ dialog {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  /* Les catégories restent sur une seule ligne */
+  .spectacles-filters #categoryFilters {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
   .event-row {
     align-items: flex-start;
     flex-direction: column;
@@ -368,17 +453,10 @@ dialog {
     grid-template-columns: 1fr;
   }
 
-  /* Catégories sur une seule ligne */
-#categoryFilters {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-}
-
-#categoryFilters .filter-check {
-  flex: 0 0 auto;
-  white-space: nowrap;
-}
+  /* Même sur téléphone : une ligne avec défilement horizontal */
+  .spectacles-filters #categoryFilters {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
 }
