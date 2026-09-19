@@ -254,249 +254,246 @@ def parse_feed(
 # HTML GÉNÉRIQUE
 # ======================================================
 
-def parse_generic_html(
-    source: dict,
-) -> list[dict]:
-    """
-    Recherche les événements schema.org Event
-    en JSON-LD.
+FRENCH_MONTHS = {
+    "janvier": 1, "février": 2, "fevrier": 2, "mars": 3, "avril": 4,
+    "mai": 5, "juin": 6, "juillet": 7, "août": 8, "aout": 8,
+    "septembre": 9, "octobre": 10, "novembre": 11,
+    "décembre": 12, "decembre": 12,
+}
 
-    Pour un site sans JSON-LD,
-    il faut un collecteur dédié.
-    """
 
+def parse_french_text_date(text: str) -> datetime | None:
+    """Détecte une date française écrite en toutes lettres."""
+    text = clean(text).lower()
+    month_names = "|".join(
+        sorted((re.escape(m) for m in FRENCH_MONTHS), key=len, reverse=True)
+    )
+
+    patterns = [
+        re.compile(
+            rf"\bdu\s+(\d{{1,2}})(?:er)?\s+au\s+\d{{1,2}}(?:er)?\s+"
+            rf"({month_names})\s+(20\d{{2}})"
+            rf"(?:\s+(?:à|a)\s+(\d{{1,2}})(?:\s*[h:]\s*(\d{{2}}))?)?",
+            re.IGNORECASE,
+        ),
+        re.compile(
+            rf"\b(\d{{1,2}})(?:er)?\s+({month_names})\s+(20\d{{2}})"
+            rf"(?:\s+(?:à|a)\s+(\d{{1,2}})(?:\s*[h:]\s*(\d{{2}}))?)?",
+            re.IGNORECASE,
+        ),
+    ]
+
+    for pattern in patterns:
+        match = pattern.search(text)
+        if not match:
+            continue
+        day = int(match.group(1))
+        month = FRENCH_MONTHS[match.group(2).lower()]
+        year = int(match.group(3))
+        hour = int(match.group(4)) if match.group(4) else 0
+        minute = int(match.group(5)) if match.group(5) else 0
+        try:
+            return datetime(year, month, day, hour, minute, tzinfo=PARIS)
+        except ValueError:
+            continue
+    return None
+
+
+def meta_content(soup: BeautifulSoup, *, property_name=None, name=None) -> str:
+    attrs = {}
+    if property_name:
+        attrs["property"] = property_name
+    if name:
+        attrs["name"] = name
+    tag = soup.find("meta", attrs=attrs)
+    return clean(tag.get("content")) if tag else ""
+
+
+def page_title(soup: BeautifulSoup, source: dict) -> str:
+    title = meta_content(soup, property_name="og:title")
+    if title:
+        return title
+    h1 = soup.find("h1")
+    if h1 and clean(h1.get_text(" ")):
+        return clean(h1.get_text(" "))
+    if soup.title and clean(soup.title.get_text(" ")):
+        return clean(soup.title.get_text(" "))
+    return source["name"]
+
+
+def page_description(soup: BeautifulSoup) -> str:
+    description = meta_content(soup, property_name="og:description")
+    if not description:
+        description = meta_content(soup, name="description")
+    return description[:500]
+
+
+def parse_datetime_attribute(raw: str) -> datetime | None:
+    raw = clean(raw)
+    if not raw:
+        return None
+    try:
+        dt = dateparser.parse(raw, dayfirst=True)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=PARIS)
+        return dt
+    except Exception:
+        return None
+
+
+def find_html_event_date(soup: BeautifulSoup) -> datetime | None:
+    """Cherche d'abord <time datetime>, puis une date visible dans le contenu."""
+    for time_tag in soup.find_all("time"):
+        raw = time_tag.get("datetime")
+        if raw:
+            dt = parse_datetime_attribute(raw)
+            if dt:
+                return dt
+
+    content = BeautifulSoup(str(soup), "html.parser")
+    for tag in content.select("script, style, noscript, nav, footer"):
+        tag.decompose()
+
+    text = clean(content.get_text(" ", strip=True))
+    dt = parse_french_event_date(text)
+    if dt:
+        return dt
+    return parse_french_text_date(text)
+
+
+def jsonld_nodes(payload) -> list[dict]:
+    roots = payload if isinstance(payload, list) else [payload]
+    result = []
+    for node in roots:
+        if not isinstance(node, dict):
+            continue
+        graph = node.get("@graph")
+        if isinstance(graph, list):
+            result.extend(item for item in graph if isinstance(item, dict))
+        result.append(node)
+    return result
+
+
+def is_jsonld_event(node: dict) -> bool:
+    kind = node.get("@type")
+    kinds = [str(v) for v in kind] if isinstance(kind, list) else [str(kind)]
+    return any(v == "Event" or v.endswith("Event") for v in kinds)
+
+
+def event_from_jsonld(source: dict, node: dict) -> dict | None:
+    title = clean(node.get("name"))
+    raw_start = node.get("startDate")
+    if not title or not raw_start:
+        return None
+
+    try:
+        dt = dateparser.parse(str(raw_start), dayfirst=True)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=PARIS)
+    except Exception:
+        return None
+
+    start = dt.isoformat()
+    location = node.get("location") or {}
+    if isinstance(location, list) and location:
+        location = location[0]
+
+    venue = source.get("venue") or source["name"]
+    city = source.get("city", "")
+
+    if isinstance(location, dict):
+        venue = clean(location.get("name")) or venue
+        address = location.get("address") or {}
+        if isinstance(address, dict):
+            city = clean(address.get("addressLocality")) or city
+
+    url = node.get("url") or source["url"]
+    if isinstance(url, dict):
+        url = url.get("@id") or source["url"]
+    url = urljoin(source["url"], str(url))
+
+    description = clean(
+        BeautifulSoup(str(node.get("description", "")), "html.parser").get_text(" ")
+    )
+
+    return {
+        "id": stable_id(source["name"], title, start),
+        "title": title,
+        "start": start,
+        "venue": venue,
+        "city": city,
+        "category": source.get("category", "Culture"),
+        "description": description[:500],
+        "url": url,
+        "source": source["name"],
+    }
+
+
+def parse_generic_html(source: dict) -> list[dict]:
+    """
+    Collecteur générique pour les petits événements.
+
+    Priorité :
+    1. schema.org Event en JSON-LD ;
+    2. <time datetime="..."> ;
+    3. date numérique visible ;
+    4. date française en toutes lettres.
+
+    Sans date fiable, aucun événement n'est créé.
+    """
     response = requests.get(
         source["url"],
         headers=HEADERS,
         timeout=25,
     )
-
     response.raise_for_status()
 
-    soup = BeautifulSoup(
-        response.text,
-        "html.parser",
-    )
-
+    soup = BeautifulSoup(response.text, "html.parser")
     events = []
 
-    for script in soup.find_all(
-        "script",
-        attrs={
-            "type":
-            "application/ld+json"
-        },
-    ):
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        raw = (script.string or script.get_text() or "").strip()
+        if not raw:
+            continue
         try:
-            payload = json.loads(
-                script.string or ""
-            )
-
+            payload = json.loads(raw)
         except Exception:
             continue
 
-        nodes = (
-            payload
-            if isinstance(
-                payload,
-                list,
-            )
-            else [payload]
+        for node in jsonld_nodes(payload):
+            if not is_jsonld_event(node):
+                continue
+            event = event_from_jsonld(source, node)
+            if event:
+                events.append(event)
+
+    if events:
+        return dedupe(events)
+
+    dt = find_html_event_date(soup)
+    if dt is None:
+        print(
+            f'{source["name"]}: aucune date fiable trouvée dans la page HTML'
         )
+        return []
 
-        expanded = []
+    title = page_title(soup, source)
+    if source.get("use_source_name_as_title", False):
+        title = source["name"]
 
-        for node in nodes:
-            if (
-                isinstance(node, dict)
-                and isinstance(
-                    node.get("@graph"),
-                    list,
-                )
-            ):
-                expanded.extend(
-                    node["@graph"]
-                )
+    start = dt.isoformat()
 
-            else:
-                expanded.append(
-                    node
-                )
-
-        for node in expanded:
-            if not isinstance(
-                node,
-                dict,
-            ):
-                continue
-
-            kind = node.get(
-                "@type"
-            )
-
-            if isinstance(
-                kind,
-                list,
-            ):
-                is_event = (
-                    "Event" in kind
-                )
-
-            else:
-                is_event = (
-                    kind == "Event"
-                    or (
-                        isinstance(
-                            kind,
-                            str,
-                        )
-                        and kind.endswith(
-                            "Event"
-                        )
-                    )
-                )
-
-            if not is_event:
-                continue
-
-            title = clean(
-                node.get("name")
-            )
-
-            raw_start = node.get(
-                "startDate"
-            )
-
-            if (
-                not title
-                or not raw_start
-            ):
-                continue
-
-            try:
-                dt = dateparser.parse(
-                    raw_start
-                )
-
-                if dt.tzinfo is None:
-                    dt = dt.replace(
-                        tzinfo=PARIS
-                    )
-
-                start = dt.isoformat()
-
-            except Exception:
-                continue
-
-            location = (
-                node.get("location")
-                or {}
-            )
-
-            if (
-                isinstance(
-                    location,
-                    list,
-                )
-                and location
-            ):
-                location = location[0]
-
-            venue = source["name"]
-
-            city = source.get(
-                "city",
-                "",
-            )
-
-            if isinstance(
-                location,
-                dict,
-            ):
-                venue = (
-                    clean(
-                        location.get(
-                            "name"
-                        )
-                    )
-                    or venue
-                )
-
-                address = (
-                    location.get(
-                        "address"
-                    )
-                    or {}
-                )
-
-                if isinstance(
-                    address,
-                    dict,
-                ):
-                    city = (
-                        clean(
-                            address.get(
-                                "addressLocality"
-                            )
-                        )
-                        or city
-                    )
-
-            url = (
-                node.get("url")
-                or source["url"]
-            )
-
-            if isinstance(
-                url,
-                dict,
-            ):
-                url = (
-                    url.get("@id")
-                    or source["url"]
-                )
-
-            url = urljoin(
-                source["url"],
-                str(url),
-            )
-
-            description = clean(
-                BeautifulSoup(
-                    str(
-                        node.get(
-                            "description",
-                            "",
-                        )
-                    ),
-                    "html.parser",
-                ).get_text(" ")
-            )
-
-            events.append(
-                {
-                    "id": stable_id(
-                        source["name"],
-                        title,
-                        start,
-                    ),
-                    "title": title,
-                    "start": start,
-                    "venue": venue,
-                    "city": city,
-                    "category": source.get(
-                        "category",
-                        "Culture",
-                    ),
-                    "description":
-                        description[:500],
-                    "url": url,
-                    "source":
-                        source["name"],
-                }
-            )
-
-    return events
+    return [{
+        "id": stable_id(source["name"], title, start),
+        "title": title,
+        "start": start,
+        "venue": source.get("venue") or source["name"],
+        "city": source.get("city", ""),
+        "category": source.get("category", "Culture"),
+        "description": page_description(soup),
+        "url": source["url"],
+        "source": source["name"],
+    }]
 
 
 # ======================================================
