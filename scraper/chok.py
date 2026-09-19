@@ -41,11 +41,9 @@ MONTHS = {
 }
 
 
-# Exemples :
-#
-# Dimanche 20 septembre 2026 - 17h00
-# 20 septembre 2026 – 17h
-# Vendredi 23 octobre 2026 | 20h30
+# ------------------------------------------------------
+# DATES
+# ------------------------------------------------------
 
 DATE_RE = re.compile(
     r"\b"
@@ -60,8 +58,30 @@ DATE_RE = re.compile(
     r"\s*"
     r"[-–—|]"
     r"\s*"
-    r"(\d{1,2})h(?:([0-5]\d))?"
+    r"(\d{1,2})h(?:\s*([0-5]\d))?"
     r"\b",
+    re.IGNORECASE,
+)
+
+
+# ------------------------------------------------------
+# SAISON ACTUELLE
+# ------------------------------------------------------
+
+# Exemples acceptés :
+#
+# Saison 26/27 #1
+# Saison 2026-2027 #1
+# Les + Saison 26/27 #1
+# Les + de la Saison 26/27 #1
+# Off Saison 26/27 #1
+
+CURRENT_SEASON_RE = re.compile(
+    r"\b"
+    r"(?:les\s*\+\s*(?:de\s+la\s+)?|off\s+)?"
+    r"saison\s*"
+    r"(?:2026\s*[-–—/]\s*2027|26\s*[-–—/]\s*27)"
+    r"\s*#\s*1\b",
     re.IGNORECASE,
 )
 
@@ -93,25 +113,21 @@ def extract_dates(text: str) -> list[datetime]:
     dates = {}
 
     for match in DATE_RE.finditer(text):
-        day = int(
-            match.group(1)
-        )
-
+        day = int(match.group(1))
         month = MONTHS[
             match.group(2).lower()
         ]
-
-        year = int(
-            match.group(3)
-        )
-
-        hour = int(
-            match.group(4)
-        )
-
+        year = int(match.group(3))
+        hour = int(match.group(4))
         minute = int(
             match.group(5) or 0
         )
+
+        # Sécurité :
+        # aucune date d'une ancienne saison
+        # ne doit être importée.
+        if year not in (2026, 2027):
+            continue
 
         try:
             dt = datetime(
@@ -122,6 +138,7 @@ def extract_dates(text: str) -> list[datetime]:
                 minute,
                 tzinfo=PARIS,
             )
+
         except ValueError:
             continue
 
@@ -148,6 +165,7 @@ def extract_title(
         title = clean(
             h1.get_text(" ")
         )
+
     else:
         title_tag = soup.find(
             "title"
@@ -162,10 +180,6 @@ def extract_title(
             if title_tag
             else ""
         )
-
-    # Enlève éventuellement :
-    # " - Chok théâtre"
-    # " | Chok théâtre"
 
     title = re.sub(
         r"\s*(?:-|–|—|\|)\s*"
@@ -193,20 +207,14 @@ def find_program_area(
     soup: BeautifulSoup,
 ):
     """
-    Cherche le contenu principal de la page.
-
-    Le but est surtout de NE PAS parcourir le menu
-    latéral qui contient toutes les anciennes saisons.
+    Cherche la zone principale de la page
+    programmation.
     """
 
-    # WordPress utilise généralement <main>.
     main = soup.find("main")
 
     if main:
         return main
-
-    # Autres conteneurs fréquemment utilisés
-    # par les thèmes WordPress.
 
     for selector in (
         "#main",
@@ -221,17 +229,12 @@ def find_program_area(
         )
 
         if area:
-            # Vérifie qu'on est bien dans la zone
-            # contenant PROGRAMMATION.
             text = clean(
                 area.get_text(" ")
             ).lower()
 
             if "programmation" in text:
                 return area
-
-    # Dernier recours :
-    # on part du H1 PROGRAMMATION.
 
     for heading in soup.find_all(
         ["h1", "h2"]
@@ -240,13 +243,9 @@ def find_program_area(
             heading.get_text(" ")
         )
 
-        if (
-            text.lower()
-            == "programmation"
-        ):
+        if text.lower() == "programmation":
             parent = heading.parent
 
-            # Remonte quelques niveaux seulement.
             for _ in range(4):
                 if parent is None:
                     break
@@ -265,7 +264,7 @@ def find_program_area(
 
 
 # ------------------------------------------------------
-# LIENS DE LA PROGRAMMATION
+# LIENS
 # ------------------------------------------------------
 
 def is_internal_event_url(
@@ -353,9 +352,6 @@ def program_urls() -> list[str]:
 
         urls.append(url)
 
-    # Supprime les doublons
-    # tout en conservant l'ordre.
-
     urls = list(
         dict.fromkeys(urls)
     )
@@ -367,6 +363,58 @@ def program_urls() -> list[str]:
     )
 
     return urls
+
+
+# ------------------------------------------------------
+# CONTRÔLE DE LA SAISON
+# ------------------------------------------------------
+
+def page_is_current_season(
+    soup: BeautifulSoup,
+) -> bool:
+    """
+    Le marqueur de saison est volontairement
+    recherché dans la PAGE COMPLÈTE.
+
+    Il ne faut surtout pas supprimer les menus,
+    headers ou autres éléments avant ce contrôle,
+    car le marqueur Saison 26/27 #1 peut se trouver
+    en dehors de .entry-content.
+    """
+
+    full_text = clean(
+        soup.get_text(" ")
+    )
+
+    return bool(
+        CURRENT_SEASON_RE.search(
+            full_text
+        )
+    )
+
+
+# ------------------------------------------------------
+# CONTENU DE LA FICHE
+# ------------------------------------------------------
+
+def extract_event_content(
+    soup: BeautifulSoup,
+):
+
+    for selector in (
+        ".entry-content",
+        "article .entry-content",
+        "article",
+        "main",
+    ):
+        content = soup.select_one(
+            selector
+        )
+
+        if content:
+            return content
+
+    return None
 
 
 # ------------------------------------------------------
@@ -397,27 +445,25 @@ def scrape_event_page(
     if not title:
         return []
 
-    # Important :
-    # on évite soup.get_text() sur toute la page,
-    # car cela inclurait encore le menu avec
-    # toutes les anciennes saisons.
-
-    content = None
-
-    for selector in (
-        ".entry-content",
-        "article .entry-content",
-        "article",
-        "main",
+    # IMPORTANT :
+    # contrôle de la saison sur la page complète
+    # AVANT l'extraction du contenu principal.
+    if not page_is_current_season(
+        soup
     ):
-        content = soup.select_one(
-            selector
-        )
+        return []
 
-        if content:
-            break
+    content = extract_event_content(
+        soup
+    )
 
     if content is None:
+        print(
+            "Chok Théâtre : "
+            f"{title} -> "
+            "contenu principal introuvable"
+        )
+
         return []
 
     text = clean(
@@ -431,7 +477,9 @@ def scrape_event_page(
     if not dates:
         print(
             "Chok Théâtre : "
-            f"{title} -> aucune date"
+            f"{title} -> "
+            "saison 26/27 #1 "
+            "mais aucune date"
         )
 
         return []
@@ -475,6 +523,7 @@ def scrape_event_page(
 def scrape_chok() -> list[dict]:
     events = []
     seen = set()
+    accepted_pages = 0
 
     urls = program_urls()
 
@@ -484,6 +533,9 @@ def scrape_chok() -> list[dict]:
                 url
             )
         )
+
+        if page_events:
+            accepted_pages += 1
 
         for event in page_events:
             event_id = event[
@@ -510,12 +562,18 @@ def scrape_chok() -> list[dict]:
 
     print(
         "Chok Théâtre : "
+        f"{accepted_pages} fiche(s) "
+        "saison 26/27 #1, "
         f"{len(events)} "
         "représentation(s) au total"
     )
 
     return events
 
+
+# ------------------------------------------------------
+# TEST DIRECT
+# ------------------------------------------------------
 
 if __name__ == "__main__":
     for event in scrape_chok():
