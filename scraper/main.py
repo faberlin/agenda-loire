@@ -16,216 +16,511 @@ import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
+
 ROOT = Path(__file__).resolve().parents[1]
-SOURCES = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
+SOURCES = json.loads(
+    (ROOT / "sources.json").read_text(
+        encoding="utf-8"
+    )
+)
 OUT = ROOT / "events.json"
 
 HEADERS = {
-    "User-Agent": "AgendaLoire/1.0 (personal cultural events aggregator)"
+    "User-Agent": (
+        "AgendaLoire/1.0 "
+        "(personal cultural events aggregator)"
+    )
 }
 
 PARIS = ZoneInfo("Europe/Paris")
 
 
-def stable_id(source: str, title: str, start: str) -> str:
-    raw = f"{source}|{title}|{start}".encode("utf-8")
-    return hashlib.sha1(raw).hexdigest()[:20]
+# ======================================================
+# OUTILS
+# ======================================================
+
+def stable_id(
+    source: str,
+    title: str,
+    start: str,
+) -> str:
+    raw = (
+        f"{source}|{title}|{start}"
+    ).encode("utf-8")
+
+    return hashlib.sha1(
+        raw
+    ).hexdigest()[:20]
 
 
-def clean(text: str | None) -> str:
-    return re.sub(r"\s+", " ", text or "").strip()
+def clean(
+    text: str | None,
+) -> str:
+    return re.sub(
+        r"\s+",
+        " ",
+        text or "",
+    ).strip()
 
 
-def parse_french_event_date(text: str) -> datetime | None:
+# ======================================================
+# DATES FRANÇAISES
+# ======================================================
+
+def parse_french_event_date(
+    text: str,
+) -> datetime | None:
     """
-    Extrait la vraie date de début d'un événement depuis des textes du type :
-      - Du 15/09/2026 10:00 au 17/10/2026 18:30
-      - Du 18/09/2026 10:00 au 31/10/2026 18:30
-      - Le 09/10/2026 19:30
-      - 09/10/2026 19:30
+    Extrait la vraie date de début d'un événement
+    depuis des textes du type :
+
+    - Du 15/09/2026 10:00 au 17/10/2026 18:30
+    - Le 09/10/2026 19:30
+    - 09/10/2026 19:30
 
     Si l'heure est absente, on met 00:00.
     """
+
     text = clean(text)
 
     patterns = [
-        r"\bDu\s+(\d{1,2})/(\d{1,2})/(\d{4})(?:\s+(\d{1,2}):(\d{2}))?",
-        r"\bLe\s+(\d{1,2})/(\d{1,2})/(\d{4})(?:\s+(\d{1,2}):(\d{2}))?",
-        r"\b(\d{1,2})/(\d{1,2})/(\d{4})(?:\s+(\d{1,2}):(\d{2}))?",
+        (
+            r"\bDu\s+"
+            r"(\d{1,2})/"
+            r"(\d{1,2})/"
+            r"(\d{4})"
+            r"(?:\s+(\d{1,2}):(\d{2}))?"
+        ),
+        (
+            r"\bLe\s+"
+            r"(\d{1,2})/"
+            r"(\d{1,2})/"
+            r"(\d{4})"
+            r"(?:\s+(\d{1,2}):(\d{2}))?"
+        ),
+        (
+            r"\b"
+            r"(\d{1,2})/"
+            r"(\d{1,2})/"
+            r"(\d{4})"
+            r"(?:\s+(\d{1,2}):(\d{2}))?"
+        ),
     ]
 
     for pattern in patterns:
-        match = re.search(pattern, text, flags=re.IGNORECASE)
+        match = re.search(
+            pattern,
+            text,
+            flags=re.IGNORECASE,
+        )
+
         if not match:
             continue
 
-        day, month, year = map(int, match.group(1, 2, 3))
-        hour = int(match.group(4)) if match.group(4) else 0
-        minute = int(match.group(5)) if match.group(5) else 0
+        day, month, year = map(
+            int,
+            match.group(1, 2, 3),
+        )
+
+        hour = (
+            int(match.group(4))
+            if match.group(4)
+            else 0
+        )
+
+        minute = (
+            int(match.group(5))
+            if match.group(5)
+            else 0
+        )
 
         try:
-            return datetime(year, month, day, hour, minute, tzinfo=PARIS)
+            return datetime(
+                year,
+                month,
+                day,
+                hour,
+                minute,
+                tzinfo=PARIS,
+            )
+
         except ValueError:
             continue
 
     return None
 
 
-def parse_feed(source: dict) -> list[dict]:
-    feed = feedparser.parse(source["url"])
+# ======================================================
+# RSS
+# ======================================================
+
+def parse_feed(
+    source: dict,
+) -> list[dict]:
+
+    feed = feedparser.parse(
+        source["url"]
+    )
+
     events = []
 
     for item in feed.entries:
-        title = clean(item.get("title"))
-        link = item.get("link") or source["url"]
+        title = clean(
+            item.get("title")
+        )
 
-        summary_html = item.get("summary", "")
-        summary = clean(BeautifulSoup(summary_html, "html.parser").get_text(" "))
+        link = (
+            item.get("link")
+            or source["url"]
+        )
 
-        # Priorité absolue à la date réelle contenue dans le texte de l'événement.
-        dt = parse_french_event_date(summary)
+        summary_html = item.get(
+            "summary",
+            "",
+        )
 
-        # À défaut, on tente aussi le titre + résumé.
+        summary = clean(
+            BeautifulSoup(
+                summary_html,
+                "html.parser",
+            ).get_text(" ")
+        )
+
+        # Priorité à la vraie date
+        # contenue dans le texte.
+        dt = parse_french_event_date(
+            summary
+        )
+
         if dt is None:
-            dt = parse_french_event_date(f"{title} {summary}")
+            dt = parse_french_event_date(
+                f"{title} {summary}"
+            )
 
-        # Dernier recours : date publiée par le RSS.
-        # Cela évite de perdre l'événement si le flux ne contient pas de vraie date.
+        # Dernier recours :
+        # date de publication RSS.
         if dt is None:
-            raw_date = item.get("published") or item.get("updated")
+            raw_date = (
+                item.get("published")
+                or item.get("updated")
+            )
+
             if not raw_date:
                 continue
 
             try:
-                dt = dateparser.parse(raw_date)
+                dt = dateparser.parse(
+                    raw_date
+                )
+
                 if not dt.tzinfo:
-                    dt = dt.replace(tzinfo=timezone.utc)
+                    dt = dt.replace(
+                        tzinfo=timezone.utc
+                    )
+
             except Exception:
                 continue
 
         start = dt.isoformat()
 
-        events.append({
-            "id": stable_id(source["name"], title, start),
-            "title": title,
-            "start": start,
-            "venue": source["name"],
-            "city": source.get("city", ""),
-            "category": source.get("category", "Culture"),
-            "description": summary[:500],
-            "url": link,
-            "source": source["name"]
-        })
+        events.append(
+            {
+                "id": stable_id(
+                    source["name"],
+                    title,
+                    start,
+                ),
+                "title": title,
+                "start": start,
+                "venue": source["name"],
+                "city": source.get(
+                    "city",
+                    "",
+                ),
+                "category": source.get(
+                    "category",
+                    "Culture",
+                ),
+                "description": summary[:500],
+                "url": link,
+                "source": source["name"],
+            }
+        )
 
     return events
 
 
-def parse_generic_html(source: dict) -> list[dict]:
+# ======================================================
+# HTML GÉNÉRIQUE
+# ======================================================
+
+def parse_generic_html(
+    source: dict,
+) -> list[dict]:
     """
-    Recherche les événements schema.org Event en JSON-LD.
-    Pour un site sans JSON-LD, il faudra créer un collecteur dédié.
+    Recherche les événements schema.org Event
+    en JSON-LD.
+
+    Pour un site sans JSON-LD,
+    il faut un collecteur dédié.
     """
-    response = requests.get(source["url"], headers=HEADERS, timeout=25)
+
+    response = requests.get(
+        source["url"],
+        headers=HEADERS,
+        timeout=25,
+    )
+
     response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser",
+    )
+
     events = []
 
-    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+    for script in soup.find_all(
+        "script",
+        attrs={
+            "type":
+            "application/ld+json"
+        },
+    ):
         try:
-            payload = json.loads(script.string or "")
+            payload = json.loads(
+                script.string or ""
+            )
+
         except Exception:
             continue
 
-        nodes = payload if isinstance(payload, list) else [payload]
+        nodes = (
+            payload
+            if isinstance(
+                payload,
+                list,
+            )
+            else [payload]
+        )
+
         expanded = []
 
         for node in nodes:
-            if isinstance(node, dict) and isinstance(node.get("@graph"), list):
-                expanded.extend(node["@graph"])
+            if (
+                isinstance(node, dict)
+                and isinstance(
+                    node.get("@graph"),
+                    list,
+                )
+            ):
+                expanded.extend(
+                    node["@graph"]
+                )
+
             else:
-                expanded.append(node)
+                expanded.append(
+                    node
+                )
 
         for node in expanded:
-            if not isinstance(node, dict):
+            if not isinstance(
+                node,
+                dict,
+            ):
                 continue
 
-            kind = node.get("@type")
-            if isinstance(kind, list):
-                is_event = "Event" in kind
+            kind = node.get(
+                "@type"
+            )
+
+            if isinstance(
+                kind,
+                list,
+            ):
+                is_event = (
+                    "Event" in kind
+                )
+
             else:
-                is_event = kind == "Event" or (
-                    isinstance(kind, str) and kind.endswith("Event")
+                is_event = (
+                    kind == "Event"
+                    or (
+                        isinstance(
+                            kind,
+                            str,
+                        )
+                        and kind.endswith(
+                            "Event"
+                        )
+                    )
                 )
 
             if not is_event:
                 continue
 
-            title = clean(node.get("name"))
-            raw_start = node.get("startDate")
+            title = clean(
+                node.get("name")
+            )
 
-            if not title or not raw_start:
+            raw_start = node.get(
+                "startDate"
+            )
+
+            if (
+                not title
+                or not raw_start
+            ):
                 continue
 
             try:
-                dt = dateparser.parse(raw_start)
+                dt = dateparser.parse(
+                    raw_start
+                )
+
                 if dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=PARIS)
+                    dt = dt.replace(
+                        tzinfo=PARIS
+                    )
+
                 start = dt.isoformat()
+
             except Exception:
                 continue
 
-            location = node.get("location") or {}
-            if isinstance(location, list) and location:
+            location = (
+                node.get("location")
+                or {}
+            )
+
+            if (
+                isinstance(
+                    location,
+                    list,
+                )
+                and location
+            ):
                 location = location[0]
 
             venue = source["name"]
-            city = source.get("city", "")
 
-            if isinstance(location, dict):
-                venue = clean(location.get("name")) or venue
-                address = location.get("address") or {}
+            city = source.get(
+                "city",
+                "",
+            )
 
-                if isinstance(address, dict):
-                    city = clean(address.get("addressLocality")) or city
+            if isinstance(
+                location,
+                dict,
+            ):
+                venue = (
+                    clean(
+                        location.get(
+                            "name"
+                        )
+                    )
+                    or venue
+                )
 
-            url = node.get("url") or source["url"]
+                address = (
+                    location.get(
+                        "address"
+                    )
+                    or {}
+                )
 
-            if isinstance(url, dict):
-                url = url.get("@id") or source["url"]
+                if isinstance(
+                    address,
+                    dict,
+                ):
+                    city = (
+                        clean(
+                            address.get(
+                                "addressLocality"
+                            )
+                        )
+                        or city
+                    )
 
-            url = urljoin(source["url"], str(url))
+            url = (
+                node.get("url")
+                or source["url"]
+            )
+
+            if isinstance(
+                url,
+                dict,
+            ):
+                url = (
+                    url.get("@id")
+                    or source["url"]
+                )
+
+            url = urljoin(
+                source["url"],
+                str(url),
+            )
 
             description = clean(
                 BeautifulSoup(
-                    str(node.get("description", "")),
-                    "html.parser"
+                    str(
+                        node.get(
+                            "description",
+                            "",
+                        )
+                    ),
+                    "html.parser",
                 ).get_text(" ")
             )
 
-            events.append({
-                "id": stable_id(source["name"], title, start),
-                "title": title,
-                "start": start,
-                "venue": venue,
-                "city": city,
-                "category": source.get("category", "Culture"),
-                "description": description[:500],
-                "url": url,
-                "source": source["name"]
-            })
+            events.append(
+                {
+                    "id": stable_id(
+                        source["name"],
+                        title,
+                        start,
+                    ),
+                    "title": title,
+                    "start": start,
+                    "venue": venue,
+                    "city": city,
+                    "category": source.get(
+                        "category",
+                        "Culture",
+                    ),
+                    "description":
+                        description[:500],
+                    "url": url,
+                    "source":
+                        source["name"],
+                }
+            )
 
     return events
 
 
-def dedupe(events: list[dict]) -> list[dict]:
+# ======================================================
+# DÉDOUBLONNAGE
+# ======================================================
+
+def dedupe(
+    events: list[dict],
+) -> list[dict]:
+
     seen = set()
     result = []
 
-    for ev in sorted(events, key=lambda x: x["start"]):
+    for ev in sorted(
+        events,
+        key=lambda x: x["start"],
+    ):
         key = (
             ev["title"].lower(),
             ev["start"][:10],
-            ev.get("city", "").lower()
+            ev.get(
+                "city",
+                "",
+            ).lower(),
         )
 
         if key in seen:
@@ -237,170 +532,611 @@ def dedupe(events: list[dict]) -> list[dict]:
     return result
 
 
-DEDICATED_SCRAPERS = [
-    ("mediatheques", "scrape_mediatheques"),
-    ("le_fil", "scrape_le_fil"),
-    ("zenith", "scrape_zenith"),
-    ("opera", "scrape_opera"),
-    ("comedie", "scrape_comedie"),
-    ("solar", "scrape_solar"),
-    ("chambon", "scrape_chambon"),
-    ("comete", "scrape_comete"),
-    ("trois_ducs", "scrape_trois_ducs"),
-    ("chok", "scrape_chok"),
-    ("verso", "scrape_verso"),
-    ("arcomik", "scrape_arcomik"),
-    ("comedie_triomphe", "scrape_comedie_triomphe"),
+# ======================================================
+# SCRAPERS DÉDIÉS
+# ======================================================
 
-    # Derniers ajouts
-    ("la_ricane", "scrape_la_ricane"),
-    ("aristide_briand", "scrape_aristide_briand"),
-    ("brankignols", "scrape_brankignols"),
+DEDICATED_SCRAPERS = [
+    (
+        "mediatheques",
+        "scrape_mediatheques",
+    ),
+    (
+        "le_fil",
+        "scrape_le_fil",
+    ),
+    (
+        "zenith",
+        "scrape_zenith",
+    ),
+    (
+        "opera",
+        "scrape_opera",
+    ),
+    (
+        "comedie",
+        "scrape_comedie",
+    ),
+    (
+        "solar",
+        "scrape_solar",
+    ),
+    (
+        "chambon",
+        "scrape_chambon",
+    ),
+    (
+        "comete",
+        "scrape_comete",
+    ),
+    (
+        "trois_ducs",
+        "scrape_trois_ducs",
+    ),
+    (
+        "chok",
+        "scrape_chok",
+    ),
+    (
+        "verso",
+        "scrape_verso",
+    ),
+    (
+        "arcomik",
+        "scrape_arcomik",
+    ),
+    (
+        "comedie_triomphe",
+        "scrape_comedie_triomphe",
+    ),
+    (
+        "la_ricane",
+        "scrape_la_ricane",
+    ),
+    (
+        "aristide_briand",
+        "scrape_aristide_briand",
+    ),
+    (
+        "brankignols",
+        "scrape_brankignols",
+    ),
 ]
 
 
-def run_dedicated_scraper(module_name: str, expected_function: str) -> list[dict]:
-    """Charge un scraper dédié sans bloquer toute la collecte."""
+# ======================================================
+# CORRESPONDANCE MODULE -> SOURCE
+# ======================================================
+
+DEDICATED_EVENT_SOURCES = {
+    "mediatheques": {
+        "médiathèques de saint-étienne",
+        "mediatheques de saint-etienne",
+    },
+
+    "le_fil": {
+        "le fil",
+    },
+
+    "zenith": {
+        "zénith sainté",
+        "zenith sainte",
+    },
+
+    "opera": {
+        "opéra sainté",
+        "opera sainte",
+    },
+
+    "comedie": {
+        "comédie sainté",
+        "comedie sainte",
+        "la comédie de saint-étienne",
+        "la comedie de saint-etienne",
+    },
+
+    "solar": {
+        "le solar",
+    },
+
+    "chambon": {
+        "salles chambon-feugerolles",
+    },
+
+    "comete": {
+        "la comète",
+        "la comete",
+    },
+
+    "trois_ducs": {
+        "les 3 ducs",
+    },
+
+    "chok": {
+        "chok théâtre",
+        "chok theatre",
+    },
+
+    "verso": {
+        "théâtre le verso",
+        "theatre le verso",
+    },
+
+    "arcomik": {
+        "arcomik",
+    },
+
+    "comedie_triomphe": {
+        "comédie triomphe",
+        "comedie triomphe",
+    },
+
+    "la_ricane": {
+        "la ricane",
+    },
+
+    "aristide_briand": {
+        "salle aristide briand",
+    },
+
+    "brankignols": {
+        "théâtre de poche des brankignols",
+        "theatre de poche des brankignols",
+    },
+}
+
+
+DEDICATED_SOURCE_NAMES = {
+    name
+    for names
+    in DEDICATED_EVENT_SOURCES.values()
+    for name in names
+}
+
+
+# ======================================================
+# EXÉCUTION D'UN SCRAPER DÉDIÉ
+# ======================================================
+
+def run_dedicated_scraper(
+    module_name: str,
+    expected_function: str,
+) -> list[dict]:
+
     try:
-        module = importlib.import_module(module_name)
+        module = importlib.import_module(
+            module_name
+        )
+
     except Exception as exc:
-        print(f"ERREUR import {module_name}: {exc}")
+        print(
+            f"ERREUR import "
+            f"{module_name}: {exc}"
+        )
         return []
 
-    scraper = getattr(module, expected_function, None)
+    scraper = getattr(
+        module,
+        expected_function,
+        None,
+    )
 
-    # Fallback si le nom exact de la fonction diffère légèrement.
+    # Fallback si le nom exact
+    # diffère légèrement.
     if scraper is None:
         for name in dir(module):
-            if name.startswith("scrape_"):
-                candidate = getattr(module, name)
-                if callable(candidate):
+            if name.startswith(
+                "scrape_"
+            ):
+                candidate = getattr(
+                    module,
+                    name,
+                )
+
+                if callable(
+                    candidate
+                ):
                     scraper = candidate
                     break
 
     if scraper is None:
         print(
-            f"ERREUR {module_name}: aucune fonction "
-            f"{expected_function} / scrape_* trouvée"
+            f"ERREUR {module_name}: "
+            "aucune fonction "
+            f"{expected_function} / "
+            "scrape_* trouvée"
         )
         return []
 
     try:
         found = scraper() or []
-        print(f"{module_name}: {len(found)} événement(s)")
+
+        print(
+            f"{module_name}: "
+            f"{len(found)} événement(s)"
+        )
+
         return found
+
     except Exception as exc:
-        print(f"ERREUR {module_name}: {exc}")
+        print(
+            f"ERREUR {module_name}: "
+            f"{exc}"
+        )
+
         return []
 
 
-DEDICATED_SOURCE_NAMES = {
-    "médiathèques de saint-étienne",
-    "mediatheques de saint-etienne",
-    "le fil",
-    "zénith sainté",
-    "zenith sainte",
-    "opéra sainté",
-    "opera sainte",
-    "comédie sainté",
-    "comedie sainte",
-    "le solar",
-    "salles chambon-feugerolles",
-    "la comète",
-    "la comete",
-    "les 3 ducs",
-    "chok théâtre",
-    "chok theatre",
-    "théâtre le verso",
-    "theatre le verso",
-    "arcomik",
-    "comédie triomphe",
-    "comedie triomphe",
-    "la ricane",
-    "salle aristide briand",
-    "théâtre de poche des brankignols",
-    "theatre de poche des brankignols",
-}
+# ======================================================
+# SOURCES
+# ======================================================
+
+def normalized_source_name(
+    value: str,
+) -> str:
+    return clean(
+        value
+    ).lower()
 
 
-def normalized_source_name(value: str) -> str:
-    return clean(value).lower()
+# ======================================================
+# CHARGEMENT EVENTS.JSON EXISTANT
+# ======================================================
 
+def load_existing_events() -> list[dict]:
+    """
+    Charge events.json existant.
+
+    Utilisé uniquement lorsqu'on lance --only
+    afin de conserver toutes les autres sources.
+    """
+
+    if not OUT.exists():
+        return []
+
+    try:
+        data = json.loads(
+            OUT.read_text(
+                encoding="utf-8"
+            )
+        )
+
+        if not isinstance(
+            data,
+            list,
+        ):
+            return []
+
+        return data
+
+    except Exception as exc:
+        print(
+            "ERREUR lecture "
+            f"events.json : {exc}"
+        )
+
+        return []
+
+
+# ======================================================
+# REMPLACEMENT D'UNE SEULE SOURCE
+# ======================================================
+
+def replace_source_events(
+    existing_events: list[dict],
+    module_name: str,
+    new_events: list[dict],
+) -> list[dict]:
+    """
+    Conserve tous les événements existants sauf ceux
+    appartenant au scraper ciblé.
+
+    Les anciens événements de cette source sont ensuite
+    remplacés par le résultat du nouveau scraping.
+    """
+
+    source_names = (
+        DEDICATED_EVENT_SOURCES.get(
+            module_name,
+            set(),
+        )
+    )
+
+    # Sécurité supplémentaire :
+    # les nouvelles données nous donnent aussi
+    # le nom exact réellement utilisé par le scraper.
+    for event in new_events:
+        source = normalized_source_name(
+            event.get(
+                "source",
+                "",
+            )
+        )
+
+        if source:
+            source_names.add(
+                source
+            )
+
+    kept_events = []
+
+    removed = 0
+
+    for event in existing_events:
+        source = normalized_source_name(
+            event.get(
+                "source",
+                "",
+            )
+        )
+
+        if source in source_names:
+            removed += 1
+            continue
+
+        kept_events.append(
+            event
+        )
+
+    print(
+        f"{module_name}: "
+        f"{removed} ancien(s) "
+        "événement(s) remplacé(s)"
+    )
+
+    kept_events.extend(
+        new_events
+    )
+
+    return kept_events
+
+
+# ======================================================
+# MAIN
+# ======================================================
 
 def main():
-    parser = argparse.ArgumentParser(description="Agenda Loire Scraper")
+    parser = argparse.ArgumentParser(
+        description=(
+            "Agenda Loire Scraper"
+        )
+    )
+
     parser.add_argument(
         "--only",
         type=str,
-        help="Exécuter un seul scraper dédié (ex: comedie_triomphe ou triomphe)"
+        help=(
+            "Exécuter un seul scraper dédié "
+            "(ex: la_ricane, chok, "
+            "comedie_triomphe)"
+        ),
     )
+
     args = parser.parse_args()
+
+    # ==================================================
+    # MODE CIBLÉ --only
+    # ==================================================
+
+    if args.only:
+        target = (
+            args.only
+            .lower()
+            .strip()
+        )
+
+        matched_scraper = None
+
+        for (
+            module_name,
+            func_name,
+        ) in DEDICATED_SCRAPERS:
+
+            if (
+                target == module_name
+                or target == func_name
+                or target in module_name
+            ):
+                matched_scraper = (
+                    module_name,
+                    func_name,
+                )
+                break
+
+        if not matched_scraper:
+            print(
+                "❌ Aucun scraper trouvé "
+                "pour l'argument --only : "
+                f"'{args.only}'"
+            )
+            return
+
+        (
+            module_name,
+            func_name,
+        ) = matched_scraper
+
+        print(
+            "🚀 Lancement ciblé "
+            f"du scraper : {module_name}"
+        )
+
+        # On charge D'ABORD le fichier existant.
+        existing_events = (
+            load_existing_events()
+        )
+
+        print(
+            f"{len(existing_events)} "
+            "événement(s) actuellement "
+            "dans events.json"
+        )
+
+        # Puis on lance uniquement
+        # le scraper demandé.
+        found = run_dedicated_scraper(
+            module_name,
+            func_name,
+        )
+
+        # IMPORTANT :
+        # si le scraper ciblé échoue,
+        # on ne détruit pas ses anciennes données.
+        if not found:
+            print(
+                f"⚠️ {module_name} "
+                "n'a retourné aucun événement."
+            )
+
+            print(
+                "events.json conservé "
+                "sans modification."
+            )
+
+            return
+
+        # Remplacement uniquement
+        # de la source concernée.
+        all_events = replace_source_events(
+            existing_events,
+            module_name,
+            found,
+        )
+
+        all_events = dedupe(
+            all_events
+        )
+
+        OUT.write_text(
+            json.dumps(
+                all_events,
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+
+        print(
+            f"{len(all_events)} "
+            "événements écrits dans "
+            f"{OUT}"
+        )
+
+        print(
+            "✅ Mise à jour ciblée terminée : "
+            "les autres sources ont été conservées."
+        )
+
+        return
+
+    # ==================================================
+    # MODE GLOBAL
+    # ==================================================
 
     all_events = []
 
-    # Exécution ciblée d'un seul scraper dédié
-    if args.only:
-        target = args.only.lower().strip()
-        matched_scraper = None
-
-        for module_name, func_name in DEDICATED_SCRAPERS:
-            if target in (module_name, func_name) or target in module_name:
-                matched_scraper = (module_name, func_name)
-                break
-
-        if matched_scraper:
-            module_name, func_name = matched_scraper
-            print(f"🚀 Lancement ciblé du scraper : {module_name}")
-            found = run_dedicated_scraper(module_name, func_name)
-            all_events.extend(found)
-        else:
-            print(f"❌ Aucun scraper trouvé pour l'argument --only : '{args.only}'")
-            return
-
-    # Exécution globale standard
-    else:
-        for source in SOURCES:
-            try:
-                source_name = normalized_source_name(source.get("name", ""))
-
-                # Un lieu ayant un scraper dédié ne doit pas être collecté
-                # une deuxième fois via sources.json.
-                if source_name in DEDICATED_SOURCE_NAMES:
-                    print(
-                        f'{source["name"]}: ignoré dans sources.json '
-                        f'(scraper dédié)'
+    # Sources génériques
+    for source in SOURCES:
+        try:
+            source_name = (
+                normalized_source_name(
+                    source.get(
+                        "name",
+                        "",
                     )
-                    continue
+                )
+            )
 
-                if source["type"] == "rss":
-                    found = parse_feed(source)
-                else:
-                    found = parse_generic_html(source)
+            # Un lieu ayant un scraper dédié
+            # ne doit pas être collecté deux fois.
+            if (
+                source_name
+                in DEDICATED_SOURCE_NAMES
+            ):
+                print(
+                    f'{source["name"]}: '
+                    "ignoré dans sources.json "
+                    "(scraper dédié)"
+                )
 
-                print(f'{source["name"]}: {len(found)} événement(s)')
-                all_events.extend(found)
+                continue
 
-            except Exception as exc:
-                print(f'ERREUR {source["name"]}: {exc}')
+            if (
+                source["type"]
+                == "rss"
+            ):
+                found = parse_feed(
+                    source
+                )
 
-        # Scrapers dédiés
-        for module_name, function_name in DEDICATED_SCRAPERS:
-            found = run_dedicated_scraper(module_name, function_name)
-            all_events.extend(found)
+            else:
+                found = (
+                    parse_generic_html(
+                        source
+                    )
+                )
 
-    all_events = dedupe(all_events)
+            print(
+                f'{source["name"]}: '
+                f"{len(found)} événement(s)"
+            )
 
-    # Ne pas écraser le fichier existant si toutes les sources échouent.
+            all_events.extend(
+                found
+            )
+
+        except Exception as exc:
+            print(
+                f'ERREUR '
+                f'{source["name"]}: '
+                f"{exc}"
+            )
+
+    # Scrapers dédiés
+    for (
+        module_name,
+        function_name,
+    ) in DEDICATED_SCRAPERS:
+
+        found = (
+            run_dedicated_scraper(
+                module_name,
+                function_name,
+            )
+        )
+
+        all_events.extend(
+            found
+        )
+
+    all_events = dedupe(
+        all_events
+    )
+
+    # Ne pas écraser le fichier
+    # si absolument tout a échoué.
     if not all_events:
-        print("Aucun événement collecté : events.json conservé.")
+        print(
+            "Aucun événement collecté : "
+            "events.json conservé."
+        )
+
         return
 
     OUT.write_text(
-        json.dumps(all_events, ensure_ascii=False, indent=2),
-        encoding="utf-8"
+        json.dumps(
+            all_events,
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
     )
 
-    print(f"{len(all_events)} événements écrits dans {OUT}")
+    print(
+        f"{len(all_events)} "
+        "événements écrits dans "
+        f"{OUT}"
+    )
 
 
 if __name__ == "__main__":
