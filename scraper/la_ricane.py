@@ -17,7 +17,8 @@ HEADERS = {
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/140.0.0.0 Safari/537.36"
-    )
+    ),
+    "Accept-Language": "fr-FR,fr;q=0.9",
 }
 
 MONTHS = {
@@ -39,95 +40,290 @@ MONTHS = {
 }
 
 DATE_RE = re.compile(
-    r"\b(\d{1,2})\s+"
-    r"(janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|"
-    r"septembre|octobre|novembre|décembre|decembre)"
+    r"(\d{1,2})\s+"
+    r"(janvier|février|fevrier|mars|avril|mai|juin|juillet|"
+    r"août|aout|septembre|octobre|novembre|décembre|decembre)"
     r"\s+(\d{4})\s*[·\-–—]\s*"
-    r"(\d{1,2})h(\d{2})\b",
+    r"(\d{1,2})h(\d{2})",
     re.IGNORECASE,
 )
+
+# Les catégories présentes sur le site permettent de repérer
+# la fin du titre.
+CATEGORY_MARKERS = [
+    "Humour",
+    "Stand Up",
+    "Comédie",
+    "Comedie",
+    "Concert",
+    "Interactif",
+    "Murder Party",
+    "Impro",
+    "Contes",
+    "Jeune Public",
+    "A partir de",
+    "A Partir de",
+    "Enfants >",
+    "Tout public",
+    "Les Jeudis",
+]
 
 
 def infer_category(text: str) -> str:
     value = text.lower()
 
-    if any(word in value for word in (
-        "humour",
-        "stand up",
-        "stand-up",
-        "comedy club",
-    )):
+    if any(
+        word in value
+        for word in (
+            "jeune public",
+            "a partir de 1",
+            "a partir de 2",
+            "a partir de 3",
+            "a partir de 4",
+            "à partir de 1",
+            "à partir de 2",
+            "à partir de 3",
+            "à partir de 4",
+            "contes",
+        )
+    ):
+        return "Jeune public"
+
+    if any(
+        word in value
+        for word in (
+            "humour",
+            "stand up",
+            "stand-up",
+            "comedy club",
+        )
+    ):
         return "Humour"
 
-    if any(word in value for word in (
-        "concert",
-        "musique",
-        "jazz",
-        "rock",
-    )):
+    if any(
+        word in value
+        for word in (
+            "concert",
+            "musique",
+            "jazz",
+            "rock",
+        )
+    ):
         return "Concerts"
 
-    if any(word in value for word in (
-        "murder party",
-        "comédie",
-        "comedie",
-        "théâtre",
-        "theatre",
-        "impro",
-    )):
+    if any(
+        word in value
+        for word in (
+            "murder party",
+            "comédie",
+            "comedie",
+            "théâtre",
+            "theatre",
+            "impro",
+        )
+    ):
         return "Théâtre"
 
     return "Spectacle"
 
 
-def event_title_from_link(link) -> str:
-    text = clean(link.get_text(" "))
-    if text:
-        return text
+def clean_title(block: str) -> str:
+    """
+    Reçoit par exemple :
 
-    return ""
+    DERRIERE LA PORTE
+    Comedie · Spectacle Amateur · Tout public 12,00 €
+
+    et retourne :
+
+    DERRIERE LA PORTE
+    """
+
+    positions = []
+
+    lower_block = block.lower()
+
+    for marker in CATEGORY_MARKERS:
+        pos = lower_block.find(
+            marker.lower()
+        )
+
+        if pos >= 0:
+            positions.append(pos)
+
+    if positions:
+        block = block[:min(positions)]
+
+    # Supprime un éventuel prix restant.
+    block = re.sub(
+        r"\s+\d+(?:[,.]\d+)?\s*€.*$",
+        "",
+        block,
+        flags=re.IGNORECASE,
+    )
+
+    return clean(block)
 
 
-def scrape_page(url: str) -> tuple[list[dict], str | None]:
+def find_event_url(
+    soup: BeautifulSoup,
+    title: str,
+    page_url: str,
+) -> str:
+    """
+    Essaie de retrouver le lien correspondant au titre.
+    Si aucun lien propre n'est trouvé, renvoie la page
+    de programmation.
+    """
+
+    wanted = clean(title).lower()
+
+    for link in soup.find_all(
+        "a",
+        href=True,
+    ):
+        text = clean(
+            link.get_text(" ")
+        )
+
+        if not text:
+            continue
+
+        normalized = text.lower()
+
+        if (
+            normalized == wanted
+            or wanted in normalized
+        ):
+            href = link.get(
+                "href",
+                "",
+            )
+
+            if href:
+                return urljoin(
+                    page_url,
+                    href,
+                )
+
+    return page_url
+
+
+def scrape_page(
+    url: str,
+) -> tuple[list[dict], str | None]:
+
     response = requests.get(
         url,
         headers=HEADERS,
         timeout=30,
     )
+
     response.raise_for_status()
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser",
+    )
+
+    # Texte de la zone principale.
+    #
+    # On conserve des espaces entre les éléments HTML :
+    # la programmation devient alors une suite du type :
+    #
+    # 15 octobre 2026 · 21h00
+    # VERT DE RIRE COMEDY CLUB !
+    # Humour · ...
+    #
+    text = clean(
+        soup.get_text(
+            " ",
+            strip=True,
+        )
+    )
+
+    matches = list(
+        DATE_RE.finditer(text)
+    )
+
     events = []
 
-    # La page "Programmation" expose les vraies heures locales en texte,
-    # ex. "15 octobre 2026 · 21h00".
-    # On évite volontairement les attributs datetime du plugin calendrier,
-    # qui peuvent contenir seulement un offset de fuseau.
-    for link in soup.find_all("a", href=True):
-        title = event_title_from_link(link)
+    for index, match in enumerate(
+        matches
+    ):
+        day = int(
+            match.group(1)
+        )
+
+        month_name = (
+            match.group(2)
+            .lower()
+        )
+
+        month = MONTHS[
+            month_name
+        ]
+
+        year = int(
+            match.group(3)
+        )
+
+        hour = int(
+            match.group(4)
+        )
+
+        minute = int(
+            match.group(5)
+        )
+
+        # Tout ce qui se trouve entre cette date
+        # et la date suivante appartient à cet événement.
+        start_pos = match.end()
+
+        if index + 1 < len(matches):
+            end_pos = (
+                matches[
+                    index + 1
+                ].start()
+            )
+        else:
+            end_pos = len(text)
+
+        block = clean(
+            text[
+                start_pos:end_pos
+            ]
+        )
+
+        # Stoppe avant la pagination / footer.
+        for stopper in (
+            "« Précédent",
+            "Suivant »",
+            "La Ricane La Scène",
+            "Spectacles Tous Public",
+        ):
+            pos = block.find(
+                stopper
+            )
+
+            if pos >= 0:
+                block = block[:pos]
+
+        title = clean_title(
+            block
+        )
+
         if not title:
             continue
 
-        # Remonte dans quelques parents pour trouver la date/heure de la carte.
-        node = link
-        context = ""
-        for _ in range(6):
-            node = node.parent
-            if node is None:
-                break
-            context = clean(node.get_text(" "))
-            if DATE_RE.search(context):
-                break
-
-        match = DATE_RE.search(context)
-        if not match:
+        # Sécurité : évite qu'un bloc de navigation
+        # soit interprété comme un spectacle.
+        if title.lower() in {
+            "programmation",
+            "suivant",
+            "précédent",
+        }:
             continue
-
-        day = int(match.group(1))
-        month = MONTHS[match.group(2).lower()]
-        year = int(match.group(3))
-        hour = int(match.group(4))
-        minute = int(match.group(5))
 
         try:
             dt = datetime(
@@ -142,29 +338,26 @@ def scrape_page(url: str) -> tuple[list[dict], str | None]:
             continue
 
         start = dt.isoformat()
-        event_url = urljoin(url, link["href"])
 
-        # Ignore la navigation, les boutons et les liens génériques.
-        lower_title = title.lower()
-        if lower_title in {
-            "suivant »",
-            "« précédent",
-            "1",
-            "2",
-            "3",
-            "obtenir billets",
-            "réserver",
-            "billets",
-        }:
-            continue
+        event_url = find_event_url(
+            soup,
+            title,
+            url,
+        )
 
         event = {
-            "id": stable_id("La Ricane", title, start),
+            "id": stable_id(
+                "La Ricane",
+                title,
+                start,
+            ),
             "title": title,
             "start": start,
             "venue": "La Ricane",
             "city": "Saint-Étienne",
-            "category": infer_category(context),
+            "category": infer_category(
+                block
+            ),
             "description": "",
             "url": event_url,
             "source": "La Ricane",
@@ -172,22 +365,56 @@ def scrape_page(url: str) -> tuple[list[dict], str | None]:
 
         events.append(event)
 
-    # Page suivante de la pagination custom de la programmation.
+    # --------------------------------------------------
+    # PAGE SUIVANTE
+    # --------------------------------------------------
+
+    current_match = re.search(
+        r"[?&]evpage=(\d+)",
+        url,
+    )
+
+    current_page = (
+        int(
+            current_match.group(1)
+        )
+        if current_match
+        else 1
+    )
+
     next_url = None
-    for link in soup.find_all("a", href=True):
-        text = clean(link.get_text(" "))
-        href = link.get("href", "")
-        if "suivant" in text.lower() or "evpage=" in href:
-            candidate = urljoin(url, href)
-            if candidate != url:
-                # On prend le premier lien vers une page supérieure.
-                m = re.search(r"[?&]evpage=(\d+)", candidate)
-                if m:
-                    current = re.search(r"[?&]evpage=(\d+)", url)
-                    current_page = int(current.group(1)) if current else 1
-                    if int(m.group(1)) > current_page:
-                        next_url = candidate
-                        break
+
+    for link in soup.find_all(
+        "a",
+        href=True,
+    ):
+        href = link.get(
+            "href",
+            "",
+        )
+
+        candidate = urljoin(
+            url,
+            href,
+        )
+
+        page_match = re.search(
+            r"[?&]evpage=(\d+)",
+            candidate,
+        )
+
+        if not page_match:
+            continue
+
+        page_number = int(
+            page_match.group(1)
+        )
+
+        if page_number == (
+            current_page + 1
+        ):
+            next_url = candidate
+            break
 
     return events, next_url
 
@@ -198,15 +425,42 @@ def scrape_la_ricane() -> list[dict]:
 
     current_url = URL
 
-    for _ in range(10):
-        events, next_url = scrape_page(current_url)
+    for page_number in range(
+        1,
+        11,
+    ):
+        events, next_url = (
+            scrape_page(
+                current_url
+            )
+        )
+
+        new_count = 0
 
         for event in events:
-            if event["id"] in seen_ids:
+            if (
+                event["id"]
+                in seen_ids
+            ):
                 continue
 
-            seen_ids.add(event["id"])
-            all_events.append(event)
+            seen_ids.add(
+                event["id"]
+            )
+
+            all_events.append(
+                event
+            )
+
+            new_count += 1
+
+        print(
+            "La Ricane "
+            f"page {page_number} : "
+            f"{new_count} "
+            "nouvelle(s) "
+            "représentation(s)"
+        )
 
         if not next_url:
             break
@@ -221,8 +475,37 @@ def scrape_la_ricane() -> list[dict]:
     )
 
     print(
-        f"La Ricane : {len(all_events)} représentation(s)"
+        "La Ricane : "
+        f"{len(all_events)} "
+        "représentation(s)"
     )
+
+    # Contrôles utiles dans GitHub Actions.
+    checks = [
+        "DERRIERE LA PORTE",
+        "LA FIV DU SAMEDI SOIR",
+        "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
+    ]
+
+    for wanted in checks:
+        found = [
+            event
+            for event in all_events
+            if event["title"].upper()
+            == wanted.upper()
+        ]
+
+        print(
+            "La Ricane contrôle : "
+            f"{wanted} -> "
+            f"{len(found)} séance(s)"
+        )
+
+        for event in found:
+            print(
+                "  ",
+                event["start"],
+            )
 
     return all_events
 
