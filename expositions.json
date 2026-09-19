@@ -36,6 +36,42 @@
     "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/frank-stella"
   },
   {
+    "id": "6a87c9978708d338168f",
+    "type": "Musée",
+    "source": "Couriot - Musée de la Mine",
+    "title": "\"Ouvrons nous aux arts\"",
+    "venue": "Couriot - Musée de la Mine",
+    "city": "Saint-Étienne",
+    "start": "2026-09-19",
+    "end": "2026-10-18",
+    "status": "current",
+    "url": "https://musee-mine.saint-etienne.fr/ouvrons-nous-aux-arts"
+  },
+  {
+    "id": "198f2524698c02cb48bb",
+    "type": "Musée",
+    "source": "Couriot - Musée de la Mine",
+    "title": "Agenda des événements",
+    "venue": "Couriot - Musée de la Mine",
+    "city": "Saint-Étienne",
+    "start": "2026-09-19",
+    "end": "2026-10-18",
+    "status": "current",
+    "url": "https://musee-mine.saint-etienne.fr/agenda"
+  },
+  {
+    "id": "9951966d2631206c5a36",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Écritures en éclats — Restez informés !",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2026-09-19",
+    "end": "2027-01-03",
+    "status": "current",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/ecritures-en-eclats"
+  },
+  {
     "id": "6b2a07f725b137ea31fc",
     "type": "Musée",
     "source": "Couriot - Musée de la Mine",
@@ -70,42 +106,6 @@
     "end": null,
     "status": "current",
     "url": "https://mai.saint-etienne.fr/expositions-evenements/expositions/mecanique-de-lart"
-  },
-  {
-    "id": "6a87c9978708d338168f",
-    "type": "Musée",
-    "source": "Couriot - Musée de la Mine",
-    "title": "\"Ouvrons nous aux arts\"",
-    "venue": "Couriot - Musée de la Mine",
-    "city": "Saint-Étienne",
-    "start": "2026-09-19",
-    "end": "2026-10-18",
-    "status": "upcoming",
-    "url": "https://musee-mine.saint-etienne.fr/ouvrons-nous-aux-arts"
-  },
-  {
-    "id": "198f2524698c02cb48bb",
-    "type": "Musée",
-    "source": "Couriot - Musée de la Mine",
-    "title": "Agenda des événements",
-    "venue": "Couriot - Musée de la Mine",
-    "city": "Saint-Étienne",
-    "start": "2026-09-19",
-    "end": "2026-10-18",
-    "status": "upcoming",
-    "url": "https://musee-mine.saint-etienne.fr/agenda"
-  },
-  {
-    "id": "9951966d2631206c5a36",
-    "type": "Musée",
-    "source": "MAMC+",
-    "title": "Écritures en éclats — Restez informés !",
-    "venue": "MAMC+",
-    "city": "Saint-Étienne",
-    "start": "2026-09-19",
-    "end": "2027-01-03",
-    "status": "upcoming",
-    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/ecritures-en-eclats"
   },
   {
     "id": "0ab0ae998030478881d2",
