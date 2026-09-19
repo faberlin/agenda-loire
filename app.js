@@ -7,7 +7,6 @@ const client = supabase.createClient(
 let allEvents = [];
 let prefs = new Map();
 let currentTab = "visible";
-let currentUser = null;
 
 const el = id =>
   document.getElementById(id);
@@ -405,188 +404,75 @@ async function loadEvents() {
 
 
 /* ======================================================
-   CONNEXION
+   PRÉFÉRENCES SUPABASE — PROFIL UNIQUE
    ====================================================== */
 
-async function loadSession() {
-  const { data } =
-    await client.auth
-      .getSession();
-
-  currentUser =
-    data.session?.user ||
-    null;
-
-  updateLoginButton();
-
-  client.auth
-    .onAuthStateChange(
-      async (
-        _event,
-        session
-      ) => {
-        currentUser =
-          session?.user ||
-          null;
-
-        updateLoginButton();
-
-        await loadPrefs();
-
-        render();
-      }
-    );
-}
-
 async function loadPrefs() {
-  prefs =
-    new Map();
-
-  if (!currentUser) {
-    const local =
-      JSON.parse(
-        localStorage.getItem(
-          "agenda-loire-prefs"
-        ) || "{}"
-      );
-
-    Object.entries(local)
-      .forEach(
-        ([key, value]) => {
-          prefs.set(
-            key,
-            {
-              hidden:
-                !!value.hidden,
-
-              favorite:
-                !!value.favorite,
-
-              reserved:
-                !!value.reserved
-            }
-          );
-        }
-      );
-
-    return;
-  }
+  prefs = new Map();
 
   const {
     data,
     error
-  } =
-    await client
-      .from(
-        "event_preferences"
-      )
-      .select(
-        "event_id, hidden, favorite, reserved"
-      )
-      .eq(
-        "user_id",
-        currentUser.id
-      );
+  } = await client
+    .from("event_preferences")
+    .select("event_id, hidden, favorite, reserved");
 
   if (error) {
-    console.error(
-      error
+    console.error(error);
+    throw new Error(
+      "Impossible de charger les préférences Supabase."
     );
-
-    el("status").textContent =
-      "Erreur de synchronisation Supabase.";
-
-    return;
   }
 
-  (data || [])
-    .forEach(row => {
-      prefs.set(
-        row.event_id,
-        {
-          hidden:
-            !!row.hidden,
-
-          favorite:
-            !!row.favorite,
-
-          reserved:
-            !!row.reserved
-        }
-      );
-    });
+  (data || []).forEach(row => {
+    prefs.set(
+      row.event_id,
+      {
+        hidden: !!row.hidden,
+        favorite: !!row.favorite,
+        reserved: !!row.reserved
+      }
+    );
+  });
 }
 
-async function savePref(
-  eventId,
-  patch
-) {
+async function savePref(eventId, patch) {
+  const previous = {
+    ...getPref(eventId)
+  };
+
   const current = {
-    ...getPref(eventId),
+    ...previous,
     ...patch
   };
 
-  prefs.set(
-    eventId,
-    current
-  );
+  prefs.set(eventId, current);
+  render();
 
-  if (!currentUser) {
-    localStorage.setItem(
-      "agenda-loire-prefs",
-      JSON.stringify(
-        Object.fromEntries(
-          prefs.entries()
-        )
-      )
+  const { error } = await client
+    .from("event_preferences")
+    .upsert(
+      {
+        event_id: eventId,
+        hidden: !!current.hidden,
+        favorite: !!current.favorite,
+        reserved: !!current.reserved,
+        updated_at: new Date().toISOString()
+      },
+      {
+        onConflict: "event_id"
+      }
     );
-
-    render();
-    return;
-  }
-
-  const { error } =
-    await client
-      .from(
-        "event_preferences"
-      )
-      .upsert(
-        {
-          user_id:
-            currentUser.id,
-
-          event_id:
-            eventId,
-
-          hidden:
-            !!current.hidden,
-
-          favorite:
-            !!current.favorite,
-
-          reserved:
-            !!current.reserved,
-
-          updated_at:
-            new Date()
-              .toISOString()
-        },
-        {
-          onConflict:
-            "user_id,event_id"
-        }
-      );
 
   if (error) {
-    console.error(
-      error
-    );
+    console.error(error);
+
+    prefs.set(eventId, previous);
+    render();
 
     el("status").textContent =
-      "Impossible d’enregistrer la préférence.";
+      "Impossible d’enregistrer la préférence dans Supabase.";
   }
-
-  render();
 }
 
 
@@ -711,12 +597,7 @@ function render() {
         filtered.length > 1
           ? "s"
           : ""
-      }` +
-      (
-        currentUser
-          ? " · synchronisé avec Supabase"
-          : " · mode local (connecte-toi pour synchroniser)"
-      );
+      } · synchronisé avec Supabase`;
 
   const container =
     el("events");
@@ -845,13 +726,9 @@ function escapeAttr(value) {
    ACTIONS
    ====================================================== */
 
-function updateLoginButton() {
-  el("loginBtn")
-    .textContent =
-      currentUser
-        ? "Déconnexion"
-        : "Connexion";
-}
+/* Les actions Favori / Réservé / Masqué sont enregistrées
+   directement dans Supabase, sans connexion utilisateur. */
+
 
 el("events")
   .addEventListener(
@@ -983,65 +860,6 @@ document
     );
   });
 
-el("loginBtn")
-  .addEventListener(
-    "click",
-    async () => {
-      if (
-        currentUser
-      ) {
-        await client.auth
-          .signOut();
-
-        return;
-      }
-
-      el("loginDialog")
-        .showModal();
-    }
-  );
-
-el("sendMagicLink")
-  .addEventListener(
-    "click",
-    async event => {
-      event.preventDefault();
-
-      const email =
-        el("email")
-          .value
-          .trim();
-
-      if (!email) {
-        return;
-      }
-
-      el("loginMessage")
-        .textContent =
-          "Envoi…";
-
-      const { error } =
-        await client.auth
-          .signInWithOtp(
-            {
-              email,
-              options: {
-                emailRedirectTo:
-                  window.location
-                    .href
-              }
-            }
-          );
-
-      el("loginMessage")
-        .textContent =
-          error
-            ? "Erreur : " +
-              error.message
-            : "Lien envoyé. Vérifie ta boîte mail.";
-    }
-  );
-
 
 /* ======================================================
    INITIALISATION
@@ -1049,7 +867,6 @@ el("sendMagicLink")
 
 (async function init() {
   try {
-    await loadSession();
     await loadPrefs();
     await loadEvents();
 
