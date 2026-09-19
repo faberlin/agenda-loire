@@ -1,13 +1,387 @@
 [
   {
-    "id": "311e9f43aee165a14aff",
-    "title": "Résiste - Cie Mainte et une fois",
-    "start": "2026-04-02T20:00:00+02:00",
+    "id": "24cf8b8ffacd6b684d51",
+    "title": "Asil – Théâtre d’impro",
+    "start": "2026-01-14T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/asil-theatre-dimpro-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "345d7dd581be2de0d529",
+    "title": "Lancement de saison 2025-2026 → acte 2",
+    "start": "2026-02-08T17:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/lancement-de-saison-2025-2026%e2%86%92acte-2/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "2afb67363aee302c5795",
+    "title": "Jean de la lune",
+    "start": "2026-02-09T15:30:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/jean-de-la-lune/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "3409be5e1562fd7e1ab4",
+    "title": "Jean de la lune",
+    "start": "2026-02-10T15:30:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/jean-de-la-lune/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "a1ca9b0c3a0468879677",
+    "title": "Asil – Théâtre d’impro",
+    "start": "2026-02-12T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/asil-theatre-dimpro-fevrier2026/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "76e386e3251fdeae1451",
+    "title": "Sois Gaza",
+    "start": "2026-02-26T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/sois-gaza/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "af2a69652b35e35f2a5e",
+    "title": "Sois Gaza",
+    "start": "2026-02-27T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/sois-gaza/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "b979ac0cac72fd282e2a",
+    "title": "Palestine sur scène",
+    "start": "2026-02-28T19:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/palestine-sur-scene/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "075722411af5b826f396",
+    "title": "Sois Gaza",
+    "start": "2026-03-01T15:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/sois-gaza/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "c3530b2b79a0ad670b34",
+    "title": "Le Discours de la servitude volontaire",
+    "start": "2026-03-05T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/le-discours-de-la-servitude-volontaire/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "e4b3cd470a84ad2337f2",
+    "title": "Le Discours de la servitude volontaire",
+    "start": "2026-03-06T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/le-discours-de-la-servitude-volontaire/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "54ee5a2ebc43f8914a33",
+    "title": "Le Discours de la servitude volontaire",
+    "start": "2026-03-08T17:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/le-discours-de-la-servitude-volontaire/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "2235fe3d31256592b977",
+    "title": "Les pieds par terre",
+    "start": "2026-03-12T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-pieds-par-terre/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "b7542eef912d244e8d7e",
+    "title": "Les pieds par terre",
+    "start": "2026-03-13T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-pieds-par-terre/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "0b2bcf2ca9805186124c",
+    "title": "Les vaches ruminent-elles du noir ?",
+    "start": "2026-03-19T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-vaches-ruminent-elles-du-noir/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "484853a62659f318719f",
+    "title": "Les vaches ruminent-elles du noir ?",
+    "start": "2026-03-20T14:30:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-vaches-ruminent-elles-du-noir/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "15d7b3df552c4aa6c7cb",
+    "title": "Scène ouverte coup de lune (mars 2026)",
+    "start": "2026-03-22T17:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/scene-ouverte-coup-de-lune-mars-2026-2/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "4693b1fb5247cb783688",
+    "title": "Moi, Antonin Artaud, j’ai donc à dire à la société …",
+    "start": "2026-03-27T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/moi-antonin-artaud-jai-donc-a-dire-a-la-societe/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "ec499e653bda5083099e",
+    "title": "Moi, Antonin Artaud, j’ai donc à dire à la société …",
+    "start": "2026-03-29T17:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/moi-antonin-artaud-jai-donc-a-dire-a-la-societe/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "2a86c1e5aee1f1240399",
+    "title": "Résiste – Cie Mainte et une fois",
+    "start": "2026-04-02T20:30:00+02:00",
     "venue": "Chok Théâtre",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
     "url": "https://choktheatre.com/resiste-cie-mainte-et-une-fois/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "b158228b0c67a83e87a6",
+    "title": "Les petits Monstres",
+    "start": "2026-04-07T14:30:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-petits-monstres/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "795db9e0b774558c9dba",
+    "title": "Les petits Monstres",
+    "start": "2026-04-08T14:30:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-petits-monstres/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "54f29249df72dcb50726",
+    "title": "Les petits Monstres",
+    "start": "2026-04-09T14:30:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-petits-monstres/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "9af46d1516ef7a32c6b0",
+    "title": "Asil – Théâtre d’impro",
+    "start": "2026-04-09T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/asil-theatre-dimpro/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "f27c28fb51f4d183ebd1",
+    "title": "Les oubliées",
+    "start": "2026-04-18T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-oubliees/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "a8d9a56f8ca160fc3cfc",
+    "title": "3 guitares, 3 albums et peut-être un piano",
+    "start": "2026-04-24T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/3-guitares-3-albums-et-peut-etre-un-piano/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "d600abced32f3b3abd7f",
+    "title": "3 guitares, 3 albums et peut-être un piano",
+    "start": "2026-04-25T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/3-guitares-3-albums-et-peut-etre-un-piano/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "504e088c4166142c24cf",
+    "title": "Vertige – Finissage d’exposition « La matrice »",
+    "start": "2026-05-12T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/vertige-finissage-dexposition-la-matrice/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "86fd61a82f0cde24467a",
+    "title": "Les brûleurs de planches 2026",
+    "start": "2026-05-18T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-bruleurs-de-planches-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "46beac6b4087342ed5c4",
+    "title": "Les brûleurs de planches 2026",
+    "start": "2026-05-20T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-bruleurs-de-planches-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "99a2776e7650ebea196d",
+    "title": "Les brûleurs de planches 2026",
+    "start": "2026-05-22T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-bruleurs-de-planches-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "1513f4bb3c453f1c3a83",
+    "title": "Les brûleurs de planches 2026",
+    "start": "2026-05-24T17:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-bruleurs-de-planches-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "421a4002ef0d9414c5a2",
+    "title": "Déconniatrie",
+    "start": "2026-06-02T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/deconniatrie/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "111752de7bb53eaef868",
+    "title": "Déconniatrie",
+    "start": "2026-06-03T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/deconniatrie/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "4d31318fef6456f8efb1",
+    "title": "Déconniatrie",
+    "start": "2026-06-04T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/deconniatrie/",
     "source": "Chok Théâtre"
   },
   {
@@ -19,6 +393,17 @@
     "category": "Théâtre",
     "description": "",
     "url": "https://choktheatre.com/deconniatrie/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "0d33d659cd95e2faf9f5",
+    "title": "Mon plaisir est stéphanois 2026",
+    "start": "2026-09-10T14:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/mon-plaisir-est-stephanois-2026/",
     "source": "Chok Théâtre"
   },
   {
@@ -44,6 +429,17 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
+    "id": "6f16effd6b79aa563ad2",
+    "title": "Mon plaisir est stéphanois 2026",
+    "start": "2026-09-11T21:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/mon-plaisir-est-stephanois-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "4062c4a44463a0532ad2",
     "title": "Quinzaine Souad Labbize : une autrice - des artistes - une ville - des lieux",
     "start": "2026-09-12T14:30:00+02:00",
@@ -55,6 +451,17 @@
     "source": "Médiathèques Sainté"
   },
   {
+    "id": "621261f176129fd5fa12",
+    "title": "Mon plaisir est stéphanois 2026",
+    "start": "2026-09-12T21:15:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/mon-plaisir-est-stephanois-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "18837ff5e715c2ebc766",
     "title": "ANAÏS",
     "start": "2026-09-13T15:00:00+02:00",
@@ -64,6 +471,17 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "7daa560891677fde3c5b",
+    "title": "Mon plaisir est stéphanois 2026",
+    "start": "2026-09-13T16:30:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/mon-plaisir-est-stephanois-2026/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "3b87bc24810145691b8f",
@@ -108,6 +526,17 @@
     "description": "Sauvegarder des documents anciens : raviver, ... JEP 2026 Du 19/09/2026 10:00 au 31/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Une exposition d'ouvrages patrimoniaux remarquables sortis des réserves, pour apprécier des livres anciens, rares et précieux. Ces documents sont parfois abîmés et fragiles. Face aux menaces du temps, il est nécessaire de les conserver pour l'avenir....",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2396/sauvegarder-des-documents-anciens-raviver-resister-reimaginer",
     "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "c592e4955a84a6668d79",
+    "title": "Quinzaine Souad Labbize",
+    "start": "2026-09-19T18:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/quizaine-souad-labbize/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "1ce5266e62eb088de1a6",
@@ -185,6 +614,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/801923-le-parfum-de-leurs-reves-prison-et-resistance-360deg-de-trajectoires",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "8f7601f03526cf75520d",
+    "title": "Lancement saison 2026-2027 → acte 1",
+    "start": "2026-09-20T17:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/lancement-saison-2026-2027%e2%86%92acte-1/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "63e441b22090a9f43e31",
@@ -341,6 +781,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "3c32ec605b50f1285609",
+    "title": "Nos âmes liées",
+    "start": "2026-10-01T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/nos-ames-liees/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "366838d605585d760da6",
     "title": "Talisco + Apex Music Club",
     "start": "2026-10-01T20:30:00+02:00",
@@ -394,6 +845,17 @@
     "description": "",
     "url": "https://saint-chamond.fr/events/jazz-musique-du-monde-ana-carla-maza/",
     "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "bca3516e24a79c4f0562",
+    "title": "Nos âmes liées",
+    "start": "2026-10-02T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/nos-ames-liees/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "aaefa297c21533b0f430",
@@ -561,6 +1023,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "2835a746c0f6a912f079",
+    "title": "La ribambelle dans ma cervelle enfin se tait",
+    "start": "2026-10-08T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/la-ribambelle-dans-ma-cervelle-enfin-se-tait/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "1df3ac5b4ecad4ed2822",
     "title": "MISTER MAT",
     "start": "2026-10-08T20:30:00+02:00",
@@ -581,6 +1054,17 @@
     "description": "",
     "url": "https://saint-chamond.fr/events/theatre-musical-depisto-girl/",
     "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "6a620858542136748829",
+    "title": "La ribambelle dans ma cervelle enfin se tait",
+    "start": "2026-10-09T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/la-ribambelle-dans-ma-cervelle-enfin-se-tait/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "1092b498c1e7b4214fca",
@@ -1001,6 +1485,17 @@
     "source": "La Ricane"
   },
   {
+    "id": "365b548607b2f0d7ad08",
+    "title": "Ulrike Meinhof",
+    "start": "2026-10-24T15:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/ulrike-meinhof/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "ea0134b582f8f0f753e8",
     "title": "THE DEPECHE MODE EXPERIENCE",
     "start": "2026-10-24T20:00:00+02:00",
@@ -1045,6 +1540,17 @@
     "source": "La Comète"
   },
   {
+    "id": "fb3c2e09ad5432d020ed",
+    "title": "Ulrike Meinhof",
+    "start": "2026-10-25T15:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/ulrike-meinhof/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "4f32cc91533b1a098eb8",
     "title": "Jam Session",
     "start": "2026-10-26T20:30:00+01:00",
@@ -1054,6 +1560,17 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-129/",
     "source": "Le Solar"
+  },
+  {
+    "id": "ad4ee654d4b36ef41604",
+    "title": "N’Goon",
+    "start": "2026-10-29T15:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/ngoon/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "679f2e78dcbe39000924",
@@ -1078,6 +1595,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "07ae3d3d510614fb86ba",
+    "title": "N’Goon",
+    "start": "2026-10-30T15:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/ngoon/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "aea5880619ee0fedbd83",
     "title": "Les échauffé·e·s Øtakt + ebl",
     "start": "2026-10-30T20:30:00+01:00",
@@ -1098,6 +1626,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/morgane-berling",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "a22bb20d18770783c00d",
+    "title": "N’Goon",
+    "start": "2026-10-31T15:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/ngoon/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "f8beec6cfc09a1d9b1c7",
@@ -1332,6 +1871,17 @@
     "source": "Salle Aristide Briand"
   },
   {
+    "id": "d13a90bebabcea1dce4b",
+    "title": "Asil – Théâtre d’impro",
+    "start": "2026-11-12T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/asil-theatre-dimpro-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "2394d84b57219686fe14",
     "title": "Un pouce en cavale",
     "start": "2026-11-13T10:00:00+01:00",
@@ -1413,17 +1963,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "4b004b01f28f2de9d7f0",
-    "title": "Asil - Théâtre d'impro",
-    "start": "2026-11-14T20:00:00+01:00",
-    "venue": "Chok Théâtre",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://choktheatre.com/asil-theatre-dimpro-2026/",
-    "source": "Chok Théâtre"
   },
   {
     "id": "cd6b278e2443c735cdd9",
@@ -1610,6 +2149,17 @@
     "source": "Salle Aristide Briand"
   },
   {
+    "id": "959ae77aa611d28e18dd",
+    "title": "Tact ou l’amour du travail",
+    "start": "2026-11-20T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/tact-ou-lamour-du-travail/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "7689f26263a1bb16740e",
     "title": "The Inspector Cluzo + Grant Haua",
     "start": "2026-11-20T20:30:00+01:00",
@@ -1696,6 +2246,17 @@
     "description": "",
     "url": "https://laricane.com/event/la-fiv-du-samedi-soir-3-2/",
     "source": "La Ricane"
+  },
+  {
+    "id": "2d3f950080c0d4f4409a",
+    "title": "Tact ou l’amour du travail",
+    "start": "2026-11-22T17:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/tact-ou-lamour-du-travail/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "8fc5155d4949919a3471",
@@ -1830,6 +2391,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "e92e37ab57651334474f",
+    "title": "La dette d’odette",
+    "start": "2026-11-26T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/la-dette-dodette/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "6172fa1e90b0d4e31b77",
     "title": "LES TROIS DUCS COMEDY CLUB",
     "start": "2026-11-26T20:30:00+01:00",
@@ -1839,6 +2411,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-15",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "d90b65fbf67a2114e7a7",
+    "title": "La dette d’odette",
+    "start": "2026-11-27T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/la-dette-dodette/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "49b86a66e7dd566a9dfe",
@@ -1916,6 +2499,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802063-conference-du-gremmos-resister-a-360deg",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "0807142513b52df7492b",
+    "title": "La dette d’odette",
+    "start": "2026-11-29T17:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/la-dette-dodette/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "8a0bf477cc153fa6bff6",
