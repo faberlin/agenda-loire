@@ -47,7 +47,11 @@ MONTHS = {
 }
 
 
-# Exemples acceptés :
+# ------------------------------------------------------
+# DATES
+# ------------------------------------------------------
+
+# Exemples :
 #
 # Dimanche 20 septembre 2026 - 17h00
 # Jeudi 1 octobre 2026 - 20h
@@ -66,9 +70,12 @@ DATE_RE = re.compile(
 )
 
 
-# On accepte UNIQUEMENT la saison actuelle.
+# ------------------------------------------------------
+# SAISON ACTUELLE
+# ------------------------------------------------------
+
+# On ne garde QUE :
 #
-# Exemples rencontrés sur le site :
 # SAISON 2026-2027 #1
 # Saison 26/27 #1
 # Les + Saison 26/27 #1
@@ -82,14 +89,30 @@ CURRENT_SEASON_RE = re.compile(
 )
 
 
+# ------------------------------------------------------
+# OUTILS
+# ------------------------------------------------------
+
 def clean_text(value):
-    value = html.unescape(value or "")
-    value = re.sub(r"\s+", " ", value)
+    value = html.unescape(
+        value or ""
+    )
+
+    value = re.sub(
+        r"\s+",
+        " ",
+        value
+    )
+
     return value.strip()
 
 
 def make_id(title, start):
-    raw = f"{SOURCE}|{title}|{start}".encode("utf-8")
+    raw = (
+        f"{SOURCE}|"
+        f"{title}|"
+        f"{start}"
+    ).encode("utf-8")
 
     return hashlib.sha1(
         raw
@@ -99,7 +122,9 @@ def make_id(title, start):
 def parse_dates(text):
     dates = []
 
-    for match in DATE_RE.finditer(text):
+    for match in DATE_RE.finditer(
+        text
+    ):
         day = int(
             match.group(1)
         )
@@ -150,6 +175,10 @@ def parse_dates(text):
 
     return unique
 
+
+# ------------------------------------------------------
+# CHARGEMENT D'UNE FICHE
+# ------------------------------------------------------
 
 def fetch_page(url):
     response = requests.get(
@@ -206,12 +235,10 @@ def get_title(soup):
 
 def extract_main_content(soup):
     """
-    Supprime tout ce qui peut contenir les menus
-    et les liens vers les anciennes saisons.
+    Retire les menus et éléments périphériques.
 
-    C'est important :
-    on ne doit JAMAIS utiliser le texte du menu
-    pour décider de la saison d'un spectacle.
+    C'est indispensable car le menu du Chok
+    contient les anciennes saisons.
     """
 
     for node in soup.select(
@@ -234,19 +261,14 @@ def extract_main_content(soup):
 
 def check_current_season(url):
     """
-    Vérifie la fiche individuelle.
+    Ouvre une fiche individuelle.
 
-    Elle n'est retenue que si son contenu
-    indique explicitement :
+    La fiche est retenue uniquement si son
+    contenu indique explicitement qu'elle
+    appartient à la saison 2026-2027 #1.
 
-        Saison 2026-2027 #1
-
-    ou :
-
-        Saison 26/27 #1
-
-    On ne se base donc plus sur la colonne
-    des anciennes saisons du site.
+    On ne se base plus sur le sitemap ni
+    sur la colonne des anciennes saisons.
     """
 
     try:
@@ -287,15 +309,17 @@ def check_current_season(url):
     return soup, text
 
 
+# ------------------------------------------------------
+# DÉCOUVERTE VIA WORDPRESS
+# ------------------------------------------------------
+
 def discover_with_rest():
     """
-    Cherche les publications WordPress récentes.
+    Cherche uniquement les publications
+    WordPress récentes.
 
-    On ne consulte volontairement que les
-    publications à partir de juillet 2026.
-
-    Cela évite de reparcourir toute la saison
-    2025-2026.
+    On commence en juillet 2026 pour ne pas
+    reparcourir la saison 2025-2026.
     """
 
     urls = []
@@ -321,8 +345,8 @@ def discover_with_rest():
                 timeout=30,
             )
 
-            # WordPress renvoie souvent 400
-            # quand on dépasse la dernière page.
+            # WordPress peut renvoyer 400
+            # lorsqu'on dépasse la dernière page.
             if response.status_code == 400:
                 break
 
@@ -365,12 +389,14 @@ def discover_with_rest():
     return urls
 
 
+# ------------------------------------------------------
+# DÉCOUVERTE VIA RSS
+# ------------------------------------------------------
+
 def discover_with_feed():
     """
-    Méthode de secours.
-
-    Si l'API WordPress n'est pas disponible,
-    on regarde également le flux RSS.
+    Méthode complémentaire / secours
+    si l'API WordPress ne renvoie pas tout.
     """
 
     urls = []
@@ -382,6 +408,7 @@ def discover_with_feed():
 
         if page == 1:
             feed_url = FEED_URL
+
         else:
             feed_url = (
                 f"{FEED_URL}"
@@ -438,12 +465,11 @@ def discover_with_feed():
     return urls
 
 
-def discover_urls():
-    """
-    Combine API WordPress + RSS puis supprime
-    les doublons.
-    """
+# ------------------------------------------------------
+# LISTE DES FICHES À ANALYSER
+# ------------------------------------------------------
 
+def discover_urls():
     urls = (
         discover_with_rest()
         +
@@ -466,7 +492,9 @@ def discover_urls():
             continue
 
         seen.add(url)
-        unique.append(url)
+        unique.append(
+            url
+        )
 
     print(
         "Chok Théâtre : "
@@ -477,7 +505,11 @@ def discover_urls():
     return unique
 
 
-def scrape():
+# ------------------------------------------------------
+# SCRAPER PRINCIPAL
+# ------------------------------------------------------
+
+def scrape_chok():
     events = []
     accepted_pages = 0
 
@@ -489,8 +521,8 @@ def scrape():
             url
         )
 
-        # Pas explicitement saison 26/27 #1 :
-        # on ignore totalement la fiche.
+        # La fiche n'est pas explicitement
+        # Saison 26/27 #1.
         if result is None:
             continue
 
@@ -544,7 +576,10 @@ def scrape():
                 "source": SOURCE,
             })
 
-    # Déduplication finale
+    # --------------------------------------------------
+    # DÉDUPLICATION
+    # --------------------------------------------------
+
     deduped = []
     seen = set()
 
@@ -562,6 +597,7 @@ def scrape():
             continue
 
         seen.add(key)
+
         deduped.append(
             event
         )
@@ -577,12 +613,17 @@ def scrape():
     return deduped
 
 
+# ------------------------------------------------------
+# TEST DIRECT
+# ------------------------------------------------------
+
 if __name__ == "__main__":
+
     import json
 
     print(
         json.dumps(
-            scrape(),
+            scrape_chok(),
             ensure_ascii=False,
             indent=2
         )
