@@ -367,4 +367,18 @@ dialog {
   .filter-group-wide .filter-options {
     grid-template-columns: 1fr;
   }
+
+  /* Catégories sur une seule ligne */
+#categoryFilters {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+#categoryFilters .filter-check {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
 }
