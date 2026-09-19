@@ -242,16 +242,12 @@ function setupPeriodCheckboxes() {
    ====================================================== */
 
 function hasFutureSession(ev) {
-  const limit =
-    new Date(
-      Date.now() -
-      24 * 3600 * 1000
-    );
+  const now = new Date();
 
   return eventDates(ev)
     .some(
       date =>
-        date >= limit
+        date >= now
     );
 }
 
@@ -511,6 +507,10 @@ function render() {
         const p =
           getPref(ev.id);
 
+        /*
+         * Un événement n'est affiché que s'il possède
+         * encore au moins une séance future.
+         */
         if (
           !hasFutureSession(ev)
         ) {
@@ -728,7 +728,6 @@ function escapeAttr(value) {
 
 /* Les actions Favori / Réservé / Masqué sont enregistrées
    directement dans Supabase, sans connexion utilisateur. */
-
 
 el("events")
   .addEventListener(
