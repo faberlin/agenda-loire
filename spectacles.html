@@ -1,113 +1,66 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sortir à Sainté — Spectacles</title>
-
-  <link rel="stylesheet" href="style.css?v=20260911-1" />
-
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="config.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spectacles · Sortir à Sainté</title>
+  <link rel="stylesheet" href="style.css?v=20260919-3">
 </head>
-
 <body>
-  <main class="page">
+  <main class="page spectacles-filters">
     <header class="header">
       <div class="brand-nav">
-        <h1><a href="index.html" style="color: inherit; text-decoration: none;">Sortir à Sainté</a></h1>
-
+        <h1><a href="index.html">Sortir à Sainté</a></h1>
         <nav class="main-nav" aria-label="Navigation principale">
           <a class="active" href="spectacles.html">Spectacles</a>
           <a href="expositions.html">Expositions</a>
           <a href="cinema.html">Ciné</a>
         </nav>
       </div>
-
     </header>
 
-    <section class="filters-top filters-top-single">
-      <input
-        id="search"
-        type="search"
-        placeholder="Rechercher un événement, un lieu..."
-      />
+    <section class="filters-top">
+      <input id="search" type="search" placeholder="Rechercher un spectacle…" autocomplete="off">
     </section>
 
-    <section class="multi-filters spectacles-filters">
-      <div class="filter-group period-filter-group">
-        <div class="filter-heading">
-          <strong>Période</strong>
-        </div>
-
+    <section class="multi-filters">
+      <div class="filter-group">
+        <div class="filter-heading"><strong>Période</strong></div>
         <div class="period-checkboxes">
           <label class="filter-check">
-            <input
-              id="period7"
-              type="checkbox"
-              value="7"
-            />
+            <input id="period7" type="checkbox">
             <span>7 prochains jours</span>
           </label>
-
           <label class="filter-check">
-            <input
-              id="period30"
-              type="checkbox"
-              value="30"
-            />
+            <input id="period30" type="checkbox">
             <span>30 prochains jours</span>
           </label>
         </div>
-
-        <div class="period-help">
-          Aucune case cochée = tout
-        </div>
+        <div class="period-help">Aucun choix = tous les spectacles à venir</div>
       </div>
 
       <div class="filter-group filter-group-wide">
         <div class="filter-heading">
           <strong>Catégories</strong>
-
-          <button
-            type="button"
-            class="filter-clear"
-            data-clear="categoryFilters"
-          >
-            Tout décocher
-          </button>
+          <button class="filter-clear" type="button" data-clear="categoryFilters">Effacer</button>
         </div>
-
-        <div
-          id="categoryFilters"
-          class="filter-options"
-        ></div>
+        <div id="categoryFilters" class="filter-options"></div>
       </div>
     </section>
 
-    <nav class="tabs" aria-label="Filtres d'état">
-      <button class="tab active" type="button" data-tab="visible">
-        À voir
-      </button>
-
-      <button class="tab" type="button" data-tab="favorites">
-        Favoris
-      </button>
-
-      <button class="tab" type="button" data-tab="reserved">
-        Réservés
-      </button>
-
-      <button class="tab" type="button" data-tab="hidden">
-        Masqués
-      </button>
+    <nav class="tabs" aria-label="Préférences">
+      <button class="tab active" type="button" data-tab="visible">À voir</button>
+      <button class="tab" type="button" data-tab="favorites">Favoris</button>
+      <button class="tab" type="button" data-tab="reserved">Réservés</button>
+      <button class="tab" type="button" data-tab="hidden">Masqués</button>
     </nav>
 
-    <div id="status" class="status"></div>
+    <div id="status" class="status" aria-live="polite">Chargement…</div>
     <section id="events" class="events"></section>
   </main>
 
-
-  <script src="app.js?v=20260919-1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="app.js?v=20260919-3"></script>
 </body>
 </html>
