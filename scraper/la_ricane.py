@@ -72,22 +72,6 @@ CATEGORY_MARKERS = [
 def infer_category(text: str) -> str:
     value = text.lower()
 
-    if any(
-        word in value
-        for word in (
-            "jeune public",
-            "a partir de 1",
-            "a partir de 2",
-            "a partir de 3",
-            "a partir de 4",
-            "à partir de 1",
-            "à partir de 2",
-            "à partir de 3",
-            "à partir de 4",
-            "contes",
-        )
-    ):
-        return "Jeune public"
 
     if any(
         word in value
