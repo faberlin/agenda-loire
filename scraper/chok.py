@@ -1,32 +1,26 @@
-import hashlib
-import html
+from __future__ import annotations
+
 import re
 from datetime import datetime
+from urllib.parse import urljoin, urlparse
 
-import feedparser
 import requests
 from bs4 import BeautifulSoup
-from dateutil import tz
+
+from utils import PARIS, clean, stable_id
 
 
-BASE_URL = "https://choktheatre.com"
-REST_URL = f"{BASE_URL}/wp-json/wp/v2/posts"
-FEED_URL = f"{BASE_URL}/feed/"
-
-SOURCE = "Chok Théâtre"
-VENUE = "Chok Théâtre"
-CITY = "Saint-Étienne"
-CATEGORY = "Théâtre"
+BASE = "https://choktheatre.com/"
+PROGRAM_URL = urljoin(BASE, "programmation/")
 
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 "
-        "(compatible; AgendaLoire/1.0; "
-        "+https://github.com/faberlin/agenda-loire)"
-    )
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/140.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "fr-FR,fr;q=0.9",
 }
-
-PARIS = tz.gettz("Europe/Paris")
 
 MONTHS = {
     "janvier": 1,
@@ -47,84 +41,58 @@ MONTHS = {
 }
 
 
+# Exemples :
+#
+# Dimanche 20 septembre 2026 - 17h00
+# 20 septembre 2026 – 17h
+# Vendredi 23 octobre 2026 | 20h30
+
+DATE_RE = re.compile(
+    r"\b"
+    r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)?"
+    r"\s*"
+    r"(\d{1,2})(?:er)?"
+    r"\s+"
+    r"(janvier|février|fevrier|mars|avril|mai|juin|juillet|"
+    r"août|aout|septembre|octobre|novembre|décembre|decembre)"
+    r"\s+"
+    r"(\d{4})"
+    r"\s*"
+    r"[-–—|]"
+    r"\s*"
+    r"(\d{1,2})h(?:([0-5]\d))?"
+    r"\b",
+    re.IGNORECASE,
+)
+
+
+# ------------------------------------------------------
+# REQUÊTES
+# ------------------------------------------------------
+
+def get_soup(url: str) -> BeautifulSoup:
+    response = requests.get(
+        url,
+        headers=HEADERS,
+        timeout=30,
+    )
+
+    response.raise_for_status()
+
+    return BeautifulSoup(
+        response.text,
+        "html.parser",
+    )
+
+
 # ------------------------------------------------------
 # DATES
 # ------------------------------------------------------
 
-# Exemples :
-#
-# Dimanche 20 septembre 2026 - 17h00
-# Jeudi 1 octobre 2026 - 20h
-# Vendredi 2 octobre 2026 – 20h
-#
-DATE_RE = re.compile(
-    r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)?\s*"
-    r"(\d{1,2})\s+"
-    r"(janvier|février|fevrier|mars|avril|mai|juin|juillet|"
-    r"août|aout|septembre|octobre|novembre|décembre|decembre)"
-    r"\s+"
-    r"(2026|2027)"
-    r"\s*(?:[-–—|]\s*)?"
-    r"(\d{1,2})\s*h(?:\s*(\d{2}))?",
-    re.IGNORECASE,
-)
+def extract_dates(text: str) -> list[datetime]:
+    dates = {}
 
-
-# ------------------------------------------------------
-# SAISON ACTUELLE
-# ------------------------------------------------------
-
-# On ne garde QUE :
-#
-# SAISON 2026-2027 #1
-# Saison 26/27 #1
-# Les + Saison 26/27 #1
-#
-CURRENT_SEASON_RE = re.compile(
-    r"(?:les\s*\+\s*)?"
-    r"saison\s*"
-    r"(?:2026\s*[-–—]\s*2027|26\s*/\s*27)"
-    r"\s*#\s*1",
-    re.IGNORECASE,
-)
-
-
-# ------------------------------------------------------
-# OUTILS
-# ------------------------------------------------------
-
-def clean_text(value):
-    value = html.unescape(
-        value or ""
-    )
-
-    value = re.sub(
-        r"\s+",
-        " ",
-        value
-    )
-
-    return value.strip()
-
-
-def make_id(title, start):
-    raw = (
-        f"{SOURCE}|"
-        f"{title}|"
-        f"{start}"
-    ).encode("utf-8")
-
-    return hashlib.sha1(
-        raw
-    ).hexdigest()[:20]
-
-
-def parse_dates(text):
-    dates = []
-
-    for match in DATE_RE.finditer(
-        text
-    ):
+    for match in DATE_RE.finditer(text):
         day = int(
             match.group(1)
         )
@@ -152,475 +120,403 @@ def parse_dates(text):
                 day,
                 hour,
                 minute,
-                tzinfo=PARIS
+                tzinfo=PARIS,
             )
-
         except ValueError:
             continue
 
-        dates.append(dt)
+        dates[
+            dt.isoformat()
+        ] = dt
 
-    # Déduplication
-    unique = []
-    seen = set()
-
-    for dt in dates:
-        key = dt.isoformat()
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-        unique.append(dt)
-
-    return unique
-
-
-# ------------------------------------------------------
-# CHARGEMENT D'UNE FICHE
-# ------------------------------------------------------
-
-def fetch_page(url):
-    response = requests.get(
-        url,
-        headers=HEADERS,
-        timeout=30
+    return sorted(
+        dates.values()
     )
 
-    response.raise_for_status()
 
-    return response.text
+# ------------------------------------------------------
+# TITRE
+# ------------------------------------------------------
 
+def extract_title(
+    soup: BeautifulSoup,
+) -> str:
 
-def get_title(soup):
     h1 = soup.find("h1")
 
     if h1:
-        title = clean_text(
-            h1.get_text(
-                " ",
-                strip=True
+        title = clean(
+            h1.get_text(" ")
+        )
+    else:
+        title_tag = soup.find(
+            "title"
+        )
+
+        title = (
+            clean(
+                title_tag.get_text(
+                    " "
+                )
             )
+            if title_tag
+            else ""
         )
 
-        if title:
-            title = re.sub(
-                r"\s+Mise à jour récente\s*!?$",
-                "",
-                title,
-                flags=re.IGNORECASE
-            )
+    # Enlève éventuellement :
+    # " - Chok théâtre"
+    # " | Chok théâtre"
 
-            return title.strip()
-
-    if soup.title:
-        title = clean_text(
-            soup.title.get_text(
-                " ",
-                strip=True
-            )
-        )
-
-        title = re.sub(
-            r"\s*[-–|]\s*Chok théâtre.*$",
-            "",
-            title,
-            flags=re.IGNORECASE
-        )
-
-        return title.strip()
-
-    return ""
-
-
-def extract_main_content(soup):
-    """
-    Retire les menus et éléments périphériques.
-
-    C'est indispensable car le menu du Chok
-    contient les anciennes saisons.
-    """
-
-    for node in soup.select(
-        "nav, "
-        "header, "
-        "footer, "
-        "aside, "
-        ".navbar, "
-        ".menu, "
-        ".nav, "
-        ".sidebar, "
-        ".widget, "
-        "#menu, "
-        "#sidebar"
-    ):
-        node.decompose()
-
-    return soup
-
-
-def check_current_season(url):
-    """
-    Ouvre une fiche individuelle et ne conserve que son
-    contenu principal.
-
-    On ne dépend plus de la présence du libellé
-    "Saison 26/27 #1", qui peut être absent de la fiche
-    elle-même. La sélection de la saison repose ensuite
-    sur les dates réellement trouvées dans la fiche.
-    """
-
-    try:
-        page_html = fetch_page(
-            url
-        )
-
-    except Exception as exc:
-        print(
-            f"Chok Théâtre : "
-            f"erreur fiche {url}: "
-            f"{exc}"
-        )
-
-        return None
-
-    soup = BeautifulSoup(
-        page_html,
-        "html.parser"
+    title = re.sub(
+        r"\s*(?:-|–|—|\|)\s*"
+        r"Chok\s+théâtre.*$",
+        "",
+        title,
+        flags=re.IGNORECASE,
     )
 
-    soup = extract_main_content(
+    title = re.sub(
+        r"\s*Mise à jour récente\s*!?\s*$",
+        "",
+        title,
+        flags=re.IGNORECASE,
+    )
+
+    return clean(title)
+
+
+# ------------------------------------------------------
+# ZONE PROGRAMMATION
+# ------------------------------------------------------
+
+def find_program_area(
+    soup: BeautifulSoup,
+):
+    """
+    Cherche le contenu principal de la page.
+
+    Le but est surtout de NE PAS parcourir le menu
+    latéral qui contient toutes les anciennes saisons.
+    """
+
+    # WordPress utilise généralement <main>.
+    main = soup.find("main")
+
+    if main:
+        return main
+
+    # Autres conteneurs fréquemment utilisés
+    # par les thèmes WordPress.
+
+    for selector in (
+        "#main",
+        "#content",
+        ".site-content",
+        ".entry-content",
+        ".article-container",
+        "article",
+    ):
+        area = soup.select_one(
+            selector
+        )
+
+        if area:
+            # Vérifie qu'on est bien dans la zone
+            # contenant PROGRAMMATION.
+            text = clean(
+                area.get_text(" ")
+            ).lower()
+
+            if "programmation" in text:
+                return area
+
+    # Dernier recours :
+    # on part du H1 PROGRAMMATION.
+
+    for heading in soup.find_all(
+        ["h1", "h2"]
+    ):
+        text = clean(
+            heading.get_text(" ")
+        )
+
+        if (
+            text.lower()
+            == "programmation"
+        ):
+            parent = heading.parent
+
+            # Remonte quelques niveaux seulement.
+            for _ in range(4):
+                if parent is None:
+                    break
+
+                links = parent.find_all(
+                    "a",
+                    href=True,
+                )
+
+                if len(links) >= 3:
+                    return parent
+
+                parent = parent.parent
+
+    return None
+
+
+# ------------------------------------------------------
+# LIENS DE LA PROGRAMMATION
+# ------------------------------------------------------
+
+def is_internal_event_url(
+    url: str,
+) -> bool:
+
+    parsed = urlparse(url)
+
+    if (
+        parsed.netloc
+        and parsed.netloc
+        != "choktheatre.com"
+    ):
+        return False
+
+    lower = url.lower()
+
+    excluded = (
+        "/programmation/",
+        "/category/",
+        "/tag/",
+        "/author/",
+        "/wp-",
+        "/feed",
+        "/infos-pratiques",
+        "/partenaires",
+        "/la-cie-",
+        "/le-chok-theatre",
+        "facebook.com",
+        "instagram.com",
+        "twitter.com",
+        "youtube.com",
+        "calameo.com",
+        "helloasso.com",
+    )
+
+    return not any(
+        item in lower
+        for item in excluded
+    )
+
+
+def program_urls() -> list[str]:
+    soup = get_soup(
+        PROGRAM_URL
+    )
+
+    area = find_program_area(
         soup
     )
 
-    text = clean_text(
-        soup.get_text(
-            " ",
-            strip=True
-        )
-    )
-
-    if not text:
-        return None
-
-    return soup, text
-
-
-# ------------------------------------------------------
-# DÉCOUVERTE VIA WORDPRESS
-# ------------------------------------------------------
-
-def discover_with_rest():
-    """
-    Cherche uniquement les publications
-    WordPress récentes.
-
-    On commence en juillet 2026 pour ne pas
-    reparcourir la saison 2025-2026.
-    """
-
-    urls = []
-
-    try:
-        page = 1
-
-        while page <= 5:
-
-            response = requests.get(
-                REST_URL,
-                headers=HEADERS,
-                params={
-                    "per_page": 100,
-                    "page": page,
-                    "after": (
-                        "2026-07-01T00:00:00"
-                    ),
-                    "_fields": (
-                        "link,date,modified"
-                    ),
-                },
-                timeout=30,
-            )
-
-            # WordPress peut renvoyer 400
-            # lorsqu'on dépasse la dernière page.
-            if response.status_code == 400:
-                break
-
-            response.raise_for_status()
-
-            posts = response.json()
-
-            if not posts:
-                break
-
-            for post in posts:
-                link = post.get(
-                    "link"
-                )
-
-                if link:
-                    urls.append(
-                        link
-                    )
-
-            total_pages = int(
-                response.headers.get(
-                    "X-WP-TotalPages",
-                    page
-                )
-            )
-
-            if page >= total_pages:
-                break
-
-            page += 1
-
-    except Exception as exc:
+    if area is None:
         print(
             "Chok Théâtre : "
-            "API WordPress indisponible : "
-            f"{exc}"
+            "zone PROGRAMMATION introuvable"
         )
 
-    return urls
-
-
-# ------------------------------------------------------
-# DÉCOUVERTE VIA RSS
-# ------------------------------------------------------
-
-def discover_with_feed():
-    """
-    Méthode complémentaire / secours
-    si l'API WordPress ne renvoie pas tout.
-    """
+        return []
 
     urls = []
 
-    for page in range(
-        1,
-        8
+    for link in area.find_all(
+        "a",
+        href=True,
     ):
-
-        if page == 1:
-            feed_url = FEED_URL
-
-        else:
-            feed_url = (
-                f"{FEED_URL}"
-                f"?paged={page}"
+        href = clean(
+            link.get(
+                "href",
+                ""
             )
-
-        try:
-            response = requests.get(
-                feed_url,
-                headers=HEADERS,
-                timeout=30
-            )
-
-            response.raise_for_status()
-
-        except Exception as exc:
-            print(
-                "Chok Théâtre : "
-                f"erreur flux page {page}: "
-                f"{exc}"
-            )
-
-            break
-
-        feed = feedparser.parse(
-            response.content
         )
 
-        if not feed.entries:
-            break
+        if not href:
+            continue
 
-        before = len(
-            urls
+        url = urljoin(
+            PROGRAM_URL,
+            href,
         )
 
-        for entry in feed.entries:
-            link = entry.get(
-                "link"
-            )
+        if not is_internal_event_url(
+            url
+        ):
+            continue
 
-            if (
-                link
-                and link.startswith(
-                    BASE_URL
-                )
-            ):
-                urls.append(
-                    link
-                )
+        urls.append(url)
 
-        if len(urls) == before:
-            break
+    # Supprime les doublons
+    # tout en conservant l'ordre.
+
+    urls = list(
+        dict.fromkeys(urls)
+    )
+
+    print(
+        "Chok Théâtre : "
+        f"{len(urls)} lien(s) "
+        "dans la zone PROGRAMMATION"
+    )
 
     return urls
 
 
 # ------------------------------------------------------
-# LISTE DES FICHES À ANALYSER
+# FICHE D'UN SPECTACLE
 # ------------------------------------------------------
 
-def discover_urls():
-    urls = (
-        discover_with_rest()
-        +
-        discover_with_feed()
-    )
+def scrape_event_page(
+    url: str,
+) -> list[dict]:
 
-    unique = []
-    seen = set()
-
-    for url in urls:
-
-        url = (
+    try:
+        soup = get_soup(
             url
-            .split("#", 1)[0]
-            .rstrip("/")
-            + "/"
         )
 
-        if url in seen:
-            continue
+    except requests.RequestException as exc:
+        print(
+            "Chok Théâtre : "
+            f"erreur {url} : {exc}"
+        )
 
-        seen.add(url)
-        unique.append(
-            url
+        return []
+
+    title = extract_title(
+        soup
+    )
+
+    if not title:
+        return []
+
+    # Important :
+    # on évite soup.get_text() sur toute la page,
+    # car cela inclurait encore le menu avec
+    # toutes les anciennes saisons.
+
+    content = None
+
+    for selector in (
+        ".entry-content",
+        "article .entry-content",
+        "article",
+        "main",
+    ):
+        content = soup.select_one(
+            selector
+        )
+
+        if content:
+            break
+
+    if content is None:
+        return []
+
+    text = clean(
+        content.get_text(" ")
+    )
+
+    dates = extract_dates(
+        text
+    )
+
+    if not dates:
+        print(
+            "Chok Théâtre : "
+            f"{title} -> aucune date"
+        )
+
+        return []
+
+    events = []
+
+    for dt in dates:
+        start = dt.isoformat()
+
+        events.append(
+            {
+                "id": stable_id(
+                    "Chok Théâtre",
+                    title,
+                    start,
+                ),
+                "title": title,
+                "start": start,
+                "venue": "Chok Théâtre",
+                "city": "Saint-Étienne",
+                "category": "Théâtre",
+                "description": "",
+                "url": url,
+                "source": "Chok Théâtre",
+            }
         )
 
     print(
         "Chok Théâtre : "
-        f"{len(unique)} fiche(s) "
-        "récente(s) à vérifier"
+        f"{title} -> "
+        f"{len(events)} séance(s)"
     )
 
-    return unique
+    return events
 
 
 # ------------------------------------------------------
 # SCRAPER PRINCIPAL
 # ------------------------------------------------------
 
-def scrape_chok():
+def scrape_chok() -> list[dict]:
     events = []
-    accepted_pages = 0
-
-    urls = discover_urls()
-
-    for url in urls:
-
-        result = check_current_season(
-            url
-        )
-
-        # Fiche inaccessible ou sans contenu exploitable.
-        if result is None:
-            continue
-
-        soup, text = result
-
-        title = get_title(
-            soup
-        )
-
-        if not title:
-            continue
-
-        dates = parse_dates(
-            text
-        )
-
-        if not dates:
-            print(
-                "Chok Théâtre : "
-                f"{title} "
-                "-> aucune date "
-                "2026/2027 trouvée"
-            )
-
-            continue
-
-        accepted_pages += 1
-
-        print(
-            "Chok Théâtre : "
-            f"{title} "
-            f"-> {len(dates)} séance(s)"
-        )
-
-        for dt in dates:
-
-            start = dt.isoformat()
-
-            events.append({
-                "id": make_id(
-                    title,
-                    start
-                ),
-                "title": title,
-                "start": start,
-                "venue": VENUE,
-                "city": CITY,
-                "category": CATEGORY,
-                "description": "",
-                "url": url,
-                "source": SOURCE,
-            })
-
-    # --------------------------------------------------
-    # DÉDUPLICATION
-    # --------------------------------------------------
-
-    deduped = []
     seen = set()
 
-    for event in sorted(
-        events,
-        key=lambda e: e["start"]
-    ):
+    urls = program_urls()
 
-        key = (
+    for url in urls:
+        page_events = (
+            scrape_event_page(
+                url
+            )
+        )
+
+        for event in page_events:
+            event_id = event[
+                "id"
+            ]
+
+            if event_id in seen:
+                continue
+
+            seen.add(
+                event_id
+            )
+
+            events.append(
+                event
+            )
+
+    events.sort(
+        key=lambda event: (
+            event["start"],
             event["title"].lower(),
-            event["start"]
         )
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-
-        deduped.append(
-            event
-        )
+    )
 
     print(
         "Chok Théâtre : "
-        f"{accepted_pages} fiche(s) "
-        "avec date(s) 2026/2027, "
-        f"{len(deduped)} "
-        "représentation(s)"
+        f"{len(events)} "
+        "représentation(s) au total"
     )
 
-    return deduped
+    return events
 
-
-# ------------------------------------------------------
-# TEST DIRECT
-# ------------------------------------------------------
 
 if __name__ == "__main__":
-
-    import json
-
-    print(
-        json.dumps(
-            scrape_chok(),
-            ensure_ascii=False,
-            indent=2
-        )
-    )
+    for event in scrape_chok():
+        print(event)
