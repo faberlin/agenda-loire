@@ -1,5 +1,27 @@
 [
   {
+    "id": "311e9f43aee165a14aff",
+    "title": "Résiste - Cie Mainte et une fois",
+    "start": "2026-04-02T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/resiste-cie-mainte-et-une-fois/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "cc01ba00261d3785684f",
+    "title": "Déconniatrie",
+    "start": "2026-06-05T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/deconniatrie/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "5476db2ad6d7687df76e",
     "title": "Use tab to navigate through the menu items.",
     "start": "2026-09-10T20:00:00+02:00",
@@ -207,6 +229,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/jean-benoit-diallo",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "c95d17828c2f74276cb1",
+    "title": "Scène ouverte coup de lune",
+    "start": "2026-09-25T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/scene-ouverte-coup-de-lune-2/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "470f0b9531426fcf280d",
@@ -762,6 +795,17 @@
     "description": "",
     "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
     "source": "La Ricane"
+  },
+  {
+    "id": "1f83e49cbbf55aff8060",
+    "title": "Pour un oui ou pour un non",
+    "start": "2026-10-16T20:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/pour-un-oui-ou-pour-un-non/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "0a673d74df683895ce3c",
@@ -1369,6 +1413,17 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "4b004b01f28f2de9d7f0",
+    "title": "Asil - Théâtre d'impro",
+    "start": "2026-11-14T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/asil-theatre-dimpro-2026/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "cd6b278e2443c735cdd9",
