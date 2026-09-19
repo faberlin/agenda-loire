@@ -1,5 +1,791 @@
 [
   {
+    "id": "5476db2ad6d7687df76e",
+    "title": "Use tab to navigate through the menu items.",
+    "start": "2026-09-10T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "e84b3029c8decb8edd0b",
+    "title": "St-Germain-des-Prés",
+    "start": "2026-09-10T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "4062c4a44463a0532ad2",
+    "title": "Quinzaine Souad Labbize : une autrice - des artistes - une ville - des lieux",
+    "start": "2026-09-12T14:30:00+02:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Quinzaine Souad Labbize : une autrice - des a... Ateliers de traduction Du 12/09/2026 14:30 au 23/09/2026 16:30 Catégorie Culture littéraire Localisation Médiathèques de Saint-Étienne La Quinzaine invite le public à découvrir une autrice ou un auteur à travers son oeuvre, ses engagements et les échos qu’elle ou il suscite dans la ville. Pour cette édition, la Quinzaine met à l’honneur Souad Labbize, poète, romancière et traductric...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2436/quinzaine-souad-labbize-une-autrice-des-artistes-une-ville-des-lieux",
+    "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "621261f176129fd5fa12",
+    "title": "Mon plaisir est stéphanois 2026",
+    "start": "2026-09-12T21:15:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://choktheatre.com/mon-plaisir-est-stephanois-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "18837ff5e715c2ebc766",
+    "title": "ANAÏS",
+    "start": "2026-09-13T15:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "7daa560891677fde3c5b",
+    "title": "Mon plaisir est stéphanois 2026",
+    "start": "2026-09-13T16:30:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://choktheatre.com/mon-plaisir-est-stephanois-2026/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "3b87bc24810145691b8f",
+    "title": "Les maisons d'Albertine et de Germano",
+    "start": "2026-09-15T10:00:00+02:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Les maisons d'Albertine et de Germano 40e fête du livre : exposition Du 15/09/2026 10:00 au 17/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Découvrez une exposition inédite réalisée par Albertine et Germano Zullo. Albertine est artiste et illustratrice, Germano est auteur. Compagnons de vie, ils collaborent régulièrement ensemble.Ils ont notamment réalisé Les Oiseaux (2010), récompensé p...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2437/les-maisons-d-albertine-et-de-germano",
+    "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "20e7285ba9233827721f",
+    "title": "Journées européennes du patrimoine (J.E.P. 2026) : patrimoine en péril - raviver, résister, réinventer",
+    "start": "2026-09-18T10:00:00+02:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Journées européennes du patrimoine (J.E.P. 20... JEP 2026 Du 18/09/2026 10:00 au 31/10/2026 18:30 Catégorie Festivités Localisation Médiathèques municipales Les 43e Journées européennes du patrimoine se tiendront les 19 et 20 septembre 2026, avec une ouverture scolaire le vendredi 18 septembre. Les thèmes nationaux de cette édition sont le « Patrimoine de la photographie » et le « Patrimoine en péril : r...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2435/journees-europeennes-du-patrimoine-j-e-p-2026-patrimoine-en-peril-raviver-resister-reinventer",
+    "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "4aa4c03082811b2c2a63",
+    "title": "3NVOUTEMENT",
+    "start": "2026-09-18T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/3nvoutement",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "5cff88e796f91001b6cd",
+    "title": "Sauvegarder des documents anciens : raviver, résister, réimaginer",
+    "start": "2026-09-19T10:00:00+02:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Sauvegarder des documents anciens : raviver, ... JEP 2026 Du 19/09/2026 10:00 au 31/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Une exposition d'ouvrages patrimoniaux remarquables sortis des réserves, pour apprécier des livres anciens, rares et précieux. Ces documents sont parfois abîmés et fragiles. Face aux menaces du temps, il est nécessaire de les conserver pour l'avenir....",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2396/sauvegarder-des-documents-anciens-raviver-resister-reimaginer",
+    "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "1ce5266e62eb088de1a6",
+    "title": "Djadja & Dinaz",
+    "start": "2026-09-19T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/djadja-dinaz/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "d6ea8caf77c83432ec13",
+    "title": "TROTWOOD",
+    "start": "2026-09-19T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "c3669f5cfc0e290ece22",
+    "title": "Concert live",
+    "start": "2026-09-19T20:30:00+02:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/concert-live/",
+    "source": "La Comète"
+  },
+  {
+    "id": "d95d3286dec1a3cab137",
+    "title": "LAURENT BARAT",
+    "start": "2026-09-19T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/laurent-barat",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "7941576495e86104f9ef",
+    "title": "Journées du patrimoine 2026 Visites guidées du fil !",
+    "start": "2026-09-20T14:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/journees-du-patrimoine-2026-2/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "a150de45c1a0b994b7d2",
+    "title": "​",
+    "start": "2026-09-20T15:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "469e70b1276e5ce713ba",
+    "title": "Le parfum de leurs rêves - Prison et résistance [ 360° de Trajectoires ]",
+    "start": "2026-09-20T16:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801923-le-parfum-de-leurs-reves-prison-et-resistance-360deg-de-trajectoires",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "8f7601f03526cf75520d",
+    "title": "Lancement saison 2026-2027 → acte 1",
+    "start": "2026-09-20T17:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Musique",
+    "description": "",
+    "url": "https://choktheatre.com/lancement-saison-2026-2027%e2%86%92acte-1/",
+    "source": "Chok Théâtre"
+  },
+  {
+    "id": "63e441b22090a9f43e31",
+    "title": "Jam Session",
+    "start": "2026-09-21T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-86/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "717efcd1bee484cff6e5",
+    "title": "Les Chénopodes + Selecta Boujtat' · Sur la terrasse !",
+    "start": "2026-09-24T18:00:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/les-chenopodes/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "ff0fc582148b413672eb",
+    "title": "MINUIT Films + Chambre noire [ 360° de Trajectoires ] Du",
+    "start": "2026-09-24T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801909-minuit-films-chambre-noire-360deg-de-trajectoires",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "1b5b884c026fec25f2a5",
+    "title": "JEAN-BENOIT DIALLO",
+    "start": "2026-09-24T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/jean-benoit-diallo",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "470f0b9531426fcf280d",
+    "title": "VEGA MISSYL",
+    "start": "2026-09-25T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/vega-missyl/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "c3dca55d93b63a109a49",
+    "title": "ROMAN DODUIK",
+    "start": "2026-09-25T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/roman-doduik",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "7cbe70d15298184602f5",
+    "title": "ROMAN DODUIK",
+    "start": "2026-09-26T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/roman-doduik-2",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "89a6f2efd03729aa88f0",
+    "title": "« C'est la vida !» - Festimômes",
+    "start": "2026-09-27T11:00:00+02:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/cest-la-vida-festimomes/",
+    "source": "La Comète"
+  },
+  {
+    "id": "eab478927c0fbb205c1b",
+    "title": "St Cham Battle Kids",
+    "start": "2026-09-27T14:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/st-cham-battle-kids/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "8f147196649487c95c2e",
+    "title": "MARTINE",
+    "start": "2026-09-27T15:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "eefedb121cff3d032d30",
+    "title": "ABBA MANIA THE ABBA TRIBUTE",
+    "start": "2026-09-27T18:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/abba-mania/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "9b52ff2ff1b9772f0a13",
+    "title": "Jam Session",
+    "start": "2026-09-28T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-104/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "3d3d34ae0ad7eec4e2e5",
+    "title": "Section rythmique & groove Avec Pacôme Rotondo (guitare), Raphaël Vallade et Yannick Urbani (basse & batterie - Babylon Circus)",
+    "start": "2026-09-29T19:00:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/section-rythmique-groove/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "366838d605585d760da6",
+    "title": "Talisco + Apex Music Club",
+    "start": "2026-10-01T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/talisco/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "d1484d80ef0e0ff98e7d",
+    "title": "GAGA FIGHT",
+    "start": "2026-10-01T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-22",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "dd6eb2e754508e3d2376",
+    "title": "Jules Verne et les savants « fous »",
+    "start": "2026-10-02T13:00:00+02:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Jules Verne et les savants « fous » Biblis en folie : exposition Du 02/10/2026 13:00 au 28/10/2026 18:30 Catégorie Exposition Localisation Tréfilerie Parfois excentrique, souvent mégalomane, toujours dangereux, le personnage du savant fou irradie la littérature, aussi bien dans les romans de Jules Verne que dans d'autres oeuvres classiques. Entre génie et folie, venez à la rencontre de ces personn...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2486/jules-verne-et-les-savants-fous",
+    "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "0596e0933fb16c5aeefe",
+    "title": "LA GUERRE DES SEXES",
+    "start": "2026-10-02T20:00:00+02:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/la-guerre-des-sexes/",
+    "source": "La Comète"
+  },
+  {
+    "id": "e79d467c7fa02ea237d7",
+    "title": "Jazz - musique du monde - ana carla maza",
+    "start": "2026-10-02T20:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/jazz-musique-du-monde-ana-carla-maza/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "aaefa297c21533b0f430",
+    "title": "Tellement marrant·e·s Laura Domenge + Sofia Belabbes + Tahnee + Louis Cattelat",
+    "start": "2026-10-02T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/tellement-marrant-e-s/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "56b8328eddc5e82efd4e",
+    "title": "GENERATION CELINE",
+    "start": "2026-10-02T20:30:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/generation-celine/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "d7fbacf92680f2f97dd7",
+    "title": "HAROLD BARBÉ",
+    "start": "2026-10-02T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/www-lestroisducs-fr-harold-barbe",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "7d89d32a4b80d9e19b44",
+    "title": "5ème Symphonie de Mahler Gustav Mahler",
+    "start": "2026-10-03T20:00:00+02:00",
+    "end": "2026-10-03T20:00:00+02:00",
+    "sessions": [
+      "2026-10-03T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-mahler/s-883/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "8bdfac8dda1033a82e9e",
+    "title": "Meryl",
+    "start": "2026-10-03T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/meryl/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "39db08d7c03363362024",
+    "title": "THOMAS GT",
+    "start": "2026-10-03T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/thomas-gt",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "8655f08ae2124f333dcb",
+    "title": "Loto - St-Chamond Espoir",
+    "start": "2026-10-04T14:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/loto-st-chamond-espoir/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "ababadbf7ca909c5044a",
+    "title": "Le défi poétique d’une femme afghane [ 360° de Trajectoires ]",
+    "start": "2026-10-04T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801930-le-defi-poetique-dune-femme-afghane-360deg-de-trajectoires",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "46d7bfaf1da1aed620d1",
+    "title": "Jam Session",
+    "start": "2026-10-05T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-126/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "3e3a0fd0daaaf52b5e5c",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-06T20:00:00+02:00",
+    "end": "2026-10-16T20:00:00+02:00",
+    "sessions": [
+      "2026-10-06T20:00:00+02:00",
+      "2026-10-07T20:00:00+02:00",
+      "2026-10-08T20:00:00+02:00",
+      "2026-10-09T18:00:00+02:00",
+      "2026-10-10T17:00:00+02:00",
+      "2026-10-12T20:00:00+02:00",
+      "2026-10-13T20:00:00+02:00",
+      "2026-10-14T20:00:00+02:00",
+      "2026-10-15T20:00:00+02:00",
+      "2026-10-16T20:00:00+02:00"
+    ],
+    "session_count": 10,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "2eae98a032b05ba08f06",
+    "title": "Nos corps désirants",
+    "start": "2026-10-06T20:00:00+02:00",
+    "end": "2026-10-09T20:30:00+02:00",
+    "sessions": [
+      "2026-10-06T20:00:00+02:00",
+      "2026-10-07T20:00:00+02:00",
+      "2026-10-08T20:00:00+02:00",
+      "2026-10-09T20:30:00+02:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "205c2f71fc2ab6975f7f",
+    "title": "Va falloir toujours toujours La Parenthèse - Christophe Garcia Le Petit Théâtre de Sherbrooke Danse-théâtre, dès 6 ans",
+    "start": "2026-10-07T15:00:00+02:00",
+    "end": "2026-10-10T16:00:00+02:00",
+    "sessions": [
+      "2026-10-07T15:00:00+02:00",
+      "2026-10-10T16:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/va-falloir-toujours-toujours/s-894/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "1df3ac5b4ecad4ed2822",
+    "title": "MISTER MAT",
+    "start": "2026-10-08T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/mister-mat",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "67729810987b37ea1cb2",
+    "title": "Théâtre musical - \"Dépisto-girl\"",
+    "start": "2026-10-09T20:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-musical-depisto-girl/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "1092b498c1e7b4214fca",
+    "title": "Svinkels Family & Friends + Satchok",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/svinkels-family-friends/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "c761ff80b92f57078218",
+    "title": "Arnaud Tsamère",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "4b04c5e806c5768139fd",
+    "title": "MARIE BÔ",
+    "start": "2026-10-09T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/marie-bo",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "83dc8623709954ce4cd8",
+    "title": "Fête du livre de Saint-Étienne 2026",
+    "start": "2026-10-10T12:00:00+02:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Fête du livre de Saint-Étienne 2026 Du 10/10/2026 12:00 au 11/10/2026 18:00 Catégorie Festivités Localisation Médiathèques municipales La Fête du livre aura lieu du 9 au 11 octobre 2026 sur la place de l'Hôtel de Ville et dans le centre-ville. L'accès à l'événement est entièrement gratuit. Le parrain de cette édition anniversaire est l'écrivain Bernard Minier, et l'affiche officiell...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2546/fete-du-livre-de-saint-etienne-2026",
+    "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "044b5da331b9a70ef2f6",
+    "title": "[ Ateliers ] Mémoires en mouvement",
+    "start": "2026-10-10T14:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801881-ateliers-memoires-en-mouvement",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "f56f4b4a9a1aec2e31a6",
+    "title": "VERONIQUE SANSON J’ai eu envie de vous revoir",
+    "start": "2026-10-10T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/veronique-sanson/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "4bb3eb78ca9b06e9ebac",
+    "title": "TROTWOOD",
+    "start": "2026-10-10T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "041c4bf3b7d5c9a04f87",
+    "title": "Orchestra Baobab + Ho-Agnan",
+    "start": "2026-10-10T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/orchestra-baobab/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "885025f88a2372ecf22d",
+    "title": "GAËTAN PETIT",
+    "start": "2026-10-10T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaetan-petit",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "558d45f7607bfc4ec72d",
+    "title": "RENATA",
+    "start": "2026-10-11T15:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "c40a5bc5ab9a07e2729a",
+    "title": "AMIN AL AIEDY QUARTET",
+    "start": "2026-10-11T18:00:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/amin-al-aiedy-quartet/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "3fef54907f5e2b18ee58",
+    "title": "Jam Session",
+    "start": "2026-10-12T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-127/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "8277a78237b9bdeeb856",
+    "title": "Mixage en M.A.O : les fondamentaux Avec Jules Payen, ingénieur son",
+    "start": "2026-10-13T19:00:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/mixage-en-m-a-o-les-fondamentaux/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "bd7717c4be74e33b795e",
+    "title": "Homo Lunaticus ou le jardin de Lune",
+    "start": "2026-10-14T16:00:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "b5ee51805208cebfa9ec",
+    "title": "Chistera Du",
+    "start": "2026-10-14T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801979-chistera",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "fd8d700deb1af4e1e398",
+    "title": "Don Quichotte Le Théâtre du Corps Pietragalla - Derouault",
+    "start": "2026-10-15T20:00:00+02:00",
+    "end": "2026-10-15T20:00:00+02:00",
+    "sessions": [
+      "2026-10-15T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/don-quichotte/s-906/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "dafcadc9e0ddf1844381",
+    "title": "JAZZ FOREZ’VER",
+    "start": "2026-10-15T20:00:00+02:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "1ca4c6062bd403493c89",
+    "title": "Sainté accueille ses étudiant·es : Bianca Costa + Sheldon + CT-84",
+    "start": "2026-10-15T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/bianca-costa/",
+    "source": "Le Fil"
+  },
+  {
     "id": "b6f98193a934b2c11e49",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2026-10-15T21:00:00+02:00",
@@ -9,6 +795,28 @@
     "description": "",
     "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
     "source": "La Ricane"
+  },
+  {
+    "id": "0a673d74df683895ce3c",
+    "title": "NNY Fest : DOPPLeR + La Jungle + Tachycardie + Trognon",
+    "start": "2026-10-16T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/doppler/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "e947b56ea4128ff670ec",
+    "title": "KINO",
+    "start": "2026-10-16T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/kino",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "c7e07c9a10ff1e2e939c",
@@ -22,6 +830,39 @@
     "source": "La Ricane"
   },
   {
+    "id": "8d37c512d894631478dd",
+    "title": "The Brooks & Tiwayo",
+    "start": "2026-10-17T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/the-brooks/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "94f8afd84c2caf74c300",
+    "title": "LA DAME DE PIERRE",
+    "start": "2026-10-17T20:30:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/la-dame-de-pierre/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "a0a560dbee9a989065b2",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2026-10-17T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-14",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "18cb16ca6e51c2e0094e",
     "title": "LE POISON DES BLEUETS –",
     "start": "2026-10-17T21:00:00+02:00",
@@ -31,6 +872,111 @@
     "description": "",
     "url": "https://laricane.com/event/murder-party-le-poison-des-bleuets/",
     "source": "La Ricane"
+  },
+  {
+    "id": "c59e10483e05847b4139",
+    "title": "TRIBUTE K-POP Shadow Slayers",
+    "start": "2026-10-18T15:00:00+02:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/tribute-k-pop-shadow-slayers/",
+    "source": "La Comète"
+  },
+  {
+    "id": "e55ee6c0edd272eca915",
+    "title": "[ Quartier Culturel Saint-François ] Rencontre avec les étudiant·es de l'ESAD de Saint-Etienne",
+    "start": "2026-10-19T19:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802014-quartier-culturel-saint-francois-rencontre-avec-les-etudiant-es-de-lesad-de-saint-etienne",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "343f577a1e9f411f2670",
+    "title": "Jam Session",
+    "start": "2026-10-19T20:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-128/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "9e5a12bd81e225bd4b93",
+    "title": "The Opera Locos Yllana et Encore Un Tour Humour musical",
+    "start": "2026-10-22T20:00:00+02:00",
+    "end": "2026-10-23T20:00:00+02:00",
+    "sessions": [
+      "2026-10-22T20:00:00+02:00",
+      "2026-10-23T20:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/the-opera-locos/s-888/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "1d7a4db7320158ed492c",
+    "title": "OLIVIA MOORE",
+    "start": "2026-10-22T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/olivia-moore",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "f5e3542b619bc6ca1fe3",
+    "title": "Hommage à Miles Davis – Les débuts d’une Légende",
+    "start": "2026-10-23T19:30:00+02:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/hommage-a-miles-davis-les-debuts-dune-legende/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "ee9f9e9a955c5cd3b874",
+    "title": "LE LAC DES CYGNES Une tournée inoubliable",
+    "start": "2026-10-23T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-4/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "005feecfdc87319f83f2",
+    "title": "Tif",
+    "start": "2026-10-23T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/tif/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "825a156269b8284e38d0",
+    "title": "NASSIM MELLAH",
+    "start": "2026-10-23T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nassim-mellah",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "5c55e56b2361de49cc75",
@@ -44,6 +990,28 @@
     "source": "La Ricane"
   },
   {
+    "id": "ea0134b582f8f0f753e8",
+    "title": "THE DEPECHE MODE EXPERIENCE",
+    "start": "2026-10-24T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/the-depeche-mode-experience/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "0d11ab88fd4c410061b6",
+    "title": "SARAH-ANNA",
+    "start": "2026-10-24T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/sarah-anna",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "8d6061447f371751ad33",
     "title": "DERRIERE LA PORTE",
     "start": "2026-10-24T21:00:00+02:00",
@@ -53,6 +1021,354 @@
     "description": "",
     "url": "https://laricane.com/event/derriere-la-porte/",
     "source": "La Ricane"
+  },
+  {
+    "id": "6f23c9c70a5c51fe1810",
+    "title": "« In petto, in terno » - Festi'mômes",
+    "start": "2026-10-25T11:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/in-petto-in-terno-festimomes/",
+    "source": "La Comète"
+  },
+  {
+    "id": "4f32cc91533b1a098eb8",
+    "title": "Jam Session",
+    "start": "2026-10-26T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-129/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "679f2e78dcbe39000924",
+    "title": "FÉLIX JUNIER",
+    "start": "2026-10-29T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/felix-junier",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "e7ec1ba654c6fb268d6f",
+    "title": "Teaser vivant : Compagnie De l'âme à la vague",
+    "start": "2026-10-30T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801552-teaser-vivant-compagnie-de-lame-a-la-vague",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "aea5880619ee0fedbd83",
+    "title": "Les échauffé·e·s Øtakt + ebl",
+    "start": "2026-10-30T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/les-echauffe-es/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "83cdb0e84ab9cbc4b85e",
+    "title": "MORGANE BERLING",
+    "start": "2026-10-30T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/morgane-berling",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "f8beec6cfc09a1d9b1c7",
+    "title": "BELLE MÈRE À VENDRE",
+    "start": "2026-10-31T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/belle-mere-a-vendre",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "6bf220c6a8042f329a81",
+    "title": "Jam Session",
+    "start": "2026-11-02T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-130/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "f4cb1f61a53298e139e2",
+    "title": "L’hors-présence ou chimères du pays de Morsan",
+    "start": "2026-11-03T20:00:00+01:00",
+    "end": "2026-11-05T20:00:00+01:00",
+    "sessions": [
+      "2026-11-03T20:00:00+01:00",
+      "2026-11-04T19:00:00+01:00",
+      "2026-11-05T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/l-hors-presence-ou-chimeres-du-pays-de-morsan",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "c624d219a8400dcd08bb",
+    "title": "Le Sumud de Samah Du",
+    "start": "2026-11-04T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802021-le-sumud-de-samah",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "0bad4ce03a610a9403f3",
+    "title": "ALEX DI MAMBRO",
+    "start": "2026-11-04T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/alex-di-mambro",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "a1e3080ec96020ca6ce0",
+    "title": "Les Nuances Utopiques Ensemble Orchestral Contemporain",
+    "start": "2026-11-05T20:00:00+01:00",
+    "end": "2026-11-05T20:00:00+01:00",
+    "sessions": [
+      "2026-11-05T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-nuances-utopiques/s-889/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "9076c75a1f13549010e9",
+    "title": "Humour musical - les goguettes (en trio mais à quatre)",
+    "start": "2026-11-05T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/humour-musical-les-goguettes-en-trio-mais-a-quatre/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "bb9f22e4ddb2d25e7093",
+    "title": "Orchestre Séneçon",
+    "start": "2026-11-05T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "de4abd14ee5373fd9569",
+    "title": "AMINE RADI",
+    "start": "2026-11-05T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/amine-radi/",
+    "source": "La Comète"
+  },
+  {
+    "id": "74a876e9fe605d5b1fa1",
+    "title": "GAGA FIGHT",
+    "start": "2026-11-05T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-23",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "4f63ca54576afaac7d15",
+    "title": "Kery James + première partie",
+    "start": "2026-11-06T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/kery-james/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "4dde48fd564301bf7044",
+    "title": "Isla Dorada",
+    "start": "2026-11-06T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/isla-dorada/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "b57746435960c71e4ade",
+    "title": "COMPLET - EDGAR-YVES JR",
+    "start": "2026-11-06T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/complet-edgar-yves-jr/",
+    "source": "La Comète"
+  },
+  {
+    "id": "dcec4fcac3c5ef6f697e",
+    "title": "EDGAR-YVES JR.",
+    "start": "2026-11-06T20:30:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/edgar-yves-jr",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "7ebe6401703791fc0700",
+    "title": "Folie’s",
+    "start": "2026-11-07T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/folies/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "6d9a7653b2b017171d7b",
+    "title": "Rodrigue",
+    "start": "2026-11-07T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "c48c77f73da4b8a03821",
+    "title": "Jam Session",
+    "start": "2026-11-09T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-131/",
+    "source": "Le Solar"
+  },
+  {
+    "id": "3372e2ddeefb58f52ebd",
+    "title": "Stranded Horse & Boubacar Cissokho Concert immersif allongé !",
+    "start": "2026-11-12T19:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/stranded-horse-boubacar-cissokho/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "56a855e6eda5562d7b7c",
+    "title": "CHRISTOPHE MAÉ",
+    "start": "2026-11-12T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/christophe-mae/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "a1a60b293eef52b265fc",
+    "title": "Concert - sinclair",
+    "start": "2026-11-12T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-sinclair/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "2394d84b57219686fe14",
+    "title": "Un pouce en cavale",
+    "start": "2026-11-13T10:00:00+01:00",
+    "end": "2026-11-20T14:00:00+01:00",
+    "sessions": [
+      "2026-11-13T10:00:00+01:00",
+      "2026-11-14T17:00:00+01:00",
+      "2026-11-17T10:00:00+01:00",
+      "2026-11-18T15:00:00+01:00",
+      "2026-11-19T18:00:00+01:00",
+      "2026-11-20T14:00:00+01:00"
+    ],
+    "session_count": 6,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "1c1c7e841a1d73b313aa",
+    "title": "Carmen Georges Bizet Opéra-comique en quatre actes",
+    "start": "2026-11-13T20:00:00+01:00",
+    "end": "2026-11-17T20:00:00+01:00",
+    "sessions": [
+      "2026-11-13T20:00:00+01:00",
+      "2026-11-15T15:00:00+01:00",
+      "2026-11-17T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmen/s-922/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "b93a9a2e2dc57f310325",
+    "title": "GUILLAUME SENTOU",
+    "start": "2026-11-13T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/guillaume-sentou",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "69f385857360dbbb2bde",
@@ -66,6 +1382,179 @@
     "source": "La Ricane"
   },
   {
+    "id": "c075c72a3bdfc3a790ed",
+    "title": "Live Dub Session by AFTRWRK Ondubground B2B Mahom B2B Full Dub + Kanka + Art-X + Hermit",
+    "start": "2026-11-13T22:00:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/live-dub-session-by-aftrwrk-2/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "e98c62fcb241bea5baae",
+    "title": "TROTWOOD",
+    "start": "2026-11-14T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "cd6b278e2443c735cdd9",
+    "title": "Didier Super Et son groupe Discount",
+    "start": "2026-11-14T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/didier-super/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "d0b310937bab5180d4fe",
+    "title": "MARC-ANTOINE LE BRET",
+    "start": "2026-11-14T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/marc-antoine-le-bret",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "b3a91f5f9e42f78bb2ff",
+    "title": "TARKEADA",
+    "start": "2026-11-15T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "6ccec288a91dd4e88068",
+    "title": "CASSE-NOISETTE Ballet & Orchestre",
+    "start": "2026-11-15T16:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/casse-noisette-2026/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "bade266640b02d23c2e1",
+    "title": "Dialogue entre deux espèces",
+    "start": "2026-11-16T10:00:00+01:00",
+    "end": "2026-11-19T10:00:00+01:00",
+    "sessions": [
+      "2026-11-16T10:00:00+01:00",
+      "2026-11-17T14:00:00+01:00",
+      "2026-11-18T15:00:00+01:00",
+      "2026-11-19T10:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/dialogue-entre-deux-especes",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "fa603b0626cfc8b40dae",
+    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
+    "start": "2026-11-17T20:00:00+01:00",
+    "end": "2026-11-20T20:00:00+01:00",
+    "sessions": [
+      "2026-11-17T20:00:00+01:00",
+      "2026-11-18T20:00:00+01:00",
+      "2026-11-19T20:00:00+01:00",
+      "2026-11-20T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-declaration-d-amour-de-louis-hee-a-john-ah-oui",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "e37c0491352905faca64",
+    "title": "Mussum",
+    "start": "2026-11-17T20:00:00+01:00",
+    "end": "2026-11-21T17:00:00+01:00",
+    "sessions": [
+      "2026-11-17T20:00:00+01:00",
+      "2026-11-18T20:00:00+01:00",
+      "2026-11-19T20:00:00+01:00",
+      "2026-11-20T20:00:00+01:00",
+      "2026-11-21T17:00:00+01:00"
+    ],
+    "session_count": 5,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "58263388bf03c22c95fc",
+    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui [ Courts-Circuits ] Du",
+    "start": "2026-11-17T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802028-la-declaration-damour-de-louis-hee-a-john-ah-oui-courts-circuits",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "a1e34a0c7de94c7e0e0c",
+    "title": "ALEX FREDO",
+    "start": "2026-11-18T21:00:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/alex-fredo",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "bc7a9be1bbf5c413042b",
+    "title": "INACHEVÉ Un fantôme dans l’opéra Compagnie HALTE Théâtre musical, dès 13 ans",
+    "start": "2026-11-19T20:00:00+01:00",
+    "end": "2026-11-19T20:00:00+01:00",
+    "sessions": [
+      "2026-11-19T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/inacheve-br-un-fantome-dans-l-opera/s-902/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "249ea8e9eb2a23b467e8",
+    "title": "NASH",
+    "start": "2026-11-19T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nash",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "03d55eeb4da626d3815e",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2026-11-19T21:00:00+01:00",
@@ -75,6 +1564,50 @@
     "description": "",
     "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
     "source": "La Ricane"
+  },
+  {
+    "id": "c3eaa38abb1f1693d1a5",
+    "title": "PATRICK BRUEL Alors regarde",
+    "start": "2026-11-20T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-bruel/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "7c16ae724b0c452f9f75",
+    "title": "Humour - \"L’impatient\"",
+    "start": "2026-11-20T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/humour-limpatient/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "7689f26263a1bb16740e",
+    "title": "The Inspector Cluzo + Grant Haua",
+    "start": "2026-11-20T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/the-inspector-cluzo/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "7f7f36ce43d4a6184bc8",
+    "title": "NASH",
+    "start": "2026-11-20T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nash-2",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "bb76fb1bb021d1e32578",
@@ -88,6 +1621,50 @@
     "source": "La Ricane"
   },
   {
+    "id": "abc88c3892134f549680",
+    "title": "CLAUDIO CAPEO",
+    "start": "2026-11-21T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "5b12a06776b2520979be",
+    "title": "Robert Finley + première partie",
+    "start": "2026-11-21T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/robert-finley/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "dcd4b69cbbfb02f30181",
+    "title": "Tout contre la terre",
+    "start": "2026-11-21T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "6f6369aef04eccce5d3d",
+    "title": "ANNE DEPETRINI",
+    "start": "2026-11-21T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/anne-depetrini",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "ccf54ef93fb6c7d1919e",
     "title": "DROLES DE MALES",
     "start": "2026-11-21T21:00:00+01:00",
@@ -97,6 +1674,72 @@
     "description": "",
     "url": "https://laricane.com/event/la-fiv-du-samedi-soir-3-2/",
     "source": "La Ricane"
+  },
+  {
+    "id": "8fc5155d4949919a3471",
+    "title": "REDOUANE BOUGHERABA Mon Premier Spectacle",
+    "start": "2026-11-23T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/redouane-bougheraba/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "79eaa16d5ff3af0cc58e",
+    "title": "Cirque & Cabarets - Portraits pour vents Igor Stravinski, Morton Gould, Leonard Bernstein, Kurt Weill, Nino Rota",
+    "start": "2026-11-24T20:00:00+01:00",
+    "end": "2026-11-25T20:00:00+01:00",
+    "sessions": [
+      "2026-11-24T20:00:00+01:00",
+      "2026-11-25T20:00:00+01:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/cirque-cabarets-portraits-pour-vents/s-884/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "44078813151a59dd73c0",
+    "title": "La folle Journée ou Le Mariage de Figaro",
+    "start": "2026-11-24T20:00:00+01:00",
+    "end": "2026-11-27T20:00:00+01:00",
+    "sessions": [
+      "2026-11-24T20:00:00+01:00",
+      "2026-11-25T20:00:00+01:00",
+      "2026-11-26T20:00:00+01:00",
+      "2026-11-27T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-folle-journee-ou-le-mariage-de-figaro",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "6b7d019b30b1d03d3947",
+    "title": "Les corps incorruptibles",
+    "start": "2026-11-24T20:00:00+01:00",
+    "end": "2026-11-27T20:00:00+01:00",
+    "sessions": [
+      "2026-11-24T20:00:00+01:00",
+      "2026-11-25T20:00:00+01:00",
+      "2026-11-26T18:00:00+01:00",
+      "2026-11-27T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
+    "source": "Comédie Sainté"
   },
   {
     "id": "ac816815f554994cc826",
@@ -110,6 +1753,410 @@
     "source": "La Ricane"
   },
   {
+    "id": "c80ab0583b32070fda72",
+    "title": "Un chat dans la ville",
+    "start": "2026-11-25T16:00:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "cd1ce75200de69450502",
+    "title": "RENAN LUCE",
+    "start": "2026-11-25T20:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/renan-luce/",
+    "source": "La Comète"
+  },
+  {
+    "id": "0aaa5814cb8e0f361e27",
+    "title": "FLORENT PAGNY 65 TOUR – LE RETOUR",
+    "start": "2026-11-26T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/florent-pagny/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "98707b574710ce4814a3",
+    "title": "AKIM OMIRI - COMPLET",
+    "start": "2026-11-26T20:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/akim-omiri-complet/",
+    "source": "La Comète"
+  },
+  {
+    "id": "3937ad22764f8232d97f",
+    "title": "Gangster.e.s - Requiem pour un dé [ Courts-Circuits ]",
+    "start": "2026-11-26T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802035-gangster-e-s-requiem-pour-un-de-courts-circuits",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "6172fa1e90b0d4e31b77",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2026-11-26T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-15",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "49b86a66e7dd566a9dfe",
+    "title": "Wallace Cleaver + première partie",
+    "start": "2026-11-27T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/wallace-cleaver/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "026a3349170955829e9a",
+    "title": "JULIE CONTI",
+    "start": "2026-11-27T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/julie-conti",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "86853f71cfeb54de991c",
+    "title": "[ Atelier ] Nos maux en mots [ Résister à 360° ]",
+    "start": "2026-11-28T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802056-atelier-nos-maux-en-mots-resister-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "5d84e55fb22c3a63a7e8",
+    "title": "DISNEY EN CONCERT Suivez vos rêves",
+    "start": "2026-11-28T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/disney-en-concert/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "6f258e1868933caba4e4",
+    "title": "LES COUSINES",
+    "start": "2026-11-28T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-cousines",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "6cedfbe587d371566ae6",
+    "title": "Mélange 2 temps - Festimômes",
+    "start": "2026-11-29T11:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/melange-2-temps-festimomes/",
+    "source": "La Comète"
+  },
+  {
+    "id": "8ee85545da482830fb59",
+    "title": "Conférence du GREMMOS [ Résister à 360° ]",
+    "start": "2026-11-29T16:30:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802063-conference-du-gremmos-resister-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "8a0bf477cc153fa6bff6",
+    "title": "Statut et fiscalité des artistes Avec Ludivine Ducrot, directrice du fil",
+    "start": "2026-12-01T19:00:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/statut-et-fiscalite-des-artistes/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "5871aed74cc08f0533b2",
+    "title": "Écorces, polar forestier",
+    "start": "2026-12-01T20:00:00+01:00",
+    "end": "2026-12-03T20:00:00+01:00",
+    "sessions": [
+      "2026-12-01T20:00:00+01:00",
+      "2026-12-02T20:00:00+01:00",
+      "2026-12-03T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ecorces-polar-forestier",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "ead3e52e4f7a5891801f",
+    "title": "Aube rouge, tentative de mémoire commune [ Résister à 360° ] Du",
+    "start": "2026-12-02T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802098-aube-rouge-tentative-de-memoire-commune-resister-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "9256041cd83a5f9a296a",
+    "title": "Visite des Archives. municipales de St-Étienne",
+    "start": "2026-12-03T17:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/820204-visite-des-archives-municipales-de-st-etienne",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "b250497e73d423c929f7",
+    "title": "Henry LEMAIRE",
+    "start": "2026-12-03T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "c4e2d847bf6285cb3421",
+    "title": "Amandine Lourdel",
+    "start": "2026-12-03T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/amandine-lourdel/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "f97089661edad871fcd2",
+    "title": "GAGA FIGHT",
+    "start": "2026-12-03T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-24",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "233ce6cd92a31b57705d",
+    "title": "Théâtre musical - les virtuoses",
+    "start": "2026-12-04T19:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-musical-les-virtuoses/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "e1ec8e27c9b48bd03d2c",
+    "title": "Tempête Sonore #3 Hurakan + Dukkha + KamiKrazy",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/tempete-sonore-3/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "e3be17536422a386d6f8",
+    "title": "Guillaume Meurice",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "8c5d1a1dd2fe4f7ee6c7",
+    "title": "SEBASTIAN MARX",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/sebastian-marx",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "2a45f168d9c22a78913f",
+    "title": "[ Atelier ] Les oublié.e.s de la Photo [ Résister à 360° ]",
+    "start": "2026-12-05T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802084-atelier-les-oublie-e-s-de-la-photo-resister-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "1ff2356dc293fb9231cc",
+    "title": "BALLETS ET LEGENDES DE TAHITI",
+    "start": "2026-12-05T15:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/ballets-et-legendes-de-tahiti/",
+    "source": "La Comète"
+  },
+  {
+    "id": "3e4a83c83e5a60caa6aa",
+    "title": "DUB INC",
+    "start": "2026-12-05T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "5b53bbe246b94afa62a6",
+    "title": "Notte Morricone Centro Coreografico Nazionale / Aterballetto Marcos Morau",
+    "start": "2026-12-05T20:00:00+01:00",
+    "end": "2026-12-05T20:00:00+01:00",
+    "sessions": [
+      "2026-12-05T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/notte-morricone/s-907/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "d66cc8ad2beae5fc2e38",
+    "title": "TROTWOOD",
+    "start": "2026-12-05T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "6ae0f5a208057e212df5",
+    "title": "Julien Lieb",
+    "start": "2026-12-05T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "6f1f8fd2612cab694d47",
+    "title": "HUGUES LAVIGNE",
+    "start": "2026-12-05T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/hugues-lavigne",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "933183aa7980f22fbac5",
+    "title": "​",
+    "start": "2026-12-06T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "c6df29f330ee1ab833b5",
+    "title": "DUB INC",
+    "start": "2026-12-06T19:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "98882920f630b7a310d8",
+    "title": "Ivanov",
+    "start": "2026-12-08T20:00:00+01:00",
+    "end": "2026-12-10T20:00:00+01:00",
+    "sessions": [
+      "2026-12-08T20:00:00+01:00",
+      "2026-12-09T19:00:00+01:00",
+      "2026-12-10T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ivanov",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "c767b6d9c4bed4016c05",
+    "title": "ERIC FRATICELLI",
+    "start": "2026-12-08T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/eric-fraticelli/",
+    "source": "La Comète"
+  },
+  {
     "id": "30dda9dde497904c2db3",
     "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
     "start": "2026-12-09T15:00:00+01:00",
@@ -119,6 +2166,235 @@
     "description": "",
     "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour/",
     "source": "La Ricane"
+  },
+  {
+    "id": "109dec10257e6925316e",
+    "title": "Kosmòs ! Canticum Novum",
+    "start": "2026-12-09T20:00:00+01:00",
+    "end": "2026-12-09T20:00:00+01:00",
+    "sessions": [
+      "2026-12-09T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/kosmos-/s-890/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "53d5562633fe1f9d7a3e",
+    "title": "Cœur de Pirate + Suzanne Belaubre",
+    "start": "2026-12-09T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/coeur-de-pirate/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "123ed550d9cb0a0dd6f9",
+    "title": "Teaser vivant : Compagnie du Crabe barbu",
+    "start": "2026-12-10T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801608-teaser-vivant-compagnie-du-crabe-barbu",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "164b7ba62ac781f394fb",
+    "title": "Traversée Ensemble SyLF Théâtre musical, dès 11 ans",
+    "start": "2026-12-10T20:00:00+01:00",
+    "end": "2026-12-10T20:00:00+01:00",
+    "sessions": [
+      "2026-12-10T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/traversee/s-903/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "ca130afa4130d6c50ed6",
+    "title": "THE AMY WINEHOUSE BAND",
+    "start": "2026-12-10T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/the-amy-winehouse-band/",
+    "source": "La Comète"
+  },
+  {
+    "id": "096bf45691e170b7a495",
+    "title": "THE JEFF PANACLOC COMPANY",
+    "start": "2026-12-11T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/the-jeff-panacloc-company/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "bb8f23978bc25a3cfab7",
+    "title": "Polyphonies et percussions - les mécanos",
+    "start": "2026-12-11T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/polyphonies-et-percussions-les-mecanos/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "cab323ee103a87a3e648",
+    "title": "Guadal Tejaz + 111",
+    "start": "2026-12-11T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/guadal-tejaz/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "f614106840e8a71b11c2",
+    "title": "CHARLIE ET STYLIEN",
+    "start": "2026-12-11T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/charlie-et-stylien",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "5e9cf174428fc803a328",
+    "title": "SALIMA PASSION",
+    "start": "2026-12-12T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/salima-passion",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "f9590903ef91c74a6535",
+    "title": "Mamacita Une nuit de reggaeton !",
+    "start": "2026-12-12T23:00:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/mamacita/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "fc54c3edad96120f92bb",
+    "title": "ESTHER & SYLVIE",
+    "start": "2026-12-13T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "d2e3b65c7f657d92853c",
+    "title": "KABARAOKE",
+    "start": "2026-12-13T16:30:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801972-kabaraoke",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "82ad02685c30e3733117",
+    "title": "Qui som?",
+    "start": "2026-12-15T20:00:00+01:00",
+    "end": "2026-12-17T20:00:00+01:00",
+    "sessions": [
+      "2026-12-15T20:00:00+01:00",
+      "2026-12-16T20:00:00+01:00",
+      "2026-12-17T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/qui-som",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "17ce3847501d4644b88c",
+    "title": "Un bateau Compagnie Sans Soucis Marionnettes, musique, images animées, dès 3 ans",
+    "start": "2026-12-16T15:00:00+01:00",
+    "end": "2026-12-19T16:00:00+01:00",
+    "sessions": [
+      "2026-12-16T15:00:00+01:00",
+      "2026-12-19T16:00:00+01:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/un-bateau/s-904/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "2cde43869b79ae7969f5",
+    "title": "Concert jeune public - \"L’abécédaire de Boris Vian\"",
+    "start": "2026-12-16T15:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-jeune-public-labecedaire-de-boris-vian/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "758c8f20be97d322dc7a",
+    "title": "Entre deux rives",
+    "start": "2026-12-16T20:00:00+01:00",
+    "end": "2026-12-19T17:00:00+01:00",
+    "sessions": [
+      "2026-12-16T20:00:00+01:00",
+      "2026-12-17T20:00:00+01:00",
+      "2026-12-18T20:00:00+01:00",
+      "2026-12-19T17:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "0509c3bb8dca8d11d941",
+    "title": "Blue Chorus Orchestra",
+    "start": "2026-12-17T20:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "b5431b961cb9a586336a",
@@ -132,6 +2408,44 @@
     "source": "La Ricane"
   },
   {
+    "id": "1b33399c423f7e66f23e",
+    "title": "FABRICE EBOUÉ SolitudeS",
+    "start": "2026-12-18T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/fabrice-eboue/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "ba0649252acd4bfd052a",
+    "title": "Didon et Énée Ensemble Les Surprises Pierre Lebon",
+    "start": "2026-12-18T20:00:00+01:00",
+    "end": "2026-12-18T20:00:00+01:00",
+    "sessions": [
+      "2026-12-18T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/didon-et-enee/s-891/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "16cbe3560b1780829565",
+    "title": "PATRICK CHANFRAY",
+    "start": "2026-12-18T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/patrick-chanfray",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "d13e9f797dab73e2b624",
     "title": "DUO D’",
     "start": "2026-12-18T21:00:00+01:00",
@@ -141,6 +2455,235 @@
     "description": "",
     "url": "https://laricane.com/event/duo-dimpro/",
     "source": "La Ricane"
+  },
+  {
+    "id": "55319fed0d013cc308dd",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2026-12-19T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-16",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "5572dc18ca2ad11afd02",
+    "title": "Des Rêves dans le Sable - Festimômes",
+    "start": "2026-12-20T11:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/des-reves-dans-le-sable-festimomes/",
+    "source": "La Comète"
+  },
+  {
+    "id": "8357246e5568c9d617f7",
+    "title": "Le monde merveilleux de",
+    "start": "2026-12-22T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "08c939664d772d914f88",
+    "title": "STANISLAS",
+    "start": "2026-12-29T15:00:00+01:00",
+    "venue": "Théâtre de Poche des Brankignols",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
+    "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "16781bb139f66c825cd4",
+    "title": "Carmina Burana Carl Orff",
+    "start": "2026-12-30T20:00:00+01:00",
+    "end": "2026-12-31T19:00:00+01:00",
+    "sessions": [
+      "2026-12-30T20:00:00+01:00",
+      "2026-12-31T19:00:00+01:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmina-burana/s-923/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "1beca2570dfff1115b8f",
+    "title": "4 Saisons dansées Compagnie Käfig - Concert de la Loge Mourad Merzouki - Julien Chauvin",
+    "start": "2027-01-07T20:00:00+01:00",
+    "end": "2027-01-07T20:00:00+01:00",
+    "sessions": [
+      "2027-01-07T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/4-saisons-dansees/s-908/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "e5fa91725c5498a25510",
+    "title": "Il Etait une Fois… Ennio Morricone & Nino Rota",
+    "start": "2027-01-08T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/il-etait-une-fois/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "c8bb70dd50550078a075",
+    "title": "YAZID ASSOUMANI",
+    "start": "2027-01-09T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/yazid-assoumani",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "de2e00127bdc37d8dc63",
+    "title": "Les femmes savantes",
+    "start": "2027-01-12T20:00:00+01:00",
+    "end": "2027-01-15T20:00:00+01:00",
+    "sessions": [
+      "2027-01-12T20:00:00+01:00",
+      "2027-01-13T20:00:00+01:00",
+      "2027-01-14T20:00:00+01:00",
+      "2027-01-15T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/production/les-femmes-savantes",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "7617fe65abfb3a3b8e3d",
+    "title": "Le dernier Dino Du",
+    "start": "2027-01-13T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802126-le-dernier-dino",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "fcb61d2fcc0e02b84bf4",
+    "title": "Le contre-chant des sirènes Compagnie des Gentils Théâtre musical, dès 9 ans",
+    "start": "2027-01-15T20:00:00+01:00",
+    "end": "2027-01-15T20:00:00+01:00",
+    "sessions": [
+      "2027-01-15T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/le-contre-chant-des-sirenes/s-905/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "0716b26fed45f5b6a8f9",
+    "title": "Yann Guillarme",
+    "start": "2027-01-15T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/yann-guillarme/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "8418f1c9ebc804a5e41c",
+    "title": "THOMAS MARTY",
+    "start": "2027-01-16T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/thomas-marty/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "00565c02c020227faa1f",
+    "title": "Gildaa",
+    "start": "2027-01-16T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/gildaa/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "c1c2d2f55356fbf4cfa2",
+    "title": "LÉANDRE",
+    "start": "2027-01-16T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/leandre",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "6402c16981fd0e67c687",
+    "title": "Minetti",
+    "start": "2027-01-19T20:00:00+01:00",
+    "end": "2027-01-21T20:00:00+01:00",
+    "sessions": [
+      "2027-01-19T20:00:00+01:00",
+      "2027-01-20T20:00:00+01:00",
+      "2027-01-21T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/minetti",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "6798b4c0ff3b3e2fa42d",
+    "title": "Soirée canap' : Défaire la virilité dominante, quels enjeux ?",
+    "start": "2027-01-20T19:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801356-soiree-canap-defaire-la-virilite-dominante-quels-enjeux",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "80264ee418c7b945a38a",
+    "title": "ILYES DJADEL",
+    "start": "2027-01-21T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/ilyes-djadel/",
+    "source": "La Comète"
   },
   {
     "id": "eca8b232c986225553b1",
@@ -154,6 +2697,148 @@
     "source": "La Ricane"
   },
   {
+    "id": "d97774ee5076614df1c0",
+    "title": "RFM PARTY 80 Les 20 ans",
+    "start": "2027-01-22T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/rfm-party-80/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "cc5f4449637b64574895",
+    "title": "Broadway Rhapsody Cyrille Dubois, Ensemble ArteCombo Spectacle musical de Jean-Michel Fournereau",
+    "start": "2027-01-22T20:00:00+01:00",
+    "end": "2027-01-22T20:00:00+01:00",
+    "sessions": [
+      "2027-01-22T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/broadway-rhapsody/s-892/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "2399401bf8b618b03d70",
+    "title": "Zamdane Le spectacle Rahma",
+    "start": "2027-01-22T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/zamdane/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "f9b73182192d31dcc4d1",
+    "title": "Les Mécanos - Linha(a)",
+    "start": "2027-01-22T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "0a447ba3e523fe4fd8bd",
+    "title": "Le complexe des Homards Compagnie ACT2 - Catherine Dreyfus Danse, dès 8 ans",
+    "start": "2027-01-23T16:00:00+01:00",
+    "end": "2027-01-23T16:00:00+01:00",
+    "sessions": [
+      "2027-01-23T16:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/le-complexe-des-homards/s-909/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "fb1006966b33c2179a5b",
+    "title": "OCTOGONE MMA MADE IN SAINT-ETIENNE",
+    "start": "2027-01-23T19:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/octogone-mma/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "ae8da5aee6c356359824",
+    "title": "Dans la grotte",
+    "start": "2027-01-25T14:00:00+01:00",
+    "end": "2027-01-30T17:00:00+01:00",
+    "sessions": [
+      "2027-01-25T14:00:00+01:00",
+      "2027-01-26T10:00:00+01:00",
+      "2027-01-27T15:00:00+01:00",
+      "2027-01-28T10:00:00+01:00",
+      "2027-01-29T10:00:00+01:00",
+      "2027-01-30T17:00:00+01:00"
+    ],
+    "session_count": 6,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/artiste-de-la-fabrique/dans-la-grotte",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "6c38a58b9f9a04c5092d",
+    "title": "Ceux qui sont partis, ceux de l’infini Ensemble Orchestral Contemporain",
+    "start": "2027-01-26T20:00:00+01:00",
+    "end": "2027-01-26T20:00:00+01:00",
+    "sessions": [
+      "2027-01-26T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/ceux-qui-sont-partis-ceux-de-l-infini/s-893/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "ceb4898cc5916a7907ec",
+    "title": "7 minutes",
+    "start": "2027-01-26T20:00:00+01:00",
+    "end": "2027-01-28T20:00:00+01:00",
+    "sessions": [
+      "2027-01-26T20:00:00+01:00",
+      "2027-01-27T20:00:00+01:00",
+      "2027-01-28T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/7-minutes",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "2f8ed9475d99be155ef6",
+    "title": "Un soir avec FRANCIS HUSTER",
+    "start": "2027-01-26T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/un-soir-avec-francis-huster/",
+    "source": "La Comète"
+  },
+  {
     "id": "f3aae0c6bf76750e22f6",
     "title": "LOLA BULLE",
     "start": "2027-01-27T10:30:00+01:00",
@@ -163,6 +2848,99 @@
     "description": "",
     "url": "https://laricane.com/event/lola-bulle-2/",
     "source": "La Ricane"
+  },
+  {
+    "id": "34c7defacbda807c212d",
+    "title": "FOREVER THE BEST SHOW ABOUT THE KING OF POP",
+    "start": "2027-01-27T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/forever/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "9e95c62c5f8813a16a65",
+    "title": "LOUIS CATTELAT",
+    "start": "2027-01-27T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/louis-cattelat/",
+    "source": "La Comète"
+  },
+  {
+    "id": "903b79616d0b772838f6",
+    "title": "Les quatre saisons Vivaldi / Richter Ludovico Einaudi, Antonio Vivaldi / Max Richter",
+    "start": "2027-01-28T20:00:00+01:00",
+    "end": "2027-01-28T20:00:00+01:00",
+    "sessions": [
+      "2027-01-28T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/les-quatre-saisons-br-vivaldi-richter/s-885/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "917bfa908898b425a8b8",
+    "title": "BIGFLO & OLI Karma tour",
+    "start": "2027-01-28T20:30:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/bigflo-oli/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "0832b33ac24a828256be",
+    "title": "LES 4 SAISONS",
+    "start": "2027-01-29T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/les-4-saisons/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "4d323134e1e4c5c8b215",
+    "title": "Concert - Noëmi waysfeld chante barbara",
+    "start": "2027-01-29T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-noemi-waysfeld-chante-barbara/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "2663af308760e447c0ff",
+    "title": "SKIP THE USE",
+    "start": "2027-01-29T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/skip-the-use/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "fc67809439ddacefce10",
+    "title": "CLAUDIA MODICA",
+    "start": "2027-01-29T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/claudia-modica",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "3c947b04cb1b3135f955",
@@ -176,6 +2954,50 @@
     "source": "La Ricane"
   },
   {
+    "id": "54df47d37e4ef7e13037",
+    "title": "BERNARD LAVILLIERS TOUR 2027",
+    "start": "2027-01-30T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/bernard-lavilliers/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "7f7a12cc65b1bb2111b2",
+    "title": "Ultra Vomit",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/ultra-vomit/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "a5a659cc7deba078ea2d",
+    "title": "Ma famille en or",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "6411acfd6e9f2b9622b1",
+    "title": "MARS ET VÉNUS",
+    "start": "2027-01-30T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/mars-et-venus",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "a5fe6f3106cca3d0ccd5",
     "title": "QUOI TOUT LE WEEK-END",
     "start": "2027-01-30T21:00:00+01:00",
@@ -185,6 +3007,274 @@
     "description": "",
     "url": "https://laricane.com/event/quoi-tout-le-week-end-5/",
     "source": "La Ricane"
+  },
+  {
+    "id": "2d9f72f946ce8a4fdda2",
+    "title": "500 VOIX POUR JOHNNY 10 ans après",
+    "start": "2027-01-31T18:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/500-voix-pour-johnny/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "cf5bc4cbfa7b6cd28c06",
+    "title": "Oiseau [guide de survie]",
+    "start": "2027-02-02T19:00:00+01:00",
+    "end": "2027-02-05T10:00:00+01:00",
+    "sessions": [
+      "2027-02-02T19:00:00+01:00",
+      "2027-02-03T15:00:00+01:00",
+      "2027-02-04T10:00:00+01:00",
+      "2027-02-05T10:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/oiseau-guide-de-survie",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "31e87635439c17250f42",
+    "title": "Face à la mère",
+    "start": "2027-02-02T20:00:00+01:00",
+    "end": "2027-02-04T20:00:00+01:00",
+    "sessions": [
+      "2027-02-02T20:00:00+01:00",
+      "2027-02-03T20:00:00+01:00",
+      "2027-02-04T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/face-a-la-mere",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "1f85fb65ba8c1ac733ca",
+    "title": "Oiseau [guide de survie] Parmi Les Lucioles Théâtre, dès 10 ans",
+    "start": "2027-02-03T15:00:00+01:00",
+    "end": "2027-02-03T15:00:00+01:00",
+    "sessions": [
+      "2027-02-03T15:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/oiseau-guide-de-survie-/s-910/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "ff13046f160a4f14029c",
+    "title": "GRAND CORPS MALADE",
+    "start": "2027-02-04T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/grand-corps-malade/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "a86e76fd81bf4678ee7a",
+    "title": "L’Amour sorcier - Don Quichotte CCN - Ballet Biarritz Martin Harriague",
+    "start": "2027-02-04T20:00:00+01:00",
+    "end": "2027-02-04T20:00:00+01:00",
+    "sessions": [
+      "2027-02-04T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/l-amour-sorcier-don-quichotte/s-913/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "791e12a4fcdba0d90b84",
+    "title": "MICHELE LAROQUE ET KAD MERAD L'Age Bête",
+    "start": "2027-02-05T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/michele-laroque-et-kad-merad/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "c115bc11d701d3487d64",
+    "title": "HLD + 1ère partie",
+    "start": "2027-02-05T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/hld/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "8c4e984a503b732cd33d",
+    "title": "FLORENCE MENDEZ",
+    "start": "2027-02-05T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/florence-mendez/",
+    "source": "La Comète"
+  },
+  {
+    "id": "d773fd9da4516f5bf9fb",
+    "title": "On s’rencontre # 2",
+    "start": "2027-02-06T18:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801048-on-srencontre-2",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "edbbc4c9abf7fe403cd8",
+    "title": "Théâtre de boulevard - \"Un château de cartes\"",
+    "start": "2027-02-06T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-de-boulevard-un-chateau-de-cartes/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "1bc6d7a7a3658abbe50a",
+    "title": "LES ETOILES DU CIRQUE DE PEKIN Odyssée",
+    "start": "2027-02-07T16:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/les-etoiles-du-cirque-de-pekin/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "90255b300bf6fa5c64a7",
+    "title": "Macéra Compagnie Pyramid Youssef Bel Baraka, Fouad Kouchy",
+    "start": "2027-02-09T20:00:00+01:00",
+    "end": "2027-02-09T20:00:00+01:00",
+    "sessions": [
+      "2027-02-09T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/macera/s-914/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "00a817f3a0b7513f8ac7",
+    "title": "Lac artificiel",
+    "start": "2027-02-09T20:00:00+01:00",
+    "end": "2027-02-11T20:00:00+01:00",
+    "sessions": [
+      "2027-02-09T20:00:00+01:00",
+      "2027-02-10T20:00:00+01:00",
+      "2027-02-11T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/lac-artificiel",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "c6a23f4b4bdaac5fbf0a",
+    "title": "Livre alors !",
+    "start": "2027-02-10T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802147-livre-alors",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "a255c15b9c03fe3869d0",
+    "title": "Un poirier m'a dit",
+    "start": "2027-02-10T16:00:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "b4f8a7a30a5d074df97f",
+    "title": "Concert - opérette - \"Offenbach en fête !\"",
+    "start": "2027-02-11T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-operette-offenbach-en-fete/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "c90b0f5fc252ac8bf249",
+    "title": "La P’tite Fumée",
+    "start": "2027-02-12T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/la-ptite-fumee/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "d68a03000afd4a5fd9c4",
+    "title": "MELHA BEDIA",
+    "start": "2027-02-12T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/melha-bedia",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "e2d6d9a45e36414aba87",
+    "title": "Véronic Dicaire",
+    "start": "2027-02-13T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/veronic-dicaire/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "b9476fda9e470d13eca2",
+    "title": "MELHA BEDIA",
+    "start": "2027-02-13T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/melha-bedia-2",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "af4d07982e7c29594743",
@@ -198,6 +3288,50 @@
     "source": "La Ricane"
   },
   {
+    "id": "db2f7a60dd5749494ea2",
+    "title": "Lisa Perrio",
+    "start": "2027-02-18T20:00:00+01:00",
+    "venue": "Théatre du Parc",
+    "city": "Andrezieux-Bouthéon",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/lisa-perrio/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "51bb61fb52881ce67ebd",
+    "title": "Emy",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "76b6722ebe537a404ae5",
+    "title": "Chantal Ladesou",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Centre de Congrès",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/chantal-ladesou/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "5a6ea9bd799ffe8cd167",
+    "title": "Emy",
+    "start": "2027-02-18T20:30:00+01:00",
+    "venue": "Salle Albert Camus",
+    "city": "Le Chambon Feugerolles",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/decouvrir-emy-au-festival-arcomik/",
+    "source": "ArcomiK"
+  },
+  {
     "id": "4d6e711bc2d8113336b2",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2027-02-18T21:00:00+01:00",
@@ -207,6 +3341,149 @@
     "description": "",
     "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
     "source": "La Ricane"
+  },
+  {
+    "id": "f51f546236768cf6f4cf",
+    "title": "Paul de Saint-Sernin",
+    "start": "2027-02-19T20:00:00+01:00",
+    "venue": "Centre de Congrès",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/paul-de-saint-sernin/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "9d58b4c1bbdb1226b64d",
+    "title": "Eric et Quentin",
+    "start": "2027-02-19T20:00:00+01:00",
+    "venue": "Espace culturel La Buire",
+    "city": "L'Horme",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/eric-et-quentin/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "07aad7f95a3a38d3edd8",
+    "title": "Thomas Angelvy",
+    "start": "2027-02-19T20:30:00+01:00",
+    "venue": "Le Firmament",
+    "city": "Firminy",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/thomas-angelvy/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "1a0bd4b366a7dfc1b2e9",
+    "title": "Guillaume Guisset",
+    "start": "2027-02-20T18:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/guillaume-guisset/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "a1c43feac1f18742c5e5",
+    "title": "Greg Duth",
+    "start": "2027-02-20T20:00:00+01:00",
+    "venue": "Salle Muriel Robin",
+    "city": "Saint-Paul en Jarez",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/greg-duth/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "b69dcf387706fe6b7059",
+    "title": "Lee Fields",
+    "start": "2027-02-20T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/lee-fields/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "658eddea5cf25622bd91",
+    "title": "Sofia Belabbes",
+    "start": "2027-02-20T20:30:00+01:00",
+    "venue": "Salle Jean Dasté",
+    "city": "Rive de Gier",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/sofia-belabesses-arcomik/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "084206475ee7643fc1ce",
+    "title": "Daniel Morin",
+    "start": "2027-02-21T15:00:00+01:00",
+    "venue": "Centre culturel Le Sou",
+    "city": "La Talaudière",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/daniel-morin/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "f7d2f1fe72d8a00365c1",
+    "title": "Olivier de Benoist",
+    "start": "2027-02-21T17:00:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "f9c19f859e528b73f51d",
+    "title": "Tania Dutel",
+    "start": "2027-02-23T20:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/tania-dutel/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "8c4c8133c20e59fbbc03",
+    "title": "Edouard Deloignon",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "f7069186facc1da9eb44",
+    "title": "Alexis Le Rossignol",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "Centre de Congrès",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/alexis-le-rossignol/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "2186eb6fe3e3b714cc4e",
+    "title": "Nina Azoulai",
+    "start": "2027-02-23T20:30:00+01:00",
+    "venue": "L’imprimerie Théâtre",
+    "city": "Rive de Gier",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/nina-azoulai/",
+    "source": "ArcomiK"
   },
   {
     "id": "60bd49d912b40485ee00",
@@ -220,6 +3497,601 @@
     "source": "La Ricane"
   },
   {
+    "id": "4ff97194878549dacb07",
+    "title": "Pablo Mira",
+    "start": "2027-02-24T20:00:00+01:00",
+    "venue": "Centre de Congrès",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/pablo-mira/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "5fbb54f1fc3ed5201dfa",
+    "title": "Clément Blouin",
+    "start": "2027-02-24T20:00:00+01:00",
+    "venue": "L’Opsis",
+    "city": "Roche La Molière",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/clement-blouin/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "ed8faeddb2df98cafabe",
+    "title": "María Moreno",
+    "start": "2027-02-24T20:30:00+01:00",
+    "venue": "Théâtre Copeau",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/maria-moreno/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "39b6319ad3dcafc1e099",
+    "title": "Ana Godefroy",
+    "start": "2027-02-25T20:00:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/ana-godefroy/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "7f43d66d8e3313daf3e9",
+    "title": "Jessé",
+    "start": "2027-02-25T20:00:00+01:00",
+    "venue": "La Comédie",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/jesse-st-etienne-spectacle-arcomik-festival/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "8105b271156a8832f4bc",
+    "title": "Rémi Boyes",
+    "start": "2027-02-25T20:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/remi-boyes/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "97b0c3a89236dfe2fd35",
+    "title": "Élodie Arnould",
+    "start": "2027-02-25T20:00:00+01:00",
+    "venue": "Le Majestic",
+    "city": "Firminy",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/elodie-arnould/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "3d826f691baaba4e53c9",
+    "title": "ALDEBERT Jamais adulte !",
+    "start": "2027-02-26T19:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/aldebert/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "e2aa78108f00b9bcf912",
+    "title": "Mathieu Madénian",
+    "start": "2027-02-26T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/mathieu-madenian/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "67b7fc5ed20af514768e",
+    "title": "Noam Sinseau",
+    "start": "2027-02-26T20:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/noam-sinseau/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "177d821e17ad806fcc68",
+    "title": "Humour - Mathieu Madénian",
+    "start": "2027-02-26T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/humour-mathieu-madenian/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "7840980babc06ef9d1a7",
+    "title": "Arnaud Demanche",
+    "start": "2027-02-26T20:30:00+01:00",
+    "venue": "La Comédie",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/arnaud-demanche/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "a975a6e8cc077d472282",
+    "title": "Eliott Doyle",
+    "start": "2027-02-26T20:30:00+01:00",
+    "venue": "Le Majestic",
+    "city": "Firminy",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/eliott-doyle-arcomikfestival/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "587270bb2a5a1420a8db",
+    "title": "Camille Tissot",
+    "start": "2027-02-27T20:00:00+01:00",
+    "venue": "Théâtre Copeau",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/camille-tissot/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "70fa12acd184b0a5dbd2",
+    "title": "Sacko Camara",
+    "start": "2027-02-27T20:00:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/sacko-camara/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "cb1f2638cf00a5551af3",
+    "title": "Alex Vizorek",
+    "start": "2027-02-27T20:30:00+01:00",
+    "venue": "La Comédie",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/alex-vizorek/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "b01eb90e4d122b4bba11",
+    "title": "CAPRA (une chèvre)",
+    "start": "2027-03-02T20:00:00+01:00",
+    "end": "2027-03-04T20:00:00+01:00",
+    "sessions": [
+      "2027-03-02T20:00:00+01:00",
+      "2027-03-03T20:00:00+01:00",
+      "2027-03-04T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/capra-une-chevre",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "98d4abe04d2481532e5a",
+    "title": "Bâtir",
+    "start": "2027-03-02T20:00:00+01:00",
+    "end": "2027-03-04T20:00:00+01:00",
+    "sessions": [
+      "2027-03-02T20:00:00+01:00",
+      "2027-03-03T20:00:00+01:00",
+      "2027-03-04T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/batir",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "b4383351a3afa49e2590",
+    "title": "Clown et magie - \"Ça cartonne\"",
+    "start": "2027-03-03T15:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/clown-et-magie-ca-cartonne/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "b2ecee5914831feea047",
+    "title": "MIKRO / BARTÓK",
+    "start": "2027-03-04T10:00:00+01:00",
+    "end": "2027-03-06T16:00:00+01:00",
+    "sessions": [
+      "2027-03-04T10:00:00+01:00",
+      "2027-03-05T10:00:00+01:00",
+      "2027-03-06T16:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/mikro-bartok",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "41a4439c20fc5c90b389",
+    "title": "Magic System La Tournée des 30 Ans",
+    "start": "2027-03-05T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/magic-system/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "21e013f0234098da0b57",
+    "title": "Roland à Roncevaux Auguste Mermet Grand Opéra français en quatre actes Première création depuis 1905",
+    "start": "2027-03-05T20:00:00+01:00",
+    "end": "2027-03-07T15:00:00+01:00",
+    "sessions": [
+      "2027-03-05T20:00:00+01:00",
+      "2027-03-07T15:00:00+01:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/roland-a-roncevaux/s-924/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "332966dd158c8c3c8f40",
+    "title": "Eidolons",
+    "start": "2027-03-05T20:30:00+01:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "69cea024d19e2ae79aa3",
+    "title": "TRISTAN LUCAS",
+    "start": "2027-03-05T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/tristan-lucas-2",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "5403f61e82ace67e797d",
+    "title": "Celtic Legends Tournée Anniversaire 25 ans",
+    "start": "2027-03-06T15:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/celtic-legends-2027/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "bb7e0f41a899a45918d1",
+    "title": "Mikro / Bartók Compagnie Cas Public Danse, dès 8 ans",
+    "start": "2027-03-06T16:00:00+01:00",
+    "end": "2027-03-06T16:00:00+01:00",
+    "sessions": [
+      "2027-03-06T16:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/mikro-bartok/s-912/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "2a01214c8b67e0e19a69",
+    "title": "Señora tentación",
+    "start": "2027-03-09T20:00:00+01:00",
+    "end": "2027-03-11T20:00:00+01:00",
+    "sessions": [
+      "2027-03-09T20:00:00+01:00",
+      "2027-03-10T20:00:00+01:00",
+      "2027-03-11T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/senora-tentacion-1",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "cb57984616b5ee66ee49",
+    "title": "La lettre",
+    "start": "2027-03-10T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/la-lettre/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "62da2a81b915ad84f7e4",
+    "title": "L’éloge du vide Du",
+    "start": "2027-03-10T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/832566-leloge-du-vide",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "e229293e2f2c7528513b",
+    "title": "Dites-le donc avec des fleurs ! COMPAGNIE OSE UN STANDARD",
+    "start": "2027-03-11T20:00:00+01:00",
+    "end": "2027-03-11T20:00:00+01:00",
+    "sessions": [
+      "2027-03-11T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/dites-le-donc-avec-des-fleurs-/s-895/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "375583cefc5179e3a9e8",
+    "title": "Théâtre gisèle halimi - \"Une farouche liberté\"",
+    "start": "2027-03-11T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-gisele-halimi-une-farouche-liberte/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "99a0c903c38abfc9c300",
+    "title": "CYRANO DE BERGERAC",
+    "start": "2027-03-12T20:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/cyrano-de-bergerac/",
+    "source": "La Comète"
+  },
+  {
+    "id": "79055146237ea7afbf3a",
+    "title": "IZÏA",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/izia/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "a14635bc6c5fc4b6b082",
+    "title": "PUTAIN DE RENAUD Pas un Hommage, une Révérence !",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/putain-de-renaud/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "935eb01e933f2e727ee0",
+    "title": "Nous étions une armée",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "b21c0f1e92f540123fdc",
+    "title": "[ Atelier ] Danse contemporaine [ Matières vives festival ]",
+    "start": "2027-03-13T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802210-atelier-danse-contemporaine-matieres-vives-festival",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "a2579e2ad45fddf77e12",
+    "title": "Concert - André Manoukian et Rosemary Stanley",
+    "start": "2027-03-14T17:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-andre-manoukian-et-rosemary-stanley/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "60bc0b078e341812a272",
+    "title": "Florian Caroubi Jean-Sébastien Bach, Franz Schubert",
+    "start": "2027-03-15T20:00:00+01:00",
+    "end": "2027-03-15T20:00:00+01:00",
+    "sessions": [
+      "2027-03-15T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/florian-caroubi/s-899/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "b348eea021cbb00d5a26",
+    "title": "Philippe Cassard Frédéric Chopin, Claude Debussy",
+    "start": "2027-03-16T20:00:00+01:00",
+    "end": "2027-03-16T20:00:00+01:00",
+    "sessions": [
+      "2027-03-16T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/philippe-cassard/s-900/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "01c58e1468a546398d6f",
+    "title": "Bérénice",
+    "start": "2027-03-16T20:00:00+01:00",
+    "end": "2027-03-18T20:00:00+01:00",
+    "sessions": [
+      "2027-03-16T20:00:00+01:00",
+      "2027-03-17T20:00:00+01:00",
+      "2027-03-18T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/berenice",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "813f95acad9b619a62fb",
+    "title": "Pedro",
+    "start": "2027-03-16T20:00:00+01:00",
+    "end": "2027-03-18T20:00:00+01:00",
+    "sessions": [
+      "2027-03-16T20:00:00+01:00",
+      "2027-03-17T20:00:00+01:00",
+      "2027-03-18T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/pedro",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "446651e6940d668083f6",
+    "title": "Mozart Paradox Thomas Enhco",
+    "start": "2027-03-17T20:00:00+01:00",
+    "end": "2027-03-17T20:00:00+01:00",
+    "sessions": [
+      "2027-03-17T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-piano/mozart-paradox/s-901/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "d93b435a243317dd9fc8",
+    "title": "Cie à pas de velours + AMY [ Matières Vives Festival ] Du",
+    "start": "2027-03-17T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802245-cie-a-pas-de-velours-amy-matieres-vives-festival",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "8fe59d6c94fd4ae25337",
+    "title": "K-Pop Forever !",
+    "start": "2027-03-18T19:30:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/k-pop-forever/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "7e636a60f5ac79c4bace",
+    "title": "5ème Symphonie de Tchaïkovski Camille Pépin, Camille Saint-Saëns, Piotr Ilitch Tchaïkovski",
+    "start": "2027-03-18T20:00:00+01:00",
+    "end": "2027-03-18T20:00:00+01:00",
+    "sessions": [
+      "2027-03-18T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-tchaikovski/s-886/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "a1c1b524c301ba1ba873",
+    "title": "Danse - \"Pulse\"",
+    "start": "2027-03-18T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/danse-pulse/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "8cd7a8618f22971b84ad",
+    "title": "High Fade",
+    "start": "2027-03-18T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/high-fade-2/",
+    "source": "Le Fil"
+  },
+  {
     "id": "74f80f67e6b3d39718fa",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2027-03-18T21:00:00+01:00",
@@ -231,6 +4103,83 @@
     "source": "La Ricane"
   },
   {
+    "id": "06efa0d289046d06989d",
+    "title": "MESSMER",
+    "start": "2027-03-19T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/messmer-2027/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "d3c0cdd0a951d2b0f48e",
+    "title": "MARGOT DEMEURISSE",
+    "start": "2027-03-19T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/margot-demeurisse",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "452a851a43c649098f8f",
+    "title": "Leïla Huissoud \"Je suis venue te dire que je m'en fous\"",
+    "start": "2027-03-20T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/leila-huissoud/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "4c9fc2575cbb60f089fe",
+    "title": "KEEN’V À nos 20 ans",
+    "start": "2027-03-20T20:30:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/keenv/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "d037400d52d6a6432f1b",
+    "title": "IKE",
+    "start": "2027-03-20T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/ike",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "0b05ba9f4d2167922df3",
+    "title": "Ninho Quattro Tour",
+    "start": "2027-03-21T18:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/ninho/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "0f4f9f43c5237ff19bb0",
+    "title": "Théâtre - danse - \"Cross\"",
+    "start": "2027-03-23T19:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-danse-cross/",
+    "source": "Salle Aristide Briand"
+  },
+  {
     "id": "eaaa4429e4e0b529bd19",
     "title": "LOLA BULLE",
     "start": "2027-03-24T10:30:00+01:00",
@@ -240,6 +4189,294 @@
     "description": "",
     "url": "https://laricane.com/event/lola-bulle-2/",
     "source": "La Ricane"
+  },
+  {
+    "id": "b1c13e16cc84d6efbc60",
+    "title": "Aurore Express Canticum Novum",
+    "start": "2027-03-24T20:00:00+01:00",
+    "end": "2027-03-24T20:00:00+01:00",
+    "sessions": [
+      "2027-03-24T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/aurore-express/s-896/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "f7e940a4375a71621a02",
+    "title": "Piracema - Parabelo Grupo Corpo Rodrigo Pederneiras, Cassi Abranches",
+    "start": "2027-03-25T20:00:00+01:00",
+    "end": "2027-03-25T20:00:00+01:00",
+    "sessions": [
+      "2027-03-25T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/piracema-parabelo/s-915/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "a49eaaf4cb784373f391",
+    "title": "P V",
+    "start": "2027-03-25T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/p-v/",
+    "source": "La Comète"
+  },
+  {
+    "id": "add2995e7a91c29a089b",
+    "title": "La Truite Quintette à cordes avec piano de l’Orchestre Symphonique Saint-Étienne Loire",
+    "start": "2027-03-26T20:00:00+01:00",
+    "end": "2027-03-26T20:00:00+01:00",
+    "sessions": [
+      "2027-03-26T20:00:00+01:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/la-truite/s-897/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "756f82bd8117b615b721",
+    "title": "Théâtre classique - \"Le tartuffe\"",
+    "start": "2027-03-26T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-classique-le-tartuffe/",
+    "source": "Salle Aristide Briand"
+  },
+  {
+    "id": "65ef49605c4602d21409",
+    "title": "BIG S",
+    "start": "2027-03-26T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/big-s",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "5e65f36f4a8447611e42",
+    "title": "Julien Clerc",
+    "start": "2027-03-27T20:30:00+01:00",
+    "venue": "La Forge",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "3aa5710e2be0c91884df",
+    "title": "PANAME COMEDY CLUB",
+    "start": "2027-03-31T20:30:00+02:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/paname-comedy-club/",
+    "source": "La Comète"
+  },
+  {
+    "id": "a70890ba6b012b16c410",
+    "title": "Soirée canap' : Z.A.D, outils de lutte ?",
+    "start": "2027-04-01T19:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801475-soiree-canap-z-a-d-outils-de-lutte",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "bdc545dbe87690f91ae2",
+    "title": "HOWLIN’ JAWS",
+    "start": "2027-04-01T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/howlin-jaws/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "317a5147117a41842e4f",
+    "title": "Soirée jeux à Pile ou face [ Jouer à 306° ]",
+    "start": "2027-04-02T18:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802301-soiree-jeux-a-pile-ou-face-jouer-a-306deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "913c86a2e9c0588bc596",
+    "title": "Frantz",
+    "start": "2027-04-02T20:30:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "798045c10932a7d9d8c4",
+    "title": "NADIA RICHARD",
+    "start": "2027-04-02T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nadia-richard",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "97674c1870f2275ad59b",
+    "title": "Assassin + première partie",
+    "start": "2027-04-03T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/assassin/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "d1d3cccb79ea5ef91eec",
+    "title": "SILENCE VACARME",
+    "start": "2027-04-06T20:00:00+02:00",
+    "end": "2027-04-08T20:00:00+02:00",
+    "sessions": [
+      "2027-04-06T20:00:00+02:00",
+      "2027-04-07T20:00:00+02:00",
+      "2027-04-08T20:00:00+02:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/purple-27/silence-vacarme",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "eec8a2e91c55a069dad2",
+    "title": "Le Silence",
+    "start": "2027-04-06T20:00:00+02:00",
+    "end": "2027-04-09T20:00:00+02:00",
+    "sessions": [
+      "2027-04-06T20:00:00+02:00",
+      "2027-04-07T20:00:00+02:00",
+      "2027-04-08T20:00:00+02:00",
+      "2027-04-09T20:00:00+02:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/le-silence",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "09c5495b36da1224193b",
+    "title": "Ma couverture et moi Une Hirondelle Compagnie Théâtre musical, dès 3 ans",
+    "start": "2027-04-07T10:00:00+02:00",
+    "end": "2027-04-07T10:00:00+02:00",
+    "sessions": [
+      "2027-04-07T10:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/ma-couverture-et-moi/s-917/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "353b74e7651ee3e4549c",
+    "title": "(En)jeux de Société [ Jouer à 360° ] Du",
+    "start": "2027-04-07T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802497-en-jeux-de-societe-jouer-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "bb3ceffb468059d01470",
+    "title": "Léopold Lemarchand",
+    "start": "2027-04-09T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/leopold-lemarchand/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "b685f559a7c4be70fd09",
+    "title": "ELIES ZOGHLAMI",
+    "start": "2027-04-09T20:30:00+02:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/elies-zoghlami/",
+    "source": "La Comète"
+  },
+  {
+    "id": "f6d20ce661445fa169e0",
+    "title": "[ Atelier ] Le théâtre, c’est pour de vrai, mais pour de faux ou l’inverse, peu importe [ Jouer à 360° ]",
+    "start": "2027-04-10T14:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802350-atelier-le-theatre-cest-pour-de-vrai-mais-pour-de-faux-ou-linverse-peu-importe-jouer-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "fb7a96acf05cc9de72ba",
+    "title": "Samuel Bambi",
+    "start": "2027-04-10T20:30:00+02:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/samuel-bambi/",
+    "source": "La Comète"
+  },
+  {
+    "id": "b20bffb488184e711a8f",
+    "title": "Lou ! Sonata 3 Concert dessiné",
+    "start": "2027-04-15T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/lou-sonata-3/",
+    "source": "Le Fil"
   },
   {
     "id": "7eb2fc7b2757a4567780",
@@ -264,6 +4501,179 @@
     "source": "La Ricane"
   },
   {
+    "id": "74d4716311b20202c896",
+    "title": "Teaser vivant : Compagnie Le cri des ogres",
+    "start": "2027-04-21T14:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801580-teaser-vivant-compagnie-le-cri-des-ogres",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "bdfaf7f67763afa9c5c0",
+    "title": "La Yegros + première partie",
+    "start": "2027-04-22T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/la-yegros/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "bd99082a71ca1459972a",
+    "title": "Lola, Remo et le Croque-doigt",
+    "start": "2027-04-25T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802518-lola-remo-et-le-croque-doigt",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "85c72824905959c67b2c",
+    "title": "J'étais parti·e, pardon (dans un autre univers)",
+    "start": "2027-04-27T14:00:00+02:00",
+    "end": "2027-04-30T10:00:00+02:00",
+    "sessions": [
+      "2027-04-27T14:00:00+02:00",
+      "2027-04-28T15:00:00+02:00",
+      "2027-04-29T10:00:00+02:00",
+      "2027-04-30T10:00:00+02:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/j-etais-parti-e-pardon-dans-un-autre-univers",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "ff93e11b10198368f077",
+    "title": "Les Insulaires (Islander) Compagnie Nosferatu Comédie musicale, dès 11 ans",
+    "start": "2027-04-29T20:00:00+02:00",
+    "end": "2027-04-29T20:00:00+02:00",
+    "sessions": [
+      "2027-04-29T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/les-insulaires-islander-/s-918/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "8a44d8a0bc185b0cbc06",
+    "title": "FABIEN OLICARD",
+    "start": "2027-04-29T20:30:00+02:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/fabien-olicard/",
+    "source": "La Comète"
+  },
+  {
+    "id": "5690e68e69f809b28a37",
+    "title": "Roméo et Juliette Charles Gounod Opéra en cinq actes",
+    "start": "2027-04-30T20:00:00+02:00",
+    "end": "2027-05-04T20:00:00+02:00",
+    "sessions": [
+      "2027-04-30T20:00:00+02:00",
+      "2027-05-02T15:00:00+02:00",
+      "2027-05-04T20:00:00+02:00"
+    ],
+    "session_count": 3,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/romeo-et-juliette/s-925/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "6253774d501e729719ba",
+    "title": "Oria",
+    "start": "2027-04-30T20:30:00+02:00",
+    "venue": "Espace culturel Albert Camus",
+    "city": "Le Chambon-Feugerolles",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lechambon.fr/culture/",
+    "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "ee4f49f00409f57861cb",
+    "title": "Antichambre STEREOPTIK Poème visuel et musical, dès 9 ans",
+    "start": "2027-05-12T15:00:00+02:00",
+    "end": "2027-05-12T15:00:00+02:00",
+    "sessions": [
+      "2027-05-12T15:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/antichambre/s-919/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "ef3d7222ecb2cb10e9b5",
+    "title": "Coppélia Ballet de l’Opéra national du Capitole Jean-Guillaume Bart",
+    "start": "2027-05-13T20:00:00+02:00",
+    "end": "2027-05-13T20:00:00+02:00",
+    "sessions": [
+      "2027-05-13T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/coppelia/s-916/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "f47989f3b7e5873cda73",
+    "title": "Oyseaux de lumière [ Des plumes à 360° ]",
+    "start": "2027-05-19T14:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802728-oyseaux-de-lumiere-des-plumes-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "1baf2592b21ccb247abe",
+    "title": "[ Quartier Culturel Saint-François ] Atelier de criée",
+    "start": "2027-05-20T19:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802560-quartier-culturel-saint-francois-atelier-de-criee",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "aca77dad62f2cecef561",
+    "title": "CÉDRIC SALAUN",
+    "start": "2027-05-20T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/cedric-salaun",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "7f87657582d2c1a63bf6",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2027-05-20T21:00:00+02:00",
@@ -275,6 +4685,175 @@
     "source": "La Ricane"
   },
   {
+    "id": "0163b3ddd1e8fc686e3a",
+    "title": "ARTHUR GOMEZ",
+    "start": "2027-05-21T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/arthur-gomez",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "b712465f2edff4de1e95",
+    "title": "THE WORLD OF QUEEN L'hommage à la légende",
+    "start": "2027-05-22T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/the-world-of-queen-2/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "36a0b935841da994fad8",
+    "title": "Les Martinets, une conférence-spectacle presque pas anthropocentrée ! [ Des plumes à 360° ] Du",
+    "start": "2027-05-23T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802742-les-martinets-une-conference-spectacle-presque-pas-anthropocentree-des-plumes-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "c69260023040f9c92e84",
+    "title": "Variations pour un Parapluie Compagnie CHOUETTE il pleut ! Clown et musique, dès 3 ans",
+    "start": "2027-05-26T10:00:00+02:00",
+    "end": "2027-05-29T16:00:00+02:00",
+    "sessions": [
+      "2027-05-26T10:00:00+02:00",
+      "2027-05-29T16:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/variations-pour-un-parapluie/s-920/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "1769e9ed6c5e28ceba85",
+    "title": "Cuir, queer et martinet(s). [ Des plumes à 360° ]",
+    "start": "2027-05-27T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802714-cuir-queer-et-martinet-s-des-plumes-a-360deg",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "b997d54e72438b10edc3",
+    "title": "[ Quartier Culturel Saint-François ] La fête des voisin.e.s - 2eme édition",
+    "start": "2027-05-28T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802595-quartier-culturel-saint-francois-la-fete-des-voisin-e-s-2eme-edition",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "1986e67afd7f784cff9e",
+    "title": "SARAH SCHWAB Elles & Moi",
+    "start": "2027-06-03T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/sarah-schwab-2027/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "531d4475e8bd7379a265",
+    "title": "Vite, un selfie ! Compagnie Lucamoros Peinture et chant, dès 8 ans",
+    "start": "2027-06-05T16:00:00+02:00",
+    "end": "2027-06-05T16:00:00+02:00",
+    "sessions": [
+      "2027-06-05T16:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/vite-un-selfie-/s-921/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "fde0b3103e75adac1fc5",
+    "title": "Le Lac des Cygnes Ballet & Orchestre",
+    "start": "2027-06-05T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "f7de1cf7e3148209e116",
+    "title": "La nuit l’ordure Du",
+    "start": "2027-06-09T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802749-la-nuit-lordure",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "ac21252886b680cab02d",
+    "title": "FREDERIC FRANCOIS",
+    "start": "2027-06-12T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/frederic-francois/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "3dc8d38a415d6ec497ed",
+    "title": "Turandot Giacomo Puccini Opéra en trois actes",
+    "start": "2027-06-16T20:00:00+02:00",
+    "end": "2027-06-20T15:00:00+02:00",
+    "sessions": [
+      "2027-06-16T20:00:00+02:00",
+      "2027-06-18T20:00:00+02:00",
+      "2027-06-20T15:00:00+02:00"
+    ],
+    "session_count": 3,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/turandot/s-926/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "e07d53e003f46e07e1c2",
+    "title": "Le Chantier des imaginaires",
+    "start": "2027-06-16T20:00:00+02:00",
+    "end": "2027-06-19T17:00:00+02:00",
+    "sessions": [
+      "2027-06-16T20:00:00+02:00",
+      "2027-06-17T20:00:00+02:00",
+      "2027-06-18T20:00:00+02:00",
+      "2027-06-19T17:00:00+02:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/le-chantier-des-imaginaires",
+    "source": "Comédie Sainté"
+  },
+  {
     "id": "c5b7822c2d75e167067f",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2027-06-17T21:00:00+02:00",
@@ -284,5 +4863,186 @@
     "description": "",
     "url": "https://laricane.com/event/vert-de-rire-comedy-club-12/",
     "source": "La Ricane"
+  },
+  {
+    "id": "6359668fb73774acd9b8",
+    "title": "Le Conservatoire Massenet de Saint-Etienne",
+    "start": "2027-06-18T10:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802777-le-conservatoire-massenet-de-saint-etienne",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "a2830d0e951a6a88c858",
+    "title": "À fleur de peau",
+    "start": "2027-06-23T20:00:00+02:00",
+    "end": "2027-06-24T20:00:00+02:00",
+    "sessions": [
+      "2027-06-23T20:00:00+02:00",
+      "2027-06-24T20:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/a-fleur-de-peau",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "033ab596fc9c697aead6",
+    "title": "Les Libérations Ensemble Orchestral Contemporain",
+    "start": "2027-06-24T20:00:00+02:00",
+    "end": "2027-06-24T20:00:00+02:00",
+    "sessions": [
+      "2027-06-24T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-liberations/s-898/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "25a98eda487f55a46981",
+    "title": "Berlioz en Italie Hector Berlioz",
+    "start": "2027-06-30T20:00:00+02:00",
+    "end": "2027-06-30T20:00:00+02:00",
+    "sessions": [
+      "2027-06-30T20:00:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "Opéra de Saint-Etienne",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/berlioz-en-italie/s-887/",
+    "source": "Opéra Sainté"
+  },
+  {
+    "id": "246d4f29656865612686",
+    "title": "Vianney",
+    "start": "2027-10-01T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/vianney/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "df4f68badbd1e0c870f0",
+    "title": "PHILIPPE CAVERIVIERE TU CROIS QUE C’EST UNE BONNE IDÉE?",
+    "start": "2027-10-13T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/philippe-caveriviere/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "a46af857dedab25564b4",
+    "title": "One Night Of Queen The Wembley Show",
+    "start": "2027-10-15T20:30:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/one-night-of-queen-2026/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "14cc1675156537786d96",
+    "title": "Nino Arial Pas comme eux",
+    "start": "2027-10-16T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "a12acedd7da07506135b",
+    "title": "ESTHER ABRAMI",
+    "start": "2027-11-06T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/esther-abrami/",
+    "source": "La Comète"
+  },
+  {
+    "id": "d4520255f04673007c54",
+    "title": "I GOTTA FEELING Saison 3 - La Tournée des Années 2000",
+    "start": "2027-11-20T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/i-gotta-feeling/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "07fbf263393fd8a2840d",
+    "title": "HOSHI Bonjour Docteur Tour",
+    "start": "2027-11-27T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/hoshi-2027/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "7d17be8b8ef1285913e2",
+    "title": "Patrick Fiori",
+    "start": "2027-12-16T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-fiori-2027/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "5709e67a2b46c082f5dc",
+    "title": "FESTIVAL MONDIALE DE LA MAGIE Nouveau Spectacle",
+    "start": "2028-01-28T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/festival-mondiale-de-la-magie/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "a02bbecf5077837382a7",
+    "title": "Piaf ! Le Spectacle Hymne à la môme",
+    "start": "2028-02-27T17:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/piaf-le-spectacle/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "3d5e31d171025b1612ba",
+    "title": "GOLDMEN BEST OF GOLDMAN",
+    "start": "2028-03-19T17:30:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/goldmen-2028/",
+    "source": "Zénith Sainté"
   }
 ]
