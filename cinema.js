@@ -335,7 +335,7 @@ function visibleEvents() {
       return false;
     }
 
-    // Une séance déjà commencée n'est plus affichée.
+    /* Une séance déjà commencée n'est plus affichée. */
     if (dt <= now) {
       return false;
     }
@@ -454,24 +454,40 @@ function createFilmTitle(film) {
 
 
 /* ======================================================
-   SÉPARATION
+   SÉPARATION DES FILMS
    ====================================================== */
 
 function splitFilms(films) {
-  const meliesFilms = [];
+  const regularMeliesFilms = [];
+  const occasionalMeliesFilms = [];
   const occasionalMegarama = [];
   const bigReleases = [];
 
   for (const film of films) {
-    const hasMelies =
-      film.sessions.some(
+    const meliesSessions =
+      film.sessions.filter(
         isMeliesSession
       );
 
-    if (hasMelies) {
-      meliesFilms.push(
-        film
-      );
+    if (meliesSessions.length) {
+      /*
+       * Méliès :
+       *
+       * 1 ou 2 séances visibles sur les 5 jours
+       * => séances ponctuelles.
+       *
+       * 3 séances ou plus
+       * => une ligne complète dans le tableau.
+       */
+      if (meliesSessions.length <= 2) {
+        occasionalMeliesFilms.push(
+          film
+        );
+      } else {
+        regularMeliesFilms.push(
+          film
+        );
+      }
 
       continue;
     }
@@ -494,7 +510,7 @@ function splitFilms(films) {
     }
   }
 
-  meliesFilms.sort(
+  regularMeliesFilms.sort(
     (a, b) => {
       if (
         b.sessions.length !==
@@ -513,6 +529,14 @@ function splitFilms(films) {
     }
   );
 
+  occasionalMeliesFilms.sort(
+    (a, b) =>
+      a.title.localeCompare(
+        b.title,
+        "fr"
+      )
+  );
+
   bigReleases.sort(
     (a, b) =>
       a.title.localeCompare(
@@ -522,7 +546,8 @@ function splitFilms(films) {
   );
 
   return {
-    meliesFilms,
+    regularMeliesFilms,
+    occasionalMeliesFilms,
     occasionalMegarama,
     bigReleases
   };
@@ -604,7 +629,7 @@ function createSessionNode(session) {
 
 
 /* ======================================================
-   TABLEAU MÉLIÈS
+   TABLEAU MÉLIÈS PRINCIPAL
    ====================================================== */
 
 function renderMeliesTable(
@@ -711,10 +736,259 @@ function renderMeliesTable(
       "cinema-empty";
 
     td.textContent =
-      "Aucune séance Méliès.";
+      "Aucun film avec au moins 3 séances.";
 
     tr.appendChild(td);
     body.appendChild(tr);
+  }
+}
+
+
+/* ======================================================
+   SÉANCES PONCTUELLES MÉLIÈS
+   ====================================================== */
+
+function ensureMeliesOccasionalSection() {
+  let section =
+    el("cinemaMeliesOccasionalSection");
+
+  if (section) {
+    return section;
+  }
+
+  const table =
+    el("cinemaWeekBody")
+      ?.closest("table");
+
+  if (!table) {
+    return null;
+  }
+
+  section =
+    document.createElement("div");
+
+  section.id =
+    "cinemaMeliesOccasionalSection";
+
+  section.className =
+    "melies-occasional-section";
+
+  const title =
+    document.createElement("h3");
+
+  title.className =
+    "melies-occasional-heading";
+
+  title.textContent =
+    "Séances ponctuelles Méliès";
+
+  const grid =
+    document.createElement("div");
+
+  grid.id =
+    "cinemaMeliesOccasionalGrid";
+
+  grid.className =
+    "melies-occasional-grid";
+
+  section.appendChild(title);
+  section.appendChild(grid);
+
+  table.insertAdjacentElement(
+    "afterend",
+    section
+  );
+
+  return section;
+}
+
+function renderOccasionalMelies(
+  films,
+  days
+) {
+  const section =
+    ensureMeliesOccasionalSection();
+
+  if (!section) {
+    return;
+  }
+
+  const grid =
+    el("cinemaMeliesOccasionalGrid");
+
+  if (!grid) {
+    return;
+  }
+
+  grid.innerHTML = "";
+
+  const allSessions =
+    films.flatMap(
+      film =>
+        film.sessions
+          .filter(
+            isMeliesSession
+          )
+          .map(
+            session => ({
+              ...session,
+              filmTitle:
+                film.title,
+              filmUrl:
+                filmUrl(film)
+            })
+          )
+    );
+
+  if (!allSessions.length) {
+    section.style.display =
+      "none";
+
+    return;
+  }
+
+  section.style.display =
+    "";
+
+  /*
+   * Première colonne : intitulé.
+   * Les cinq colonnes suivantes correspondent
+   * exactement aux cinq jours du tableau.
+   */
+  const labelColumn =
+    document.createElement("div");
+
+  labelColumn.className =
+    "melies-occasional-label-column";
+
+  labelColumn.textContent =
+    "Films avec 1 ou 2 séances";
+
+  grid.appendChild(
+    labelColumn
+  );
+
+  for (const day of days) {
+    const column =
+      document.createElement("div");
+
+    column.className =
+      "melies-occasional-day";
+
+    const heading =
+      document.createElement("div");
+
+    heading.className =
+      "melies-occasional-day-title";
+
+    heading.textContent =
+      formatHeaderDay(day);
+
+    column.appendChild(
+      heading
+    );
+
+    const daySessions =
+      allSessions
+        .filter(
+          session =>
+            sameDay(
+              new Date(session.start),
+              day
+            )
+        )
+        .sort(
+          (a, b) =>
+            new Date(a.start) -
+            new Date(b.start)
+        );
+
+    if (!daySessions.length) {
+      const empty =
+        document.createElement("div");
+
+      empty.className =
+        "melies-occasional-empty";
+
+      empty.textContent =
+        "—";
+
+      column.appendChild(
+        empty
+      );
+
+    } else {
+      for (
+        const session
+        of daySessions
+      ) {
+        const row =
+          document.createElement("div");
+
+        row.className =
+          "melies-occasional-session";
+
+        const sessionLine =
+          document.createElement("div");
+
+        sessionLine.className =
+          "melies-occasional-session-line";
+
+        sessionLine.appendChild(
+          createSessionNode(
+            session
+          )
+        );
+
+        if (session.filmUrl) {
+          const title =
+            document.createElement("a");
+
+          title.className =
+            "melies-occasional-film-title film-title-link";
+
+          title.href =
+            session.filmUrl;
+
+          title.target =
+            "_blank";
+
+          title.rel =
+            "noopener";
+
+          title.textContent =
+            session.filmTitle;
+
+          sessionLine.appendChild(
+            title
+          );
+
+        } else {
+          const title =
+            document.createElement("span");
+
+          title.className =
+            "melies-occasional-film-title";
+
+          title.textContent =
+            session.filmTitle;
+
+          sessionLine.appendChild(
+            title
+          );
+        }
+
+        row.appendChild(
+          sessionLine
+        );
+
+        column.appendChild(
+          row
+        );
+      }
+    }
+
+    grid.appendChild(column);
   }
 }
 
@@ -1017,14 +1291,20 @@ function render() {
     );
 
   const {
-    meliesFilms,
+    regularMeliesFilms,
+    occasionalMeliesFilms,
     occasionalMegarama,
     bigReleases
   } =
     splitFilms(films);
 
   renderMeliesTable(
-    meliesFilms,
+    regularMeliesFilms,
+    days
+  );
+
+  renderOccasionalMelies(
+    occasionalMeliesFilms,
     days
   );
 
