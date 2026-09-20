@@ -35,11 +35,15 @@ jobs:
 
           git add cinema_events.json
 
+          if [ -f telerama_debug.html ]; then
+            git add telerama_debug.html
+          fi
+
           if git diff --cached --quiet; then
-            echo "Aucun changement dans cinema_events.json"
+            echo "Aucun changement à publier"
             exit 0
           fi
 
-          git commit -m "Mise à jour des séances cinéma"
+          git commit -m "Mise à jour des séances cinéma et diagnostic Télérama"
           git pull --rebase origin main
           git push origin main
