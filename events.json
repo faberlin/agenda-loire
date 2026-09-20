@@ -121,17 +121,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "4aa4c03082811b2c2a63",
-    "title": "3NVOUTEMENT",
-    "start": "2026-09-18T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/3nvoutement",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "5cff88e796f91001b6cd",
     "title": "Sauvegarder des documents anciens : raviver, résister, réimaginer",
     "start": "2026-09-19T10:00:00+02:00",
@@ -174,17 +163,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "c3669f5cfc0e290ece22",
-    "title": "Concert live",
-    "start": "2026-09-19T20:30:00+02:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/concert-live/",
-    "source": "La Comète"
   },
   {
     "id": "d95d3286dec1a3cab137",
@@ -451,17 +429,6 @@
     "source": "La Comète"
   },
   {
-    "id": "e79d467c7fa02ea237d7",
-    "title": "Jazz - musique du monde - ana carla maza",
-    "start": "2026-10-02T20:00:00+02:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/jazz-musique-du-monde-ana-carla-maza/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "bca3516e24a79c4f0562",
     "title": "Nos âmes liées",
     "start": "2026-10-02T20:00:00+02:00",
@@ -471,6 +438,17 @@
     "description": "",
     "url": "https://choktheatre.com/nos-ames-liees/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "e79d467c7fa02ea237d7",
+    "title": "Jazz - musique du monde - ana carla maza",
+    "start": "2026-10-02T20:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/jazz-musique-du-monde-ana-carla-maza/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "aaefa297c21533b0f430",
@@ -660,17 +638,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "67729810987b37ea1cb2",
-    "title": "Théâtre musical - \"Dépisto-girl\"",
-    "start": "2026-10-09T20:00:00+02:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/theatre-musical-depisto-girl/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "6a620858542136748829",
     "title": "La ribambelle dans ma cervelle enfin se tait",
     "start": "2026-10-09T20:00:00+02:00",
@@ -680,6 +647,17 @@
     "description": "",
     "url": "https://choktheatre.com/la-ribambelle-dans-ma-cervelle-enfin-se-tait/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "67729810987b37ea1cb2",
+    "title": "Théâtre musical - \"Dépisto-girl\"",
+    "start": "2026-10-09T20:00:00+02:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/theatre-musical-depisto-girl/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "1092b498c1e7b4214fca",
@@ -1475,17 +1453,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "a1a60b293eef52b265fc",
-    "title": "Concert - sinclair",
-    "start": "2026-11-12T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/concert-sinclair/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "d13a90bebabcea1dce4b",
     "title": "Asil – Théâtre d’impro",
     "start": "2026-11-12T20:00:00+01:00",
@@ -1495,6 +1462,17 @@
     "description": "",
     "url": "https://choktheatre.com/asil-theatre-dimpro-2026/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "a1a60b293eef52b265fc",
+    "title": "Concert - sinclair",
+    "start": "2026-11-12T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/concert-sinclair/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "2394d84b57219686fe14",
@@ -1753,17 +1731,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "7c16ae724b0c452f9f75",
-    "title": "Humour - \"L’impatient\"",
-    "start": "2026-11-20T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Humour",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/humour-limpatient/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "959ae77aa611d28e18dd",
     "title": "Tact ou l’amour du travail",
     "start": "2026-11-20T20:00:00+01:00",
@@ -1773,6 +1740,17 @@
     "description": "",
     "url": "https://choktheatre.com/tact-ou-lamour-du-travail/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "7c16ae724b0c452f9f75",
+    "title": "Humour - \"L’impatient\"",
+    "start": "2026-11-20T20:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Humour",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/humour-limpatient/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "7689f26263a1bb16740e",
@@ -1995,17 +1973,6 @@
     "source": "La Comète"
   },
   {
-    "id": "3937ad22764f8232d97f",
-    "title": "Gangster.e.s - Requiem pour un dé [ Courts-Circuits ]",
-    "start": "2026-11-26T20:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/802035-gangster-e-s-requiem-pour-un-de-courts-circuits",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "e92e37ab57651334474f",
     "title": "La dette d’odette",
     "start": "2026-11-26T20:00:00+01:00",
@@ -2015,6 +1982,17 @@
     "description": "",
     "url": "https://choktheatre.com/la-dette-dodette/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "3937ad22764f8232d97f",
+    "title": "Gangster.e.s - Requiem pour un dé [ Courts-Circuits ]",
+    "start": "2026-11-26T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802035-gangster-e-s-requiem-pour-un-de-courts-circuits",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "6172fa1e90b0d4e31b77",
