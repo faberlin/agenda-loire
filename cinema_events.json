@@ -333,12 +333,12 @@
     "source": "Télérama"
   },
   {
-    "id": "e87c50501e5a5c48379a",
-    "title": "RoboCop",
+    "id": "43c3c59994fc2734d1a3",
+    "title": "Fatna une femme nommée Rachid",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-20T19:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/films/robocop,11097.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -594,15 +594,6 @@
     "source": "Télérama"
   },
   {
-    "id": "24d1352ad12bc30b3f71",
-    "title": "La Dernière patiente",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-21T13:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
-    "source": "Télérama"
-  },
-  {
     "id": "18b5ad43be5728343f43",
     "title": "La Frappe",
     "cinema": "Méliès Jean-Jaurès",
@@ -618,6 +609,15 @@
     "start": "2026-09-21T13:00:00+02:00",
     "version": "VF",
     "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "95e0a6fdce809aa61c21",
+    "title": "Ma famille de samouraïs",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-21T13:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -1377,12 +1377,12 @@
     "source": "Télérama"
   },
   {
-    "id": "bbb27b23691e2bbf48cb",
-    "title": "La Dernière patiente",
+    "id": "2a5fdfbd4fa837608988",
+    "title": "Amour(s)",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-21T21:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -1467,12 +1467,21 @@
     "source": "Télérama"
   },
   {
-    "id": "dd40d2a4662e91734ac3",
-    "title": "La Dernière patiente",
+    "id": "bff36b7203cef819f13d",
+    "title": "Amour(s)",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-22T13:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-derniere-patiente-deux-heroines-fragiles-et-fortes-solidaires-dans-un-monde-defaillant_cri-7045642.php",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "33d5053e9ad52b8a8639",
+    "title": "Ma famille de samouraïs",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-22T13:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -1728,12 +1737,12 @@
     "source": "Télérama"
   },
   {
-    "id": "a4e9597f48ce120c2441",
-    "title": "RoboCop",
+    "id": "1844de2c3883d1435157",
+    "title": "Ma famille de samouraïs",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-22T15:50:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/films/robocop,11097.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2232,12 +2241,12 @@
     "source": "Télérama"
   },
   {
-    "id": "0a9f73f04304ffaeb0a4",
-    "title": "The Dog Stars",
+    "id": "40160b4dc6cff40cd1e8",
+    "title": "Heart of the Beast",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-22T20:30:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2439,12 +2448,12 @@
     "source": "Télérama"
   },
   {
-    "id": "b245d580434bfa0fc1c3",
-    "title": "Les Survivants du Che",
+    "id": "30d8ef66d5d53e629d8a",
+    "title": "Raisons et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-23T13:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2484,12 +2493,12 @@
     "source": "Télérama"
   },
   {
-    "id": "3a12cb51f6352f6d928b",
-    "title": "Les voyous",
+    "id": "49f040ad8eaf8d743f6f",
+    "title": "Ma famille de samouraïs",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-23T14:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/television/les-voyous-notre-critique_cri-7037581.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2502,12 +2511,12 @@
     "source": "Télérama"
   },
   {
-    "id": "60c7ddb47815ade9fd3f",
-    "title": "Les Survivants du Che",
+    "id": "6d431a24ed5d9f5b64f5",
+    "title": "Les Roches Rouges",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-23T15:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2529,30 +2538,30 @@
     "source": "Télérama"
   },
   {
-    "id": "9d892a1dd3d686f06b84",
-    "title": "Les Survivants du Che",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-23T16:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e848856baf264e3ca03b",
-    "title": "Les Survivants du Che",
+    "id": "9d0ada28c25c1ad9710c",
+    "title": "Garance",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-23T16:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "35e3e7391c291ea68665",
-    "title": "Les voyous",
+    "id": "0f1cfe789a48ce2b5dd1",
+    "title": "Primetime",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-23T16:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "e4a8295661ac3442cb78",
+    "title": "Les Eléphants dans la brume",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-23T16:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/television/les-voyous-notre-critique_cri-7037581.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2592,12 +2601,12 @@
     "source": "Télérama"
   },
   {
-    "id": "352689ce4d0c07e7e9cd",
-    "title": "Les Survivants du Che",
+    "id": "5832301d9632d81d03b6",
+    "title": "Raisons et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-23T18:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2637,12 +2646,12 @@
     "source": "Télérama"
   },
   {
-    "id": "692c2311229a590c7b5e",
-    "title": "Les Survivants du Che",
+    "id": "4fc7064af83e1c055750",
+    "title": "Les Roches Rouges",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-23T19:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2664,30 +2673,30 @@
     "source": "Télérama"
   },
   {
-    "id": "9f04503b9953df768033",
-    "title": "Les Survivants du Che",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-23T20:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6ea99c9bb862ccd90aac",
-    "title": "Les Survivants du Che",
+    "id": "6c012a7ca14e94091bf8",
+    "title": "Garance",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-23T20:30:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "f1e8031cbf14e8e84933",
-    "title": "Les voyous",
+    "id": "f11cfaa9b47d2e8dc0b0",
+    "title": "Primetime",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-09-23T20:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "cb6083ce7fc30837d8b2",
+    "title": "Les Eléphants dans la brume",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-23T20:40:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/television/les-voyous-notre-critique_cri-7037581.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2709,12 +2718,12 @@
     "source": "Télérama"
   },
   {
-    "id": "0f5a9c3e92e4032b00ff",
-    "title": "Les voyous",
+    "id": "c90e130cb5b1383dccb9",
+    "title": "Les Dents de la mer (version restaurée)",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-23T21:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/television/les-voyous-notre-critique_cri-7037581.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2745,21 +2754,21 @@
     "source": "Télérama"
   },
   {
-    "id": "c2396ef5e9a83e029d97",
-    "title": "Si tu penses bien",
+    "id": "018a77f8f02debc71fdd",
+    "title": "Garance",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-24T13:45:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "c863f10e38c1a32be36c",
-    "title": "Si tu penses bien",
+    "id": "4eaaf5d3bf870529ef73",
+    "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-24T13:50:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2826,12 +2835,12 @@
     "source": "Télérama"
   },
   {
-    "id": "910309265e41d4fd666b",
-    "title": "Si tu penses bien",
+    "id": "801a6c72e9422c700d11",
+    "title": "Raisons et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-24T16:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2853,12 +2862,12 @@
     "source": "Télérama"
   },
   {
-    "id": "f97377f569216c952c5d",
-    "title": "The Good Sister",
+    "id": "a656f8dc3b181939f8c3",
+    "title": "Fini de rire ! L'humour politique au garde-à-vous ?",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-24T16:30:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-good-sister-de-sarah-miro-fischer-la-deconstruction-sans-manicheisme-de-la-figure-du-monstre_cri-7045643.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2880,30 +2889,30 @@
     "source": "Télérama"
   },
   {
-    "id": "823ac833ff67dc49385b",
-    "title": "Si tu penses bien",
+    "id": "d36e9c34424cfef51a79",
+    "title": "Les Roches Rouges",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-24T17:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "3b69598691d72c3dd40b",
-    "title": "Si tu penses bien",
+    "id": "0eb734fe4984aa6863c7",
+    "title": "Garance",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-24T18:15:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "b9bc9610f007592e3ca4",
-    "title": "Si tu penses bien",
+    "id": "89c66625d982d5076bef",
+    "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-24T18:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2934,21 +2943,30 @@
     "source": "Télérama"
   },
   {
-    "id": "cb21a74c61ab535122a8",
-    "title": "The Good Sister",
+    "id": "31ffaa035eb6b2520a14",
+    "title": "Les Eléphants dans la brume",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-24T19:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/the-good-sister-de-sarah-miro-fischer-la-deconstruction-sans-manicheisme-de-la-figure-du-monstre_cri-7045643.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "c028442a7d11e7b98066",
-    "title": "Avengers : Endgame",
+    "id": "279a99c08412564d2348",
+    "title": "Artus - Le Show XXL au cinéma",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-24T20:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-avengers-endgame-marvel-reussit-un-tres-bon-bouquet-final_cri-7037009.php",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "68f6b1a7c69256ef035d",
+    "title": "Heart of the Beast",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-09-24T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2961,12 +2979,12 @@
     "source": "Télérama"
   },
   {
-    "id": "ac3302fd48b912613349",
-    "title": "La prisonnière du désert",
+    "id": "6b83eb46c56cd4061dbd",
+    "title": "Artus - Le Show XXL au cinéma",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-09-24T20:30:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/films/la-prisonniere-du-desert,17716.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -2979,21 +2997,21 @@
     "source": "Télérama"
   },
   {
-    "id": "cb25f596293857df10a7",
-    "title": "Si tu penses bien",
+    "id": "4696d2905532a9f84659",
+    "title": "Raisons et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-24T20:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "8b7d98a79715291825bc",
-    "title": "Si tu penses bien",
+    "id": "3e62083c8e0c99ffec9d",
+    "title": "Les Roches Rouges",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-24T20:50:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3015,12 +3033,12 @@
     "source": "Télérama"
   },
   {
-    "id": "4d5e0fbf55658e62e01f",
-    "title": "The Good Sister",
+    "id": "0250309baf30511fdb01",
+    "title": "Les Dents de la mer (version restaurée)",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-24T21:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/the-good-sister-de-sarah-miro-fischer-la-deconstruction-sans-manicheisme-de-la-figure-du-monstre_cri-7045643.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3042,12 +3060,12 @@
     "source": "Télérama"
   },
   {
-    "id": "4ff0f19e7f7ed0e22952",
-    "title": "Les Survivants du Che",
+    "id": "40e5882611576b105fd3",
+    "title": "Raisons et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-25T13:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3087,12 +3105,12 @@
     "source": "Télérama"
   },
   {
-    "id": "a3496257891435335f24",
-    "title": "Fjord",
+    "id": "535c56544ffcbc607820",
+    "title": "Les Eléphants dans la brume",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-25T14:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/fjord-de-cristian-mungiu-critique-reussie-de-la-radicalisation-des-opinions-ou-manipulation-simpliste_cri-7045484.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3105,12 +3123,12 @@
     "source": "Télérama"
   },
   {
-    "id": "1991495fbd7fcaa0fafa",
-    "title": "Les Survivants du Che",
+    "id": "1f00c13fb5385b9dafdf",
+    "title": "Les Roches Rouges",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-25T15:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3123,21 +3141,21 @@
     "source": "Télérama"
   },
   {
-    "id": "408dae0b139e041e1292",
-    "title": "Les Survivants du Che",
+    "id": "d1766ef791de16d5c7ba",
+    "title": "Garance",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-25T16:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "e51349e338e5a43758bb",
-    "title": "Les Survivants du Che",
+    "id": "1aeee7dbae7dbc1e58f5",
+    "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-25T16:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3177,12 +3195,12 @@
     "source": "Télérama"
   },
   {
-    "id": "499e47028162968be2eb",
-    "title": "Les Survivants du Che",
+    "id": "b3709b6ac7de6b5f0ef7",
+    "title": "Raisons et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-25T18:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3195,12 +3213,12 @@
     "source": "Télérama"
   },
   {
-    "id": "7341b729eb5946b7ecd3",
-    "title": "Fjord",
+    "id": "191cf9ef9cfce024095e",
+    "title": "Les Eléphants dans la brume",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-25T18:40:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/fjord-de-cristian-mungiu-critique-reussie-de-la-radicalisation-des-opinions-ou-manipulation-simpliste_cri-7045484.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3222,12 +3240,12 @@
     "source": "Télérama"
   },
   {
-    "id": "a88cc5e2eb6cdd5a6f81",
-    "title": "Les Survivants du Che",
+    "id": "c0a087ab572f199d17d7",
+    "title": "Les Roches Rouges",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-25T19:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3240,30 +3258,30 @@
     "source": "Télérama"
   },
   {
-    "id": "f236a9573b831d394f3b",
-    "title": "Les Survivants du Che",
+    "id": "6e32db13ff993355501f",
+    "title": "Garance",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-25T20:30:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "8f4f5d88f36642c52db5",
-    "title": "Les Survivants du Che",
+    "id": "fce675fbf0bb3696a391",
+    "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-25T20:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "3dc2492eb74f6dbd66ad",
-    "title": "Fjord",
+    "id": "0627f8e62ddd1518a10a",
+    "title": "Fini de rire ! L'humour politique au garde-à-vous ?",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-25T20:40:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/fjord-de-cristian-mungiu-critique-reussie-de-la-radicalisation-des-opinions-ou-manipulation-simpliste_cri-7045484.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3294,12 +3312,12 @@
     "source": "Télérama"
   },
   {
-    "id": "96fd9feafe8904c62e9c",
-    "title": "Avengers : Endgame",
+    "id": "fe18baecaf3a21f80210",
+    "title": "Kraken",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-09-25T21:45:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-avengers-endgame-marvel-reussit-un-tres-bon-bouquet-final_cri-7037009.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3330,12 +3348,12 @@
     "source": "Télérama"
   },
   {
-    "id": "f2e56d7dd74dae7d9cff",
-    "title": "Si tu penses bien",
+    "id": "99d3200e0421bedbe603",
+    "title": "Raisons et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-26T13:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3411,39 +3429,39 @@
     "source": "Télérama"
   },
   {
-    "id": "b596e6c334534e9caa0c",
-    "title": "Chien bleu et autres belles histoires de l'école des loisirs",
+    "id": "7a0e65be2d305f3ded1c",
+    "title": "Ma famille de samouraïs",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-26T15:40:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs-cinq-classiques-pour-enfants-racontes-en-salles_cri-7045846.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "86a4843e62195665be7f",
-    "title": "Si tu penses bien",
+    "id": "65acf6706cdee61b6bd3",
+    "title": "Garance",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-26T16:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "751a33614bf7381b92fd",
-    "title": "Si tu penses bien",
+    "id": "44a61266eb4543345717",
+    "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-26T16:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "6fe06acd810dd97b91cd",
-    "title": "Chien bleu et autres belles histoires de l'école des loisirs",
+    "id": "0e3e45cfe069b3074a8d",
+    "title": "Les Eléphants dans la brume",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-26T16:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs-cinq-classiques-pour-enfants-racontes-en-salles_cri-7045846.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3465,12 +3483,12 @@
     "source": "Télérama"
   },
   {
-    "id": "2d3fb9b685f0e559111a",
-    "title": "Si tu penses bien",
+    "id": "ffadac4089ceec7e1c41",
+    "title": "Les Roches Rouges",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-26T17:00:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3483,12 +3501,12 @@
     "source": "Télérama"
   },
   {
-    "id": "bc32565a158927301c8b",
-    "title": "Si tu penses bien",
+    "id": "cde06b95e6c0c8977e78",
+    "title": "Raisons et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-26T18:00:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3537,12 +3555,12 @@
     "source": "Télérama"
   },
   {
-    "id": "67a7fe431c6ed2d09850",
-    "title": "Chien bleu et autres belles histoires de l'école des loisirs",
+    "id": "b430372e58c0f712b2fb",
+    "title": "Les Dents de la mer (version restaurée)",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-26T19:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs-cinq-classiques-pour-enfants-racontes-en-salles_cri-7045846.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
@@ -3555,39 +3573,39 @@
     "source": "Télérama"
   },
   {
-    "id": "ab1414a5aef4463273a3",
-    "title": "Si tu penses bien",
+    "id": "48e223a449d47d3e78d9",
+    "title": "Garance",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-26T20:30:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "47d5a20dea37e24fb1e8",
-    "title": "Si tu penses bien",
+    "id": "66cff87dd2e35d57c932",
+    "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-26T20:30:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "41a197934440deab8747",
-    "title": "Chien bleu et autres belles histoires de l'école des loisirs",
+    "id": "e8cb0f5393a284836a69",
+    "title": "Les Eléphants dans la brume",
     "cinema": "Méliès Saint-François",
     "start": "2026-09-26T20:40:00+02:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/cinema/chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs-cinq-classiques-pour-enfants-racontes-en-salles_cri-7045846.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
-    "id": "34cf9c9feff42546cc87",
-    "title": "Si tu penses bien",
+    "id": "9b02fe4e3a3732e3a683",
+    "title": "Les Roches Rouges",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-26T20:50:00+02:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "url": "https://www.telerama.fr/",
     "source": "Télérama"
   },
   {
