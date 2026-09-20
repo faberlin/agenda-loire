@@ -346,6 +346,248 @@ def parse_telerama_versions(block):
 
 
 # =========================================================
+# DONNÉES STRUCTURÉES TÉLÉRAMA
+# =========================================================
+
+def jsonld_items(value):
+    """
+    Parcourt récursivement un bloc JSON-LD et renvoie tous
+    les dictionnaires qu'il contient.
+    """
+    if isinstance(value, dict):
+        yield value
+
+        for child in value.values():
+            yield from jsonld_items(child)
+
+    elif isinstance(value, list):
+        for child in value:
+            yield from jsonld_items(child)
+
+
+def screening_events_from_jsonld(soup):
+    """
+    Télérama publie les séances dans des objets schema.org
+    de type ScreeningEvent.
+
+    C'est la source principale utilisée pour le titre,
+    l'heure et l'URL du film.
+    """
+    screenings = []
+
+    for script in soup.find_all(
+        "script",
+        type="application/ld+json",
+    ):
+        raw = script.string or script.get_text()
+
+        if not raw or not raw.strip():
+            continue
+
+        try:
+            data = json.loads(raw)
+        except (json.JSONDecodeError, TypeError):
+            continue
+
+        for item in jsonld_items(data):
+            item_type = item.get("@type")
+
+            if isinstance(item_type, list):
+                is_screening = (
+                    "ScreeningEvent" in item_type
+                )
+            else:
+                is_screening = (
+                    item_type == "ScreeningEvent"
+                )
+
+            if is_screening:
+                screenings.append(item)
+
+    return screenings
+
+
+def version_map_from_html(soup):
+    """
+    Le JSON-LD donne les séances exactes mais pas toujours
+    la mention VF / VO.
+
+    On récupère donc uniquement cette information dans la
+    carte HTML du film, sans utiliser le texte global de la
+    page. Cela évite de mélanger les horaires de films
+    voisins.
+
+    La clé est :
+        titre normalisé + heure HH:MM
+
+    Une liste est conservée au cas où deux versions auraient
+    exactement le même titre et la même heure.
+    """
+    versions = {}
+
+    for item in soup.select(
+        "li.cinema__list-item"
+    ):
+        title_node = item.select_one(
+            ".cinema__card-movie-title"
+        )
+
+        if title_node is None:
+            continue
+
+        title = clean(
+            title_node.get_text(
+                " ",
+                strip=True,
+            )
+        )
+
+        if not title:
+            continue
+
+        for version_section in item.select(
+            ".cinema__session-version"
+        ):
+            language_node = (
+                version_section.select_one(
+                    ".cinema__session-language"
+                )
+            )
+
+            language = clean(
+                language_node.get_text(
+                    " ",
+                    strip=True,
+                )
+                if language_node
+                else ""
+            )
+
+            match = re.search(
+                r"\b(VF|VO|VOST|VOSTF|VOSTFR)\b",
+                language,
+                re.IGNORECASE,
+            )
+
+            if match:
+                version = (
+                    match.group(1)
+                    .upper()
+                    .replace(
+                        "VOSTFR",
+                        "VOSTF",
+                    )
+                )
+            else:
+                version = ""
+
+            for button in version_section.select(
+                ".cinema__session-reservation-btn"
+            ):
+                hour_text = clean(
+                    button.get(
+                        "data-hour",
+                        "",
+                    )
+                )
+
+                if not hour_text:
+                    hour_node = button.select_one(
+                        ".cinema__session-start"
+                    )
+
+                    hour_text = clean(
+                        hour_node.get_text(
+                            " ",
+                            strip=True,
+                        )
+                        if hour_node
+                        else ""
+                    )
+
+                time_match = re.search(
+                    r"\b(\d{1,2})[:h](\d{2})\b",
+                    hour_text,
+                )
+
+                if not time_match:
+                    continue
+
+                hour = int(
+                    time_match.group(1)
+                )
+
+                minute = int(
+                    time_match.group(2)
+                )
+
+                key = (
+                    clean(title).lower(),
+                    f"{hour:02d}:{minute:02d}",
+                )
+
+                versions.setdefault(
+                    key,
+                    [],
+                ).append(version)
+
+    return versions
+
+
+def screening_title(item):
+    work = item.get(
+        "workPresented"
+    )
+
+    if isinstance(work, dict):
+        title = clean(
+            work.get(
+                "name",
+                "",
+            )
+        )
+
+        if title:
+            return title
+
+    return clean(
+        item.get(
+            "name",
+            "",
+        )
+    )
+
+
+def screening_url(item):
+    work = item.get(
+        "workPresented"
+    )
+
+    if isinstance(work, dict):
+        url = clean(
+            work.get(
+                "sameAs",
+                "",
+            )
+        )
+
+        if url:
+            return url
+
+        url = clean(
+            work.get(
+                "url",
+                "",
+            )
+        )
+
+        if url:
+            return url
+
+    return ""
+
+
+# =========================================================
 # SCRAPING D'UN JOUR
 # =========================================================
 
@@ -367,81 +609,122 @@ def scrape_telerama_day(
 
     response.raise_for_status()
 
-    # Diagnostic temporaire : sauvegarde le HTML réellement reçu de Télérama
-    # pour le Méliès Saint-François le 23/09/2026.
-    if (
-        cinema_name == "Méliès Saint-François"
-        and day.strftime("%Y-%m-%d") == "2026-09-23"
-    ):
-        debug_output = ROOT / "telerama_debug.html"
-        debug_output.write_text(
-            response.text,
-            encoding="utf-8",
-        )
-        print(
-            f"HTML de diagnostic enregistré dans {debug_output}"
-        )
-
     soup = BeautifulSoup(
         response.text,
         "html.parser",
     )
 
-    link_map = build_film_link_map(
-        soup,
-        url,
-    )
-
-    film_segments = (
-        telerama_film_segments(
+    screenings = (
+        screening_events_from_jsonld(
             soup
         )
     )
 
+    versions = (
+        version_map_from_html(
+            soup
+        )
+    )
+
+    version_indexes = {}
+
     events = []
 
-    for title, block in film_segments:
-        film_url = find_film_url(
-            title,
-            link_map,
+    for screening in screenings:
+        title = screening_title(
+            screening
         )
 
-        versions = (
-            parse_telerama_versions(
-                block
+        start_raw = clean(
+            screening.get(
+                "startDate",
+                "",
             )
         )
 
-        for version, section in versions:
-            times = extract_times(
-                section
-            )
+        if (
+            not title
+            or not start_raw
+        ):
+            continue
 
-            for hour, minute in times:
-                dt = day.replace(
-                    hour=hour,
-                    minute=minute,
-                    second=0,
-                    microsecond=0,
+        try:
+            dt = datetime.fromisoformat(
+                start_raw.replace(
+                    "Z",
+                    "+00:00",
                 )
+            )
+        except ValueError:
+            continue
 
-                if not in_window(dt):
-                    continue
+        if dt.tzinfo is None:
+            dt = dt.replace(
+                tzinfo=PARIS
+            )
+        else:
+            dt = dt.astimezone(
+                PARIS
+            )
 
-                events.append({
-                    "id": stable_id(
-                        cinema_name,
-                        title,
-                        dt.isoformat(),
-                        version,
-                    ),
-                    "title": title,
-                    "cinema": cinema_name,
-                    "start": dt.isoformat(),
-                    "version": version,
-                    "url": film_url,
-                    "source": "Télérama",
-                })
+        # Sécurité : la page demandée pour un jour donné
+        # ne doit produire que les séances de ce jour.
+        if dt.date() != day.date():
+            continue
+
+        if not in_window(dt):
+            continue
+
+        time_key = (
+            clean(title).lower(),
+            dt.strftime("%H:%M"),
+        )
+
+        candidates = versions.get(
+            time_key,
+            [],
+        )
+
+        candidate_index = (
+            version_indexes.get(
+                time_key,
+                0,
+            )
+        )
+
+        if candidates:
+            version = candidates[
+                min(
+                    candidate_index,
+                    len(candidates) - 1,
+                )
+            ]
+
+            version_indexes[
+                time_key
+            ] = candidate_index + 1
+
+        else:
+            version = ""
+
+        film_url = screening_url(
+            screening
+        )
+
+        events.append({
+            "id": stable_id(
+                cinema_name,
+                title,
+                dt.isoformat(),
+                version,
+            ),
+            "title": title,
+            "cinema": cinema_name,
+            "start": dt.isoformat(),
+            "version": version,
+            "url": film_url,
+            "source": "Télérama",
+        })
 
     unique = {
         event["id"]: event
