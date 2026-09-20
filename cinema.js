@@ -36,7 +36,7 @@ function sameDay(a, b) {
 }
 
 function formatHeaderDay(date) {
-  let label =
+  const label =
     new Intl.DateTimeFormat(
       "fr-FR",
       {
@@ -182,7 +182,7 @@ function filterMegaramaVF(events) {
 
 /* ======================================================
    SI FILM AU MÉLIÈS :
-   SUPPRESSION DES SÉANCES MÉGARAMA
+   SUPPRIMER MÉGARAMA
    ====================================================== */
 
 function removeMegaramaWhenMeliesExists(events) {
@@ -333,13 +333,16 @@ function visibleEvents() {
     }
 
     /*
-     * Ne plus afficher une séance
-     * déjà commencée.
+     * Ne pas afficher les séances
+     * déjà commencées.
      */
     if (dt <= now) {
       return false;
     }
 
+    /*
+     * 5 jours à partir d'aujourd'hui.
+     */
     if (
       dt < start ||
       dt >= end
@@ -347,6 +350,10 @@ function visibleEvents() {
       return false;
     }
 
+    /*
+     * En semaine :
+     * masquer avant 17h.
+     */
     if (
       afterWorkOnly &&
       isWeekday(dt) &&
@@ -355,6 +362,10 @@ function visibleEvents() {
       return false;
     }
 
+    /*
+     * Filtre cinéma.
+     * Aucune case cochée = tous les cinémas.
+     */
     if (
       cinemas.size > 0 &&
       !cinemas.has(event.cinema)
@@ -368,159 +379,11 @@ function visibleEvents() {
 
 
 /* ======================================================
-   REGROUPEMENT PAR FILM
-   ====================================================== */
-
-function groupByFilm(events) {
-  const films =
-    new Map();
-
-  for (const event of events) {
-    const key =
-      normalize(event.title);
-
-    if (!films.has(key)) {
-      films.set(
-        key,
-        {
-          title: event.title,
-          sessions: []
-        }
-      );
-    }
-
-    films
-      .get(key)
-      .sessions
-      .push(event);
-  }
-
-  return [
-    ...films.values()
-  ];
-}
-
-
-/* ======================================================
    URL DU FILM
    ====================================================== */
 
-function filmUrl(film) {
-  const session =
-    film.sessions.find(
-      item => item.url
-    );
-
-  return session?.url || null;
-}
-
-
-/* ======================================================
-   SÉPARATION DES FILMS
-   ====================================================== */
-
-function splitFilms(films) {
-  const regularMeliesFilms = [];
-  const occasionalMeliesFilms = [];
-  const occasionalMegarama = [];
-  const bigReleases = [];
-
-  for (const film of films) {
-    const meliesSessions =
-      film.sessions.filter(
-        isMeliesSession
-      );
-
-    if (meliesSessions.length) {
-      /*
-       * 1 ou 2 séances :
-       * Méliès ponctuel.
-       *
-       * 3 séances ou plus :
-       * programmation Méliès.
-       */
-      if (meliesSessions.length <= 2) {
-        occasionalMeliesFilms.push(
-          film
-        );
-      } else {
-        regularMeliesFilms.push(
-          film
-        );
-      }
-
-      continue;
-    }
-
-    const megaramaSessions =
-      film.sessions.filter(
-        isMegaramaSession
-      );
-
-    if (
-      megaramaSessions.length <= 4
-    ) {
-      occasionalMegarama.push(
-        film
-      );
-    } else {
-      bigReleases.push(
-        film
-      );
-    }
-  }
-
-  return {
-    regularMeliesFilms,
-    occasionalMeliesFilms,
-    occasionalMegarama,
-    bigReleases
-  };
-}
-
-
-/* ======================================================
-   EN-TÊTE UNIQUE DES 5 JOURS
-   ====================================================== */
-
-function ensurePlanningLayout() {
-  const oldTable =
-    el("cinemaWeekBody")
-      ?.closest(".cinema-table-wrap");
-
-  if (!oldTable) {
-    return null;
-  }
-
-  let planning =
-    el("cinemaPlanning");
-
-  if (planning) {
-    return planning;
-  }
-
-  /*
-   * On conserve le conteneur HTML existant,
-   * mais on masque l'ancien tableau.
-   */
-  oldTable.style.display =
-    "none";
-
-  planning =
-    document.createElement("div");
-
-  planning.id =
-    "cinemaPlanning";
-
-  planning.className =
-    "cinema-planning";
-
-  oldTable.insertAdjacentElement(
-    "afterend",
-    planning
-  );
-
-  return planning;
+function filmUrl(session) {
+  return session.url || "";
 }
 
 
@@ -528,16 +391,12 @@ function ensurePlanningLayout() {
    CRÉATION D'UNE SÉANCE
    ====================================================== */
 
-function createPlanningSession(
-  session,
-  filmTitle,
-  url
-) {
+function createSessionNode(session) {
   const row =
     document.createElement("div");
 
   row.className =
-    "planning-session";
+    "cinema-session";
 
   const time =
     document.createElement("span");
@@ -549,22 +408,25 @@ function createPlanningSession(
 
   time.className =
     cinemaClass
-      ? `planning-time ${cinemaClass}`
-      : "planning-time";
+      ? `cinema-session-time ${cinemaClass}`
+      : "cinema-session-time";
 
-  time.textContent =
+  const hour =
+    document.createElement("span");
+
+  hour.textContent =
     formatTime(
       new Date(session.start)
     );
 
-  row.appendChild(time);
+  time.appendChild(hour);
 
   if (session.version) {
     const version =
       document.createElement("span");
 
     version.className =
-      "planning-version";
+      "cinema-session-version";
 
     version.textContent =
       session.version;
@@ -572,12 +434,17 @@ function createPlanningSession(
     time.appendChild(version);
   }
 
+  row.appendChild(time);
+
+  const url =
+    filmUrl(session);
+
   if (url) {
     const title =
       document.createElement("a");
 
     title.className =
-      "planning-film-title";
+      "cinema-session-title";
 
     title.href =
       url;
@@ -589,7 +456,7 @@ function createPlanningSession(
       "noopener";
 
     title.textContent =
-      filmTitle;
+      session.title;
 
     row.appendChild(title);
 
@@ -598,10 +465,10 @@ function createPlanningSession(
       document.createElement("span");
 
     title.className =
-      "planning-film-title";
+      "cinema-session-title";
 
     title.textContent =
-      filmTitle;
+      session.title;
 
     row.appendChild(title);
   }
@@ -611,31 +478,7 @@ function createPlanningSession(
 
 
 /* ======================================================
-   TRANSFORMATION FILMS -> SÉANCES
-   ====================================================== */
-
-function filmSessions(films) {
-  return films.flatMap(
-    film => {
-      const url =
-        filmUrl(film);
-
-      return film.sessions.map(
-        session => ({
-          ...session,
-          filmTitle:
-            film.title,
-          filmUrl:
-            url
-        })
-      );
-    }
-  );
-}
-
-
-/* ======================================================
-   EN-TÊTE DES DATES
+   EN-TÊTE DES 5 JOURS
    ====================================================== */
 
 function createDatesHeader(days) {
@@ -643,14 +486,14 @@ function createDatesHeader(days) {
     document.createElement("div");
 
   header.className =
-    "planning-dates";
+    "cinema-dates-header";
 
   for (const day of days) {
     const cell =
       document.createElement("div");
 
     cell.className =
-      "planning-date";
+      "cinema-date-cell";
 
     cell.textContent =
       formatHeaderDay(day);
@@ -663,23 +506,19 @@ function createDatesHeader(days) {
 
 
 /* ======================================================
-   GRILLE 5 JOURS
+   GRILLE DE SÉANCES
    ====================================================== */
 
-function createFiveDayGrid(
-  films,
+function createSessionsGrid(
+  events,
   days,
-  options = {}
+  showDates = false
 ) {
-  const {
-    showDates = false
-  } = options;
-
   const wrapper =
     document.createElement("div");
 
   wrapper.className =
-    "planning-grid-wrap";
+    "cinema-grid-wrap";
 
   if (showDates) {
     wrapper.appendChild(
@@ -691,39 +530,47 @@ function createFiveDayGrid(
     document.createElement("div");
 
   grid.className =
-    "planning-grid";
-
-  const sessions =
-    filmSessions(films);
+    "cinema-five-day-grid";
 
   for (const day of days) {
     const column =
       document.createElement("div");
 
     column.className =
-      "planning-day-column";
+      "cinema-day-column";
 
-    const daySessions =
-      sessions
+    const sessions =
+      events
         .filter(
-          session =>
+          event =>
             sameDay(
-              new Date(session.start),
+              new Date(event.start),
               day
             )
         )
         .sort(
-          (a, b) =>
-            new Date(a.start) -
-            new Date(b.start)
+          (a, b) => {
+            const timeDiff =
+              new Date(a.start) -
+              new Date(b.start);
+
+            if (timeDiff !== 0) {
+              return timeDiff;
+            }
+
+            return a.title.localeCompare(
+              b.title,
+              "fr"
+            );
+          }
         );
 
-    if (!daySessions.length) {
+    if (!sessions.length) {
       const empty =
         document.createElement("div");
 
       empty.className =
-        "planning-empty";
+        "cinema-day-empty";
 
       empty.textContent =
         "—";
@@ -731,15 +578,10 @@ function createFiveDayGrid(
       column.appendChild(empty);
 
     } else {
-      for (
-        const session
-        of daySessions
-      ) {
+      for (const session of sessions) {
         column.appendChild(
-          createPlanningSession(
-            session,
-            session.filmTitle,
-            session.filmUrl
+          createSessionNode(
+            session
           )
         );
       }
@@ -755,108 +597,69 @@ function createFiveDayGrid(
 
 
 /* ======================================================
-   TITRE DE SECTION
+   MÉLIÈS
    ====================================================== */
 
-function createSectionTitle(text) {
-  const title =
-    document.createElement("h3");
-
-  title.className =
-    "planning-section-title";
-
-  title.textContent =
-    text;
-
-  return title;
-}
-
-
-/* ======================================================
-   AFFICHAGE DU PLANNING MÉLIÈS
-   ====================================================== */
-
-function renderCinemaPlanning(
-  regularMeliesFilms,
-  occasionalMeliesFilms,
+function renderMelies(
+  events,
   days
 ) {
-  const planning =
-    ensurePlanningLayout();
+  const container =
+    el("cinemaMeliesPlanning");
 
-  if (!planning) {
+  if (!container) {
     return;
   }
 
-  planning.innerHTML = "";
+  container.innerHTML = "";
+
+  const melies =
+    events.filter(
+      isMeliesSession
+    );
 
   /*
-   * Programmation Méliès
-   *
-   * C'est le premier bloc :
-   * c'est donc lui qui affiche les dates.
+   * Les dates ne sont affichées qu'ici.
    */
-  planning.appendChild(
-    createFiveDayGrid(
-      regularMeliesFilms,
+  container.appendChild(
+    createSessionsGrid(
+      melies,
       days,
-      {
-        showDates: true
-      }
+      true
     )
   );
-
-  /*
-   * Séances ponctuelles Méliès
-   *
-   * Pas de répétition des dates.
-   */
-  if (
-    occasionalMeliesFilms.length
-  ) {
-    planning.appendChild(
-      createSectionTitle(
-        "Séances ponctuelles Méliès"
-      )
-    );
-
-    planning.appendChild(
-      createFiveDayGrid(
-        occasionalMeliesFilms,
-        days,
-        {
-          showDates: false
-        }
-      )
-    );
-  }
 }
 
 
 /* ======================================================
-   MÉGARAMA PONCTUEL
+   MÉGARAMA
    ====================================================== */
 
-function renderOccasionalMegarama(
-  films,
+function renderMegarama(
+  events,
   days
 ) {
   const section =
     el("cinemaOccasionalSection");
 
-  const grid =
+  const container =
     el("cinemaOccasionalGrid");
 
   if (
     !section ||
-    !grid
+    !container
   ) {
     return;
   }
 
-  grid.innerHTML = "";
+  container.innerHTML = "";
 
-  if (!films.length) {
+  const megarama =
+    events.filter(
+      isMegaramaSession
+    );
+
+  if (!megarama.length) {
     section.style.display =
       "none";
 
@@ -867,46 +670,49 @@ function renderOccasionalMegarama(
     "";
 
   /*
-   * L'ancien grid Mégarama possédait une
-   * première colonne + les dates.
-   *
-   * Désormais on met uniquement les cinq
-   * colonnes de séances.
+   * Pas de dates ici :
+   * les colonnes correspondent à celles
+   * affichées au-dessus dans Méliès.
    */
-  grid.className =
-    "planning-grid planning-grid-megarama";
-
-  const sessions =
-    filmSessions(films);
-
   for (const day of days) {
     const column =
       document.createElement("div");
 
     column.className =
-      "planning-day-column";
+      "cinema-day-column";
 
-    const daySessions =
-      sessions
+    const sessions =
+      megarama
         .filter(
-          session =>
+          event =>
             sameDay(
-              new Date(session.start),
+              new Date(event.start),
               day
             )
         )
         .sort(
-          (a, b) =>
-            new Date(a.start) -
-            new Date(b.start)
+          (a, b) => {
+            const timeDiff =
+              new Date(a.start) -
+              new Date(b.start);
+
+            if (timeDiff !== 0) {
+              return timeDiff;
+            }
+
+            return a.title.localeCompare(
+              b.title,
+              "fr"
+            );
+          }
         );
 
-    if (!daySessions.length) {
+    if (!sessions.length) {
       const empty =
         document.createElement("div");
 
       empty.className =
-        "planning-empty";
+        "cinema-day-empty";
 
       empty.textContent =
         "—";
@@ -914,21 +720,16 @@ function renderOccasionalMegarama(
       column.appendChild(empty);
 
     } else {
-      for (
-        const session
-        of daySessions
-      ) {
+      for (const session of sessions) {
         column.appendChild(
-          createPlanningSession(
-            session,
-            session.filmTitle,
-            session.filmUrl
+          createSessionNode(
+            session
           )
         );
       }
     }
 
-    grid.appendChild(column);
+    container.appendChild(column);
   }
 }
 
@@ -937,7 +738,9 @@ function renderOccasionalMegarama(
    GROSSES SORTIES MÉGARAMA
    ====================================================== */
 
-function renderBigReleases(films) {
+function renderBigReleases(
+  events
+) {
   const section =
     el("cinemaBigReleasesSection");
 
@@ -953,7 +756,50 @@ function renderBigReleases(films) {
 
   container.innerHTML = "";
 
-  if (!films.length) {
+  /*
+   * Films Mégarama ayant plus de
+   * 4 séances visibles.
+   */
+  const films =
+    new Map();
+
+  for (const event of events) {
+    if (!isMegaramaSession(event)) {
+      continue;
+    }
+
+    const key =
+      normalize(event.title);
+
+    if (!films.has(key)) {
+      films.set(
+        key,
+        {
+          title: event.title,
+          url: event.url || "",
+          count: 0
+        }
+      );
+    }
+
+    films.get(key).count += 1;
+  }
+
+  const bigReleases =
+    [...films.values()]
+      .filter(
+        film =>
+          film.count > 4
+      )
+      .sort(
+        (a, b) =>
+          a.title.localeCompare(
+            b.title,
+            "fr"
+          )
+      );
+
+  if (!bigReleases.length) {
     section.style.display =
       "none";
 
@@ -963,73 +809,100 @@ function renderBigReleases(films) {
   section.style.display =
     "";
 
-  films
-    .sort(
-      (a, b) =>
-        a.title.localeCompare(
-          b.title,
-          "fr"
-        )
-    )
-    .forEach(
-      (film, index) => {
-        if (index > 0) {
-          const sep =
-            document.createElement("span");
+  bigReleases.forEach(
+    (film, index) => {
+      if (index > 0) {
+        const separator =
+          document.createElement("span");
 
-          sep.className =
-            "big-release-separator";
+        separator.className =
+          "big-release-separator";
 
-          sep.textContent =
-            " · ";
+        separator.textContent =
+          " · ";
 
-          container.appendChild(
-            sep
-          );
-        }
-
-        const url =
-          filmUrl(film);
-
-        if (url) {
-          const link =
-            document.createElement("a");
-
-          link.className =
-            "big-release-title";
-
-          link.href =
-            url;
-
-          link.target =
-            "_blank";
-
-          link.rel =
-            "noopener";
-
-          link.textContent =
-            film.title;
-
-          container.appendChild(
-            link
-          );
-
-        } else {
-          const title =
-            document.createElement("span");
-
-          title.className =
-            "big-release-title";
-
-          title.textContent =
-            film.title;
-
-          container.appendChild(
-            title
-          );
-        }
+        container.appendChild(
+          separator
+        );
       }
+
+      if (film.url) {
+        const link =
+          document.createElement("a");
+
+        link.className =
+          "big-release-title";
+
+        link.href =
+          film.url;
+
+        link.target =
+          "_blank";
+
+        link.rel =
+          "noopener";
+
+        link.textContent =
+          film.title;
+
+        container.appendChild(
+          link
+        );
+
+      } else {
+        const title =
+          document.createElement("span");
+
+        title.className =
+          "big-release-title";
+
+        title.textContent =
+          film.title;
+
+        container.appendChild(
+          title
+        );
+      }
+    }
+  );
+}
+
+
+/* ======================================================
+   RETIRER LES GROSSES SORTIES DU TABLEAU MÉGARAMA
+   ====================================================== */
+
+function removeBigMegaramaReleases(
+  events
+) {
+  const counts =
+    new Map();
+
+  for (const event of events) {
+    if (!isMegaramaSession(event)) {
+      continue;
+    }
+
+    const key =
+      normalize(event.title);
+
+    counts.set(
+      key,
+      (counts.get(key) || 0) + 1
     );
+  }
+
+  return events.filter(event => {
+    if (!isMegaramaSession(event)) {
+      return true;
+    }
+
+    return (
+      (counts.get(
+        normalize(event.title)
+      ) || 0) <= 4
+    );
+  });
 }
 
 
@@ -1044,42 +917,42 @@ function render() {
   const days =
     Array.from(
       { length: 5 },
-      (_, i) =>
+      (_, index) =>
         addDays(
           start,
-          i
+          index
         )
     );
 
   const events =
     visibleEvents();
 
-  const films =
-    groupByFilm(
-      events
-    );
-
-  const {
-    regularMeliesFilms,
-    occasionalMeliesFilms,
-    occasionalMegarama,
-    bigReleases
-  } =
-    splitFilms(films);
-
-  renderCinemaPlanning(
-    regularMeliesFilms,
-    occasionalMeliesFilms,
+  /*
+   * Méliès :
+   * toutes les séances ensemble.
+   */
+  renderMelies(
+    events,
     days
   );
 
-  renderOccasionalMegarama(
-    occasionalMegarama,
+  /*
+   * Mégarama :
+   * on conserve la distinction entre
+   * séances ponctuelles et grosses sorties.
+   */
+  const megaramaPlanningEvents =
+    removeBigMegaramaReleases(
+      events
+    );
+
+  renderMegarama(
+    megaramaPlanningEvents,
     days
   );
 
   renderBigReleases(
-    bigReleases
+    events
   );
 }
 
@@ -1107,9 +980,7 @@ async function init() {
     cinemaEvents =
       await response.json();
 
-    if (
-      !Array.isArray(cinemaEvents)
-    ) {
+    if (!Array.isArray(cinemaEvents)) {
       throw new Error(
         "cinema_events.json n'a pas le bon format"
       );
@@ -1124,8 +995,8 @@ async function init() {
     buildCinemaFilters();
     render();
 
-  } catch (err) {
-    console.error(err);
+  } catch (error) {
+    console.error(error);
   }
 }
 
