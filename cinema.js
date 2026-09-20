@@ -65,10 +65,7 @@ function formatTime(date) {
 function isWeekday(date) {
   const day = date.getDay();
 
-  return (
-    day >= 1 &&
-    day <= 5
-  );
+  return day >= 1 && day <= 5;
 }
 
 
@@ -335,7 +332,10 @@ function visibleEvents() {
       return false;
     }
 
-    /* Une séance déjà commencée n'est plus affichée. */
+    /*
+     * Ne plus afficher une séance
+     * déjà commencée.
+     */
     if (dt <= now) {
       return false;
     }
@@ -402,7 +402,7 @@ function groupByFilm(events) {
 
 
 /* ======================================================
-   URL / TITRE FILM
+   URL DU FILM
    ====================================================== */
 
 function filmUrl(film) {
@@ -412,44 +412,6 @@ function filmUrl(film) {
     );
 
   return session?.url || null;
-}
-
-function createFilmTitle(film) {
-  const url =
-    filmUrl(film);
-
-  if (url) {
-    const link =
-      document.createElement("a");
-
-    link.className =
-      "film-title film-title-link";
-
-    link.href =
-      url;
-
-    link.target =
-      "_blank";
-
-    link.rel =
-      "noopener";
-
-    link.textContent =
-      film.title;
-
-    return link;
-  }
-
-  const title =
-    document.createElement("span");
-
-  title.className =
-    "film-title";
-
-  title.textContent =
-    film.title;
-
-  return title;
 }
 
 
@@ -471,13 +433,11 @@ function splitFilms(films) {
 
     if (meliesSessions.length) {
       /*
-       * Méliès :
+       * 1 ou 2 séances :
+       * Méliès ponctuel.
        *
-       * 1 ou 2 séances visibles sur les 5 jours
-       * => séances ponctuelles.
-       *
-       * 3 séances ou plus
-       * => une ligne complète dans le tableau.
+       * 3 séances ou plus :
+       * programmation Méliès.
        */
       if (meliesSessions.length <= 2) {
         occasionalMeliesFilms.push(
@@ -510,41 +470,6 @@ function splitFilms(films) {
     }
   }
 
-  regularMeliesFilms.sort(
-    (a, b) => {
-      if (
-        b.sessions.length !==
-        a.sessions.length
-      ) {
-        return (
-          b.sessions.length -
-          a.sessions.length
-        );
-      }
-
-      return a.title.localeCompare(
-        b.title,
-        "fr"
-      );
-    }
-  );
-
-  occasionalMeliesFilms.sort(
-    (a, b) =>
-      a.title.localeCompare(
-        b.title,
-        "fr"
-      )
-  );
-
-  bigReleases.sort(
-    (a, b) =>
-      a.title.localeCompare(
-        b.title,
-        "fr"
-      )
-  );
-
   return {
     regularMeliesFilms,
     occasionalMeliesFilms,
@@ -555,341 +480,231 @@ function splitFilms(films) {
 
 
 /* ======================================================
-   EN-TÊTES DES JOURS
+   EN-TÊTE UNIQUE DES 5 JOURS
    ====================================================== */
 
-function buildDayHeaders(days) {
-  const row =
-    el("cinemaWeekHeader");
+function ensurePlanningLayout() {
+  const oldTable =
+    el("cinemaWeekBody")
+      ?.closest(".cinema-table-wrap");
 
-  if (!row) {
-    return;
+  if (!oldTable) {
+    return null;
   }
 
-  row.innerHTML =
-    '<th class="film-col">Film</th>';
+  let planning =
+    el("cinemaPlanning");
 
-  for (const day of days) {
-    const th =
-      document.createElement("th");
-
-    th.className =
-      "day-col";
-
-    th.textContent =
-      formatHeaderDay(day);
-
-    row.appendChild(th);
+  if (planning) {
+    return planning;
   }
+
+  /*
+   * On conserve le conteneur HTML existant,
+   * mais on masque l'ancien tableau.
+   */
+  oldTable.style.display =
+    "none";
+
+  planning =
+    document.createElement("div");
+
+  planning.id =
+    "cinemaPlanning";
+
+  planning.className =
+    "cinema-planning";
+
+  oldTable.insertAdjacentElement(
+    "afterend",
+    planning
+  );
+
+  return planning;
 }
 
 
 /* ======================================================
-   HORAIRE
+   CRÉATION D'UNE SÉANCE
    ====================================================== */
 
-function createSessionNode(session) {
-  const dt =
-    new Date(session.start);
+function createPlanningSession(
+  session,
+  filmTitle,
+  url
+) {
+  const row =
+    document.createElement("div");
 
-  const node =
+  row.className =
+    "planning-session";
+
+  const time =
     document.createElement("span");
 
   const cinemaClass =
-    sessionCinemaClass(session);
+    sessionCinemaClass(
+      session
+    );
 
-  node.className =
+  time.className =
     cinemaClass
-      ? `session-time ${cinemaClass}`
-      : "session-time";
+      ? `planning-time ${cinemaClass}`
+      : "planning-time";
 
-  const hour =
-    document.createElement("span");
+  time.textContent =
+    formatTime(
+      new Date(session.start)
+    );
 
-  hour.textContent =
-    formatTime(dt);
-
-  node.appendChild(hour);
+  row.appendChild(time);
 
   if (session.version) {
     const version =
       document.createElement("span");
 
     version.className =
-      "session-version";
+      "planning-version";
 
     version.textContent =
       session.version;
 
-    node.appendChild(version);
+    time.appendChild(version);
   }
 
-  return node;
+  if (url) {
+    const title =
+      document.createElement("a");
+
+    title.className =
+      "planning-film-title";
+
+    title.href =
+      url;
+
+    title.target =
+      "_blank";
+
+    title.rel =
+      "noopener";
+
+    title.textContent =
+      filmTitle;
+
+    row.appendChild(title);
+
+  } else {
+    const title =
+      document.createElement("span");
+
+    title.className =
+      "planning-film-title";
+
+    title.textContent =
+      filmTitle;
+
+    row.appendChild(title);
+  }
+
+  return row;
 }
 
 
 /* ======================================================
-   TABLEAU MÉLIÈS PRINCIPAL
+   TRANSFORMATION FILMS -> SÉANCES
    ====================================================== */
 
-function renderMeliesTable(
-  films,
-  days
-) {
-  const body =
-    el("cinemaWeekBody");
+function filmSessions(films) {
+  return films.flatMap(
+    film => {
+      const url =
+        filmUrl(film);
 
-  if (!body) {
-    return;
-  }
-
-  body.innerHTML = "";
-
-  for (const film of films) {
-    const tr =
-      document.createElement("tr");
-
-    const firstTd =
-      document.createElement("td");
-
-    firstTd.className =
-      "film-col";
-
-    firstTd.appendChild(
-      createFilmTitle(
-        film
-      )
-    );
-
-    tr.appendChild(
-      firstTd
-    );
-
-    for (const day of days) {
-      const td =
-        document.createElement("td");
-
-      td.className =
-        "sessions-cell";
-
-      const sessions =
-        film.sessions
-          .filter(
-            session =>
-              sameDay(
-                new Date(session.start),
-                day
-              )
-          )
-          .sort(
-            (a, b) =>
-              new Date(a.start) -
-              new Date(b.start)
-          );
-
-      if (!sessions.length) {
-        const empty =
-          document.createElement("span");
-
-        empty.className =
-          "no-session";
-
-        empty.textContent =
-          "—";
-
-        td.appendChild(empty);
-
-      } else {
-        const list =
-          document.createElement("div");
-
-        list.className =
-          "session-list";
-
-        for (const session of sessions) {
-          list.appendChild(
-            createSessionNode(
-              session
-            )
-          );
-        }
-
-        td.appendChild(list);
-      }
-
-      tr.appendChild(td);
+      return film.sessions.map(
+        session => ({
+          ...session,
+          filmTitle:
+            film.title,
+          filmUrl:
+            url
+        })
+      );
     }
-
-    body.appendChild(tr);
-  }
-
-  if (!films.length) {
-    const tr =
-      document.createElement("tr");
-
-    const td =
-      document.createElement("td");
-
-    td.colSpan = 6;
-
-    td.className =
-      "cinema-empty";
-
-    td.textContent =
-      "Aucun film avec au moins 3 séances.";
-
-    tr.appendChild(td);
-    body.appendChild(tr);
-  }
+  );
 }
 
 
 /* ======================================================
-   SÉANCES PONCTUELLES MÉLIÈS
+   EN-TÊTE DES DATES
    ====================================================== */
 
-function ensureMeliesOccasionalSection() {
-  let section =
-    el("cinemaMeliesOccasionalSection");
-
-  if (section) {
-    return section;
-  }
-
-  const table =
-    el("cinemaWeekBody")
-      ?.closest("table");
-
-  if (!table) {
-    return null;
-  }
-
-  section =
+function createDatesHeader(days) {
+  const header =
     document.createElement("div");
 
-  section.id =
-    "cinemaMeliesOccasionalSection";
+  header.className =
+    "planning-dates";
 
-  section.className =
-    "melies-occasional-section";
+  for (const day of days) {
+    const cell =
+      document.createElement("div");
 
-  const title =
-    document.createElement("h3");
+    cell.className =
+      "planning-date";
 
-  title.className =
-    "melies-occasional-heading";
+    cell.textContent =
+      formatHeaderDay(day);
 
-  title.textContent =
-    "Séances ponctuelles Méliès";
+    header.appendChild(cell);
+  }
+
+  return header;
+}
+
+
+/* ======================================================
+   GRILLE 5 JOURS
+   ====================================================== */
+
+function createFiveDayGrid(
+  films,
+  days,
+  options = {}
+) {
+  const {
+    showDates = false
+  } = options;
+
+  const wrapper =
+    document.createElement("div");
+
+  wrapper.className =
+    "planning-grid-wrap";
+
+  if (showDates) {
+    wrapper.appendChild(
+      createDatesHeader(days)
+    );
+  }
 
   const grid =
     document.createElement("div");
-
-  grid.id =
-    "cinemaMeliesOccasionalGrid";
 
   grid.className =
-    "melies-occasional-grid";
+    "planning-grid";
 
-  section.appendChild(title);
-  section.appendChild(grid);
-
-  table.insertAdjacentElement(
-    "afterend",
-    section
-  );
-
-  return section;
-}
-
-function renderOccasionalMelies(
-  films,
-  days
-) {
-  const section =
-    ensureMeliesOccasionalSection();
-
-  if (!section) {
-    return;
-  }
-
-  const grid =
-    el("cinemaMeliesOccasionalGrid");
-
-  if (!grid) {
-    return;
-  }
-
-  grid.innerHTML = "";
-
-  const allSessions =
-    films.flatMap(
-      film =>
-        film.sessions
-          .filter(
-            isMeliesSession
-          )
-          .map(
-            session => ({
-              ...session,
-              filmTitle:
-                film.title,
-              filmUrl:
-                filmUrl(film)
-            })
-          )
-    );
-
-  if (!allSessions.length) {
-    section.style.display =
-      "none";
-
-    return;
-  }
-
-  section.style.display =
-    "";
-
-  /*
-   * Première colonne : intitulé.
-   * Les cinq colonnes suivantes correspondent
-   * exactement aux cinq jours du tableau.
-   */
-  const labelColumn =
-    document.createElement("div");
-
-  labelColumn.className =
-    "melies-occasional-label-column";
-
-  labelColumn.textContent =
-    "Films avec 1 ou 2 séances";
-
-  grid.appendChild(
-    labelColumn
-  );
+  const sessions =
+    filmSessions(films);
 
   for (const day of days) {
     const column =
       document.createElement("div");
 
     column.className =
-      "melies-occasional-day";
-
-    const heading =
-      document.createElement("div");
-
-    heading.className =
-      "melies-occasional-day-title";
-
-    heading.textContent =
-      formatHeaderDay(day);
-
-    column.appendChild(
-      heading
-    );
+      "planning-day-column";
 
     const daySessions =
-      allSessions
+      sessions
         .filter(
           session =>
             sameDay(
@@ -908,87 +723,112 @@ function renderOccasionalMelies(
         document.createElement("div");
 
       empty.className =
-        "melies-occasional-empty";
+        "planning-empty";
 
       empty.textContent =
         "—";
 
-      column.appendChild(
-        empty
-      );
+      column.appendChild(empty);
 
     } else {
       for (
         const session
         of daySessions
       ) {
-        const row =
-          document.createElement("div");
-
-        row.className =
-          "melies-occasional-session";
-
-        const sessionLine =
-          document.createElement("div");
-
-        sessionLine.className =
-          "melies-occasional-session-line";
-
-        sessionLine.appendChild(
-          createSessionNode(
-            session
-          )
-        );
-
-        if (session.filmUrl) {
-          const title =
-            document.createElement("a");
-
-          title.className =
-            "melies-occasional-film-title film-title-link";
-
-          title.href =
-            session.filmUrl;
-
-          title.target =
-            "_blank";
-
-          title.rel =
-            "noopener";
-
-          title.textContent =
-            session.filmTitle;
-
-          sessionLine.appendChild(
-            title
-          );
-
-        } else {
-          const title =
-            document.createElement("span");
-
-          title.className =
-            "melies-occasional-film-title";
-
-          title.textContent =
-            session.filmTitle;
-
-          sessionLine.appendChild(
-            title
-          );
-        }
-
-        row.appendChild(
-          sessionLine
-        );
-
         column.appendChild(
-          row
+          createPlanningSession(
+            session,
+            session.filmTitle,
+            session.filmUrl
+          )
         );
       }
     }
 
     grid.appendChild(column);
+  }
+
+  wrapper.appendChild(grid);
+
+  return wrapper;
+}
+
+
+/* ======================================================
+   TITRE DE SECTION
+   ====================================================== */
+
+function createSectionTitle(text) {
+  const title =
+    document.createElement("h3");
+
+  title.className =
+    "planning-section-title";
+
+  title.textContent =
+    text;
+
+  return title;
+}
+
+
+/* ======================================================
+   AFFICHAGE DU PLANNING MÉLIÈS
+   ====================================================== */
+
+function renderCinemaPlanning(
+  regularMeliesFilms,
+  occasionalMeliesFilms,
+  days
+) {
+  const planning =
+    ensurePlanningLayout();
+
+  if (!planning) {
+    return;
+  }
+
+  planning.innerHTML = "";
+
+  /*
+   * Programmation Méliès
+   *
+   * C'est le premier bloc :
+   * c'est donc lui qui affiche les dates.
+   */
+  planning.appendChild(
+    createFiveDayGrid(
+      regularMeliesFilms,
+      days,
+      {
+        showDates: true
+      }
+    )
+  );
+
+  /*
+   * Séances ponctuelles Méliès
+   *
+   * Pas de répétition des dates.
+   */
+  if (
+    occasionalMeliesFilms.length
+  ) {
+    planning.appendChild(
+      createSectionTitle(
+        "Séances ponctuelles Méliès"
+      )
+    );
+
+    planning.appendChild(
+      createFiveDayGrid(
+        occasionalMeliesFilms,
+        days,
+        {
+          showDates: false
+        }
+      )
+    );
   }
 }
 
@@ -1016,22 +856,7 @@ function renderOccasionalMegarama(
 
   grid.innerHTML = "";
 
-  const allSessions =
-    films.flatMap(
-      film =>
-        film.sessions.map(
-          session => ({
-            ...session,
-            filmTitle:
-              film.title,
-
-            filmUrl:
-              filmUrl(film)
-          })
-        )
-    );
-
-  if (!allSessions.length) {
+  if (!films.length) {
     section.style.display =
       "none";
 
@@ -1041,41 +866,28 @@ function renderOccasionalMegarama(
   section.style.display =
     "";
 
-  const labelColumn =
-    document.createElement("div");
+  /*
+   * L'ancien grid Mégarama possédait une
+   * première colonne + les dates.
+   *
+   * Désormais on met uniquement les cinq
+   * colonnes de séances.
+   */
+  grid.className =
+    "planning-grid planning-grid-megarama";
 
-  labelColumn.className =
-    "occasional-label-column";
-
-  labelColumn.textContent =
-    "Séances ponctuelles Mégarama";
-
-  grid.appendChild(
-    labelColumn
-  );
+  const sessions =
+    filmSessions(films);
 
   for (const day of days) {
     const column =
       document.createElement("div");
 
     column.className =
-      "occasional-day";
-
-    const heading =
-      document.createElement("div");
-
-    heading.className =
-      "occasional-day-title";
-
-    heading.textContent =
-      formatHeaderDay(day);
-
-    column.appendChild(
-      heading
-    );
+      "planning-day-column";
 
     const daySessions =
-      allSessions
+      sessions
         .filter(
           session =>
             sameDay(
@@ -1094,78 +906,25 @@ function renderOccasionalMegarama(
         document.createElement("div");
 
       empty.className =
-        "occasional-empty";
+        "planning-empty";
 
       empty.textContent =
         "—";
 
-      column.appendChild(
-        empty
-      );
+      column.appendChild(empty);
 
     } else {
       for (
         const session
         of daySessions
       ) {
-        const row =
-          document.createElement("div");
-
-        row.className =
-          "occasional-session";
-
-        const time =
-          document.createElement("span");
-
-        time.className =
-          `occasional-time ${
-            sessionCinemaClass(
-              session
-            )
-          }`;
-
-        time.textContent =
-          formatTime(
-            new Date(session.start)
-          );
-
-        row.appendChild(time);
-
-        if (session.filmUrl) {
-          const title =
-            document.createElement("a");
-
-          title.className =
-            "occasional-film-title occasional-film-link";
-
-          title.href =
-            session.filmUrl;
-
-          title.target =
-            "_blank";
-
-          title.rel =
-            "noopener";
-
-          title.textContent =
-            session.filmTitle;
-
-          row.appendChild(title);
-
-        } else {
-          const title =
-            document.createElement("span");
-
-          title.className =
-            "occasional-film-title";
-
-          title.textContent =
-            session.filmTitle;
-
-          row.appendChild(title);
-        }
-
-        column.appendChild(row);
+        column.appendChild(
+          createPlanningSession(
+            session,
+            session.filmTitle,
+            session.filmUrl
+          )
+        );
       }
     }
 
@@ -1204,59 +963,73 @@ function renderBigReleases(films) {
   section.style.display =
     "";
 
-  films.forEach(
-    (film, index) => {
-      if (index > 0) {
-        const sep =
-          document.createElement("span");
+  films
+    .sort(
+      (a, b) =>
+        a.title.localeCompare(
+          b.title,
+          "fr"
+        )
+    )
+    .forEach(
+      (film, index) => {
+        if (index > 0) {
+          const sep =
+            document.createElement("span");
 
-        sep.className =
-          "big-release-separator";
+          sep.className =
+            "big-release-separator";
 
-        sep.textContent =
-          " · ";
+          sep.textContent =
+            " · ";
 
-        container.appendChild(sep);
+          container.appendChild(
+            sep
+          );
+        }
+
+        const url =
+          filmUrl(film);
+
+        if (url) {
+          const link =
+            document.createElement("a");
+
+          link.className =
+            "big-release-title";
+
+          link.href =
+            url;
+
+          link.target =
+            "_blank";
+
+          link.rel =
+            "noopener";
+
+          link.textContent =
+            film.title;
+
+          container.appendChild(
+            link
+          );
+
+        } else {
+          const title =
+            document.createElement("span");
+
+          title.className =
+            "big-release-title";
+
+          title.textContent =
+            film.title;
+
+          container.appendChild(
+            title
+          );
+        }
       }
-
-      const url =
-        filmUrl(film);
-
-      if (url) {
-        const link =
-          document.createElement("a");
-
-        link.className =
-          "big-release-title";
-
-        link.href =
-          url;
-
-        link.target =
-          "_blank";
-
-        link.rel =
-          "noopener";
-
-        link.textContent =
-          film.title;
-
-        container.appendChild(link);
-
-      } else {
-        const title =
-          document.createElement("span");
-
-        title.className =
-          "big-release-title";
-
-        title.textContent =
-          film.title;
-
-        container.appendChild(title);
-      }
-    }
-  );
+    );
 }
 
 
@@ -1278,10 +1051,6 @@ function render() {
         )
     );
 
-  buildDayHeaders(
-    days
-  );
-
   const events =
     visibleEvents();
 
@@ -1298,12 +1067,8 @@ function render() {
   } =
     splitFilms(films);
 
-  renderMeliesTable(
+  renderCinemaPlanning(
     regularMeliesFilms,
-    days
-  );
-
-  renderOccasionalMelies(
     occasionalMeliesFilms,
     days
   );
