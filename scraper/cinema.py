@@ -367,14 +367,20 @@ def scrape_telerama_day(
 
     response.raise_for_status()
 
+    # Diagnostic temporaire : sauvegarde le HTML réellement reçu de Télérama
+    # pour le Méliès Saint-François le 23/09/2026.
     if (
-    cinema_name == "Méliès Saint-François"
-    and day.strftime("%Y-%m-%d") == "2026-09-23"
-):
-    (ROOT / "telerama_debug.html").write_text(
-        response.text,
-        encoding="utf-8",
-    )
+        cinema_name == "Méliès Saint-François"
+        and day.strftime("%Y-%m-%d") == "2026-09-23"
+    ):
+        debug_output = ROOT / "telerama_debug.html"
+        debug_output.write_text(
+            response.text,
+            encoding="utf-8",
+        )
+        print(
+            f"HTML de diagnostic enregistré dans {debug_output}"
+        )
 
     soup = BeautifulSoup(
         response.text,
