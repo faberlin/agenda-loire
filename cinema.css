@@ -46,7 +46,7 @@
 
 
 /* ======================================================
-   TITRE MÉLIÈS
+   TITRE PRINCIPAL
    ====================================================== */
 
 .cinema-main-section h2 {
@@ -56,215 +56,105 @@
 
 
 /* ======================================================
-   TABLEAU MÉLIÈS
+   ANCIEN TABLEAU
+
+   Le JS le masque après chargement.
    ====================================================== */
 
 .cinema-table-wrap {
   width: 100%;
   overflow-x: auto;
-  border: 1px solid #ddd;
-  border-radius: 8px;
 }
 
-.cinema-week-table {
+
+/* ======================================================
+   PLANNING GLOBAL
+   ====================================================== */
+
+.cinema-planning {
   width: 100%;
-  min-width: 900px;
-  border-collapse: collapse;
-  table-layout: fixed;
+}
+
+.planning-grid-wrap {
+  width: 100%;
+  overflow-x: auto;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
   background: #fff;
 }
 
-.cinema-week-table th,
-.cinema-week-table td {
-  border-right: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e8e8e8;
-  padding: 4px 6px;
-  vertical-align: top;
-}
-
-.cinema-week-table th:last-child,
-.cinema-week-table td:last-child {
-  border-right: 0;
-}
-
-.cinema-week-table thead th {
-  background: #f7f7f7;
-  font-size: 12px;
-  font-weight: 700;
-  text-align: left;
-}
-
-.film-col {
-  width: 230px;
-}
-
-.day-col {
-  width: calc((100% - 230px) / 5);
-}
-
-.film-title {
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.film-title-link {
-  display: inline;
-  color: #222;
-  text-decoration: none;
-}
-
-.film-title-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.sessions-cell {
-  min-height: 18px;
-}
-
-.session-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3px;
-}
-
 
 /* ======================================================
-   HORAIRES
+   EN-TÊTE UNIQUE DES DATES
    ====================================================== */
 
-.session-time {
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
-  padding: 2px 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: #222;
-  font-size: 10px;
-  line-height: 1.15;
-  cursor: default;
-}
-
-.session-version {
-  font-size: 8px;
-  font-weight: 600;
-  color: #555;
-}
-
-.no-session {
-  color: #bbb;
-}
-
-
-/* ======================================================
-   COULEURS CINÉMAS
-   ====================================================== */
-
-/* Méliès Saint-François */
-.session-time.session-sf {
-  background: #b7ff7a !important;
-  border-color: #72d63c !important;
-}
-
-/* Méliès Jean-Jaurès */
-.session-time.session-melies-jj {
-  background: #e5f6e5 !important;
-  border-color: #a9d6a9 !important;
-}
-
-/* Mégarama Jean-Jaurès */
-.session-time.session-mega-jj {
-  background: #f4a261 !important;
-  border-color: #d97706 !important;
-}
-
-/* Mégarama Camion Rouge */
-.session-time.session-mega-cr {
-  background: #ffe0b2 !important;
-  border-color: #f6b26b !important;
-}
-
-
-/* ======================================================
-   MÉLIÈS PONCTUEL
-   ====================================================== */
-
-.melies-occasional-section {
-  margin-top: 10px;
-  overflow-x: auto;
-}
-
-.melies-occasional-heading {
-  margin: 0 0 5px;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.melies-occasional-grid {
+.planning-dates {
   display: grid;
 
   grid-template-columns:
-    230px
     repeat(5, minmax(0, 1fr));
 
   min-width: 900px;
 
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  background: #f7f7f7;
 
-  overflow: hidden;
-
-  background: #fff;
+  border-bottom: 1px solid #ddd;
 }
 
-
-/* Première colonne */
-
-.melies-occasional-label-column {
+.planning-date {
   padding: 5px 7px;
-
-  background: #f7f7f7;
 
   border-right: 1px solid #e2e2e2;
 
   font-size: 12px;
   font-weight: 700;
-
-  line-height: 1.3;
 }
 
-
-/* Colonnes des jours */
-
-.melies-occasional-day {
-  min-width: 0;
-
-  border-right: 1px solid #e2e2e2;
-
-  background: #fff;
-}
-
-.melies-occasional-day:last-child {
+.planning-date:last-child {
   border-right: 0;
 }
 
-.melies-occasional-day-title {
-  padding: 5px 7px;
 
-  background: #f7f7f7;
+/* ======================================================
+   GRILLE 5 JOURS
+   ====================================================== */
 
-  border-bottom: 1px solid #e2e2e2;
+.planning-grid {
+  display: grid;
 
-  font-size: 12px;
-  font-weight: 700;
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  min-width: 900px;
+
+  background: #fff;
+}
+
+.planning-day-column {
+  min-width: 0;
+
+  border-right: 1px solid #e2e2e2;
+}
+
+.planning-day-column:last-child {
+  border-right: 0;
 }
 
 
-/* Une séance Méliès ponctuelle */
+/* ======================================================
+   UNE SÉANCE
+   ====================================================== */
 
-.melies-occasional-session {
+.planning-session {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  min-width: 0;
+
   padding: 4px 6px;
 
   border-bottom: 1px solid #eee;
@@ -273,25 +163,50 @@
   line-height: 1.25;
 }
 
-.melies-occasional-session:last-child {
+.planning-session:last-child {
   border-bottom: 0;
 }
 
-.melies-occasional-session:hover {
+.planning-session:hover {
   background: #fafafa;
 }
 
-.melies-occasional-session-line {
-  display: flex;
+
+/* ======================================================
+   HORAIRE
+   ====================================================== */
+
+.planning-time {
+  display: inline-flex;
   align-items: center;
-  gap: 5px;
-  min-width: 0;
+
+  gap: 3px;
+
+  flex: 0 0 auto;
+
+  padding: 2px 5px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  color: #222;
+
+  font-size: 10px;
+  line-height: 1.15;
+}
+
+.planning-version {
+  font-size: 8px;
+  font-weight: 600;
+  color: #555;
 }
 
 
-/* Titre du film */
+/* ======================================================
+   TITRE DU FILM
+   ====================================================== */
 
-.melies-occasional-film-title {
+.planning-film-title {
   min-width: 0;
 
   overflow: hidden;
@@ -306,14 +221,85 @@
   text-decoration: none;
 }
 
-.melies-occasional-film-title:hover {
+a.planning-film-title:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
-.melies-occasional-empty {
+
+/* ======================================================
+   COLONNE VIDE
+   ====================================================== */
+
+.planning-empty {
   padding: 5px 7px;
   color: #bbb;
+}
+
+
+/* ======================================================
+   COULEURS CINÉMAS
+   ====================================================== */
+
+/* Méliès Saint-François */
+
+.planning-time.session-sf {
+  background: #b7ff7a;
+  border-color: #72d63c;
+}
+
+
+/* Méliès Jean-Jaurès */
+
+.planning-time.session-melies-jj {
+  background: #e5f6e5;
+  border-color: #a9d6a9;
+}
+
+
+/* Mégarama Jean-Jaurès */
+
+.planning-time.session-mega-jj {
+  background: #f4a261;
+  border-color: #d97706;
+}
+
+
+/* Mégarama Camion Rouge */
+
+.planning-time.session-mega-cr {
+  background: #ffe0b2;
+  border-color: #f6b26b;
+}
+
+
+/* ======================================================
+   TITRE DES BLOCS
+   ====================================================== */
+
+.planning-section-title {
+  margin: 11px 0 5px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+/* ======================================================
+   SÉANCES PONCTUELLES MÉLIÈS
+   ====================================================== */
+
+/*
+   Ce bloc ne possède PAS d'en-tête de dates.
+   Les colonnes correspondent à celles du
+   planning principal situé juste au-dessus.
+*/
+
+.cinema-planning
+.planning-section-title
++
+.planning-grid-wrap {
+  border-radius: 8px;
 }
 
 
@@ -326,11 +312,19 @@
   overflow-x: auto;
 }
 
-.cinema-occasional-grid {
+/*
+   Le titre existant dans cinema.html reste
+   au-dessus du bloc.
+
+   Le JS transforme cinemaOccasionalGrid
+   directement en grille de cinq colonnes.
+*/
+
+.cinema-occasional-grid,
+.planning-grid-megarama {
   display: grid;
 
   grid-template-columns:
-    230px
     repeat(5, minmax(0, 1fr));
 
   min-width: 900px;
@@ -344,53 +338,29 @@
 }
 
 
-/* Première colonne : même largeur que Film */
+/* ======================================================
+   ANCIENNES CLASSES MÉGARAMA
 
-.occasional-label-column {
-  padding: 5px 7px;
+   Conservées par sécurité si le HTML les utilise encore.
+   ====================================================== */
 
-  background: #f7f7f7;
-
-  border-right: 1px solid #e2e2e2;
-
-  font-size: 12px;
-  font-weight: 700;
-
-  line-height: 1.3;
+.occasional-label-column,
+.occasional-day-title {
+  display: none;
 }
-
-
-/* Colonnes jours */
 
 .occasional-day {
   min-width: 0;
-
   border-right: 1px solid #e2e2e2;
-
-  background: #fff;
 }
 
 .occasional-day:last-child {
   border-right: 0;
 }
 
-.occasional-day-title {
-  padding: 5px 7px;
-
-  background: #f7f7f7;
-
-  border-bottom: 1px solid #e2e2e2;
-
-  font-size: 12px;
-  font-weight: 700;
-}
-
-
-/* Une séance */
-
 .occasional-session {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 
   gap: 5px;
 
@@ -402,31 +372,17 @@
   line-height: 1.25;
 }
 
-.occasional-session:last-child {
-  border-bottom: 0;
-}
-
-.occasional-session:hover {
-  background: #fafafa;
-}
-
-
-/* Horaire */
-
 .occasional-time {
   flex: 0 0 auto;
 
-  padding: 1px 4px;
+  padding: 2px 5px;
 
-  border-radius: 4px;
+  border-radius: 5px;
   border: 1px solid #ddd;
 
   font-size: 10px;
   font-weight: 600;
 }
-
-
-/* Titre */
 
 .occasional-film-title {
   min-width: 0;
@@ -445,37 +401,16 @@
 
 .occasional-film-link:hover {
   text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.occasional-empty {
-  padding: 5px 7px;
-  color: #bbb;
-}
-
-
-/* Mégarama Jean-Jaurès */
-
-.occasional-time.session-mega-jj {
-  background: #f4a261;
-  border-color: #d97706;
-}
-
-
-/* Mégarama Camion Rouge */
-
-.occasional-time.session-mega-cr {
-  background: #ffe0b2;
-  border-color: #f6b26b;
 }
 
 
 /* ======================================================
-   GROSSES SORTIES
+   GROSSES SORTIES MÉGARAMA
    ====================================================== */
 
 .cinema-big-releases-section {
   margin-top: 12px;
+
   font-size: 13px;
   line-height: 1.7;
 }
@@ -514,27 +449,10 @@
 
 @media (max-width: 700px) {
 
-  .film-col {
-    width: 190px;
-  }
-
-  .cinema-week-table {
-    min-width: 800px;
-  }
-
-  .melies-occasional-grid {
-    grid-template-columns:
-      190px
-      repeat(5, minmax(0, 1fr));
-
-    min-width: 800px;
-  }
-
-  .cinema-occasional-grid {
-    grid-template-columns:
-      190px
-      repeat(5, minmax(0, 1fr));
-
+  .planning-dates,
+  .planning-grid,
+  .cinema-occasional-grid,
+  .planning-grid-megarama {
     min-width: 800px;
   }
 }
