@@ -319,6 +319,9 @@ function visibleEvents() {
   const start =
     startOfToday();
 
+  const now =
+    new Date();
+
   const end =
     addDays(start, 5);
 
@@ -329,6 +332,11 @@ function visibleEvents() {
     if (
       Number.isNaN(dt.getTime())
     ) {
+      return false;
+    }
+
+    // Une séance déjà commencée n'est plus affichée.
+    if (dt <= now) {
       return false;
     }
 
