@@ -69,18 +69,13 @@
 
 
 /* ======================================================
-   CONTENEUR DU PLANNING
+   CONTENEURS
    ====================================================== */
 
 .cinema-planning-wrap,
 .cinema-megarama-section {
   width: 100%;
 }
-
-
-/* ======================================================
-   CONTENEUR DE LA GRILLE
-   ====================================================== */
 
 .cinema-grid-wrap {
   width: 100%;
@@ -95,7 +90,7 @@
 
 
 /* ======================================================
-   EN-TÊTE UNIQUE DES DATES
+   EN-TÊTE DES DATES
    ====================================================== */
 
 .cinema-dates-header {
@@ -152,14 +147,14 @@
 
 
 /* ======================================================
-   UNE SÉANCE
+   UNE LIGNE = UN FILM
    ====================================================== */
 
-.cinema-session {
+.cinema-film-row {
   display: flex;
   align-items: center;
 
-  gap: 5px;
+  gap: 6px;
 
   min-width: 0;
 
@@ -171,17 +166,32 @@
   line-height: 1.25;
 }
 
-.cinema-session:last-child {
+.cinema-film-row:last-child {
   border-bottom: 0;
 }
 
-.cinema-session:hover {
+.cinema-film-row:hover {
   background: #fafafa;
 }
 
 
 /* ======================================================
-   HORAIRE
+   PLUSIEURS HORAIRES SUR UNE MÊME LIGNE
+   ====================================================== */
+
+.cinema-film-times {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 3px;
+
+  flex: 0 0 auto;
+}
+
+
+/* ======================================================
+   PASTILLE HORAIRE
    ====================================================== */
 
 .cinema-session-time {
@@ -273,7 +283,7 @@ a.cinema-session-title:hover {
 
 
 /* ======================================================
-   COLONNE SANS SÉANCE
+   JOUR SANS SÉANCE
    ====================================================== */
 
 .cinema-day-empty {
