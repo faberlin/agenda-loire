@@ -367,6 +367,15 @@ def scrape_telerama_day(
 
     response.raise_for_status()
 
+    if (
+    cinema_name == "Méliès Saint-François"
+    and day.strftime("%Y-%m-%d") == "2026-09-23"
+):
+    (ROOT / "telerama_debug.html").write_text(
+        response.text,
+        encoding="utf-8",
+    )
+
     soup = BeautifulSoup(
         response.text,
         "html.parser",
