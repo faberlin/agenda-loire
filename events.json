@@ -341,9 +341,9 @@
     "source": "Le Solar"
   },
   {
-    "id": "6d06f5feb2b5fa521838",
+    "id": "c32fc23907314278b093",
     "title": "Vernissage Azilée // AZ3L",
-    "start": "2026-09-29T18:30:00+02:00",
+    "start": "2026-09-29T18:00:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
     "category": "Concerts",
@@ -3379,6 +3379,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/oiseau-guide-de-survie-/s-910/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "5be8a45d696b604b6357",
+    "title": "Pomme",
+    "start": "2027-02-03T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/pomme/",
+    "source": "Le Fil"
   },
   {
     "id": "ff13046f160a4f14029c",
