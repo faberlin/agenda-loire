@@ -88,17 +88,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "4062c4a44463a0532ad2",
-    "title": "Quinzaine Souad Labbize : une autrice - des artistes - une ville - des lieux",
-    "start": "2026-09-12T14:30:00+02:00",
-    "venue": "Médiathèques Sainté",
-    "city": "Saint-Étienne",
-    "category": "Littérature",
-    "description": "Quinzaine Souad Labbize : une autrice - des a... Ateliers de traduction Du 12/09/2026 14:30 au 23/09/2026 16:30 Catégorie Culture littéraire Localisation Médiathèques de Saint-Étienne La Quinzaine invite le public à découvrir une autrice ou un auteur à travers son oeuvre, ses engagements et les échos qu’elle ou il suscite dans la ville. Pour cette édition, la Quinzaine met à l’honneur Souad Labbize, poète, romancière et traductric...",
-    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2436/quinzaine-souad-labbize-une-autrice-des-artistes-une-ville-des-lieux",
-    "source": "Médiathèques Sainté"
-  },
-  {
     "id": "621261f176129fd5fa12",
     "title": "Mon plaisir est stéphanois 2026",
     "start": "2026-09-12T21:15:00+02:00",
@@ -341,8 +330,8 @@
     "source": "Le Solar"
   },
   {
-    "id": "c32fc23907314278b093",
-    "title": "Vernissage Azilée // AZ3L",
+    "id": "954762cf4990f5594431",
+    "title": "Vernissage Azilée // AZ3L + Elie Ô (DJ set)",
     "start": "2026-09-29T18:00:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -5266,6 +5255,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "636e069b9d2d70aade49",
+    "title": "JOK’AIR LA DERNIÈRE ROCKSTAR TOUR",
+    "start": "2027-10-08T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/jokair/",
+    "source": "Zénith Sainté"
+  },
+  {
     "id": "df4f68badbd1e0c870f0",
     "title": "PHILIPPE CAVERIVIERE TU CROIS QUE C’EST UNE BONNE IDÉE?",
     "start": "2027-10-13T20:00:00+02:00",
@@ -5308,6 +5308,17 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/esther-abrami/",
     "source": "La Comète"
+  },
+  {
+    "id": "32b5311c711d2a10ac5d",
+    "title": "Gael Faye",
+    "start": "2027-11-12T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/gael-faye/",
+    "source": "Zénith Sainté"
   },
   {
     "id": "d4520255f04673007c54",
