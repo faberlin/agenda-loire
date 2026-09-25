@@ -478,8 +478,8 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "8bdfac8dda1033a82e9e",
-    "title": "Meryl",
+    "id": "69a48a9d60000d8ab076",
+    "title": "Meryl + Lawskie",
     "start": "2026-10-03T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -830,8 +830,8 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "1ca4c6062bd403493c89",
-    "title": "Sainté accueille ses étudiant·es : Bianca Costa + Sheldon + CT-84",
+    "id": "bfb1728d412521837286",
+    "title": "Bianca Costa (ANNULÉ) + Sheldon + CT-84 Sainté accueille ses étudiant·es",
     "start": "2026-10-15T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -1927,17 +1927,6 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
     "source": "Comédie Sainté"
-  },
-  {
-    "id": "ac816815f554994cc826",
-    "title": "LOLA BULLE",
-    "start": "2026-11-25T10:30:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/lola-bulle/",
-    "source": "La Ricane"
   },
   {
     "id": "c80ab0583b32070fda72",
@@ -3136,17 +3125,6 @@
     "source": "La Comète"
   },
   {
-    "id": "f3aae0c6bf76750e22f6",
-    "title": "LOLA BULLE",
-    "start": "2027-01-27T10:30:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/lola-bulle-2/",
-    "source": "La Ricane"
-  },
-  {
     "id": "34c7defacbda807c212d",
     "title": "FOREVER THE BEST SHOW ABOUT THE KING OF POP",
     "start": "2027-01-27T20:00:00+01:00",
@@ -3247,7 +3225,7 @@
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
-    "url": "https://laricane.com/event/duo-dimpro/",
+    "url": "https://laricane.com/event/duo-dimpro-2/",
     "source": "La Ricane"
   },
   {
@@ -4499,17 +4477,6 @@
     "source": "La Comète"
   },
   {
-    "id": "eaaa4429e4e0b529bd19",
-    "title": "LOLA BULLE",
-    "start": "2027-03-24T10:30:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/lola-bulle-2/",
-    "source": "La Ricane"
-  },
-  {
     "id": "b1c13e16cc84d6efbc60",
     "title": "Aurore Express Canticum Novum",
     "start": "2027-03-24T20:00:00+01:00",
@@ -4809,17 +4776,6 @@
     "source": "La Ricane"
   },
   {
-    "id": "9e6baefab779f95b587b",
-    "title": "LOLA BULLE",
-    "start": "2027-04-21T10:30:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/lola-bulle-2/",
-    "source": "La Ricane"
-  },
-  {
     "id": "74d4716311b20202c896",
     "title": "Teaser vivant : Compagnie Le cri des ogres",
     "start": "2027-04-21T14:00:00+02:00",
@@ -5000,7 +4956,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-12/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
     "source": "La Ricane"
   },
   {
@@ -5180,7 +5136,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-12/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
     "source": "La Ricane"
   },
   {
@@ -5318,6 +5274,17 @@
     "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/gael-faye/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "ba4c3fb2cc2e29d53ec0",
+    "title": "Laurent Gerra se met à table !",
+    "start": "2027-11-17T08:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/laurent-gerra-2027/",
     "source": "Zénith Sainté"
   },
   {
