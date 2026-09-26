@@ -198,39 +198,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "717efcd1bee484cff6e5",
-    "title": "Les Chénopodes + Selecta Boujtat' · Sur la terrasse !",
-    "start": "2026-09-24T18:00:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/les-chenopodes/",
-    "source": "Le Fil"
-  },
-  {
-    "id": "ff0fc582148b413672eb",
-    "title": "MINUIT Films + Chambre noire [ 360° de Trajectoires ] Du",
-    "start": "2026-09-24T20:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801909-minuit-films-chambre-noire-360deg-de-trajectoires",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "1b5b884c026fec25f2a5",
-    "title": "JEAN-BENOIT DIALLO",
-    "start": "2026-09-24T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/jean-benoit-diallo",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "c95d17828c2f74276cb1",
     "title": "Scène ouverte coup de lune",
     "start": "2026-09-25T20:00:00+02:00",
@@ -242,15 +209,15 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "470f0b9531426fcf280d",
-    "title": "VEGA MISSYL",
-    "start": "2026-09-25T20:30:00+02:00",
-    "venue": "Le Solar",
+    "id": "50012819bedf69c4ffc2",
+    "title": "MINUIT Films + Chambre noire [ 360° de Trajectoires ]",
+    "start": "2026-09-25T20:00:00+02:00",
+    "venue": "Théâtre Le Verso",
     "city": "Saint-Étienne",
-    "category": "Concerts",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://le-solar.fr/evenement/vega-missyl/",
-    "source": "Le Solar"
+    "url": "https://billetterie-leverso.mapado.com/event/801909-minuit-films-chambre-noire-360deg-de-trajectoires",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "c3dca55d93b63a109a49",
@@ -830,8 +797,8 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "bfb1728d412521837286",
-    "title": "Bianca Costa (ANNULÉ) + Sheldon + CT-84 Sainté accueille ses étudiant·es",
+    "id": "7340cfcdfb6fd8ae8d82",
+    "title": "Sainté accueille ses étudiant·es B̶I̶A̶N̶C̶A̶ ̶C̶O̶S̶T̶A̶ (en cours de remplacement) + Sheldon + CT-84",
     "start": "2026-10-15T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -1547,6 +1514,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "aea718dba0f694ce89d3",
+    "title": "Hommage à Miles Davis – La révolution électrique",
+    "start": "2026-11-14T19:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/hommage-a-miles-davis-la-revolution-electrique/",
+    "source": "Le Solar"
+  },
+  {
     "id": "e98c62fcb241bea5baae",
     "title": "TROTWOOD",
     "start": "2026-11-14T20:00:00+01:00",
@@ -1680,6 +1658,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/alex-fredo",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "d5efea22c3b232a43984",
+    "title": "Journée Porte Ouverte de la Gendarmerie",
+    "start": "2026-11-19T08:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
+    "source": "Zénith Sainté"
   },
   {
     "id": "bc7a9be1bbf5c413042b",
@@ -3057,6 +3046,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/octogone-mma/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "50996dbabe836e9d0369",
+    "title": "Hacenoba Salsa : DJ Ré Mi Carte blanche aux danseurs 2 !",
+    "start": "2027-01-23T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/hacenoba-salsa-dj-re-mi/",
+    "source": "Le Fil"
   },
   {
     "id": "ae8da5aee6c356359824",
@@ -4509,6 +4509,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "84f4b30190fe7c692aa1",
+    "title": "TeddyBear + première partie",
+    "start": "2027-03-25T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/teddybear/",
+    "source": "Le Fil"
+  },
+  {
     "id": "a49eaaf4cb784373f391",
     "title": "P V",
     "start": "2027-03-25T20:30:00+01:00",
@@ -5296,6 +5307,17 @@
     "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/i-gotta-feeling/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "2f26f083206df62b997a",
+    "title": "CLAUDIO CAPEO",
+    "start": "2027-11-25T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo-2027/",
     "source": "Zénith Sainté"
   },
   {
