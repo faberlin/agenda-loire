@@ -209,28 +209,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "50012819bedf69c4ffc2",
-    "title": "MINUIT Films + Chambre noire [ 360° de Trajectoires ]",
-    "start": "2026-09-25T20:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801909-minuit-films-chambre-noire-360deg-de-trajectoires",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "c3dca55d93b63a109a49",
-    "title": "ROMAN DODUIK",
-    "start": "2026-09-25T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/roman-doduik",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "7cbe70d15298184602f5",
     "title": "ROMAN DODUIK",
     "start": "2026-09-26T20:30:00+02:00",
@@ -273,6 +251,17 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
+  },
+  {
+    "id": "9eb2619b4012f2031e42",
+    "title": "MINUIT Films + Chambre noire [ 360° de Trajectoires ]",
+    "start": "2026-09-27T16:30:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801909-minuit-films-chambre-noire-360deg-de-trajectoires",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "eefedb121cff3d032d30",
