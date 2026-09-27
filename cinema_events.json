@@ -1,1067 +1,5 @@
 [
   {
-    "id": "1a31b29c40b0fc540913",
-    "title": "Avengers : Endgame",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T10:35:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-avengers-endgame-marvel-reussit-un-tres-bon-bouquet-final_cri-7037009.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2a340d12c86ddb57c970",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "86955e0e64e30297fdf7",
-    "title": "Histoires de la nuit",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a86f79fe7e6cd9f13014",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "db3bf136e564f985e17f",
-    "title": "La Pat' Patrouille : Le film-Mission Dino",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-pat-patrouille-le-film-mission-dino-une-troisieme-aventure-qu-on-oubliera-tres-vite_cri-7045335.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e53a926265892935427e",
-    "title": "Les Héros du Louvre",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-heros-du-louvre-d-elie-chouraqui-un-film-historique-consternant-de-lourdeur_cri-7045779.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c0543a093057b7f5a6c1",
-    "title": "Resident Evil",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-resident-evil-de-zach-cregger-est-meilleur-que-les-autres-films-de-la-saga-et-ce-n-est-pas-un-exploit_cri-7045898.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8312240bacb9d7c484ac",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d17d05e949ce7f4420f7",
-    "title": "Tad l'explorateur et la lampe magique",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b0e7d88c4133ee8abf0d",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T11:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8cdae9d47ca35acef37d",
-    "title": "La Vie en relief-Jacques Henri Lartigue",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T13:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-en-relief-un-documentaire-jubilatoire-ressuscite-les-photos-en-3d-de-jacques-henri-lartigue_cri-7045847.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2d041211d87a19f96406",
-    "title": "Les Survivants du Che",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T13:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "56e84f29715659702562",
-    "title": "Raison et sentiments",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T13:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/raison-et-sentiments-de-georgia-oakley-une-adaptation-de-jane-austen-tout-en-sensualite_cri-7045972.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ca3bcf6a88ba4f3ef8ef",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T13:40:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7da06d653dfc13e24b45",
-    "title": "Les Héros du Louvre",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T13:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-heros-du-louvre-d-elie-chouraqui-un-film-historique-consternant-de-lourdeur_cri-7045779.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3be32e3a3cb8e85af711",
-    "title": "Tad l'explorateur et la lampe magique",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T13:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "abad324d185e4c41301b",
-    "title": "Tad l'explorateur et la lampe magique",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T13:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tad-l-explorateur-et-la-lampe-magique-un-nouvel-opus-pour-petits-et-grands_cri-7045563.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2b527c804e879733ec14",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T13:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "682edd23376384db9bb9",
-    "title": "Histoires de la nuit",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T13:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a044bc364af93181f02a",
-    "title": "The Good Sister",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T13:50:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/the-good-sister-de-sarah-miro-fischer-la-deconstruction-sans-manicheisme-de-la-figure-du-monstre_cri-7045643.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "59e1a55c19a8829c8691",
-    "title": "Brazil",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/brazil,4581.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "15f886dad3653f6667d3",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "702344a294d7157f67ba",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6266d3be462a79c94ffe",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d4b95b1d247058f8ee0c",
-    "title": "Pressure",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1331ccac34795ca794ff",
-    "title": "Si tu penses bien",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6a4e179b72d16fc135cd",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "68c51513ac60035ac78c",
-    "title": "Avengers : Endgame",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-avengers-endgame-marvel-reussit-un-tres-bon-bouquet-final_cri-7037009.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "871d2e0e7fd749d44b16",
-    "title": "Histoires de la nuit",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "34595f0137acc251931a",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5f1f1081763e94391400",
-    "title": "La Pat' Patrouille : Le film-Mission Dino",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-pat-patrouille-le-film-mission-dino-une-troisieme-aventure-qu-on-oubliera-tres-vite_cri-7045335.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "926a9fb781c2fa4bd0a2",
-    "title": "Les Contrebandiers",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-contrebandiers-de-padraic-mckinley-un-film-d-aventures-a-l-ancienne-bien-ficele_cri-7045859.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7392cf26478700a7f7ee",
-    "title": "Resident Evil",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-resident-evil-de-zach-cregger-est-meilleur-que-les-autres-films-de-la-saga-et-ce-n-est-pas-un-exploit_cri-7045898.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8c0d22360873a977ee7f",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "72b48fb7fa6a1013efad",
-    "title": "Chien bleu et autres belles histoires de l'école des loisirs",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T14:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs-cinq-classiques-pour-enfants-racontes-en-salles_cri-7045846.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3f4bfba9ba8aa674188b",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T14:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "668c534d4ece285a28da",
-    "title": "La Vie d'une femme",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T15:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1603310ed59a39cd5b2b",
-    "title": "Si tu penses bien",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T15:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f1a00f9596a8e9d233fd",
-    "title": "Chien bleu et autres belles histoires de l'école des loisirs",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T15:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs-cinq-classiques-pour-enfants-racontes-en-salles_cri-7045846.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "75d9dc9650e5d63befd4",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T15:40:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7a0e65be2d305f3ded1c",
-    "title": "Ma famille de samouraïs",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T15:40:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "7ab7a964190a9d021170",
-    "title": "La Pat' Patrouille : Le film-Mission Dino",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T15:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-pat-patrouille-le-film-mission-dino-une-troisieme-aventure-qu-on-oubliera-tres-vite_cri-7045335.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e3019a4a36bc04602b7f",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T15:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "65adaea408db0c3d00be",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T15:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "564e1c3cf2fb85ff42f6",
-    "title": "La Vie d'une femme",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T15:50:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fbebeb2484debc19d1e7",
-    "title": "Détective Conan : L'Ange déchu de l'asphalte",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T16:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "59a4363ff70f0674fc24",
-    "title": "L'Invitation",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T16:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-invitation-d-olivia-wilde-un-vaudeville-de-luxe-qui-se-revele-tres-pudibond_cri-7045855.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d3a9cf946fb035546249",
-    "title": "Resident Evil",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T16:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-resident-evil-de-zach-cregger-est-meilleur-que-les-autres-films-de-la-saga-et-ce-n-est-pas-un-exploit_cri-7045898.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "65acf6706cdee61b6bd3",
-    "title": "Garance",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T16:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/garance-de-jeanne-herry-adele-exarchopoulos-admirable-en-comedienne-alcoolique_cri-7045974.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "44a61266eb4543345717",
-    "title": "Primetime",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T16:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/primetime-de-lance-oppenheim-mais-que-vient-faire-robert-pattinson-dans-ce-film-tordu-et-racoleur_cri-7045970.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0e3e45cfe069b3074a8d",
-    "title": "Les Eléphants dans la brume",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T16:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a593f95523752c4c0984",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ee363d1ecd7dfa68a4f2",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fb5b272568d7af6bc490",
-    "title": "Si tu penses bien",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1c530e7504819f045564",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T16:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6812faa32943e0533099",
-    "title": "Histoires de la nuit",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T16:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5933d1920707bbe2f278",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T16:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "65253033a17780e19d7c",
-    "title": "Les Héros du Louvre",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T16:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-heros-du-louvre-d-elie-chouraqui-un-film-historique-consternant-de-lourdeur_cri-7045779.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fbf93d34166079a08c10",
-    "title": "District 9",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T16:45:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/district-9,389492.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "045912bad5481982545b",
-    "title": "L'Invitation",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T16:50:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/l-invitation-d-olivia-wilde-un-vaudeville-de-luxe-qui-se-revele-tres-pudibond_cri-7045855.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9fc0899f503a88ab41f0",
-    "title": "Avengers : Endgame",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T17:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/avec-avengers-endgame-marvel-reussit-un-tres-bon-bouquet-final_cri-7037009.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "da3ec411c7ec61dedfa6",
-    "title": "Les Roches rouges",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T17:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-roches-rouges-de-bruno-dumont-une-lumineuse-et-radicale-plongee-en-enfance_cri-7045975.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "87425b747f7b3200814f",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T17:15:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "33b587c7a6ccc76cf437",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T17:25:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "829645ed79a5e84619d1",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T17:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a5617c1069ab93f8d6fd",
-    "title": "Rose",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T17:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/rose-de-markus-schleinzer-sandra-huller-epoustouflante-dans-ce-drame-historique-au-noir-et-blanc-superbe_cri-7045746.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fa533f10a853ab844656",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T17:40:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fe1a9e8b606d3967e3e7",
-    "title": "La Bataille De Gaulle : L'âge de fer",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T17:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/dans-la-bataille-de-gaulle-l-age-de-fer-d-antonin-baudry-simon-abkarian-droit-dans-les-bottes-du-general-0147_cri-7044522.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "93be4859875b9d1a124f",
-    "title": "Pressure",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T17:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/pressure-un-drame-plutot-efficace-sur-les-dessous-meteorologiques-du-d-day_cri-7045744.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b511c4103082c176ae03",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T17:50:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c90d17f7a918277d6a6c",
-    "title": "Insidious : l'invasion du lointain",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T17:50:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/insidious-l-invasion-du-lointain-un-sixieme-opus-qui-touche-le-fond_cri-7045510.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4558dbb9af4c6740ffbb",
-    "title": "Resident Evil",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T18:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-resident-evil-de-zach-cregger-est-meilleur-que-les-autres-films-de-la-saga-et-ce-n-est-pas-un-exploit_cri-7045898.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5ca3ee35bbbbb27c700b",
-    "title": "Raison et sentiments",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T18:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/raison-et-sentiments-de-georgia-oakley-une-adaptation-de-jane-austen-tout-en-sensualite_cri-7045972.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0ed182206d638e5b2b83",
-    "title": "Fjord",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T18:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/fjord-de-cristian-mungiu-critique-reussie-de-la-radicalisation-des-opinions-ou-manipulation-simpliste_cri-7045484.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "960aa7843fbc29df1525",
-    "title": "L'Abandon",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T18:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/cannes-2026-l-abandon-un-recit-rigoureux-de-l-assassinat-de-samuel-paty-malgre-une-terrible-faute-de-gout_cri-7044266.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a7cbecb33a8350d7f6bb",
-    "title": "L'Invitation",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T18:15:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/l-invitation-d-olivia-wilde-un-vaudeville-de-luxe-qui-se-revele-tres-pudibond_cri-7045855.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9fd5cc1fcd372ff8528b",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T18:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0e2f4b7c0dd80ae8c112",
-    "title": "Histoires de la nuit",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T18:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5ecc92411347e5245181",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T18:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8b442ad4922b12f24532",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T18:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2d1e26e35c7e084b349c",
-    "title": "Si tu penses bien",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T18:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "997cab25e386da105ad4",
-    "title": "Soleil vert",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T19:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/soleil-vert,4864.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f475c48ad1b5757fadf5",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T19:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c13423375dae73793ccc",
-    "title": "Les Contrebandiers",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T19:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-contrebandiers-de-padraic-mckinley-un-film-d-aventures-a-l-ancienne-bien-ficele_cri-7045859.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8a7e48b46481a987d5b4",
-    "title": "Resident Evil",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T19:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-resident-evil-de-zach-cregger-est-meilleur-que-les-autres-films-de-la-saga-et-ce-n-est-pas-un-exploit_cri-7045898.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3a6a00122e6052fc1ba3",
-    "title": "La Vie d'une femme",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T19:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0a7db0ddb1e20c28cda7",
-    "title": "Si tu penses bien",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T19:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b430372e58c0f712b2fb",
-    "title": "Les Dents de la mer (version restaurée)",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T19:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "69ac2a3b06bce2da6bf6",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T19:35:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c2d3f5181908616dee97",
-    "title": "Histoires de la nuit",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T19:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b541b1888f0859d32365",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T19:55:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fbe805e87c1f3a6d3ef4",
-    "title": "La Vie d'une femme",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T19:55:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e222d5951366b32c7cdf",
-    "title": "Resident Evil",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T20:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-resident-evil-de-zach-cregger-est-meilleur-que-les-autres-films-de-la-saga-et-ce-n-est-pas-un-exploit_cri-7045898.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5e92fc0ac0cce2c9e17f",
-    "title": "Avengers : Endgame",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T20:10:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-avengers-endgame-marvel-reussit-un-tres-bon-bouquet-final_cri-7037009.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "72674aba2165c625bbca",
-    "title": "Détective Conan : L'Ange déchu de l'asphalte",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "751fbf6b5303610c98e5",
-    "title": "L'Odyssée",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-odyssee-vue-par-christopher-nolan-de-l-antique-pas-toc_cri-7045148.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "68bc4add680afc97ada9",
-    "title": "Les Ensorceleuses 2",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-ensorceleuses-2-un-come-back-tout-sauf-envoutant_cri-7045750.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a0c66a146fa6bff1d4b0",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "625bf0e55ad1d69fec6c",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "48e223a449d47d3e78d9",
-    "title": "Garance",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T20:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/garance-de-jeanne-herry-adele-exarchopoulos-admirable-en-comedienne-alcoolique_cri-7045974.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "66cff87dd2e35d57c932",
-    "title": "Primetime",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T20:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/primetime-de-lance-oppenheim-mais-que-vient-faire-robert-pattinson-dans-ce-film-tordu-et-racoleur_cri-7045970.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e8cb0f5393a284836a69",
-    "title": "Les Eléphants dans la brume",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-09-26T20:40:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f2eaf12d33686d471cd2",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8ef1e1a8b588e7c32a60",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ff10085767950ee6e219",
-    "title": "La Bataille de Gaulle : J'écris ton nom",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/la-bataille-de-gaulle-j-ecris-ton-nom-d-antonin-baudry-une-deuxieme-partie-plus-politique-mais-tout-aussi-captivante_cri-7044887.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e930568598b63d497012",
-    "title": "Si tu penses bien",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T20:45:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "dc609e9e8cbca9059543",
-    "title": "Les Roches rouges",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T20:50:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-roches-rouges-de-bruno-dumont-une-lumineuse-et-radicale-plongee-en-enfance_cri-7045975.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "34ff3c7482520a7f20b2",
-    "title": "Resident Evil",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T21:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-resident-evil-de-zach-cregger-est-meilleur-que-les-autres-films-de-la-saga-et-ce-n-est-pas-un-exploit_cri-7045898.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "96ca62ee2cb31ccdcb48",
-    "title": "Spider-Man : Brand New Day",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T21:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-spider-man-brand-new-day-tom-holland-en-superheros-ultra-torture-dans-un-opus-spectaculaire_cri-7045302.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9287fc433661e1956e1c",
-    "title": "L'Invitation",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-09-26T21:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/l-invitation-d-olivia-wilde-un-vaudeville-de-luxe-qui-se-revele-tres-pudibond_cri-7045855.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f18368e23d9686bb6b5d",
-    "title": "Battle Royale",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-09-26T21:15:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/battle-royale,53958.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ab3590717d370d56da50",
-    "title": "Justin le Juste",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T21:15:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/justin-le-juste-un-film-de-guerre-au-charme-singulier_cri-7045964.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ba4ddf560d011af26a8e",
-    "title": "Les Contrebandiers",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T21:30:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-contrebandiers-de-padraic-mckinley-un-film-d-aventures-a-l-ancienne-bien-ficele_cri-7045859.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "91f520a3a1ff33c7e866",
-    "title": "The Dog Stars",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T21:30:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-dog-stars-un-ridley-scott-qui-reserve-de-bonnes-surprises-ou-consterne-par-sa-mievrerie-0721_cri-7045571.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d6eefc0d215311c2ec1f",
-    "title": "Insidious : l'invasion du lointain",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T21:55:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/insidious-l-invasion-du-lointain-un-sixieme-opus-qui-touche-le-fond_cri-7045510.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2e404ff11ba9e475d030",
-    "title": "Heart of the Beast",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T22:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/heart-of-the-beast-de-david-ayer-brad-pitt-se-fait-voler-la-vedette-par-son-partenaire-canin_cri-7046003.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1f0e3c2abeff5d11075a",
-    "title": "Resident Evil",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T22:00:00+02:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/le-resident-evil-de-zach-cregger-est-meilleur-que-les-autres-films-de-la-saga-et-ce-n-est-pas-un-exploit_cri-7045898.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ab4b93c59a78fd0231d6",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-09-26T22:00:00+02:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
     "id": "bc5834911d26dc18dab9",
     "title": "Avengers : Endgame",
     "cinema": "Mégarama Jean-Jaurès",
@@ -4104,6 +3042,24 @@
     "source": "Télérama"
   },
   {
+    "id": "9ad62a9bba0834fd3169",
+    "title": "Le roi et l'oiseau",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-30T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/le-roi-et-l-oiseau-de-paul-grimault-la-declaration-d-amour-d-un-poete-au-monde_cri-7040163.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "76e2c9fbd1c57a725fb5",
+    "title": "Les Eléphants dans la brume",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-30T14:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
+    "source": "Télérama"
+  },
+  {
     "id": "4e812944dd75c7bfc4f9",
     "title": "Les Roches rouges",
     "cinema": "Méliès Jean-Jaurès",
@@ -4158,6 +3114,24 @@
     "source": "Télérama"
   },
   {
+    "id": "39aaeb2d4d6d7d7d00c1",
+    "title": "Fini de rire ! L'humour politique au garde-à-vous ?",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-30T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/le-documentaire-fini-de-rire-une-autopsie-de-la-mise-au-pas-de-l-humour-politique_cri-7045966.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a59ccf136efc40512d64",
+    "title": "Swing",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-30T16:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/swing-de-tony-gatlif-la-musique-tsigane-au-c-ur_cri-7045692.php",
+    "source": "Télérama"
+  },
+  {
     "id": "d4e55649907897624f3c",
     "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
@@ -4185,12 +3159,30 @@
     "source": "Télérama"
   },
   {
+    "id": "f5e0f1a9c3dcc7d3d500",
+    "title": "Les Eléphants dans la brume",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-30T18:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
+    "source": "Télérama"
+  },
+  {
     "id": "5891b7962348df2c40af",
     "title": "Raison et sentiments",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-09-30T18:15:00+02:00",
     "version": "VO",
     "url": "https://www.telerama.fr/cinema/raison-et-sentiments-de-georgia-oakley-une-adaptation-de-jane-austen-tout-en-sensualite_cri-7045972.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e1be51ff2fb07015a28f",
+    "title": "Les voyous",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-30T18:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/los-golfos-de-carlos-saura-une-chronique-de-la-masculinite-etonnamment-moderne_cri-7045971.php",
     "source": "Télérama"
   },
   {
@@ -4227,6 +3219,24 @@
     "start": "2026-09-30T20:00:00+02:00",
     "version": "VF",
     "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "22c0d5d16a4a4272d692",
+    "title": "Histoires de la nuit",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-30T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "390c580c53b566923580",
+    "title": "L'Invitation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-09-30T20:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/l-invitation-d-olivia-wilde-un-vaudeville-de-luxe-qui-se-revele-tres-pudibond_cri-7045855.php",
     "source": "Télérama"
   },
   {
@@ -4284,6 +3294,24 @@
     "source": "Télérama"
   },
   {
+    "id": "89fab3d7b87eba9afacd",
+    "title": "Histoires de la nuit",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-01T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e33cc6be09933deaf4e6",
+    "title": "L'Invitation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-01T14:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/l-invitation-d-olivia-wilde-un-vaudeville-de-luxe-qui-se-revele-tres-pudibond_cri-7045855.php",
+    "source": "Télérama"
+  },
+  {
     "id": "767f5d344a61ccd07a04",
     "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
@@ -4329,6 +3357,24 @@
     "source": "Télérama"
   },
   {
+    "id": "213235251672afd5d983",
+    "title": "Les Eléphants dans la brume",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-01T16:10:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "7d944306cc00ed333314",
+    "title": "Les voyous",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-01T16:10:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/los-golfos-de-carlos-saura-une-chronique-de-la-masculinite-etonnamment-moderne_cri-7045971.php",
+    "source": "Télérama"
+  },
+  {
     "id": "15aeccec45f0f38517e6",
     "title": "Les Roches rouges",
     "cinema": "Méliès Jean-Jaurès",
@@ -4353,6 +3399,24 @@
     "start": "2026-10-01T18:00:00+02:00",
     "version": "VO",
     "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "e145f2d9ea5bd68a5d5c",
+    "title": "Les Survivants du Che",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-01T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "68130c8974406889ed74",
+    "title": "Haute solitude, Jean Zay prisonnier politique",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-01T18:10:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/haute-solitude-jean-zay-prisonnier-politique-le-magnifique-portrait-d-un-defenseur-de-la-republique_cri-7045969.php",
     "source": "Télérama"
   },
   {
@@ -4398,6 +3462,24 @@
     "start": "2026-10-01T20:00:00+02:00",
     "version": "VF",
     "url": "https://www.telerama.fr/cinema/garance-de-jeanne-herry-adele-exarchopoulos-admirable-en-comedienne-alcoolique_cri-7045974.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "18523964b96fb796ebc7",
+    "title": "Gadjo dilo",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-01T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/gadjo-dilo-romain-duris-retrouve-sa-route-chez-les-gitans-dans-l-un-des-plus-beaux-films-de-tony-gatlif_cri-7045691.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a794f4fcf9460b350d09",
+    "title": "Les Eléphants dans la brume",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-01T20:10:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
     "source": "Télérama"
   },
   {
@@ -4455,6 +3537,24 @@
     "source": "Télérama"
   },
   {
+    "id": "d0f89299aba8cf2390b6",
+    "title": "Gadjo dilo",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-02T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/gadjo-dilo-romain-duris-retrouve-sa-route-chez-les-gitans-dans-l-un-des-plus-beaux-films-de-tony-gatlif_cri-7045691.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a170b1f34758d46f9885",
+    "title": "Les Eléphants dans la brume",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-02T14:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
+    "source": "Télérama"
+  },
+  {
     "id": "fc83abaae9424009d213",
     "title": "Les Roches rouges",
     "cinema": "Méliès Jean-Jaurès",
@@ -4500,6 +3600,24 @@
     "source": "Télérama"
   },
   {
+    "id": "2d5bd6dc63a8a05034d3",
+    "title": "L'Invitation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-02T16:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/l-invitation-d-olivia-wilde-un-vaudeville-de-luxe-qui-se-revele-tres-pudibond_cri-7045855.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "b207edee75024fb70b6b",
+    "title": "Les Survivants du Che",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-02T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "source": "Télérama"
+  },
+  {
     "id": "80e006cb6336f4a37774",
     "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
@@ -4527,6 +3645,15 @@
     "source": "Télérama"
   },
   {
+    "id": "aa32380036d0ded63c23",
+    "title": "Histoires de la nuit",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-02T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
+    "source": "Télérama"
+  },
+  {
     "id": "94c456fd60b7293dbb34",
     "title": "Mulholland Drive",
     "cinema": "Mégarama Camion Rouge",
@@ -4542,6 +3669,15 @@
     "start": "2026-10-02T18:15:00+02:00",
     "version": "VO",
     "url": "https://www.telerama.fr/cinema/raison-et-sentiments-de-georgia-oakley-une-adaptation-de-jane-austen-tout-en-sensualite_cri-7045972.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "17302c4e2a59924ce917",
+    "title": "Les Eléphants dans la brume",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-02T18:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
     "source": "Télérama"
   },
   {
@@ -4572,6 +3708,24 @@
     "source": "Télérama"
   },
   {
+    "id": "70ce30cc5de564a6adb2",
+    "title": "Fini de rire ! L'humour politique au garde-à-vous ?",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-02T20:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/le-documentaire-fini-de-rire-une-autopsie-de-la-mise-au-pas-de-l-humour-politique_cri-7045966.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "550895d0bcab40601bdd",
+    "title": "Les Dents de la mer (version restaurée)",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-02T20:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
     "id": "b98d26aaa4ade8ca3d63",
     "title": "Digger",
     "cinema": "Méliès Jean-Jaurès",
@@ -4585,6 +3739,285 @@
     "title": "Primetime",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-10-02T20:45:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/primetime-de-lance-oppenheim-mais-que-vient-faire-robert-pattinson-dans-ce-film-tordu-et-racoleur_cri-7045970.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "59fd8483947abee64051",
+    "title": "Les Roches rouges",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T13:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-roches-rouges-de-bruno-dumont-une-lumineuse-et-radicale-plongee-en-enfance_cri-7045975.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "701385bdfce5fd24ca78",
+    "title": "Mémoire de fille",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T13:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "41e15e6cb4778898db02",
+    "title": "Écrire la vie : Annie Ernaux racontée par des lycéennes et des lycéens",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T13:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "710d725940364a080bd5",
+    "title": "Raison et sentiments",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T13:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/raison-et-sentiments-de-georgia-oakley-une-adaptation-de-jane-austen-tout-en-sensualite_cri-7045972.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4aa1c9e901891691b88e",
+    "title": "Cars : quatre roues",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-10-03T13:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/films/cars-quatre-roues,263234.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4aec73136882115df63d",
+    "title": "Haute solitude, Jean Zay prisonnier politique",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T14:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/haute-solitude-jean-zay-prisonnier-politique-le-magnifique-portrait-d-un-defenseur-de-la-republique_cri-7045969.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "11fbacd480e92a1372e5",
+    "title": "Les voyous",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T14:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/los-golfos-de-carlos-saura-une-chronique-de-la-masculinite-etonnamment-moderne_cri-7045971.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f80c2437ba55f799269c",
+    "title": "Notre salut",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T15:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "58f3c17a91b68e6a06e7",
+    "title": "Primetime",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T15:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/primetime-de-lance-oppenheim-mais-que-vient-faire-robert-pattinson-dans-ce-film-tordu-et-racoleur_cri-7045970.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "6837686fff84bfa73fdf",
+    "title": "Garance",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T15:20:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/garance-de-jeanne-herry-adele-exarchopoulos-admirable-en-comedienne-alcoolique_cri-7045974.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "04222d6bd68e16218d38",
+    "title": "Chien bleu et autres belles histoires de l'école des loisirs",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T15:45:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/chien-bleu-et-autres-belles-histoires-de-l-ecole-des-loisirs-cinq-classiques-pour-enfants-racontes-en-salles_cri-7045846.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "c8c6391305437fb627bb",
+    "title": "Cars : quatre roues",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-10-03T16:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/films/cars-quatre-roues,263234.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "5e5002a3b880795ce12a",
+    "title": "Les autres",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-10-03T16:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/les-autres,56818.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "69900221994c1a0584b6",
+    "title": "Digger",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T16:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "eb81f0428d7297535505",
+    "title": "Les Eléphants dans la brume",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T16:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "5aea4c076ba4b610e898",
+    "title": "Les Survivants du Che",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T16:30:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-survivants-du-che-un-documentaire-captivant-malgre-un-manque-de-recul-historique_cri-7045745.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ef1d4c575082b0bef652",
+    "title": "Les Roches rouges",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T17:10:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-roches-rouges-de-bruno-dumont-une-lumineuse-et-radicale-plongee-en-enfance_cri-7045975.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "02b95d0cb5060a008bd7",
+    "title": "Mémoire de fille",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T17:40:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "dc0ce2f46114fa119a88",
+    "title": "La Vie d'une femme",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T18:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/la-vie-d-une-femme-de-charline-bourgeois-tacquet-lea-drucker-grandiose-en-chirurgienne-passionnee_cri-7045747.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "2897ffb0afe82c226a9d",
+    "title": "L'Invitation",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T18:00:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/l-invitation-d-olivia-wilde-un-vaudeville-de-luxe-qui-se-revele-tres-pudibond_cri-7045855.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "7497bebf18c9230b1c53",
+    "title": "Mulholland Drive",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-10-03T18:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/mulholland-drive,52832.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e6a854c995c7914aa04d",
+    "title": "Raison et sentiments",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T18:15:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/raison-et-sentiments-de-georgia-oakley-une-adaptation-de-jane-austen-tout-en-sensualite_cri-7045972.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "5eac739c80e297885f1a",
+    "title": "Gadjo dilo",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T18:20:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/gadjo-dilo-romain-duris-retrouve-sa-route-chez-les-gitans-dans-l-un-des-plus-beaux-films-de-tony-gatlif_cri-7045691.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ecad810c8cd4db3d4a15",
+    "title": "The Metropolitan Opera: Così fan tutte (2026)",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-10-03T18:55:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "ba560ca5a88beb82339c",
+    "title": "Si tu penses bien",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T19:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/si-tu-penses-bien-de-geraldine-nakache-la-chronique-efficace-d-une-emprise-conjugale_cri-7045858.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "c7d8555a6206ac1da082",
+    "title": "Garance",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/garance-de-jeanne-herry-adele-exarchopoulos-admirable-en-comedienne-alcoolique_cri-7045974.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "fe55c743188fda7e4a95",
+    "title": "Notre salut",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T20:00:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "6f5f6f0c0f6170a220b9",
+    "title": "Les Eléphants dans la brume",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T20:10:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-elephants-dans-la-brume-une-chronique-nepalaise-d-une-beaute-quasi-surnaturelle_cri-7045973.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e4098da963177562c692",
+    "title": "Histoires de la nuit",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-10-03T20:15:00+02:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/histoires-de-la-nuit-de-lea-mysius-l-adaptation-somptueuse-du-polar-de-laurent-mauvignier_cri-7045861.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "be8ed2c66ea44f20ff20",
+    "title": "Digger",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T20:30:00+02:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "170ec236f23ee4687624",
+    "title": "Primetime",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-10-03T20:50:00+02:00",
     "version": "VO",
     "url": "https://www.telerama.fr/cinema/primetime-de-lance-oppenheim-mais-que-vient-faire-robert-pattinson-dans-ce-film-tordu-et-racoleur_cri-7045970.php",
     "source": "Télérama"
