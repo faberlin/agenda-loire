@@ -209,39 +209,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "7cbe70d15298184602f5",
-    "title": "ROMAN DODUIK",
-    "start": "2026-09-26T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/roman-doduik-2",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "89a6f2efd03729aa88f0",
-    "title": "« C'est la vida !» - Festimômes",
-    "start": "2026-09-27T11:00:00+02:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Opéra-Danse",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/cest-la-vida-festimomes/",
-    "source": "La Comète"
-  },
-  {
-    "id": "eab478927c0fbb205c1b",
-    "title": "St Cham Battle Kids",
-    "start": "2026-09-27T14:00:00+02:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/st-cham-battle-kids/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "8f147196649487c95c2e",
     "title": "MARTINE",
     "start": "2026-09-27T15:00:00+02:00",
@@ -251,17 +218,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "9eb2619b4012f2031e42",
-    "title": "MINUIT Films + Chambre noire [ 360° de Trajectoires ]",
-    "start": "2026-09-27T16:30:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801909-minuit-films-chambre-noire-360deg-de-trajectoires",
-    "source": "Théâtre Le Verso"
   },
   {
     "id": "eefedb121cff3d032d30",
@@ -1087,6 +1043,17 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-129/",
     "source": "Le Solar"
+  },
+  {
+    "id": "f3df27c8b3ee78f2cec0",
+    "title": "La brigade des cauchemars",
+    "start": "2026-10-27T10:00:00+01:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "La brigade des cauchemars Gueules noires du polar 2026 : exposition Du 27/10/2026 10:00 au 21/11/2026 18:30 Catégorie Exposition Localisation Tarentaize Le maître du thriller Franck Thilliez a scénarisé cette série BD, La Brigade des cauchemars, illustrée par Yomgui Dumont.Entre fantastique, aventure et polar, elle raconte l'histoire d'un groupe d'ados capables de vous sauver de vos pirescauchemars. ...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2549/la-brigade-des-cauchemars",
+    "source": "Médiathèques Sainté"
   },
   {
     "id": "ad4ee654d4b36ef41604",
