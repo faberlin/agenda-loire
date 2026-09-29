@@ -220,28 +220,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "eefedb121cff3d032d30",
-    "title": "ABBA MANIA THE ABBA TRIBUTE",
-    "start": "2026-09-27T18:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/abba-mania/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "9b52ff2ff1b9772f0a13",
-    "title": "Jam Session",
-    "start": "2026-09-28T20:30:00+02:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jam-session-104/",
-    "source": "Le Solar"
-  },
-  {
     "id": "954762cf4990f5594431",
     "title": "Vernissage Azilée // AZ3L + Elie Ô (DJ set)",
     "start": "2026-09-29T18:00:00+02:00",
@@ -602,6 +580,17 @@
     "category": "Théâtre",
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/801881-ateliers-memoires-en-mouvement",
+    "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "b957cd3e010a4eb92c88",
+    "title": "Reprise conservatoire",
+    "start": "2026-10-10T19:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/854338-reprise-conservatoire",
     "source": "Théâtre Le Verso"
   },
   {
@@ -1555,6 +1544,17 @@
     "source": "Comédie Sainté"
   },
   {
+    "id": "7a6cf6d1ad3b827589d6",
+    "title": "Jam Session",
+    "start": "2026-11-16T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-132/",
+    "source": "Le Solar"
+  },
+  {
     "id": "fa603b0626cfc8b40dae",
     "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
     "start": "2026-11-17T20:00:00+01:00",
@@ -1962,8 +1962,8 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "49b86a66e7dd566a9dfe",
-    "title": "Wallace Cleaver + première partie",
+    "id": "bf7fbf59743c40f239ed",
+    "title": "Wallace Cleaver + Henri Bleu",
     "start": "2026-11-27T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -3684,6 +3684,17 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
+    "id": "e14d6d04c0a79c9a0642",
+    "title": "Baratin La finale !",
+    "start": "2027-02-21T19:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/baratin-2/",
+    "source": "Le Fil"
+  },
+  {
     "id": "f9c19f859e528b73f51d",
     "title": "Tania Dutel",
     "start": "2027-02-23T20:00:00+01:00",
@@ -4055,6 +4066,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/mikro-bartok/s-912/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "1db452f530c73b98921f",
+    "title": "SOIRÉE ENTRE MEUFS",
+    "start": "2027-03-06T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/soiree-entre-meufs",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "2a01214c8b67e0e19a69",
@@ -4534,6 +4556,17 @@
     "description": "",
     "url": "https://lechambon.fr/culture/",
     "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "9de260ffbd1a98b032bd",
+    "title": "RICHARD SABAK",
+    "start": "2027-03-27T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/richard-sabak",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "3aa5710e2be0c91884df",
