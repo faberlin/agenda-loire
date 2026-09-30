@@ -220,28 +220,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "954762cf4990f5594431",
-    "title": "Vernissage Azilée // AZ3L + Elie Ô (DJ set)",
-    "start": "2026-09-29T18:00:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/vernissage-azilee-az3l/",
-    "source": "Le Fil"
-  },
-  {
-    "id": "3d3d34ae0ad7eec4e2e5",
-    "title": "Section rythmique & groove Avec Pacôme Rotondo (guitare), Raphaël Vallade et Yannick Urbani (basse & batterie - Babylon Circus)",
-    "start": "2026-09-29T19:00:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/section-rythmique-groove/",
-    "source": "Le Fil"
-  },
-  {
     "id": "3c32ec605b50f1285609",
     "title": "Nos âmes liées",
     "start": "2026-10-01T20:00:00+02:00",
@@ -786,17 +764,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "c7e07c9a10ff1e2e939c",
-    "title": "CAP SUR L’îLE AU TRESOR",
-    "start": "2026-10-17T15:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/cap-sur-lile-au-tresor/",
-    "source": "La Ricane"
-  },
-  {
     "id": "8d37c512d894631478dd",
     "title": "The Brooks & Tiwayo",
     "start": "2026-10-17T20:30:00+02:00",
@@ -828,17 +795,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-14",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "18cb16ca6e51c2e0094e",
-    "title": "LE POISON DES BLEUETS –",
-    "start": "2026-10-17T21:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/murder-party-le-poison-des-bleuets/",
-    "source": "La Ricane"
   },
   {
     "id": "c59e10483e05847b4139",
@@ -1330,6 +1286,28 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-131/",
     "source": "Le Solar"
+  },
+  {
+    "id": "efed1599563eec10fd71",
+    "title": "JEFFOU LE GNOU",
+    "start": "2026-11-10T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/jeffoulegnou",
+    "source": "Les 3 Ducs"
+  },
+  {
+    "id": "dc64935a82ae01e5d1f6",
+    "title": "JEFFOU LE GNOU",
+    "start": "2026-11-11T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/jeffou-le-gnou2",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "3372e2ddeefb58f52ebd",
@@ -2924,7 +2902,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
     "source": "La Ricane"
   },
   {
@@ -3181,7 +3159,7 @@
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
-    "url": "https://laricane.com/event/duo-dimpro-2/",
+    "url": "https://laricane.com/event/duo-dimpro/",
     "source": "La Ricane"
   },
   {
@@ -3519,6 +3497,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "c3bc241368d83c7b827a",
+    "title": "POUPEE GONFLANTE",
+    "start": "2027-02-13T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/poupee-gonflante/",
+    "source": "La Ricane"
+  },
+  {
     "id": "af4d07982e7c29594743",
     "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
     "start": "2027-02-16T15:00:00+01:00",
@@ -3581,7 +3570,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -4363,7 +4352,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -4772,7 +4761,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -4956,7 +4945,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -5136,7 +5125,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-8/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
