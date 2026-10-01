@@ -968,6 +968,17 @@
     "source": "La Comète"
   },
   {
+    "id": "5b8a54480541bb50bdbf",
+    "title": "Roller mix",
+    "start": "2026-10-25T14:00:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/roller-mix-2/",
+    "source": "Le Fil"
+  },
+  {
     "id": "fb3c2e09ad5432d020ed",
     "title": "Ulrike Meinhof",
     "start": "2026-10-25T15:00:00+01:00",
@@ -3130,8 +3141,8 @@
     "source": "Salle Aristide Briand"
   },
   {
-    "id": "2663af308760e447c0ff",
-    "title": "SKIP THE USE",
+    "id": "5e55844e68555041cd3a",
+    "title": "SKIP THE USE + Imparfait",
     "start": "2027-01-29T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
