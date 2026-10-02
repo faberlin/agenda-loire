@@ -231,17 +231,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "366838d605585d760da6",
-    "title": "Talisco + Apex Music Club",
-    "start": "2026-10-01T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/talisco/",
-    "source": "Le Fil"
-  },
-  {
     "id": "d1484d80ef0e0ff98e7d",
     "title": "GAGA FIGHT",
     "start": "2026-10-01T20:30:00+02:00",
@@ -346,6 +335,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "39af29bf3edf7571c9f6",
+    "title": "Thibaut Del Corral dans Mentaliste à Saint-Étienne",
+    "start": "2026-10-03T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "/theatre/saint-etienne/thibaut-del-corral-dans-mentaliste.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "69a48a9d60000d8ab076",
     "title": "Meryl + Lawskie",
     "start": "2026-10-03T20:30:00+02:00",
@@ -355,17 +355,6 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/meryl/",
     "source": "Le Fil"
-  },
-  {
-    "id": "39db08d7c03363362024",
-    "title": "THOMAS GT",
-    "start": "2026-10-03T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/thomas-gt",
-    "source": "Les 3 Ducs"
   },
   {
     "id": "8655f08ae2124f333dcb",
@@ -388,6 +377,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/801930-le-defi-poetique-dune-femme-afghane-360deg-de-trajectoires",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "3c1b3ce895dee942bf25",
+    "title": "En jupe et torse nu à Saint-Étienne",
+    "start": "2026-10-04T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/en-jupe-et-torse-nu.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "46d7bfaf1da1aed620d1",
@@ -583,6 +583,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "f4ca2c4828ab2a66e24c",
+    "title": "Yoanna Sallese, Conviction Molle à Saint-Étienne",
+    "start": "2026-10-10T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/yoanna-sallese-conviction-molle.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "4bb3eb78ca9b06e9ebac",
     "title": "TROTWOOD",
     "start": "2026-10-10T20:00:00+02:00",
@@ -636,6 +647,17 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/amin-al-aiedy-quartet/",
     "source": "Le Solar"
+  },
+  {
+    "id": "0d24f0bfd6334a4cb1de",
+    "title": "Les cons, c’est les autres à Saint-Étienne",
+    "start": "2026-10-11T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/les-con-c-est-les-autres.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "3fef54907f5e2b18ee58",
@@ -742,6 +764,17 @@
     "source": "Chok Théâtre"
   },
   {
+    "id": "4b74c4cd9887bba5ff6f",
+    "title": "Claire Morel dans Préliminaires, Pénétration, Orgasme ? à Saint-Étienne",
+    "start": "2026-10-16T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/claire-morel-dans-preliminaires-penetrat.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "0a673d74df683895ce3c",
     "title": "NNY Fest : DOPPLeR + La Jungle + Tachycardie + Trognon",
     "start": "2026-10-16T20:30:00+02:00",
@@ -797,9 +830,9 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "c59e10483e05847b4139",
+    "id": "291255b90bcea6b96a09",
     "title": "TRIBUTE K-POP Shadow Slayers",
-    "start": "2026-10-18T15:00:00+02:00",
+    "start": "2026-10-18T11:00:00+02:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
     "category": "Spectacle",
@@ -817,6 +850,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802014-quartier-culturel-saint-francois-rencontre-avec-les-etudiant-es-de-lesad-de-saint-etienne",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "28090a1b6b33a9af3269",
+    "title": "Claire Morel, Préliminaires, Pénétration, Orgasme ? à Saint-Étienne",
+    "start": "2026-10-19T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/claire-morel-preliminaires-penetration-orgasme.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "343f577a1e9f411f2670",
@@ -878,6 +922,28 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-4/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "7d6289c249f1e175383d",
+    "title": "Fastoche le petit fantôme à Saint-Étienne",
+    "start": "2026-10-23T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/fastoche-le-petit-fantome.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "e75d7e0abed219674e59",
+    "title": "Jacky et la Citrouillette à Saint-Étienne",
+    "start": "2026-10-23T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/jacky-et-la-citrouillette.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "005feecfdc87319f83f2",
@@ -990,6 +1056,17 @@
     "source": "Chok Théâtre"
   },
   {
+    "id": "2952f79ee358b39b7077",
+    "title": "La villa des Dramas à Saint-Étienne",
+    "start": "2026-10-25T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/la-villa-des-dramas.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "4f32cc91533b1a098eb8",
     "title": "Jam Session",
     "start": "2026-10-26T20:30:00+01:00",
@@ -1054,6 +1131,28 @@
     "description": "",
     "url": "https://choktheatre.com/ngoon/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "58f9f737517f5b70a4dd",
+    "title": "Jean-Baptiste Mazoyer dans Le Maître du Jeu version Bad Guys à Saint-Étienne",
+    "start": "2026-10-30T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/jean-baptiste-mazoyer-dans-le-maitre-du-jeu-version-bad-guys.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "8eb0788f8b1cd7485349",
+    "title": "Jean Baptiste Mazoyer le Maître du Jeu à Saint-Étienne",
+    "start": "2026-10-30T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/jean-baptiste-mazoyer-le-maitre-du-jeu.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "aea5880619ee0fedbd83",
@@ -1255,6 +1354,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "81d252438670181d8a02",
+    "title": "Entre Serge et moi à Saint-Étienne",
+    "start": "2026-11-07T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/entre-serge-et-moi.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "7ebe6401703791fc0700",
     "title": "Folie’s",
     "start": "2026-11-07T20:30:00+01:00",
@@ -1286,6 +1396,17 @@
     "description": "",
     "url": "https://choktheatre.com/aperos-lectures-saison-26-27-1/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "fba896faa8ad6fef6c08",
+    "title": "Quoi ? Tout le week-end !!! à Saint-Étienne",
+    "start": "2026-11-08T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/quoi-tout-le-week-end.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "c48c77f73da4b8a03821",
@@ -1352,6 +1473,17 @@
     "description": "",
     "url": "https://choktheatre.com/asil-theatre-dimpro-2026/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "c9d7045425907d427665",
+    "title": "Thomas Valverde à Saint-Étienne",
+    "start": "2026-11-12T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/concert/saint-etienne/thomas-valverde.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "a1a60b293eef52b265fc",
@@ -1459,6 +1591,17 @@
     "source": "Le Solar"
   },
   {
+    "id": "5f3d1b75b099586c2a03",
+    "title": "Malik Belkhodja dans Charo responsable à Saint-Étienne",
+    "start": "2026-11-14T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/malik-belkhodja-dans-charo-responsable.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "e98c62fcb241bea5baae",
     "title": "TROTWOOD",
     "start": "2026-11-14T20:00:00+01:00",
@@ -1512,6 +1655,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/casse-noisette-2026/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "970954c2214adc63e41e",
+    "title": "Mon mari est un ado à Saint-Étienne",
+    "start": "2026-11-15T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/mon-mari-est-un-ado.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "bade266640b02d23c2e1",
@@ -1797,6 +1951,28 @@
     "source": "Chok Théâtre"
   },
   {
+    "id": "838fb0eea61aec080910",
+    "title": "Au secours, on a un bébé à Saint-Étienne",
+    "start": "2026-11-22T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/au-secours-on-a-un-bebe.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "5ac201e13e26b42648ad",
+    "title": "La couverture de Pauline à Saint-Étienne",
+    "start": "2026-11-22T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/la-couverture-de-pauline.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "8fc5155d4949919a3471",
     "title": "REDOUANE BOUGHERABA Mon Premier Spectacle",
     "start": "2026-11-23T20:00:00+01:00",
@@ -1951,6 +2127,17 @@
     "source": "Chok Théâtre"
   },
   {
+    "id": "bda49142f8f82389a369",
+    "title": "Hommage à Dalida à Saint-Étienne",
+    "start": "2026-11-27T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/concert/saint-etienne/hommage-a-dalida.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "bf7fbf59743c40f239ed",
     "title": "Wallace Cleaver + Henri Bleu",
     "start": "2026-11-27T20:30:00+01:00",
@@ -1993,6 +2180,28 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/disney-en-concert/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "2b8703c061d85019465f",
+    "title": "Léa Crevon dans “Tombée du Nid” à Saint-Étienne",
+    "start": "2026-11-28T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/lea-crevon-dans-tombee-du-nid-1.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "e971e7f2a957eb647541",
+    "title": "Léa Crevon, Tombée du Nid à Saint-Étienne",
+    "start": "2026-11-28T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/lea-crevon-tombee-du-nid.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "6f258e1868933caba4e4",
@@ -2156,6 +2365,28 @@
     "source": "Chok Théâtre"
   },
   {
+    "id": "21d3168dfcb770f62b6b",
+    "title": "Hinde dans Fille unique à Saint-Étienne",
+    "start": "2026-12-04T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/lea-crevon-dans-tombee-du-nid.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "481a3c6840798c337305",
+    "title": "Hinde, Fille Unique à Saint-Étienne",
+    "start": "2026-12-04T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/hinde-fille-unique.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "e1ec8e27c9b48bd03d2c",
     "title": "Tempête Sonore #3 Hurakan + Dukkha + KamiKrazy",
     "start": "2026-12-04T20:30:00+01:00",
@@ -2238,6 +2469,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "8484d7e3f741f80603d2",
+    "title": "Una Roberta Débarque à Saint-Étienne",
+    "start": "2026-12-05T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/una-roberta-debarque.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "d66cc8ad2beae5fc2e38",
     "title": "TROTWOOD",
     "start": "2026-12-05T20:00:00+01:00",
@@ -2291,6 +2533,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "7de47946ad18d0a46ef3",
+    "title": "Sex en délire à Saint-Étienne",
+    "start": "2026-12-06T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/sex-en-delire.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "98882920f630b7a310d8",
@@ -2486,6 +2739,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "29a90db815830b3574ab",
+    "title": "Quand les femmes des uns font le bonheur des autres à Saint-Étienne",
+    "start": "2026-12-13T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/quand-les-femmes-des-uns-font-le-bonheur-des-autres.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "82ad02685c30e3733117",
     "title": "Qui som?",
     "start": "2026-12-15T20:00:00+01:00",
@@ -2642,6 +2906,39 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/des-reves-dans-le-sable-festimomes/",
     "source": "La Comète"
+  },
+  {
+    "id": "2719c7fb80f72639e690",
+    "title": "Friandise et dynamite à Saint-Étienne",
+    "start": "2026-12-20T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/friandise-et-dynamite.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "b25724b2f1730e3d1e09",
+    "title": "Le Flocon magique à Saint-Étienne",
+    "start": "2026-12-20T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/le-flocon-magique.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "97a535aa9eaac6e9b51c",
+    "title": "Les 2 Roses et le Méchant Gnome à Saint-Étienne",
+    "start": "2026-12-20T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/les-2-roses-et-le-mechant-gnome.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "49896f91aa8a60b98fcc",
@@ -2895,6 +3192,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "47a296710d050d584947",
+    "title": "Mon Brel préféré à Saint-Étienne",
+    "start": "2027-01-21T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/mon-brel-prefere.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "80264ee418c7b945a38a",
     "title": "ILYES DJADEL",
     "start": "2027-01-21T20:30:00+01:00",
@@ -3002,6 +3310,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/hacenoba-salsa-dj-re-mi/",
     "source": "Le Fil"
+  },
+  {
+    "id": "775e8d15615bc716f8dd",
+    "title": "Lendemain de soirée à Saint-Étienne",
+    "start": "2027-01-24T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/lendemain-de-soiree.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "ae8da5aee6c356359824",
@@ -3240,6 +3559,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "b69571c52cd8fa5498e8",
+    "title": "On divorce quand ? à Saint-Étienne",
+    "start": "2027-01-31T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/on-divorce-quand.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "cf5bc4cbfa7b6cd28c06",
     "title": "Oiseau [guide de survie]",
     "start": "2027-02-02T19:00:00+01:00",
@@ -3397,6 +3727,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "956372ff3313cd941f19",
+    "title": "Ma femme veut pas à Saint-Étienne",
+    "start": "2027-02-07T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/ma-femme-veut-pas.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "90255b300bf6fa5c64a7",
     "title": "Macéra Compagnie Pyramid Youssef Bel Baraka, Fouad Kouchy",
     "start": "2027-02-09T20:00:00+01:00",
@@ -3451,6 +3792,17 @@
     "description": "",
     "url": "https://lechambon.fr/culture/",
     "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "7cfa184fe9f4928219a3",
+    "title": "Mon Cabrel préféré à Saint-Étienne",
+    "start": "2027-02-11T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/concert/saint-etienne/mon-cabrel-prefere.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "b4f8a7a30a5d074df97f",
@@ -3640,8 +3992,8 @@
     "source": "ArcomiK"
   },
   {
-    "id": "b69dcf387706fe6b7059",
-    "title": "Lee Fields",
+    "id": "06ff71906dcf99b4c92f",
+    "title": "Lee Fields + Pratt & Moody",
     "start": "2027-02-20T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -3915,6 +4267,17 @@
     "source": "ArcomiK"
   },
   {
+    "id": "f5e98f7dfd280cb2cdba",
+    "title": "Vulves Assassines",
+    "start": "2027-02-27T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/vulves-assassines/",
+    "source": "Le Fil"
+  },
+  {
     "id": "cb1f2638cf00a5551af3",
     "title": "Alex Vizorek",
     "start": "2027-02-27T20:30:00+01:00",
@@ -4079,6 +4442,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "0e15c18d6a28c55a62ac",
+    "title": "Exs, guide de survie à Saint-Étienne",
+    "start": "2027-03-08T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/exs-guide-de-survie.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "2a01214c8b67e0e19a69",
     "title": "Señora tentación",
     "start": "2027-03-09T20:00:00+01:00",
@@ -4188,6 +4562,17 @@
     "description": "",
     "url": "https://lechambon.fr/culture/",
     "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "f545d1f2a31f2fe0abae",
+    "title": "NADÈGE 100 GÊNE",
+    "start": "2027-03-12T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/nadege100gene",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "b21c0f1e92f540123fdc",
@@ -4509,6 +4894,17 @@
     "source": "La Comète"
   },
   {
+    "id": "d92a64fac479b1cfb9c2",
+    "title": "THOMAS GT",
+    "start": "2027-03-25T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/thomas-gt",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "add2995e7a91c29a089b",
     "title": "La Truite Quintette à cordes avec piano de l’Orchestre Symphonique Saint-Étienne Loire",
     "start": "2027-03-26T20:00:00+01:00",
@@ -4567,6 +4963,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/richard-sabak",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "ddc1ba4737a8a5320610",
+    "title": "Les Cons c'est les Autres à Saint-Étienne",
+    "start": "2027-03-28T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/les-cons-c-est-les-autres.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "3aa5710e2be0c91884df",
@@ -5043,6 +5450,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "cd8f0e5602996d109ea9",
+    "title": "Gaga des Stéphanois à Saint-Étienne",
+    "start": "2027-06-04T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/gaga-des-stephanois-1.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "531d4475e8bd7379a265",
     "title": "Vite, un selfie ! Compagnie Lucamoros Peinture et chant, dès 8 ans",
     "start": "2027-06-05T16:00:00+02:00",
@@ -5081,6 +5499,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "9e76328fac629b6b7a7d",
+    "title": "Triomphe Comedy Club à Saint-Étienne",
+    "start": "2027-06-11T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "/theatre/saint-etienne/triomphe-comedy-club.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "ac21252886b680cab02d",
     "title": "FREDERIC FRANCOIS",
     "start": "2027-06-12T20:00:00+02:00",
@@ -5090,6 +5519,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/frederic-francois/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "bc709cadfe6972651a6f",
+    "title": "Fou des verts ! à Saint-Étienne",
+    "start": "2027-06-12T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/fou-des-verts.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "3dc8d38a415d6ec497ed",
@@ -5151,6 +5591,28 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "f806ecacf6cd846465b9",
+    "title": "Les Lundis de l’Impro à Saint-Étienne",
+    "start": "2027-06-21T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/les-lundis-de-l-impro.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "c97c076492d306737987",
+    "title": "Gaga de Saint-Étienne à Saint-Étienne",
+    "start": "2027-06-21T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/gaga-de-saint-etienne-3.html",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "a2830d0e951a6a88c858",
     "title": "À fleur de peau",
     "start": "2027-06-23T20:00:00+02:00",
@@ -5182,6 +5644,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-liberations/s-898/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "add457de0c280571ce6c",
+    "title": "Soirée Stand-up à Saint-Étienne",
+    "start": "2027-06-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "/theatre/saint-etienne/soiree-stand-up.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "25a98eda487f55a46981",
@@ -5253,6 +5726,28 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "b6a7960d3548efa2568b",
+    "title": "Hibou Chouchou à Saint-Étienne",
+    "start": "2027-10-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/hibou-chouchou.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "caebfa1e4d87d507292e",
+    "title": "La sorcière têtenlère à Saint-Étienne",
+    "start": "2027-10-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/la-sorciere-tetenlere.html",
+    "source": "Agenda Culturel"
   },
   {
     "id": "a12acedd7da07506135b",
