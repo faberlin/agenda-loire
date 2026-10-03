@@ -231,17 +231,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "d1484d80ef0e0ff98e7d",
-    "title": "GAGA FIGHT",
-    "start": "2026-10-01T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-22",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "dd6eb2e754508e3d2376",
     "title": "Jules Verne et les savants « fous »",
     "start": "2026-10-02T13:00:00+02:00",
@@ -253,17 +242,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "0596e0933fb16c5aeefe",
-    "title": "LA GUERRE DES SEXES",
-    "start": "2026-10-02T20:00:00+02:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/la-guerre-des-sexes/",
-    "source": "La Comète"
-  },
-  {
     "id": "bca3516e24a79c4f0562",
     "title": "Nos âmes liées",
     "start": "2026-10-02T20:00:00+02:00",
@@ -273,28 +251,6 @@
     "description": "",
     "url": "https://choktheatre.com/nos-ames-liees/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "e79d467c7fa02ea237d7",
-    "title": "Jazz - musique du monde - ana carla maza",
-    "start": "2026-10-02T20:00:00+02:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/jazz-musique-du-monde-ana-carla-maza/",
-    "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "aaefa297c21533b0f430",
-    "title": "Tellement marrant·e·s Laura Domenge + Sofia Belabbes + Tahnee + Louis Cattelat",
-    "start": "2026-10-02T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/tellement-marrant-e-s/",
-    "source": "Le Fil"
   },
   {
     "id": "56b8328eddc5e82efd4e",
@@ -1087,6 +1043,17 @@
     "description": "La brigade des cauchemars Gueules noires du polar 2026 : exposition Du 27/10/2026 10:00 au 21/11/2026 18:30 Catégorie Exposition Localisation Tarentaize Le maître du thriller Franck Thilliez a scénarisé cette série BD, La Brigade des cauchemars, illustrée par Yomgui Dumont.Entre fantastique, aventure et polar, elle raconte l'histoire d'un groupe d'ados capables de vous sauver de vos pirescauchemars. ...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2549/la-brigade-des-cauchemars",
     "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "01a3a6553ffab2b255a6",
+    "title": "Vacances curieuses Découvrir des lieux culturels et vivre des expériences artistiques !",
+    "start": "2026-10-27T10:00:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/vacances-curieuses-2/",
+    "source": "Le Fil"
   },
   {
     "id": "ad4ee654d4b36ef41604",
@@ -3869,6 +3836,17 @@
     "description": "",
     "url": "https://laricane.com/event/poupee-gonflante/",
     "source": "La Ricane"
+  },
+  {
+    "id": "5921edbb850552229f1a",
+    "title": "Faut pas pousser Papy et Mamy dans les orties",
+    "start": "2027-02-14T15:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/faut-pas-pousser-papy-et-mamy-dans-les-orties/",
+    "source": "La Comète"
   },
   {
     "id": "af4d07982e7c29594743",
