@@ -253,28 +253,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "56b8328eddc5e82efd4e",
-    "title": "GENERATION CELINE",
-    "start": "2026-10-02T20:30:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/generation-celine/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "d7fbacf92680f2f97dd7",
-    "title": "HAROLD BARBÉ",
-    "start": "2026-10-02T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/www-lestroisducs-fr-harold-barbe",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "7d89d32a4b80d9e19b44",
     "title": "5ème Symphonie de Mahler Gustav Mahler",
     "start": "2026-10-03T20:00:00+02:00",
@@ -289,28 +267,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/5eme-symphonie-de-mahler/s-883/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "39af29bf3edf7571c9f6",
-    "title": "Thibaut Del Corral dans Mentaliste à Saint-Étienne",
-    "start": "2026-10-03T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "/theatre/saint-etienne/thibaut-del-corral-dans-mentaliste.html",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "69a48a9d60000d8ab076",
-    "title": "Meryl + Lawskie",
-    "start": "2026-10-03T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/meryl/",
-    "source": "Le Fil"
   },
   {
     "id": "8655f08ae2124f333dcb",
@@ -880,17 +836,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "7d6289c249f1e175383d",
-    "title": "Fastoche le petit fantôme à Saint-Étienne",
-    "start": "2026-10-23T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Jeune public",
-    "description": "",
-    "url": "/jeune-public/saint-etienne/fastoche-le-petit-fantome.html",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "e75d7e0abed219674e59",
     "title": "Jacky et la Citrouillette à Saint-Étienne",
     "start": "2026-10-23T20:00:00+02:00",
@@ -899,6 +844,17 @@
     "category": "Théâtre",
     "description": "",
     "url": "/jeune-public/saint-etienne/jacky-et-la-citrouillette.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "7d6289c249f1e175383d",
+    "title": "Fastoche le petit fantôme à Saint-Étienne",
+    "start": "2026-10-23T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/fastoche-le-petit-fantome.html",
     "source": "Agenda Culturel"
   },
   {
@@ -1100,17 +1056,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "58f9f737517f5b70a4dd",
-    "title": "Jean-Baptiste Mazoyer dans Le Maître du Jeu version Bad Guys à Saint-Étienne",
-    "start": "2026-10-30T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/theatre/saint-etienne/jean-baptiste-mazoyer-dans-le-maitre-du-jeu-version-bad-guys.html",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "8eb0788f8b1cd7485349",
     "title": "Jean Baptiste Mazoyer le Maître du Jeu à Saint-Étienne",
     "start": "2026-10-30T20:00:00+01:00",
@@ -1119,6 +1064,17 @@
     "category": "Théâtre",
     "description": "",
     "url": "/theatre/saint-etienne/jean-baptiste-mazoyer-le-maitre-du-jeu.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "58f9f737517f5b70a4dd",
+    "title": "Jean-Baptiste Mazoyer dans Le Maître du Jeu version Bad Guys à Saint-Étienne",
+    "start": "2026-10-30T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/jean-baptiste-mazoyer-dans-le-maitre-du-jeu-version-bad-guys.html",
     "source": "Agenda Culturel"
   },
   {
