@@ -269,39 +269,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "8655f08ae2124f333dcb",
-    "title": "Loto - St-Chamond Espoir",
-    "start": "2026-10-04T14:00:00+02:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/loto-st-chamond-espoir/",
-    "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "ababadbf7ca909c5044a",
-    "title": "Le défi poétique d’une femme afghane [ 360° de Trajectoires ]",
-    "start": "2026-10-04T16:30:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801930-le-defi-poetique-dune-femme-afghane-360deg-de-trajectoires",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "3c1b3ce895dee942bf25",
-    "title": "En jupe et torse nu à Saint-Étienne",
-    "start": "2026-10-04T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/theatre/saint-etienne/en-jupe-et-torse-nu.html",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "46d7bfaf1da1aed620d1",
     "title": "Jam Session",
     "start": "2026-10-05T20:30:00+02:00",
@@ -836,17 +803,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "e75d7e0abed219674e59",
-    "title": "Jacky et la Citrouillette à Saint-Étienne",
-    "start": "2026-10-23T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/jeune-public/saint-etienne/jacky-et-la-citrouillette.html",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "7d6289c249f1e175383d",
     "title": "Fastoche le petit fantôme à Saint-Étienne",
     "start": "2026-10-23T20:00:00+02:00",
@@ -855,6 +811,17 @@
     "category": "Jeune public",
     "description": "",
     "url": "/jeune-public/saint-etienne/fastoche-le-petit-fantome.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "e75d7e0abed219674e59",
+    "title": "Jacky et la Citrouillette à Saint-Étienne",
+    "start": "2026-10-23T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/jeune-public/saint-etienne/jacky-et-la-citrouillette.html",
     "source": "Agenda Culturel"
   },
   {
@@ -1056,17 +1023,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "8eb0788f8b1cd7485349",
-    "title": "Jean Baptiste Mazoyer le Maître du Jeu à Saint-Étienne",
-    "start": "2026-10-30T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/theatre/saint-etienne/jean-baptiste-mazoyer-le-maitre-du-jeu.html",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "58f9f737517f5b70a4dd",
     "title": "Jean-Baptiste Mazoyer dans Le Maître du Jeu version Bad Guys à Saint-Étienne",
     "start": "2026-10-30T20:00:00+01:00",
@@ -1075,6 +1031,17 @@
     "category": "Théâtre",
     "description": "",
     "url": "/theatre/saint-etienne/jean-baptiste-mazoyer-dans-le-maitre-du-jeu-version-bad-guys.html",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "8eb0788f8b1cd7485349",
+    "title": "Jean Baptiste Mazoyer le Maître du Jeu à Saint-Étienne",
+    "start": "2026-10-30T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/theatre/saint-etienne/jean-baptiste-mazoyer-le-maitre-du-jeu.html",
     "source": "Agenda Culturel"
   },
   {
