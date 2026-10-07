@@ -269,50 +269,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "3e3a0fd0daaaf52b5e5c",
-    "title": "La Mélancolie des paquebots",
-    "start": "2026-10-06T20:00:00+02:00",
-    "end": "2026-10-16T20:00:00+02:00",
-    "sessions": [
-      "2026-10-06T20:00:00+02:00",
-      "2026-10-07T20:00:00+02:00",
-      "2026-10-08T20:00:00+02:00",
-      "2026-10-09T18:00:00+02:00",
-      "2026-10-10T17:00:00+02:00",
-      "2026-10-12T20:00:00+02:00",
-      "2026-10-13T20:00:00+02:00",
-      "2026-10-14T20:00:00+02:00",
-      "2026-10-15T20:00:00+02:00",
-      "2026-10-16T20:00:00+02:00"
-    ],
-    "session_count": 10,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
-    "source": "Comédie Sainté"
-  },
-  {
-    "id": "2eae98a032b05ba08f06",
-    "title": "Nos corps désirants",
-    "start": "2026-10-06T20:00:00+02:00",
-    "end": "2026-10-09T20:30:00+02:00",
-    "sessions": [
-      "2026-10-06T20:00:00+02:00",
-      "2026-10-07T20:00:00+02:00",
-      "2026-10-08T20:00:00+02:00",
-      "2026-10-09T20:30:00+02:00"
-    ],
-    "session_count": 4,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "205c2f71fc2ab6975f7f",
     "title": "Va falloir toujours toujours La Parenthèse - Christophe Garcia Le Petit Théâtre de Sherbrooke Danse-théâtre, dès 6 ans",
     "start": "2026-10-07T15:00:00+02:00",
@@ -328,6 +284,48 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/va-falloir-toujours-toujours/s-894/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "7265d74f7d5e2f208832",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-07T20:00:00+02:00",
+    "end": "2026-10-16T20:00:00+02:00",
+    "sessions": [
+      "2026-10-07T20:00:00+02:00",
+      "2026-10-08T20:00:00+02:00",
+      "2026-10-09T18:00:00+02:00",
+      "2026-10-10T17:00:00+02:00",
+      "2026-10-12T20:00:00+02:00",
+      "2026-10-13T20:00:00+02:00",
+      "2026-10-14T20:00:00+02:00",
+      "2026-10-15T20:00:00+02:00",
+      "2026-10-16T20:00:00+02:00"
+    ],
+    "session_count": 9,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "2e7aac386e9857b62288",
+    "title": "Nos corps désirants",
+    "start": "2026-10-07T20:00:00+02:00",
+    "end": "2026-10-09T20:30:00+02:00",
+    "sessions": [
+      "2026-10-07T20:00:00+02:00",
+      "2026-10-08T20:00:00+02:00",
+      "2026-10-09T20:30:00+02:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
+    "source": "Comédie Sainté"
   },
   {
     "id": "2835a746c0f6a912f079",
@@ -550,6 +548,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "2192b200e67ec756dfe3",
+    "title": "Chistera Du",
+    "start": "2026-10-14T10:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801979-chistera",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "bd7717c4be74e33b795e",
     "title": "Homo Lunaticus ou le jardin de Lune",
     "start": "2026-10-14T16:00:00+02:00",
@@ -559,17 +568,6 @@
     "description": "",
     "url": "https://lechambon.fr/culture/",
     "source": " Salles Chambon-Feugerolles"
-  },
-  {
-    "id": "b5ee51805208cebfa9ec",
-    "title": "Chistera Du",
-    "start": "2026-10-14T20:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801979-chistera",
-    "source": "Théâtre Le Verso"
   },
   {
     "id": "fd8d700deb1af4e1e398",
@@ -608,6 +606,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/bianca-costa/",
     "source": "Le Fil"
+  },
+  {
+    "id": "b6f98193a934b2c11e49",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2026-10-15T21:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
+    "source": "La Ricane"
   },
   {
     "id": "1f83e49cbbf55aff8060",
@@ -781,6 +790,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "5c55e56b2361de49cc75",
+    "title": "DERRIERE LA PORTE",
+    "start": "2026-10-23T21:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/derriere-la-porte/",
+    "source": "La Ricane"
+  },
+  {
     "id": "365b548607b2f0d7ad08",
     "title": "Ulrike Meinhof",
     "start": "2026-10-24T15:00:00+02:00",
@@ -812,6 +832,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/sarah-anna",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "8d6061447f371751ad33",
+    "title": "DERRIERE LA PORTE",
+    "start": "2026-10-24T21:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/derriere-la-porte/",
+    "source": "La Ricane"
   },
   {
     "id": "6f23c9c70a5c51fe1810",
@@ -1305,6 +1336,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "69f385857360dbbb2bde",
+    "title": "DIRTY OLD FRIENDS",
+    "start": "2026-11-13T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://laricane.com/event/dirty-old-friends-2/",
+    "source": "La Ricane"
+  },
+  {
     "id": "c075c72a3bdfc3a790ed",
     "title": "Live Dub Session by AFTRWRK Ondubground B2B Mahom B2B Full Dub + Kanka + Art-X + Hermit",
     "start": "2026-11-13T22:00:00+01:00",
@@ -1511,6 +1553,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "03d55eeb4da626d3815e",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2026-11-19T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
+    "source": "La Ricane"
+  },
+  {
     "id": "c3eaa38abb1f1693d1a5",
     "title": "PATRICK BRUEL Alors regarde",
     "start": "2026-11-20T20:00:00+01:00",
@@ -1577,6 +1630,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "bb76fb1bb021d1e32578",
+    "title": "LA FIV DU SAMEDI SOIR",
+    "start": "2026-11-20T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/la-fiv-du-samedi-soir-2/",
+    "source": "La Ricane"
+  },
+  {
     "id": "abc88c3892134f549680",
     "title": "CLAUDIO CAPEO",
     "start": "2026-11-21T20:00:00+01:00",
@@ -1619,6 +1683,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/anne-depetrini",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "ccf54ef93fb6c7d1919e",
+    "title": "DROLES DE MALES",
+    "start": "2026-11-21T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/la-fiv-du-samedi-soir-3-2/",
+    "source": "La Ricane"
   },
   {
     "id": "2d3f950080c0d4f4409a",
@@ -2168,6 +2243,17 @@
     "source": "La Comète"
   },
   {
+    "id": "30dda9dde497904c2db3",
+    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
+    "start": "2026-12-09T15:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour/",
+    "source": "La Ricane"
+  },
+  {
     "id": "109dec10257e6925316e",
     "title": "Kosmòs ! Canticum Novum",
     "start": "2026-12-09T20:00:00+01:00",
@@ -2397,6 +2483,17 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
+    "id": "b5431b961cb9a586336a",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2026-12-17T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
+    "source": "La Ricane"
+  },
+  {
     "id": "1b33399c423f7e66f23e",
     "title": "FABRICE EBOUÉ SolitudeS",
     "start": "2026-12-18T20:00:00+01:00",
@@ -2433,6 +2530,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/patrick-chanfray",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "d13e9f797dab73e2b624",
+    "title": "DUO D’",
+    "start": "2026-12-18T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/duo-dimpro/",
+    "source": "La Ricane"
   },
   {
     "id": "55319fed0d013cc308dd",
@@ -2719,6 +2827,17 @@
     "source": "La Comète"
   },
   {
+    "id": "eca8b232c986225553b1",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-01-21T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-5/",
+    "source": "La Ricane"
+  },
+  {
     "id": "d97774ee5076614df1c0",
     "title": "RFM PARTY 80 Les 20 ans",
     "start": "2027-01-22T20:00:00+01:00",
@@ -2965,6 +3084,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "3c947b04cb1b3135f955",
+    "title": "DUO D’",
+    "start": "2027-01-29T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/duo-dimpro/",
+    "source": "La Ricane"
+  },
+  {
     "id": "54df47d37e4ef7e13037",
     "title": "BERNARD LAVILLIERS TOUR 2027",
     "start": "2027-01-30T20:00:00+01:00",
@@ -3007,6 +3137,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/mars-et-venus",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "a5fe6f3106cca3d0ccd5",
+    "title": "QUOI TOUT LE WEEK-END",
+    "start": "2027-01-30T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/quoi-tout-le-week-end-5/",
+    "source": "La Ricane"
   },
   {
     "id": "2d9f72f946ce8a4fdda2",
@@ -3288,6 +3429,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "c3bc241368d83c7b827a",
+    "title": "POUPEE GONFLANTE",
+    "start": "2027-02-13T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/poupee-gonflante/",
+    "source": "La Ricane"
+  },
+  {
     "id": "5921edbb850552229f1a",
     "title": "Faut pas pousser Papy et Mamy dans les orties",
     "start": "2027-02-14T15:00:00+01:00",
@@ -3297,6 +3449,17 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/faut-pas-pousser-papy-et-mamy-dans-les-orties/",
     "source": "La Comète"
+  },
+  {
+    "id": "af4d07982e7c29594743",
+    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
+    "start": "2027-02-16T15:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour-2/",
+    "source": "La Ricane"
   },
   {
     "id": "db2f7a60dd5749494ea2",
@@ -3341,6 +3504,17 @@
     "description": "",
     "url": "https://www.arcomik.com/event/decouvrir-emy-au-festival-arcomik/",
     "source": "ArcomiK"
+  },
+  {
+    "id": "4d6e711bc2d8113336b2",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-02-18T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "source": "La Ricane"
   },
   {
     "id": "f51f546236768cf6f4cf",
@@ -3495,6 +3669,17 @@
     "description": "",
     "url": "https://www.arcomik.com/event/nina-azoulai/",
     "source": "ArcomiK"
+  },
+  {
+    "id": "60bd49d912b40485ee00",
+    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
+    "start": "2027-02-24T15:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour-2/",
+    "source": "La Ricane"
   },
   {
     "id": "4ff97194878549dacb07",
@@ -4136,6 +4321,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "74f80f67e6b3d39718fa",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-03-18T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "source": "La Ricane"
+  },
+  {
     "id": "06efa0d289046d06989d",
     "title": "MESSMER",
     "start": "2027-03-19T20:00:00+01:00",
@@ -4556,6 +4752,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "7eb2fc7b2757a4567780",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-04-15T21:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "source": "La Ricane"
+  },
+  {
     "id": "74d4716311b20202c896",
     "title": "Teaser vivant : Compagnie Le cri des ogres",
     "start": "2027-04-21T14:00:00+02:00",
@@ -4576,6 +4783,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/la-yegros/",
     "source": "Le Fil"
+  },
+  {
+    "id": "75cbae1deb35ded50af9",
+    "title": "COMMENT DRAGUER APRES 50 ANS",
+    "start": "2027-04-24T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/comment-draguer-apres-50-ans",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "bd99082a71ca1459972a",
@@ -4727,6 +4945,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/cedric-salaun",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "7f87657582d2c1a63bf6",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-05-20T21:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "source": "La Ricane"
   },
   {
     "id": "0163b3ddd1e8fc686e3a",
@@ -4907,6 +5136,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/le-chantier-des-imaginaires",
     "source": "Comédie Sainté"
+  },
+  {
+    "id": "c5b7822c2d75e167067f",
+    "title": "VERT DE RIRE COMEDY CLUB !",
+    "start": "2027-06-17T21:00:00+02:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "source": "La Ricane"
   },
   {
     "id": "6359668fb73774acd9b8",
