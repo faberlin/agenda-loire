@@ -1,0 +1,23 @@
+name: Garder Supabase actif
+
+on:
+  schedule:
+    # Tous les jours à 03:00 UTC
+    - cron: "0 3 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Requête Supabase
+        run: |
+          curl --fail --silent --show-error \
+            "https://anrymukezrekyumwnxzo.supabase.co/rest/v1/event_preferences?select=event_id&limit=1" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
+
+          echo ""
+          echo "Supabase contacté avec succès"
