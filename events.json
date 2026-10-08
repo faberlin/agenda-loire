@@ -286,12 +286,11 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "7265d74f7d5e2f208832",
+    "id": "902bfee7005a12da737a",
     "title": "La Mélancolie des paquebots",
-    "start": "2026-10-07T20:00:00+02:00",
+    "start": "2026-10-08T20:00:00+02:00",
     "end": "2026-10-16T20:00:00+02:00",
     "sessions": [
-      "2026-10-07T20:00:00+02:00",
       "2026-10-08T20:00:00+02:00",
       "2026-10-09T18:00:00+02:00",
       "2026-10-10T17:00:00+02:00",
@@ -301,7 +300,7 @@
       "2026-10-15T20:00:00+02:00",
       "2026-10-16T20:00:00+02:00"
     ],
-    "session_count": 9,
+    "session_count": 8,
     "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
@@ -310,16 +309,15 @@
     "source": "Comédie Sainté"
   },
   {
-    "id": "2e7aac386e9857b62288",
+    "id": "a2227796e529728fbe5c",
     "title": "Nos corps désirants",
-    "start": "2026-10-07T20:00:00+02:00",
+    "start": "2026-10-08T20:00:00+02:00",
     "end": "2026-10-09T20:30:00+02:00",
     "sessions": [
-      "2026-10-07T20:00:00+02:00",
       "2026-10-08T20:00:00+02:00",
       "2026-10-09T20:30:00+02:00"
     ],
-    "session_count": 3,
+    "session_count": 2,
     "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
@@ -570,6 +568,17 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
+    "id": "a061db6e808b1cc92d6b",
+    "title": "Les palestiniens sont tes yeux",
+    "start": "2026-10-15T19:00:00+02:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-palestiniens-sont-tes-yeux/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "fd8d700deb1af4e1e398",
     "title": "Don Quichotte Le Théâtre du Corps Pietragalla - Derouault",
     "start": "2026-10-15T20:00:00+02:00",
@@ -597,8 +606,8 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "7340cfcdfb6fd8ae8d82",
-    "title": "Sainté accueille ses étudiant·es B̶I̶A̶N̶C̶A̶ ̶C̶O̶S̶T̶A̶ (en cours de remplacement) + Sheldon + CT-84",
+    "id": "651a82debc2ed9956e8d",
+    "title": "ANNULÉ // Sainté accueille ses étudiant·es",
     "start": "2026-10-15T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -1343,7 +1352,7 @@
     "city": "Saint-Étienne",
     "category": "Concerts",
     "description": "",
-    "url": "https://laricane.com/event/dirty-old-friends-2/",
+    "url": "https://laricane.com/event/dirty-old-friends/",
     "source": "La Ricane"
   },
   {
@@ -2814,6 +2823,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/801356-soiree-canap-defaire-la-virilite-dominante-quels-enjeux",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "a4e0854f164ad2eab287",
+    "title": "MPL",
+    "start": "2027-01-21T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/mpl/",
+    "source": "Le Fil"
   },
   {
     "id": "80264ee418c7b945a38a",
@@ -4611,8 +4631,8 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "97674c1870f2275ad59b",
-    "title": "Assassin + première partie",
+    "id": "cf9c3156dff2dad15ec0",
+    "title": "Assassin + Triptik",
     "start": "2027-04-03T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
