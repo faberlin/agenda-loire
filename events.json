@@ -286,46 +286,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "902bfee7005a12da737a",
-    "title": "La Mélancolie des paquebots",
-    "start": "2026-10-08T20:00:00+02:00",
-    "end": "2026-10-16T20:00:00+02:00",
-    "sessions": [
-      "2026-10-08T20:00:00+02:00",
-      "2026-10-09T18:00:00+02:00",
-      "2026-10-10T17:00:00+02:00",
-      "2026-10-12T20:00:00+02:00",
-      "2026-10-13T20:00:00+02:00",
-      "2026-10-14T20:00:00+02:00",
-      "2026-10-15T20:00:00+02:00",
-      "2026-10-16T20:00:00+02:00"
-    ],
-    "session_count": 8,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
-    "source": "Comédie Sainté"
-  },
-  {
-    "id": "a2227796e529728fbe5c",
-    "title": "Nos corps désirants",
-    "start": "2026-10-08T20:00:00+02:00",
-    "end": "2026-10-09T20:30:00+02:00",
-    "sessions": [
-      "2026-10-08T20:00:00+02:00",
-      "2026-10-09T20:30:00+02:00"
-    ],
-    "session_count": 2,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "2835a746c0f6a912f079",
     "title": "La ribambelle dans ma cervelle enfin se tait",
     "start": "2026-10-08T20:00:00+02:00",
@@ -346,6 +306,28 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/mister-mat",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "976a9a06cb05bdd0c574",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-09T18:00:00+02:00",
+    "end": "2026-10-16T20:00:00+02:00",
+    "sessions": [
+      "2026-10-09T18:00:00+02:00",
+      "2026-10-10T17:00:00+02:00",
+      "2026-10-12T20:00:00+02:00",
+      "2026-10-13T20:00:00+02:00",
+      "2026-10-14T20:00:00+02:00",
+      "2026-10-15T20:00:00+02:00",
+      "2026-10-16T20:00:00+02:00"
+    ],
+    "session_count": 7,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "Comédie Sainté"
   },
   {
     "id": "6a620858542136748829",
@@ -379,6 +361,22 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/svinkels-family-friends/",
     "source": "Le Fil"
+  },
+  {
+    "id": "f5d3f4bae17c19c9e8a2",
+    "title": "Nos corps désirants",
+    "start": "2026-10-09T20:30:00+02:00",
+    "end": "2026-10-09T20:30:00+02:00",
+    "sessions": [
+      "2026-10-09T20:30:00+02:00"
+    ],
+    "session_count": 1,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
+    "source": "Comédie Sainté"
   },
   {
     "id": "c761ff80b92f57078218",
@@ -445,17 +443,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/veronique-sanson/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "f4ca2c4828ab2a66e24c",
-    "title": "Yoanna Sallese, Conviction Molle à Saint-Étienne",
-    "start": "2026-10-10T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=019ed91b-f41e-7d4f-8e16-c9195d71da07",
-    "source": "Agenda Culturel"
   },
   {
     "id": "4bb3eb78ca9b06e9ebac",
@@ -1903,6 +1890,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "71e92edddd7c466ae4cc",
+    "title": "CREATION CHOREGRAPHIQUE PARTICIPATIVE",
+    "start": "2026-11-28T09:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/creation-choregraphique-participative/",
+    "source": "La Comète"
+  },
+  {
     "id": "86853f71cfeb54de991c",
     "title": "[ Atelier ] Nos maux en mots [ Résister à 360° ]",
     "start": "2026-11-28T14:00:00+01:00",
@@ -3115,6 +3113,17 @@
     "source": "La Ricane"
   },
   {
+    "id": "e8a2119661c0a4f738d1",
+    "title": "SOUS MON VENTRE, LA TERRE TOURNE Laboratoire Artistique",
+    "start": "2027-01-30T10:00:00+01:00",
+    "venue": "L'Usine",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/sous-mon-ventre-la-terre-tourne-laboratoire-artistique/",
+    "source": "La Comète"
+  },
+  {
     "id": "54df47d37e4ef7e13037",
     "title": "BERNARD LAVILLIERS TOUR 2027",
     "start": "2027-01-30T20:00:00+01:00",
@@ -3283,8 +3292,8 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "c115bc11d701d3487d64",
-    "title": "HLD + 1ère partie",
+    "id": "d8cf4261c428bd3af4df",
+    "title": "HLD",
     "start": "2027-02-05T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -4563,6 +4572,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/richard-sabak",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "ddc1ba4737a8a5320610",
+    "title": "Les Cons c'est les Autres à Saint-Étienne",
+    "start": "2027-03-28T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=019ef9f7-cf8c-7683-b27a-b3879c0817c7",
+    "source": "Agenda Culturel"
   },
   {
     "id": "3aa5710e2be0c91884df",
