@@ -297,39 +297,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "1df3ac5b4ecad4ed2822",
-    "title": "MISTER MAT",
-    "start": "2026-10-08T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/mister-mat",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "976a9a06cb05bdd0c574",
-    "title": "La Mélancolie des paquebots",
-    "start": "2026-10-09T18:00:00+02:00",
-    "end": "2026-10-16T20:00:00+02:00",
-    "sessions": [
-      "2026-10-09T18:00:00+02:00",
-      "2026-10-10T17:00:00+02:00",
-      "2026-10-12T20:00:00+02:00",
-      "2026-10-13T20:00:00+02:00",
-      "2026-10-14T20:00:00+02:00",
-      "2026-10-15T20:00:00+02:00",
-      "2026-10-16T20:00:00+02:00"
-    ],
-    "session_count": 7,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "6a620858542136748829",
     "title": "La ribambelle dans ma cervelle enfin se tait",
     "start": "2026-10-09T20:00:00+02:00",
@@ -339,44 +306,6 @@
     "description": "",
     "url": "https://choktheatre.com/la-ribambelle-dans-ma-cervelle-enfin-se-tait/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "67729810987b37ea1cb2",
-    "title": "Théâtre musical - \"Dépisto-girl\"",
-    "start": "2026-10-09T20:00:00+02:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/theatre-musical-depisto-girl/",
-    "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "1092b498c1e7b4214fca",
-    "title": "Svinkels Family & Friends + Satchok",
-    "start": "2026-10-09T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/svinkels-family-friends/",
-    "source": "Le Fil"
-  },
-  {
-    "id": "f5d3f4bae17c19c9e8a2",
-    "title": "Nos corps désirants",
-    "start": "2026-10-09T20:30:00+02:00",
-    "end": "2026-10-09T20:30:00+02:00",
-    "sessions": [
-      "2026-10-09T20:30:00+02:00"
-    ],
-    "session_count": 1,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/nos-corps-desirants",
-    "source": "Comédie Sainté"
   },
   {
     "id": "c761ff80b92f57078218",
@@ -423,8 +352,29 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "b957cd3e010a4eb92c88",
-    "title": "Reprise conservatoire",
+    "id": "a1a88b8cb111f49d81b3",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-10T17:00:00+02:00",
+    "end": "2026-10-16T20:00:00+02:00",
+    "sessions": [
+      "2026-10-10T17:00:00+02:00",
+      "2026-10-12T20:00:00+02:00",
+      "2026-10-13T20:00:00+02:00",
+      "2026-10-14T20:00:00+02:00",
+      "2026-10-15T20:00:00+02:00",
+      "2026-10-16T20:00:00+02:00"
+    ],
+    "session_count": 6,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "707f5bb8ed8b4197c090",
+    "title": "Complet sur Internet Reprise conservatoire",
     "start": "2026-10-10T19:00:00+02:00",
     "venue": "Théâtre Le Verso",
     "city": "Saint-Étienne",
@@ -443,6 +393,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/veronique-sanson/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "f4ca2c4828ab2a66e24c",
+    "title": "Yoanna Sallese, Conviction Molle à Saint-Étienne",
+    "start": "2026-10-10T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=019ed91b-f41e-7d4f-8e16-c9195d71da07",
+    "source": "Agenda Culturel"
   },
   {
     "id": "4bb3eb78ca9b06e9ebac",
@@ -498,17 +459,6 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/amin-al-aiedy-quartet/",
     "source": "Le Solar"
-  },
-  {
-    "id": "0d24f0bfd6334a4cb1de",
-    "title": "Les cons, c’est les autres à Saint-Étienne",
-    "start": "2026-10-11T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a03801-dd3b-72bb-bd4f-abce0271ba77",
-    "source": "Agenda Culturel"
   },
   {
     "id": "3fef54907f5e2b18ee58",
@@ -3601,8 +3551,8 @@
     "source": "ArcomiK"
   },
   {
-    "id": "06ff71906dcf99b4c92f",
-    "title": "Lee Fields + Pratt & Moody",
+    "id": "b69dcf387706fe6b7059",
+    "title": "Lee Fields",
     "start": "2027-02-20T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
