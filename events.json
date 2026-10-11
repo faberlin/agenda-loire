@@ -319,17 +319,6 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "4b04c5e806c5768139fd",
-    "title": "MARIE BÔ",
-    "start": "2026-10-09T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/marie-bo",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "83dc8623709954ce4cd8",
     "title": "Fête du livre de Saint-Étienne 2026",
     "start": "2026-10-10T12:00:00+02:00",
@@ -339,38 +328,6 @@
     "description": "Fête du livre de Saint-Étienne 2026 Du 10/10/2026 12:00 au 11/10/2026 18:00 Catégorie Festivités Localisation Médiathèques municipales La Fête du livre aura lieu du 9 au 11 octobre 2026 sur la place de l'Hôtel de Ville et dans le centre-ville. L'accès à l'événement est entièrement gratuit. Le parrain de cette édition anniversaire est l'écrivain Bernard Minier, et l'affiche officiell...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2546/fete-du-livre-de-saint-etienne-2026",
     "source": "Médiathèques Sainté"
-  },
-  {
-    "id": "044b5da331b9a70ef2f6",
-    "title": "[ Ateliers ] Mémoires en mouvement",
-    "start": "2026-10-10T14:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801881-ateliers-memoires-en-mouvement",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "a1a88b8cb111f49d81b3",
-    "title": "La Mélancolie des paquebots",
-    "start": "2026-10-10T17:00:00+02:00",
-    "end": "2026-10-16T20:00:00+02:00",
-    "sessions": [
-      "2026-10-10T17:00:00+02:00",
-      "2026-10-12T20:00:00+02:00",
-      "2026-10-13T20:00:00+02:00",
-      "2026-10-14T20:00:00+02:00",
-      "2026-10-15T20:00:00+02:00",
-      "2026-10-16T20:00:00+02:00"
-    ],
-    "session_count": 6,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
-    "source": "Comédie Sainté"
   },
   {
     "id": "707f5bb8ed8b4197c090",
@@ -395,17 +352,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "f4ca2c4828ab2a66e24c",
-    "title": "Yoanna Sallese, Conviction Molle à Saint-Étienne",
-    "start": "2026-10-10T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=019ed91b-f41e-7d4f-8e16-c9195d71da07",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "4bb3eb78ca9b06e9ebac",
     "title": "TROTWOOD",
     "start": "2026-10-10T20:00:00+02:00",
@@ -415,17 +361,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "041c4bf3b7d5c9a04f87",
-    "title": "Orchestra Baobab + Ho-Agnan",
-    "start": "2026-10-10T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/orchestra-baobab/",
-    "source": "Le Fil"
   },
   {
     "id": "885025f88a2372ecf22d",
@@ -459,6 +394,37 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/amin-al-aiedy-quartet/",
     "source": "Le Solar"
+  },
+  {
+    "id": "eeee1089d57ee2d46b75",
+    "title": "L'aventure farfelue du Professeur Zikmu à Saint-Étienne",
+    "start": "2026-10-11T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a11f94-c8e5-716b-b6e2-f905903d3bdb",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "a6b7e94f8bac27bb8789",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-12T20:00:00+02:00",
+    "end": "2026-10-16T20:00:00+02:00",
+    "sessions": [
+      "2026-10-12T20:00:00+02:00",
+      "2026-10-13T20:00:00+02:00",
+      "2026-10-14T20:00:00+02:00",
+      "2026-10-15T20:00:00+02:00",
+      "2026-10-16T20:00:00+02:00"
+    ],
+    "session_count": 5,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "Comédie Sainté"
   },
   {
     "id": "3fef54907f5e2b18ee58",
@@ -1155,6 +1121,17 @@
     "source": "Le Solar"
   },
   {
+    "id": "22cdd71279752a9651ea",
+    "title": "Tarentaize-Beaubrun-Couriot : des vies et des plans",
+    "start": "2026-11-10T10:00:00+01:00",
+    "venue": "Médiathèques Sainté",
+    "city": "Saint-Étienne",
+    "category": "Littérature",
+    "description": "Tarentaize-Beaubrun-Couriot : des vies et des... Patrimoine Du 10/11/2026 10:00 au 28/11/2026 18:30 Catégorie Exposition Localisation Tarentaize Dans la perspective de leur installation dans l'immeuble Loubet, autour d'un projet culturel commun, les Archives municipales et la Cinémathèque ont accueilli en résidence deux artistes : Clémence Culic, réalisatrice sonore vidéaste, et Benoît ...",
+    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2405/tarentaize-beaubrun-couriot-des-vies-et-des-plans",
+    "source": "Médiathèques Sainté"
+  },
+  {
     "id": "efed1599563eec10fd71",
     "title": "JEFFOU LE GNOU",
     "start": "2026-11-10T20:30:00+01:00",
@@ -1470,6 +1447,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "8d8ae119b6bb08964cba",
+    "title": "Dialogue entre deux espèces",
+    "start": "2026-11-19T10:00:00+01:00",
+    "venue": "L'Usine",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/dialogue-entre-deux-especes/",
+    "source": "La Comète"
   },
   {
     "id": "bc7a9be1bbf5c413042b",
