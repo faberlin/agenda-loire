@@ -319,39 +319,6 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "83dc8623709954ce4cd8",
-    "title": "Fête du livre de Saint-Étienne 2026",
-    "start": "2026-10-10T12:00:00+02:00",
-    "venue": "Médiathèques Sainté",
-    "city": "Saint-Étienne",
-    "category": "Littérature",
-    "description": "Fête du livre de Saint-Étienne 2026 Du 10/10/2026 12:00 au 11/10/2026 18:00 Catégorie Festivités Localisation Médiathèques municipales La Fête du livre aura lieu du 9 au 11 octobre 2026 sur la place de l'Hôtel de Ville et dans le centre-ville. L'accès à l'événement est entièrement gratuit. Le parrain de cette édition anniversaire est l'écrivain Bernard Minier, et l'affiche officiell...",
-    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2546/fete-du-livre-de-saint-etienne-2026",
-    "source": "Médiathèques Sainté"
-  },
-  {
-    "id": "707f5bb8ed8b4197c090",
-    "title": "Complet sur Internet Reprise conservatoire",
-    "start": "2026-10-10T19:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/854338-reprise-conservatoire",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "f56f4b4a9a1aec2e31a6",
-    "title": "VERONIQUE SANSON J’ai eu envie de vous revoir",
-    "start": "2026-10-10T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/veronique-sanson/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "4bb3eb78ca9b06e9ebac",
     "title": "TROTWOOD",
     "start": "2026-10-10T20:00:00+02:00",
@@ -363,17 +330,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "885025f88a2372ecf22d",
-    "title": "GAËTAN PETIT",
-    "start": "2026-10-10T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/gaetan-petit",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "558d45f7607bfc4ec72d",
     "title": "RENATA",
     "start": "2026-10-11T15:00:00+02:00",
@@ -383,28 +339,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "c40a5bc5ab9a07e2729a",
-    "title": "AMIN AL AIEDY QUARTET",
-    "start": "2026-10-11T18:00:00+02:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/amin-al-aiedy-quartet/",
-    "source": "Le Solar"
-  },
-  {
-    "id": "eeee1089d57ee2d46b75",
-    "title": "L'aventure farfelue du Professeur Zikmu à Saint-Étienne",
-    "start": "2026-10-11T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a11f94-c8e5-716b-b6e2-f905903d3bdb",
-    "source": "Agenda Culturel"
   },
   {
     "id": "a6b7e94f8bac27bb8789",
@@ -619,6 +553,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "28090a1b6b33a9af3269",
+    "title": "Claire Morel, Préliminaires, Pénétration, Orgasme ? à Saint-Étienne",
+    "start": "2026-10-19T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=019e9110-fdc5-7526-a0f2-ca26b0d867bc",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "343f577a1e9f411f2670",
     "title": "Jam Session",
     "start": "2026-10-19T20:30:00+02:00",
@@ -678,6 +623,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-4/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "7d6289c249f1e175383d",
+    "title": "Fastoche le petit fantôme à Saint-Étienne",
+    "start": "2026-10-23T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "/favori/garder?event=0199587d-58ed-770f-aaae-63e989d14df3",
+    "source": "Agenda Culturel"
   },
   {
     "id": "005feecfdc87319f83f2",
@@ -1661,6 +1617,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/redouane-bougheraba/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "3f6b1b8a5851e317bec4",
+    "title": "Jam Session",
+    "start": "2026-11-23T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-133/",
+    "source": "Le Solar"
   },
   {
     "id": "79eaa16d5ff3af0cc58e",
@@ -4510,17 +4477,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/richard-sabak",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "ddc1ba4737a8a5320610",
-    "title": "Les Cons c'est les Autres à Saint-Étienne",
-    "start": "2027-03-28T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=019ef9f7-cf8c-7683-b27a-b3879c0817c7",
-    "source": "Agenda Culturel"
   },
   {
     "id": "3aa5710e2be0c91884df",
