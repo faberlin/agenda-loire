@@ -341,46 +341,23 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "a6b7e94f8bac27bb8789",
+    "id": "8335aeb6d4818a97cfd9",
     "title": "La Mélancolie des paquebots",
-    "start": "2026-10-12T20:00:00+02:00",
+    "start": "2026-10-13T20:00:00+02:00",
     "end": "2026-10-16T20:00:00+02:00",
     "sessions": [
-      "2026-10-12T20:00:00+02:00",
       "2026-10-13T20:00:00+02:00",
       "2026-10-14T20:00:00+02:00",
       "2026-10-15T20:00:00+02:00",
       "2026-10-16T20:00:00+02:00"
     ],
-    "session_count": 5,
+    "session_count": 4,
     "venue": "La Comédie",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
     "source": "Comédie Sainté"
-  },
-  {
-    "id": "3fef54907f5e2b18ee58",
-    "title": "Jam Session",
-    "start": "2026-10-12T20:30:00+02:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jam-session-127/",
-    "source": "Le Solar"
-  },
-  {
-    "id": "8277a78237b9bdeeb856",
-    "title": "Mixage en M.A.O : les fondamentaux Avec Jules Payen, ingénieur son",
-    "start": "2026-10-13T19:00:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/mixage-en-m-a-o-les-fondamentaux/",
-    "source": "Le Fil"
   },
   {
     "id": "2192b200e67ec756dfe3",
@@ -443,17 +420,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "651a82debc2ed9956e8d",
-    "title": "ANNULÉ // Sainté accueille ses étudiant·es",
-    "start": "2026-10-15T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/bianca-costa/",
-    "source": "Le Fil"
-  },
-  {
     "id": "b6f98193a934b2c11e49",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2026-10-15T21:00:00+02:00",
@@ -476,17 +442,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "0a673d74df683895ce3c",
-    "title": "NNY Fest : DOPPLeR + La Jungle + Tachycardie + Trognon",
-    "start": "2026-10-16T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/doppler/",
-    "source": "Le Fil"
-  },
-  {
     "id": "e947b56ea4128ff670ec",
     "title": "KINO",
     "start": "2026-10-16T20:30:00+02:00",
@@ -496,17 +451,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/kino",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "8d37c512d894631478dd",
-    "title": "The Brooks & Tiwayo",
-    "start": "2026-10-17T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/the-brooks/",
-    "source": "Le Fil"
   },
   {
     "id": "94f8afd84c2caf74c300",
@@ -636,17 +580,6 @@
     "source": "Agenda Culturel"
   },
   {
-    "id": "005feecfdc87319f83f2",
-    "title": "Tif",
-    "start": "2026-10-23T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/tif/",
-    "source": "Le Fil"
-  },
-  {
     "id": "825a156269b8284e38d0",
     "title": "NASSIM MELLAH",
     "start": "2026-10-23T20:30:00+02:00",
@@ -724,17 +657,6 @@
     "source": "La Comète"
   },
   {
-    "id": "5b8a54480541bb50bdbf",
-    "title": "Roller mix",
-    "start": "2026-10-25T14:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/roller-mix-2/",
-    "source": "Le Fil"
-  },
-  {
     "id": "fb3c2e09ad5432d020ed",
     "title": "Ulrike Meinhof",
     "start": "2026-10-25T15:00:00+01:00",
@@ -766,17 +688,6 @@
     "description": "La brigade des cauchemars Gueules noires du polar 2026 : exposition Du 27/10/2026 10:00 au 21/11/2026 18:30 Catégorie Exposition Localisation Tarentaize Le maître du thriller Franck Thilliez a scénarisé cette série BD, La Brigade des cauchemars, illustrée par Yomgui Dumont.Entre fantastique, aventure et polar, elle raconte l'histoire d'un groupe d'ados capables de vous sauver de vos pirescauchemars. ...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2549/la-brigade-des-cauchemars",
     "source": "Médiathèques Sainté"
-  },
-  {
-    "id": "01a3a6553ffab2b255a6",
-    "title": "Vacances curieuses Découvrir des lieux culturels et vivre des expériences artistiques !",
-    "start": "2026-10-27T10:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/vacances-curieuses-2/",
-    "source": "Le Fil"
   },
   {
     "id": "ad4ee654d4b36ef41604",
@@ -821,17 +732,6 @@
     "description": "",
     "url": "https://choktheatre.com/ngoon/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "aea5880619ee0fedbd83",
-    "title": "Les échauffé·e·s Øtakt + ebl",
-    "start": "2026-10-30T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/les-echauffe-es/",
-    "source": "Le Fil"
   },
   {
     "id": "83cdb0e84ab9cbc4b85e",
@@ -918,17 +818,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "4ffbf7fe8db86cdba62a",
-    "title": "Synthézic AMAD + 404 + Division Theory + Scène ouverte !",
-    "start": "2026-11-05T18:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/synthezic/",
-    "source": "Le Fil"
-  },
-  {
     "id": "a1e3080ec96020ca6ce0",
     "title": "Les Nuances Utopiques Ensemble Orchestral Contemporain",
     "start": "2026-11-05T20:00:00+01:00",
@@ -989,17 +878,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "4f63ca54576afaac7d15",
-    "title": "Kery James + première partie",
-    "start": "2026-11-06T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/kery-james/",
-    "source": "Le Fil"
-  },
-  {
     "id": "4dde48fd564301bf7044",
     "title": "Isla Dorada",
     "start": "2026-11-06T20:30:00+01:00",
@@ -1031,17 +909,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/edgar-yves-jr",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "7ebe6401703791fc0700",
-    "title": "Folie’s",
-    "start": "2026-11-07T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/folies/",
-    "source": "Le Fil"
   },
   {
     "id": "6d9a7653b2b017171d7b",
@@ -1108,17 +975,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/jeffou-le-gnou2",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "3372e2ddeefb58f52ebd",
-    "title": "Stranded Horse & Boubacar Cissokho Concert immersif allongé !",
-    "start": "2026-11-12T19:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/stranded-horse-boubacar-cissokho/",
-    "source": "Le Fil"
   },
   {
     "id": "56a855e6eda5562d7b7c",
@@ -1226,17 +1082,6 @@
     "source": "La Ricane"
   },
   {
-    "id": "c075c72a3bdfc3a790ed",
-    "title": "Live Dub Session by AFTRWRK Ondubground B2B Mahom B2B Full Dub + Kanka + Art-X + Hermit",
-    "start": "2026-11-13T22:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/live-dub-session-by-aftrwrk-2/",
-    "source": "Le Fil"
-  },
-  {
     "id": "aea718dba0f694ce89d3",
     "title": "Hommage à Miles Davis – La révolution électrique",
     "start": "2026-11-14T19:30:00+01:00",
@@ -1257,17 +1102,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "cd6b278e2443c735cdd9",
-    "title": "Didier Super Et son groupe Discount",
-    "start": "2026-11-14T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/didier-super/",
-    "source": "Le Fil"
   },
   {
     "id": "d0b310937bab5180d4fe",
@@ -1498,17 +1332,6 @@
     "source": "Salle Aristide Briand"
   },
   {
-    "id": "7689f26263a1bb16740e",
-    "title": "The Inspector Cluzo + Grant Haua",
-    "start": "2026-11-20T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/the-inspector-cluzo/",
-    "source": "Le Fil"
-  },
-  {
     "id": "7f7f36ce43d4a6184bc8",
     "title": "NASH",
     "start": "2026-11-20T20:30:00+01:00",
@@ -1540,17 +1363,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "5b12a06776b2520979be",
-    "title": "Robert Finley + première partie",
-    "start": "2026-11-21T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/robert-finley/",
-    "source": "Le Fil"
   },
   {
     "id": "dcd4b69cbbfb02f30181",
@@ -1707,6 +1519,17 @@
     "source": "La Comète"
   },
   {
+    "id": "caa93a0699fdec9f3478",
+    "title": "Apéro Jazzorité",
+    "start": "2026-11-26T18:00:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/apero-jazzorite/",
+    "source": "Le Solar"
+  },
+  {
     "id": "0aaa5814cb8e0f361e27",
     "title": "FLORENT PAGNY 65 TOUR – LE RETOUR",
     "start": "2026-11-26T20:00:00+01:00",
@@ -1771,17 +1594,6 @@
     "description": "",
     "url": "https://choktheatre.com/la-dette-dodette/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "bf7fbf59743c40f239ed",
-    "title": "Wallace Cleaver + Henri Bleu",
-    "start": "2026-11-27T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/wallace-cleaver/",
-    "source": "Le Fil"
   },
   {
     "id": "026a3349170955829e9a",
@@ -1872,17 +1684,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "8a0bf477cc153fa6bff6",
-    "title": "Statut et fiscalité des artistes Avec Ludivine Ducrot, directrice du fil",
-    "start": "2026-12-01T19:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/statut-et-fiscalite-des-artistes/",
-    "source": "Le Fil"
-  },
-  {
     "id": "5871aed74cc08f0533b2",
     "title": "Écorces, polar forestier",
     "start": "2026-12-01T20:00:00+01:00",
@@ -1945,17 +1746,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "c4e2d847bf6285cb3421",
-    "title": "Amandine Lourdel",
-    "start": "2026-12-03T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/amandine-lourdel/",
-    "source": "Le Fil"
-  },
-  {
     "id": "f97089661edad871fcd2",
     "title": "GAGA FIGHT",
     "start": "2026-12-03T20:30:00+01:00",
@@ -1987,17 +1777,6 @@
     "description": "",
     "url": "https://choktheatre.com/involution/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "e1ec8e27c9b48bd03d2c",
-    "title": "Tempête Sonore #3 Hurakan + Dukkha + KamiKrazy",
-    "start": "2026-12-04T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/tempete-sonore-3/",
-    "source": "Le Fil"
   },
   {
     "id": "e3be17536422a386d6f8",
@@ -2182,17 +1961,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "53d5562633fe1f9d7a3e",
-    "title": "Cœur de Pirate + Suzanne Belaubre",
-    "start": "2026-12-09T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/coeur-de-pirate/",
-    "source": "Le Fil"
-  },
-  {
     "id": "123ed550d9cb0a0dd6f9",
     "title": "Teaser vivant : Compagnie du Crabe barbu",
     "start": "2026-12-10T14:00:00+01:00",
@@ -2253,17 +2021,6 @@
     "source": "Salle Aristide Briand"
   },
   {
-    "id": "cab323ee103a87a3e648",
-    "title": "Guadal Tejaz + 111",
-    "start": "2026-12-11T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/guadal-tejaz/",
-    "source": "Le Fil"
-  },
-  {
     "id": "f614106840e8a71b11c2",
     "title": "CHARLIE ET STYLIEN",
     "start": "2026-12-11T20:30:00+01:00",
@@ -2284,17 +2041,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/salima-passion",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "f9590903ef91c74a6535",
-    "title": "Mamacita Une nuit de reggaeton !",
-    "start": "2026-12-12T23:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/mamacita/",
-    "source": "Le Fil"
   },
   {
     "id": "fc54c3edad96120f92bb",
@@ -2655,17 +2401,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "0716b26fed45f5b6a8f9",
-    "title": "Yann Guillarme",
-    "start": "2027-01-15T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/yann-guillarme/",
-    "source": "Le Fil"
-  },
-  {
     "id": "8418f1c9ebc804a5e41c",
     "title": "THOMAS MARTY",
     "start": "2027-01-16T20:00:00+01:00",
@@ -2675,17 +2410,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/thomas-marty/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "00565c02c020227faa1f",
-    "title": "Gildaa",
-    "start": "2027-01-16T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/gildaa/",
-    "source": "Le Fil"
   },
   {
     "id": "c1c2d2f55356fbf4cfa2",
@@ -2726,17 +2450,6 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/801356-soiree-canap-defaire-la-virilite-dominante-quels-enjeux",
     "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "a4e0854f164ad2eab287",
-    "title": "MPL",
-    "start": "2027-01-21T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/mpl/",
-    "source": "Le Fil"
   },
   {
     "id": "80264ee418c7b945a38a",
@@ -2788,17 +2501,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "2399401bf8b618b03d70",
-    "title": "Zamdane Le spectacle Rahma",
-    "start": "2027-01-22T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/zamdane/",
-    "source": "Le Fil"
-  },
-  {
     "id": "f9b73182192d31dcc4d1",
     "title": "Les Mécanos - Linha(a)",
     "start": "2027-01-22T20:30:00+01:00",
@@ -2835,17 +2537,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/octogone-mma/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "50996dbabe836e9d0369",
-    "title": "Hacenoba Salsa : DJ Ré Mi Carte blanche aux danseurs 2 !",
-    "start": "2027-01-23T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/hacenoba-salsa-dj-re-mi/",
-    "source": "Le Fil"
   },
   {
     "id": "ae8da5aee6c356359824",
@@ -2925,6 +2616,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "7de38acb3646dd86581c",
+    "title": "Cytotec",
+    "start": "2027-01-27T20:00:00+01:00",
+    "venue": "L'Usine",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/cytotec/",
+    "source": "La Comète"
+  },
+  {
     "id": "9e95c62c5f8813a16a65",
     "title": "LOUIS CATTELAT",
     "start": "2027-01-27T20:30:00+01:00",
@@ -2985,17 +2687,6 @@
     "source": "Salle Aristide Briand"
   },
   {
-    "id": "5e55844e68555041cd3a",
-    "title": "SKIP THE USE + Imparfait",
-    "start": "2027-01-29T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/skip-the-use/",
-    "source": "Le Fil"
-  },
-  {
     "id": "fc67809439ddacefce10",
     "title": "CLAUDIA MODICA",
     "start": "2027-01-29T20:30:00+01:00",
@@ -3038,17 +2729,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/bernard-lavilliers/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "7f7a12cc65b1bb2111b2",
-    "title": "Ultra Vomit",
-    "start": "2027-01-30T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/ultra-vomit/",
-    "source": "Le Fil"
   },
   {
     "id": "a5a659cc7deba078ea2d",
@@ -3148,17 +2828,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "5be8a45d696b604b6357",
-    "title": "Pomme",
-    "start": "2027-02-03T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/pomme/",
-    "source": "Le Fil"
-  },
-  {
     "id": "ff13046f160a4f14029c",
     "title": "GRAND CORPS MALADE",
     "start": "2027-02-04T20:00:00+01:00",
@@ -3195,17 +2864,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/michele-laroque-et-kad-merad/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "d8cf4261c428bd3af4df",
-    "title": "HLD",
-    "start": "2027-02-05T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/hld/",
-    "source": "Le Fil"
   },
   {
     "id": "8c4e984a503b732cd33d",
@@ -3317,17 +2975,6 @@
     "description": "",
     "url": "https://saint-chamond.fr/events/concert-operette-offenbach-en-fete/",
     "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "c90b0f5fc252ac8bf249",
-    "title": "La P’tite Fumée",
-    "start": "2027-02-12T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/la-ptite-fumee/",
-    "source": "Le Fil"
   },
   {
     "id": "d68a03000afd4a5fd9c4",
@@ -3506,17 +3153,6 @@
     "source": "ArcomiK"
   },
   {
-    "id": "b69dcf387706fe6b7059",
-    "title": "Lee Fields",
-    "start": "2027-02-20T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/lee-fields/",
-    "source": "Le Fil"
-  },
-  {
     "id": "658eddea5cf25622bd91",
     "title": "Sofia Belabbes",
     "start": "2027-02-20T20:30:00+01:00",
@@ -3548,17 +3184,6 @@
     "description": "",
     "url": "https://lechambon.fr/culture/",
     "source": " Salles Chambon-Feugerolles"
-  },
-  {
-    "id": "e14d6d04c0a79c9a0642",
-    "title": "Baratin La finale !",
-    "start": "2027-02-21T19:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/baratin-2/",
-    "source": "Le Fil"
   },
   {
     "id": "f9c19f859e528b73f51d",
@@ -3781,17 +3406,6 @@
     "source": "ArcomiK"
   },
   {
-    "id": "f5e98f7dfd280cb2cdba",
-    "title": "Vulves Assassines",
-    "start": "2027-02-27T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/vulves-assassines/",
-    "source": "Le Fil"
-  },
-  {
     "id": "cb1f2638cf00a5551af3",
     "title": "Alex Vizorek",
     "start": "2027-02-27T20:30:00+01:00",
@@ -3894,17 +3508,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/roland-a-roncevaux/s-924/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "6549264815064b31b476",
-    "title": "Salut l’Orage Release party",
-    "start": "2027-03-05T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/salut-lorage/",
-    "source": "Le Fil"
   },
   {
     "id": "332966dd158c8c3c8f40",
@@ -4043,17 +3646,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/cyrano-de-bergerac/",
     "source": "La Comète"
-  },
-  {
-    "id": "79055146237ea7afbf3a",
-    "title": "IZÏA",
-    "start": "2027-03-12T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/izia/",
-    "source": "Le Fil"
   },
   {
     "id": "a14635bc6c5fc4b6b082",
@@ -4244,17 +3836,6 @@
     "source": "Salle Aristide Briand"
   },
   {
-    "id": "8cd7a8618f22971b84ad",
-    "title": "High Fade",
-    "start": "2027-03-18T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/high-fade-2/",
-    "source": "Le Fil"
-  },
-  {
     "id": "74f80f67e6b3d39718fa",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2027-03-18T21:00:00+01:00",
@@ -4286,17 +3867,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/margot-demeurisse",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "452a851a43c649098f8f",
-    "title": "Leïla Huissoud \"Je suis venue te dire que je m'en fous\"",
-    "start": "2027-03-20T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/leila-huissoud/",
-    "source": "Le Fil"
   },
   {
     "id": "4c9fc2575cbb60f089fe",
@@ -4384,17 +3954,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/piracema-parabelo/s-915/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "84f4b30190fe7c692aa1",
-    "title": "TeddyBear + première partie",
-    "start": "2027-03-25T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/teddybear/",
-    "source": "Le Fil"
   },
   {
     "id": "a49eaaf4cb784373f391",
@@ -4501,17 +4060,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "bdc545dbe87690f91ae2",
-    "title": "HOWLIN’ JAWS",
-    "start": "2027-04-01T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/howlin-jaws/",
-    "source": "Le Fil"
-  },
-  {
     "id": "317a5147117a41842e4f",
     "title": "Soirée jeux à Pile ou face [ Jouer à 306° ]",
     "start": "2027-04-02T18:00:00+02:00",
@@ -4543,17 +4091,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nadia-richard",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "cf9c3156dff2dad15ec0",
-    "title": "Assassin + Triptik",
-    "start": "2027-04-03T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/assassin/",
-    "source": "Le Fil"
   },
   {
     "id": "998b8ca39564159d4159",
@@ -4631,17 +4168,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "bb3ceffb468059d01470",
-    "title": "Léopold Lemarchand",
-    "start": "2027-04-09T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/leopold-lemarchand/",
-    "source": "Le Fil"
-  },
-  {
     "id": "b685f559a7c4be70fd09",
     "title": "ELIES ZOGHLAMI",
     "start": "2027-04-09T20:30:00+02:00",
@@ -4675,17 +4201,6 @@
     "source": "La Comète"
   },
   {
-    "id": "b20bffb488184e711a8f",
-    "title": "Lou ! Sonata 3 Concert dessiné",
-    "start": "2027-04-15T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/lou-sonata-3/",
-    "source": "Le Fil"
-  },
-  {
     "id": "7eb2fc7b2757a4567780",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2027-04-15T21:00:00+02:00",
@@ -4706,17 +4221,6 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/801580-teaser-vivant-compagnie-le-cri-des-ogres",
     "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "bdfaf7f67763afa9c5c0",
-    "title": "La Yegros + première partie",
-    "start": "2027-04-22T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/la-yegros/",
-    "source": "Le Fil"
   },
   {
     "id": "75cbae1deb35ded50af9",
