@@ -352,17 +352,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "2192b200e67ec756dfe3",
-    "title": "Chistera Du",
-    "start": "2026-10-14T10:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801979-chistera",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "bd7717c4be74e33b795e",
     "title": "Homo Lunaticus ou le jardin de Lune",
     "start": "2026-10-14T16:00:00+02:00",
@@ -374,22 +363,15 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "25ed5c81c4f8d2cf46b2",
-    "title": "La Mélancolie des paquebots",
+    "id": "b5ee51805208cebfa9ec",
+    "title": "Chistera Du",
     "start": "2026-10-14T20:00:00+02:00",
-    "end": "2026-10-16T20:00:00+02:00",
-    "sessions": [
-      "2026-10-14T20:00:00+02:00",
-      "2026-10-15T20:00:00+02:00",
-      "2026-10-16T20:00:00+02:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie",
+    "venue": "Théâtre Le Verso",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
-    "source": "Comédie Sainté"
+    "url": "https://billetterie-leverso.mapado.com/event/801979-chistera",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "a061db6e808b1cc92d6b",
@@ -417,6 +399,23 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/don-quichotte/s-906/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "0c2b0039fbb4419dd3a3",
+    "title": "La Mélancolie des paquebots",
+    "start": "2026-10-15T20:00:00+02:00",
+    "end": "2026-10-16T20:00:00+02:00",
+    "sessions": [
+      "2026-10-15T20:00:00+02:00",
+      "2026-10-16T20:00:00+02:00"
+    ],
+    "session_count": 2,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
+    "source": "Comédie Sainté"
   },
   {
     "id": "dafcadc9e0ddf1844381",
@@ -620,6 +619,17 @@
     "category": "Jeune public",
     "description": "",
     "url": "/favori/garder?event=0199587d-58ed-770f-aaae-63e989d14df3",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "e75d7e0abed219674e59",
+    "title": "Jacky et la Citrouillette à Saint-Étienne",
+    "start": "2026-10-23T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=0199587d-6e07-7f0c-b52a-9cd403c714a3",
     "source": "Agenda Culturel"
   },
   {
@@ -1390,6 +1400,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "8d8ae119b6bb08964cba",
+    "title": "Dialogue entre deux espèces",
+    "start": "2026-11-19T10:00:00+01:00",
+    "venue": "L'Usine",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/dialogue-entre-deux-especes-2/",
+    "source": "La Comète"
   },
   {
     "id": "bc7a9be1bbf5c413042b",
@@ -3306,6 +3327,17 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
+    "id": "38bef9908c4756dae352",
+    "title": "Last Touch",
+    "start": "2027-02-11T20:00:00+01:00",
+    "venue": "L'Usine",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/last-touch/",
+    "source": "La Comète"
+  },
+  {
     "id": "b4f8a7a30a5d074df97f",
     "title": "Concert - opérette - \"Offenbach en fête !\"",
     "start": "2027-02-11T20:00:00+01:00",
@@ -5009,17 +5041,6 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802749-la-nuit-lordure",
     "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "9e76328fac629b6b7a7d",
-    "title": "Triomphe Comedy Club à Saint-Étienne",
-    "start": "2027-06-11T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "/favori/garder?event=01a03801-4856-7c1b-a0a0-49729278952f",
-    "source": "Agenda Culturel"
   },
   {
     "id": "ac21252886b680cab02d",
