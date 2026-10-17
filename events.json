@@ -390,17 +390,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "565dd9fd5ee3202ae667",
-    "title": "Chistera Du",
-    "start": "2026-10-15T20:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801979-chistera",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "dafcadc9e0ddf1844381",
     "title": "JAZZ FOREZ’VER",
     "start": "2026-10-15T20:00:00+02:00",
@@ -412,22 +401,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "d4b100d2ee13fe1e2c9f",
-    "title": "La Mélancolie des paquebots",
-    "start": "2026-10-16T20:00:00+02:00",
-    "end": "2026-10-16T20:00:00+02:00",
-    "sessions": [
-      "2026-10-16T20:00:00+02:00"
-    ],
-    "session_count": 1,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/la-melancolie-des-paquebots",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "1f83e49cbbf55aff8060",
     "title": "Pour un oui ou pour un non",
     "start": "2026-10-16T20:00:00+02:00",
@@ -437,17 +410,6 @@
     "description": "",
     "url": "https://choktheatre.com/pour-un-oui-ou-pour-un-non/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "0a673d74df683895ce3c",
-    "title": "NNY Fest : DOPPLeR + La Jungle + Tachycardie + Trognon",
-    "start": "2026-10-16T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/doppler/",
-    "source": "Le Fil"
   },
   {
     "id": "e947b56ea4128ff670ec",
@@ -610,17 +572,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "825a156269b8284e38d0",
-    "title": "NASSIM MELLAH",
-    "start": "2026-10-23T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/nassim-mellah",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "5c55e56b2361de49cc75",
     "title": "DERRIERE LA PORTE",
     "start": "2026-10-23T21:00:00+02:00",
@@ -632,9 +583,9 @@
     "source": "La Ricane"
   },
   {
-    "id": "365b548607b2f0d7ad08",
+    "id": "3b6f15bb438512f34d38",
     "title": "Ulrike Meinhof",
-    "start": "2026-10-24T15:00:00+02:00",
+    "start": "2026-10-24T17:00:00+02:00",
     "venue": "Chok Théâtre",
     "city": "Saint-Étienne",
     "category": "Théâtre",
@@ -1233,8 +1184,8 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "cd6b278e2443c735cdd9",
-    "title": "Didier Super Et son groupe Discount",
+    "id": "a639ca3825b95d4fdf3e",
+    "title": "Didier Super et son groupe Discount + MPAM",
     "start": "2026-11-14T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -1386,7 +1337,7 @@
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/dialogue-entre-deux-especes-2/",
+    "url": "https://lacomete.saint-etienne.fr/evenements/dialogue-entre-deux-especes/",
     "source": "La Comète"
   },
   {
@@ -2559,6 +2510,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/il-etait-une-fois/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "68b7d664dd3df3f2d655",
+    "title": "MARC-ANTOINE LE BRET",
+    "start": "2027-01-08T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/marc-antoine-le-bret-2",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "c8bb70dd50550078a075",
@@ -5269,6 +5231,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo-2027/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "a4d7911ebd85e1be0a34",
+    "title": "NASH",
+    "start": "2027-11-25T20:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/nash/",
+    "source": "La Comète"
   },
   {
     "id": "07fbf263393fd8a2840d",
