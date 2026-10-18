@@ -132,17 +132,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "3b87bc24810145691b8f",
-    "title": "Les maisons d'Albertine et de Germano",
-    "start": "2026-09-15T10:00:00+02:00",
-    "venue": "Médiathèques Sainté",
-    "city": "Saint-Étienne",
-    "category": "Littérature",
-    "description": "Les maisons d'Albertine et de Germano 40e fête du livre : exposition Du 15/09/2026 10:00 au 17/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Découvrez une exposition inédite réalisée par Albertine et Germano Zullo. Albertine est artiste et illustratrice, Germano est auteur. Compagnons de vie, ils collaborent régulièrement ensemble.Ils ont notamment réalisé Les Oiseaux (2010), récompensé p...",
-    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2437/les-maisons-d-albertine-et-de-germano",
-    "source": "Médiathèques Sainté"
-  },
-  {
     "id": "20e7285ba9233827721f",
     "title": "Journées européennes du patrimoine (J.E.P. 2026) : patrimoine en péril - raviver, résister, réinventer",
     "start": "2026-09-18T10:00:00+02:00",
@@ -412,28 +401,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "e947b56ea4128ff670ec",
-    "title": "KINO",
-    "start": "2026-10-16T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/kino",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "8d37c512d894631478dd",
-    "title": "The Brooks & Tiwayo",
-    "start": "2026-10-17T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/the-brooks/",
-    "source": "Le Fil"
-  },
-  {
     "id": "94f8afd84c2caf74c300",
     "title": "LA DAME DE PIERRE",
     "start": "2026-10-17T20:30:00+02:00",
@@ -528,8 +495,8 @@
     "source": "Le Solar"
   },
   {
-    "id": "ee9f9e9a955c5cd3b874",
-    "title": "LE LAC DES CYGNES Une tournée inoubliable",
+    "id": "80b61309181c8858e045",
+    "title": "Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté LE LAC DES CYGNES Une tournée inoubliable",
     "start": "2026-10-23T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
@@ -4990,6 +4957,17 @@
     "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "2579944094cc53b9f12e",
+    "title": "Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté LE LAC DES CYGNES Une tournée inoubliable",
+    "start": "2027-06-05T20:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027-2/",
     "source": "Zénith Sainté"
   },
   {
