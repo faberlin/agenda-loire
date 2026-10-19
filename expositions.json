@@ -48,30 +48,6 @@
     "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/ecritures-en-eclats"
   },
   {
-    "id": "ff2b7ac288001d8cfd76",
-    "type": "Musée",
-    "source": "Couriot - Musée de la Mine",
-    "title": "\"Ouvrons nous aux arts\"",
-    "venue": "Musée de la Mine",
-    "city": "Saint-Étienne",
-    "start": "2026-09-19",
-    "end": "2026-10-18",
-    "status": "current",
-    "url": "https://musee-mine.saint-etienne.fr/ouvrons-nous-aux-arts"
-  },
-  {
-    "id": "dc825289cc915504ecd7",
-    "type": "Musée",
-    "source": "Couriot - Musée de la Mine",
-    "title": "Agenda des événements",
-    "venue": "Musée de la Mine",
-    "city": "Saint-Étienne",
-    "start": "2026-09-19",
-    "end": "2026-10-18",
-    "status": "current",
-    "url": "https://musee-mine.saint-etienne.fr/agenda"
-  },
-  {
     "id": "c9d121cb6c8641bd4153",
     "type": "Musée",
     "source": "Musée d'Art et d'Industrie",
