@@ -401,39 +401,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "94f8afd84c2caf74c300",
-    "title": "LA DAME DE PIERRE",
-    "start": "2026-10-17T20:30:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/la-dame-de-pierre/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "a0a560dbee9a989065b2",
-    "title": "LES TROIS DUCS COMEDY CLUB",
-    "start": "2026-10-17T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-14",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "e25fc82ebf62a772a7bd",
-    "title": "La Légende d'Auria",
-    "start": "2026-10-18T11:00:00+02:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/la-legende-dauria/",
-    "source": "La Comète"
-  },
-  {
     "id": "e55ee6c0edd272eca915",
     "title": "[ Quartier Culturel Saint-François ] Rencontre avec les étudiant·es de l'ESAD de Saint-Etienne",
     "start": "2026-10-19T19:00:00+02:00",
@@ -1138,17 +1105,6 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/hommage-a-miles-davis-la-revolution-electrique/",
     "source": "Le Solar"
-  },
-  {
-    "id": "e98c62fcb241bea5baae",
-    "title": "TROTWOOD",
-    "start": "2026-11-14T20:00:00+01:00",
-    "venue": "Théâtre de Poche des Brankignols",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
-    "source": "Théâtre de Poche des Brankignols"
   },
   {
     "id": "a639ca3825b95d4fdf3e",
