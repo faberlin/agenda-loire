@@ -412,28 +412,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "28090a1b6b33a9af3269",
-    "title": "Claire Morel, Préliminaires, Pénétration, Orgasme ? à Saint-Étienne",
-    "start": "2026-10-19T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=019e9110-fdc5-7526-a0f2-ca26b0d867bc",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "343f577a1e9f411f2670",
-    "title": "Jam Session",
-    "start": "2026-10-19T20:30:00+02:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jam-session-128/",
-    "source": "Le Solar"
-  },
-  {
     "id": "9e5a12bd81e225bd4b93",
     "title": "The Opera Locos Yllana et Encore Un Tour Humour musical",
     "start": "2026-10-22T20:00:00+02:00",
@@ -495,8 +473,8 @@
     "source": "Agenda Culturel"
   },
   {
-    "id": "005feecfdc87319f83f2",
-    "title": "Tif",
+    "id": "61f453556bdb481f122b",
+    "title": "Tif + Ouidad",
     "start": "2026-10-23T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -890,6 +868,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/edgar-yves-jr",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "531c8a78dc9a0a773746",
+    "title": "[ Ateliers ] Mémoires en mouvement",
+    "start": "2026-11-07T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/801881-ateliers-memoires-en-mouvement",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "7ebe6401703791fc0700",
@@ -1685,6 +1674,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/disney-en-concert/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "3fa7491ca5bde28311c2",
+    "title": "Jules Regard & Vincent Forestier",
+    "start": "2026-11-28T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jules-regard-vincent-forestier/",
+    "source": "Le Solar"
   },
   {
     "id": "6f258e1868933caba4e4",
@@ -3037,6 +3037,17 @@
     "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/pomme/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "0b376e636583d8819cf4",
+    "title": "Kēpa présente : Soul Wash Services Ciné-concert allongé !",
+    "start": "2027-02-04T19:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/kepa/",
     "source": "Le Fil"
   },
   {
@@ -5039,6 +5050,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-liberations/s-898/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "add457de0c280571ce6c",
+    "title": "Soirée Stand-up à Saint-Étienne",
+    "start": "2027-06-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "/favori/garder?event=01a06948-c532-78ed-85de-2294fc4d5ec8",
+    "source": "Agenda Culturel"
   },
   {
     "id": "25a98eda487f55a46981",
