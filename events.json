@@ -401,17 +401,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "e55ee6c0edd272eca915",
-    "title": "[ Quartier Culturel Saint-François ] Rencontre avec les étudiant·es de l'ESAD de Saint-Etienne",
-    "start": "2026-10-19T19:00:00+02:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/802014-quartier-culturel-saint-francois-rencontre-avec-les-etudiant-es-de-lesad-de-saint-etienne",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "9e5a12bd81e225bd4b93",
     "title": "The Opera Locos Yllana et Encore Un Tour Humour musical",
     "start": "2026-10-22T20:00:00+02:00",
@@ -427,6 +416,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/the-opera-locos/s-888/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "f53201341a2f6b03db1c",
+    "title": "[ Quartier Culturel Saint-François ] Rencontre avec les étudiant·es de l'ESAD de Saint-Etienne",
+    "start": "2026-10-23T19:00:00+02:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802014-quartier-culturel-saint-francois-rencontre-avec-les-etudiant-es-de-lesad-de-saint-etienne",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "f5e3542b619bc6ca1fe3",
@@ -471,6 +471,17 @@
     "description": "",
     "url": "/favori/garder?event=0199587d-6e07-7f0c-b52a-9cd403c714a3",
     "source": "Agenda Culturel"
+  },
+  {
+    "id": "197a461d055f9605678f",
+    "title": "Retour",
+    "start": "2026-10-23T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/les-echauffe-es/",
+    "source": "Le Fil"
   },
   {
     "id": "61f453556bdb481f122b",
@@ -647,17 +658,6 @@
     "description": "",
     "url": "https://choktheatre.com/ngoon/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "aea5880619ee0fedbd83",
-    "title": "Les échauffé·e·s Øtakt + ebl",
-    "start": "2026-10-30T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/les-echauffe-es/",
-    "source": "Le Fil"
   },
   {
     "id": "83cdb0e84ab9cbc4b85e",
