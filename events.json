@@ -44,17 +44,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "917077c5341e27083f9a",
-    "title": "Dalida in Paradisco",
-    "start": "2026-02-13T15:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/dalida/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "0d33d659cd95e2faf9f5",
     "title": "Mon plaisir est stéphanois 2026",
     "start": "2026-09-10T14:00:00+02:00",
@@ -473,17 +462,6 @@
     "source": "Agenda Culturel"
   },
   {
-    "id": "197a461d055f9605678f",
-    "title": "Retour",
-    "start": "2026-10-23T20:30:00+02:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/les-echauffe-es/",
-    "source": "Le Fil"
-  },
-  {
     "id": "61f453556bdb481f122b",
     "title": "Tif + Ouidad",
     "start": "2026-10-23T20:30:00+02:00",
@@ -658,6 +636,17 @@
     "description": "",
     "url": "https://choktheatre.com/ngoon/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "aea5880619ee0fedbd83",
+    "title": "Les échauffé·e·s Øtakt + ebl",
+    "start": "2026-10-30T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/les-echauffe-es/",
+    "source": "Le Fil"
   },
   {
     "id": "83cdb0e84ab9cbc4b85e",
@@ -2569,6 +2558,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "ce3024e3c44bc96dc80b",
+    "title": "CRIMINEL ET (PRESQUE) CELEBRE",
+    "start": "2027-01-16T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/criminel-et-presque-celebre/",
+    "source": "La Ricane"
+  },
+  {
     "id": "6402c16981fd0e67c687",
     "title": "Minetti",
     "start": "2027-01-19T20:00:00+01:00",
@@ -2716,6 +2716,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/hacenoba-salsa-dj-re-mi/",
     "source": "Le Fil"
+  },
+  {
+    "id": "bb3013de5a66fdb062a6",
+    "title": "DUO D’",
+    "start": "2027-01-23T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/duo-dimpro/",
+    "source": "La Ricane"
   },
   {
     "id": "ae8da5aee6c356359824",
@@ -2886,17 +2897,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/claudia-modica",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "3c947b04cb1b3135f955",
-    "title": "DUO D’",
-    "start": "2027-01-29T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/duo-dimpro/",
-    "source": "La Ricane"
   },
   {
     "id": "e8a2119661c0a4f738d1",
@@ -3089,8 +3089,8 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "d8cf4261c428bd3af4df",
-    "title": "HLD",
+    "id": "5ea227caad04b4c62ebc",
+    "title": "HLD & 26keuss",
     "start": "2027-02-05T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -3286,17 +3286,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/faut-pas-pousser-papy-et-mamy-dans-les-orties/",
     "source": "La Comète"
-  },
-  {
-    "id": "af4d07982e7c29594743",
-    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
-    "start": "2027-02-16T15:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour-2/",
-    "source": "La Ricane"
   },
   {
     "id": "db2f7a60dd5749494ea2",
@@ -3506,17 +3495,6 @@
     "description": "",
     "url": "https://www.arcomik.com/event/nina-azoulai/",
     "source": "ArcomiK"
-  },
-  {
-    "id": "60bd49d912b40485ee00",
-    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
-    "start": "2027-02-24T15:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour-2/",
-    "source": "La Ricane"
   },
   {
     "id": "4ff97194878549dacb07",
@@ -5236,6 +5214,17 @@
     "id": "c76bacf113ae7360abb2",
     "title": "Dalida in Paradisco",
     "start": "2028-02-12T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/dalida/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "b5a87f0881bd8fdc533a",
+    "title": "Dalida in Paradisco",
+    "start": "2028-02-13T15:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Concerts",
