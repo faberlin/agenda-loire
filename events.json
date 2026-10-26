@@ -418,50 +418,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "ea0134b582f8f0f753e8",
-    "title": "THE DEPECHE MODE EXPERIENCE",
-    "start": "2026-10-24T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/the-depeche-mode-experience/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "0d11ab88fd4c410061b6",
-    "title": "SARAH-ANNA",
-    "start": "2026-10-24T20:30:00+02:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/sarah-anna",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "6f23c9c70a5c51fe1810",
-    "title": "« In petto, in terno » - Festi'mômes",
-    "start": "2026-10-25T11:00:00+01:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/in-petto-in-terno-festimomes/",
-    "source": "La Comète"
-  },
-  {
-    "id": "5b8a54480541bb50bdbf",
-    "title": "Roller mix",
-    "start": "2026-10-25T14:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/roller-mix-2/",
-    "source": "Le Fil"
-  },
-  {
     "id": "fb3c2e09ad5432d020ed",
     "title": "Ulrike Meinhof",
     "start": "2026-10-25T15:00:00+01:00",
@@ -471,39 +427,6 @@
     "description": "",
     "url": "https://choktheatre.com/ulrike-meinhof/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "2952f79ee358b39b7077",
-    "title": "La villa des Dramas à Saint-Étienne",
-    "start": "2026-10-25T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=019f94fc-7596-7553-9a55-a3d25b93c4a2",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "ffd6cae8b2ec06c45a8c",
-    "title": "La petite Sorcière à Saint-Étienne",
-    "start": "2026-10-25T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Jeune public",
-    "description": "",
-    "url": "/favori/garder?event=01a1649c-41cb-71e6-9cd5-6c6ab45d3a9b",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "f14b969d0318f4c9a62a",
-    "title": "Gauthier le clown à Saint-Étienne",
-    "start": "2026-10-25T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a1317f-19d1-7d96-aaf3-1b56e418179d",
-    "source": "Agenda Culturel"
   },
   {
     "id": "4f32cc91533b1a098eb8",
@@ -526,6 +449,17 @@
     "description": "La brigade des cauchemars Gueules noires du polar 2026 : exposition Du 27/10/2026 10:00 au 21/11/2026 18:30 Catégorie Exposition Localisation Tarentaize Le maître du thriller Franck Thilliez a scénarisé cette série BD, La Brigade des cauchemars, illustrée par Yomgui Dumont.Entre fantastique, aventure et polar, elle raconte l'histoire d'un groupe d'ados capables de vous sauver de vos pirescauchemars. ...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2549/la-brigade-des-cauchemars",
     "source": "Médiathèques Sainté"
+  },
+  {
+    "id": "f29d1684da26a3a5299a",
+    "title": "Retour",
+    "start": "2026-10-27T10:00:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/leila-huissoud/",
+    "source": "Le Fil"
   },
   {
     "id": "01a3a6553ffab2b255a6",
@@ -636,6 +570,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/t2o-acid-night-presentent-alternativ-reality-anomaly/",
     "source": "Le Fil"
+  },
+  {
+    "id": "0ddccbf6f0cd2552ee0e",
+    "title": "Hansel & Gretel - La Comédie Triomphe, Saint-Étienne",
+    "start": "2026-11-01T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a13657-c781-7263-8e0c-545748c177d2",
+    "source": "Agenda Culturel"
   },
   {
     "id": "6bf220c6a8042f329a81",
@@ -4147,17 +4092,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "452a851a43c649098f8f",
-    "title": "Leïla Huissoud \"Je suis venue te dire que je m'en fous\"",
-    "start": "2027-03-20T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/leila-huissoud/",
-    "source": "Le Fil"
-  },
-  {
     "id": "4c9fc2575cbb60f089fe",
     "title": "KEEN’V À nos 20 ans",
     "start": "2027-03-20T20:30:00+01:00",
@@ -5066,6 +5000,28 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "b6a7960d3548efa2568b",
+    "title": "Hibou Chouchou à Saint-Étienne",
+    "start": "2027-10-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=0199587d-84ad-7346-b66a-9347d29ca128",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "caebfa1e4d87d507292e",
+    "title": "La sorcière têtenlère à Saint-Étienne",
+    "start": "2027-10-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "/favori/garder?event=0199587a-cfa4-7406-a0ef-7c293801bc99",
+    "source": "Agenda Culturel"
   },
   {
     "id": "a12acedd7da07506135b",
