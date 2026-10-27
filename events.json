@@ -429,17 +429,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "4f32cc91533b1a098eb8",
-    "title": "Jam Session",
-    "start": "2026-10-26T20:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jam-session-129/",
-    "source": "Le Solar"
-  },
-  {
     "id": "f3df27c8b3ee78f2cec0",
     "title": "La brigade des cauchemars",
     "start": "2026-10-27T10:00:00+01:00",
@@ -449,17 +438,6 @@
     "description": "La brigade des cauchemars Gueules noires du polar 2026 : exposition Du 27/10/2026 10:00 au 21/11/2026 18:30 Catégorie Exposition Localisation Tarentaize Le maître du thriller Franck Thilliez a scénarisé cette série BD, La Brigade des cauchemars, illustrée par Yomgui Dumont.Entre fantastique, aventure et polar, elle raconte l'histoire d'un groupe d'ados capables de vous sauver de vos pirescauchemars. ...",
     "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2549/la-brigade-des-cauchemars",
     "source": "Médiathèques Sainté"
-  },
-  {
-    "id": "f29d1684da26a3a5299a",
-    "title": "Retour",
-    "start": "2026-10-27T10:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/leila-huissoud/",
-    "source": "Le Fil"
   },
   {
     "id": "01a3a6553ffab2b255a6",
@@ -572,14 +550,14 @@
     "source": "Le Fil"
   },
   {
-    "id": "0ddccbf6f0cd2552ee0e",
-    "title": "Hansel & Gretel - La Comédie Triomphe, Saint-Étienne",
+    "id": "30066d6f9fe4f98a1986",
+    "title": "Bubulle, le poisson volant à Saint-Étienne",
     "start": "2026-11-01T20:00:00+01:00",
     "venue": "Comédie Triomphe",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
-    "url": "/favori/garder?event=01a13657-c781-7263-8e0c-545748c177d2",
+    "url": "/favori/garder?event=01a11f94-c75d-7a55-9d28-dac157895be9",
     "source": "Agenda Culturel"
   },
   {
@@ -760,8 +738,8 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "7ebe6401703791fc0700",
-    "title": "Folie’s",
+    "id": "ec90a67d247aa0fae369",
+    "title": "Folie’s + Rémi Officieux",
     "start": "2026-11-07T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -1758,6 +1736,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/tempete-sonore-3/",
     "source": "Le Fil"
+  },
+  {
+    "id": "d0ff2815e5dbbbb97c7a",
+    "title": "Quartet Crescent",
+    "start": "2026-12-04T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/quartet-crescent/",
+    "source": "Le Solar"
   },
   {
     "id": "e3be17536422a386d6f8",
@@ -3178,17 +3167,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "c3bc241368d83c7b827a",
-    "title": "POUPEE GONFLANTE",
-    "start": "2027-02-13T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/poupee-gonflante/",
-    "source": "La Ricane"
-  },
-  {
     "id": "5921edbb850552229f1a",
     "title": "Faut pas pousser Papy et Mamy dans les orties",
     "start": "2027-02-14T15:00:00+01:00",
@@ -3251,7 +3229,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
     "source": "La Ricane"
   },
   {
@@ -3341,6 +3319,17 @@
     "description": "",
     "url": "https://www.arcomik.com/event/sofia-belabesses-arcomik/",
     "source": "ArcomiK"
+  },
+  {
+    "id": "5e9bea2fe8d555a1df99",
+    "title": "POUPEE GONFLANTE",
+    "start": "2027-02-20T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/poupee-gonflante/",
+    "source": "La Ricane"
   },
   {
     "id": "084206475ee7643fc1ce",
@@ -4066,7 +4055,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
     "source": "La Ricane"
   },
   {
@@ -4090,6 +4079,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/margot-demeurisse",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "452a851a43c649098f8f",
+    "title": "Leïla Huissoud \"Je suis venue te dire que je m'en fous\"",
+    "start": "2027-03-20T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/leila-huissoud/",
+    "source": "Le Fil"
   },
   {
     "id": "4c9fc2575cbb60f089fe",
@@ -4486,7 +4486,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
     "source": "La Ricane"
   },
   {
@@ -4501,8 +4501,8 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "bdfaf7f67763afa9c5c0",
-    "title": "La Yegros + première partie",
+    "id": "154a1fef99444a8399a9",
+    "title": "La Yegros + Kumbia Boruka",
     "start": "2027-04-22T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -4692,7 +4692,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
     "source": "La Ricane"
   },
   {
@@ -4883,7 +4883,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
     "source": "La Ricane"
   },
   {
@@ -5046,9 +5046,9 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "ba4c3fb2cc2e29d53ec0",
+    "id": "8be0fdeadc98536b0717",
     "title": "Laurent Gerra se met à table !",
-    "start": "2027-11-17T08:00:00+01:00",
+    "start": "2027-11-17T20:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Concerts",
