@@ -440,17 +440,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "01a3a6553ffab2b255a6",
-    "title": "Vacances curieuses Découvrir des lieux culturels et vivre des expériences artistiques !",
-    "start": "2026-10-27T10:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/vacances-curieuses-2/",
-    "source": "Le Fil"
-  },
-  {
     "id": "ad4ee654d4b36ef41604",
     "title": "N’Goon",
     "start": "2026-10-29T15:00:00+01:00",
@@ -548,17 +537,6 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/t2o-acid-night-presentent-alternativ-reality-anomaly/",
     "source": "Le Fil"
-  },
-  {
-    "id": "30066d6f9fe4f98a1986",
-    "title": "Bubulle, le poisson volant à Saint-Étienne",
-    "start": "2026-11-01T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a11f94-c75d-7a55-9d28-dac157895be9",
-    "source": "Agenda Culturel"
   },
   {
     "id": "6bf220c6a8042f329a81",
@@ -1086,17 +1064,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/alex-fredo",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "32b5d084a1c7e016060e",
-    "title": "Journée Porte Ouverte de la Gendarmerie",
-    "start": "2026-11-19T09:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "8d8ae119b6bb08964cba",
@@ -3145,6 +3112,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "a8f0dcc2022a0515627e",
+    "title": "YVAN MARC CHANTE CABREL Chanson ·",
+    "start": "2027-02-12T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://laricane.com/event/yvan-marc-chante-cabrel/",
+    "source": "La Ricane"
+  },
+  {
     "id": "e2d6d9a45e36414aba87",
     "title": "Véronic Dicaire",
     "start": "2027-02-13T20:00:00+01:00",
@@ -3229,7 +3207,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -3871,6 +3849,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "cf8de6856724d12c54f2",
+    "title": "REMI PEYRACHE CHANTE RENAUD Chanson ·",
+    "start": "2027-03-12T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://laricane.com/event/remi-peyrache-chante-renaud/",
+    "source": "La Ricane"
+  },
+  {
     "id": "b21c0f1e92f540123fdc",
     "title": "[ Atelier ] Danse contemporaine [ Matières vives festival ]",
     "start": "2027-03-13T14:00:00+01:00",
@@ -4055,7 +4044,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -4424,6 +4413,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "9e6e2c403b28c91a9408",
+    "title": "1984 par Rubin Steiner & Nicolas Martel",
+    "start": "2027-04-08T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/1984/",
+    "source": "Le Fil"
+  },
+  {
     "id": "bb3ceffb468059d01470",
     "title": "Léopold Lemarchand",
     "start": "2027-04-09T20:30:00+02:00",
@@ -4486,7 +4486,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -4692,7 +4692,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -4883,7 +4883,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
     "source": "La Ricane"
   },
   {
@@ -4969,6 +4969,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "a21662eba74b5b6367a7",
+    "title": "Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté Journée Porte Ouverte de la Gendarmerie",
+    "start": "2027-10-12T09:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
+    "source": "Zénith Sainté"
+  },
+  {
     "id": "df4f68badbd1e0c870f0",
     "title": "PHILIPPE CAVERIVIERE TU CROIS QUE C’EST UNE BONNE IDÉE?",
     "start": "2027-10-13T20:00:00+02:00",
@@ -5000,28 +5011,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "b6a7960d3548efa2568b",
-    "title": "Hibou Chouchou à Saint-Étienne",
-    "start": "2027-10-24T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=0199587d-84ad-7346-b66a-9347d29ca128",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "caebfa1e4d87d507292e",
-    "title": "La sorcière têtenlère à Saint-Étienne",
-    "start": "2027-10-24T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Jeune public",
-    "description": "",
-    "url": "/favori/garder?event=0199587a-cfa4-7406-a0ef-7c293801bc99",
-    "source": "Agenda Culturel"
   },
   {
     "id": "a12acedd7da07506135b",
