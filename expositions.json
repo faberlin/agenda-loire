@@ -84,6 +84,18 @@
     "url": "https://mai.saint-etienne.fr/expositions-evenements/expositions/mecanique-de-lart"
   },
   {
+    "id": "8656f89fd050c538ae49",
+    "type": "Musée",
+    "source": "Couriot - Musée de la Mine",
+    "title": "La Ville travaille, photographies, Anna Chojnacka à Katowice",
+    "venue": "Musée de la Mine",
+    "city": "Saint-Étienne",
+    "start": "2026-11-03",
+    "end": "2027-03-14",
+    "status": "upcoming",
+    "url": "https://musee-mine.saint-etienne.fr/la-ville-travaille-photographies-anna-chojnacka-à-katowice"
+  },
+  {
     "id": "0ab0ae998030478881d2",
     "type": "Musée",
     "source": "MAMC+",
