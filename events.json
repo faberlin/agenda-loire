@@ -220,17 +220,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "dd6eb2e754508e3d2376",
-    "title": "Jules Verne et les savants « fous »",
-    "start": "2026-10-02T13:00:00+02:00",
-    "venue": "Médiathèques Sainté",
-    "city": "Saint-Étienne",
-    "category": "Littérature",
-    "description": "Jules Verne et les savants « fous » Biblis en folie : exposition Du 02/10/2026 13:00 au 28/10/2026 18:30 Catégorie Exposition Localisation Tréfilerie Parfois excentrique, souvent mégalomane, toujours dangereux, le personnage du savant fou irradie la littérature, aussi bien dans les romans de Jules Verne que dans d'autres oeuvres classiques. Entre génie et folie, venez à la rencontre de ces personn...",
-    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2486/jules-verne-et-les-savants-fous",
-    "source": "Médiathèques Sainté"
-  },
-  {
     "id": "bca3516e24a79c4f0562",
     "title": "Nos âmes liées",
     "start": "2026-10-02T20:00:00+02:00",
@@ -1064,6 +1053,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/alex-fredo",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "c4fca9c20edb2f88712b",
+    "title": "Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté Journée Porte Ouverte de la Gendarmerie",
+    "start": "2026-11-19T09:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
+    "source": "Zénith Sainté"
   },
   {
     "id": "8d8ae119b6bb08964cba",
@@ -1956,6 +1956,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/the-jeff-panacloc-company/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "5a218becc065a5141a53",
+    "title": "Rêverie",
+    "start": "2026-12-11T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/reverie/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "bb8f23978bc25a3cfab7",
@@ -4806,8 +4817,8 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "2579944094cc53b9f12e",
-    "title": "Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté LE LAC DES CYGNES Une tournée inoubliable",
+    "id": "359f3445c582dc0d4fce",
+    "title": "LE LAC DES CYGNES Une tournée inoubliable",
     "start": "2027-06-05T20:00:00+02:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
@@ -4966,17 +4977,6 @@
     "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/jokair/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "a21662eba74b5b6367a7",
-    "title": "Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté Journée Porte Ouverte de la Gendarmerie",
-    "start": "2027-10-12T09:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
     "source": "Zénith Sainté"
   },
   {
