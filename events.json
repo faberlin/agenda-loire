@@ -506,17 +506,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "f8beec6cfc09a1d9b1c7",
-    "title": "BELLE MÈRE À VENDRE",
-    "start": "2026-10-31T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/belle-mere-a-vendre",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "9879fce924dfa0c91d80",
     "title": "T2O & Acid Night présentent : Alternativ Reality – Anomaly Stephan ZMK + ZM42 + L'Art Cène + Anomalie Magnétique",
     "start": "2026-10-31T23:00:00+01:00",
@@ -526,6 +515,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/t2o-acid-night-presentent-alternativ-reality-anomaly/",
     "source": "Le Fil"
+  },
+  {
+    "id": "30066d6f9fe4f98a1986",
+    "title": "Bubulle, le poisson volant à Saint-Étienne",
+    "start": "2026-11-01T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a11f94-c75d-7a55-9d28-dac157895be9",
+    "source": "Agenda Culturel"
   },
   {
     "id": "6bf220c6a8042f329a81",
@@ -3882,6 +3882,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "a65c0727972347ebe051",
+    "title": "Kalash Criminel",
+    "start": "2027-03-13T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/kalash-criminel/",
+    "source": "Le Fil"
+  },
+  {
     "id": "ca343feea29879d6554b",
     "title": "OLIVIA MOORE",
     "start": "2027-03-13T20:30:00+01:00",
@@ -4479,6 +4490,17 @@
     "source": "La Comète"
   },
   {
+    "id": "0cd294e38ebb92021e1b",
+    "title": "BELLE MÈRE À VENDRE",
+    "start": "2027-04-10T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/belle-mere-a-vendre",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "b20bffb488184e711a8f",
     "title": "Lou ! Sonata 3 Concert dessiné",
     "start": "2027-04-15T20:30:00+02:00",
@@ -4520,6 +4542,17 @@
     "category": "Concerts",
     "description": "",
     "url": "https://www.le-fil.com/evenement/la-yegros/",
+    "source": "Le Fil"
+  },
+  {
+    "id": "45cf4ea5a25f528a953f",
+    "title": "Fanfare Ciocărlia + Trojka Nomad",
+    "start": "2027-04-24T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/fanfare-ciocarlia/",
     "source": "Le Fil"
   },
   {
@@ -5011,6 +5044,28 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "b6a7960d3548efa2568b",
+    "title": "Hibou Chouchou à Saint-Étienne",
+    "start": "2027-10-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=0199587d-84ad-7346-b66a-9347d29ca128",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "caebfa1e4d87d507292e",
+    "title": "La sorcière têtenlère à Saint-Étienne",
+    "start": "2027-10-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Jeune public",
+    "description": "",
+    "url": "/favori/garder?event=0199587a-cfa4-7406-a0ef-7c293801bc99",
+    "source": "Agenda Culturel"
   },
   {
     "id": "a12acedd7da07506135b",
