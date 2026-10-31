@@ -440,28 +440,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "679f2e78dcbe39000924",
-    "title": "FÉLIX JUNIER",
-    "start": "2026-10-29T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/felix-junier",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "e7ec1ba654c6fb268d6f",
-    "title": "Teaser vivant : Compagnie De l'âme à la vague",
-    "start": "2026-10-30T14:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801552-teaser-vivant-compagnie-de-lame-a-la-vague",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "07ae3d3d510614fb86ba",
     "title": "N’Goon",
     "start": "2026-10-30T15:00:00+01:00",
@@ -471,17 +449,6 @@
     "description": "",
     "url": "https://choktheatre.com/ngoon/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "aea5880619ee0fedbd83",
-    "title": "Les échauffé·e·s Øtakt + ebl",
-    "start": "2026-10-30T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/les-echauffe-es/",
-    "source": "Le Fil"
   },
   {
     "id": "83cdb0e84ab9cbc4b85e",
@@ -506,8 +473,8 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "9879fce924dfa0c91d80",
-    "title": "T2O & Acid Night présentent : Alternativ Reality – Anomaly Stephan ZMK + ZM42 + L'Art Cène + Anomalie Magnétique",
+    "id": "46960887c1139fea3fb6",
+    "title": "T2O & Acid Night présentent : Alternativ Reality – Anomaly Stephan ZMK + NZ42 + L'Art Cène + Anomalie Magnétique",
     "start": "2026-10-31T23:00:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -515,17 +482,6 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/t2o-acid-night-presentent-alternativ-reality-anomaly/",
     "source": "Le Fil"
-  },
-  {
-    "id": "30066d6f9fe4f98a1986",
-    "title": "Bubulle, le poisson volant à Saint-Étienne",
-    "start": "2026-11-01T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a11f94-c75d-7a55-9d28-dac157895be9",
-    "source": "Agenda Culturel"
   },
   {
     "id": "6bf220c6a8042f329a81",
@@ -628,14 +584,14 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "de4abd14ee5373fd9569",
-    "title": "AMINE RADI",
+    "id": "1c70d2cc09f8c277438e",
+    "title": "Complet - AMINE RADI",
     "start": "2026-11-05T20:30:00+01:00",
     "venue": "Le Panassa",
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/amine-radi/",
+    "url": "https://lacomete.saint-etienne.fr/evenements/complet-amine-radi/",
     "source": "La Comète"
   },
   {
@@ -1115,6 +1071,39 @@
     "source": "La Ricane"
   },
   {
+    "id": "29eef8adba4cb0b08938",
+    "title": "Un je ne sais quoi de presque rien - Fête de la Comète",
+    "start": "2026-11-20T17:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/un-je-ne-sais-quoi-de-presque-rien-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "cad3278f796d816cf841",
+    "title": "Diogène en Baskets - Fête de la Comète",
+    "start": "2026-11-20T18:00:00+01:00",
+    "venue": "L'Usine",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/diogene-en-baskets-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "998a9d914892bf7155d5",
+    "title": "Mille horizons - Fête de la Comète",
+    "start": "2026-11-20T19:30:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/mille-horizons-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
     "id": "c3eaa38abb1f1693d1a5",
     "title": "PATRICK BRUEL Alors regarde",
     "start": "2026-11-20T20:00:00+01:00",
@@ -1192,6 +1181,83 @@
     "source": "La Ricane"
   },
   {
+    "id": "8bb30d0fd88cbdfaf534",
+    "title": "baba…BabillageS - Fête de la Comète",
+    "start": "2026-11-21T10:30:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/babababillages-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "9d706a22c1cfbcee3ea2",
+    "title": "Myla et l’arbre bateau - Fête de la Comète",
+    "start": "2026-11-21T11:00:00+01:00",
+    "venue": "Le Hall",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/myla-et-larbre-bateau-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "a5e5c0945328f2b3a8fc",
+    "title": "Obsolescence et déchets : une économie du jetable - Fête de la Comète",
+    "start": "2026-11-21T14:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/obsolescence-et-dechets-une-economie-du-jetable-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "8465b3ca1e4ab7bdeac8",
+    "title": "P'tit Frère - Fête de la Comète",
+    "start": "2026-11-21T16:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/ptit-frere-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "312b3cab6a71ca7109f1",
+    "title": "Les Martinets - Fête de la Comète",
+    "start": "2026-11-21T16:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/les-martinets-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "c93facd976b478856064",
+    "title": "Trio Évros - Fête de la Comète",
+    "start": "2026-11-21T16:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/trio-evros-fete-de-la-comete-2/",
+    "source": "La Comète"
+  },
+  {
+    "id": "666725d4d8d05ace4f49",
+    "title": "Trio Evros - Fête de la Comète",
+    "start": "2026-11-21T18:30:00+01:00",
+    "venue": "Le Hall",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/trio-evros-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
     "id": "abc88c3892134f549680",
     "title": "CLAUDIO CAPEO",
     "start": "2026-11-21T20:00:00+01:00",
@@ -1201,6 +1267,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "adbc27f62c1e183ec5c5",
+    "title": "Département théâtre du conservatoire Massenet - Fête de la Comète",
+    "start": "2026-11-21T20:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/departement-theatre-du-conservatoire-massenet-fete-de-la-comete/",
+    "source": "La Comète"
   },
   {
     "id": "f1c97023c251fa04b441",
@@ -1247,6 +1324,50 @@
     "source": "La Ricane"
   },
   {
+    "id": "4114f8b607f0cdf0f49b",
+    "title": "Collectif Les Fracassé·es - Fête de la Comète",
+    "start": "2026-11-22T10:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/collectif-les-fracasse%c2%b7es-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "fe03d475a5acff53ad54",
+    "title": "Au boulot ! - Fête de la Comète",
+    "start": "2026-11-22T14:00:00+01:00",
+    "venue": "Le Hall",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/au-boulot-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "bc4589afc821e57b7173",
+    "title": "Babylloon , l'homme et sa baudruche - Fête de la Comète",
+    "start": "2026-11-22T15:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/babylloon-lhomme-et-sa-baudruche-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "7af00ba977b18a3f331f",
+    "title": "Tribute to Ella - Fête de la Comète",
+    "start": "2026-11-22T16:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/tribute-to-ella-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
     "id": "2d3f950080c0d4f4409a",
     "title": "Tact ou l’amour du travail",
     "start": "2026-11-22T17:00:00+01:00",
@@ -1258,6 +1379,17 @@
     "source": "Chok Théâtre"
   },
   {
+    "id": "9e04f97ef1e6c44288f1",
+    "title": "Choeur Bouts du monde et Cantabile - Fête de la Comète",
+    "start": "2026-11-22T18:00:00+01:00",
+    "venue": "Le Hall",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/choeur-bouts-du-monde-et-cantabile-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
     "id": "9a979be092dcfa486bbe",
     "title": "Ari Hoenig Trio",
     "start": "2026-11-22T20:30:00+01:00",
@@ -1267,6 +1399,17 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/ari-hoenig-trio/",
     "source": "Le Solar"
+  },
+  {
+    "id": "1eaae495a60427941b81",
+    "title": "Ari Hoenig trio - Fête de la Comète",
+    "start": "2026-11-22T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/ari-hoenig-trio-fete-de-la-comete/",
+    "source": "La Comète"
   },
   {
     "id": "8fc5155d4949919a3471",
@@ -5044,28 +5187,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "b6a7960d3548efa2568b",
-    "title": "Hibou Chouchou à Saint-Étienne",
-    "start": "2027-10-24T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=0199587d-84ad-7346-b66a-9347d29ca128",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "caebfa1e4d87d507292e",
-    "title": "La sorcière têtenlère à Saint-Étienne",
-    "start": "2027-10-24T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Jeune public",
-    "description": "",
-    "url": "/favori/garder?event=0199587a-cfa4-7406-a0ef-7c293801bc99",
-    "source": "Agenda Culturel"
   },
   {
     "id": "a12acedd7da07506135b",
