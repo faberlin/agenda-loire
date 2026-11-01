@@ -121,28 +121,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "20e7285ba9233827721f",
-    "title": "Journées européennes du patrimoine (J.E.P. 2026) : patrimoine en péril - raviver, résister, réinventer",
-    "start": "2026-09-18T10:00:00+02:00",
-    "venue": "Médiathèques Sainté",
-    "city": "Saint-Étienne",
-    "category": "Littérature",
-    "description": "Journées européennes du patrimoine (J.E.P. 20... JEP 2026 Du 18/09/2026 10:00 au 31/10/2026 18:30 Catégorie Festivités Localisation Médiathèques municipales Les 43e Journées européennes du patrimoine se tiendront les 19 et 20 septembre 2026, avec une ouverture scolaire le vendredi 18 septembre. Les thèmes nationaux de cette édition sont le « Patrimoine de la photographie » et le « Patrimoine en péril : r...",
-    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2435/journees-europeennes-du-patrimoine-j-e-p-2026-patrimoine-en-peril-raviver-resister-reinventer",
-    "source": "Médiathèques Sainté"
-  },
-  {
-    "id": "5cff88e796f91001b6cd",
-    "title": "Sauvegarder des documents anciens : raviver, résister, réimaginer",
-    "start": "2026-09-19T10:00:00+02:00",
-    "venue": "Médiathèques Sainté",
-    "city": "Saint-Étienne",
-    "category": "Littérature",
-    "description": "Sauvegarder des documents anciens : raviver, ... JEP 2026 Du 19/09/2026 10:00 au 31/10/2026 18:30 Catégorie Exposition Localisation Tarentaize Une exposition d'ouvrages patrimoniaux remarquables sortis des réserves, pour apprécier des livres anciens, rares et précieux. Ces documents sont parfois abîmés et fragiles. Face aux menaces du temps, il est nécessaire de les conserver pour l'avenir....",
-    "url": "https://mediatheques.saint-etienne.fr/Default/doc/CALENDAR/2396/sauvegarder-des-documents-anciens-raviver-resister-reimaginer",
-    "source": "Médiathèques Sainté"
-  },
-  {
     "id": "c592e4955a84a6668d79",
     "title": "Quinzaine Souad Labbize",
     "start": "2026-09-19T18:00:00+02:00",
@@ -451,17 +429,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "83cdb0e84ab9cbc4b85e",
-    "title": "MORGANE BERLING",
-    "start": "2026-10-30T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/morgane-berling",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "a22bb20d18770783c00d",
     "title": "N’Goon",
     "start": "2026-10-31T15:00:00+01:00",
@@ -473,15 +440,26 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "46960887c1139fea3fb6",
-    "title": "T2O & Acid Night présentent : Alternativ Reality – Anomaly Stephan ZMK + NZ42 + L'Art Cène + Anomalie Magnétique",
-    "start": "2026-10-31T23:00:00+01:00",
-    "venue": "Le Fil",
+    "id": "30066d6f9fe4f98a1986",
+    "title": "Bubulle, le poisson volant à Saint-Étienne",
+    "start": "2026-11-01T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
     "city": "Saint-Étienne",
-    "category": "Concerts",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.le-fil.com/evenement/t2o-acid-night-presentent-alternativ-reality-anomaly/",
-    "source": "Le Fil"
+    "url": "/favori/garder?event=01a11f94-c75d-7a55-9d28-dac157895be9",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "0ddccbf6f0cd2552ee0e",
+    "title": "Hansel & Gretel - La Comédie Triomphe, Saint-Étienne",
+    "start": "2026-11-01T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a13657-c781-7263-8e0c-545748c177d2",
+    "source": "Agenda Culturel"
   },
   {
     "id": "6bf220c6a8042f329a81",
@@ -5013,6 +4991,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802749-la-nuit-lordure",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "c714ab16ea96aecbf98f",
+    "title": "Triomphe Comedy Club à Saint-Étienne",
+    "start": "2027-06-10T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "/favori/garder?event=01a03801-4856-7c1b-a0a0-49729278952f",
+    "source": "Agenda Culturel"
   },
   {
     "id": "ac21252886b680cab02d",
