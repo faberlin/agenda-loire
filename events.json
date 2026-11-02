@@ -440,28 +440,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "30066d6f9fe4f98a1986",
-    "title": "Bubulle, le poisson volant à Saint-Étienne",
-    "start": "2026-11-01T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a11f94-c75d-7a55-9d28-dac157895be9",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "0ddccbf6f0cd2552ee0e",
-    "title": "Hansel & Gretel - La Comédie Triomphe, Saint-Étienne",
-    "start": "2026-11-01T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a13657-c781-7263-8e0c-545748c177d2",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "6bf220c6a8042f329a81",
     "title": "Jam Session",
     "start": "2026-11-02T20:30:00+01:00",
@@ -670,6 +648,17 @@
     "description": "",
     "url": "https://choktheatre.com/aperos-lectures-saison-26-27-1/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "fba896faa8ad6fef6c08",
+    "title": "Quoi ? Tout le week-end !!! à Saint-Étienne",
+    "start": "2026-11-08T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=019ef9e9-8aa3-7004-8a19-313ca0621287",
+    "source": "Agenda Culturel"
   },
   {
     "id": "c48c77f73da4b8a03821",
@@ -4942,6 +4931,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/sarah-schwab-2027/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "cd8f0e5602996d109ea9",
+    "title": "Gaga des Stéphanois à Saint-Étienne",
+    "start": "2027-06-04T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a068de-b3db-75ed-a76e-fb62c10b240c",
+    "source": "Agenda Culturel"
   },
   {
     "id": "531d4475e8bd7379a265",
