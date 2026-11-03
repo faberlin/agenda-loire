@@ -440,17 +440,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "6bf220c6a8042f329a81",
-    "title": "Jam Session",
-    "start": "2026-11-02T20:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jam-session-130/",
-    "source": "Le Solar"
-  },
-  {
     "id": "f4cb1f61a53298e139e2",
     "title": "L’hors-présence ou chimères du pays de Morsan",
     "start": "2026-11-03T20:00:00+01:00",
@@ -1181,17 +1170,6 @@
     "source": "La Comète"
   },
   {
-    "id": "8465b3ca1e4ab7bdeac8",
-    "title": "P'tit Frère - Fête de la Comète",
-    "start": "2026-11-21T16:00:00+01:00",
-    "venue": "La Comète",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/ptit-frere-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
     "id": "312b3cab6a71ca7109f1",
     "title": "Les Martinets - Fête de la Comète",
     "start": "2026-11-21T16:00:00+01:00",
@@ -1200,6 +1178,17 @@
     "category": "Théâtre",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/les-martinets-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "8465b3ca1e4ab7bdeac8",
+    "title": "P'tit Frère - Fête de la Comète",
+    "start": "2026-11-21T16:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/ptit-frere-fete-de-la-comete/",
     "source": "La Comète"
   },
   {
@@ -1950,6 +1939,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "af85f1e2e2df8645dda6",
+    "title": "Louis Mezzasoma",
+    "start": "2026-12-06T20:00:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/louis-mezzasoma/",
+    "source": "Le Solar"
   },
   {
     "id": "98882920f630b7a310d8",
