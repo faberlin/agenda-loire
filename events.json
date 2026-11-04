@@ -440,24 +440,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "f4cb1f61a53298e139e2",
-    "title": "L’hors-présence ou chimères du pays de Morsan",
-    "start": "2026-11-03T20:00:00+01:00",
-    "end": "2026-11-05T20:00:00+01:00",
-    "sessions": [
-      "2026-11-03T20:00:00+01:00",
-      "2026-11-04T19:00:00+01:00",
-      "2026-11-05T20:00:00+01:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/l-hors-presence-ou-chimeres-du-pays-de-morsan",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "c624d219a8400dcd08bb",
     "title": "Le Sumud de Samah Du",
     "start": "2026-11-04T20:00:00+01:00",
@@ -639,17 +621,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "fba896faa8ad6fef6c08",
-    "title": "Quoi ? Tout le week-end !!! à Saint-Étienne",
-    "start": "2026-11-08T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=019ef9e9-8aa3-7004-8a19-313ca0621287",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "c48c77f73da4b8a03821",
     "title": "Jam Session",
     "start": "2026-11-09T20:30:00+01:00",
@@ -747,27 +718,6 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jean-luc-thomas-quartet/",
     "source": "Le Solar"
-  },
-  {
-    "id": "2394d84b57219686fe14",
-    "title": "Un pouce en cavale",
-    "start": "2026-11-13T10:00:00+01:00",
-    "end": "2026-11-20T14:00:00+01:00",
-    "sessions": [
-      "2026-11-13T10:00:00+01:00",
-      "2026-11-14T17:00:00+01:00",
-      "2026-11-17T10:00:00+01:00",
-      "2026-11-18T15:00:00+01:00",
-      "2026-11-19T18:00:00+01:00",
-      "2026-11-20T14:00:00+01:00"
-    ],
-    "session_count": 6,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
-    "source": "Comédie Sainté"
   },
   {
     "id": "1c1c7e841a1d73b313aa",
@@ -876,25 +826,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "bade266640b02d23c2e1",
-    "title": "Dialogue entre deux espèces",
-    "start": "2026-11-16T10:00:00+01:00",
-    "end": "2026-11-19T10:00:00+01:00",
-    "sessions": [
-      "2026-11-16T10:00:00+01:00",
-      "2026-11-17T14:00:00+01:00",
-      "2026-11-18T15:00:00+01:00",
-      "2026-11-19T10:00:00+01:00"
-    ],
-    "session_count": 4,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/dialogue-entre-deux-especes",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "7a6cf6d1ad3b827589d6",
     "title": "Jam Session",
     "start": "2026-11-16T20:30:00+01:00",
@@ -904,45 +835,6 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-132/",
     "source": "Le Solar"
-  },
-  {
-    "id": "fa603b0626cfc8b40dae",
-    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
-    "start": "2026-11-17T20:00:00+01:00",
-    "end": "2026-11-20T20:00:00+01:00",
-    "sessions": [
-      "2026-11-17T20:00:00+01:00",
-      "2026-11-18T20:00:00+01:00",
-      "2026-11-19T20:00:00+01:00",
-      "2026-11-20T20:00:00+01:00"
-    ],
-    "session_count": 4,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-declaration-d-amour-de-louis-hee-a-john-ah-oui",
-    "source": "Comédie Sainté"
-  },
-  {
-    "id": "e37c0491352905faca64",
-    "title": "Mussum",
-    "start": "2026-11-17T20:00:00+01:00",
-    "end": "2026-11-21T17:00:00+01:00",
-    "sessions": [
-      "2026-11-17T20:00:00+01:00",
-      "2026-11-18T20:00:00+01:00",
-      "2026-11-19T20:00:00+01:00",
-      "2026-11-20T20:00:00+01:00",
-      "2026-11-21T17:00:00+01:00"
-    ],
-    "session_count": 5,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
-    "source": "Comédie Sainté"
   },
   {
     "id": "58263388bf03c22c95fc",
@@ -1280,6 +1172,17 @@
     "source": "La Ricane"
   },
   {
+    "id": "7b09b0fb0c1257a2032e",
+    "title": "La pièce à danser - Fête de la Comète",
+    "start": "2026-11-22T10:00:00+01:00",
+    "venue": "L'Usine",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/la-piece-a-danser-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
     "id": "4114f8b607f0cdf0f49b",
     "title": "Collectif Les Fracassé·es - Fête de la Comète",
     "start": "2026-11-22T10:00:00+01:00",
@@ -1405,44 +1308,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/cirque-cabarets-portraits-pour-vents/s-884/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "44078813151a59dd73c0",
-    "title": "La folle Journée ou Le Mariage de Figaro",
-    "start": "2026-11-24T20:00:00+01:00",
-    "end": "2026-11-27T20:00:00+01:00",
-    "sessions": [
-      "2026-11-24T20:00:00+01:00",
-      "2026-11-25T20:00:00+01:00",
-      "2026-11-26T20:00:00+01:00",
-      "2026-11-27T20:00:00+01:00"
-    ],
-    "session_count": 4,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-folle-journee-ou-le-mariage-de-figaro",
-    "source": "Comédie Sainté"
-  },
-  {
-    "id": "6b7d019b30b1d03d3947",
-    "title": "Les corps incorruptibles",
-    "start": "2026-11-24T20:00:00+01:00",
-    "end": "2026-11-27T20:00:00+01:00",
-    "sessions": [
-      "2026-11-24T20:00:00+01:00",
-      "2026-11-25T20:00:00+01:00",
-      "2026-11-26T18:00:00+01:00",
-      "2026-11-27T20:00:00+01:00"
-    ],
-    "session_count": 4,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
-    "source": "Comédie Sainté"
   },
   {
     "id": "c80ab0583b32070fda72",
@@ -1685,24 +1550,6 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/statut-et-fiscalite-des-artistes/",
     "source": "Le Fil"
-  },
-  {
-    "id": "5871aed74cc08f0533b2",
-    "title": "Écorces, polar forestier",
-    "start": "2026-12-01T20:00:00+01:00",
-    "end": "2026-12-03T20:00:00+01:00",
-    "sessions": [
-      "2026-12-01T20:00:00+01:00",
-      "2026-12-02T20:00:00+01:00",
-      "2026-12-03T20:00:00+01:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ecorces-polar-forestier",
-    "source": "Comédie Sainté"
   },
   {
     "id": "ead3e52e4f7a5891801f",
@@ -1952,24 +1799,6 @@
     "source": "Le Solar"
   },
   {
-    "id": "98882920f630b7a310d8",
-    "title": "Ivanov",
-    "start": "2026-12-08T20:00:00+01:00",
-    "end": "2026-12-10T20:00:00+01:00",
-    "sessions": [
-      "2026-12-08T20:00:00+01:00",
-      "2026-12-09T19:00:00+01:00",
-      "2026-12-10T20:00:00+01:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ivanov",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "c767b6d9c4bed4016c05",
     "title": "ERIC FRATICELLI",
     "start": "2026-12-08T20:30:00+01:00",
@@ -2112,6 +1941,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "20f6dca362ecc34b7891",
+    "title": "SOIREE CABAROKE Cabaret · Chanson · Karaoké",
+    "start": "2026-12-12T19:30:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://laricane.com/event/soiree-cabaroke/",
+    "source": "La Ricane"
+  },
+  {
     "id": "5e9cf174428fc803a328",
     "title": "SALIMA PASSION",
     "start": "2026-12-12T20:30:00+01:00",
@@ -2156,24 +1996,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "82ad02685c30e3733117",
-    "title": "Qui som?",
-    "start": "2026-12-15T20:00:00+01:00",
-    "end": "2026-12-17T20:00:00+01:00",
-    "sessions": [
-      "2026-12-15T20:00:00+01:00",
-      "2026-12-16T20:00:00+01:00",
-      "2026-12-17T20:00:00+01:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/qui-som",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "17ce3847501d4644b88c",
     "title": "Un bateau Compagnie Sans Soucis Marionnettes, musique, images animées, dès 3 ans",
     "start": "2026-12-16T15:00:00+01:00",
@@ -2200,25 +2022,6 @@
     "description": "",
     "url": "https://saint-chamond.fr/events/concert-jeune-public-labecedaire-de-boris-vian/",
     "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "758c8f20be97d322dc7a",
-    "title": "Entre deux rives",
-    "start": "2026-12-16T20:00:00+01:00",
-    "end": "2026-12-19T17:00:00+01:00",
-    "sessions": [
-      "2026-12-16T20:00:00+01:00",
-      "2026-12-17T20:00:00+01:00",
-      "2026-12-18T18:00:00+01:00",
-      "2026-12-19T17:00:00+01:00"
-    ],
-    "session_count": 4,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
-    "source": "Comédie Sainté"
   },
   {
     "id": "0509c3bb8dca8d11d941",
@@ -3233,17 +3036,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "a8f0dcc2022a0515627e",
-    "title": "YVAN MARC CHANTE CABREL Chanson ·",
-    "start": "2027-02-12T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://laricane.com/event/yvan-marc-chante-cabrel/",
-    "source": "La Ricane"
-  },
-  {
     "id": "e2d6d9a45e36414aba87",
     "title": "Véronic Dicaire",
     "start": "2027-02-13T20:00:00+01:00",
@@ -3693,6 +3485,17 @@
     "description": "",
     "url": "https://www.arcomik.com/event/alex-vizorek/",
     "source": "ArcomiK"
+  },
+  {
+    "id": "5b1649429f906c365a31",
+    "title": "YVAN MARC CHANTE CABREL Chanson ·",
+    "start": "2027-02-27T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://laricane.com/event/yvan-marc-chante-cabrel/",
+    "source": "La Ricane"
   },
   {
     "id": "b01eb90e4d122b4bba11",
@@ -4933,17 +4736,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "cd8f0e5602996d109ea9",
-    "title": "Gaga des Stéphanois à Saint-Étienne",
-    "start": "2027-06-04T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a068de-b3db-75ed-a76e-fb62c10b240c",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "531d4475e8bd7379a265",
     "title": "Vite, un selfie ! Compagnie Lucamoros Peinture et chant, dès 8 ans",
     "start": "2027-06-05T16:00:00+02:00",
@@ -4991,17 +4783,6 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802749-la-nuit-lordure",
     "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "c714ab16ea96aecbf98f",
-    "title": "Triomphe Comedy Club à Saint-Étienne",
-    "start": "2027-06-10T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "/favori/garder?event=01a03801-4856-7c1b-a0a0-49729278952f",
-    "source": "Agenda Culturel"
   },
   {
     "id": "ac21252886b680cab02d",
@@ -5178,6 +4959,24 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "c5b05839878bb1b355d4",
+    "title": "L’hors-présence ou chimères du pays de Morsan",
+    "start": "2027-11-03T20:00:00+01:00",
+    "end": "2027-11-05T20:00:00+01:00",
+    "sessions": [
+      "2027-11-03T20:00:00+01:00",
+      "2027-11-04T19:00:00+01:00",
+      "2027-11-05T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/l-hors-presence-ou-chimeres-du-pays-de-morsan",
+    "source": "Comédie Sainté"
+  },
+  {
     "id": "a12acedd7da07506135b",
     "title": "ESTHER ABRAMI",
     "start": "2027-11-06T20:30:00+01:00",
@@ -5200,6 +4999,46 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "f73576961a4302a3d3a0",
+    "title": "Un pouce en cavale",
+    "start": "2027-11-13T10:00:00+01:00",
+    "end": "2027-11-20T14:00:00+01:00",
+    "sessions": [
+      "2027-11-13T10:00:00+01:00",
+      "2027-11-14T17:00:00+01:00",
+      "2027-11-17T10:00:00+01:00",
+      "2027-11-18T15:00:00+01:00",
+      "2027-11-19T18:00:00+01:00",
+      "2027-11-20T14:00:00+01:00"
+    ],
+    "session_count": 6,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "a815ef73a58c70b14173",
+    "title": "Dialogue entre deux espèces",
+    "start": "2027-11-16T10:00:00+01:00",
+    "end": "2027-11-19T10:00:00+01:00",
+    "sessions": [
+      "2027-11-16T10:00:00+01:00",
+      "2027-11-17T14:00:00+01:00",
+      "2027-11-18T15:00:00+01:00",
+      "2027-11-19T10:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/dialogue-entre-deux-especes",
+    "source": "Comédie Sainté"
+  },
+  {
     "id": "8be0fdeadc98536b0717",
     "title": "Laurent Gerra se met à table !",
     "start": "2027-11-17T20:00:00+01:00",
@@ -5211,6 +5050,45 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "6a9e85a6ec388aa8c2c0",
+    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
+    "start": "2027-11-17T20:00:00+01:00",
+    "end": "2027-11-20T20:00:00+01:00",
+    "sessions": [
+      "2027-11-17T20:00:00+01:00",
+      "2027-11-18T20:00:00+01:00",
+      "2027-11-19T20:00:00+01:00",
+      "2027-11-20T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-declaration-d-amour-de-louis-hee-a-john-ah-oui",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "90d5625daf045952782e",
+    "title": "Mussum",
+    "start": "2027-11-17T20:00:00+01:00",
+    "end": "2027-11-21T17:00:00+01:00",
+    "sessions": [
+      "2027-11-17T20:00:00+01:00",
+      "2027-11-18T20:00:00+01:00",
+      "2027-11-19T20:00:00+01:00",
+      "2027-11-20T20:00:00+01:00",
+      "2027-11-21T17:00:00+01:00"
+    ],
+    "session_count": 5,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
+    "source": "Comédie Sainté"
+  },
+  {
     "id": "d4520255f04673007c54",
     "title": "I GOTTA FEELING Saison 3 - La Tournée des Années 2000",
     "start": "2027-11-20T20:00:00+01:00",
@@ -5220,6 +5098,44 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/i-gotta-feeling/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "0d6c517c640cd6c2f2c7",
+    "title": "La folle Journée ou Le Mariage de Figaro",
+    "start": "2027-11-24T20:00:00+01:00",
+    "end": "2027-11-27T20:00:00+01:00",
+    "sessions": [
+      "2027-11-24T20:00:00+01:00",
+      "2027-11-25T20:00:00+01:00",
+      "2027-11-26T20:00:00+01:00",
+      "2027-11-27T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-folle-journee-ou-le-mariage-de-figaro",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "7b7622e60bff54492f0a",
+    "title": "Les corps incorruptibles",
+    "start": "2027-11-24T20:00:00+01:00",
+    "end": "2027-11-27T20:00:00+01:00",
+    "sessions": [
+      "2027-11-24T20:00:00+01:00",
+      "2027-11-25T20:00:00+01:00",
+      "2027-11-26T18:00:00+01:00",
+      "2027-11-27T20:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/les-corps-incorruptibles",
+    "source": "Comédie Sainté"
   },
   {
     "id": "2f26f083206df62b997a",
@@ -5255,6 +5171,60 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "ff37e21e963446c112e9",
+    "title": "Écorces, polar forestier",
+    "start": "2027-12-01T20:00:00+01:00",
+    "end": "2027-12-03T20:00:00+01:00",
+    "sessions": [
+      "2027-12-01T20:00:00+01:00",
+      "2027-12-02T20:00:00+01:00",
+      "2027-12-03T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ecorces-polar-forestier",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "41ad3c2d7bf2daee2d06",
+    "title": "Ivanov",
+    "start": "2027-12-08T20:00:00+01:00",
+    "end": "2027-12-10T20:00:00+01:00",
+    "sessions": [
+      "2027-12-08T20:00:00+01:00",
+      "2027-12-09T19:00:00+01:00",
+      "2027-12-10T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ivanov",
+    "source": "Comédie Sainté"
+  },
+  {
+    "id": "83fcc3504506297800e8",
+    "title": "Qui som?",
+    "start": "2027-12-15T20:00:00+01:00",
+    "end": "2027-12-17T20:00:00+01:00",
+    "sessions": [
+      "2027-12-15T20:00:00+01:00",
+      "2027-12-16T20:00:00+01:00",
+      "2027-12-17T20:00:00+01:00"
+    ],
+    "session_count": 3,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/qui-som",
+    "source": "Comédie Sainté"
+  },
+  {
     "id": "7d17be8b8ef1285913e2",
     "title": "Patrick Fiori",
     "start": "2027-12-16T20:00:00+01:00",
@@ -5264,6 +5234,25 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-fiori-2027/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "6653c2d05e70f8c927e7",
+    "title": "Entre deux rives",
+    "start": "2027-12-16T20:00:00+01:00",
+    "end": "2027-12-19T17:00:00+01:00",
+    "sessions": [
+      "2027-12-16T20:00:00+01:00",
+      "2027-12-17T20:00:00+01:00",
+      "2027-12-18T18:00:00+01:00",
+      "2027-12-19T17:00:00+01:00"
+    ],
+    "session_count": 4,
+    "venue": "La Comédie",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
+    "source": "Comédie Sainté"
   },
   {
     "id": "5709e67a2b46c082f5dc",
