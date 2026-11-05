@@ -1062,17 +1062,6 @@
     "source": "La Comète"
   },
   {
-    "id": "312b3cab6a71ca7109f1",
-    "title": "Les Martinets - Fête de la Comète",
-    "start": "2026-11-21T16:00:00+01:00",
-    "venue": "La Comète",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/les-martinets-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
     "id": "8465b3ca1e4ab7bdeac8",
     "title": "P'tit Frère - Fête de la Comète",
     "start": "2026-11-21T16:00:00+01:00",
@@ -1081,6 +1070,17 @@
     "category": "Théâtre",
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/ptit-frere-fete-de-la-comete/",
+    "source": "La Comète"
+  },
+  {
+    "id": "312b3cab6a71ca7109f1",
+    "title": "Les Martinets - Fête de la Comète",
+    "start": "2026-11-21T16:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/les-martinets-fete-de-la-comete/",
     "source": "La Comète"
   },
   {
@@ -1733,6 +1733,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "d7a1c059fc9e4b582f3e",
+    "title": "Louis Mezzasoma",
+    "start": "2026-12-05T20:00:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/louis-mezzasoma/",
+    "source": "Le Solar"
+  },
+  {
     "id": "d66cc8ad2beae5fc2e38",
     "title": "TROTWOOD",
     "start": "2026-12-05T20:00:00+01:00",
@@ -1786,17 +1797,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "af85f1e2e2df8645dda6",
-    "title": "Louis Mezzasoma",
-    "start": "2026-12-06T20:00:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/louis-mezzasoma/",
-    "source": "Le Solar"
   },
   {
     "id": "c767b6d9c4bed4016c05",
@@ -4736,6 +4736,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "2d9566e831ea9d161472",
+    "title": "Balavoine, Ma Bataille L'Hommage Authentique",
+    "start": "2027-06-04T00:00:00+02:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/balavoine-ma-bataille/",
+    "source": "Zénith Sainté"
+  },
+  {
     "id": "531d4475e8bd7379a265",
     "title": "Vite, un selfie ! Compagnie Lucamoros Peinture et chant, dès 8 ans",
     "start": "2027-06-05T16:00:00+02:00",
@@ -4760,17 +4771,6 @@
     "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "359f3445c582dc0d4fce",
-    "title": "LE LAC DES CYGNES Une tournée inoubliable",
-    "start": "2027-06-05T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027-2/",
     "source": "Zénith Sainté"
   },
   {
