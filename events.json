@@ -440,39 +440,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "c624d219a8400dcd08bb",
-    "title": "Le Sumud de Samah Du",
-    "start": "2026-11-04T20:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/802021-le-sumud-de-samah",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "0bad4ce03a610a9403f3",
-    "title": "ALEX DI MAMBRO",
-    "start": "2026-11-04T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/alex-di-mambro",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "4ffbf7fe8db86cdba62a",
-    "title": "Synthézic AMAD + 404 + Division Theory + Scène ouverte !",
-    "start": "2026-11-05T18:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/synthezic/",
-    "source": "Le Fil"
-  },
-  {
     "id": "a1e3080ec96020ca6ce0",
     "title": "Les Nuances Utopiques Ensemble Orchestral Contemporain",
     "start": "2026-11-05T20:00:00+01:00",
@@ -489,15 +456,15 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "9076c75a1f13549010e9",
-    "title": "Humour musical - les goguettes (en trio mais à quatre)",
+    "id": "8590fa237b69031819a5",
+    "title": "Complet sur Internet Le Sumud de Samah",
     "start": "2026-11-05T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Humour",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://saint-chamond.fr/events/humour-musical-les-goguettes-en-trio-mais-a-quatre/",
-    "source": "Salle Aristide Briand"
+    "url": "https://billetterie-leverso.mapado.com/event/802021-le-sumud-de-samah",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "bb9f22e4ddb2d25e7093",
@@ -509,17 +476,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "1c70d2cc09f8c277438e",
-    "title": "Complet - AMINE RADI",
-    "start": "2026-11-05T20:30:00+01:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/complet-amine-radi/",
-    "source": "La Comète"
   },
   {
     "id": "74a876e9fe605d5b1fa1",
@@ -2317,6 +2273,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "0fdce4d60df29c779869",
+    "title": "Atelier chorégraphique",
+    "start": "2027-01-16T10:00:00+01:00",
+    "venue": "La Comète",
+    "city": "Saint-Étienne",
+    "category": "Opéra-Danse",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/atelier-choregraphique/",
+    "source": "La Comète"
+  },
+  {
     "id": "8418f1c9ebc804a5e41c",
     "title": "THOMAS MARTY",
     "start": "2027-01-16T20:00:00+01:00",
@@ -2903,17 +2870,6 @@
     "source": "La Comète"
   },
   {
-    "id": "d773fd9da4516f5bf9fb",
-    "title": "On s’rencontre # 2",
-    "start": "2027-02-06T18:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801048-on-srencontre-2",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "edbbc4c9abf7fe403cd8",
     "title": "Théâtre de boulevard - \"Un château de cartes\"",
     "start": "2027-02-06T20:00:00+01:00",
@@ -3209,6 +3165,17 @@
     "category": "Humour",
     "description": "",
     "url": "https://www.arcomik.com/event/sofia-belabesses-arcomik/",
+    "source": "ArcomiK"
+  },
+  {
+    "id": "acfcca7683d7fc869ce6",
+    "title": "Guillaume Guisset – 2e séance",
+    "start": "2027-02-20T20:30:00+01:00",
+    "venue": "Théatre de l’Université",
+    "city": "Saint-Etienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.arcomik.com/event/guillaume-guisset-2/",
     "source": "ArcomiK"
   },
   {
@@ -4957,24 +4924,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "c5b05839878bb1b355d4",
-    "title": "L’hors-présence ou chimères du pays de Morsan",
-    "start": "2027-11-03T20:00:00+01:00",
-    "end": "2027-11-05T20:00:00+01:00",
-    "sessions": [
-      "2027-11-03T20:00:00+01:00",
-      "2027-11-04T19:00:00+01:00",
-      "2027-11-05T20:00:00+01:00"
-    ],
-    "session_count": 3,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/l-hors-presence-ou-chimeres-du-pays-de-morsan",
-    "source": "Comédie Sainté"
   },
   {
     "id": "a12acedd7da07506135b",
