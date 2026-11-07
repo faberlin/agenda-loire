@@ -456,17 +456,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "8590fa237b69031819a5",
-    "title": "Complet sur Internet Le Sumud de Samah",
-    "start": "2026-11-05T20:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/802021-le-sumud-de-samah",
-    "source": "Théâtre Le Verso"
-  },
-  {
     "id": "bb9f22e4ddb2d25e7093",
     "title": "Orchestre Séneçon",
     "start": "2026-11-05T20:00:00+01:00",
@@ -476,50 +465,6 @@
     "description": "",
     "url": "https://brankignols.wixsite.com/theatredepoche/spectacles-%C3%A0-venir",
     "source": "Théâtre de Poche des Brankignols"
-  },
-  {
-    "id": "74a876e9fe605d5b1fa1",
-    "title": "GAGA FIGHT",
-    "start": "2026-11-05T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-23",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "5badc8ada4104696e419",
-    "title": "Kery James + Anton Serra & Oster Lapwass",
-    "start": "2026-11-06T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/kery-james/",
-    "source": "Le Fil"
-  },
-  {
-    "id": "4dde48fd564301bf7044",
-    "title": "Isla Dorada",
-    "start": "2026-11-06T20:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/isla-dorada/",
-    "source": "Le Solar"
-  },
-  {
-    "id": "b57746435960c71e4ade",
-    "title": "COMPLET - EDGAR-YVES JR",
-    "start": "2026-11-06T20:30:00+01:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/complet-edgar-yves-jr/",
-    "source": "La Comète"
   },
   {
     "id": "dcec4fcac3c5ef6f697e",
@@ -791,6 +736,17 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-132/",
     "source": "Le Solar"
+  },
+  {
+    "id": "238ab9f8c44151f739f7",
+    "title": "Forum du Gier – 4e édition",
+    "start": "2026-11-17T14:00:00+01:00",
+    "venue": "Salle Aristide Briand",
+    "city": "Saint-Chamond",
+    "category": "Spectacle",
+    "description": "",
+    "url": "https://saint-chamond.fr/events/forum-du-gier-4e-edition/",
+    "source": "Salle Aristide Briand"
   },
   {
     "id": "58263388bf03c22c95fc",
@@ -1733,6 +1689,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "d7dcaf73b0f81b9e6d1b",
+    "title": "GRAND BAL DE LA SAINTE BARBE Barbeuk Crew + DJ Kitsch Loren",
+    "start": "2026-12-05T23:00:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/grand-bal-de-la-sainte-barbe-3/",
+    "source": "Le Fil"
+  },
+  {
     "id": "933183aa7980f22fbac5",
     "title": "​",
     "start": "2026-12-06T15:00:00+01:00",
@@ -1753,6 +1720,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "650cab92c730403e89d0",
+    "title": "Jam Session",
+    "start": "2026-12-07T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-135/",
+    "source": "Le Solar"
   },
   {
     "id": "c767b6d9c4bed4016c05",
