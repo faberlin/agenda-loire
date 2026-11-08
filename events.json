@@ -467,39 +467,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "dcec4fcac3c5ef6f697e",
-    "title": "EDGAR-YVES JR.",
-    "start": "2026-11-06T20:30:00+01:00",
-    "venue": "La Comète",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/edgar-yves-jr",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "531c8a78dc9a0a773746",
-    "title": "[ Ateliers ] Mémoires en mouvement",
-    "start": "2026-11-07T14:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/801881-ateliers-memoires-en-mouvement",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "ec90a67d247aa0fae369",
-    "title": "Folie’s + Rémi Officieux",
-    "start": "2026-11-07T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/folies/",
-    "source": "Le Fil"
-  },
-  {
     "id": "6d9a7653b2b017171d7b",
     "title": "Rodrigue",
     "start": "2026-11-07T20:30:00+01:00",
@@ -1203,6 +1170,17 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-133/",
     "source": "Le Solar"
+  },
+  {
+    "id": "996fc339ebe307f7ee9e",
+    "title": "SOUPE DES CHEFS",
+    "start": "2026-11-24T18:30:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/soupe-des-chefs/",
+    "source": "Zénith Sainté"
   },
   {
     "id": "79eaa16d5ff3af0cc58e",
