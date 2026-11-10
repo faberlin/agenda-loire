@@ -374,6 +374,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "a73f83bbfbf414906249",
+    "title": "Gildaa",
+    "start": "2026-10-23T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/gildaa/",
+    "source": "Le Fil"
+  },
+  {
     "id": "3b6f15bb438512f34d38",
     "title": "Ulrike Meinhof",
     "start": "2026-10-24T17:00:00+02:00",
@@ -489,17 +500,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "c48c77f73da4b8a03821",
-    "title": "Jam Session",
-    "start": "2026-11-09T20:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jam-session-131/",
-    "source": "Le Solar"
-  },
-  {
     "id": "22cdd71279752a9651ea",
     "title": "Tarentaize-Beaubrun-Couriot : des vies et des plans",
     "start": "2026-11-10T10:00:00+01:00",
@@ -564,28 +564,6 @@
     "description": "",
     "url": "https://choktheatre.com/asil-theatre-dimpro-2026/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "c9d7045425907d427665",
-    "title": "Thomas Valverde à Saint-Étienne",
-    "start": "2026-11-12T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a03801-a411-7102-8bd2-3af48c0f59cb",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "a1a60b293eef52b265fc",
-    "title": "Concert - sinclair",
-    "start": "2026-11-12T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/concert-sinclair/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "6aab346ff4dfd4b7ed09",
@@ -661,17 +639,6 @@
     "source": "Le Solar"
   },
   {
-    "id": "5f3d1b75b099586c2a03",
-    "title": "Malik Belkhodja dans Charo responsable à Saint-Étienne",
-    "start": "2026-11-14T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=019f32d9-f6e4-736b-9c32-3b2a1ee8ebb0",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "a639ca3825b95d4fdf3e",
     "title": "Didier Super et son groupe Discount + MPAM",
     "start": "2026-11-14T20:30:00+01:00",
@@ -716,17 +683,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "970954c2214adc63e41e",
-    "title": "Mon mari est un ado à Saint-Étienne",
-    "start": "2026-11-15T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a07d56-0c23-701c-86c2-aabf110c5416",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "7a6cf6d1ad3b827589d6",
     "title": "Jam Session",
     "start": "2026-11-16T20:30:00+01:00",
@@ -736,17 +692,6 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-132/",
     "source": "Le Solar"
-  },
-  {
-    "id": "238ab9f8c44151f739f7",
-    "title": "Forum du Gier – 4e édition",
-    "start": "2026-11-17T14:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/forum-du-gier-4e-edition/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "58263388bf03c22c95fc",
@@ -895,17 +840,6 @@
     "description": "",
     "url": "https://choktheatre.com/tact-ou-lamour-du-travail/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "7c16ae724b0c452f9f75",
-    "title": "Humour - \"L’impatient\"",
-    "start": "2026-11-20T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Humour",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/humour-limpatient/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "7689f26263a1bb16740e",
@@ -1541,17 +1475,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "233ce6cd92a31b57705d",
-    "title": "Théâtre musical - les virtuoses",
-    "start": "2026-12-04T19:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/theatre-musical-les-virtuoses/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "6f50820e78565dc2e5cd",
     "title": "Involution, du moi, par moi et pour moi",
     "start": "2026-12-04T20:00:00+01:00",
@@ -1831,6 +1754,17 @@
     "source": "La Comète"
   },
   {
+    "id": "fd665b9f4657c261d7e2",
+    "title": "Hommage à Ella Fitzgerald",
+    "start": "2026-12-11T19:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/hommage-a-ella-fitzgerald/",
+    "source": "Le Solar"
+  },
+  {
     "id": "096bf45691e170b7a495",
     "title": "THE JEFF PANACLOC COMPANY",
     "start": "2026-12-11T20:00:00+01:00",
@@ -1851,17 +1785,6 @@
     "description": "",
     "url": "https://choktheatre.com/reverie/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "bb8f23978bc25a3cfab7",
-    "title": "Polyphonies et percussions - les mécanos",
-    "start": "2026-12-11T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/polyphonies-et-percussions-les-mecanos/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "cab323ee103a87a3e648",
@@ -1956,17 +1879,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/un-bateau/s-904/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "2cde43869b79ae7969f5",
-    "title": "Concert jeune public - \"L’abécédaire de Boris Vian\"",
-    "start": "2026-12-16T15:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/concert-jeune-public-labecedaire-de-boris-vian/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "0509c3bb8dca8d11d941",
@@ -2282,17 +2194,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/thomas-marty/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "00565c02c020227faa1f",
-    "title": "Gildaa",
-    "start": "2027-01-16T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/gildaa/",
-    "source": "Le Fil"
   },
   {
     "id": "c1c2d2f55356fbf4cfa2",
@@ -2614,17 +2515,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "4d323134e1e4c5c8b215",
-    "title": "Concert - Noëmi waysfeld chante barbara",
-    "start": "2027-01-29T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/concert-noemi-waysfeld-chante-barbara/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "5e55844e68555041cd3a",
     "title": "SKIP THE USE + Imparfait",
     "start": "2027-01-29T20:30:00+01:00",
@@ -2859,17 +2749,6 @@
     "source": "La Comète"
   },
   {
-    "id": "edbbc4c9abf7fe403cd8",
-    "title": "Théâtre de boulevard - \"Un château de cartes\"",
-    "start": "2027-02-06T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/theatre-de-boulevard-un-chateau-de-cartes/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "1bc6d7a7a3658abbe50a",
     "title": "LES ETOILES DU CIRQUE DE PEKIN Odyssée",
     "start": "2027-02-07T16:00:00+01:00",
@@ -2946,17 +2825,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/last-touch/",
     "source": "La Comète"
-  },
-  {
-    "id": "b4f8a7a30a5d074df97f",
-    "title": "Concert - opérette - \"Offenbach en fête !\"",
-    "start": "2027-02-11T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/concert-operette-offenbach-en-fete/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "c90b0f5fc252ac8bf249",
@@ -3366,17 +3234,6 @@
     "source": "ArcomiK"
   },
   {
-    "id": "177d821e17ad806fcc68",
-    "title": "Humour - Mathieu Madénian",
-    "start": "2027-02-26T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Humour",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/humour-mathieu-madenian/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "7840980babc06ef9d1a7",
     "title": "Arnaud Demanche",
     "start": "2027-02-26T20:30:00+01:00",
@@ -3488,17 +3345,6 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/batir",
     "source": "Comédie Sainté"
-  },
-  {
-    "id": "b4383351a3afa49e2590",
-    "title": "Clown et magie - \"Ça cartonne\"",
-    "start": "2027-03-03T15:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/clown-et-magie-ca-cartonne/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "b2ecee5914831feea047",
@@ -3674,17 +3520,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "375583cefc5179e3a9e8",
-    "title": "Théâtre gisèle halimi - \"Une farouche liberté\"",
-    "start": "2027-03-11T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/theatre-gisele-halimi-une-farouche-liberte/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "99a0c903c38abfc9c300",
     "title": "CYRANO DE BERGERAC",
     "start": "2027-03-12T20:00:00+01:00",
@@ -3771,17 +3606,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/olivia-moore",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "a2579e2ad45fddf77e12",
-    "title": "Concert - André Manoukian et Rosemary Stanley",
-    "start": "2027-03-14T17:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/concert-andre-manoukian-et-rosemary-stanley/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "60bc0b078e341812a272",
@@ -3906,17 +3730,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "a1c1b524c301ba1ba873",
-    "title": "Danse - \"Pulse\"",
-    "start": "2027-03-18T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Opéra-Danse",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/danse-pulse/",
-    "source": "Salle Aristide Briand"
-  },
-  {
     "id": "8cd7a8618f22971b84ad",
     "title": "High Fade",
     "start": "2027-03-18T20:30:00+01:00",
@@ -4003,17 +3816,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/ninho/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "0f4f9f43c5237ff19bb0",
-    "title": "Théâtre - danse - \"Cross\"",
-    "start": "2027-03-23T19:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Opéra-Danse",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/theatre-danse-cross/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "50ed9ef803c1eeb77e4c",
@@ -4106,17 +3908,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/la-truite/s-897/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "756f82bd8117b615b721",
-    "title": "Théâtre classique - \"Le tartuffe\"",
-    "start": "2027-03-26T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/theatre-classique-le-tartuffe/",
-    "source": "Salle Aristide Briand"
   },
   {
     "id": "65ef49605c4602d21409",
@@ -4531,6 +4322,17 @@
     "description": "",
     "url": "https://lechambon.fr/culture/",
     "source": " Salles Chambon-Feugerolles"
+  },
+  {
+    "id": "790ce980785d06415c3a",
+    "title": "Secrets de beatmaker",
+    "start": "2027-05-11T18:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/secrets-de-beatmaker/",
+    "source": "Le Fil"
   },
   {
     "id": "ee4f49f00409f57861cb",
