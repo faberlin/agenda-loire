@@ -11,39 +11,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "6f9efaee827496a45185",
-    "title": "Les pieds par terre",
-    "start": "2026-01-21T14:00:00+01:00",
-    "venue": "Chok Théâtre",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://choktheatre.com/les-pieds-par-terre-2/",
-    "source": "Chok Théâtre"
-  },
-  {
-    "id": "7f28598d40ebbecfc459",
-    "title": "Les pieds par terre",
-    "start": "2026-01-22T20:00:00+01:00",
-    "venue": "Chok Théâtre",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://choktheatre.com/les-pieds-par-terre-2/",
-    "source": "Chok Théâtre"
-  },
-  {
-    "id": "5bdffb603259318f1c60",
-    "title": "Les pieds par terre",
-    "start": "2026-01-24T17:00:00+01:00",
-    "venue": "Chok Théâtre",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://choktheatre.com/les-pieds-par-terre-2/",
-    "source": "Chok Théâtre"
-  },
-  {
     "id": "0d33d659cd95e2faf9f5",
     "title": "Mon plaisir est stéphanois 2026",
     "start": "2026-09-10T14:00:00+02:00",
@@ -500,39 +467,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "dc64935a82ae01e5d1f6",
-    "title": "JEFFOU LE GNOU",
-    "start": "2026-11-11T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/jeffou-le-gnou2",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "43709e314d25e134865a",
-    "title": "Retour",
-    "start": "2026-11-12T19:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/didier-super/",
-    "source": "Le Fil"
-  },
-  {
-    "id": "3372e2ddeefb58f52ebd",
-    "title": "Stranded Horse & Boubacar Cissokho Concert immersif allongé !",
-    "start": "2026-11-12T19:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/stranded-horse-boubacar-cissokho/",
-    "source": "Le Fil"
-  },
-  {
     "id": "56a855e6eda5562d7b7c",
     "title": "CHRISTOPHE MAÉ",
     "start": "2026-11-12T20:00:00+01:00",
@@ -553,28 +487,6 @@
     "description": "",
     "url": "https://choktheatre.com/asil-theatre-dimpro-2026/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "a1a60b293eef52b265fc",
-    "title": "Concert - sinclair",
-    "start": "2026-11-12T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/concert-sinclair/",
-    "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "6aab346ff4dfd4b7ed09",
-    "title": "Jean-Luc Thomas Quartet",
-    "start": "2026-11-12T20:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jean-luc-thomas-quartet/",
-    "source": "Le Solar"
   },
   {
     "id": "1c1c7e841a1d73b313aa",
@@ -637,6 +549,17 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/hommage-a-miles-davis-la-revolution-electrique/",
     "source": "Le Solar"
+  },
+  {
+    "id": "a639ca3825b95d4fdf3e",
+    "title": "Didier Super et son groupe Discount + MPAM",
+    "start": "2026-11-14T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/didier-super/",
+    "source": "Le Fil"
   },
   {
     "id": "d0b310937bab5180d4fe",
@@ -886,14 +809,14 @@
     "source": "La Ricane"
   },
   {
-    "id": "8bb30d0fd88cbdfaf534",
-    "title": "baba…BabillageS - Fête de la Comète",
+    "id": "76d280bc94aa41476233",
+    "title": "baba…BabillageS - COMPLET - Fête de la Comète",
     "start": "2026-11-21T10:30:00+01:00",
     "venue": "La Comète",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/babababillages-fete-de-la-comete/",
+    "url": "https://lacomete.saint-etienne.fr/evenements/babababillages-complet-fete-de-la-comete/",
     "source": "La Comète"
   },
   {
@@ -1897,6 +1820,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "5f18014cf0ec7c861e19",
+    "title": "Jam Session",
+    "start": "2026-12-14T20:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/jam-session-136/",
+    "source": "Le Solar"
+  },
+  {
     "id": "17ce3847501d4644b88c",
     "title": "Un bateau Compagnie Sans Soucis Marionnettes, musique, images animées, dès 3 ans",
     "start": "2026-12-16T15:00:00+01:00",
@@ -2207,17 +2141,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "0716b26fed45f5b6a8f9",
-    "title": "Yann Guillarme",
-    "start": "2027-01-15T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/yann-guillarme/",
-    "source": "Le Fil"
-  },
-  {
     "id": "0fdce4d60df29c779869",
     "title": "Atelier chorégraphique",
     "start": "2027-01-16T10:00:00+01:00",
@@ -2291,6 +2214,17 @@
     "source": "Théâtre Le Verso"
   },
   {
+    "id": "b947da8e79ec7efb6cd1",
+    "title": "Les pieds par terre",
+    "start": "2027-01-21T14:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-pieds-par-terre-2/",
+    "source": "Chok Théâtre"
+  },
+  {
     "id": "a4e0854f164ad2eab287",
     "title": "MPL",
     "start": "2027-01-21T20:30:00+01:00",
@@ -2349,6 +2283,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/broadway-rhapsody/s-892/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "add4faf782407ba68ba2",
+    "title": "Les pieds par terre",
+    "start": "2027-01-22T20:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-pieds-par-terre-2/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "2399401bf8b618b03d70",
@@ -2420,6 +2365,17 @@
     "description": "",
     "url": "https://laricane.com/event/duo-dimpro/",
     "source": "La Ricane"
+  },
+  {
+    "id": "e59b06581a7e3cc0a635",
+    "title": "Les pieds par terre",
+    "start": "2027-01-24T17:00:00+01:00",
+    "venue": "Chok Théâtre",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://choktheatre.com/les-pieds-par-terre-2/",
+    "source": "Chok Théâtre"
   },
   {
     "id": "ae8da5aee6c356359824",
@@ -3718,6 +3674,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "53ade9c92f88e8215b3d",
+    "title": "INFLUENCEUSE EN 3 JOURS",
+    "start": "2027-03-13T21:00:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/influenceuse-en-3-jours-8/",
+    "source": "La Ricane"
+  },
+  {
     "id": "a2579e2ad45fddf77e12",
     "title": "Concert - André Manoukian et Rosemary Stanley",
     "start": "2027-03-14T17:00:00+01:00",
@@ -4684,6 +4651,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "d67a3de04d8c71160fd1",
+    "title": "Yann Guillarme",
+    "start": "2027-06-05T20:30:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/yann-guillarme/",
+    "source": "Le Fil"
   },
   {
     "id": "f7de1cf7e3148209e116",
