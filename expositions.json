@@ -108,18 +108,6 @@
     "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/bernard-plossu"
   },
   {
-    "id": "1b99bea97423150e979b",
-    "type": "Musée",
-    "source": "MAMC+",
-    "title": "Hommage à philippe favier (1957-2026)",
-    "venue": "MAMC+",
-    "city": "Saint-Étienne",
-    "start": "2027-04-10",
-    "end": "2028-01-02",
-    "status": "upcoming",
-    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/hommage-philippe-favier-1957-2026"
-  },
-  {
     "id": "0088129b203fec3c7a22",
     "type": "Musée",
     "source": "MAMC+",
@@ -142,5 +130,17 @@
     "end": "2028-01-02",
     "status": "upcoming",
     "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/tristan-chinal-dargent"
+  },
+  {
+    "id": "0d85f022cb1d44125a1e",
+    "type": "Musée",
+    "source": "MAMC+",
+    "title": "Vers une dé-production — Restez informés !",
+    "venue": "MAMC+",
+    "city": "Saint-Étienne",
+    "start": "2027-04-10",
+    "end": "2028-01-02",
+    "status": "upcoming",
+    "url": "https://mamc.saint-etienne-metropole.fr/fr/expositions/vers-une-de-production"
   }
 ]
