@@ -467,17 +467,6 @@
     "source": "Médiathèques Sainté"
   },
   {
-    "id": "56a855e6eda5562d7b7c",
-    "title": "CHRISTOPHE MAÉ",
-    "start": "2026-11-12T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/christophe-mae/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "d13a90bebabcea1dce4b",
     "title": "Asil – Théâtre d’impro",
     "start": "2026-11-12T20:00:00+01:00",
@@ -516,28 +505,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/guillaume-sentou",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "69f385857360dbbb2bde",
-    "title": "DIRTY OLD FRIENDS",
-    "start": "2026-11-13T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://laricane.com/event/dirty-old-friends/",
-    "source": "La Ricane"
-  },
-  {
-    "id": "c075c72a3bdfc3a790ed",
-    "title": "Live Dub Session by AFTRWRK Ondubground B2B Mahom B2B Full Dub + Kanka + Art-X + Hermit",
-    "start": "2026-11-13T22:00:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/live-dub-session-by-aftrwrk-2/",
-    "source": "Le Fil"
   },
   {
     "id": "aea718dba0f694ce89d3",
@@ -2040,6 +2007,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "60ddf32de8da0057f60f",
+    "title": "GAGA FIGHT",
+    "start": "2027-01-07T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-25",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "e5fa91725c5498a25510",
     "title": "Il Etait une Fois… Ennio Morricone & Nino Rota",
     "start": "2027-01-08T20:00:00+01:00",
@@ -2354,6 +2332,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/hacenoba-salsa-dj-re-mi/",
     "source": "Le Fil"
+  },
+  {
+    "id": "ec37ed870326bd634133",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2027-01-23T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-17",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "bb3013de5a66fdb062a6",
@@ -2860,6 +2849,17 @@
     "source": "Salle Aristide Briand"
   },
   {
+    "id": "b3d28e050fe31d4e2d3c",
+    "title": "GAGA FIGHT",
+    "start": "2027-02-11T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-26",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "c90b0f5fc252ac8bf249",
     "title": "La P’tite Fumée",
     "start": "2027-02-12T20:30:00+01:00",
@@ -2966,7 +2966,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
     "source": "La Ricane"
   },
   {
@@ -3333,6 +3333,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "9d68ae617524c84519d6",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2027-02-27T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-18",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "cb1f2638cf00a5551af3",
     "title": "Alex Vizorek",
     "start": "2027-02-27T20:30:00+01:00",
@@ -3418,6 +3429,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/en-famille/mikro-bartok",
     "source": "Comédie Sainté"
+  },
+  {
+    "id": "e3acf8bbeee1c59d32b4",
+    "title": "GAGA FIGHT",
+    "start": "2027-03-04T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-27",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "41a4439c20fc5c90b389",
@@ -3840,6 +3862,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "18edf808e68e23e363da",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2027-03-18T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-19",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "74f80f67e6b3d39718fa",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2027-03-18T21:00:00+01:00",
@@ -3847,7 +3880,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
     "source": "La Ricane"
   },
   {
@@ -4227,6 +4260,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "eb96190ea6d106243873",
+    "title": "GAGA FIGHT",
+    "start": "2027-04-08T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-28",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "bb3ceffb468059d01470",
     "title": "Léopold Lemarchand",
     "start": "2027-04-09T20:30:00+02:00",
@@ -4300,8 +4344,19 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
     "source": "La Ricane"
+  },
+  {
+    "id": "95181af144d1f39941bd",
+    "title": "LES TROIS DUCS COMEDY CLUB",
+    "start": "2027-04-17T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-20",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "74d4716311b20202c896",
@@ -4488,6 +4543,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "5e5de863d5bb2fac45ee",
+    "title": "GAGA FIGHT",
+    "start": "2027-05-13T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-29",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "f47989f3b7e5873cda73",
     "title": "Oyseaux de lumière [ Des plumes à 360° ]",
     "start": "2027-05-19T14:00:00+02:00",
@@ -4528,7 +4594,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
     "source": "La Ricane"
   },
   {
@@ -4723,6 +4789,17 @@
     "source": "Comédie Sainté"
   },
   {
+    "id": "3d58724c7a6323696bcf",
+    "title": "GAGA FIGHT",
+    "start": "2027-06-17T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/gaga-fight-30",
+    "source": "Les 3 Ducs"
+  },
+  {
     "id": "c5b7822c2d75e167067f",
     "title": "VERT DE RIRE COMEDY CLUB !",
     "start": "2027-06-17T21:00:00+02:00",
@@ -4730,7 +4807,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-9/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
     "source": "La Ricane"
   },
   {
@@ -5168,6 +5245,17 @@
     "category": "Concerts",
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/piaf-le-spectacle/",
+    "source": "Zénith Sainté"
+  },
+  {
+    "id": "11fcec036e0fc2490460",
+    "title": "Infiniment Robin",
+    "start": "2028-03-11T20:00:00+01:00",
+    "venue": "Zénith de Saint-Étienne",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/infiniment-robin/",
     "source": "Zénith Sainté"
   },
   {
