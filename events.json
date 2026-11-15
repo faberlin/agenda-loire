@@ -496,39 +496,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "b93a9a2e2dc57f310325",
-    "title": "GUILLAUME SENTOU",
-    "start": "2026-11-13T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/guillaume-sentou",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "aea718dba0f694ce89d3",
-    "title": "Hommage à Miles Davis – La révolution électrique",
-    "start": "2026-11-14T19:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/hommage-a-miles-davis-la-revolution-electrique/",
-    "source": "Le Solar"
-  },
-  {
-    "id": "a639ca3825b95d4fdf3e",
-    "title": "Didier Super et son groupe Discount + MPAM",
-    "start": "2026-11-14T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/didier-super/",
-    "source": "Le Fil"
-  },
-  {
     "id": "d0b310937bab5180d4fe",
     "title": "MARC-ANTOINE LE BRET",
     "start": "2026-11-14T20:30:00+01:00",
@@ -551,15 +518,15 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "6ccec288a91dd4e88068",
-    "title": "CASSE-NOISETTE Ballet & Orchestre",
-    "start": "2026-11-15T16:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
+    "id": "970954c2214adc63e41e",
+    "title": "Mon mari est un ado à Saint-Étienne",
+    "start": "2026-11-15T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
     "city": "Saint-Étienne",
-    "category": "Concerts",
+    "category": "Théâtre",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/casse-noisette-2026/",
-    "source": "Zénith Sainté"
+    "url": "/favori/garder?event=01a07d56-0c23-701c-86c2-aabf110c5416",
+    "source": "Agenda Culturel"
   },
   {
     "id": "7a6cf6d1ad3b827589d6",
@@ -606,17 +573,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "c4fca9c20edb2f88712b",
-    "title": "Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté Journée Porte Ouverte de la Gendarmerie",
-    "start": "2026-11-19T09:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "8d8ae119b6bb08964cba",
     "title": "Dialogue entre deux espèces",
     "start": "2026-11-19T10:00:00+01:00",
@@ -655,17 +611,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "03d55eeb4da626d3815e",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2026-11-19T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
-    "source": "La Ricane"
-  },
-  {
     "id": "29eef8adba4cb0b08938",
     "title": "Un je ne sais quoi de presque rien - Fête de la Comète",
     "start": "2026-11-20T17:00:00+01:00",
@@ -697,17 +642,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/mille-horizons-fete-de-la-comete/",
     "source": "La Comète"
-  },
-  {
-    "id": "c3eaa38abb1f1693d1a5",
-    "title": "PATRICK BRUEL Alors regarde",
-    "start": "2026-11-20T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-bruel/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "92402bef4ff5a2617bfa",
@@ -763,17 +697,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nash-2",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "bb76fb1bb021d1e32578",
-    "title": "LA FIV DU SAMEDI SOIR",
-    "start": "2026-11-20T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/la-fiv-du-samedi-soir-2/",
-    "source": "La Ricane"
   },
   {
     "id": "76d280bc94aa41476233",
@@ -853,17 +776,6 @@
     "source": "La Comète"
   },
   {
-    "id": "abc88c3892134f549680",
-    "title": "CLAUDIO CAPEO",
-    "start": "2026-11-21T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "adbc27f62c1e183ec5c5",
     "title": "Département théâtre du conservatoire Massenet - Fête de la Comète",
     "start": "2026-11-21T20:00:00+01:00",
@@ -906,17 +818,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/anne-depetrini",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "ccf54ef93fb6c7d1919e",
-    "title": "DROLES DE MALES",
-    "start": "2026-11-21T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/la-fiv-du-samedi-soir-3-2/",
-    "source": "La Ricane"
   },
   {
     "id": "7b09b0fb0c1257a2032e",
@@ -996,6 +897,17 @@
     "source": "La Comète"
   },
   {
+    "id": "838fb0eea61aec080910",
+    "title": "Au secours, on a un bébé à Saint-Étienne",
+    "start": "2026-11-22T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a03801-3b8d-7f1c-8a97-e293efd2c7dd",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "9a979be092dcfa486bbe",
     "title": "Ari Hoenig Trio",
     "start": "2026-11-22T20:30:00+01:00",
@@ -1018,17 +930,6 @@
     "source": "La Comète"
   },
   {
-    "id": "8fc5155d4949919a3471",
-    "title": "REDOUANE BOUGHERABA Mon Premier Spectacle",
-    "start": "2026-11-23T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/redouane-bougheraba/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "3f6b1b8a5851e317bec4",
     "title": "Jam Session",
     "start": "2026-11-23T20:30:00+01:00",
@@ -1038,17 +939,6 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/jam-session-133/",
     "source": "Le Solar"
-  },
-  {
-    "id": "996fc339ebe307f7ee9e",
-    "title": "SOUPE DES CHEFS",
-    "start": "2026-11-24T18:30:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/soupe-des-chefs/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "79eaa16d5ff3af0cc58e",
@@ -1099,17 +989,6 @@
     "description": "",
     "url": "https://le-solar.fr/evenement/apero-jazzorite/",
     "source": "Le Solar"
-  },
-  {
-    "id": "0aaa5814cb8e0f361e27",
-    "title": "FLORENT PAGNY 65 TOUR – LE RETOUR",
-    "start": "2026-11-26T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/florent-pagny/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "98707b574710ce4814a3",
@@ -1220,17 +1099,6 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802056-atelier-nos-maux-en-mots-resister-a-360deg",
     "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "5d84e55fb22c3a63a7e8",
-    "title": "DISNEY EN CONCERT Suivez vos rêves",
-    "start": "2026-11-28T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/disney-en-concert/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "3fa7491ca5bde28311c2",
@@ -1464,17 +1332,6 @@
     "source": "La Comète"
   },
   {
-    "id": "3e4a83c83e5a60caa6aa",
-    "title": "DUB INC",
-    "start": "2026-12-05T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "5b53bbe246b94afa62a6",
     "title": "Notte Morricone Centro Coreografico Nazionale / Aterballetto Marcos Morau",
     "start": "2026-12-05T20:00:00+01:00",
@@ -1557,17 +1414,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "c6df29f330ee1ab833b5",
-    "title": "DUB INC",
-    "start": "2026-12-06T19:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/dub-inc/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "650cab92c730403e89d0",
     "title": "Jam Session",
     "start": "2026-12-07T20:30:00+01:00",
@@ -1588,17 +1434,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/eric-fraticelli/",
     "source": "La Comète"
-  },
-  {
-    "id": "30dda9dde497904c2db3",
-    "title": "LA PETITE FILLE QUI VOULAIT SAUVER L’AMOUR",
-    "start": "2026-12-09T15:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/la-petite-fille-qui-voulait-sauver-lamour/",
-    "source": "La Ricane"
   },
   {
     "id": "109dec10257e6925316e",
@@ -1677,17 +1512,6 @@
     "source": "Le Solar"
   },
   {
-    "id": "096bf45691e170b7a495",
-    "title": "THE JEFF PANACLOC COMPANY",
-    "start": "2026-12-11T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/the-jeff-panacloc-company/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "5a218becc065a5141a53",
     "title": "Rêverie",
     "start": "2026-12-11T20:00:00+01:00",
@@ -1730,17 +1554,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/charlie-et-stylien",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "20f6dca362ecc34b7891",
-    "title": "SOIREE CABAROKE Cabaret · Chanson · Karaoké",
-    "start": "2026-12-12T19:30:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://laricane.com/event/soiree-cabaroke/",
-    "source": "La Ricane"
   },
   {
     "id": "5e9cf174428fc803a328",
@@ -1798,6 +1611,17 @@
     "source": "Le Solar"
   },
   {
+    "id": "7ace2d7f2ce8016b763b",
+    "title": "Soirée des Ateliers du Conservatoire Massenet",
+    "start": "2026-12-15T19:30:00+01:00",
+    "venue": "Le Solar",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://le-solar.fr/evenement/soiree-des-ateliers-du-conservatoire-massenet/",
+    "source": "Le Solar"
+  },
+  {
     "id": "17ce3847501d4644b88c",
     "title": "Un bateau Compagnie Sans Soucis Marionnettes, musique, images animées, dès 3 ans",
     "start": "2026-12-16T15:00:00+01:00",
@@ -1837,28 +1661,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "b5431b961cb9a586336a",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2026-12-17T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
-    "source": "La Ricane"
-  },
-  {
-    "id": "1b33399c423f7e66f23e",
-    "title": "FABRICE EBOUÉ SolitudeS",
-    "start": "2026-12-18T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/fabrice-eboue/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "ba0649252acd4bfd052a",
     "title": "Didon et Énée Ensemble Les Surprises Pierre Lebon",
     "start": "2026-12-18T20:00:00+01:00",
@@ -1884,17 +1686,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/patrick-chanfray",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "d13e9f797dab73e2b624",
-    "title": "DUO D’",
-    "start": "2026-12-18T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/duo-dimpro/",
-    "source": "La Ricane"
   },
   {
     "id": "55319fed0d013cc308dd",
@@ -2018,17 +1809,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "e5fa91725c5498a25510",
-    "title": "Il Etait une Fois… Ennio Morricone & Nino Rota",
-    "start": "2027-01-08T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/il-etait-une-fois/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "68b7d664dd3df3f2d655",
     "title": "MARC-ANTOINE LE BRET",
     "start": "2027-01-08T20:30:00+01:00",
@@ -2130,17 +1910,6 @@
     "source": "La Comète"
   },
   {
-    "id": "8418f1c9ebc804a5e41c",
-    "title": "THOMAS MARTY",
-    "start": "2027-01-16T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/thomas-marty/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "c1c2d2f55356fbf4cfa2",
     "title": "LÉANDRE",
     "start": "2027-01-16T20:30:00+01:00",
@@ -2150,17 +1919,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/leandre",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "ce3024e3c44bc96dc80b",
-    "title": "CRIMINEL ET (PRESQUE) CELEBRE",
-    "start": "2027-01-16T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/criminel-et-presque-celebre/",
-    "source": "La Ricane"
   },
   {
     "id": "6402c16981fd0e67c687",
@@ -2223,28 +1981,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/ilyes-djadel/",
     "source": "La Comète"
-  },
-  {
-    "id": "eca8b232c986225553b1",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-01-21T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
-    "source": "La Ricane"
-  },
-  {
-    "id": "d97774ee5076614df1c0",
-    "title": "RFM PARTY 80 Les 20 ans",
-    "start": "2027-01-22T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/rfm-party-80/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "cc5f4449637b64574895",
@@ -2312,17 +2048,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "fb1006966b33c2179a5b",
-    "title": "OCTOGONE MMA MADE IN SAINT-ETIENNE",
-    "start": "2027-01-23T19:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/octogone-mma/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "50996dbabe836e9d0369",
     "title": "Hacenoba Salsa : DJ Ré Mi Carte blanche aux danseurs 2 !",
     "start": "2027-01-23T20:30:00+01:00",
@@ -2343,17 +2068,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/les-trois-ducs-comedy-club-17",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "bb3013de5a66fdb062a6",
-    "title": "DUO D’",
-    "start": "2027-01-23T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/duo-dimpro/",
-    "source": "La Ricane"
   },
   {
     "id": "e59b06581a7e3cc0a635",
@@ -2433,17 +2147,6 @@
     "source": "La Comète"
   },
   {
-    "id": "34c7defacbda807c212d",
-    "title": "FOREVER THE BEST SHOW ABOUT THE KING OF POP",
-    "start": "2027-01-27T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/forever/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "7de38acb3646dd86581c",
     "title": "Cytotec",
     "start": "2027-01-27T20:00:00+01:00",
@@ -2480,28 +2183,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Symphonique/les-quatre-saisons-br-vivaldi-richter/s-885/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "917bfa908898b425a8b8",
-    "title": "BIGFLO & OLI Karma tour",
-    "start": "2027-01-28T20:30:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/bigflo-oli/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "0832b33ac24a828256be",
-    "title": "LES 4 SAISONS",
-    "start": "2027-01-29T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/les-4-saisons/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "4d323134e1e4c5c8b215",
@@ -2548,17 +2229,6 @@
     "source": "La Comète"
   },
   {
-    "id": "54df47d37e4ef7e13037",
-    "title": "BERNARD LAVILLIERS TOUR 2027",
-    "start": "2027-01-30T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/bernard-lavilliers/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "7f7a12cc65b1bb2111b2",
     "title": "Ultra Vomit",
     "start": "2027-01-30T20:30:00+01:00",
@@ -2590,28 +2260,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/mars-et-venus",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "a5fe6f3106cca3d0ccd5",
-    "title": "QUOI TOUT LE WEEK-END",
-    "start": "2027-01-30T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/quoi-tout-le-week-end-5/",
-    "source": "La Ricane"
-  },
-  {
-    "id": "2d9f72f946ce8a4fdda2",
-    "title": "500 VOIX POUR JOHNNY 10 ans après",
-    "start": "2027-01-31T18:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/500-voix-pour-johnny/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "cf5bc4cbfa7b6cd28c06",
@@ -2689,17 +2337,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "ff13046f160a4f14029c",
-    "title": "GRAND CORPS MALADE",
-    "start": "2027-02-04T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/grand-corps-malade/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "a86e76fd81bf4678ee7a",
     "title": "L’Amour sorcier - Don Quichotte CCN - Ballet Biarritz Martin Harriague",
     "start": "2027-02-04T20:00:00+01:00",
@@ -2714,17 +2351,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-danse/l-amour-sorcier-don-quichotte/s-913/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "791e12a4fcdba0d90b84",
-    "title": "MICHELE LAROQUE ET KAD MERAD L'Age Bête",
-    "start": "2027-02-05T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/michele-laroque-et-kad-merad/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "5ea227caad04b4c62ebc",
@@ -2758,17 +2384,6 @@
     "description": "",
     "url": "https://saint-chamond.fr/events/theatre-de-boulevard-un-chateau-de-cartes/",
     "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "1bc6d7a7a3658abbe50a",
-    "title": "LES ETOILES DU CIRQUE DE PEKIN Odyssée",
-    "start": "2027-02-07T16:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/les-etoiles-du-cirque-de-pekin/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "90255b300bf6fa5c64a7",
@@ -2882,17 +2497,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "e2d6d9a45e36414aba87",
-    "title": "Véronic Dicaire",
-    "start": "2027-02-13T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/veronic-dicaire/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "b9476fda9e470d13eca2",
     "title": "MELHA BEDIA",
     "start": "2027-02-13T20:30:00+01:00",
@@ -2902,6 +2506,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/melha-bedia-2",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "e3a6285943f4dd43ae57",
+    "title": "SAINTÉ DUB CLUB BRAIN DAMAGE X SIR JEAN + IRATION STEPPAS + DAWA HIFI FEAT DAVOJAH + STEEL ALIVE + DU3 GRAMOPHONE",
+    "start": "2027-02-13T23:00:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/sainte-dub-club/",
+    "source": "Le Fil"
   },
   {
     "id": "5921edbb850552229f1a",
@@ -2957,17 +2572,6 @@
     "description": "",
     "url": "https://www.arcomik.com/event/decouvrir-emy-au-festival-arcomik/",
     "source": "ArcomiK"
-  },
-  {
-    "id": "4d6e711bc2d8113336b2",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-02-18T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
-    "source": "La Ricane"
   },
   {
     "id": "f51f546236768cf6f4cf",
@@ -3067,17 +2671,6 @@
     "description": "",
     "url": "https://www.arcomik.com/event/guillaume-guisset-2/",
     "source": "ArcomiK"
-  },
-  {
-    "id": "5e9bea2fe8d555a1df99",
-    "title": "POUPEE GONFLANTE",
-    "start": "2027-02-20T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/poupee-gonflante/",
-    "source": "La Ricane"
   },
   {
     "id": "084206475ee7643fc1ce",
@@ -3234,17 +2827,6 @@
     "source": "ArcomiK"
   },
   {
-    "id": "3d826f691baaba4e53c9",
-    "title": "ALDEBERT Jamais adulte !",
-    "start": "2027-02-26T19:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/aldebert/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "e2aa78108f00b9bcf912",
     "title": "Mathieu Madénian",
     "start": "2027-02-26T20:00:00+01:00",
@@ -3355,17 +2937,6 @@
     "source": "ArcomiK"
   },
   {
-    "id": "5b1649429f906c365a31",
-    "title": "YVAN MARC CHANTE CABREL Chanson ·",
-    "start": "2027-02-27T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://laricane.com/event/yvan-marc-chante-cabrel/",
-    "source": "La Ricane"
-  },
-  {
     "id": "b01eb90e4d122b4bba11",
     "title": "CAPRA (une chèvre)",
     "start": "2027-03-02T20:00:00+01:00",
@@ -3442,17 +3013,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "41a4439c20fc5c90b389",
-    "title": "Magic System La Tournée des 30 Ans",
-    "start": "2027-03-05T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/magic-system/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "21e013f0234098da0b57",
     "title": "Roland à Roncevaux Auguste Mermet Grand Opéra français en quatre actes Première création depuis 1905",
     "start": "2027-03-05T20:00:00+01:00",
@@ -3503,17 +3063,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "5403f61e82ace67e797d",
-    "title": "Celtic Legends Tournée Anniversaire 25 ans",
-    "start": "2027-03-06T15:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/celtic-legends-2027/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "bb7e0f41a899a45918d1",
     "title": "Mikro / Bartók Compagnie Cas Public Danse, dès 8 ans",
     "start": "2027-03-06T16:00:00+01:00",
@@ -3557,17 +3106,6 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/green27/senora-tentacion-1",
     "source": "Comédie Sainté"
-  },
-  {
-    "id": "cb57984616b5ee66ee49",
-    "title": "La lettre",
-    "start": "2027-03-10T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/la-lettre/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "62da2a81b915ad84f7e4",
@@ -3619,17 +3157,6 @@
     "source": "La Comète"
   },
   {
-    "id": "a14635bc6c5fc4b6b082",
-    "title": "PUTAIN DE RENAUD Pas un Hommage, une Révérence !",
-    "start": "2027-03-12T20:30:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/putain-de-renaud/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "935eb01e933f2e727ee0",
     "title": "Nous étions une armée",
     "start": "2027-03-12T20:30:00+01:00",
@@ -3650,17 +3177,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nadege100gene",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "cf8de6856724d12c54f2",
-    "title": "REMI PEYRACHE CHANTE RENAUD Chanson ·",
-    "start": "2027-03-12T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://laricane.com/event/remi-peyrache-chante-renaud/",
-    "source": "La Ricane"
   },
   {
     "id": "b21c0f1e92f540123fdc",
@@ -3694,17 +3210,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/olivia-moore",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "53ade9c92f88e8215b3d",
-    "title": "INFLUENCEUSE EN 3 JOURS",
-    "start": "2027-03-13T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://laricane.com/event/influenceuse-en-3-jours-8/",
-    "source": "La Ricane"
   },
   {
     "id": "a2579e2ad45fddf77e12",
@@ -3813,17 +3318,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "fb503c54735952a430aa",
-    "title": "K-POP SENSATIONS",
-    "start": "2027-03-18T19:30:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/k-pop-forever/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "7e636a60f5ac79c4bace",
     "title": "5ème Symphonie de Tchaïkovski Camille Pépin, Camille Saint-Saëns, Piotr Ilitch Tchaïkovski",
     "start": "2027-03-18T20:00:00+01:00",
@@ -3873,28 +3367,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "74f80f67e6b3d39718fa",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-03-18T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
-    "source": "La Ricane"
-  },
-  {
-    "id": "06efa0d289046d06989d",
-    "title": "MESSMER",
-    "start": "2027-03-19T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/messmer-2027/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "d3c0cdd0a951d2b0f48e",
     "title": "MARGOT DEMEURISSE",
     "start": "2027-03-19T20:30:00+01:00",
@@ -3917,17 +3389,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "4c9fc2575cbb60f089fe",
-    "title": "KEEN’V À nos 20 ans",
-    "start": "2027-03-20T20:30:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/keenv/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "d037400d52d6a6432f1b",
     "title": "IKE",
     "start": "2027-03-20T20:30:00+01:00",
@@ -3937,17 +3398,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/ike",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "0b05ba9f4d2167922df3",
-    "title": "Ninho Quattro Tour",
-    "start": "2027-03-21T18:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/ninho/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "0f4f9f43c5237ff19bb0",
@@ -4337,17 +3787,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "7eb2fc7b2757a4567780",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-04-15T21:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
-    "source": "La Ricane"
-  },
-  {
     "id": "95181af144d1f39941bd",
     "title": "LES TROIS DUCS COMEDY CLUB",
     "start": "2027-04-17T20:30:00+02:00",
@@ -4587,17 +4026,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "7f87657582d2c1a63bf6",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-05-20T21:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
-    "source": "La Ricane"
-  },
-  {
     "id": "0163b3ddd1e8fc686e3a",
     "title": "ARTHUR GOMEZ",
     "start": "2027-05-21T20:30:00+02:00",
@@ -4607,17 +4035,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/arthur-gomez",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "b712465f2edff4de1e95",
-    "title": "THE WORLD OF QUEEN L'hommage à la légende",
-    "start": "2027-05-22T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/the-world-of-queen-2/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "36a0b935841da994fad8",
@@ -4670,28 +4087,6 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "1986e67afd7f784cff9e",
-    "title": "SARAH SCHWAB Elles & Moi",
-    "start": "2027-06-03T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/sarah-schwab-2027/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "2d9566e831ea9d161472",
-    "title": "Balavoine, Ma Bataille L'Hommage Authentique",
-    "start": "2027-06-04T00:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/balavoine-ma-bataille/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "531d4475e8bd7379a265",
     "title": "Vite, un selfie ! Compagnie Lucamoros Peinture et chant, dès 8 ans",
     "start": "2027-06-05T16:00:00+02:00",
@@ -4706,17 +4101,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-jeune_public/vite-un-selfie-/s-921/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "fde0b3103e75adac1fc5",
-    "title": "Le Lac des Cygnes Ballet & Orchestre",
-    "start": "2027-06-05T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/le-lac-des-cygnes-2027/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "d67a3de04d8c71160fd1",
@@ -4739,17 +4123,6 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802749-la-nuit-lordure",
     "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "ac21252886b680cab02d",
-    "title": "FREDERIC FRANCOIS",
-    "start": "2027-06-12T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/frederic-francois/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "3dc8d38a415d6ec497ed",
@@ -4800,17 +4173,6 @@
     "source": "Les 3 Ducs"
   },
   {
-    "id": "c5b7822c2d75e167067f",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2027-06-17T21:00:00+02:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-10/",
-    "source": "La Ricane"
-  },
-  {
     "id": "6359668fb73774acd9b8",
     "title": "Le Conservatoire Massenet de Saint-Etienne",
     "start": "2027-06-18T10:00:00+02:00",
@@ -4820,6 +4182,17 @@
     "description": "",
     "url": "https://billetterie-leverso.mapado.com/event/802777-le-conservatoire-massenet-de-saint-etienne",
     "source": "Théâtre Le Verso"
+  },
+  {
+    "id": "f806ecacf6cd846465b9",
+    "title": "Les Lundis de l’Impro à Saint-Étienne",
+    "start": "2027-06-21T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a03801-3eb3-7ea4-ac62-ebafe69b2c5d",
+    "source": "Agenda Culturel"
   },
   {
     "id": "a2830d0e951a6a88c858",
@@ -4871,61 +4244,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "246d4f29656865612686",
-    "title": "Vianney",
-    "start": "2027-10-01T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/vianney/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "636e069b9d2d70aade49",
-    "title": "JOK’AIR LA DERNIÈRE ROCKSTAR TOUR",
-    "start": "2027-10-08T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/jokair/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "df4f68badbd1e0c870f0",
-    "title": "PHILIPPE CAVERIVIERE TU CROIS QUE C’EST UNE BONNE IDÉE?",
-    "start": "2027-10-13T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/philippe-caveriviere/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "a46af857dedab25564b4",
-    "title": "One Night Of Queen The Wembley Show",
-    "start": "2027-10-15T20:30:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/one-night-of-queen-2026/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "14cc1675156537786d96",
-    "title": "Nino Arial Pas comme eux",
-    "start": "2027-10-16T20:00:00+02:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/nino-arial/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "a12acedd7da07506135b",
     "title": "ESTHER ABRAMI",
     "start": "2027-11-06T20:30:00+01:00",
@@ -4935,17 +4253,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/esther-abrami/",
     "source": "La Comète"
-  },
-  {
-    "id": "32b5311c711d2a10ac5d",
-    "title": "Gael Faye",
-    "start": "2027-11-12T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/gael-faye/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "f73576961a4302a3d3a0",
@@ -4988,17 +4295,6 @@
     "source": "Comédie Sainté"
   },
   {
-    "id": "8be0fdeadc98536b0717",
-    "title": "Laurent Gerra se met à table !",
-    "start": "2027-11-17T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/laurent-gerra-2027/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "6a9e85a6ec388aa8c2c0",
     "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
     "start": "2027-11-17T20:00:00+01:00",
@@ -5036,17 +4332,6 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/mussum",
     "source": "Comédie Sainté"
-  },
-  {
-    "id": "d4520255f04673007c54",
-    "title": "I GOTTA FEELING Saison 3 - La Tournée des Années 2000",
-    "start": "2027-11-20T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/i-gotta-feeling/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "0d6c517c640cd6c2f2c7",
@@ -5087,17 +4372,6 @@
     "source": "Comédie Sainté"
   },
   {
-    "id": "2f26f083206df62b997a",
-    "title": "CLAUDIO CAPEO",
-    "start": "2027-11-25T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo-2027/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "a4d7911ebd85e1be0a34",
     "title": "NASH",
     "start": "2027-11-25T20:30:00+01:00",
@@ -5107,17 +4381,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/nash/",
     "source": "La Comète"
-  },
-  {
-    "id": "07fbf263393fd8a2840d",
-    "title": "HOSHI Bonjour Docteur Tour",
-    "start": "2027-11-27T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/hoshi-2027/",
-    "source": "Zénith Sainté"
   },
   {
     "id": "ff37e21e963446c112e9",
@@ -5174,17 +4437,6 @@
     "source": "Comédie Sainté"
   },
   {
-    "id": "7d17be8b8ef1285913e2",
-    "title": "Patrick Fiori",
-    "start": "2027-12-16T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/patrick-fiori-2027/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "6653c2d05e70f8c927e7",
     "title": "Entre deux rives",
     "start": "2027-12-16T20:00:00+01:00",
@@ -5202,71 +4454,5 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
     "source": "Comédie Sainté"
-  },
-  {
-    "id": "5709e67a2b46c082f5dc",
-    "title": "FESTIVAL MONDIALE DE LA MAGIE Nouveau Spectacle",
-    "start": "2028-01-28T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/festival-mondiale-de-la-magie/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "c76bacf113ae7360abb2",
-    "title": "Dalida in Paradisco",
-    "start": "2028-02-12T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/dalida/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "b5a87f0881bd8fdc533a",
-    "title": "Dalida in Paradisco",
-    "start": "2028-02-13T15:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/dalida/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "a02bbecf5077837382a7",
-    "title": "Piaf ! Le Spectacle Hymne à la môme",
-    "start": "2028-02-27T17:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/piaf-le-spectacle/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "11fcec036e0fc2490460",
-    "title": "Infiniment Robin",
-    "start": "2028-03-11T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/infiniment-robin/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "3d5e31d171025b1612ba",
-    "title": "GOLDMEN BEST OF GOLDMAN",
-    "start": "2028-03-19T17:30:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/goldmen-2028/",
-    "source": "Zénith Sainté"
   }
 ]
