@@ -1,1139 +1,5 @@
 [
   {
-    "id": "69e1c33db4521605f6b1",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T10:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2a09e7bdedb7eb6b577d",
-    "title": "Hope",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T10:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hope-de-na-hong-jin-un-film-ultra-spectaculaire-entre-horreur-farce-et-science-fiction_cri-7046569.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7c0bbc605a82fbd1e8eb",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T10:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "db8201f24b6d7a93fe4d",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T10:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7b71ea1bbc3644b2d37c",
-    "title": "Les Diables (version restaurée)",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T10:45:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "a976dbbf33a9c87f1446",
-    "title": "Ducobu et le fantôme de Saint-Potache",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/ducobu-et-le-fantome-de-saint-potache-une-comedie-poussiereuse-pas-loin-du-zero-pointe_cri-7046202.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "24b123aedbda84e7a2d8",
-    "title": "Papa où t'es ?",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/papa-ou-t-es-le-road-movie-touchant-d-un-enfant-place-sur-les-traces-de-son-pere_cri-7046557.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e7a1cce309e6f0cb0b13",
-    "title": "Peppa fête Noël",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "6de735eb54c62554ecc1",
-    "title": "Rashômon",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/television/rashomon-d-akira-kurosawa-notre-critique_cri-7032310.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3252a11fb809d198f761",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c64ec7652b89b0c06b28",
-    "title": "Yugly",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "78cf41fdb3317cede5fb",
-    "title": "Comment braquer une banque",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/comment-braquer-une-banque-de-david-leitch-une-critique-du-capitalisme-franchement-pauvre_cri-7046835.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e007bf611962029e537e",
-    "title": "Ducobu et le fantôme de Saint-Potache",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/ducobu-et-le-fantome-de-saint-potache-une-comedie-poussiereuse-pas-loin-du-zero-pointe_cri-7046202.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5df4d1a0119359ad04a0",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d74229bfc6edfb6b8bdf",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "afc120f034fba3fbe969",
-    "title": "Karma",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "13897ac5f6903308cd15",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2dd22eaaa15ac3e87627",
-    "title": "L'île des souvenirs",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-ile-des-souvenirs-un-very-bad-trip-version-enfantine-avec-un-chien-garou-filou_cri-7046444.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "35c7b70c8b1970095c48",
-    "title": "Moulin",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "43e9e340d0cd9b92d5ae",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3099ef9f014081c89f94",
-    "title": "Le Corset",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-corset-de-louis-clichy-un-bijou-de-poesie-graphique_cri-7046344.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "19e8e6aa285f2b1abe09",
-    "title": "Le Merveilleux hiver de Tom le chat",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/enfants/film-pour-enfants-le-merveilleux-hiver-de-tom-le-chat-les-aventures-d-un-attachant-felin-aux-airs-de-garfield_cri-7046780.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "800a8ef4bf8e0440986c",
-    "title": "Le Mystère Lucy Lost",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T11:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-mystere-lucy-lost-d-olivier-clert-un-conte-poetique-subtil-et-profond-sur-la-memoire-et-l-identite_cri-7046563.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1d2aceef875e10af9fd2",
-    "title": "Ce qui nous mène à toi",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T13:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/ce-qui-nous-mene-a-toi-de-khalil-cherti-un-film-sur-l-infecondite-qui-touche-au-c-ur_cri-7046792.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "97c7703613b9f7cc6f1f",
-    "title": "Club Kid",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T13:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/club-kid-un-apprentissage-tendre-et-emouvant-de-la-paternite_cri-7046678.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ae95b75032cbe3b3aaf4",
-    "title": "Moulin",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T13:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "60e8e972850b51af2618",
-    "title": "Quelques mots d'amour",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T13:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/quelques-mots-d-amour-de-rudi-rosenberg-hafsia-herzi-formidable-dans-ce-film-plein-de-grace-sur-la-famille_cri-7046567.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ecba3d36edd1d452240e",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "37d16c24552437c2afa2",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "faefa238d1790b27bdb9",
-    "title": "Si tu tends l'oreille",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-tends-l-oreille-des-studios-ghibli-enfin-en-salles-en-france-trente-ans-apres-sa-sortie_cri-7046662.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9116888e9f7b17ab7e28",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b8e9a62ea6e8d5581794",
-    "title": "Karma",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "302ea3a7e6ab15bd6000",
-    "title": "L'île des souvenirs",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-ile-des-souvenirs-un-very-bad-trip-version-enfantine-avec-un-chien-garou-filou_cri-7046444.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "dcd8515594209ec6c7c3",
-    "title": "Moulin",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "09a6843a9764d4dcf2c8",
-    "title": "Ducobu et le fantôme de Saint-Potache",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/ducobu-et-le-fantome-de-saint-potache-une-comedie-poussiereuse-pas-loin-du-zero-pointe_cri-7046202.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a59fbe4fae3863de659b",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c910335292a3966c9894",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7015b8f9e08e0b2b14d9",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ce52cfb2cea3c2b7503d",
-    "title": "Yugly",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "458e36458b9eabaaa92b",
-    "title": "Comment braquer une banque",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/comment-braquer-une-banque-de-david-leitch-une-critique-du-capitalisme-franchement-pauvre_cri-7046835.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8c2487cbd5ddd8765bdd",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5360f27a01c3c9c7f719",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d554c79bfa12ea0951dd",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5b80142f15887ebaf0e8",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2a3c6bc4a1b5c87371cd",
-    "title": "Le Merveilleux hiver de Tom le chat",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-15T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/enfants/film-pour-enfants-le-merveilleux-hiver-de-tom-le-chat-les-aventures-d-un-attachant-felin-aux-airs-de-garfield_cri-7046780.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a6f3aeac6ab945e4e8f9",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T14:05:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "792892bd372960751359",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T14:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "11d14e2c23e805beb183",
-    "title": "Tangles",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-15T14:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "0b091760a39b191a2e90",
-    "title": "15/18",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T15:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/15-18-cedric-kahn-reussit-un-huis-clos-debordant-de-vie-au-plus-pres-de-jeunes-patients_cri-7046793.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f802a54b7bbbb3747b69",
-    "title": "Il faut brûler Maman",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T15:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "34411c4a4ba5eec90425",
-    "title": "L'Arabe",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-15T15:05:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/l-arabe-malek-bensmail-adapte-librement-et-avec-elegance-le-roman-de-kamel-daoud_cri-7046675.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d0802a5facceb9a7ff15",
-    "title": "Everytime",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T15:20:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/everytime-de-sandra-wollner-un-film-sur-le-deuil-d-une-grande-beaute-formelle_cri-7046788.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3dc64f5c583e6cbff70c",
-    "title": "Wild Horse Nine",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T15:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/wild-horse-nine-john-malkovich-et-sam-rockwell-impayables-dans-cette-tragicomedie-brillante_cri-7046679.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "bfaba43ae5662c54f4e0",
-    "title": "Peppa fête Noël",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T15:50:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "af20282c2811e9d761ed",
-    "title": "Karma",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "dc9d38b49ecd712d8e63",
-    "title": "The Big Lebowski",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T16:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/the-big-lebowski-les-freres-coen-le-dude-et-les-pieds-nickeles_cri-7044240.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "89c90c2890563ac0c6f3",
-    "title": "The Good Boy",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/the-good-boy-jan-komasa-s-amuse-a-provoquer-le-malaise-avec-sa-parabole-sur-le-bien-et-le-mal_cri-7046784.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "eaaa0e7db0b21ad4443f",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6e1878f6f5f75d140c67",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1c1b20139d6d8d9be15a",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "192b01e96fc1ea3b1f6f",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T16:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e0d54674d68a011cf13b",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b31a4d8dc61bf8437c9d",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T16:20:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "48637c5fad93c0c6c443",
-    "title": "Moulin",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:20:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b4d26074b74e0f651236",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:25:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5ddccd7f75b61dc71621",
-    "title": "Club Kid",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T16:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/club-kid-un-apprentissage-tendre-et-emouvant-de-la-paternite_cri-7046678.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "79d4cff5b89fe52b683b",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T16:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6a0ecfec582577e74adb",
-    "title": "Comment braquer une banque",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/comment-braquer-une-banque-de-david-leitch-une-critique-du-capitalisme-franchement-pauvre_cri-7046835.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "1f799848564b5f92a3c5",
-    "title": "Karma",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6dcce677c531dd6e2526",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T16:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5f5c48ebe31b39c2f55e",
-    "title": "Notre salut",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-15T16:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/notre-salut-d-emmanuel-marre-le-portrait-d-un-collabo-ordinaire-dans-un-film-sur-vichy-stupefiant_cri-7046098.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a77b36db753797394dbb",
-    "title": "Papa où t'es ?",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T17:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/papa-ou-t-es-le-road-movie-touchant-d-un-enfant-place-sur-les-traces-de-son-pere_cri-7046557.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "38218c456c7dc1c75a87",
-    "title": "Ce qui nous mène à toi",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T17:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/ce-qui-nous-mene-a-toi-de-khalil-cherti-un-film-sur-l-infecondite-qui-touche-au-c-ur_cri-7046792.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "282a63581aed14eb1569",
-    "title": "Les Yeux verts",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T17:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-yeux-verts-entre-reve-et-cauchemar-un-film-a-l-image-superbement-inquietante_cri-7046785.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d0ff74be5a234be1028b",
-    "title": "Tangles",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-15T17:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "0913c91e72f122a5f1cc",
-    "title": "Yugly",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T17:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "cf6843ac68a3bf8fb3a6",
-    "title": "Club Kid",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T17:50:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/club-kid-un-apprentissage-tendre-et-emouvant-de-la-paternite_cri-7046678.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c7c45f10fd59aef00c90",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T17:59:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c048bffea19755e4de0e",
-    "title": "Dune : deuxième partie",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T18:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/dune-deuxieme-partie-la-prime-au-spectaculaire_cri-7031318.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "63a54ecc82946fc3e4d2",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6588334888c7b56eeb1d",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6c8315fbc74ebf4f9cb5",
-    "title": "Moulin",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "dffcdce16a0b47d974b3",
-    "title": "Infirmary",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T18:10:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/infirmary-de-nicholas-pineda-un-film-d-horreur-ou-l-ennui-prend-le-pas-sur-la-peur_cri-7046779.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5e5f24178869132a474f",
-    "title": "Les proies",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T18:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/les-proies,9986.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a59d1fa597e39da46303",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T18:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "edfa4de327044b25f9ca",
-    "title": "Karma",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T18:40:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a81023d126a0edf85d46",
-    "title": "The Good Boy",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T18:45:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/the-good-boy-jan-komasa-s-amuse-a-provoquer-le-malaise-avec-sa-parabole-sur-le-bien-et-le-mal_cri-7046784.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "bd5ae9a6c5dcd3526680",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T18:55:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a7ead05ab04d3559b7f0",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T18:55:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "13fc35e0e886f2fa243a",
-    "title": "Moulin",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T18:55:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5e568ce521fd45cce9db",
-    "title": "Papa où t'es ?",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T19:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/papa-ou-t-es-le-road-movie-touchant-d-un-enfant-place-sur-les-traces-de-son-pere_cri-7046557.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "86347f1f056168b5b5b3",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T19:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c9d97a6dfb8e80cddac1",
-    "title": "Comment braquer une banque",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T19:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/comment-braquer-une-banque-de-david-leitch-une-critique-du-capitalisme-franchement-pauvre_cri-7046835.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "8a6261616dddbf277f22",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T19:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6407533b62f2d681613b",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T19:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "81c88a0ec9ab41e27a2e",
-    "title": "Il faut brûler Maman",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T19:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "090f424007f6e83f4763",
-    "title": "Quelques mots d'amour",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T19:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/quelques-mots-d-amour-de-rudi-rosenberg-hafsia-herzi-formidable-dans-ce-film-plein-de-grace-sur-la-famille_cri-7046567.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "48525bf09de5ffc7b6e3",
-    "title": "Karma",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T19:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3270c5d67a05826b9517",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T20:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0a80a2f5b65afe670476",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T20:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4984ca9a9a0b17ced1ea",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T20:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "315701330cf5a3bd2711",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T20:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "94c7b628a2e9ea091fa1",
-    "title": "Minotaure",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-15T20:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/minotaure-d-andrei-zviaguintsev-toute-la-brutalite-de-la-russie-de-poutine-dans-un-film-magistral_cri-7046346.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "76d341bc754bceebbf22",
-    "title": "Everytime",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T20:10:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/everytime-de-sandra-wollner-un-film-sur-le-deuil-d-une-grande-beaute-formelle_cri-7046788.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "73db4e186ae5dd35a943",
-    "title": "Jim Queen",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-15T20:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/jim-queen-un-film-d-animation-picaresque-drole-et-engage-sur-le-monde-gay_cri-7044760.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0271878c927457173904",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T20:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a019715117080c7fed51",
-    "title": "Wild Horse Nine",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T20:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/wild-horse-nine-john-malkovich-et-sam-rockwell-impayables-dans-cette-tragicomedie-brillante_cri-7046679.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "bd9f987615946175186a",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T20:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "41b652d9c1ef1cfa47aa",
-    "title": "Hope",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T20:45:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/hope-de-na-hong-jin-un-film-ultra-spectaculaire-entre-horreur-farce-et-science-fiction_cri-7046569.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b5c84a08b4d356a0af35",
-    "title": "Hope",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T21:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hope-de-na-hong-jin-un-film-ultra-spectaculaire-entre-horreur-farce-et-science-fiction_cri-7046569.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "377c867bc1fb63ed0a76",
-    "title": "Papa où t'es ?",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T21:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/papa-ou-t-es-le-road-movie-touchant-d-un-enfant-place-sur-les-traces-de-son-pere_cri-7046557.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c9e8450a7887b2411bb5",
-    "title": "Si tu tends l'oreille",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T21:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/si-tu-tends-l-oreille-des-studios-ghibli-enfin-en-salles-en-france-trente-ans-apres-sa-sortie_cri-7046662.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "10714ef17957773d2bcd",
-    "title": "15/18",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-15T21:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/15-18-cedric-kahn-reussit-un-huis-clos-debordant-de-vie-au-plus-pres-de-jeunes-patients_cri-7046793.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "89a6d228970a1d3e89c9",
-    "title": "Dune",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T21:05:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "9caf9d913881bc91535e",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T21:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6898a9cfe3c17625da50",
-    "title": "Karma",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T21:20:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e8bd14b073924095285a",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T21:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e5ebfd64c22082b8dbf6",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-15T21:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "53ff174ed07e91b3cbca",
-    "title": "Comment braquer une banque",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T21:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/comment-braquer-une-banque-de-david-leitch-une-critique-du-capitalisme-franchement-pauvre_cri-7046835.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ffb945e7cb926cd1b88b",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T21:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "cc418458953dd226539e",
-    "title": "Moulin",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T21:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7b016f971508b7cd8d8b",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T21:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5a13103d8427c53caf4e",
-    "title": "Clayface",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T21:55:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/clayface-de-james-watkins-un-film-aux-effets-speciaux-horrifiques-peu-ragoutants-mais-impressionnants_cri-7046463.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c7a1667653acc97c48b8",
-    "title": "Infirmary",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T22:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/infirmary-de-nicholas-pineda-un-film-d-horreur-ou-l-ennui-prend-le-pas-sur-la-peur_cri-7046779.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "36a9185bdffb5bf563a0",
-    "title": "Kraken",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T22:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/kraken-un-film-aux-scenes-gore-qui-reinvente-le-genre-du-slasher_cri-7046095.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6d505df47edaf7f63f4a",
-    "title": "Papa où t'es ?",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-15T22:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/papa-ou-t-es-le-road-movie-touchant-d-un-enfant-place-sur-les-traces-de-son-pere_cri-7046557.php",
-    "source": "Télérama"
-  },
-  {
     "id": "f7ad928f346e3692b2e2",
     "title": "Everytime",
     "cinema": "Méliès Jean-Jaurès",
@@ -1571,7 +437,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-16T18:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/les-huit-salopards-de-quentin-tarantino-grand-guignol-assume_cri-7046855.php",
     "source": "Télérama"
   },
   {
@@ -3407,7 +2273,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-19T18:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/les-huit-salopards-de-quentin-tarantino-grand-guignol-assume_cri-7046855.php",
     "source": "Télérama"
   },
   {
@@ -3974,7 +2840,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-21T18:15:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/les-huit-salopards-de-quentin-tarantino-grand-guignol-assume_cri-7046855.php",
     "source": "Télérama"
   },
   {
@@ -4045,6 +2911,339 @@
     "title": "L'Affaire Marie-Claire",
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-21T21:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f850f0ab6a97b9da27c1",
+    "title": "Rashômon",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-22T11:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/television/rashomon-d-akira-kurosawa-notre-critique_cri-7032310.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "fb427727818c242b1523",
+    "title": "Alphaville, une étrange aventure de Lemmy Caution",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T11:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/alphaville-une-etrange-aventure-de-lemmy-caution,4347.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a340b8abcbc6879fce5f",
+    "title": "Le Corset",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T11:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/le-corset-de-louis-clichy-un-bijou-de-poesie-graphique_cri-7046344.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "91f22ad65c92773276c8",
+    "title": "Le Mystère Lucy Lost",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T11:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/le-mystere-lucy-lost-d-olivier-clert-un-conte-poetique-subtil-et-profond-sur-la-memoire-et-l-identite_cri-7046563.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a970cc1843ee17173601",
+    "title": "Le cuirassé Potemkine",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T11:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/le-cuirasse-potemkine-le-film-mythique-qui-a-anticipe-les-codes-du-cinema-hollywoodien-a-re-voir-en-salles_cri-7044753.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4c3083a97aa3fff1d3ff",
+    "title": "15/18",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T13:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/15-18-cedric-kahn-reussit-un-huis-clos-debordant-de-vie-au-plus-pres-de-jeunes-patients_cri-7046793.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "593c2a4e8711d7868410",
+    "title": "Ce qui nous mène à toi",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T13:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/ce-qui-nous-mene-a-toi-de-khalil-cherti-un-film-sur-l-infecondite-qui-touche-au-c-ur_cri-7046792.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "64f17f4b7c37dc955029",
+    "title": "Club Kid",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T13:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/club-kid-un-apprentissage-tendre-et-emouvant-de-la-paternite_cri-7046678.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "c8af4846c375ce0afd04",
+    "title": "Everytime",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T13:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/everytime-de-sandra-wollner-un-film-sur-le-deuil-d-une-grande-beaute-formelle_cri-7046788.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "6d00ec43dd3834c64ef7",
+    "title": "Astérix-Le Royaume de Nubie",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-22T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "1a0a35c5dd7904dcf374",
+    "title": "L'impératrice rouge",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-11-22T14:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/l-imperatrice-rouge-1-32983.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "d7aacd7dd89297d5fad5",
+    "title": "Le Merveilleux hiver de Tom le chat",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-11-22T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/enfants/film-pour-enfants-le-merveilleux-hiver-de-tom-le-chat-les-aventures-d-un-attachant-felin-aux-airs-de-garfield_cri-7046780.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "527dd6b3ba1bab8c17d5",
+    "title": "Gabin",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T15:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "cec48d851d2b49b739d5",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T15:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3184f50275d2a0555d43",
+    "title": "Les braves (Coward)",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T15:20:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "200a7e4fda3ba15df2d2",
+    "title": "Wild Horse Nine",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T15:20:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/wild-horse-nine-john-malkovich-et-sam-rockwell-impayables-dans-cette-tragicomedie-brillante_cri-7046679.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "33c293854f72ac71b062",
+    "title": "Moulin",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-11-22T15:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "7908251699dc34d85a4f",
+    "title": "The Big Lebowski",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-22T16:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/the-big-lebowski-les-freres-coen-le-dude-et-les-pieds-nickeles_cri-7044240.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "0c6fc0daf48d934be3a8",
+    "title": "Astérix-Le Royaume de Nubie",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-11-22T16:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "2e693de5b3818d79df6d",
+    "title": "Quelques mots d'amour",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-11-22T16:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/quelques-mots-d-amour-de-rudi-rosenberg-hafsia-herzi-formidable-dans-ce-film-plein-de-grace-sur-la-famille_cri-7046567.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "40c25b0624660c30b29f",
+    "title": "Ce qui nous mène à toi",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T17:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/ce-qui-nous-mene-a-toi-de-khalil-cherti-un-film-sur-l-infecondite-qui-touche-au-c-ur_cri-7046792.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e8d8963ba5d2d5fbc6a5",
+    "title": "Il faut brûler Maman",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T17:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "43f2c7ba5768c956d0d0",
+    "title": "Club Kid",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T17:40:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/club-kid-un-apprentissage-tendre-et-emouvant-de-la-paternite_cri-7046678.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "d0db3bf007440f45d444",
+    "title": "Everytime",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T17:40:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/everytime-de-sandra-wollner-un-film-sur-le-deuil-d-une-grande-beaute-formelle_cri-7046788.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "cec5289b816f5b529867",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-11-22T18:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "d2cadb943d1653e1618a",
+    "title": "OM Chapter 1: Udhiram - The Blood Wood",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-11-22T18:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "3bab7fe5d65f13ac968f",
+    "title": "Marie Madeleine",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-11-22T18:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/marie-madeleine-de-gessica-geneus-immersion-onirique-a-haiti-corps-et-ame_cri-7046447.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "5ddd091fc60c0e6a1c3d",
+    "title": "Minotaure",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-11-22T18:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/minotaure-d-andrei-zviaguintsev-toute-la-brutalite-de-la-russie-de-poutine-dans-un-film-magistral_cri-7046346.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "af2a258862f8243b5b2e",
+    "title": "Les proies",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-22T18:30:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/les-proies,9986.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "84a807b03605e4d5784b",
+    "title": "15/18",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T19:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/15-18-cedric-kahn-reussit-un-huis-clos-debordant-de-vie-au-plus-pres-de-jeunes-patients_cri-7046793.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ed09a2046133aef31a19",
+    "title": "Gabin",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T19:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "77539077288538a89332",
+    "title": "Les braves (Coward)",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T20:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "e27c01d209fd9e90282e",
+    "title": "Wild Horse Nine",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T20:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/wild-horse-nine-john-malkovich-et-sam-rockwell-impayables-dans-cette-tragicomedie-brillante_cri-7046679.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3f025d441bcf6ea41b6d",
+    "title": "Hope",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-11-22T20:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/hope-de-na-hong-jin-un-film-ultra-spectaculaire-entre-horreur-farce-et-science-fiction_cri-7046569.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3a89f971bd65d9744653",
+    "title": "Shanghai Express",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-11-22T20:30:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/shanghai-express-1-59836.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "9699673bda5595910609",
+    "title": "Il faut brûler Maman",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T21:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "085b1eb078ae4d74daae",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-11-22T21:00:00+01:00",
     "version": "VO",
     "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
     "source": "Télérama"
