@@ -507,9 +507,9 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "58263388bf03c22c95fc",
+    "id": "640608ac9c27bb700a34",
     "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui [ Courts-Circuits ] Du",
-    "start": "2026-11-17T20:00:00+01:00",
+    "start": "2026-11-18T20:00:00+01:00",
     "venue": "Théâtre Le Verso",
     "city": "Saint-Étienne",
     "category": "Théâtre",
@@ -589,14 +589,14 @@
     "source": "La Ricane"
   },
   {
-    "id": "29eef8adba4cb0b08938",
-    "title": "Un je ne sais quoi de presque rien - Fête de la Comète",
+    "id": "30d6aafce976cadb8ec0",
+    "title": "Un je ne sais quoi de presque rien - complet - Fête de la Comète",
     "start": "2026-11-20T17:00:00+01:00",
     "venue": "La Comète",
     "city": "Saint-Étienne",
     "category": "Théâtre",
     "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/un-je-ne-sais-quoi-de-presque-rien-fete-de-la-comete/",
+    "url": "https://lacomete.saint-etienne.fr/evenements/un-je-ne-sais-quoi-de-presque-rien-complet-fete-de-la-comete/",
     "source": "La Comète"
   },
   {
@@ -895,6 +895,28 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/choeur-bouts-du-monde-et-cantabile-fete-de-la-comete/",
     "source": "La Comète"
+  },
+  {
+    "id": "838fb0eea61aec080910",
+    "title": "Au secours, on a un bébé à Saint-Étienne",
+    "start": "2026-11-22T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a03801-3b8d-7f1c-8a97-e293efd2c7dd",
+    "source": "Agenda Culturel"
+  },
+  {
+    "id": "5ac201e13e26b42648ad",
+    "title": "La couverture de Pauline à Saint-Étienne",
+    "start": "2026-11-22T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a090a2-b0f1-7bae-a41e-2252b2f70d84",
+    "source": "Agenda Culturel"
   },
   {
     "id": "9a979be092dcfa486bbe",
@@ -4697,6 +4719,17 @@
     "source": "Zénith Sainté"
   },
   {
+    "id": "c3602262cb19214e590f",
+    "title": "Sex en délire à Saint-Étienne",
+    "start": "2027-06-05T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a03800-5623-744f-990b-f3756917d74d",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "d67a3de04d8c71160fd1",
     "title": "Yann Guillarme",
     "start": "2027-06-05T20:30:00+02:00",
@@ -5083,7 +5116,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/nash/",
+    "url": "https://lacomete.saint-etienne.fr/evenements/nash-2/",
     "source": "La Comète"
   },
   {
@@ -5114,6 +5147,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/coproduction/ecorces-polar-forestier",
     "source": "Comédie Sainté"
+  },
+  {
+    "id": "2e554a7662cc6a271565",
+    "title": "NORDINE GANSO",
+    "start": "2027-12-02T20:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/nordine-ganso/",
+    "source": "La Comète"
   },
   {
     "id": "41ad3c2d7bf2daee2d06",
@@ -5180,6 +5224,17 @@
     "description": "",
     "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/atelier-ouvert-au-public/entre-deux-rives",
     "source": "Comédie Sainté"
+  },
+  {
+    "id": "54d72dab337b9e6dd41b",
+    "title": "YANN GUILLARME",
+    "start": "2027-12-16T20:00:00+01:00",
+    "venue": "Le Panassa",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://lacomete.saint-etienne.fr/evenements/yann-guillarme/",
+    "source": "La Comète"
   },
   {
     "id": "5709e67a2b46c082f5dc",
