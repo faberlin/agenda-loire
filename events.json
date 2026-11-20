@@ -507,50 +507,6 @@
     "source": "Théâtre de Poche des Brankignols"
   },
   {
-    "id": "640608ac9c27bb700a34",
-    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui [ Courts-Circuits ] Du",
-    "start": "2026-11-18T20:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/802028-la-declaration-damour-de-louis-hee-a-john-ah-oui-courts-circuits",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "a1e34a0c7de94c7e0e0c",
-    "title": "ALEX FREDO",
-    "start": "2026-11-18T21:00:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/alex-fredo",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "c4fca9c20edb2f88712b",
-    "title": "Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté • Reporté Journée Porte Ouverte de la Gendarmerie",
-    "start": "2026-11-19T09:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/journee-porte-ouverte-de-la-gendarmerie/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "8d8ae119b6bb08964cba",
-    "title": "Dialogue entre deux espèces",
-    "start": "2026-11-19T10:00:00+01:00",
-    "venue": "L'Usine",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/dialogue-entre-deux-especes/",
-    "source": "La Comète"
-  },
-  {
     "id": "bc7a9be1bbf5c413042b",
     "title": "INACHEVÉ Un fantôme dans l’opéra Compagnie HALTE Théâtre musical, dès 13 ans",
     "start": "2026-11-19T20:00:00+01:00",
@@ -567,6 +523,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "2afa21584867ba1120e1",
+    "title": "Complet sur Internet La Déclaration d’amour de Louis Hee à John Ah-Oui [ Courts-Circuits ]",
+    "start": "2026-11-19T20:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802028-la-declaration-damour-de-louis-hee-a-john-ah-oui-courts-circuits",
+    "source": "Théâtre Le Verso"
+  },
+  {
     "id": "249ea8e9eb2a23b467e8",
     "title": "NASH",
     "start": "2026-11-19T20:30:00+01:00",
@@ -576,17 +543,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/nash",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "03d55eeb4da626d3815e",
-    "title": "VERT DE RIRE COMEDY CLUB !",
-    "start": "2026-11-19T21:00:00+01:00",
-    "venue": "La Ricane",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
-    "source": "La Ricane"
   },
   {
     "id": "30d6aafce976cadb8ec0",
@@ -1778,7 +1734,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-7/",
     "source": "La Ricane"
   },
   {
@@ -1807,17 +1763,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/didon-et-enee/s-891/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "16cbe3560b1780829565",
-    "title": "PATRICK CHANFRAY",
-    "start": "2026-12-18T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/patrick-chanfray",
-    "source": "Les 3 Ducs"
   },
   {
     "id": "d13e9f797dab73e2b624",
@@ -2177,7 +2122,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-7/",
     "source": "La Ricane"
   },
   {
@@ -2427,6 +2372,17 @@
     "source": "Opéra Sainté"
   },
   {
+    "id": "7a1cf728f0cc39006830",
+    "title": "Vitalic",
+    "start": "2027-01-28T20:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/vitalic/",
+    "source": "Le Fil"
+  },
+  {
     "id": "917bfa908898b425a8b8",
     "title": "BIGFLO & OLI Karma tour",
     "start": "2027-01-28T20:30:00+01:00",
@@ -2612,8 +2568,8 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "5be8a45d696b604b6357",
-    "title": "Pomme",
+    "id": "145d4dfd632697a211d2",
+    "title": "Pomme + Bells Larsen",
     "start": "2027-02-03T20:30:00+01:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -2933,7 +2889,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://laricane.com/event/vert-de-rire-comedy-club-6/",
+    "url": "https://laricane.com/event/vert-de-rire-comedy-club-7/",
     "source": "La Ricane"
   },
   {
@@ -4097,8 +4053,8 @@
     "source": "Théâtre Le Verso"
   },
   {
-    "id": "bdc545dbe87690f91ae2",
-    "title": "HOWLIN’ JAWS",
+    "id": "1e7eb70a8a289a94048f",
+    "title": "Howlin’ Jaws + Al Twain",
     "start": "2027-04-01T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -4980,25 +4936,6 @@
     "source": "Comédie Sainté"
   },
   {
-    "id": "a815ef73a58c70b14173",
-    "title": "Dialogue entre deux espèces",
-    "start": "2027-11-16T10:00:00+01:00",
-    "end": "2027-11-19T10:00:00+01:00",
-    "sessions": [
-      "2027-11-16T10:00:00+01:00",
-      "2027-11-17T14:00:00+01:00",
-      "2027-11-18T15:00:00+01:00",
-      "2027-11-19T10:00:00+01:00"
-    ],
-    "session_count": 4,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/dialogue-entre-deux-especes",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "8be0fdeadc98536b0717",
     "title": "Laurent Gerra se met à table !",
     "start": "2027-11-17T20:00:00+01:00",
@@ -5058,6 +4995,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/i-gotta-feeling/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "3a6f7e6e0786a5181631",
+    "title": "PATRICK CHANFRAY",
+    "start": "2027-11-20T20:30:00+01:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/patrick-chanfray",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "0d6c517c640cd6c2f2c7",
