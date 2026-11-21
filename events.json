@@ -523,61 +523,6 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "2afa21584867ba1120e1",
-    "title": "Complet sur Internet La Déclaration d’amour de Louis Hee à John Ah-Oui [ Courts-Circuits ]",
-    "start": "2026-11-19T20:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/802028-la-declaration-damour-de-louis-hee-a-john-ah-oui-courts-circuits",
-    "source": "Théâtre Le Verso"
-  },
-  {
-    "id": "249ea8e9eb2a23b467e8",
-    "title": "NASH",
-    "start": "2026-11-19T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/nash",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "30d6aafce976cadb8ec0",
-    "title": "Un je ne sais quoi de presque rien - complet - Fête de la Comète",
-    "start": "2026-11-20T17:00:00+01:00",
-    "venue": "La Comète",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/un-je-ne-sais-quoi-de-presque-rien-complet-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
-    "id": "cad3278f796d816cf841",
-    "title": "Diogène en Baskets - Fête de la Comète",
-    "start": "2026-11-20T18:00:00+01:00",
-    "venue": "L'Usine",
-    "city": "Saint-Étienne",
-    "category": "Opéra-Danse",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/diogene-en-baskets-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
-    "id": "998a9d914892bf7155d5",
-    "title": "Mille horizons - Fête de la Comète",
-    "start": "2026-11-20T19:30:00+01:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Opéra-Danse",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/mille-horizons-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
     "id": "c3eaa38abb1f1693d1a5",
     "title": "PATRICK BRUEL Alors regarde",
     "start": "2026-11-20T20:00:00+01:00",
@@ -609,28 +554,6 @@
     "description": "",
     "url": "https://choktheatre.com/tact-ou-lamour-du-travail/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "7c16ae724b0c452f9f75",
-    "title": "Humour - \"L’impatient\"",
-    "start": "2026-11-20T20:00:00+01:00",
-    "venue": "Salle Aristide Briand",
-    "city": "Saint-Chamond",
-    "category": "Humour",
-    "description": "",
-    "url": "https://saint-chamond.fr/events/humour-limpatient/",
-    "source": "Salle Aristide Briand"
-  },
-  {
-    "id": "7689f26263a1bb16740e",
-    "title": "The Inspector Cluzo + Grant Haua",
-    "start": "2026-11-20T20:30:00+01:00",
-    "venue": "Le Fil",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.le-fil.com/evenement/the-inspector-cluzo/",
-    "source": "Le Fil"
   },
   {
     "id": "7f7f36ce43d4a6184bc8",
@@ -851,28 +774,6 @@
     "description": "",
     "url": "https://lacomete.saint-etienne.fr/evenements/choeur-bouts-du-monde-et-cantabile-fete-de-la-comete/",
     "source": "La Comète"
-  },
-  {
-    "id": "838fb0eea61aec080910",
-    "title": "Au secours, on a un bébé à Saint-Étienne",
-    "start": "2026-11-22T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a03801-3b8d-7f1c-8a97-e293efd2c7dd",
-    "source": "Agenda Culturel"
-  },
-  {
-    "id": "5ac201e13e26b42648ad",
-    "title": "La couverture de Pauline à Saint-Étienne",
-    "start": "2026-11-22T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a090a2-b0f1-7bae-a41e-2252b2f70d84",
-    "source": "Agenda Culturel"
   },
   {
     "id": "9a979be092dcfa486bbe",
@@ -1879,6 +1780,28 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-lyrique/carmina-burana/s-923/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "716f96bc1f8a4b686880",
+    "title": "REVEILLON DU 31 – 17H45",
+    "start": "2026-12-31T17:45:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/reveillon-du-31-17h45/",
+    "source": "La Ricane"
+  },
+  {
+    "id": "4fff5e5b9b58b8b712a0",
+    "title": "REVEILLON DU 31 – 19H45",
+    "start": "2026-12-31T17:45:00+01:00",
+    "venue": "La Ricane",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://laricane.com/event/reveillon-du-31-19h45/",
+    "source": "La Ricane"
   },
   {
     "id": "1beca2570dfff1115b8f",
@@ -4383,8 +4306,8 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "d3f97ecbd74df3207ecc",
-    "title": "Peet",
+    "id": "98bc261ac4040728a96a",
+    "title": "Peet + Reitnop",
     "start": "2027-04-29T20:30:00+02:00",
     "venue": "Le Fil",
     "city": "Saint-Étienne",
@@ -4675,17 +4598,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "c3602262cb19214e590f",
-    "title": "Sex en délire à Saint-Étienne",
-    "start": "2027-06-05T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a03800-5623-744f-990b-f3756917d74d",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "d67a3de04d8c71160fd1",
     "title": "Yann Guillarme",
     "start": "2027-06-05T20:30:00+02:00",
@@ -4915,27 +4827,6 @@
     "source": "Zénith Sainté"
   },
   {
-    "id": "f73576961a4302a3d3a0",
-    "title": "Un pouce en cavale",
-    "start": "2027-11-13T10:00:00+01:00",
-    "end": "2027-11-20T14:00:00+01:00",
-    "sessions": [
-      "2027-11-13T10:00:00+01:00",
-      "2027-11-14T17:00:00+01:00",
-      "2027-11-17T10:00:00+01:00",
-      "2027-11-18T15:00:00+01:00",
-      "2027-11-19T18:00:00+01:00",
-      "2027-11-20T14:00:00+01:00"
-    ],
-    "session_count": 6,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/creation/un-pouce-en-cavale",
-    "source": "Comédie Sainté"
-  },
-  {
     "id": "8be0fdeadc98536b0717",
     "title": "Laurent Gerra se met à table !",
     "start": "2027-11-17T20:00:00+01:00",
@@ -4945,25 +4836,6 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/laurent-gerra-2027/",
     "source": "Zénith Sainté"
-  },
-  {
-    "id": "6a9e85a6ec388aa8c2c0",
-    "title": "La Déclaration d’amour de Louis Hee à John Ah-Oui",
-    "start": "2027-11-17T20:00:00+01:00",
-    "end": "2027-11-20T20:00:00+01:00",
-    "sessions": [
-      "2027-11-17T20:00:00+01:00",
-      "2027-11-18T20:00:00+01:00",
-      "2027-11-19T20:00:00+01:00",
-      "2027-11-20T20:00:00+01:00"
-    ],
-    "session_count": 4,
-    "venue": "La Comédie",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://www.lacomedie.fr/programmation/la-saison-26-27/courts-circuits/la-declaration-d-amour-de-louis-hee-a-john-ah-oui",
-    "source": "Comédie Sainté"
   },
   {
     "id": "90d5625daf045952782e",
