@@ -545,17 +545,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "abc88c3892134f549680",
-    "title": "CLAUDIO CAPEO",
-    "start": "2026-11-21T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/claudio-capeo/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "dcd4b69cbbfb02f30181",
     "title": "Tout contre la terre",
     "start": "2026-11-21T20:30:00+01:00",
@@ -567,72 +556,6 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "6f6369aef04eccce5d3d",
-    "title": "ANNE DEPETRINI",
-    "start": "2026-11-21T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/anne-depetrini",
-    "source": "Les 3 Ducs"
-  },
-  {
-    "id": "7b09b0fb0c1257a2032e",
-    "title": "La pièce à danser - Fête de la Comète",
-    "start": "2026-11-22T10:00:00+01:00",
-    "venue": "L'Usine",
-    "city": "Saint-Étienne",
-    "category": "Opéra-Danse",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/la-piece-a-danser-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
-    "id": "4114f8b607f0cdf0f49b",
-    "title": "Collectif Les Fracassé·es - Fête de la Comète",
-    "start": "2026-11-22T10:00:00+01:00",
-    "venue": "La Comète",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/collectif-les-fracasse%c2%b7es-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
-    "id": "fe03d475a5acff53ad54",
-    "title": "Au boulot ! - Fête de la Comète",
-    "start": "2026-11-22T14:00:00+01:00",
-    "venue": "Le Hall",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/au-boulot-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
-    "id": "bc4589afc821e57b7173",
-    "title": "Babylloon , l'homme et sa baudruche - Fête de la Comète",
-    "start": "2026-11-22T15:00:00+01:00",
-    "venue": "La Comète",
-    "city": "Saint-Étienne",
-    "category": "Spectacle",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/babylloon-lhomme-et-sa-baudruche-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
-    "id": "7af00ba977b18a3f331f",
-    "title": "Tribute to Ella - Fête de la Comète",
-    "start": "2026-11-22T16:00:00+01:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/tribute-to-ella-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
     "id": "2d3f950080c0d4f4409a",
     "title": "Tact ou l’amour du travail",
     "start": "2026-11-22T17:00:00+01:00",
@@ -642,39 +565,6 @@
     "description": "",
     "url": "https://choktheatre.com/tact-ou-lamour-du-travail/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "9e04f97ef1e6c44288f1",
-    "title": "Choeur Bouts du monde et Cantabile - Fête de la Comète",
-    "start": "2026-11-22T18:00:00+01:00",
-    "venue": "Le Hall",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/choeur-bouts-du-monde-et-cantabile-fete-de-la-comete/",
-    "source": "La Comète"
-  },
-  {
-    "id": "9a979be092dcfa486bbe",
-    "title": "Ari Hoenig Trio",
-    "start": "2026-11-22T20:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/ari-hoenig-trio/",
-    "source": "Le Solar"
-  },
-  {
-    "id": "1eaae495a60427941b81",
-    "title": "Ari Hoenig trio - Fête de la Comète",
-    "start": "2026-11-22T20:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/ari-hoenig-trio-fete-de-la-comete/",
-    "source": "La Comète"
   },
   {
     "id": "8fc5155d4949919a3471",
