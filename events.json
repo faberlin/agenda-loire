@@ -567,28 +567,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "8fc5155d4949919a3471",
-    "title": "REDOUANE BOUGHERABA Mon Premier Spectacle",
-    "start": "2026-11-23T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/redouane-bougheraba/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "3f6b1b8a5851e317bec4",
-    "title": "Jam Session",
-    "start": "2026-11-23T20:30:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/jam-session-133/",
-    "source": "Le Solar"
-  },
-  {
     "id": "996fc339ebe307f7ee9e",
     "title": "SOUPE DES CHEFS",
     "start": "2026-11-24T18:30:00+01:00",
@@ -725,6 +703,17 @@
     "description": "",
     "url": "https://choktheatre.com/la-dette-dodette/",
     "source": "Chok Théâtre"
+  },
+  {
+    "id": "bda49142f8f82389a369",
+    "title": "Hommage à Dalida à Saint-Étienne",
+    "start": "2026-11-27T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=019e79af-dcbf-74f5-9b79-b32e81c8ad93",
+    "source": "Agenda Culturel"
   },
   {
     "id": "bf7fbf59743c40f239ed",
@@ -1894,14 +1883,14 @@
     "source": "Opéra Sainté"
   },
   {
-    "id": "fb1006966b33c2179a5b",
-    "title": "OCTOGONE MMA MADE IN SAINT-ETIENNE",
+    "id": "7da48d047ad38be2ad67",
+    "title": "OCTOGONE CAGE MADE IN SAINT-ETIENNE",
     "start": "2027-01-23T19:00:00+01:00",
     "venue": "Zénith de Saint-Étienne",
     "city": "Saint-Étienne",
     "category": "Concerts",
     "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/octogone-mma/",
+    "url": "https://www.zenith-saint-etienne.fr/evenement/octogone-cage/",
     "source": "Zénith Sainté"
   },
   {
@@ -3167,6 +3156,17 @@
     "source": "Les 3 Ducs"
   },
   {
+    "id": "4b41a7741258e6035738",
+    "title": "Rhapsodie en bleu",
+    "start": "2027-03-09T18:30:00+01:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/rhapsodie-en-bleu/",
+    "source": "Le Fil"
+  },
+  {
     "id": "2a01214c8b67e0e19a69",
     "title": "Señora tentación",
     "start": "2027-03-09T20:00:00+01:00",
@@ -3754,6 +3754,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/howlin-jaws/",
     "source": "Le Fil"
+  },
+  {
+    "id": "7f7970f50b1f720b67f8",
+    "title": "YOANNA",
+    "start": "2027-04-01T20:30:00+02:00",
+    "venue": "Les 3 Ducs",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "https://www.lestroisducs.fr/artiste/yoanna",
+    "source": "Les 3 Ducs"
   },
   {
     "id": "317a5147117a41842e4f",
@@ -4378,6 +4389,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "e46048db5ed55272ad83",
+    "title": "Gaga de Saint-Étienne",
+    "start": "2027-06-06T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a068de-2ce3-776b-aaa5-5db1ce5e40a0",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "f7de1cf7e3148209e116",
     "title": "La nuit l’ordure Du",
     "start": "2027-06-09T20:00:00+02:00",
@@ -4501,6 +4523,17 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-liberations/s-898/",
     "source": "Opéra Sainté"
+  },
+  {
+    "id": "add457de0c280571ce6c",
+    "title": "Soirée Stand-up à Saint-Étienne",
+    "start": "2027-06-24T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Humour",
+    "description": "",
+    "url": "/favori/garder?event=01a06948-c532-78ed-85de-2294fc4d5ec8",
+    "source": "Agenda Culturel"
   },
   {
     "id": "25a98eda487f55a46981",
