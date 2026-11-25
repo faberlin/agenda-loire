@@ -1,905 +1,5 @@
 [
   {
-    "id": "dd86fb9d6d7a96f5125e",
-    "title": "15/18",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T13:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/15-18-cedric-kahn-reussit-un-huis-clos-debordant-de-vie-au-plus-pres-de-jeunes-patients_cri-7046793.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4810dd52d5a0fc95cbcd",
-    "title": "Ce qui nous mène à toi",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T13:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/ce-qui-nous-mene-a-toi-de-khalil-cherti-un-film-sur-l-infecondite-qui-touche-au-c-ur_cri-7046792.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "139b8f718c4cd953f5a3",
-    "title": "Club Kid",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T13:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/club-kid-un-apprentissage-tendre-et-emouvant-de-la-paternite_cri-7046678.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "874b109ee2f0f71fdfc6",
-    "title": "Everytime",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T13:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/everytime-de-sandra-wollner-un-film-sur-le-deuil-d-une-grande-beaute-formelle_cri-7046788.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f5349ee7d990ed009f61",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "aaea9d258db3737981f4",
-    "title": "Comment braquer une banque",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/comment-braquer-une-banque-de-david-leitch-une-critique-du-capitalisme-franchement-pauvre_cri-7046835.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "45927205e85304adcc45",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e5e17ffc4959b46fdd55",
-    "title": "Moulin",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-24T13:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "219ca27685bb40145c0c",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "9c84cbb963d805b74460",
-    "title": "Hunger Games : Lever de soleil sur la moisson",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f80cb68a43e32e1b3787",
-    "title": "Karma",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2f566287891b96b2fc26",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "35559546abb56b50839d",
-    "title": "Malika",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/malika-de-mounia-meddour-un-film-trop-convenu-sur-le-destin-exceptionnel-de-la-diva-des-cites_cri-7046888.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f4e19f6c6c2d476a4d1d",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "95fd2abbcd090ee4d7ea",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "febbc0ba57b9d8d2b3d7",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "809f291bca1c3192f0ce",
-    "title": "Hunger Games : Lever de soleil sur la moisson",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "36757a6ac44eb51ae19c",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "37a7d60462ab3d750e17",
-    "title": "Jupiter",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b19034cbc735ccab3eda",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fcee12bbee6989ec54d4",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "6a2691a173639316a8ce",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4b7e56e522872d5f2353",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5ffa0a1ba381bd522eee",
-    "title": "Quand la mer monte... (version restaurée)",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-24T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "c10bac6a1168e95131cd",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T14:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0dfcf317896aad4d5145",
-    "title": "Gabin",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T15:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/gabin-un-documentaire-empathique-et-bouleversant-dans-la-ruralite-du-pas-de-calais_cri-7046894.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "99c8cb03a50424adaa32",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T15:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "00cfb93abb37259b43c4",
-    "title": "Les braves (Coward)",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T15:20:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-braves-de-lukas-dhont-un-amour-en-pleine-guerre-loin-des-cliches-de-la-virilite_cri-7046895.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "65d1cf0dc27585710ace",
-    "title": "Wild Horse Nine",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T15:20:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/wild-horse-nine-john-malkovich-et-sam-rockwell-impayables-dans-cette-tragicomedie-brillante_cri-7046679.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "cfc22a0793d5bf10fc35",
-    "title": "Jupiter",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T15:59:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f6a6e2082acc43bd6ac7",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4644d39254013aa7aaa9",
-    "title": "Les proies",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T16:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/films/les-proies,9986.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0dfb627ada28509e2309",
-    "title": "Malika",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/malika-de-mounia-meddour-un-film-trop-convenu-sur-le-destin-exceptionnel-de-la-diva-des-cites_cri-7046888.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "74e7d0784966708c53fe",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "50b766acd1cc99ce36a2",
-    "title": "Hunger Games : Lever de soleil sur la moisson",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "57f77a74db3537a665c4",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f6cb708917ac3720a2ec",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T16:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2bb48c5fbfe14c082e2a",
-    "title": "Blonde Vénus",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-24T16:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "c81bc8cde83d3a0dd930",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T16:01:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d7a10ab42550dab442ab",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T16:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "dd2fc23cbee64bb5d718",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T16:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0cb78a09b91ce6b4733b",
-    "title": "Moulin",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T16:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d144d988dc1c9c42225e",
-    "title": "Marie Madeleine",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-24T16:15:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/marie-madeleine-de-gessica-geneus-immersion-onirique-a-haiti-corps-et-ame_cri-7046447.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "596c3b1e99604c8414e2",
-    "title": "Karma",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T17:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "46944b272b7112051daa",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T17:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ba8f7d3ef4738bf94492",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T17:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "bef14bd83609b38cf245",
-    "title": "Ce qui nous mène à toi",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T17:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/ce-qui-nous-mene-a-toi-de-khalil-cherti-un-film-sur-l-infecondite-qui-touche-au-c-ur_cri-7046792.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "956fe4ef558d46091208",
-    "title": "Il faut brûler Maman",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T17:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "eba23e6c4e9d2c636ffc",
-    "title": "Hunger Games : Lever de soleil sur la moisson",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T17:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "e13caf8869cf02445fff",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T17:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b5d0f7e817ef1d784cd3",
-    "title": "Hunger Games : Lever de soleil sur la moisson",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T17:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d5e43d0c47965fc64541",
-    "title": "Karma",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T17:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "aefaab2e77c1fe1b7f75",
-    "title": "Everytime",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T17:40:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/everytime-de-sandra-wollner-un-film-sur-le-deuil-d-une-grande-beaute-formelle_cri-7046788.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "4d731f378997b4c224fa",
-    "title": "La Gradiva",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T17:40:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/la-gradiva-marine-atlan-signe-un-magnifique-premier-film-sur-l-adolescence-et-ses-tumultes_cri-7046453.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "2523eb34302e5c3ed397",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "f6c0bdc8b64d05928bb3",
-    "title": "Papa où t'es ?",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/papa-ou-t-es-le-road-movie-touchant-d-un-enfant-place-sur-les-traces-de-son-pere_cri-7046557.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3709f91fc871b214c574",
-    "title": "Si tu tends l'oreille",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/si-tu-tends-l-oreille-des-studios-ghibli-enfin-en-salles-en-france-trente-ans-apres-sa-sortie_cri-7046662.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7dce660069fec063c63c",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "34aea8f15b2041d0db9b",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b5dcb44da7d92d256143",
-    "title": "Jupiter",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "31e84d02a86373b54c1f",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7f7335a356cf8e9fdf3b",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5c0da55972afb751a305",
-    "title": "Quelques mots d'amour",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-24T18:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/quelques-mots-d-amour-de-rudi-rosenberg-hafsia-herzi-formidable-dans-ce-film-plein-de-grace-sur-la-famille_cri-7046567.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "3b429fd79a34a917153d",
-    "title": "Les nerfs à vif",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T18:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-nerfs-a-vif-de-martin-scorsese-notre-critique_cri-7039295.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ecf7ee8d06abb9bb404b",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T18:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "57d155fc7fe8e346ff11",
-    "title": "Moulin",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T18:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "39ce7a93e8fc8710c600",
-    "title": "Le Fantôme de l'Opéra",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T18:55:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/le-fantome-de-l-opera-alexandre-castagnetti-peine-a-remettre-gaston-leroux-au-gout-du-jour_cri-7046583.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ffe65f46afbb166dabf5",
-    "title": "Hunger Games : Lever de soleil sur la moisson",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T19:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "33f5049af4c6bb109181",
-    "title": "Gabin",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T19:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/gabin-un-documentaire-empathique-et-bouleversant-dans-la-ruralite-du-pas-de-calais_cri-7046894.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d297b45c68656a75c8db",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T19:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "87607247422d4f68e035",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T19:15:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "72cc037138088f04b366",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T19:55:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7c137358e6994dc377ca",
-    "title": "Il faut brûler Maman",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T20:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "12723f1f46ece51be825",
-    "title": "Jupiter",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T20:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "304a0d994c605fcf3cdb",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T20:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "53e3156fa9f54473c015",
-    "title": "Wild Horse Nine",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T20:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/wild-horse-nine-john-malkovich-et-sam-rockwell-impayables-dans-cette-tragicomedie-brillante_cri-7046679.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "10f6d9570cc20dd32b14",
-    "title": "Minotaure",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-24T20:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/minotaure-d-andrei-zviaguintsev-toute-la-brutalite-de-la-russie-de-poutine-dans-un-film-magistral_cri-7046346.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "06a8e36847a612549500",
-    "title": "Godzilla Minus Zero",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ef9ab2dce73e7bf6058c",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "850efcf56ac43d709e57",
-    "title": "Hunger Games : Lever de soleil sur la moisson",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0ec2c713db6d4e3f6238",
-    "title": "Karma",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "5d03cc1778085acbe0e7",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "dd44d0f384531a432249",
-    "title": "Malika",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/malika-de-mounia-meddour-un-film-trop-convenu-sur-le-destin-exceptionnel-de-la-diva-des-cites_cri-7046888.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d39974c5fe5d3110e08d",
-    "title": "Papa où t'es ?",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/papa-ou-t-es-le-road-movie-touchant-d-un-enfant-place-sur-les-traces-de-son-pere_cri-7046557.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "becc6eaaafe343b38511",
-    "title": "Karma",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T20:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "46be817a1bf1f40d8b65",
-    "title": "Les braves (Coward)",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T20:30:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/les-braves-de-lukas-dhont-un-amour-en-pleine-guerre-loin-des-cliches-de-la-virilite_cri-7046895.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "0fb8e419980a6baf309e",
-    "title": "Les Misérables",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:35:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "a444c1ca6f62353979f5",
-    "title": "Scrooge",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T20:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "76c37af08ba0622fb495",
-    "title": "Hunger Games : Lever de soleil sur la moisson",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T20:45:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "20c21f901f58d1d8a2d6",
-    "title": "Hope",
-    "cinema": "Méliès Saint-François",
-    "start": "2026-11-24T20:45:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/hope-de-na-hong-jin-un-film-ultra-spectaculaire-entre-horreur-farce-et-science-fiction_cri-7046569.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "b1cd84deebaebc682002",
-    "title": "Tombé du ciel",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-24T21:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "ae2c42c2036ef68cbb9a",
-    "title": "15/18",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T21:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/15-18-cedric-kahn-reussit-un-huis-clos-debordant-de-vie-au-plus-pres-de-jeunes-patients_cri-7046793.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "cf89a0829707bc1e6a68",
-    "title": "Il faut brûler Maman",
-    "cinema": "Méliès Jean-Jaurès",
-    "start": "2026-11-24T21:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "d615a3e5ab7c094aca46",
-    "title": "Moulin",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T21:15:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "55fa99e1f5ecb9831a0c",
-    "title": "Comment braquer une banque",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T21:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/comment-braquer-une-banque-de-david-leitch-une-critique-du-capitalisme-franchement-pauvre_cri-7046835.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "c741c79024884b95fe87",
-    "title": "Scrooge",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T21:30:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fccfb1bd99fc981dec9f",
-    "title": "Clayface",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T21:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/clayface-de-james-watkins-un-film-aux-effets-speciaux-horrifiques-peu-ragoutants-mais-impressionnants_cri-7046463.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "bcf2a50c4fc7b518b1d8",
-    "title": "La Petite Vadrouille",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T21:45:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "fc90f166b9cdfdceba45",
-    "title": "Infirmary",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T22:00:00+01:00",
-    "version": "VO",
-    "url": "https://www.telerama.fr/cinema/infirmary-de-nicholas-pineda-un-film-d-horreur-ou-l-ennui-prend-le-pas-sur-la-peur_cri-7046779.php",
-    "source": "Télérama"
-  },
-  {
-    "id": "7be8e4c00ebdee94faea",
-    "title": "Jupiter",
-    "cinema": "Mégarama Jean-Jaurès",
-    "start": "2026-11-24T22:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
-    "source": "Télérama"
-  },
-  {
     "id": "6b839a00240babd7a0d4",
     "title": "Hunger Games : Lever de soleil sur la moisson",
     "cinema": "Mégarama Jean-Jaurès",
@@ -909,12 +9,12 @@
     "source": "Télérama"
   },
   {
-    "id": "50c7cdb8c9941bc66022",
-    "title": "Billie à la croisée des mondes",
+    "id": "9cd0ab97d2149f7fe80b",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -923,7 +23,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -959,7 +59,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -977,7 +77,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -1026,6 +126,15 @@
     "source": "Télérama"
   },
   {
+    "id": "eb3d70645fc316ed1b63",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-25T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
     "id": "0f7f675c72a220cafd68",
     "title": "Les Misérables",
     "cinema": "Mégarama Camion Rouge",
@@ -1049,7 +158,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T13:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1062,12 +171,12 @@
     "source": "Télérama"
   },
   {
-    "id": "2f132127ee9919a7c403",
-    "title": "Billie à la croisée des mondes",
+    "id": "829a35e9b6c8700bee4a",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-25T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1098,15 +207,6 @@
     "source": "Télérama"
   },
   {
-    "id": "0e506ac5f47d9f042f3e",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-25T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
     "id": "d4a55fb18c16e2fa7372",
     "title": "La Petite Vadrouille",
     "cinema": "Mégarama Camion Rouge",
@@ -1121,7 +221,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-25T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1134,12 +234,12 @@
     "source": "Télérama"
   },
   {
-    "id": "6ce04f275c30f9fc3be9",
-    "title": "Billie à la croisée des mondes",
+    "id": "3584d03bde11d026b01d",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1148,7 +248,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -1193,7 +293,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -1224,12 +324,12 @@
     "source": "Télérama"
   },
   {
-    "id": "26a33bec535bf50e4ba8",
-    "title": "Billie à la croisée des mondes",
+    "id": "83189cad7458c63ff002",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T14:01:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1238,7 +338,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-25T15:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -1256,7 +356,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-25T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -1265,7 +365,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-25T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -1292,7 +392,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T15:50:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1341,12 +441,12 @@
     "source": "Télérama"
   },
   {
-    "id": "5e6168f55828546d520f",
-    "title": "Billie à la croisée des mondes",
+    "id": "5a5dd56cf7345ec5322c",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-25T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1364,7 +464,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-25T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1395,12 +495,12 @@
     "source": "Télérama"
   },
   {
-    "id": "b9df4af086f516a7318c",
-    "title": "Billie à la croisée des mondes",
+    "id": "da4def06c1e805990daa",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1409,15 +509,15 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
-    "id": "b74a8dd5ea09cd216a37",
+    "id": "54c40606fbecfbb441a2",
     "title": "Hunger Games : Lever de soleil sur la moisson",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T16:30:00+01:00",
-    "version": "VF",
+    "version": "VO",
     "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
     "source": "Télérama"
   },
@@ -1427,7 +527,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -1526,7 +626,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T17:55:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1575,12 +675,12 @@
     "source": "Télérama"
   },
   {
-    "id": "bfc45ae37beb889860c0",
-    "title": "Billie à la croisée des mondes",
+    "id": "ac9e7e217c661b1303c5",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-25T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1598,7 +698,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-25T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1638,12 +738,12 @@
     "source": "Télérama"
   },
   {
-    "id": "e101efaf1a596a4dccfd",
-    "title": "Billie à la croisée des mondes",
+    "id": "b866aa9116a3acdc9eb3",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1652,7 +752,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -1661,7 +761,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T19:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -1670,7 +770,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-25T19:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -1679,7 +779,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-25T19:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/merci-d-etre-venu-l-espiegle-testament-video-d-alain-cavalier_cri-7046995.php",
     "source": "Télérama"
   },
   {
@@ -1724,7 +824,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T20:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1733,7 +833,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-25T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -1742,7 +842,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-25T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -1814,16 +914,16 @@
     "cinema": "Méliès Saint-François",
     "start": "2026-11-25T20:30:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/la-libertad-doble-du-cinema-brut-et-precieux_cri-7046989.php",
     "source": "Télérama"
   },
   {
-    "id": "f05cac8e803c2c869104",
-    "title": "Billie à la croisée des mondes",
+    "id": "a77913c45750a49b678e",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-25T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1841,7 +941,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-25T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1890,12 +990,12 @@
     "source": "Télérama"
   },
   {
-    "id": "02cd8f18972728ce9fd3",
-    "title": "Billie à la croisée des mondes",
+    "id": "f087eb1f76c8b178a8ac",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T21:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -1922,7 +1022,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T21:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -1949,7 +1049,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-25T22:05:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -1980,6 +1080,15 @@
     "source": "Télérama"
   },
   {
+    "id": "b7a2c64a109ec5ff4fee",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-26T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
     "id": "914d4a72b80f9353f289",
     "title": "Les Misérables",
     "cinema": "Mégarama Camion Rouge",
@@ -2003,7 +1112,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T13:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2025,12 +1134,12 @@
     "source": "Télérama"
   },
   {
-    "id": "36c5f2e8d17db2c7dcfa",
-    "title": "Billie à la croisée des mondes",
+    "id": "5787940ce9f087300c93",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-26T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2061,15 +1170,6 @@
     "source": "Télérama"
   },
   {
-    "id": "5cbb3442b0d3190f2fe7",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-26T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
     "id": "c45e04003b046696ba21",
     "title": "La Petite Vadrouille",
     "cinema": "Mégarama Camion Rouge",
@@ -2084,7 +1184,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-26T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2097,12 +1197,12 @@
     "source": "Télérama"
   },
   {
-    "id": "f20664443b943e062d0a",
-    "title": "Billie à la croisée des mondes",
+    "id": "a9058e2f67034c51c290",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2111,7 +1211,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -2156,7 +1256,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -2178,12 +1278,12 @@
     "source": "Télérama"
   },
   {
-    "id": "0c5069c896a76d363377",
-    "title": "Billie à la croisée des mondes",
+    "id": "957619b67e22d718fabb",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T14:01:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2201,7 +1301,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-26T15:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/merci-d-etre-venu-l-espiegle-testament-video-d-alain-cavalier_cri-7046995.php",
     "source": "Télérama"
   },
   {
@@ -2237,7 +1337,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T15:50:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2291,16 +1391,16 @@
     "cinema": "Méliès Saint-François",
     "start": "2026-11-26T16:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/la-libertad-doble-du-cinema-brut-et-precieux_cri-7046989.php",
     "source": "Télérama"
   },
   {
-    "id": "8fdd0119988b7b886ad5",
-    "title": "Billie à la croisée des mondes",
+    "id": "f2767aca5937d0a4bc58",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-26T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2318,7 +1418,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-26T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2340,12 +1440,12 @@
     "source": "Télérama"
   },
   {
-    "id": "e1182341c7a387133ebe",
-    "title": "Billie à la croisée des mondes",
+    "id": "7c27d7be6ecfb6ea6863",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2354,15 +1454,15 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
-    "id": "05f8fbe55c779b503369",
+    "id": "c5635316dab369a685b2",
     "title": "Hunger Games : Lever de soleil sur la moisson",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T16:30:00+01:00",
-    "version": "VF",
+    "version": "VO",
     "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
     "source": "Télérama"
   },
@@ -2372,7 +1472,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -2399,7 +1499,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-26T17:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -2426,7 +1526,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-26T17:15:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -2453,7 +1553,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T17:55:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2507,7 +1607,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-26T18:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -2529,12 +1629,12 @@
     "source": "Télérama"
   },
   {
-    "id": "ea859fce6171e609406d",
-    "title": "Billie à la croisée des mondes",
+    "id": "45d232f59aa43ce149a8",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-26T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2552,7 +1652,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-26T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2574,12 +1674,12 @@
     "source": "Télérama"
   },
   {
-    "id": "fec051048e740d6a2f4d",
-    "title": "Billie à la croisée des mondes",
+    "id": "245857a457acb9fc52d9",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2588,7 +1688,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -2597,7 +1697,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -2642,7 +1742,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-26T19:30:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -2660,7 +1760,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T20:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2669,7 +1769,7 @@
     "cinema": "Méliès Saint-François",
     "start": "2026-11-26T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/espoir-sierra-de-teruel-d-andre-malraux-cet-indispensable-document-sur-la-guerre-civile-espagnole-ressort-en-salles_cri-7046986.php",
     "source": "Télérama"
   },
   {
@@ -2736,12 +1836,12 @@
     "source": "Télérama"
   },
   {
-    "id": "c23778bb3a9be32bb770",
-    "title": "Billie à la croisée des mondes",
+    "id": "b029ec156166629cb002",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-26T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2759,7 +1859,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-26T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2777,7 +1877,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-26T20:45:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -2808,12 +1908,12 @@
     "source": "Télérama"
   },
   {
-    "id": "bc842701aa4287f41fc7",
-    "title": "Billie à la croisée des mondes",
+    "id": "3cd073d116c278ace68e",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T21:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2849,7 +1949,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T21:30:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -2876,7 +1976,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-26T22:05:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2916,6 +2016,15 @@
     "source": "Télérama"
   },
   {
+    "id": "d1bda7ce4ee49530f560",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-27T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
     "id": "99791c795b29f5b3bcbc",
     "title": "Les Misérables",
     "cinema": "Mégarama Camion Rouge",
@@ -2934,12 +2043,21 @@
     "source": "Télérama"
   },
   {
+    "id": "26ae8f4e6f5cca0a0ba0",
+    "title": "Un bon patron",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-27T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
+    "source": "Télérama"
+  },
+  {
     "id": "98c870e0e656ec5dad95",
     "title": "Mon beau-père, ma belle-fille et moi",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T13:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -2952,12 +2070,12 @@
     "source": "Télérama"
   },
   {
-    "id": "d0f4b6fdbe58d3fe5221",
-    "title": "Billie à la croisée des mondes",
+    "id": "e0f240324d84762e10e6",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-27T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -2988,15 +2106,6 @@
     "source": "Télérama"
   },
   {
-    "id": "53266ebfe6b10e93db62",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-27T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
     "id": "8e132d68675d6a6ae1f0",
     "title": "La Petite Vadrouille",
     "cinema": "Mégarama Camion Rouge",
@@ -3011,16 +2120,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-27T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
-    "source": "Télérama"
-  },
-  {
-    "id": "b1ca5eba9d9f650a00a9",
-    "title": "Un bon patron",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-27T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3029,7 +2129,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -3074,7 +2174,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -3101,16 +2201,16 @@
     "cinema": "Méliès Saint-François",
     "start": "2026-11-27T14:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/la-libertad-doble-du-cinema-brut-et-precieux_cri-7046989.php",
     "source": "Télérama"
   },
   {
-    "id": "01585be7d3015ed4ae65",
-    "title": "Billie à la croisée des mondes",
+    "id": "d04fabe27e3335baf67f",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T14:01:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -3119,7 +2219,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-27T15:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -3137,7 +2237,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-27T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -3146,7 +2246,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-27T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -3173,7 +2273,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T15:50:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3231,12 +2331,12 @@
     "source": "Télérama"
   },
   {
-    "id": "33c11e7655e95d647fb8",
-    "title": "Billie à la croisée des mondes",
+    "id": "5f10be458377d4dfcf2d",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-27T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -3254,7 +2354,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-27T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3276,12 +2376,12 @@
     "source": "Télérama"
   },
   {
-    "id": "b1e57b057fadfd1314f1",
-    "title": "Billie à la croisée des mondes",
+    "id": "1e9a36ccf4b640bd60f7",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -3290,15 +2390,15 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
-    "id": "ff047b470cede7867b53",
+    "id": "0e5cd8aca21db499e33a",
     "title": "Hunger Games : Lever de soleil sur la moisson",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T16:30:00+01:00",
-    "version": "VF",
+    "version": "VO",
     "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
     "source": "Télérama"
   },
@@ -3308,7 +2408,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -3407,7 +2507,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T17:55:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3456,12 +2556,12 @@
     "source": "Télérama"
   },
   {
-    "id": "b623f3e1bba62f47c1ed",
-    "title": "Billie à la croisée des mondes",
+    "id": "a741f49cbf6b08e56c42",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-27T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -3479,7 +2579,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-27T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3501,12 +2601,12 @@
     "source": "Télérama"
   },
   {
-    "id": "d63b0eddb96aeb1b9c4d",
-    "title": "Billie à la croisée des mondes",
+    "id": "cec3cd4964d2341c243e",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -3515,7 +2615,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -3524,7 +2624,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T19:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -3533,7 +2633,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-27T19:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -3542,7 +2642,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-27T19:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/merci-d-etre-venu-l-espiegle-testament-video-d-alain-cavalier_cri-7046995.php",
     "source": "Télérama"
   },
   {
@@ -3587,7 +2687,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T20:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3596,7 +2696,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-27T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -3605,7 +2705,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-27T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -3672,12 +2772,12 @@
     "source": "Télérama"
   },
   {
-    "id": "04d6d42c0b55990082aa",
-    "title": "Billie à la croisée des mondes",
+    "id": "ce249349c934ae10fe78",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-27T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -3695,7 +2795,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-27T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3744,12 +2844,12 @@
     "source": "Télérama"
   },
   {
-    "id": "23b21604a13c94632e2a",
-    "title": "Billie à la croisée des mondes",
+    "id": "bc3e4d391d8bc0dca7c4",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T21:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -3776,7 +2876,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T21:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -3803,7 +2903,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-27T22:05:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3816,12 +2916,12 @@
     "source": "Télérama"
   },
   {
-    "id": "955fe896aa5d21cf18a2",
-    "title": "Billie à la croisée des mondes",
+    "id": "4bae8a59c0364012c863",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -3830,7 +2930,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -3866,7 +2966,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3884,7 +2984,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -3902,7 +3002,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-28T13:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -3933,6 +3033,15 @@
     "source": "Télérama"
   },
   {
+    "id": "35559b9e55bea4ea3efd",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-28T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
     "id": "51c884f8604f0f9a3c6c",
     "title": "Les Misérables",
     "cinema": "Mégarama Camion Rouge",
@@ -3956,7 +3065,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T13:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -3978,12 +3087,12 @@
     "source": "Télérama"
   },
   {
-    "id": "8095735aac612f5fee53",
-    "title": "Billie à la croisée des mondes",
+    "id": "cd2394c917dbb02188aa",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-28T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4014,15 +3123,6 @@
     "source": "Télérama"
   },
   {
-    "id": "f8c2df399c68e54d9076",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-28T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
     "id": "ec5755504530fe4d3003",
     "title": "La Petite Vadrouille",
     "cinema": "Mégarama Camion Rouge",
@@ -4037,7 +3137,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-28T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4055,7 +3155,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -4100,7 +3200,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -4113,12 +3213,12 @@
     "source": "Télérama"
   },
   {
-    "id": "ad2019c2798126e538e3",
-    "title": "Billie à la croisée des mondes",
+    "id": "af2b4b7f50205d390129",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T14:01:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4136,7 +3236,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-28T15:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/merci-d-etre-venu-l-espiegle-testament-video-d-alain-cavalier_cri-7046995.php",
     "source": "Télérama"
   },
   {
@@ -4154,7 +3254,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-28T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -4190,7 +3290,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T15:50:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4239,12 +3339,12 @@
     "source": "Télérama"
   },
   {
-    "id": "a459eecb41884e9e39b7",
-    "title": "Billie à la croisée des mondes",
+    "id": "e20e4594d1362d9efd1c",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-28T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4262,7 +3362,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-28T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4284,12 +3384,12 @@
     "source": "Télérama"
   },
   {
-    "id": "d166eb5b85b55e6f8126",
-    "title": "Billie à la croisée des mondes",
+    "id": "f9eaa752ccf005c3ed3d",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4298,7 +3398,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -4316,7 +3416,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -4334,7 +3434,7 @@
     "cinema": "Méliès Saint-François",
     "start": "2026-11-28T16:40:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/la-libertad-doble-du-cinema-brut-et-precieux_cri-7046989.php",
     "source": "Télérama"
   },
   {
@@ -4352,7 +3452,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-28T17:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -4374,11 +3474,11 @@
     "source": "Télérama"
   },
   {
-    "id": "16706e046d45aaf0d328",
+    "id": "ced8d7e988e3e7135a97",
     "title": "Hunger Games : Lever de soleil sur la moisson",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T17:30:00+01:00",
-    "version": "VF",
+    "version": "VO",
     "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
     "source": "Télérama"
   },
@@ -4415,7 +3515,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T17:55:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4460,7 +3560,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-28T18:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -4473,12 +3573,12 @@
     "source": "Télérama"
   },
   {
-    "id": "55eefce9ee81f831ff23",
-    "title": "Billie à la croisée des mondes",
+    "id": "59eb2b872869eec5516b",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-28T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4496,7 +3596,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-28T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4527,12 +3627,12 @@
     "source": "Télérama"
   },
   {
-    "id": "055588511e07dd70536c",
-    "title": "Billie à la croisée des mondes",
+    "id": "83d0b39d28776764603d",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4541,7 +3641,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -4550,7 +3650,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T19:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -4613,7 +3713,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T20:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4622,7 +3722,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-28T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -4698,12 +3798,12 @@
     "source": "Télérama"
   },
   {
-    "id": "6b271c70ced96255fbc4",
-    "title": "Billie à la croisée des mondes",
+    "id": "a869047ce8e40d086dd6",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-28T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4721,7 +3821,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-28T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4739,7 +3839,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-28T20:45:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -4779,12 +3879,12 @@
     "source": "Télérama"
   },
   {
-    "id": "a36f18122227c48aa104",
-    "title": "Billie à la croisée des mondes",
+    "id": "16b6d0bfc893d419e305",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T21:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4811,7 +3911,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T21:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -4838,7 +3938,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-28T22:05:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4887,12 +3987,12 @@
     "source": "Télérama"
   },
   {
-    "id": "c0a7ff138536d341917d",
-    "title": "Billie à la croisée des mondes",
+    "id": "8412b89b050287b8f174",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4928,7 +4028,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -4941,12 +4041,12 @@
     "source": "Télérama"
   },
   {
-    "id": "c4b1455d0db0d0c61c22",
-    "title": "Billie à la croisée des mondes",
+    "id": "567c960859df99d81df9",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -4955,7 +4055,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -4991,7 +4091,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5009,7 +4109,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T11:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -5085,6 +4185,15 @@
     "source": "Télérama"
   },
   {
+    "id": "07e4a9c92a087bcb9814",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-29T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
     "id": "26bf68e7aef201ab8e0f",
     "title": "Scrooge",
     "cinema": "Mégarama Camion Rouge",
@@ -5099,7 +4208,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T13:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5121,12 +4230,12 @@
     "source": "Télérama"
   },
   {
-    "id": "f0d06da911ebb34e5b7a",
-    "title": "Billie à la croisée des mondes",
+    "id": "df6a1e674f640e71029f",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -5157,15 +4266,6 @@
     "source": "Télérama"
   },
   {
-    "id": "c59d76792b3e157b44d0",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-29T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
     "id": "e296d5816364e9b0187e",
     "title": "La Petite Vadrouille",
     "cinema": "Mégarama Camion Rouge",
@@ -5180,7 +4280,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5198,7 +4298,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -5243,7 +4343,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -5265,12 +4365,12 @@
     "source": "Télérama"
   },
   {
-    "id": "2488d58ff89b4f91544c",
-    "title": "Billie à la croisée des mondes",
+    "id": "ff52bb9366846d265182",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T14:01:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -5306,7 +4406,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-29T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -5315,7 +4415,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-29T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -5342,7 +4442,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T15:50:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5400,12 +4500,12 @@
     "source": "Télérama"
   },
   {
-    "id": "3b27db999f5e459def09",
-    "title": "Billie à la croisée des mondes",
+    "id": "1ba0aa3136454737ab9e",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -5423,7 +4523,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5445,12 +4545,12 @@
     "source": "Télérama"
   },
   {
-    "id": "35d6a11974934063af10",
-    "title": "Billie à la croisée des mondes",
+    "id": "f10845dc89ec9ea0ba8d",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -5459,7 +4559,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -5477,7 +4577,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -5504,7 +4604,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-29T17:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -5567,7 +4667,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T17:55:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5625,12 +4725,12 @@
     "source": "Télérama"
   },
   {
-    "id": "fe62052d0b3249942f0f",
-    "title": "Billie à la croisée des mondes",
+    "id": "d0288b9a4a141adb7727",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -5648,7 +4748,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5666,7 +4766,7 @@
     "cinema": "Méliès Saint-François",
     "start": "2026-11-29T18:35:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/la-libertad-doble-du-cinema-brut-et-precieux_cri-7046989.php",
     "source": "Télérama"
   },
   {
@@ -5688,12 +4788,12 @@
     "source": "Télérama"
   },
   {
-    "id": "638dba348b6579456941",
-    "title": "Billie à la croisée des mondes",
+    "id": "668b5406a144e15fac8a",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -5702,7 +4802,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -5711,7 +4811,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -5729,7 +4829,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-29T19:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/merci-d-etre-venu-l-espiegle-testament-video-d-alain-cavalier_cri-7046995.php",
     "source": "Télérama"
   },
   {
@@ -5742,11 +4842,11 @@
     "source": "Télérama"
   },
   {
-    "id": "503f67d87b64ef58d15d",
+    "id": "7a58bee68499c126509c",
     "title": "Hunger Games : Lever de soleil sur la moisson",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T19:30:00+01:00",
-    "version": "VF",
+    "version": "VO",
     "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
     "source": "Télérama"
   },
@@ -5774,7 +4874,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T20:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5783,7 +4883,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-29T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -5792,7 +4892,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-29T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -5868,12 +4968,12 @@
     "source": "Télérama"
   },
   {
-    "id": "07b2f7803e9afa19a79b",
-    "title": "Billie à la croisée des mondes",
+    "id": "06e4cf9dd1f3b5c0577c",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -5891,7 +4991,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-29T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -5909,7 +5009,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-29T20:45:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -5940,12 +5040,12 @@
     "source": "Télérama"
   },
   {
-    "id": "58a5e0181da15bd6b82b",
-    "title": "Billie à la croisée des mondes",
+    "id": "14586922c866d7a0c020",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T21:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -5972,7 +5072,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T21:30:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -5999,7 +5099,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-29T22:05:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -6039,6 +5139,15 @@
     "source": "Télérama"
   },
   {
+    "id": "f8a92459b1b7fa82ca71",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-11-30T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
     "id": "1cd51681c8b6dfd5f0ed",
     "title": "Les Misérables",
     "cinema": "Mégarama Camion Rouge",
@@ -6062,7 +5171,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T13:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -6075,12 +5184,12 @@
     "source": "Télérama"
   },
   {
-    "id": "4fbf5486ee409db2cfd6",
-    "title": "Billie à la croisée des mondes",
+    "id": "461e4e442e45a983e831",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-30T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -6111,15 +5220,6 @@
     "source": "Télérama"
   },
   {
-    "id": "a3bde2296b76acd9ae34",
-    "title": "L'Affaire Marie-Claire",
-    "cinema": "Mégarama Camion Rouge",
-    "start": "2026-11-30T14:00:00+01:00",
-    "version": "VF",
-    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
-    "source": "Télérama"
-  },
-  {
     "id": "bc8cd235adbfa1d0913a",
     "title": "La Petite Vadrouille",
     "cinema": "Mégarama Camion Rouge",
@@ -6134,7 +5234,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-30T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -6152,7 +5252,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -6197,7 +5297,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T14:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -6210,12 +5310,12 @@
     "source": "Télérama"
   },
   {
-    "id": "9ecf12951b795257644c",
-    "title": "Billie à la croisée des mondes",
+    "id": "6588b5c5b4b732e7a588",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T14:01:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -6233,7 +5333,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-30T15:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/merci-d-etre-venu-l-espiegle-testament-video-d-alain-cavalier_cri-7046995.php",
     "source": "Télérama"
   },
   {
@@ -6242,7 +5342,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-30T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -6251,7 +5351,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-30T15:20:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -6269,7 +5369,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T15:50:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -6318,12 +5418,12 @@
     "source": "Télérama"
   },
   {
-    "id": "2bfa3494ced011a251c7",
-    "title": "Billie à la croisée des mondes",
+    "id": "489a2142ad7932ec147d",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-30T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -6341,7 +5441,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-30T16:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -6363,12 +5463,12 @@
     "source": "Télérama"
   },
   {
-    "id": "7c4aa60433ae545d6d74",
-    "title": "Billie à la croisée des mondes",
+    "id": "adb20b2bdac5e7808a92",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -6377,7 +5477,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -6395,7 +5495,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T16:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -6422,7 +5522,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-30T17:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -6485,7 +5585,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T17:55:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -6525,12 +5625,12 @@
     "source": "Télérama"
   },
   {
-    "id": "e89cae2d3385a9f297cb",
-    "title": "Billie à la croisée des mondes",
+    "id": "aea78c93ba0267495a11",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-30T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -6548,7 +5648,7 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-30T18:30:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -6579,12 +5679,12 @@
     "source": "Télérama"
   },
   {
-    "id": "a0c02fb37e86f7cf828b",
-    "title": "Billie à la croisée des mondes",
+    "id": "c9cbf54f82d85db3d2dc",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -6593,7 +5693,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
     "source": "Télérama"
   },
   {
@@ -6602,7 +5702,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T19:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -6665,7 +5765,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T20:00:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
@@ -6674,7 +5774,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-30T20:00:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -6732,12 +5832,12 @@
     "source": "Télérama"
   },
   {
-    "id": "03161d091db77530563a",
-    "title": "Billie à la croisée des mondes",
+    "id": "ff95414bb6cd5e35b046",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-30T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -6755,15 +5855,15 @@
     "cinema": "Mégarama Camion Rouge",
     "start": "2026-11-30T20:45:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   },
   {
-    "id": "883a6cdd9997c823febe",
+    "id": "2664e59603f1bcab58b8",
     "title": "Hunger Games : Lever de soleil sur la moisson",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T20:45:00+01:00",
-    "version": "VF",
+    "version": "VO",
     "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
     "source": "Télérama"
   },
@@ -6773,7 +5873,7 @@
     "cinema": "Méliès Jean-Jaurès",
     "start": "2026-11-30T20:45:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
     "source": "Télérama"
   },
   {
@@ -6813,12 +5913,12 @@
     "source": "Télérama"
   },
   {
-    "id": "329f1964886230d528d0",
-    "title": "Billie à la croisée des mondes",
+    "id": "a73e17fd4483627ee4be",
+    "title": "Billie : à la croisée des mondes",
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T21:15:00+01:00",
     "version": "VF",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
     "source": "Télérama"
   },
   {
@@ -6845,7 +5945,7 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T21:30:00+01:00",
     "version": "VO",
-    "url": "https://www.telerama.fr/",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
     "source": "Télérama"
   },
   {
@@ -6872,7 +5972,943 @@
     "cinema": "Mégarama Jean-Jaurès",
     "start": "2026-11-30T22:05:00+01:00",
     "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "87a59c2528e236074127",
+    "title": "Demain je tombe amoureux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T13:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ff6f41c7a6b30353cc85",
+    "title": "Gabin",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T13:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/gabin-un-documentaire-empathique-et-bouleversant-dans-la-ruralite-du-pas-de-calais_cri-7046894.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "fa6a2e42962f23ebaf39",
+    "title": "Il faut brûler Maman",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T13:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "03dea000675d27d13a82",
+    "title": "Wild Horse Nine",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T13:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/wild-horse-nine-john-malkovich-et-sam-rockwell-impayables-dans-cette-tragicomedie-brillante_cri-7046679.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "dc1d57563984692fcd79",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "9ff2f19a5168d1de14b1",
+    "title": "Les Misérables",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "b6cd0bf8b96bd18f43db",
+    "title": "Scrooge",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "387c42fcb9c7c8b658ed",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "1e51128e0c421d69256f",
+    "title": "Moulin",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T13:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ed87777f8ef2a104c43e",
+    "title": "Billie : à la croisée des mondes",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3bdd87624064466fc305",
+    "title": "Forty Love",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
     "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "3979edde6beb6a2560d7",
+    "title": "Hunger Games : Lever de soleil sur la moisson",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "917293a5a5b144a0df99",
+    "title": "Karma",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "5fe2b7245b8c0c4523e6",
+    "title": "La Petite Vadrouille",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "59244b01ca183002fe48",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "35ad19106ed55c9f9704",
+    "title": "Un bon patron",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/un-bon-patron-une-comedie-made-in-france-avec-didier-bourdon-qui-fait-bien-le-job_cri-7046665.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e1f06d939a5caeacb943",
+    "title": "Billie : à la croisée des mondes",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "b9f3d61d01a37ed871eb",
+    "title": "Demain je tombe amoureux",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ec673a638834bd8510cf",
+    "title": "Hunger Games : Lever de soleil sur la moisson",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "0d80114b451410cc1252",
+    "title": "Il faut brûler Maman",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "c7b1a1aaece3c10f6759",
+    "title": "Jupiter",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "0c313ae6da2f8ee42bdd",
+    "title": "La Petite Vadrouille",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "df55f328f1282649c9f2",
+    "title": "Paper Tiger",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a3f96a8c053d490f2152",
+    "title": "Scrooge",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "9aced583b0576b923707",
+    "title": "Enfants de Palestine – Deux histoires de Cisjordanie",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/enfants-de-palestine-deux-temoignages-bouleversants-sur-l-occupation-israelienne-en-cisjordanie_cri-7045059.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "47ff684f6ac78c1af4a2",
+    "title": "La libertad doble",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-12-01T14:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/la-libertad-doble-du-cinema-brut-et-precieux_cri-7046989.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "98ec54b371ac6490a4ab",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T15:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "57a14638c89df4e3f715",
+    "title": "Un bon petit soldat",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T15:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "3ad3502b2bd0c903591a",
+    "title": "Paper Tiger",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T15:20:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3b1307b2feedff69b7a1",
+    "title": "L'espoir (version restaurée)",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-12-01T15:20:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/espoir-sierra-de-teruel-d-andre-malraux-cet-indispensable-document-sur-la-guerre-civile-espagnole-ressort-en-salles_cri-7046986.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "1bb4dd8a7ff0a16f53d9",
+    "title": "Les braves (Coward)",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T15:30:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-braves-de-lukas-dhont-un-amour-en-pleine-guerre-loin-des-cliches-de-la-virilite_cri-7046895.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "d5b56c1b11a21e4d6f7e",
+    "title": "Il faut brûler Maman",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T15:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "b9a029d93d3a505f4241",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T15:50:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "fd7143acbe2e565e53c2",
+    "title": "Infernal Affairs",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T16:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/films/infernal-affairs,177909.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e89e4c9d605ccecde21a",
+    "title": "La Petite Vadrouille",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T16:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "9cc1dc3d6d8b623de3ca",
+    "title": "Malika",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T16:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/malika-de-mounia-meddour-un-film-trop-convenu-sur-le-destin-exceptionnel-de-la-diva-des-cites_cri-7046888.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "1653886b0d6efd213f76",
+    "title": "Jupiter",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T16:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3edf061e00347212a29f",
+    "title": "La Petite Vadrouille",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T16:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "74f445c7e4fe22850120",
+    "title": "Quelques mots d'amour",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-12-01T16:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/quelques-mots-d-amour-de-rudi-rosenberg-hafsia-herzi-formidable-dans-ce-film-plein-de-grace-sur-la-famille_cri-7046567.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f4ab95ee116d37b6fa4a",
+    "title": "Billie : à la croisée des mondes",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T16:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "7c1261c679ddec006aa0",
+    "title": "Forty Love",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T16:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "ea01bbbf8cc6526d5a58",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T16:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "bf132f9927a9025b0b4d",
+    "title": "Scrooge",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T16:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "def0d5af0180fb63cd58",
+    "title": "Moulin",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T16:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "7a28e1643ca376a4d3d6",
+    "title": "Billie : à la croisée des mondes",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T16:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "cfc350c79804bde8f366",
+    "title": "Demain je tombe amoureux",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T16:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "5285dd75b6356a6cde52",
+    "title": "Hunger Games : Lever de soleil sur la moisson",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T16:30:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "d2c4ed85b3b2a4f9cbcd",
+    "title": "Paper Tiger",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T16:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e005c39b89f114ca4433",
+    "title": "Karma",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T17:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "09b6a7de501a13d102a1",
+    "title": "Congo Boy",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T17:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "0be8cdbbfe947d2eca93",
+    "title": "Gabin",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T17:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/gabin-un-documentaire-empathique-et-bouleversant-dans-la-ruralite-du-pas-de-calais_cri-7046894.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "df60200ea7ed5dbc2df2",
+    "title": "15/18",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-12-01T17:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/15-18-cedric-kahn-reussit-un-huis-clos-debordant-de-vie-au-plus-pres-de-jeunes-patients_cri-7046793.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "7edc5c3dc953fcf1e5a6",
+    "title": "Les Misérables",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T17:10:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "5118f518b58a8b749479",
+    "title": "Hunger Games : Lever de soleil sur la moisson",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T17:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "34724acb8953470933ea",
+    "title": "Hunger Games : Lever de soleil sur la moisson",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T17:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "beacfa7435ac77e55492",
+    "title": "Il faut brûler Maman",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T17:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "2cc57556030669426b0f",
+    "title": "L'Age d'or",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T17:40:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/l-age-d-or-sur-fond-d-images-d-archives-une-fresque-romanesque-a-la-fois-portee-et-entravee-par-son-procede_cri-7046791.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "c8bc30877e2dad770d5a",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T17:55:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "2c1f267d5a535a1ec4e5",
+    "title": "Casino",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T18:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/casino-magistral-film-noir-a-la-scorsese-1043_cri-7026868.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "a82cdbdc3759ed3a836a",
+    "title": "La Petite Vadrouille",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T18:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f8c71e7a12fd7e8ee7e9",
+    "title": "Papa où t'es ?",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T18:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/papa-ou-t-es-le-road-movie-touchant-d-un-enfant-place-sur-les-traces-de-son-pere_cri-7046557.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4199d7f3e2704be53cd3",
+    "title": "Jupiter",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T18:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "29c89360401f57073a6d",
+    "title": "La Petite Vadrouille",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T18:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "90cdc50fa1e49e78fcf7",
+    "title": "Demain je tombe amoureux",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T18:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3f7de6600087069c0e54",
+    "title": "Moulin",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-12-01T18:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4db208fbb89772bb6b5e",
+    "title": "Billie : à la croisée des mondes",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T18:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f252901f2d3b310eea39",
+    "title": "Forty Love",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T18:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "edc376a48e7152b8693f",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T18:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "418749127c53120535b1",
+    "title": "Scrooge",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T18:35:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "54c2cf60b3a69d25812e",
+    "title": "Moulin",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T18:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4a203eda0c59febf9e72",
+    "title": "Billie : à la croisée des mondes",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T19:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "49350447b4a665b0ca38",
+    "title": "Demain je tombe amoureux",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T19:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/demain-je-tombe-amoureux-de-martin-provost-meme-dans-un-role-taille-pour-lui-fabrice-luchini-nous-surprend-encore_cri-7046994.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4dc197568a762f47aade",
+    "title": "Paper Tiger",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T19:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "2a2a185dba7f734f2f45",
+    "title": "Il faut brûler Maman",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T19:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "f70a4953fa278de681fc",
+    "title": "Merci d'être venu",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T19:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/merci-d-etre-venu-l-espiegle-testament-video-d-alain-cavalier_cri-7046995.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "c0636feab5df8d8b779a",
+    "title": "Il faut brûler Maman",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T19:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/il-faut-bruler-maman-un-dupontel-plus-rose-que-noir-et-au-super-casting_cri-7046790.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ae2cc6888d45ab599bea",
+    "title": "Hunger Games : Lever de soleil sur la moisson",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T19:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "8879b9cf25d2d779bf80",
+    "title": "Jupiter",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T20:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "35927da00aadca15db3c",
+    "title": "La Petite Vadrouille",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T20:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "33fd741e9458de064c30",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T20:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "1dc55568279ba21400a8",
+    "title": "Paper Tiger",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T20:00:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3bbea8d6979379f1e980",
+    "title": "Les braves (Coward)",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T20:10:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/les-braves-de-lukas-dhont-un-amour-en-pleine-guerre-loin-des-cliches-de-la-virilite_cri-7046895.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "bbcc3f90a68c6d7e2cbb",
+    "title": "L'Affaire Marie-Claire",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T20:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/l-affaire-marie-claire-au-c-ur-du-combat-feministe-de-gisele-halimi-pour-la-legalisation-de-l-ivg_cri-7046677.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4579eab6032756d203e8",
+    "title": "Hunger Games : Lever de soleil sur la moisson",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T20:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "e487a04535d0ef94f164",
+    "title": "Karma",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T20:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "be373ae175fe1441f313",
+    "title": "La Petite Vadrouille",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T20:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-la-petite-vadrouille-podalydes-mene-sa-barque-plein-de-malice-2422_cri-7033021.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "ab1a630efba4a3ee7ed0",
+    "title": "Les Misérables",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T20:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/les-miserables-le-classique-de-victor-hugo-rajeuni-seduit-a-moitie_cri-7046340.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "3a226a1c5e5b386e3994",
+    "title": "Un bon petit soldat",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T20:30:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "3dec53e3b07c440efbe3",
+    "title": "Ce qui nous mène à toi",
+    "cinema": "Méliès Saint-François",
+    "start": "2026-12-01T20:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/ce-qui-nous-mene-a-toi-de-khalil-cherti-un-film-sur-l-infecondite-qui-touche-au-c-ur_cri-7046792.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "43c7058b372501fba973",
+    "title": "Billie : à la croisée des mondes",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T20:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "d621ca79bd91f30ce505",
+    "title": "Forty Love",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T20:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/",
+    "source": "Télérama"
+  },
+  {
+    "id": "e57586cbcf4df4b452e0",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T20:45:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "832e989a996517266232",
+    "title": "Hunger Games : Lever de soleil sur la moisson",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T20:45:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/hunger-games-lever-de-soleil-sur-la-moisson-le-sixieme-volet-de-la-saga-taille-pour-le-succes_cri-7046893.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "edafcc71de26b65a4ddb",
+    "title": "Congo Boy",
+    "cinema": "Méliès Jean-Jaurès",
+    "start": "2026-12-01T20:45:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/congo-boy-une-histoire-par-essence-dramatique-mais-qui-jamais-ne-cede-au-miserabilisme_cri-7046996.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "37d7024ea6c7b78f2f85",
+    "title": "Godzilla Minus Zero",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T21:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/godzilla-minus-zero-oui-on-peut-faire-de-bons-films-avec-le-celebre-monstre-nippon_cri-7046673.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "4fca2dbdc99b48633191",
+    "title": "Karma",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T21:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/karma-de-guillaume-canet-marion-cotillard-fait-du-mieux-qu-elle-peut-dans-ce-huis-clos-sinistre_cri-7046448.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "727c19b16673fe033f4c",
+    "title": "Billie : à la croisée des mondes",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T21:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/billie-a-la-croisee-des-mondes-le-nouveau-disney-une-fable-sensible-100-feminine-sur-la-filiation_cri-7047001.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "215816f723ab8440fa9b",
+    "title": "Moulin",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T21:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/moulin-de-laszlo-nemes-tout-en-sobriete-dans-la-tete-d-un-prisonnier-face-a-son-bourreau_cri-7046568.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "21f9f9386ee06fef9a7f",
+    "title": "Scrooge",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T21:15:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/avec-scrooge-johnny-depp-tente-de-s-offrir-une-redemption-enrobee-de-bons-sentiments_cri-7046822.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "7dc6ffbcb9ab7fc897c1",
+    "title": "Tombé du ciel",
+    "cinema": "Mégarama Camion Rouge",
+    "start": "2026-12-01T21:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/tombe-du-ciel-avec-josiane-balasko-et-jamel-debbouze-des-cliches-insupportables-a-la-pelle_cri-7045391.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "6b7d1b1651459ce4452d",
+    "title": "Paper Tiger",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T21:30:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/paper-tiger-james-gray-a-son-sommet-dans-ce-drame-familial-haletant_cri-7046997.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "151955c38f29f957eb30",
+    "title": "Clayface",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T21:50:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/clayface-de-james-watkins-un-film-aux-effets-speciaux-horrifiques-peu-ragoutants-mais-impressionnants_cri-7046463.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "69d6cfd908647f553bc0",
+    "title": "Jupiter",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T22:00:00+01:00",
+    "version": "VF",
+    "url": "https://www.telerama.fr/cinema/jupiter-d-alexandre-smia-une-audacieuse-geopolitique-fiction-a-l-elysee_cri-7046891.php",
+    "source": "Télérama"
+  },
+  {
+    "id": "9e66b9c6f892e70e6fbb",
+    "title": "Mon beau-père, ma belle-fille et moi",
+    "cinema": "Mégarama Jean-Jaurès",
+    "start": "2026-12-01T22:05:00+01:00",
+    "version": "VO",
+    "url": "https://www.telerama.fr/cinema/mon-beau-pere-ma-belle-fille-et-moi-les-retrouvailles-un-peu-trop-sages-de-ben-stiller-et-robert-de-niro_cri-7046992.php",
     "source": "Télérama"
   }
 ]
