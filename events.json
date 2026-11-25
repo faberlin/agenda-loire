@@ -567,17 +567,6 @@
     "source": "Chok Théâtre"
   },
   {
-    "id": "996fc339ebe307f7ee9e",
-    "title": "SOUPE DES CHEFS",
-    "start": "2026-11-24T18:30:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/soupe-des-chefs/",
-    "source": "Zénith Sainté"
-  },
-  {
     "id": "79eaa16d5ff3af0cc58e",
     "title": "Cirque & Cabarets - Portraits pour vents Igor Stravinski, Morton Gould, Leonard Bernstein, Kurt Weill, Nino Rota",
     "start": "2026-11-24T20:00:00+01:00",
@@ -782,17 +771,6 @@
     "source": "Le Solar"
   },
   {
-    "id": "6f258e1868933caba4e4",
-    "title": "LES COUSINES",
-    "start": "2026-11-28T20:30:00+01:00",
-    "venue": "Les 3 Ducs",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://www.lestroisducs.fr/artiste/les-cousines",
-    "source": "Les 3 Ducs"
-  },
-  {
     "id": "6cedfbe587d371566ae6",
     "title": "Mélange 2 temps - Festimômes",
     "start": "2026-11-29T11:00:00+01:00",
@@ -978,17 +956,6 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/sebastian-marx",
     "source": "Les 3 Ducs"
-  },
-  {
-    "id": "2a45f168d9c22a78913f",
-    "title": "[ Atelier ] Les oublié.e.s de la Photo [ Résister à 360° ]",
-    "start": "2026-12-05T14:00:00+01:00",
-    "venue": "Théâtre Le Verso",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "https://billetterie-leverso.mapado.com/event/802084-atelier-les-oublie-e-s-de-la-photo-resister-a-360deg",
-    "source": "Théâtre Le Verso"
   },
   {
     "id": "1ff2356dc293fb9231cc",
@@ -4729,7 +4696,7 @@
     "city": "Saint-Étienne",
     "category": "Humour",
     "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/nash-2/",
+    "url": "https://lacomete.saint-etienne.fr/evenements/nash/",
     "source": "La Comète"
   },
   {
