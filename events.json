@@ -595,17 +595,6 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "cd1ce75200de69450502",
-    "title": "RENAN LUCE",
-    "start": "2026-11-25T20:00:00+01:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/renan-luce/",
-    "source": "La Comète"
-  },
-  {
     "id": "caa93a0699fdec9f3478",
     "title": "Apéro Jazzorité",
     "start": "2026-11-26T18:00:00+01:00",
@@ -692,17 +681,6 @@
     "description": "",
     "url": "https://choktheatre.com/la-dette-dodette/",
     "source": "Chok Théâtre"
-  },
-  {
-    "id": "bda49142f8f82389a369",
-    "title": "Hommage à Dalida à Saint-Étienne",
-    "start": "2026-11-27T20:00:00+01:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=019e79af-dcbf-74f5-9b79-b32e81c8ad93",
-    "source": "Agenda Culturel"
   },
   {
     "id": "bf7fbf59743c40f239ed",
@@ -3985,6 +3963,17 @@
     "source": "Le Fil"
   },
   {
+    "id": "e0a4b341733e7fee67fe",
+    "title": "Le Truc",
+    "start": "2027-04-23T20:00:00+02:00",
+    "venue": "Le Fil",
+    "city": "Saint-Étienne",
+    "category": "Concerts",
+    "description": "",
+    "url": "https://www.le-fil.com/evenement/le-truc/",
+    "source": "Le Fil"
+  },
+  {
     "id": "45cf4ea5a25f528a953f",
     "title": "Fanfare Ciocărlia + Trojka Nomad",
     "start": "2027-04-24T20:30:00+02:00",
@@ -4356,17 +4345,6 @@
     "source": "Le Fil"
   },
   {
-    "id": "e46048db5ed55272ad83",
-    "title": "Gaga de Saint-Étienne",
-    "start": "2027-06-06T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Théâtre",
-    "description": "",
-    "url": "/favori/garder?event=01a068de-2ce3-776b-aaa5-5db1ce5e40a0",
-    "source": "Agenda Culturel"
-  },
-  {
     "id": "f7de1cf7e3148209e116",
     "title": "La nuit l’ordure Du",
     "start": "2027-06-09T20:00:00+02:00",
@@ -4490,17 +4468,6 @@
     "description": "",
     "url": "http://opera.saint-etienne.fr/otse/saison-26-27/spectacles//type-Musique/les-liberations/s-898/",
     "source": "Opéra Sainté"
-  },
-  {
-    "id": "add457de0c280571ce6c",
-    "title": "Soirée Stand-up à Saint-Étienne",
-    "start": "2027-06-24T20:00:00+02:00",
-    "venue": "Comédie Triomphe",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "/favori/garder?event=01a06948-c532-78ed-85de-2294fc4d5ec8",
-    "source": "Agenda Culturel"
   },
   {
     "id": "25a98eda487f55a46981",
