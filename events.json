@@ -595,39 +595,6 @@
     "source": " Salles Chambon-Feugerolles"
   },
   {
-    "id": "caa93a0699fdec9f3478",
-    "title": "Apéro Jazzorité",
-    "start": "2026-11-26T18:00:00+01:00",
-    "venue": "Le Solar",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://le-solar.fr/evenement/apero-jazzorite/",
-    "source": "Le Solar"
-  },
-  {
-    "id": "0aaa5814cb8e0f361e27",
-    "title": "FLORENT PAGNY 65 TOUR – LE RETOUR",
-    "start": "2026-11-26T20:00:00+01:00",
-    "venue": "Zénith de Saint-Étienne",
-    "city": "Saint-Étienne",
-    "category": "Concerts",
-    "description": "",
-    "url": "https://www.zenith-saint-etienne.fr/evenement/florent-pagny/",
-    "source": "Zénith Sainté"
-  },
-  {
-    "id": "98707b574710ce4814a3",
-    "title": "AKIM OMIRI - COMPLET",
-    "start": "2026-11-26T20:00:00+01:00",
-    "venue": "Le Panassa",
-    "city": "Saint-Étienne",
-    "category": "Humour",
-    "description": "",
-    "url": "https://lacomete.saint-etienne.fr/evenements/akim-omiri-complet/",
-    "source": "La Comète"
-  },
-  {
     "id": "e92e37ab57651334474f",
     "title": "La dette d’odette",
     "start": "2026-11-26T20:00:00+01:00",
@@ -683,6 +650,17 @@
     "source": "Chok Théâtre"
   },
   {
+    "id": "bda49142f8f82389a369",
+    "title": "Hommage à Dalida à Saint-Étienne",
+    "start": "2026-11-27T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=019e79af-dcbf-74f5-9b79-b32e81c8ad93",
+    "source": "Agenda Culturel"
+  },
+  {
     "id": "bf7fbf59743c40f239ed",
     "title": "Wallace Cleaver + Henri Bleu",
     "start": "2026-11-27T20:30:00+01:00",
@@ -736,6 +714,17 @@
     "description": "",
     "url": "https://www.zenith-saint-etienne.fr/evenement/disney-en-concert/",
     "source": "Zénith Sainté"
+  },
+  {
+    "id": "2b8703c061d85019465f",
+    "title": "Léa Crevon dans “Tombée du Nid” à Saint-Étienne",
+    "start": "2026-11-28T20:00:00+01:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a03801-8c23-7dc9-8b40-90b7be09c73d",
+    "source": "Agenda Culturel"
   },
   {
     "id": "3fa7491ca5bde28311c2",
@@ -934,6 +923,17 @@
     "description": "",
     "url": "https://www.lestroisducs.fr/artiste/sebastian-marx",
     "source": "Les 3 Ducs"
+  },
+  {
+    "id": "2a45f168d9c22a78913f",
+    "title": "[ Atelier ] Les oublié.e.s de la Photo [ Résister à 360° ]",
+    "start": "2026-12-05T14:00:00+01:00",
+    "venue": "Théâtre Le Verso",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "https://billetterie-leverso.mapado.com/event/802084-atelier-les-oublie-e-s-de-la-photo-resister-a-360deg",
+    "source": "Théâtre Le Verso"
   },
   {
     "id": "1ff2356dc293fb9231cc",
@@ -1496,9 +1496,9 @@
     "source": "La Ricane"
   },
   {
-    "id": "4fff5e5b9b58b8b712a0",
+    "id": "cae9f1713f90b54898dc",
     "title": "REVEILLON DU 31 – 19H45",
-    "start": "2026-12-31T17:45:00+01:00",
+    "start": "2026-12-31T19:45:00+01:00",
     "venue": "La Ricane",
     "city": "Saint-Étienne",
     "category": "Théâtre",
@@ -4343,6 +4343,17 @@
     "description": "",
     "url": "https://www.le-fil.com/evenement/yann-guillarme/",
     "source": "Le Fil"
+  },
+  {
+    "id": "e46048db5ed55272ad83",
+    "title": "Gaga de Saint-Étienne",
+    "start": "2027-06-06T20:00:00+02:00",
+    "venue": "Comédie Triomphe",
+    "city": "Saint-Étienne",
+    "category": "Théâtre",
+    "description": "",
+    "url": "/favori/garder?event=01a068de-2ce3-776b-aaa5-5db1ce5e40a0",
+    "source": "Agenda Culturel"
   },
   {
     "id": "f7de1cf7e3148209e116",
